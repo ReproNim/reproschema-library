@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceConsent/VoiceConsent_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "VoiceConsent_schema",
     "skos:prefLabel": "Voice Consent",

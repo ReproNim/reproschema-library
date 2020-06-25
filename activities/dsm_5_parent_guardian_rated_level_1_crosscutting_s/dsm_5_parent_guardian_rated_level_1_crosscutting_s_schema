@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/dsm_5_parent_guardian_rated_level_1_crosscutting_s/dsm_5_parent_guardian_rated_level_1_crosscutting_s_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "dsm_5_parent_guardian_rated_level_1_crosscutting_s_schema",
     "skos:prefLabel": "dsm_5_parent_guardian",

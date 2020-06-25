@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/Wellbeing/Wellbeing_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "Wellbeing_schema",
     "skos:prefLabel": "Wellbeing",

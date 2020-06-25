@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/PHQ-9/PHQ9_context"
     ],
     "@type": "reproschema:Field",

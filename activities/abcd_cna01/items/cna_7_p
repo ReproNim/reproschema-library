@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cna_7_p",
     "@type": "reproschema:Field",
     "prefLabel": {"en": "cna_7_p", "es": "cna_7_p_es"},

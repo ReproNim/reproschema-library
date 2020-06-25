@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/abcd_crpf01/abcd_crpf01_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_crpf01_schema",
     "skos:prefLabel": "abcd_crpf01",

@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
     "@type": "reproschema:Field",
     "@id": "global_8r",
     "skos:prefLabel": "PROMIS-GH-8r",

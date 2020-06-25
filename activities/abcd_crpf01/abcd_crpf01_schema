@@ -10,73 +10,73 @@
     "schema:version": "0.0.1",
     "ui": {
         "order": [
-            "su_risk_p_1",
-            "su_risk_p_10",
-            "su_risk_p_11",
-            "su_risk_p_12",
-            "su_risk_p_13",
-            "su_risk_p_2",
-            "su_risk_p_3",
-            "su_risk_p_4",
-            "su_risk_p_5",
-            "su_risk_p_6",
-            "su_risk_p_7",
-            "su_risk_p_8",
-            "su_risk_p_9"
+            "items/su_risk_p_1",
+            "items/su_risk_p_10",
+            "items/su_risk_p_11",
+            "items/su_risk_p_12",
+            "items/su_risk_p_13",
+            "items/su_risk_p_2",
+            "items/su_risk_p_3",
+            "items/su_risk_p_4",
+            "items/su_risk_p_5",
+            "items/su_risk_p_6",
+            "items/su_risk_p_7",
+            "items/su_risk_p_8",
+            "items/su_risk_p_9"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "su_risk_p_1",
-                "isAbout": "su_risk_p_1"
+                "isAbout": "items/su_risk_p_1"
             },
             {
                 "variableName": "su_risk_p_10",
-                "isAbout": "su_risk_p_10"
+                "isAbout": "items/su_risk_p_10"
             },
             {
                 "variableName": "su_risk_p_11",
-                "isAbout": "su_risk_p_11"
+                "isAbout": "items/su_risk_p_11"
             },
             {
                 "variableName": "su_risk_p_12",
-                "isAbout": "su_risk_p_12"
+                "isAbout": "items/su_risk_p_12"
             },
             {
                 "variableName": "su_risk_p_13",
-                "isAbout": "su_risk_p_13"
+                "isAbout": "items/su_risk_p_13"
             },
             {
                 "variableName": "su_risk_p_2",
-                "isAbout": "su_risk_p_2"
+                "isAbout": "items/su_risk_p_2"
             },
             {
                 "variableName": "su_risk_p_3",
-                "isAbout": "su_risk_p_3"
+                "isAbout": "items/su_risk_p_3"
             },
             {
                 "variableName": "su_risk_p_4",
-                "isAbout": "su_risk_p_4"
+                "isAbout": "items/su_risk_p_4"
             },
             {
                 "variableName": "su_risk_p_5",
-                "isAbout": "su_risk_p_5"
+                "isAbout": "items/su_risk_p_5"
             },
             {
                 "variableName": "su_risk_p_6",
-                "isAbout": "su_risk_p_6"
+                "isAbout": "items/su_risk_p_6"
             },
             {
                 "variableName": "su_risk_p_7",
-                "isAbout": "su_risk_p_7"
+                "isAbout": "items/su_risk_p_7"
             },
             {
                 "variableName": "su_risk_p_8",
-                "isAbout": "su_risk_p_8"
+                "isAbout": "items/su_risk_p_8"
             },
             {
                 "variableName": "su_risk_p_9",
-                "isAbout": "su_risk_p_9"
+                "isAbout": "items/su_risk_p_9"
             }
         ]
     }

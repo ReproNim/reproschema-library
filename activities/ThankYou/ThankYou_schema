@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/ThankYou/ThankYou_context"
     ],
     "@type": "reproschema:Activity",
@@ -10,15 +11,15 @@
     "schema:version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "saveData",
+            {
+                "isAbout": "items/saveData",
                 "variableName": "saveData",
                 "isVis": true
-                }
+            }
         ],
         "order": [
-            "saveData"
+            "items/saveData"
         ],
         "shuffle": false
     }
 }
-

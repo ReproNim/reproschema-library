@@ -10,53 +10,53 @@
     "schema:version": "0.0.1",
     "ui": {
         "order": [
-            "fes_youth_q1",
-            "fes_youth_q2",
-            "fes_youth_q3",
-            "fes_youth_q4",
-            "fes_youth_q5",
-            "fes_youth_q6",
-            "fes_youth_q7",
-            "fes_youth_q8",
-            "fes_youth_q9"
+            "items/fes_youth_q1",
+            "items/fes_youth_q2",
+            "items/fes_youth_q3",
+            "items/fes_youth_q4",
+            "items/fes_youth_q5",
+            "items/fes_youth_q6",
+            "items/fes_youth_q7",
+            "items/fes_youth_q8",
+            "items/fes_youth_q9"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "fes_youth_q1",
-                "isAbout": "fes_youth_q1"
+                "isAbout": "items/fes_youth_q1"
             },
             {
                 "variableName": "fes_youth_q2",
-                "isAbout": "fes_youth_q2"
+                "isAbout": "items/fes_youth_q2"
             },
             {
                 "variableName": "fes_youth_q3",
-                "isAbout": "fes_youth_q3"
+                "isAbout": "items/fes_youth_q3"
             },
             {
                 "variableName": "fes_youth_q4",
-                "isAbout": "fes_youth_q4"
+                "isAbout": "items/fes_youth_q4"
             },
             {
                 "variableName": "fes_youth_q5",
-                "isAbout": "fes_youth_q5"
+                "isAbout": "items/fes_youth_q5"
             },
             {
                 "variableName": "fes_youth_q6",
-                "isAbout": "fes_youth_q6"
+                "isAbout": "items/fes_youth_q6"
             },
             {
                 "variableName": "fes_youth_q7",
-                "isAbout": "fes_youth_q7"
+                "isAbout": "items/fes_youth_q7"
             },
             {
                 "variableName": "fes_youth_q8",
-                "isAbout": "fes_youth_q8"
+                "isAbout": "items/fes_youth_q8"
             },
             {
                 "variableName": "fes_youth_q9",
-                "isAbout": "fes_youth_q9"
+                "isAbout": "items/fes_youth_q9"
             }
         ]
     }

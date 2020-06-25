@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceTask/VoiceTask_context"
     ],
     "@type": "reproschema:Activity",
@@ -9,16 +10,38 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "preamble": "In the following task, you will be shown a sequence of numbers. Please read it aloud and remember the sequence. Then you will be asked to read a passage aloud. After you finish reading it, you will be asked to speak aloud the sequence of numbers you had previously memorized.",
-    "scoringLogic": {
-    },
+    "scoringLogic": {},
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/view_numbers",
+                "variableName": "view_numbers",
+                "requiredValue": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/read_passage",
+                "variableName": "read_passage",
+                "requiredValue": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/say_numbers",
+                "variableName": "say_numbers",
+                "requiredValue": true,
+                "isVis": true
+            }
+        ],
         "order": [
-            "view_numbers",
-            "read_passage",
-            "say_numbers"
+            "items/view_numbers",
+            "items/read_passage",
+            "items/say_numbers"
         ],
         "inputType": "multipart",
         "shuffle": false,
-        "allow": ["skipped", "dontKnow"]
+        "allow": [
+            "skipped",
+            "dontKnow"
+        ]
     }
 }

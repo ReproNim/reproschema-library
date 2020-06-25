@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/TokenActivity/TokenActivity_context"
     ],
     "@type": "reproschema:Activity",
@@ -13,19 +14,15 @@
     },
     "ui": {
         "addProperties": [
-            {"isAbout": "token_screen",
-            "variableName": "token_screen",
-            "isVis": true
+            {
+                "isAbout": "items/token_screen",
+                "variableName": "token_screen",
+                "isVis": true
             }
         ],
         "order": [
-            "token_screen"
+            "items/token_screen"
         ],
         "shuffle": false
-
     }
 }
-
-
-
-

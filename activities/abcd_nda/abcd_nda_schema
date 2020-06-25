@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/NDA_context"
     ],
     "@type": "reproschema:Activity",
@@ -10,38 +11,44 @@
     "schema:version": "0.0.1",
     "ui": {
         "addProperties": [
-            {"isAbout": "eventname",
-            "variableName": "eventname",
-            "isVis": true
+            {
+                "isAbout": "items/eventname",
+                "variableName": "eventname",
+                "isVis": true
             },
-            {"isAbout": "interview_age",
-            "variableName": "interview_age",
-            "isVis": true
+            {
+                "isAbout": "items/interview_age",
+                "variableName": "interview_age",
+                "isVis": true
             },
-            {"isAbout": "interview_date",
-            "variableName": "interview_date",
-            "isVis": true
+            {
+                "isAbout": "items/interview_date",
+                "variableName": "interview_date",
+                "isVis": true
             },
-            {"isAbout": "sex",
-            "variableName": "sex",
-            "isVis": true
+            {
+                "isAbout": "items/sex",
+                "variableName": "sex",
+                "isVis": true
             },
-            {"isAbout": "src_subject_id",
-            "variableName": "src_subject_id",
-            "isVis": true
+            {
+                "isAbout": "items/src_subject_id",
+                "variableName": "src_subject_id",
+                "isVis": true
             },
-            {"isAbout": "subjectKey",
-            "variableName": "subjectKey",
-            "isVis": true
+            {
+                "isAbout": "items/subjectKey",
+                "variableName": "subjectKey",
+                "isVis": true
             }
         ],
         "order": [
-            "eventname",
-            "interview_age",
-            "interview_date",
-            "sex",
-            "src_subject_id",
-            "subjectKey"
+            "items/eventname",
+            "items/interview_age",
+            "items/interview_date",
+            "items/sex",
+            "items/src_subject_id",
+            "items/subjectKey"
         ],
         "shuffle": false
     }

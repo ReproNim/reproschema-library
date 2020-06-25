@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceConsent/VoiceConsent_context"
     ],
     "@type": "reproschema:Activity",
@@ -11,67 +12,73 @@
     "preamble": "Learn about the study, risks and benefits of joining by going through the consent. Once you have accepted it, take a short quiz to check what you have learned from the consent document.",
     "ui": {
         "addProperties": [
-                {"isAbout": "consent_overview",
+            {
+                "isAbout": "items/consent_overview",
                 "variableName": "consent_overview",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "quiz_schema",
+            },
+            {
+                "isAbout": "items/quiz_schema",
                 "variableName": "quiz_schema",
                 "isVis": true
-                },
-                {"isAbout": "sign",
+            },
+            {
+                "isAbout": "items/sign",
                 "variableName": "sign",
                 "isVis": "q1 + q2 + q3 + q4 + q5 === 5"
-                },
-                {"isAbout": "q1",
+            },
+            {
+                "isAbout": "items/q1",
                 "variableName": "q1",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "q2",
+            },
+            {
+                "isAbout": "items/q2",
                 "variableName": "q2",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "q3",
+            },
+            {
+                "isAbout": "items/q3",
                 "variableName": "q3",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "q4",
+            },
+            {
+                "isAbout": "items/q4",
                 "variableName": "q4",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "q5",
+            },
+            {
+                "isAbout": "items/q5",
                 "variableName": "q5",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "quiz_score",
+            },
+            {
+                "isAbout": "items/quiz_score",
                 "variableName": "quiz_score",
                 "isVis": false
-                },
-                {"isAbout": "retake_quiz",
+            },
+            {
+                "isAbout": "items/retake_quiz",
                 "variableName": "retake_quiz",
                 "isVis": "q1 + q2 + q3 + q4 + q5 !== 5"
-                }
+            }
         ],
         "order": [
-            "consent_overview",
-            "q1",
-            "q2",
-            "q3",
-            "q4",
-            "q5",
-            "sign",
-            "retake_quiz"
+            "items/consent_overview",
+            "items/q1",
+            "items/q2",
+            "items/q3",
+            "items/q4",
+            "items/q5",
+            "items/sign",
+            "items/retake_quiz"
         ],
         "shuffle": false
     }
 }
-
-
-
-

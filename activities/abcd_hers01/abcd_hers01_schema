@@ -10,18 +10,18 @@
     "schema:version": "0.0.1",
     "ui": {
         "order": [
-            "hair_dot_y",
-            "hair_status_y"
+            "items/hair_dot_y",
+            "items/hair_status_y"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "hair_dot_y",
-                "isAbout": "hair_dot_y"
+                "isAbout": "items/hair_dot_y"
             },
             {
                 "variableName": "hair_status_y",
-                "isAbout": "hair_status_y"
+                "isAbout": "items/hair_status_y"
             }
         ]
     }

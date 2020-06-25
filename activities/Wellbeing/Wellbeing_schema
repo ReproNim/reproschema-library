@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/Wellbeing/Wellbeing_context"
     ],
     "@type": "reproschema:Activity",
@@ -10,43 +11,44 @@
     "schema:version": "0.0.1",
     "preamble": {
         "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
-        "es": "Para cada pregunta, debería hacer click sobre el botón antes de hablar y luego hacerlo de nuevo para parar de grabar. Luego puede tocar play para escuchar su respuesta."
+        "es": "Para cada pregunta, deber\u00eda hacer click sobre el bot\u00f3n antes de hablar y luego hacerlo de nuevo para parar de grabar. Luego puede tocar play para escuchar su respuesta."
     },
     "ui": {
         "addProperties": [
-            {"isAbout": "share_data",
-            "variableName": "share_data",
-            "requiredValue": true,
-            "isVis": true
+            {
+                "isAbout": "items/share_data",
+                "variableName": "share_data",
+                "requiredValue": true,
+                "isVis": true
             },
-            {"isAbout": "email",
-            "variableName": "email",
-            "isVis": "share_data === 1"
+            {
+                "isAbout": "items/email",
+                "variableName": "email",
+                "isVis": "share_data === 1"
             },
-            {"isAbout": "audio_check",
-            "variableName": "audio_check",
-            "isVis": true
+            {
+                "isAbout": "items/audio_check",
+                "variableName": "audio_check",
+                "isVis": true
             },
-            {"isAbout": "free_speech_general_mood",
-            "variableName": "share_data",
-            "isVis": true
+            {
+                "isAbout": "items/free_speech_general_mood",
+                "variableName": "share_data",
+                "isVis": true
             },
-            {"isAbout": "say_ah",
-            "variableName": "say_ah",
-            "isVis": true
+            {
+                "isAbout": "items/say_ah",
+                "variableName": "say_ah",
+                "isVis": true
             }
         ],
         "order": [
-            "audio_check",
-            "share_data",
-            "email",
-            "free_speech_general_mood",
-            "say_ah"
+            "items/audio_check",
+            "items/share_data",
+            "items/email",
+            "items/free_speech_general_mood",
+            "items/say_ah"
         ],
         "shuffle": false
     }
 }
-
-
-
-

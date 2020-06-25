@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/PHQ-9/PHQ9_context",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/NDA_context",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceScreening/VoiceScreening_context"
@@ -12,33 +13,33 @@
     "schema:version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "education_level",
+            {
+                "isAbout": "items/education_level",
                 "variableName": "education_level",
                 "isVis": true
-                },
-                {"isAbout": "audio_check",
+            },
+            {
+                "isAbout": "items/audio_check",
                 "variableName": "audio_check",
                 "isVis": "education_level === 1"
-                },
-                {"isAbout": "PHQ9_schema",
+            },
+            {
+                "isAbout": "items/PHQ9_schema",
                 "variableName": "PHQ9_schema",
                 "isVis": "education_level === 1"
-                },
-                {"isAbout": "gender",
+            },
+            {
+                "isAbout": "items/gender",
                 "variableName": "gender",
                 "isVis": "education_level === 1"
-                }
+            }
         ],
         "order": [
-            "education_level",
-            "audio_check",
-            "PHQ9_schema",
-            "gender"
+            "items/education_level",
+            "items/audio_check",
+            "items/PHQ9_schema",
+            "items/gender"
         ],
         "shuffle": false
     }
 }
-
-
-
-

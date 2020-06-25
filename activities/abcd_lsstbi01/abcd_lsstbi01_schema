@@ -10,88 +10,88 @@
     "schema:version": "0.0.1",
     "ui": {
         "order": [
-            "tbi_ss_agefirst_l",
-            "tbi_ss_agefirst_nm_l",
-            "tbi_ss_before15_nm_l",
-            "tbi_ss_nmrpi_l",
-            "tbi_ss_nmrpi_nm_l",
-            "tbi_ss_ntbiloc_l",
-            "tbi_ss_ntbiloc_nm_l",
-            "tbi_ss_ntbiloc30_l",
-            "tbi_ss_ntbiloc30_nm_l",
-            "tbi_ss_worst_overall_l",
-            "tbi_ss_worst1_l",
-            "tbi_ss_worst1b_l",
-            "tbi_ss_worst2_l",
-            "tbi_ss_worst3_l",
-            "tbi_ss_worst4_l",
-            "tbi_ss_worst5_l"
+            "items/tbi_ss_agefirst_l",
+            "items/tbi_ss_agefirst_nm_l",
+            "items/tbi_ss_before15_nm_l",
+            "items/tbi_ss_nmrpi_l",
+            "items/tbi_ss_nmrpi_nm_l",
+            "items/tbi_ss_ntbiloc_l",
+            "items/tbi_ss_ntbiloc_nm_l",
+            "items/tbi_ss_ntbiloc30_l",
+            "items/tbi_ss_ntbiloc30_nm_l",
+            "items/tbi_ss_worst_overall_l",
+            "items/tbi_ss_worst1_l",
+            "items/tbi_ss_worst1b_l",
+            "items/tbi_ss_worst2_l",
+            "items/tbi_ss_worst3_l",
+            "items/tbi_ss_worst4_l",
+            "items/tbi_ss_worst5_l"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "tbi_ss_agefirst_l",
-                "isAbout": "tbi_ss_agefirst_l"
+                "isAbout": "items/tbi_ss_agefirst_l"
             },
             {
                 "variableName": "tbi_ss_agefirst_nm_l",
-                "isAbout": "tbi_ss_agefirst_nm_l"
+                "isAbout": "items/tbi_ss_agefirst_nm_l"
             },
             {
                 "variableName": "tbi_ss_before15_nm_l",
-                "isAbout": "tbi_ss_before15_nm_l"
+                "isAbout": "items/tbi_ss_before15_nm_l"
             },
             {
                 "variableName": "tbi_ss_nmrpi_l",
-                "isAbout": "tbi_ss_nmrpi_l"
+                "isAbout": "items/tbi_ss_nmrpi_l"
             },
             {
                 "variableName": "tbi_ss_nmrpi_nm_l",
-                "isAbout": "tbi_ss_nmrpi_nm_l"
+                "isAbout": "items/tbi_ss_nmrpi_nm_l"
             },
             {
                 "variableName": "tbi_ss_ntbiloc_l",
-                "isAbout": "tbi_ss_ntbiloc_l"
+                "isAbout": "items/tbi_ss_ntbiloc_l"
             },
             {
                 "variableName": "tbi_ss_ntbiloc_nm_l",
-                "isAbout": "tbi_ss_ntbiloc_nm_l"
+                "isAbout": "items/tbi_ss_ntbiloc_nm_l"
             },
             {
                 "variableName": "tbi_ss_ntbiloc30_l",
-                "isAbout": "tbi_ss_ntbiloc30_l"
+                "isAbout": "items/tbi_ss_ntbiloc30_l"
             },
             {
                 "variableName": "tbi_ss_ntbiloc30_nm_l",
-                "isAbout": "tbi_ss_ntbiloc30_nm_l"
+                "isAbout": "items/tbi_ss_ntbiloc30_nm_l"
             },
             {
                 "variableName": "tbi_ss_worst_overall_l",
-                "isAbout": "tbi_ss_worst_overall_l"
+                "isAbout": "items/tbi_ss_worst_overall_l"
             },
             {
                 "variableName": "tbi_ss_worst1_l",
-                "isAbout": "tbi_ss_worst1_l"
+                "isAbout": "items/tbi_ss_worst1_l"
             },
             {
                 "variableName": "tbi_ss_worst1b_l",
-                "isAbout": "tbi_ss_worst1b_l"
+                "isAbout": "items/tbi_ss_worst1b_l"
             },
             {
                 "variableName": "tbi_ss_worst2_l",
-                "isAbout": "tbi_ss_worst2_l"
+                "isAbout": "items/tbi_ss_worst2_l"
             },
             {
                 "variableName": "tbi_ss_worst3_l",
-                "isAbout": "tbi_ss_worst3_l"
+                "isAbout": "items/tbi_ss_worst3_l"
             },
             {
                 "variableName": "tbi_ss_worst4_l",
-                "isAbout": "tbi_ss_worst4_l"
+                "isAbout": "items/tbi_ss_worst4_l"
             },
             {
                 "variableName": "tbi_ss_worst5_l",
-                "isAbout": "tbi_ss_worst5_l"
+                "isAbout": "items/tbi_ss_worst5_l"
             }
         ]
     }

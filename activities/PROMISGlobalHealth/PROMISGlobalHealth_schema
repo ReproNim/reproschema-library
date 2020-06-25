@@ -1,5 +1,6 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/PROMISGlobalHealth/PROMISGlobalHealth_context"
     ],
     "@type": "reproschema:Activity",
@@ -9,71 +10,81 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": [
-        {"variableName": "promis_total_score", "jsExpression": "global_1 + global_2 + global_3 + global_4 + global_5 + global_9r + global_6 + global_10r + global_8r + global_7r"}
+        {
+            "variableName": "promis_total_score",
+            "jsExpression": "global_1 + global_2 + global_3 + global_4 + global_5 + global_9r + global_6 + global_10r + global_8r + global_7r"
+        }
     ],
     "ui": {
         "addProperties": [
-                {"isAbout": "global_1",
+            {
+                "isAbout": "items/global_1",
                 "variableName": "global_1",
                 "isVis": true
-                },
-                {"isAbout": "global_2",
+            },
+            {
+                "isAbout": "items/global_2",
                 "variableName": "global_2",
                 "isVis": true
-                },
-                {"isAbout": "global_3",
+            },
+            {
+                "isAbout": "items/global_3",
                 "variableName": "global_3",
                 "isVis": true
-                },
-                {"isAbout": "global_4",
+            },
+            {
+                "isAbout": "items/global_4",
                 "variableName": "global_4",
                 "isVis": true
-                },
-                {"isAbout": "global_5",
+            },
+            {
+                "isAbout": "items/global_5",
                 "variableName": "global_5",
                 "isVis": true
-                },
-                {"isAbout": "global_6",
+            },
+            {
+                "isAbout": "items/global_6",
                 "variableName": "global_6",
                 "isVis": true
-                },
-                {"isAbout": "global_9r",
+            },
+            {
+                "isAbout": "items/global_9r",
                 "variableName": "global_9r",
                 "isVis": true
-                },
-                {"isAbout": "global_10r",
+            },
+            {
+                "isAbout": "items/global_10r",
                 "variableName": "global_10r",
                 "isVis": true
-                },
-                {"isAbout": "global_8r",
+            },
+            {
+                "isAbout": "items/global_8r",
                 "variableName": "global_8r",
                 "isVis": true
-                },
-                {"isAbout": "global_7r",
+            },
+            {
+                "isAbout": "items/global_7r",
                 "variableName": "global_7r",
                 "isVis": true
-                },
-                {"isAbout": "promis_total_score",
+            },
+            {
+                "isAbout": "items/promis_total_score",
                 "variableName": "promis_total_score",
                 "isVis": true
-                }
+            }
         ],
         "order": [
-            "global_1",
-            "global_2",
-            "global_3",
-            "global_4",
-            "global_5",
-            "global_9r",
-            "global_6",
-            "global_10r",
-            "global_8r",
-            "global_7r"
+            "items/global_1",
+            "items/global_2",
+            "items/global_3",
+            "items/global_4",
+            "items/global_5",
+            "items/global_9r",
+            "items/global_6",
+            "items/global_10r",
+            "items/global_8r",
+            "items/global_7r"
         ],
         "shuffle": false
     }
 }
-
-
-
-

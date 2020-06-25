@@ -6,7 +6,7 @@
     "altLabel": "sai_p_lmusic_hours_p_l sports_activity_lmusic_hours_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent listening to music for pleasure? Desde la última vez que nos vimos en [asnt_timestamp_c], ¿aproximadamente cuántas horas por semana pasa su niño(a) escuchando música por placer?",
+    "question": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent listening to music for pleasure? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfaproximadamente cu\u00e1ntas horas por semana pasa su ni\u00f1o(a) escuchando m\u00fasica por placer?",
     "ui": {
         "inputType": "number"
     },

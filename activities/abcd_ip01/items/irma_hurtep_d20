@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_d20",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall how safe do you think your child felt during the hurricane? En general, ¿qué tan seguro usted cree que su hijo(a) sintiA durante el huracán?",
+    "question": "Overall how safe do you think your child felt during the hurricane? En general, \u00bfqu\u00e9 tan seguro usted cree que su hijo(a) sintiA durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

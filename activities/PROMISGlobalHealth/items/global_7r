@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "global_7r",
     "skos:prefLabel": "PROMIS-GH-7r",
@@ -14,10 +14,11 @@
         "valueType": "xsd:integer",
         "schema:minValue": "No pain",
         "schema:maxValue": "Worst pain imaginable",
-        "choices": [{
-            "schema:name": "0",
-            "schema:value": 5
-        },
+        "choices": [
+            {
+                "schema:name": "0",
+                "schema:value": 5
+            },
             {
                 "schema:name": "1",
                 "schema:value": 4

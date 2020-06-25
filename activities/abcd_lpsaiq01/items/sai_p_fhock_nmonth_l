@@ -6,7 +6,7 @@
     "altLabel": "sai_fhock_nmonth_p_l sports_activity_fhock_nmonth_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Field Hockey Hockey sobre césped Since we last saw you, about how many months did your child participate in this activity? Desde la última vez que nos vimos, ¿aproximadamente cuántos meses al año participA su niño(a) en esta actividad?",
+    "question": "Field Hockey Hockey sobre c\u00e9sped Since we last saw you, about how many months did your child participate in this activity? Desde la \u00faltima vez que nos vimos, \u00bfaproximadamente cu\u00e1ntos meses al a\u00f1o participA su ni\u00f1o(a) en esta actividad?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 13,
         "choices": [
             {
-                "name": "Don't know No lo sé ",
+                "name": "Don't know No lo s\u00e9 ",
                 "value": 999
             },
             {
@@ -71,7 +71,7 @@
                 "value": 12
             },
             {
-                "name": "More than 12 months Más de 12 meses  ",
+                "name": "More than 12 months M\u00e1s de 12 meses  ",
                 "value": 13
             }
         ],
@@ -81,7 +81,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "999 = Don't know No lo sé ; 0 = 0; 1 = 1; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = 7; 8 = 8; 9 = 9; 10 = 10; 11 = 11; 12 = 12; 13 = More than 12 months Más de 12 meses  | (0-12)"
+            "value": "999 = Don't know No lo s\u00e9 ; 0 = 0; 1 = 1; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = 7; 8 = 8; 9 = 9; 10 = 10; 11 = 11; 12 = 12; 13 = More than 12 months M\u00e1s de 12 meses  | (0-12)"
         }
     ]
 }

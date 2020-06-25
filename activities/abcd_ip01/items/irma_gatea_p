@@ -5,7 +5,7 @@
     "prefLabel": "irma_gatea_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Were you and your child living in Florida at the time that Hurricane Irma hit the United States (September 2017)? ¿Estaban usted y su hijo(a)  viviendo en Florida  en el momento en que el huracán Irma llegA a los Estados Unidos (Septiembre de 2017)?",
+    "question": "Were you and your child living in Florida at the time that Hurricane Irma hit the United States (September 2017)? \u00bfEstaban usted y su hijo(a)  viviendo en Florida  en el momento en que el hurac\u00e1n Irma llegA a los Estados Unidos (Septiembre de 2017)?",
     "ui": {
         "inputType": "radio"
     },

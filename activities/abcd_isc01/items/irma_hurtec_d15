@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtec_d15",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall, how scared or upset were you during the hurricane? En general, ¿qué tan asustado o molesto estuvo usted durante el huracán?",
+    "question": "Overall, how scared or upset were you during the hurricane? En general, \u00bfqu\u00e9 tan asustado o molesto estuvo usted durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

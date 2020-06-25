@@ -6,7 +6,7 @@
     "altLabel": "brain_injury_6r_l tbi_6r_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How many were more than or equal to 30 min? ¿Cuántas veces ha estado inconsciente por ≥ 30 min o más?",
+    "question": "How many were more than or equal to 30 min? \u00bfCu\u00e1ntas veces ha estado inconsciente por \u2265 30 min o m\u00e1s?",
     "ui": {
         "inputType": "number"
     },

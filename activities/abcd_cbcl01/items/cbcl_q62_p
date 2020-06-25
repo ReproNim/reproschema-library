@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Poorly coordinated or clumsy ",
-        "es": "Mala coordinación o torpeza"
+        "es": "Mala coordinaci\u00f3n o torpeza"
     },
     "ui": {
         "inputType": "radio"

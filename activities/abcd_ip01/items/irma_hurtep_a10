@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a10",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you have to live away from close family members for a week or more because of the hurricane? ¿Tuvo que vivir alejado de familiares cercanos durante una semana o más debido al huracán?",
+    "question": "Did you have to live away from close family members for a week or more because of the hurricane? \u00bfTuvo que vivir alejado de familiares cercanos durante una semana o m\u00e1s debido al hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

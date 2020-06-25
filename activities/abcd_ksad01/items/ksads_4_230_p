@@ -5,7 +5,7 @@
     "prefLabel": "ksads_4_230_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Auditory Hallucinations Present ξ",
+    "question": "Symptom - Auditory Hallucinations Present \u03be",
     "ui": {
         "inputType": "text"
     },

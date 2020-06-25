@@ -5,7 +5,7 @@
     "prefLabel": "ksads_20_881_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Diagnosis - Stimulant Use Disorder Past: ξAmphetamine-type substance",
+    "question": "Diagnosis - Stimulant Use Disorder Past: \u03beAmphetamine-type substance",
     "ui": {
         "inputType": "text"
     },

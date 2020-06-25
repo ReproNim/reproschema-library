@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "phq9_1",
     "skos:prefLabel": "PHQ9-1",
@@ -8,7 +8,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Little interest or pleasure in doing things",
-        "es": "Poco interés o placer en hacer cosas"
+        "es": "Poco inter\u00e9s o placer en hacer cosas"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Gets teased a lot ",
-        "es": "Los demás se burlan de él/ella a menudo"
+        "es": "Los dem\u00e1s se burlan de \u00e9l/ella a menudo"
     },
     "ui": {
         "inputType": "radio"

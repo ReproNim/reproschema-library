@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a5",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Has it been hard to see your friends since the hurricane? ¿Ha sido difícil ver a tus amigos o familiares desde el huracán?",
+    "question": "Has it been hard to see your friends since the hurricane? \u00bfHa sido dif\u00edcil ver a tus amigos o familiares desde el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

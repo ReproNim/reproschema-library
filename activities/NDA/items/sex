@@ -14,7 +14,8 @@
         "valueType": "xsd:string",
         "schema:minValue": 0,
         "schema:maxValue": 1,
-        "choices": [{
+        "choices": [
+            {
                 "name": "Female",
                 "value": "F"
             },
@@ -33,4 +34,3 @@
         ]
     }
 }
-

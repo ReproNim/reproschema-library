@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "global_6",
     "skos:prefLabel": "PROMIS-GH-6",
@@ -13,10 +13,11 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": false,
-        "choices": [{
-            "schema:name": "Completely",
-            "schema:value": 5
-        },
+        "choices": [
+            {
+                "schema:name": "Completely",
+                "schema:value": 5
+            },
             {
                 "schema:name": "Mostly",
                 "schema:value": 4

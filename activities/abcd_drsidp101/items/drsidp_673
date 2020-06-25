@@ -6,7 +6,7 @@
     "altLabel": "dmri_rsi.nt.wm_cort.destrieux_s.precentral.sup.part.lh dmri_rsintwm_cortdestrieux_sprecentralsuppartlh",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Total restricted volume fraction (FT divided by T) within sub-adjacent white matter associated with left hemisphere cortical Destrieux ROI superior part of the precentral sulcus",
+    "question": "Total restricted volume fraction (FT divided by T) within sub-adjacent white matter associated with\u00a0left hemisphere cortical Destrieux ROI superior part of the precentral sulcus",
     "ui": {
         "inputType": "number"
     },

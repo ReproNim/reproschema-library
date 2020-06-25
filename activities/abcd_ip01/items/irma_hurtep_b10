@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_b10",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall, how scared or upset do you think your child was before the hurricane? En general, ¿qué tan asustado o molesto estaba su hijo(a) antes del huracán?",
+    "question": "Overall, how scared or upset do you think your child was before the hurricane? En general, \u00bfqu\u00e9 tan asustado o molesto estaba su hijo(a) antes del hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

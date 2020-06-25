@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Bites fingernails ",
-        "es": "Se come/muerde las uñas"
+        "es": "Se come/muerde las u\u00f1as"
     },
     "ui": {
         "inputType": "radio"

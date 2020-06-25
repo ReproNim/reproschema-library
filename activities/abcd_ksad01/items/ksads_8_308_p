@@ -5,7 +5,7 @@
     "prefLabel": "ksads_8_308_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Social fear is excessive given threat or sociocultural context ξPast",
+    "question": "Symptom - Social fear is excessive given threat or sociocultural context \u03bePast",
     "ui": {
         "inputType": "text"
     },

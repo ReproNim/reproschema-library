@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Doesn't seem to feel guilty after misbehaving ",
-        "es": "No parece sentirse culpable después de portarse mal"
+        "es": "No parece sentirse culpable despu\u00e9s de portarse mal"
     },
     "ui": {
         "inputType": "radio"

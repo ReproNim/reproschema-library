@@ -6,7 +6,7 @@
     "altLabel": "sports_activity_activities_p_l___2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "(2, Basketball Básquetbol)",
+    "question": "(2, Basketball B\u00e1squetbol)",
     "ui": {
         "inputType": "radio"
     },

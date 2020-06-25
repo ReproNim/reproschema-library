@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Impulsive or acts without thinking ",
-        "es": "Impulsivo(a); actúa sin pensar"
+        "es": "Impulsivo(a); act\u00faa sin pensar"
     },
     "ui": {
         "inputType": "radio"

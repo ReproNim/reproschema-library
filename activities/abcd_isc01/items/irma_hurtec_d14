@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtec_d14",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el huracán, ¿ usted penso que el huracán estaba causando un daño grave a tu casa, o que podrías perder tu casa?",
+    "question": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el hurac\u00e1n, \u00bf usted penso que el hurac\u00e1n estaba causando un da\u00f1o grave a tu casa, o que podr\u00edas perder tu casa?",
     "ui": {
         "inputType": "radio"
     },

@@ -6,7 +6,7 @@
     "altLabel": "medhx_2r_operation_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Since we last saw you, has she/he been to a doctor for any of these things? An Operation Cirugías",
+    "question": "Since we last saw you, has she/he been to a doctor for any of these things? An Operation Cirug\u00edas",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 0,
         "choices": [
             {
-                "name": "Yes SÍ",
+                "name": "Yes S\u00cd",
                 "value": 1
             },
             {
@@ -29,7 +29,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes SÍ; 0 = No No// Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
+            "value": "1 = Yes S\u00cd; 0 = No No// Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
         }
     ]
 }

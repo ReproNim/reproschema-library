@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Can't concentrate, can't pay attention for long ",
-        "es": "No puede concentrarse o prestar atención por mucho tiempo"
+        "es": "No puede concentrarse o prestar atenci\u00f3n por mucho tiempo"
     },
     "ui": {
         "inputType": "radio"

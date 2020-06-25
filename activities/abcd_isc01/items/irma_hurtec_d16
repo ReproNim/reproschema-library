@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtec_d16",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall, how scared or upset do you think your parent(s) were during the hurricane? En general, ¿qué tan asustado o molesto crees que fueron  tus padres duranteel huracán?",
+    "question": "Overall, how scared or upset do you think your parent(s) were during the hurricane? En general, \u00bfqu\u00e9 tan asustado o molesto crees que fueron  tus padres duranteel hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

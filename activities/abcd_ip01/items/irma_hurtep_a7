@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a7",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Were your clothes or belongings ruined by the hurricane? ¿Su ropa o pertenencias fueron arruinadas por el huracán?",
+    "question": "Were your clothes or belongings ruined by the hurricane? \u00bfSu ropa o pertenencias fueron arruinadas por el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

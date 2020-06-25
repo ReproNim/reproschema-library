@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_cs2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "CS2. Do these reactions, thoughts, and feelings make it harder for you to get along with people at home? CS2. ¿Estas reacciones, pensamientos y sentimientos hace más difícil para usted llevarse bien con las personas en el hogar?",
+    "question": "CS2. Do these reactions, thoughts, and feelings make it harder for you to get along with people at home? CS2. \u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted llevarse bien con las personas en el hogar?",
     "ui": {
         "inputType": "radio"
     },

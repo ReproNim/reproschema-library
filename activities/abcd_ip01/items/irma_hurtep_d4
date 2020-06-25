@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_d4",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did your child get hurt during the hurricane? ¿Su hijo(a) se lastimasto durante el huracán?",
+    "question": "Did your child get hurt during the hurricane? \u00bfSu hijo(a) se lastimasto durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

@@ -5,7 +5,7 @@
     "prefLabel": "irma_hcpmq_7",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "7. I expressed concerns to my child that he or she might not be fully safe. 7. Le expresé mi preocupaciAn a mi hijo de que él o ella podrían no estar completamente seguros.",
+    "question": "7. I expressed concerns to my child that he or she might not be fully safe. 7. Le expres\u00e9 mi preocupaciAn a mi hijo de que \u00e9l o ella podr\u00edan no estar completamente seguros.",
     "ui": {
         "inputType": "radio"
     },
@@ -22,7 +22,7 @@
                 "value": 1
             },
             {
-                "name": "Somewhat like me or my family2  Algo así como yo o mi familia2",
+                "name": "Somewhat like me or my family2  Algo as\u00ed como yo o mi familia2",
                 "value": 2
             },
             {
@@ -30,7 +30,7 @@
                 "value": 3
             },
             {
-                "name": "Very much like me or my family4 Muy parecido a mí o mi familia4",
+                "name": "Very much like me or my family4 Muy parecido a m\u00ed o mi familia4",
                 "value": 4
             }
         ],
@@ -40,7 +40,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo así como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a mí o mi familia4"
+            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo as\u00ed como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a m\u00ed o mi familia4"
         }
     ]
 }

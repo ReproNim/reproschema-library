@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Sleeps more than most kids during day and/or night ",
-        "es": "Duerme más que la mayoría de los/las niños(as)/jóvenes durante el día y/o la noche"
+        "es": "Duerme m\u00e1s que la mayor\u00eda de los/las ni\u00f1os(as)/j\u00f3venes durante el d\u00eda y/o la noche"
     },
     "ui": {
         "inputType": "radio"

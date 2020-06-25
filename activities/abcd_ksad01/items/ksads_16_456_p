@@ -5,7 +5,7 @@
     "prefLabel": "ksads_16_456_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Stays out late at night despite parental prohibition ξPast ξ",
+    "question": "Symptom - Stays out late at night despite parental prohibition \u03bePast \u03be",
     "ui": {
         "inputType": "text"
     },

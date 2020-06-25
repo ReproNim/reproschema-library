@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a4",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you or a close family member lose a job because of the hurricane? ¿PerdiA usted o un miembro de su familia su trabajo debido al huracán?",
+    "question": "Did you or a close family member lose a job because of the hurricane? \u00bfPerdiA usted o un miembro de su familia su trabajo debido al hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

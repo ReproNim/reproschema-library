@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_b11",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall, how stressed did you feel before the hurricane? En general, ¿cuán estresado se sintiA antes del huracán?",
+    "question": "Overall, how stressed did you feel before the hurricane? En general, \u00bfcu\u00e1n estresado se sintiA antes del hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

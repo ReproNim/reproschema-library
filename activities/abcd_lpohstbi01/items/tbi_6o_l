@@ -6,7 +6,7 @@
     "altLabel": "brain_injury_6o_l tbi_6o_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Do you want to report any more injuries with loss of consciousness since we last saw you on [asnt_timestamp_c]? Desde la última vez que nos vimos en [baseline_year_1_arm_1][asnt_timestamp] ¿quisiera reportar otras lesiones que hayan resultado en la pérdida de conocimiento ?",
+    "question": "Do you want to report any more injuries with loss of consciousness since we last saw you on [asnt_timestamp_c]? Desde la \u00faltima vez que nos vimos en [baseline_year_1_arm_1][asnt_timestamp] \u00bfquisiera reportar otras lesiones que hayan resultado en la p\u00e9rdida de conocimiento ?",
     "ui": {
         "inputType": "radio"
     },

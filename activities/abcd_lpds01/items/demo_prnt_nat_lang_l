@@ -6,7 +6,7 @@
     "altLabel": "demo_prnt_nat_lang_p demo_prnt_nat_lang_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "What is your native language? In other words, what was the first language most spoken to you by your parents or guardians after birth? [you can only pick one]    ¿Cuál es su idioma nativo? En otras palabras ¿cual fue el primer idioma que mas le hablaron sus padres o guardián la mayor parte del tiempo después que usted nacio. [ puede seleccionar solamente uno]",
+    "question": "What is your native language? In other words, what was the first language most spoken to you by your parents or guardians after birth? [you can only pick one]    \u00bfCu\u00e1l es su idioma nativo? En otras palabras \u00bfcual fue el primer idioma que mas le hablaron sus padres o guardi\u00e1n la mayor parte del tiempo despu\u00e9s que usted nacio. [ puede seleccionar solamente uno]",
     "ui": {
         "inputType": "radio"
     },
@@ -15,15 +15,15 @@
         "schema:maxValue": 57,
         "choices": [
             {
-                "name": "English Inglés ",
+                "name": "English Ingl\u00e9s ",
                 "value": 58
             },
             {
-                "name": "American Sign Language (ASL) Lenguaje de señas americano (ASL) ",
+                "name": "American Sign Language (ASL) Lenguaje de se\u00f1as americano (ASL) ",
                 "value": 1
             },
             {
-                "name": "Arabic Arábica ",
+                "name": "Arabic Ar\u00e1bica ",
                 "value": 2
             },
             {
@@ -39,7 +39,7 @@
                 "value": 5
             },
             {
-                "name": "Cantonese Cantonés ",
+                "name": "Cantonese Canton\u00e9s ",
                 "value": 6
             },
             {
@@ -59,7 +59,7 @@
                 "value": 10
             },
             {
-                "name": "Dutch Holandés ",
+                "name": "Dutch Holand\u00e9s ",
                 "value": 11
             },
             {
@@ -67,7 +67,7 @@
                 "value": 12
             },
             {
-                "name": "Finnish Finlandés ",
+                "name": "Finnish Finland\u00e9s ",
                 "value": 13
             },
             {
@@ -75,7 +75,7 @@
                 "value": 14
             },
             {
-                "name": "French Francés ",
+                "name": "French Franc\u00e9s ",
                 "value": 15
             },
             {
@@ -83,7 +83,7 @@
                 "value": 16
             },
             {
-                "name": "Gaelic Gaélico ",
+                "name": "Gaelic Ga\u00e9lico ",
                 "value": 17
             },
             {
@@ -91,7 +91,7 @@
                 "value": 18
             },
             {
-                "name": "German Alemán ",
+                "name": "German Alem\u00e1n ",
                 "value": 19
             },
             {
@@ -115,7 +115,7 @@
                 "value": 24
             },
             {
-                "name": "Hungarian Húngaro ",
+                "name": "Hungarian H\u00fangaro ",
                 "value": 25
             },
             {
@@ -123,7 +123,7 @@
                 "value": 26
             },
             {
-                "name": "Japanese Japonés ",
+                "name": "Japanese Japon\u00e9s ",
                 "value": 27
             },
             {
@@ -147,11 +147,11 @@
                 "value": 32
             },
             {
-                "name": "Mandarin Mandarín ",
+                "name": "Mandarin Mandar\u00edn ",
                 "value": 33
             },
             {
-                "name": "Nepali Nepalí ",
+                "name": "Nepali Nepal\u00ed ",
                 "value": 34
             },
             {
@@ -171,7 +171,7 @@
                 "value": 38
             },
             {
-                "name": "Portuguese Portugués ",
+                "name": "Portuguese Portugu\u00e9s ",
                 "value": 39
             },
             {
@@ -203,7 +203,7 @@
                 "value": 46
             },
             {
-                "name": "Spanish Español ",
+                "name": "Spanish Espa\u00f1ol ",
                 "value": 47
             },
             {
@@ -227,7 +227,7 @@
                 "value": 52
             },
             {
-                "name": "Thai Tailandés ",
+                "name": "Thai Tailand\u00e9s ",
                 "value": 53
             },
             {
@@ -253,7 +253,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "58 = English Inglés ; 1 = American Sign Language (ASL) Lenguaje de señas americano (ASL) ; 2 = Arabic Arábica ; 3 = Arawak Arawak ; 4 = Bangla Bangla ; 5 = Bosnian Bosnio ; 6 = Cantonese Cantonés ; 7 = Cham Cham ; 8 = An American Indian or Alaska Native language ; 9 = Creole Criollo ; 10 = Croatian Croata ; 11 = Dutch Holandés ; 12 = Filipino Filipino ; 13 = Finnish Finlandés ; 14 = Flemish Flamenco ; 15 = French Francés ; 16 = Frisian Frisio ; 17 = Gaelic Gaélico ; 18 = Garifuna Garifuna ; 19 = German Alemán ; 20 = Greek Griego ; 21 = Hakka Hakka ; 22 = Hebrew Hebreo ; 23 = Hindi Hindi ; 24 = Hokkien Hokkien ; 25 = Hungarian Húngaro ; 26 = Italian Italiano ; 27 = Japanese Japonés ; 28 = Jarai Jarai ; 29 = Khmer Jemer ; 30 = Korean Coreano ; 31 = Kuy Kuy ; 32 = Luganda Luganda ; 33 = Mandarin Mandarín ; 34 = Nepali Nepalí ; 35 = Papiamento Papiamento ; 36 = Patois Dialecto ; 37 = Persian Persa ; 38 = Polish Polaco ; 39 = Portuguese Portugués ; 40 = Punjabi Punjabi ; 41 = Romanian Rumano ; 42 = Russian Ruso ; 43 = Samoan Samoano ; 44 = Serbian Serbio ; 45 = Sinhala Sinhala ; 46 = Sourashtra Sourashtra ; 47 = Spanish Español ; 48 = Stieng Stieng ; 49 = Swahili Swahili ; 50 = Tagalog Tagalo ; 51 = Tamil Tamil ; 52 = Telugu Telugu ; 53 = Thai Tailandés ; 54 = Turkish Turco ; 55 = Urdu Urdu ; 56 = Vietnamese Vietnamita ; 57 = Other Otro"
+            "value": "58 = English Ingl\u00e9s ; 1 = American Sign Language (ASL) Lenguaje de se\u00f1as americano (ASL) ; 2 = Arabic Ar\u00e1bica ; 3 = Arawak Arawak ; 4 = Bangla Bangla ; 5 = Bosnian Bosnio ; 6 = Cantonese Canton\u00e9s ; 7 = Cham Cham ; 8 = An American Indian or Alaska Native language ; 9 = Creole Criollo ; 10 = Croatian Croata ; 11 = Dutch Holand\u00e9s ; 12 = Filipino Filipino ; 13 = Finnish Finland\u00e9s ; 14 = Flemish Flamenco ; 15 = French Franc\u00e9s ; 16 = Frisian Frisio ; 17 = Gaelic Ga\u00e9lico ; 18 = Garifuna Garifuna ; 19 = German Alem\u00e1n ; 20 = Greek Griego ; 21 = Hakka Hakka ; 22 = Hebrew Hebreo ; 23 = Hindi Hindi ; 24 = Hokkien Hokkien ; 25 = Hungarian H\u00fangaro ; 26 = Italian Italiano ; 27 = Japanese Japon\u00e9s ; 28 = Jarai Jarai ; 29 = Khmer Jemer ; 30 = Korean Coreano ; 31 = Kuy Kuy ; 32 = Luganda Luganda ; 33 = Mandarin Mandar\u00edn ; 34 = Nepali Nepal\u00ed ; 35 = Papiamento Papiamento ; 36 = Patois Dialecto ; 37 = Persian Persa ; 38 = Polish Polaco ; 39 = Portuguese Portugu\u00e9s ; 40 = Punjabi Punjabi ; 41 = Romanian Rumano ; 42 = Russian Ruso ; 43 = Samoan Samoano ; 44 = Serbian Serbio ; 45 = Sinhala Sinhala ; 46 = Sourashtra Sourashtra ; 47 = Spanish Espa\u00f1ol ; 48 = Stieng Stieng ; 49 = Swahili Swahili ; 50 = Tagalog Tagalo ; 51 = Tamil Tamil ; 52 = Telugu Telugu ; 53 = Thai Tailand\u00e9s ; 54 = Turkish Turco ; 55 = Urdu Urdu ; 56 = Vietnamese Vietnamita ; 57 = Other Otro"
         }
     ]
 }

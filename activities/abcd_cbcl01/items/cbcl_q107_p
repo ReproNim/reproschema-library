@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Wets self during the day ",
-        "es": "Se orina en la ropa durante el día"
+        "es": "Se orina en la ropa durante el d\u00eda"
     },
     "ui": {
         "inputType": "radio"

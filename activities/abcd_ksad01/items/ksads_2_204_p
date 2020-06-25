@@ -5,7 +5,7 @@
     "prefLabel": "ksads_2_204_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Increased Goal Directed Activity Past ξ",
+    "question": "Symptom - Increased Goal Directed Activity Past \u03be",
     "ui": {
         "inputType": "text"
     },

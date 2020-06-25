@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_d8",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did a pet your child liked get hurt or die during the hurricane? ¿Se lastimA o muriA una mascota que le gustaba a su hijo(a) durante el huracán?",
+    "question": "Did a pet your child liked get hurt or die during the hurricane? \u00bfSe lastimA o muriA una mascota que le gustaba a su hijo(a) durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

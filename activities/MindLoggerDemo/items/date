@@ -1,7 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "date",
     "skos:prefLabel": "Date",
@@ -18,5 +16,3 @@
         "schema:maxValue": "new Date()"
     }
 }
-
-

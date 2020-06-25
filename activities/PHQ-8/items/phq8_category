@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "phq8_category",
     "skos:prefLabel": "Score category PHQ-8",
@@ -11,6 +11,12 @@
         "readonly": true
     },
     "responseOptions": {
-        "valueSets": ["minimal", "mild", "moderate", "moderately severe", "severe"]
+        "valueSets": [
+            "minimal",
+            "mild",
+            "moderate",
+            "moderately severe",
+            "severe"
+        ]
     }
 }

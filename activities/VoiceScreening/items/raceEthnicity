@@ -1,6 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "raceEthnicity",
     "skos:prefLabel": "Race or Ethnicity",
@@ -13,10 +12,11 @@
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "choices": [{
-            "schema:name": "American Indian or Alaska Native",
-            "schema:value": 0
-        },
+        "choices": [
+            {
+                "schema:name": "American Indian or Alaska Native",
+                "schema:value": 0
+            },
             {
                 "schema:name": "Asian",
                 "schema:value": 1
@@ -44,6 +44,3 @@
         ]
     }
 }
-
-
-

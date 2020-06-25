@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_31",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "31. I feel like things around me are not real, like I am in a dream. 31. Siento que las cosas a mi alrededor no son reales, como que estoy en un sueño.",
+    "question": "31. I feel like things around me are not real, like I am in a dream. 31. Siento que las cosas a mi alrededor no son reales, como que estoy en un sue\u00f1o.",
     "ui": {
         "inputType": "radio"
     },

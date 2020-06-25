@@ -6,7 +6,7 @@
     "altLabel": "demo_dual_lang_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Does your child attend a dual-language or language immersion program at their school? In other words, are several of their classes taught in a language other than English? ¿Su nino(a) asiste a un programa bilingüe o de inmersion lingüística en su escuela? En otras palabras, ¿a su nino(a) le ense-an algunas de sus clases en otro idioma que no es el inglés?",
+    "question": "Does your child attend a dual-language or language immersion program at their school? In other words, are several of their classes taught in a language other than English? \u00bfSu nino(a) asiste a un programa biling\u00fce o de inmersion ling\u00fc\u00edstica en su escuela? En otras palabras, \u00bfa su nino(a) le ense-an algunas de sus clases en otro idioma que no es el ingl\u00e9s?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 777,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -23,7 +23,7 @@
                 "value": 0
             },
             {
-                "name": "Don't know No sé",
+                "name": "Don't know No s\u00e9",
                 "value": 999
             },
             {
@@ -37,7 +37,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No; 999 = Don't know No sé; 777 = Refuse to answer Me niego a responder"
+            "value": "1 = Yes S\u00ed; 0 = No No; 999 = Don't know No s\u00e9; 777 = Refuse to answer Me niego a responder"
         }
     ]
 }

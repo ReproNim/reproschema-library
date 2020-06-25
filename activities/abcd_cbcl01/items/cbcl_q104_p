@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Unusually loud ",
-        "es": "Más ruidoso(a) de lo común"
+        "es": "M\u00e1s ruidoso(a) de lo com\u00fan"
     },
     "ui": {
         "inputType": "radio"

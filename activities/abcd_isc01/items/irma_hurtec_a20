@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtec_a20",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall how safe do you think your parent(s) has felt since the hurricane? En general, ¿qué tan seguros crees que se sienten tus padres desde el huracán?",
+    "question": "Overall how safe do you think your parent(s) has felt since the hurricane? En general, \u00bfqu\u00e9 tan seguros crees que se sienten tus padres desde el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

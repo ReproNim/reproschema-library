@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Demands a lot of attention ",
-        "es": "Exige mucha atención"
+        "es": "Exige mucha atenci\u00f3n"
     },
     "ui": {
         "inputType": "radio"

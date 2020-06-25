@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a6",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you or your family have trouble getting enough food and water after the hurricane? ¿Usted o su familia tuvieron problemas para obtener suficiente comida y agua después del huracán",
+    "question": "Did you or your family have trouble getting enough food and water after the hurricane? \u00bfUsted o su familia tuvieron problemas para obtener suficiente comida y agua despu\u00e9s del hurac\u00e1n",
     "ui": {
         "inputType": "radio"
     },

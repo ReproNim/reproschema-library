@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Prefers being with younger kids ",
-        "es": "Prefiere estar con niños(as) menores que él/ella"
+        "es": "Prefiere estar con ni\u00f1os(as) menores que \u00e9l/ella"
     },
     "ui": {
         "inputType": "radio"

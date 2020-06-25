@@ -6,7 +6,7 @@
     "altLabel": "demo_gender_id_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "What is the child's current gender identity? ¿Cuál es la identidad de género actual de el/la nino(a)?",
+    "question": "What is the child's current gender identity? \u00bfCu\u00e1l es la identidad de g\u00e9nero actual de el/la nino(a)?",
     "ui": {
         "inputType": "radio"
     },
@@ -31,7 +31,7 @@
                 "value": 4
             },
             {
-                "name": "Gender queer Intergénero (\"genderqueer\") / No conforme con el género",
+                "name": "Gender queer Interg\u00e9nero (\"genderqueer\") / No conforme con el g\u00e9nero",
                 "value": 5
             },
             {
@@ -43,7 +43,7 @@
                 "value": 777
             },
             {
-                "name": "Don't know No lo sé",
+                "name": "Don't know No lo s\u00e9",
                 "value": 999
             }
         ],
@@ -53,7 +53,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Male Hombre; 2 = Female Mujer; 3 = Trans male Transexual masculino / hombre transexual; 4 = Trans female Transexual femenino / mujer transexual; 5 = Gender queer Intergénero (\"genderqueer\") / No conforme con el género; 6 = Different Otra identididad; 777 = Refuse to answer Niego contestar; 999 = Don't know No lo sé"
+            "value": "1 = Male Hombre; 2 = Female Mujer; 3 = Trans male Transexual masculino / hombre transexual; 4 = Trans female Transexual femenino / mujer transexual; 5 = Gender queer Interg\u00e9nero (\"genderqueer\") / No conforme con el g\u00e9nero; 6 = Different Otra identididad; 777 = Refuse to answer Niego contestar; 999 = Don't know No lo s\u00e9"
         }
     ]
 }

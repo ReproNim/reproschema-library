@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Other (physical problems without known physical cause) ",
-        "es": "Otros (problemas físicos sin causa médica conocida)"
+        "es": "Otros (problemas f\u00edsicos sin causa m\u00e9dica conocida)"
     },
     "ui": {
         "inputType": "radio"

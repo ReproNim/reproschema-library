@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Overtired without good reason ",
-        "es": "Se siente demasiado cansado(a) sin razón para estarlo"
+        "es": "Se siente demasiado cansado(a) sin raz\u00f3n para estarlo"
     },
     "ui": {
         "inputType": "radio"

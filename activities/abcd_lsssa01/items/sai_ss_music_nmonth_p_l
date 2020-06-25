@@ -6,7 +6,7 @@
     "altLabel": "sports_activity_ss_music_nmonth_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra…)\r. Since we last saw you, about how many months per year did your child participate?",
+    "question": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra\u2026)\r. Since we last saw you, about how many months per year did your child participate?",
     "ui": {
         "inputType": "radio"
     },

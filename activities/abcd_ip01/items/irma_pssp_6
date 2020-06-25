@@ -5,7 +5,7 @@
     "prefLabel": "irma_pssp_6",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "6. In the last month, how often have you found that you could not cope with all the things that you had to do? 6. En el último mes, ¿con qué frecuencia descubriA que no podía enfrentarse a todas las cosas que tenía que hacer?",
+    "question": "6. In the last month, how often have you found that you could not cope with all the things that you had to do? 6. En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia descubriA que no pod\u00eda enfrentarse a todas las cosas que ten\u00eda que hacer?",
     "ui": {
         "inputType": "radio"
     },

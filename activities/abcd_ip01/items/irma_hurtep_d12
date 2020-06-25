@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_d12",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you think you might be hurt badly during the hurricane? ¿Pensaste que podrías herirse gravemente durante el huracán?",
+    "question": "Did you think you might be hurt badly during the hurricane? \u00bfPensaste que podr\u00edas herirse gravemente durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

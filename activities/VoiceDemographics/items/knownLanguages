@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "knownLanguages",
     "skos:prefLabel": "Known languages",
@@ -16,6 +16,3 @@
         "choices": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/languages.json"
     }
 }
-
-
-

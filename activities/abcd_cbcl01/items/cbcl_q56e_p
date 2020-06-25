@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Rashes or other skin problems ",
-        "es": "Salpullido o irritación en la piel"
+        "es": "Salpullido o irritaci\u00f3n en la piel"
     },
     "ui": {
         "inputType": "radio"

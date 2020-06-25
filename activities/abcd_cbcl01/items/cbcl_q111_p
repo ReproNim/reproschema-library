@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Withdrawn, doesn't get involved with others ",
-        "es": "Se aísla, no se relaciona con los demás"
+        "es": "Se a\u00edsla, no se relaciona con los dem\u00e1s"
     },
     "ui": {
         "inputType": "radio"

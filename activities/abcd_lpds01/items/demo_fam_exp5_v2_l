@@ -6,7 +6,7 @@
     "altLabel": "demo_fam_exp5_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Had services turned off by the gas or electric company, or the oil company wouldn't deliver oil because payments were not made? ¿Les suspendieron el servicio de gas o electricidad, o la compan-ía de petroleo se nego a abastecerles por falta de pago?",
+    "question": "Had services turned off by the gas or electric company, or the oil company wouldn't deliver oil because payments were not made? \u00bfLes suspendieron el servicio de gas o electricidad, o la compan-\u00eda de petroleo se nego a abastecerles por falta de pago?",
     "ui": {
         "inputType": "radio"
     },
@@ -19,7 +19,7 @@
                 "value": 0
             },
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = No No; 1 = Yes Sí;  777 = Refuse to answer Niego contestar"
+            "value": "0 = No No; 1 = Yes S\u00ed;  777 = Refuse to answer Niego contestar"
         }
     ]
 }

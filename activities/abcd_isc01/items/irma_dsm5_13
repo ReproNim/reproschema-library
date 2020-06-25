@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_13",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "13. I try not to think about or have feelings about what Hurricane Irma. 13. Trato de no pensar o tener sentimientos acerca del huracán Irma.",
+    "question": "13. I try not to think about or have feelings about what Hurricane Irma. 13. Trato de no pensar o tener sentimientos acerca del hurac\u00e1n Irma.",
     "ui": {
         "inputType": "radio"
     },

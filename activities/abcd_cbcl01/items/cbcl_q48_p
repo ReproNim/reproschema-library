@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "",
-        "es": "Not liked by other kids No le cae bien a otros niños(as)/jóvenes"
+        "es": "Not liked by other kids No le cae bien a otros ni\u00f1os(as)/j\u00f3venes"
     },
     "ui": {
         "inputType": "radio"

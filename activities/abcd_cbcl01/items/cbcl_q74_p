@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Showing off or clowning ",
-        "es": "Le gusta llamar la atención o hacerse el/la payaso(a), gracioso(a)"
+        "es": "Le gusta llamar la atenci\u00f3n o hacerse el/la payaso(a), gracioso(a)"
     },
     "ui": {
         "inputType": "radio"

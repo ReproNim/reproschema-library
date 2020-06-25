@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_26",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "26. I do risky or unsafe things that could really hurt me or someone else. 26. Hago cosas arriesgadas o inseguras que realmente podrían lastimarme a mí o a alguien más.",
+    "question": "26. I do risky or unsafe things that could really hurt me or someone else. 26. Hago cosas arriesgadas o inseguras que realmente podr\u00edan lastimarme a m\u00ed o a alguien m\u00e1s.",
     "ui": {
         "inputType": "radio"
     },

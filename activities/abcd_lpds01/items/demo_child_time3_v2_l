@@ -6,7 +6,7 @@
     "altLabel": "demo_child_time3_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Who is the best person to contact about that household? Please select the relationship they have with the child. ¿Quien es la mejor persona para contactar con respecto a ese hogar? Por favor seleccione la relacion que tienen con su nin-o(a).",
+    "question": "Who is the best person to contact about that household? Please select the relationship they have with the child. \u00bfQuien es la mejor persona para contactar con respecto a ese hogar? Por favor seleccione la relacion que tienen con su nin-o(a).",
     "ui": {
         "inputType": "radio"
     },

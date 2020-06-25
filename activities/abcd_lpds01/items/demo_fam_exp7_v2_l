@@ -6,7 +6,7 @@
     "altLabel": "demo_fam_exp7_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Had someone who needed a dentist but couldn't go because you could not afford it? ¿Tuvieron a alguien quien necesitaba ir al dentista, pero no pudieron ir porque no les alcanzaba el dinero?",
+    "question": "Had someone who needed a dentist but couldn't go because you could not afford it? \u00bfTuvieron a alguien quien necesitaba ir al dentista, pero no pudieron ir porque no les alcanzaba el dinero?",
     "ui": {
         "inputType": "radio"
     },
@@ -19,7 +19,7 @@
                 "value": 0
             },
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = No No; 1 = Yes Sí;  777 = Refuse to answer Niego contestar"
+            "value": "0 = No No; 1 = Yes S\u00ed;  777 = Refuse to answer Niego contestar"
         }
     ]
 }

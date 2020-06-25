@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_cs8",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "CS8. Do these reactions, thoughts, and feelings make it harder for you to do important things that other kids your age are doing? CS8. ¿Estas reacciones, pensamientos y sentimientos hace más difícil para usted hacer cosas importantes que otros niños de su edad están haciendo?",
+    "question": "CS8. Do these reactions, thoughts, and feelings make it harder for you to do important things that other kids your age are doing? CS8. \u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted hacer cosas importantes que otros ni\u00f1os de su edad est\u00e1n haciendo?",
     "ui": {
         "inputType": "radio"
     },

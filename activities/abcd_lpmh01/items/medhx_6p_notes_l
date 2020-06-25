@@ -6,7 +6,7 @@
     "altLabel": "medhx_6p_siezure_times_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Seizure: How many times? ¿Cuántas veces?",
+    "question": "Seizure: How many times? \u00bfCu\u00e1ntas veces?",
     "ui": {
         "inputType": "number"
     },

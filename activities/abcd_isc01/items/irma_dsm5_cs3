@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_cs3",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "CS3. Do these reactions, thoughts, and feelings get you into trouble at home? CS3. ¿Estas reacciones, pensamientos y sentimientos te meten en problemas en casa?",
+    "question": "CS3. Do these reactions, thoughts, and feelings get you into trouble at home? CS3. \u00bfEstas reacciones, pensamientos y sentimientos te meten en problemas en casa?",
     "ui": {
         "inputType": "radio"
     },

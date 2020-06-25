@@ -6,7 +6,7 @@
     "altLabel": "kbi_c_age_services_p_l ksads_back_c_age_services_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How old was your child when they first received mental health or substance abuse services? ¿Qué edad tenía su niño(a) cuando recibió por primera vez servicios de salud mental o para el abuso de sustancias?  Anótela en el espacio en blanco",
+    "question": "How old was your child when they first received mental health or substance abuse services? \u00bfQu\u00e9 edad ten\u00eda su ni\u00f1o(a) cuando recibi\u00f3 por primera vez servicios de salud mental o para el abuso de sustancias?  An\u00f3tela en el espacio en blanco",
     "ui": {
         "inputType": "number"
     },

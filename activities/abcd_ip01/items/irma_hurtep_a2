@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you have any changes at work or school because of the hurricane? ¿Tuvo algún cambio en el trabajo o la escuela debido al huracán?",
+    "question": "Did you have any changes at work or school because of the hurricane? \u00bfTuvo alg\u00fan cambio en el trabajo o la escuela debido al hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

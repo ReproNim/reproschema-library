@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Nausea, feels sick ",
-        "es": "Náuseas, ganas de vomitar"
+        "es": "N\u00e1useas, ganas de vomitar"
     },
     "ui": {
         "inputType": "radio"

@@ -5,7 +5,7 @@
     "prefLabel": "demo_dual_lang_years_p___2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Which Years (check all that apply)? ¿Que anos (marque todo lo que corresponda)? (2, Pre-K Pre-Kinder)",
+    "question": "Which Years (check all that apply)? \u00bfQue anos (marque todo lo que corresponda)? (2, Pre-K Pre-Kinder)",
     "ui": {
         "inputType": "radio"
     },

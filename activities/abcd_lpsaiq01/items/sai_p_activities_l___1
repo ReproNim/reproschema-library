@@ -6,7 +6,7 @@
     "altLabel": "sports_activity_activities_p_l___1",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "(1, Baseball,  Softball  Béisbol,  Softbol)",
+    "question": "(1, Baseball,  Softball  B\u00e9isbol,  Softbol)",
     "ui": {
         "inputType": "radio"
     },

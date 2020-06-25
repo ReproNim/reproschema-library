@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_22",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "22. I feel ashamed or guilty about some part of what happened during Hurricane Irma. 22. Me siento avergonzado o culpable por parte de lo que sucediA durante el huracán Irma.",
+    "question": "22. I feel ashamed or guilty about some part of what happened during Hurricane Irma. 22. Me siento avergonzado o culpable por parte de lo que sucediA durante el hurac\u00e1n Irma.",
     "ui": {
         "inputType": "radio"
     },

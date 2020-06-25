@@ -1,6 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "city_of_birth",
     "skos:prefLabel": "City of birth",
@@ -15,6 +14,3 @@
         "valueType": "xsd:string"
     }
 }
-
-
-

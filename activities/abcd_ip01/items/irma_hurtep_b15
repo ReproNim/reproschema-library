@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_b15",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "At any time before the hurricane, did you think you might die? En cualquier momento antes del huracán, ¿crees que podrías morir?",
+    "question": "At any time before the hurricane, did you think you might die? En cualquier momento antes del hurac\u00e1n, \u00bfcrees que podr\u00edas morir?",
     "ui": {
         "inputType": "radio"
     },

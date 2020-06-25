@@ -6,7 +6,7 @@
     "altLabel": "kbi_c_spec_serv_p_l___3 ksads_back_c_spec_serv_p_l___3",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Does your child receive special services at school? Click all that apply: ¿Su niño(a) recibe servicios especiales en la escuela?   Seleccione todas las opciones que correspondan o apliquen: (3, Full-time Aide Auxiliar durante el día escolar completo)",
+    "question": "Does your child receive special services at school? Click all that apply: \u00bfSu ni\u00f1o(a) recibe servicios especiales en la escuela?   Seleccione todas las opciones que correspondan o apliquen: (3, Full-time Aide Auxiliar durante el d\u00eda escolar completo)",
     "ui": {
         "inputType": "radio"
     },

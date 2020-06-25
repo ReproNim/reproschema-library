@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_d2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did windows or doors break in the place your child stayed during the hurricane? ¿Se rompieron ventanas o puertas en el lugar donde se quedA durante el huracán?",
+    "question": "Did windows or doors break in the place your child stayed during the hurricane? \u00bfSe rompieron ventanas o puertas en el lugar donde se quedA durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

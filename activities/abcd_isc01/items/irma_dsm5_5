@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_5",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "5. I feel like I am back in Hurricane Irma, like it's happening all over again. 5. Siento que estoy de vuelta en el huracán Irma, como si estuviera sucediendo de nuevo.",
+    "question": "5. I feel like I am back in Hurricane Irma, like it's happening all over again. 5. Siento que estoy de vuelta en el hurac\u00e1n Irma, como si estuviera sucediendo de nuevo.",
     "ui": {
         "inputType": "radio"
     },

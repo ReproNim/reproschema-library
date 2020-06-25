@@ -6,7 +6,7 @@
     "altLabel": "demo_child_time_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Is there another household in which the child spends a significant amount of time? ¿Hay otro hogar en donde su nin-o(a) pase una cantidad importante de tiempo?",
+    "question": "Is there another household in which the child spends a significant amount of time? \u00bfHay otro hogar en donde su nin-o(a) pase una cantidad importante de tiempo?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 777,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No; 777 = Declined to answer Niego contestar"
+            "value": "1 = Yes S\u00ed; 0 = No No; 777 = Declined to answer Niego contestar"
         }
     ]
 }

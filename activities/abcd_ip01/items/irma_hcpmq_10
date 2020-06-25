@@ -5,7 +5,7 @@
     "prefLabel": "irma_hcpmq_10",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "10. I monitored conversations that my child was exposed to, and was sure to end them if topics came up that I thought could frighten my child. 10. Supervisé las conversaciones a las que mi hijo estuvo expuesto, y estaba seguro de finalizarlas si surgían temas que pensé que podrían asustar a mi hijo.",
+    "question": "10. I monitored conversations that my child was exposed to, and was sure to end them if topics came up that I thought could frighten my child. 10. Supervis\u00e9 las conversaciones a las que mi hijo estuvo expuesto, y estaba seguro de finalizarlas si surg\u00edan temas que pens\u00e9 que podr\u00edan asustar a mi hijo.",
     "ui": {
         "inputType": "radio"
     },
@@ -22,7 +22,7 @@
                 "value": 1
             },
             {
-                "name": "Somewhat like me or my family2  Algo así como yo o mi familia2",
+                "name": "Somewhat like me or my family2  Algo as\u00ed como yo o mi familia2",
                 "value": 2
             },
             {
@@ -30,7 +30,7 @@
                 "value": 3
             },
             {
-                "name": "Very much like me or my family4 Muy parecido a mí o mi familia4",
+                "name": "Very much like me or my family4 Muy parecido a m\u00ed o mi familia4",
                 "value": 4
             }
         ],
@@ -40,7 +40,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo así como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a mí o mi familia4"
+            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo as\u00ed como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a m\u00ed o mi familia4"
         }
     ]
 }

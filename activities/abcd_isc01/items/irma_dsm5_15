@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_15",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "15. I am mad with someone for making Hurricane Irma happen, not doing more to stop it, or to help after. 15. Estoy enojado con alguien por hacer que ocurra el huracán Irma, sin hacer más para detenerlo, o para ayudar después.",
+    "question": "15. I am mad with someone for making Hurricane Irma happen, not doing more to stop it, or to help after. 15. Estoy enojado con alguien por hacer que ocurra el hurac\u00e1n Irma, sin hacer m\u00e1s para detenerlo, o para ayudar despu\u00e9s.",
     "ui": {
         "inputType": "radio"
     },

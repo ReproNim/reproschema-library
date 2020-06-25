@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "ca_3",
     "skos:prefLabel": "CAGE-AID-3",
@@ -14,14 +14,15 @@
         "valueType": "xsd:integer",
         "schema:minValue": 0,
         "schema:maxValue": 1,
-        "choices": [{
-            "name": "Yes",
-            "value": 1
-        },
-        {
-            "name": "No",
-            "value": 0
-        }]
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
     }
-
 }

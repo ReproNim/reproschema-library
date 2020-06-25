@@ -6,7 +6,7 @@
     "altLabel": "demo_prnt_empl_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Are you working now, looking for work, retired, stay at home parent, a student, or something else? ¿Trabaja actualmente, está buscando trabajo, está retirado, se dedica al hogar, estudia o realiza alguna otra actividad?",
+    "question": "Are you working now, looking for work, retired, stay at home parent, a student, or something else? \u00bfTrabaja actualmente, est\u00e1 buscando trabajo, est\u00e1 retirado, se dedica al hogar, estudia o realiza alguna otra actividad?",
     "ui": {
         "inputType": "radio"
     },

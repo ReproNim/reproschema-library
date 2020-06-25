@@ -5,7 +5,7 @@
     "prefLabel": "ksads_12_63_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Encopresis at least once a month for ξ3 months Past",
+    "question": "Symptom - Encopresis at least once a month for \u03be3 months Past",
     "ui": {
         "inputType": "text"
     },

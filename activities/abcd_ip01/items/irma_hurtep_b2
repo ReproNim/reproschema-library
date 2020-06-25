@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_b2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "When your child evacuated your home, where did he or she go?   ¿Cuando tu hijo(a) evacuA de su casa, a dAnde fue?",
+    "question": "When your child evacuated your home, where did he or she go?   \u00bfCuando tu hijo(a) evacuA de su casa, a dAnde fue?",
     "ui": {
         "inputType": "radio"
     },
@@ -26,7 +26,7 @@
                 "value": 3
             },
             {
-                "name": "Left the state Salió del estado",
+                "name": "Left the state Sali\u00f3 del estado",
                 "value": 4
             }
         ],
@@ -36,7 +36,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = To a friend or relative's home nearby (less than an hour away)  Para la casa de un amigo o familiar cercano (a menos de una hora de distancia); 2 = To a shelter nearby (less than an hour away)  A un refugio cercano (a menos de una hora de distancia); 3 = To another place in the state A otro lugar en el estado; 4 = Left the state Salió del estado"
+            "value": "1 = To a friend or relative's home nearby (less than an hour away)  Para la casa de un amigo o familiar cercano (a menos de una hora de distancia); 2 = To a shelter nearby (less than an hour away)  A un refugio cercano (a menos de una hora de distancia); 3 = To another place in the state A otro lugar en el estado; 4 = Left the state Sali\u00f3 del estado"
         }
     ]
 }

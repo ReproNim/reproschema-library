@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a14",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes? ¿Hubo mucho daño en su vecindario, como grandes árboles sin segar o casas gravemente dañadas?",
+    "question": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes? \u00bfHubo mucho da\u00f1o en su vecindario, como grandes \u00e1rboles sin segar o casas gravemente da\u00f1adas?",
     "ui": {
         "inputType": "radio"
     },

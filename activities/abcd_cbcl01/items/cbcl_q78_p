@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Inattentive or easily distracted ",
-        "es": "No presta atención o se distrae fácilmente"
+        "es": "No presta atenci\u00f3n o se distrae f\u00e1cilmente"
     },
     "ui": {
         "inputType": "radio"

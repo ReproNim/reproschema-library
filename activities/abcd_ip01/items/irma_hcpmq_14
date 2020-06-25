@@ -5,7 +5,7 @@
     "prefLabel": "irma_hcpmq_14",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "14. I monitored how much hurricane-related news and media my child was exposed to. 14. Supervisé la cantidad de noticias y medios relacionados con los huracanes a los que mi hijo estuvo expuesto.",
+    "question": "14. I monitored how much hurricane-related news and media my child was exposed to. 14. Supervis\u00e9 la cantidad de noticias y medios relacionados con los huracanes a los que mi hijo estuvo expuesto.",
     "ui": {
         "inputType": "radio"
     },
@@ -22,7 +22,7 @@
                 "value": 1
             },
             {
-                "name": "Somewhat like me or my family2  Algo así como yo o mi familia2",
+                "name": "Somewhat like me or my family2  Algo as\u00ed como yo o mi familia2",
                 "value": 2
             },
             {
@@ -30,7 +30,7 @@
                 "value": 3
             },
             {
-                "name": "Very much like me or my family4 Muy parecido a mí o mi familia4",
+                "name": "Very much like me or my family4 Muy parecido a m\u00ed o mi familia4",
                 "value": 4
             }
         ],
@@ -40,7 +40,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo así como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a mí o mi familia4"
+            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo as\u00ed como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a m\u00ed o mi familia4"
         }
     ]
 }

@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_30",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "30. I feel like things around me look strange, different, or like I am in a fog. 30. Siento que las cosas a mi alrededor se ven extrañas, diferentes o como si estuviera en una niebla.",
+    "question": "30. I feel like things around me look strange, different, or like I am in a fog. 30. Siento que las cosas a mi alrededor se ven extra\u00f1as, diferentes o como si estuviera en una niebla.",
     "ui": {
         "inputType": "radio"
     },

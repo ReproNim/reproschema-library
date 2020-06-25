@@ -5,7 +5,7 @@
     "prefLabel": "irma_gateb_c",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Do you live in the state of South Carolina)? ¿Vives en el estado de Carolina del Sur?",
+    "question": "Do you live in the state of South Carolina)? \u00bfVives en el estado de Carolina del Sur?",
     "ui": {
         "inputType": "radio"
     },

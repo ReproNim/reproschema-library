@@ -5,7 +5,7 @@
     "prefLabel": "ksads_2_10_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - ExplosiveIrritability PresentNext ξ",
+    "question": "Symptom - ExplosiveIrritability PresentNext \u03be",
     "ui": {
         "inputType": "text"
     },

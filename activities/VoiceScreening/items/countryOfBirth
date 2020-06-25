@@ -1,6 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "countryOfBirth",
     "skos:prefLabel": "Country of birth",
@@ -17,6 +16,3 @@
         "choices": "https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-name.json"
     }
 }
-
-
-

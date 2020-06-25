@@ -6,7 +6,7 @@
     "altLabel": "kbi_c_mh_sa_p_l ksads_back_c_mh_sa_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Since we last saw you, has your child received mental health or substance abuse services? Desde la última vez que nos vimos, ¿su niño(a) ha recibido servicios de salud mental o para el abuso de sustancias?",
+    "question": "Since we last saw you, has your child received mental health or substance abuse services? Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) ha recibido servicios de salud mental o para el abuso de sustancias?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 3,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 2 = No No; 3 = Not sure No estoy seguro(a)"
+            "value": "1 = Yes S\u00ed; 2 = No No; 3 = Not sure No estoy seguro(a)"
         }
     ]
 }

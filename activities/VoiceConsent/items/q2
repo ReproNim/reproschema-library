@@ -1,7 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceConsent/VoiceConsent_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "quiz_q2",
     "skos:prefLabel": "Quiz Q2",
@@ -18,10 +16,11 @@
         "schema:minValue": 0,
         "schema:maxValue": 1,
         "multipleChoice": false,
-        "choices": [{
-            "schema:name": "My full name",
-            "schema:value": 0
-        },
+        "choices": [
+            {
+                "schema:name": "My full name",
+                "schema:value": 0
+            },
             {
                 "schema:name": "My house address",
                 "schema:value": 0
@@ -33,7 +32,3 @@
         ]
     }
 }
-
-
-
-

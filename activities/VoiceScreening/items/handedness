@@ -1,6 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "handedness",
     "skos:prefLabel": "Handedness",
@@ -16,9 +15,10 @@
         "multipleChoice": false,
         "schema:minValue": 0,
         "schema:maxValue": 2,
-        "choices": [{
-            "schema:name": "Left",
-            "schema:value": 0
+        "choices": [
+            {
+                "schema:name": "Left",
+                "schema:value": 0
             },
             {
                 "schema:name": "Right",
@@ -31,4 +31,3 @@
         ]
     }
 }
-

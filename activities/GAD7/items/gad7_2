@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gad7_2",
     "skos:prefLabel": "GAD7-2",
@@ -7,8 +7,8 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "question": {
-    "en": "Not being able to stop or control worrying?",
-    "es": "¿No ha sido capaz de parar o controlar su preocupación?"
+        "en": "Not being able to stop or control worrying?",
+        "es": "\u00bfNo ha sido capaz de parar o controlar su preocupaci\u00f3n?"
     },
     "ui": {
         "inputType": "radio"

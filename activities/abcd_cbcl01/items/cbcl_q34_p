@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Feels others are out to get him/her ",
-        "es": "Siente que los demás lo/la quieren perjudicar"
+        "es": "Siente que los dem\u00e1s lo/la quieren perjudicar"
     },
     "ui": {
         "inputType": "radio"

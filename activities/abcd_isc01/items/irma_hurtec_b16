@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtec_b16",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "At any time before the hurricane, did you think that a family member might be hurt badly? En cualquier momento antes del huracán, ¿pensaste que tú o un miembro de tu familia podrían estar lastimados?",
+    "question": "At any time before the hurricane, did you think that a family member might be hurt badly? En cualquier momento antes del hurac\u00e1n, \u00bfpensaste que t\u00fa o un miembro de tu familia podr\u00edan estar lastimados?",
     "ui": {
         "inputType": "radio"
     },

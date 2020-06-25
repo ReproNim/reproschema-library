@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_10",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "10. I have bad dreams about Hurricane Irma, or other bad dreams. 10. Tengo malos sueños sobre el huracán Irma u otros malos sueños.",
+    "question": "10. I have bad dreams about Hurricane Irma, or other bad dreams. 10. Tengo malos sue\u00f1os sobre el hurac\u00e1n Irma u otros malos sue\u00f1os.",
     "ui": {
         "inputType": "radio"
     },

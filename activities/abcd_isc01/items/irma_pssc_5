@@ -5,7 +5,7 @@
     "prefLabel": "irma_pssc_5",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "5. In the last month, how often have you felt that things were going your way? 5. En el último mes, ¿con qué frecuencia ha sentido que las cosas siguen tu camino?",
+    "question": "5. In the last month, how often have you felt that things were going your way? 5. En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia ha sentido que las cosas siguen tu camino?",
     "ui": {
         "inputType": "radio"
     },

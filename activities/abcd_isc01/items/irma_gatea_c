@@ -5,7 +5,7 @@
     "prefLabel": "irma_gatea_c",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Do you live in the state of Florida? ¿Vives en el estado de la Florida?",
+    "question": "Do you live in the state of Florida? \u00bfVives en el estado de la Florida?",
     "ui": {
         "inputType": "radio"
     },

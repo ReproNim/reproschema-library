@@ -6,7 +6,7 @@
     "altLabel": "sports_activity_ss_music_perwk_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra…)\nAbout how many days per week?",
+    "question": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra\u2026)\nAbout how many days per week?",
     "ui": {
         "inputType": "radio"
     },

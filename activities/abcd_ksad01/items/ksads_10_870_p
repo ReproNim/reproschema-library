@@ -5,7 +5,7 @@
     "prefLabel": "ksads_10_870_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Diagnosis - Generalized Anxiety Disorder Past (F41.1)",
+    "question": "Diagnosis - Generalized Anxiety Disorder \u008a\u0097\u0096Past (F41.1)",
     "ui": {
         "inputType": "text"
     },

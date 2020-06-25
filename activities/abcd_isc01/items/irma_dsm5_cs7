@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_cs7",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "CS7. Do these reactions, thoughts, and feelings make it harder for you to get along with your friends or make new friends? CS7. ¿Estas reacciones, pensamientos y sentimientos hace más difícil para usted llevarse bien con sus amigos o hacer nuevos amigos?",
+    "question": "CS7. Do these reactions, thoughts, and feelings make it harder for you to get along with your friends or make new friends? CS7. \u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted llevarse bien con sus amigos o hacer nuevos amigos?",
     "ui": {
         "inputType": "radio"
     },

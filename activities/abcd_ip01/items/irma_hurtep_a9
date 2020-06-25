@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_a9",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Has anyone stolen anything from your home since the hurricane? ¿Alguien ha robado algo de su casa desde el huracán?",
+    "question": "Has anyone stolen anything from your home since the hurricane? \u00bfAlguien ha robado algo de su casa desde el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

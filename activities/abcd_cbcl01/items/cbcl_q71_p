@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "",
-        "es": "Self-conscious or easily embarrassed Se cohíbe y se averg√ºenza con facilidad"
+        "es": "Self-conscious or easily embarrassed Se coh\u00edbe y se averg\u221a\u00baenza con facilidad"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Daydreams or gets lost in his/her thoughts ",
-        "es": "Sueña despierto(a), se pierde en sus propios pensamientos"
+        "es": "Sue\u00f1a despierto(a), se pierde en sus propios pensamientos"
     },
     "ui": {
         "inputType": "radio"

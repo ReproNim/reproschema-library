@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Constipated, doesn't move bowels ",
-        "es": "Padece de estreñimiento"
+        "es": "Padece de estre\u00f1imiento"
     },
     "ui": {
         "inputType": "radio"

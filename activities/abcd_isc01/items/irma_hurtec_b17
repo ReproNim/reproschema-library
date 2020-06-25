@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtec_b17",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home? En cualquier momento antes del huracán, ¿pensA que el huracán podría causar un daño mayor a su hogar, o que podría perder su hogar?",
+    "question": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home? En cualquier momento antes del hurac\u00e1n, \u00bfpensA que el hurac\u00e1n podr\u00eda causar un da\u00f1o mayor a su hogar, o que podr\u00eda perder su hogar?",
     "ui": {
         "inputType": "radio"
     },

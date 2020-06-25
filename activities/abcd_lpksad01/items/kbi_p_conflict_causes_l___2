@@ -6,7 +6,7 @@
     "altLabel": "kbi_conflict_causes_p_l___2 ksads_back_conflict_causes_p_l___2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Click the things that cause conflict between you and your child: A continuación, seleccione aquello que causa conflicto entre usted y su niño(a): (2, Messy Room Habitación desordenada)",
+    "question": "Click the things that cause conflict between you and your child: A continuaci\u00f3n, seleccione aquello que causa conflicto entre usted y su ni\u00f1o(a): (2, Messy Room Habitaci\u00f3n desordenada)",
     "ui": {
         "inputType": "radio"
     },

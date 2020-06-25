@@ -1,7 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "radio",
     "skos:prefLabel": "Radio",
@@ -12,7 +10,9 @@
     "question": "## Radio\r\n\r\nThe Radio widget allows the user to respond to a multiple choice question. Options can also have images associated with them.\r\n\r\nHow was your child's day?",
     "ui": {
         "inputType": "radio",
-        "allow": ["autoAdvance"]
+        "allow": [
+            "autoAdvance"
+        ]
     },
     "responseOptions": {
         "@type": "xsd:anyURI",

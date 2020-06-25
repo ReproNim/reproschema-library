@@ -5,7 +5,7 @@
     "prefLabel": "irma_hurtep_d1___1",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el huracán? (puedes verificar más de uno) (1, in my home  en mi casa)",
+    "question": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el hurac\u00e1n? (puedes verificar m\u00e1s de uno) (1, in my home  en mi casa)",
     "ui": {
         "inputType": "radio"
     },

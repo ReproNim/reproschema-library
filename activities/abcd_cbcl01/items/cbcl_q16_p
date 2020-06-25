@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Cruelty, bullying, or meanness to others ",
-        "es": "Es cruel, abusador(a), y malo(a) con los demás"
+        "es": "Es cruel, abusador(a), y malo(a) con los dem\u00e1s"
     },
     "ui": {
         "inputType": "radio"

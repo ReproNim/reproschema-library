@@ -6,7 +6,7 @@
     "altLabel": "kbi_c_drop_in_grades_p_l ksads_back_c_drop_in_grades_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "In the past year or past several months, has there been a drop in your child's grades? ¿Las calificaciones de su niño(a) han bajado en el último año o en los últimos meses?",
+    "question": "In the past year or past several months, has there been a drop in your child's grades? \u00bfLas calificaciones de su ni\u00f1o(a) han bajado en el \u00faltimo a\u00f1o o en los \u00faltimos meses?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": -1,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 2 = No No; -1 = Not applicable No aplica"
+            "value": "1 = Yes S\u00ed; 2 = No No; -1 = Not applicable No aplica"
         }
     ]
 }

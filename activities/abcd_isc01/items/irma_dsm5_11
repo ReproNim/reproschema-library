@@ -5,7 +5,7 @@
     "prefLabel": "irma_dsm5_11",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "11. When something reminds me of Hurricane Irma I get very upset, afraid, or sad. 11. Cuando algo me recuerda al huracán Irma, me siento muy enojado, asustado o triste.",
+    "question": "11. When something reminds me of Hurricane Irma I get very upset, afraid, or sad. 11. Cuando algo me recuerda al hurac\u00e1n Irma, me siento muy enojado, asustado o triste.",
     "ui": {
         "inputType": "radio"
     },

@@ -5,7 +5,7 @@
     "prefLabel": "ksads_2_835_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Diagnosis - Bipolar II Disorder currently hypomanic ξF31.81",
+    "question": "Diagnosis - Bipolar II Disorder currently hypomanic \u03beF31.81",
     "ui": {
         "inputType": "text"
     },

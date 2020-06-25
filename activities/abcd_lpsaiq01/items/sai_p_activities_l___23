@@ -6,7 +6,7 @@
     "altLabel": "sports_activity_activities_p_l___23",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "(23, Musical Instrument (Singing,  Choir,  Guitar,  Piano,  Drums,  Violin,  Flute,  Band,  Rock Band,  Orchestra) Instrumento musical (canto,  coro,  guitarra,  piano,  batería,  violín,  flauta,  banda,  banda de rock,  orquesta))",
+    "question": "(23, Musical Instrument (Singing,  Choir,  Guitar,  Piano,  Drums,  Violin,  Flute,  Band,  Rock Band,  Orchestra) Instrumento musical (canto,  coro,  guitarra,  piano,  bater\u00eda,  viol\u00edn,  flauta,  banda,  banda de rock,  orquesta))",
     "ui": {
         "inputType": "radio"
     },

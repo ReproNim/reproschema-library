@@ -17,7 +17,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "Loewy, R. L.,  Pearson, R.,  et al. (2011)  Psychosis risk screening with the Prodromal Questionnaire--brief version (PQ-B).  Schizophr Res 129(1): 42-46.  In the Prodromal Psychosis survey, \"How much did it bother you?\" is typically scored 2 - 6.  In the version used by ABCD,  this item was scored  1 - 5.   Because the \"Did it bother you\" sum score is equal to the sum of the number of severity scores used in the severity score calculation, we were able to compensate for this scoring difference by adding the \"Did it bother you\" sum score to the severity score.  After applying this change, the severity scores reported here are comparable to those calculated using the  \"How much did it bother you\"  2 - 6  scoring range."
+            "value": "Loewy, R. L.,  Pearson, R.,  et al. (2011)  Psychosis risk screening with the Prodromal Questionnaire--brief version (PQ-B).  Schizophr Res 129(1): 42-46.  In the Prodromal Psychosis survey, \"How much did it bother you?\"\u00a0is typically scored 2 - 6.  In the version used by ABCD, \u00a0this item was scored \u00a01 - 5.   Because the \"Did it bother you\" sum score is equal to the sum of the number of severity scores used in the severity score calculation, we were able to compensate for this scoring difference by adding the \"Did it bother you\" sum score to the severity score. \u00a0After applying this change, the severity scores reported here are comparable to those calculated using the \u00a0\"How much did it bother you\" \u00a02 - 6 \u00a0scoring range."
         }
     ]
 }

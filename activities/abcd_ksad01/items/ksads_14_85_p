@@ -5,7 +5,7 @@
     "prefLabel": "ksads_14_85_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Difficulty remaining seated since elementary school ξPresent ξ",
+    "question": "Symptom - Difficulty remaining seated since elementary school \u03bePresent \u03be",
     "ui": {
         "inputType": "text"
     },

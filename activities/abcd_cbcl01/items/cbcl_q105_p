@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Uses drugs for non medical purposes (don't include alcohol or tobacco) ",
-        "es": "Usa drogas sin motivo médico (no incluya alcohol o tabaco)"
+        "es": "Usa drogas sin motivo m\u00e9dico (no incluya alcohol o tabaco)"
     },
     "ui": {
         "inputType": "radio"

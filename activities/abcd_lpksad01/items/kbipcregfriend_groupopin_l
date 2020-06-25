@@ -6,7 +6,7 @@
     "altLabel": "kbi_c_reg_friend_group_opin_p_l kbi_p_c_reg_friend_group_opin_l ksads_back_c_reg_friend_group_opin_p_l ksads_c_reg_friend_group_opin_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Do you like your child's friends? ¿A usted le caen bien los amigos de su niño(a)?",
+    "question": "Do you like your child's friends? \u00bfA usted le caen bien los amigos de su ni\u00f1o(a)?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 3,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 2 = Some Algo; 3 = No No"
+            "value": "1 = Yes S\u00ed; 2 = Some Algo; 3 = No No"
         }
     ]
 }

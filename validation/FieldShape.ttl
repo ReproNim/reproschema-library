@@ -103,7 +103,7 @@ schema:ChoicesShape
     ] ;
     sh:property [
         sh:path schema:image ;
-        sh:datatype xsd:string ;
+        sh:datatype xsd:anyURI ;
     ] ;
     sh:property [
         sh:path reproterms:dontKnow ;

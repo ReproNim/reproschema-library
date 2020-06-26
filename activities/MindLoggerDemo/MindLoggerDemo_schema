@@ -48,11 +48,13 @@
             },
             {
                 "variableName": "audio-stimulus",
-                "isAbout": "items/audio-stimulus"
+                "isAbout": "items/audio-stimulus",
+                "allow": [ "autoAdvance", "allowReplay"]
             },
             {
                 "variableName": "audio-record",
-                "isAbout": "items/audio-record"
+                "isAbout": "items/audio-record",
+                "requiredValue": true
             },
             {
                 "variableName": "audio-image-record",

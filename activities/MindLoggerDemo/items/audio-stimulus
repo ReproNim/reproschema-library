@@ -10,31 +10,11 @@
     "question": {
         "en": "## Audio Stimulus\r\n\r\nPlay a sound for the user.\r\n\r\nThis widget can be configured to play automatically when the user gets to this screen, and to advance to the following screen automatically.\r\n\r\nThis widget can also be configured to only play once."
     },
+    "schema:audio": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/ravlt-a.mp3",
     "ui": {
-        "inputType": "audioStimulus",
-        "allow": [
-            "autoAdvance"
-        ]
+        "inputType": "audioStimulus"
     },
-    "inputOptions": [
-        {
-            "@type": "schema:URL",
-            "schema:name": "stimulus",
-            "schema:value": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/ravlt-a.mp3",
-            "schema:contentUrl": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/ravlt-a.mp3"
-        },
-        {
-            "@type": "schema:Boolean",
-            "schema:name": "allowReplay",
-            "schema:value": true
-        }
-    ],
-    "media": {
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/ravlt-a.mp3": {
-            "@type": "schema:AudioObject",
-            "schema:name": "stimulus",
-            "schema:contentUrl": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/ravlt-a.mp3",
-            "schema:transcript": "Drum, Curtain, Bell, Coffee, School, Parent, Moon, Garden, Hat, Farmer, Nose, Turkey, Color, House, River."
-        }
+    "responseOptions": {
+
     }
 }

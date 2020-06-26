@@ -28,5 +28,5 @@ jobs:
       run: |
         python tests/jsonParser.py
     - name: Test with pyshacl
-        run: |
-          python tests/validate.py
+      run: |
+        python tests/validate.py

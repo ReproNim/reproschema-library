@@ -10,5 +10,5 @@
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceTask/items/pataka_valueConstraints"
+    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/VoiceTask/items/pataka_valueConstraints"
 }

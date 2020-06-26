@@ -10,7 +10,7 @@
     "question": {
         "en": "## Audio Stimulus\r\n\r\nPlay a sound for the user.\r\n\r\nThis widget can be configured to play automatically when the user gets to this screen, and to advance to the following screen automatically.\r\n\r\nThis widget can also be configured to only play once."
     },
-    "schema:audio": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/ravlt-a.mp3",
+    "schema:audio": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/resources/ravlt-a.mp3",
     "ui": {
         "inputType": "audioStimulus"
     },

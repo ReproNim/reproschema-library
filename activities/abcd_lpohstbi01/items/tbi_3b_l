@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "tbi_3b_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_3b_l",
     "altLabel": "brain_injury_3b_l tbi_3b_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Was he/she knocked out or did he/she lose consciousness (LOC)? If yes, how long? ¿Estuvo él o ella noqueado/a o perdió el conocimiento? ¿Si la respuesta es si, por cuánto tiempo?",
+    "question": "Was he/she knocked out or did he/she lose consciousness (LOC)? If yes, how long? \u00bfEstuvo \u00e9l o ella noqueado/a o perdi\u00f3 el conocimiento? \u00bfSi la respuesta es si, por cu\u00e1nto tiempo?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 3,
         "choices": [
             {
-                "name": "No LOC Sin pérdida de conocimiento",
+                "name": "No LOC Sin p\u00e9rdida de conocimiento",
                 "value": 0
             },
             {
@@ -37,7 +37,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = No LOC Sin pérdida de conocimiento; 1 = < 30min < 30min; 2 = 30min-24hrs 30min-24hrs; 3 = >24 hrs >24 hrs"
+            "value": "0 = No LOC Sin p\u00e9rdida de conocimiento; 1 = < 30min < 30min; 2 = 30min-24hrs 30min-24hrs; 3 = >24 hrs >24 hrs"
         }
     ]
 }

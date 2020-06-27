@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_cs5",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_cs5",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "CS5. Do these reactions, thoughts, and feelings make it harder for you to do well in school? CS5. ¿Estas reacciones, pensamientos y sentimientos hace más difícil que te vaya bien en la escuela?",
+    "question": "CS5. Do these reactions, thoughts, and feelings make it harder for you to do well in school? CS5. \u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil que te vaya bien en la escuela?",
     "ui": {
         "inputType": "radio"
     },

@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a8",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a8",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did your pet run away or have to be given away because of the hurricane? ¿Se escapA su mascota o tuvo que ser entregada debido al huracán?",
+    "question": "Did your pet run away or have to be given away because of the hurricane? \u00bfSe escapA su mascota o tuvo que ser entregada debido al hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

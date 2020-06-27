@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "q_1",
     "skos:prefLabel": "q_1",
@@ -15,7 +15,6 @@
         "schema:minValue": 0,
         "schema:maxValue": 1,
         "multipleChoice": false,
-
         "choices": [
             {
                 "schema:name": "Yes",

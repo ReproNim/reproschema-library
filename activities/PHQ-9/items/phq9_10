@@ -1,4 +1,5 @@
-{   "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "phq9_10",
     "skos:prefLabel": "PHQ9-10",
@@ -7,7 +8,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
-        "es": "¿Qué tanta dificultad le han dado estos problemas para hacer su trabajo, encargarse de las tareas del hogar, o llevarse bien con otras personas?"
+        "es": "\u00bfQu\u00e9 tanta dificultad le han dado estos problemas para hacer su trabajo, encargarse de las tareas del hogar, o llevarse bien con otras personas?"
     },
     "ui": {
         "inputType": "radio"
@@ -17,34 +18,35 @@
         "minValue": 0,
         "maxValue": 3,
         "multipleChoice": false,
-        "choices": [{
-            "name": {
-                "en": "Not difficult at all",
-                "es": "No ha sido difícil"
+        "choices": [
+            {
+                "name": {
+                    "en": "Not difficult at all",
+                    "es": "No ha sido dif\u00edcil"
+                },
+                "value": 0
             },
-            "value": 0
-        },
-        {
-            "name": {
-                "en": "Somewhat difficult",
-                "es": "Un poco difícil"
+            {
+                "name": {
+                    "en": "Somewhat difficult",
+                    "es": "Un poco dif\u00edcil"
+                },
+                "value": 1
             },
-            "value": 1
-        },
-        {
-            "name": {
-                "en": "Very difficult",
-                "es": "Muy difícil"
+            {
+                "name": {
+                    "en": "Very difficult",
+                    "es": "Muy dif\u00edcil"
+                },
+                "value": 2
             },
-            "value": 2
-        },
-        {
-            "name": {
-                "en": "Extremely difficult",
-                "es": "Extremadamente difícil"
-            },
-            "value": 3
-        }]
+            {
+                "name": {
+                    "en": "Extremely difficult",
+                    "es": "Extremadamente dif\u00edcil"
+                },
+                "value": 3
+            }
+        ]
     }
-
 }

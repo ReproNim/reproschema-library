@@ -1,5 +1,7 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@id": "describe_image_valueConstraints",
+    "@type": "reproschema:ResponseOptions",
     "valueType": "audioImageRecord",
     "schema:minValue": 0,
     "schema:maxValue": 60000,

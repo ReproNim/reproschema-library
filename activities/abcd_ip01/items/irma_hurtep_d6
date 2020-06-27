@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_d6",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_d6",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did your child see anyone else get hurt badly during the hurricane? ¿Tu hijo(a) vio a otra persona lastimarse mal durante el huracán?",
+    "question": "Did your child see anyone else get hurt badly during the hurricane? \u00bfTu hijo(a) vio a otra persona lastimarse mal durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

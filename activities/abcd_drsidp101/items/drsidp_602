@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "drsidp_602",
     "@type": "reproschema:Field",
     "prefLabel": "drsidp_602",
     "altLabel": "dmri_rsi.nds2.wm_cort.destrieux_mean.lh dmri_rsinds2wm_cortdestrieux_meanlh",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Neurite density (FD divided by T) with hindered volume fraction within sub-adjacent white matter associated with left hemisphere cortical Destrieux ROI mean",
+    "question": "Neurite density (FD divided by T) with hindered volume fraction within sub-adjacent white matter associated with\u00a0left hemisphere cortical Destrieux ROI mean",
     "ui": {
         "inputType": "number"
     },

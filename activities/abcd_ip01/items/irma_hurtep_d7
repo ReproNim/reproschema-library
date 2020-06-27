@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_d7",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_d7",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did your child have to go outside during the hurricane because the building you were in was damaged? ¿Tu hijo(a) tuvo que salir afuera durante el huracán porque el edificio donde estabas fue dañado?",
+    "question": "Did your child have to go outside during the hurricane because the building you were in was damaged? \u00bfTu hijo(a) tuvo que salir afuera durante el hurac\u00e1n porque el edificio donde estabas fue da\u00f1ado?",
     "ui": {
         "inputType": "radio"
     },

@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "ksads_9_868_t",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_9_868_t",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Diagnosis - Specific Phobia ¥Ë_¥Ë_PAST (F40.2XX)",
+    "question": "Diagnosis - Specific Phobia \u00a5\u00cb_\u00a5\u00cb_PAST (F40.2XX)",
     "ui": {
         "inputType": "text"
     },

@@ -1,18 +1,17 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gad7_6",
     "skos:prefLabel": "GAD7-6",
     "schema:description": "schema for Q6 of the GAD7 Assessment",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Becoming easily annoyed or irritable?",
     "question": {
-    "en": "Becoming easily annoyed or irritable?",
-    "es": "¿Se ha molestado o irritado fácilmente?"
+        "en": "Becoming easily annoyed or irritable?",
+        "es": "\u00bfSe ha molestado o irritado f\u00e1cilmente?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/GAD7/valueConstraints"
+    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/GAD7/valueConstraints"
 }

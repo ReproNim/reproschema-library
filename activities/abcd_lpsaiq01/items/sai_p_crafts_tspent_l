@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_crafts_tspent_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_crafts_tspent_l",
     "altLabel": "sai_crafts_tspent_p_l sports_activity_crafts_tspent_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Crafts like Knitting, Building Model Cars or Airplanes Manualidades, como tejer o armar modelos de autos o aviones About how many minutes per session? ¿Aproximadamente cuántos minutos por sesiAn?",
+    "question": "Crafts like Knitting, Building Model Cars or Airplanes Manualidades, como tejer o armar modelos de autos o aviones About how many minutes per session? \u00bfAproximadamente cu\u00e1ntos minutos por sesiAn?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 9,
         "choices": [
             {
-                "name": "Don't know No lo sé ",
+                "name": "Don't know No lo s\u00e9 ",
                 "value": 999
             },
             {
@@ -65,7 +65,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "999 = Don't know No lo sé ; 0 = 0; 1 = less than 30 minutes menos de 30 minutos ; 2 = 30; 3 = 45; 4 = 60 (1 hr) 60 (1 hora) ; 5 = 90 (1.5 hrs) 90 (1.5 horas) ; 6 = 120 (2 hrs) 20 (2 horas) ; 7 = 150 (2.5 hrs) 150 (2.5 horas) ; 8 = 180 (3 hrs) 180 (3 horas) ; 9 = greater than 3 hours Mas de 3 horas  | (minutes) (minutos)"
+            "value": "999 = Don't know No lo s\u00e9 ; 0 = 0; 1 = less than 30 minutes menos de 30 minutos ; 2 = 30; 3 = 45; 4 = 60 (1 hr) 60 (1 hora) ; 5 = 90 (1.5 hrs) 90 (1.5 horas) ; 6 = 120 (2 hrs) 20 (2 horas) ; 7 = 150 (2.5 hrs) 150 (2.5 horas) ; 8 = 180 (3 hrs) 180 (3 horas) ; 9 = greater than 3 hours Mas de 3 horas  | (minutes) (minutos)"
         }
     ]
 }

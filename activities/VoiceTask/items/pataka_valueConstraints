@@ -1,8 +1,8 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "pataka_valueConstraints",
+    "@type": "reproschema:ResponseOptions",
     "valueType": "audioRecord",
     "schema:minValue": 0,
-    "schema:maxValue": 10000,
-    "multipleChoice": false
+    "schema:maxValue": 10000
 }

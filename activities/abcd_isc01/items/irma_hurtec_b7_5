@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_b7_5",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtec_b7_5",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How did you get news of information about Hurricane Irma? Check all that apply. ¿CAmo obtuvo noticias de informaciAn sobre el huracán? Marque todo lo que corresponda. (5, Other  Otro)",
+    "question": "How did you get news of information about Hurricane Irma? Check all that apply. \u00bfCAmo obtuvo noticias de informaciAn sobre el hurac\u00e1n? Marque todo lo que corresponda. (5, Other  Otro)",
     "ui": {
         "inputType": "radio"
     },

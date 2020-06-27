@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_child_time3_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_child_time3_v2_l",
     "altLabel": "demo_child_time3_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Who is the best person to contact about that household? Please select the relationship they have with the child. ¿Quien es la mejor persona para contactar con respecto a ese hogar? Por favor seleccione la relacion que tienen con su nin-o(a).",
+    "question": "Who is the best person to contact about that household? Please select the relationship they have with the child. \u00bfQuien es la mejor persona para contactar con respecto a ese hogar? Por favor seleccione la relacion que tienen con su nin-o(a).",
     "ui": {
         "inputType": "radio"
     },

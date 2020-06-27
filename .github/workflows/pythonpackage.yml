@@ -24,7 +24,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip setuptools
         pip install reproschema
-    - name: Test with pyshacl
+    - name: JSON linter
       run: |
         python tests/jsonParser.py
+    - name: Test with pyshacl
+      run: |
         python tests/validate.py

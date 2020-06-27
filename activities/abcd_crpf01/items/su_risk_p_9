@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "su_risk_p_9",
     "@type": "reproschema:Field",
     "prefLabel": "su_risk_p_9",
     "altLabel": "su_crpf_avail_9_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How many of your friends or family members have a medical marijuana prescription? ¿Cuántos de sus amigos(as) o familiares tienen una receta para marihuana medicinal?",
+    "question": "How many of your friends or family members have a medical marijuana prescription? \u00bfCu\u00e1ntos de sus amigos(as) o familiares tienen una receta para marihuana medicinal?",
     "ui": {
         "inputType": "radio"
     },
@@ -31,11 +31,11 @@
                 "value": 10
             },
             {
-                "name": "10 or more people 10 o más personas",
+                "name": "10 or more people 10 o m\u00e1s personas",
                 "value": 11
             },
             {
-                "name": "Don't know No lo sé",
+                "name": "Don't know No lo s\u00e9",
                 "value": 999
             },
             {
@@ -48,7 +48,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = 0; 8 = 1-3; 9 = 4-6; 10 = 7-9; 11 = 10 or more people 10 o más personas; 999 = Don't know No lo sé; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar quÃ© tan fÃ¡cil es conseguir ciertas sustancias."
+            "value": "0 = 0; 8 = 1-3; 9 = 4-6; 10 = 7-9; 11 = 10 or more people 10 o m\u00e1s personas; 999 = Don't know No lo s\u00e9; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar qu\u00c3\u00a9 tan f\u00c3\u00a1cil es conseguir ciertas sustancias."
         }
     ]
 }

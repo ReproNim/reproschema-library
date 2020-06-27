@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_pssc_3",
     "@type": "reproschema:Field",
     "prefLabel": "irma_pssc_3",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "3. In the last month, how often have you felt nervous and stressed? 3. En el último mes, ¿con qué frecuencia se sintiA nervioso(a) y estresado(a)?",
+    "question": "3. In the last month, how often have you felt nervous and stressed? 3. En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia se sintiA nervioso(a) y estresado(a)?",
     "ui": {
         "inputType": "radio"
     },

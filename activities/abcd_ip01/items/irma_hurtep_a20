@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a20",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a20",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall how safe do you think your child has felt have been since the hurricane? En general, ¿qué tan seguro crees que  tu hijo  ha sentido desde el huracán?",
+    "question": "Overall how safe do you think your child has felt have been since the hurricane? En general, \u00bfqu\u00e9 tan seguro crees que  tu hijo  ha sentido desde el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

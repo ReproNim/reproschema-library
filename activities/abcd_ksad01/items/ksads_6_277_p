@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "ksads_6_277_p",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_6_277_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Impairment in functioning due to ξAgoraphobia Past",
+    "question": "Symptom - Impairment in functioning due to \u03beAgoraphobia Past",
     "ui": {
         "inputType": "text"
     },

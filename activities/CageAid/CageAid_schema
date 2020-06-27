@@ -1,7 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/CageAid/CageAid_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "CageAid_schema",
     "skos:prefLabel": "CAGE AID",
@@ -11,30 +9,36 @@
     "preamble": "When thinking about drug use, include illegal drug use and the use of prescription drug use other than prescribed.",
     "ui": {
         "addProperties": [
-                {"isAbout": "ca_1",
+            {
+                "isAbout": "items/ca_1",
                 "variableName": "ca_1",
                 "isVis": true
-                },
-                {"isAbout": "ca_2",
+            },
+            {
+                "isAbout": "items/ca_2",
                 "variableName": "ca_2",
                 "isVis": true
-                },
-                {"isAbout": "ca_3",
+            },
+            {
+                "isAbout": "items/ca_3",
                 "variableName": "ca_3",
                 "isVis": true
-                },
-                {"isAbout": "ca_4",
+            },
+            {
+                "isAbout": "items/ca_4",
                 "variableName": "ca_4",
                 "isVis": true
-                }
+            }
         ],
         "order": [
-            "ca_1",
-            "ca_2",
-            "ca_3",
-            "ca_4"
+            "items/ca_1",
+            "items/ca_2",
+            "items/ca_3",
+            "items/ca_4"
         ],
         "shuffle": false,
-        "allow": ["skipped"]
+        "allow": [
+            "skipped"
+        ]
     }
 }

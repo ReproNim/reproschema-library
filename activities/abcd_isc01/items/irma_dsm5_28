@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_28",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_28",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "28. I feel like I am seeing myself or what I am doing from outside my body (like watching myself in a movie). 28. Siento que me veo o que estoy hacienda cosas desde fuera de mi cuerpo (como si yo estaba en una película).",
+    "question": "28. I feel like I am seeing myself or what I am doing from outside my body (like watching myself in a movie). 28. Siento que me veo o que estoy hacienda cosas desde fuera de mi cuerpo (como si yo estaba en una pel\u00edcula).",
     "ui": {
         "inputType": "radio"
     },

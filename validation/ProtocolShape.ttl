@@ -5,8 +5,8 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dash: <http://datashapes.org/dash#> .
-@prefix reproterms: <https://raw.githubusercontent.com/ReproNim/reproschema/master/terms/> .
-@prefix reproschema: <https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/> .
+@prefix reproterms: <https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/terms/> .
+@prefix reproschema: <https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/schemas/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 

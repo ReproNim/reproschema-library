@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_a18",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtec_a18",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall, how stressed do you think your parent(s) has been since the hurricane? En general, ¿qué tan estresados crees que han estado tus padres desde el huracán?",
+    "question": "Overall, how stressed do you think your parent(s) has been since the hurricane? En general, \u00bfqu\u00e9 tan estresados crees que han estado tus padres desde el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

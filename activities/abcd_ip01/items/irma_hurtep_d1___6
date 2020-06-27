@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_d1___6",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_d1___6",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el huracán? (puedes verificar más de uno) (6, in a car  en un auto)",
+    "question": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el hurac\u00e1n? (puedes verificar m\u00e1s de uno) (6, in a car  en un auto)",
     "ui": {
         "inputType": "radio"
     },

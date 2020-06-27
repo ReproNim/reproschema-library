@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_d17",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtec_d17",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Overall, how stressed did you feel during the hurricane? En general, ¿qué tan estresado ustedse sintiA duranteel huracán?",
+    "question": "Overall, how stressed did you feel during the hurricane? En general, \u00bfqu\u00e9 tan estresado ustedse sintiA duranteel hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

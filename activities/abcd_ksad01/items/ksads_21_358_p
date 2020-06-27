@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "ksads_21_358_p",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_21_358_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Symptom - Inability to ξrecall aspects of trauma Past",
+    "question": "Symptom - Inability to \u03berecall aspects of trauma Past",
     "ui": {
         "inputType": "text"
     },

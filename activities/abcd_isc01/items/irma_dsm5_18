@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_18",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_18",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "18. I have upsetting thoughts, pictures or sounds of Hurricane Irma come into my mind when I don't want them to. 18. Tengo pensamientos perturbadores, imágenes o sonidos del huracán Irma que vienen a mi mente cuando no quiero que lo hagan.",
+    "question": "18. I have upsetting thoughts, pictures or sounds of Hurricane Irma come into my mind when I don't want them to. 18. Tengo pensamientos perturbadores, im\u00e1genes o sonidos del hurac\u00e1n Irma que vienen a mi mente cuando no quiero que lo hagan.",
     "ui": {
         "inputType": "radio"
     },

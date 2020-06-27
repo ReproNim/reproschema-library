@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_activities_l___9",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___9",
     "altLabel": "sports_activity_activities_p_l___9",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "(r) ¿Español? (9, Ice or Inline Skating Patinaje sobre hielo o sobre ruedas)",
+    "question": "(r) \u00bfEspa\u00f1ol? (9, Ice or Inline Skating Patinaje sobre hielo o sobre ruedas)",
     "ui": {
         "inputType": "radio"
     },

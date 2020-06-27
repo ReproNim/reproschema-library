@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "tbi_7f_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_7f_l",
     "altLabel": "brain_injury_7f_l tbi_7f_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "At what age did these effects end? ¿A qué edad terminaron estos efectos?",
+    "question": "At what age did these effects end? \u00bfA qu\u00e9 edad terminaron estos efectos?",
     "ui": {
         "inputType": "number"
     },

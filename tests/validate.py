@@ -67,6 +67,8 @@ for root, dirs, files in os.walk('activities'):
                     shape_file_path = 'validation/ActivityShape.ttl'
                 elif data['@type'] == 'reproschema:Field':
                     shape_file_path = 'validation/FieldShape.ttl'
+                elif data['@type'] == 'reproschema:ResponseOptions':
+                    shape_file_path = 'validation/ResponseOptionsShape.ttl'
                 validate_data(data, root, shape_file_path)
             except ValueError as e:
                 print ("File '%s' has validation errors: \n %s" %(full_file_name, e))

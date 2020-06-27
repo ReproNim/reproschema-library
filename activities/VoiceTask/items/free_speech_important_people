@@ -1,6 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "free_speech_important_people",
     "skos:prefLabel": "Free speech people",
@@ -9,7 +8,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Describe three important people in your life. Describe their personalities, what they do or why they are important to you with as much detail as possible.",
-        "es": "Hable de tres personas importantes de tu vida. Describa sus personalidades, sobre lo que hacen, o por qué son importantes para vos con el mayor detalle posible."
+        "es": "Hable de tres personas importantes de tu vida. Describa sus personalidades, sobre lo que hacen, o por qu\u00e9 son importantes para vos con el mayor detalle posible."
     },
     "ui": {
         "inputType": "audioRecord"
@@ -20,5 +19,4 @@
         "schema:maxValue": 120000,
         "multipleChoice": false
     }
-
 }

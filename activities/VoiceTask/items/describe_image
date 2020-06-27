@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "describe_image",
     "skos:prefLabel": "Describe image",
@@ -10,5 +10,5 @@
     "ui": {
         "inputType": "audioImageRecord"
     },
-    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceTask/items/describe_image_valueConstraints"
+    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/VoiceTask/items/describe_image_valueConstraints"
 }

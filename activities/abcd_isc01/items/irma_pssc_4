@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_pssc_4",
     "@type": "reproschema:Field",
     "prefLabel": "irma_pssc_4",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "4. In the last month, how often have you felt confident about your ability to handle your personal problems? 4. En el último mes, ¿con qué frecuencia se sintiA seguro acerca de su capacidad para encargarse de sus problemas personales?",
+    "question": "4. In the last month, how often have you felt confident about your ability to handle your personal problems? 4. En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia se sintiA seguro acerca de su capacidad para encargarse de sus problemas personales?",
     "ui": {
         "inputType": "radio"
     },

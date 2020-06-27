@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_cs4",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_cs4",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "CS4. Do these reactions, thoughts, and feelings cause some other problem at home? CS4. ¿Estas reacciones, pensamientos y sentimientos causan algún otro problema en casa?",
+    "question": "CS4. Do these reactions, thoughts, and feelings cause some other problem at home? CS4. \u00bfEstas reacciones, pensamientos y sentimientos causan alg\u00fan otro problema en casa?",
     "ui": {
         "inputType": "radio"
     },

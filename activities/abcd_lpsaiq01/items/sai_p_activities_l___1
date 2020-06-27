@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_activities_l___1",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___1",
     "altLabel": "sports_activity_activities_p_l___1",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "(1, Baseball,  Softball  Béisbol,  Softbol)",
+    "question": "(1, Baseball,  Softball  B\u00e9isbol,  Softbol)",
     "ui": {
         "inputType": "radio"
     },

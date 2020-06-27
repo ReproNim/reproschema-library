@@ -1,6 +1,6 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
-    "@id": "phq9_valueConstraints",
+    "@id": "valueConstraints",
     "@type": "reproschema:ResponseOptions",
     "valueType": "xsd:integer",
     "schema:minValue": 0,

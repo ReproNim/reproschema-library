@@ -4,10 +4,13 @@ import json
 tested = 0
 for root, dirs, files in os.walk('activities', topdown=True):
     for name in files:
-        with open(os.path.join(root, name)) as fp:
+        filename = os.path.join(root, name)
+        with open(filename) as fp:
             try:
                 tested +=1
-                json.load(fp)
+                data = json.load(fp)
+                if data["@id"] != name:
+                    raise NameError(f"{root}/{name} does not have matching @id")
             except json.decoder.JSONDecodeError:
                 print(f"{root}/{name} could not be loaded")
                 raise

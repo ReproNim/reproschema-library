@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_23",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_23",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "23. I have trouble remembering important parts of Hurricane Irma. 23. Tengo problemas para recordar partes importantes del huracán Irma.",
+    "question": "23. I have trouble remembering important parts of Hurricane Irma. 23. Tengo problemas para recordar partes importantes del hurac\u00e1n Irma.",
     "ui": {
         "inputType": "radio"
     },

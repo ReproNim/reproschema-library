@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "feedback_yes",
     "skos:prefLabel": "Feedback yes detail",
@@ -10,7 +10,6 @@
     "ui": {
         "inputType": "radio"
     },
-
     "responseOptions": {
         "valueType": "xsd:string",
         "schema:minValue": 1,

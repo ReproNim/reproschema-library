@@ -1,6 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gender",
     "skos:prefLabel": "Gender",
@@ -16,11 +15,12 @@
         "multipleChoice": false,
         "minValue": 0,
         "maxValue": 1,
-        "choices": [{
-            "@type": "schema:Female",
-            "name": "Female",
-            "value": 0
-        },
+        "choices": [
+            {
+                "@type": "schema:Female",
+                "name": "Female",
+                "value": 0
+            },
             {
                 "@type": "schema:Male",
                 "schema:name": "Male",
@@ -29,4 +29,3 @@
         ]
     }
 }
-

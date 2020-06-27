@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q56d_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q56d_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Problems with eyes (not if corrected by glasses) ",
-        "es": "Problemas con los ojos (no incluya si se corrigió con gafas/lentes/espejuelos)"
+        "es": "Problemas con los ojos (no incluya si se corrigi\u00f3 con gafas/lentes/espejuelos)"
     },
     "ui": {
         "inputType": "radio"

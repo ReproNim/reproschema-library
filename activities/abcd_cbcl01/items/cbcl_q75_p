@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q75_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q75_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Too shy or timid ",
-        "es": "Demasiado tímido(a)"
+        "es": "Demasiado t\u00edmido(a)"
     },
     "ui": {
         "inputType": "radio"

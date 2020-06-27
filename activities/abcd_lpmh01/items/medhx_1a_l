@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "medhx_1a_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_1a_l",
     "altLabel": "medhx_1a_dr_past_yr_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups? En el último año, ¿su niño(a) ha visto a un médico, enfermero(a), dentista o algún otro profesional similar de la salud, por algún motivo DISTINTO a sus chequeos periódicos?",
+    "question": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha visto a un m\u00e9dico, enfermero(a), dentista o alg\u00fan otro profesional similar de la salud, por alg\u00fan motivo DISTINTO a sus chequeos peri\u00f3dicos?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 6,
         "choices": [
             {
-                "name": "Yes SÍ",
+                "name": "Yes S\u00cd",
                 "value": 1
             },
             {
@@ -23,7 +23,7 @@
                 "value": 0
             },
             {
-                "name": "Don't know No sé",
+                "name": "Don't know No s\u00e9",
                 "value": 6
             }
         ],
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes SÍ; 0 = No No; 6 = Don't know No sé"
+            "value": "1 = Yes S\u00cd; 0 = No No; 6 = Don't know No s\u00e9"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "bads_6",
     "skos:prefLabel": "BADS-6",
@@ -10,5 +10,5 @@
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/BADS/valueConstraints"
+    "responseOptions": "../valueConstraints"
 }

@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_activities_l___2",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___2",
     "altLabel": "sports_activity_activities_p_l___2",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "(2, Basketball Básquetbol)",
+    "question": "(2, Basketball B\u00e1squetbol)",
     "ui": {
         "inputType": "radio"
     },

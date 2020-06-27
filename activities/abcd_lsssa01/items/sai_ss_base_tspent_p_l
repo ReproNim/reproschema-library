@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_ss_base_tspent_p_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_ss_base_tspent_p_l",
@@ -65,7 +65,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "999 = Don't know; 0 = 0; 1 = less than 30 minutes; 2 = 30; 3 = 45; 4 = 60 (1 hr); 5 = 90 (1.5 hrs); 6 = 120 (2 hrs); 7 = 150 (2.5 hrs); 8 = 180 (3 hrs); 9 = greater than 3 hours | When baseball/softball was not endorsed, values for the follow-up questions are missing. Here, missing values for  the  \"... how many...?\" follow-up questions have been replaced with \"0.\""
+            "value": "999 = Don't know; 0 = 0; 1 = less than 30 minutes; 2 = 30; 3 = 45; 4 = 60 (1 hr); 5 = 90 (1.5 hrs); 6 = 120 (2 hrs); 7 = 150 (2.5 hrs); 8 = 180 (3 hrs); 9 = greater than 3 hours | When baseball/softball was not endorsed, values for the follow-up questions are missing. Here, missing values for  the \u00a0\"... how many...?\" follow-up questions have been replaced with \"0.\""
         }
     ]
 }

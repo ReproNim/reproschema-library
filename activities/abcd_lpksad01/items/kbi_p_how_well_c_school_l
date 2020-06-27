@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "kbi_p_how_well_c_school_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_how_well_c_school_l",
     "altLabel": "kbi_how_well_c_school_p_l ksads_back_c_how_well_school_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "In general, how does your child do in school? En general, ¿cómo le va a su niño(a) en la escuela?",
+    "question": "In general, how does your child do in school? En general, \u00bfc\u00f3mo le va a su ni\u00f1o(a) en la escuela?",
     "ui": {
         "inputType": "radio"
     },
@@ -27,7 +27,7 @@
                 "value": 3
             },
             {
-                "name": "Failing Está reprobando o repitiendo un grado",
+                "name": "Failing Est\u00e1 reprobando o repitiendo un grado",
                 "value": 4
             },
             {
@@ -41,7 +41,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Very well Muy bien; 2 = Average Promedio; 3 = Below Average Por debajo del promedio; 4 = Failing Está reprobando o repitiendo un grado; -1 = Not applicable No aplica"
+            "value": "1 = Very well Muy bien; 2 = Average Promedio; 3 = Below Average Por debajo del promedio; 4 = Failing Est\u00e1 reprobando o repitiendo un grado; -1 = Not applicable No aplica"
         }
     ]
 }

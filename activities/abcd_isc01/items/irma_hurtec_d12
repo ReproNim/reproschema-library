@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_d12",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtec_d12",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you think you might be hurt badly during the hurricane? ¿Pensaste que podrías herirte de gravedad durante el huracán?",
+    "question": "Did you think you might be hurt badly during the hurricane? \u00bfPensaste que podr\u00edas herirte de gravedad durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

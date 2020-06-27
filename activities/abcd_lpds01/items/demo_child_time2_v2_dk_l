@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_child_time2_v2_dk_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_child_time2_v2_dk_l",
     "altLabel": "demo_child_time2_dk_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Don't know/Refuse to answer No lo sé/Prefiere no contestar",
+    "question": "Don't know/Refuse to answer No lo s\u00e9/Prefiere no contestar",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 777,
         "choices": [
             {
-                "name": "Don't know No lo sé",
+                "name": "Don't know No lo s\u00e9",
                 "value": 999
             },
             {
@@ -29,7 +29,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "999 = Don't know No lo sé; 777 = Refuse to answer Prefiere no contestar"
+            "value": "999 = Don't know No lo s\u00e9; 777 = Refuse to answer Prefiere no contestar"
         }
     ]
 }

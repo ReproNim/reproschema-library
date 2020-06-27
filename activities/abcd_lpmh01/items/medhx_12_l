@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "medhx_12_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_12_l",
     "altLabel": "medhx_12_blue_yellow_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How about the difference between blue and yellow? ¿Qué tal la diferencia entre el azul y el amarillo?",
+    "question": "How about the difference between blue and yellow? \u00bfQu\u00e9 tal la diferencia entre el azul y el amarillo?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 0,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -29,7 +29,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No"
+            "value": "1 = Yes S\u00ed; 0 = No No"
         }
     ]
 }

@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_cs6",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_cs6",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "CS6. Do these reactions, thoughts, and feelings cause other problems at school? CS6. ¿Estas reacciones, pensamientos y sentimientos causan otros problemas en la escuela?",
+    "question": "CS6. Do these reactions, thoughts, and feelings cause other problems at school? CS6. \u00bfEstas reacciones, pensamientos y sentimientos causan otros problemas en la escuela?",
     "ui": {
         "inputType": "radio"
     },

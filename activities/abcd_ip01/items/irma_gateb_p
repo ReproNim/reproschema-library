@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_gateb_p",
     "@type": "reproschema:Field",
     "prefLabel": "irma_gateb_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Were you and your child living in South Carolina at the time that Hurricane Irma hit the United States (September 2017)?  ¿Estaban usted y su hijo(a)  viviendo en la Carolina del Sur  en el momento en que el huracán Irma llegA a los Estados Unidos (Septiembre de 2017)?",
+    "question": "Were you and your child living in South Carolina at the time that Hurricane Irma hit the United States (September 2017)?  \u00bfEstaban usted y su hijo(a)  viviendo en la Carolina del Sur  en el momento en que el hurac\u00e1n Irma llegA a los Estados Unidos (Septiembre de 2017)?",
     "ui": {
         "inputType": "radio"
     },

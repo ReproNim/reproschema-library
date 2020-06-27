@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "medhx_8a_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_8a_l",
     "altLabel": "medhx_8a_hospital_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Since we last saw you on [asnt_timestamp_c], has he/she been in the hospital overnight or longer? Desde la última vez que nos vimos en [asnt_timestamp_c], ¿él/ella ha pasado una noche o más  en el hospital?",
+    "question": "Since we last saw you on [asnt_timestamp_c], has he/she been in the hospital overnight or longer? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bf\u00e9l/ella ha pasado una noche o m\u00e1s  en el hospital?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 6,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -23,7 +23,7 @@
                 "value": 0
             },
             {
-                "name": "Don't know No sé//Now I'd like to ask you about your child's use of health services since we last saw you on_____. ",
+                "name": "Don't know No s\u00e9//Now I'd like to ask you about your child's use of health services since we last saw you on_____. ",
                 "value": 6
             }
         ],
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No; 6 = Don't know No sé//Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
+            "value": "1 = Yes S\u00ed; 0 = No No; 6 = Don't know No s\u00e9//Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "medhx_6l_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_6l_l",
@@ -15,7 +15,7 @@
         "schema:maxValue": 0,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -29,7 +29,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No //Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
+            "value": "1 = Yes S\u00ed; 0 = No No //Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
         }
     ]
 }

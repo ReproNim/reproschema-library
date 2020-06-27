@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "kbi_p_c_bully_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_bully_l",
     "altLabel": "kbi_c_bully_p_l ksads_back_c_bully_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Since we last saw you, did your child have any problems with bullying at school or in your neighborhood? Desde la última vez que nos vimos, ¿su niño(a) tiene algún problema de acoso en la escuela o en su vecindario?",
+    "question": "Since we last saw you, did your child have any problems with bullying at school or in your neighborhood? Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) tiene alg\u00fan problema de acoso en la escuela o en su vecindario?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 2,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -29,7 +29,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 2 = No No"
+            "value": "1 = Yes S\u00ed; 2 = No No"
         }
     ]
 }

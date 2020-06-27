@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_ss_base_nmonth_p_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_ss_base_nmonth_p_l",
@@ -81,7 +81,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "999 = Don't know; 0 = 0; 1 = 1; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = 7; 8 = 8; 9 = 9; 10 = 10; 11 = 11; 12 = 12; 13 = More than 12 months | When baseball/softball was not endorsed, values for the follow-up questions are missing. Here, missing values for  the  \"... how many...?\" follow-up questions have been replaced with \"0.\""
+            "value": "999 = Don't know; 0 = 0; 1 = 1; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = 7; 8 = 8; 9 = 9; 10 = 10; 11 = 11; 12 = 12; 13 = More than 12 months | When baseball/softball was not endorsed, values for the follow-up questions are missing. Here, missing values for  the \u00a0\"... how many...?\" follow-up questions have been replaced with \"0.\""
         }
     ]
 }

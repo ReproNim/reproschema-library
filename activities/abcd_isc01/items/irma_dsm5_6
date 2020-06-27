@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_6",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_6",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "6. I feel like what happened during Hurricane Irma was sickening or gross. 6. Siento que lo que sucediA durante el huracán Irma fue repugnante o asqueroso.",
+    "question": "6. I feel like what happened during Hurricane Irma was sickening or gross. 6. Siento que lo que sucediA durante el hurac\u00e1n Irma fue repugnante o asqueroso.",
     "ui": {
         "inputType": "radio"
     },

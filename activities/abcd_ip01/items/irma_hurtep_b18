@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b18",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_b18",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate?  Si se pronostica que otro huracán golpea donde usted vive, ¿preferiría quedarse en su casa o evacuar?",
+    "question": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate?  Si se pronostica que otro hurac\u00e1n golpea donde usted vive, \u00bfpreferir\u00eda quedarse en su casa o evacuar?",
     "ui": {
         "inputType": "radio"
     },

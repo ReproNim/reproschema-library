@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/abcd_fastqc01/abcd_fastqc01_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_fastqc01_schema",
     "skos:prefLabel": "abcd_fastqc01",
@@ -10,68 +7,68 @@
     "schema:version": "0.0.1",
     "ui": {
         "order": [
-            "visit",
-            "abcd_compliant",
-            "file_source",
-            "ftq_complete",
-            "ftq_notes",
-            "ftq_quality",
-            "ftq_recall_reason",
-            "ftq_recalled",
-            "ftq_series_id",
-            "ftq_usable",
-            "img03_id",
-            "origin_dataset_id"
+            "items/visit",
+            "items/abcd_compliant",
+            "items/file_source",
+            "items/ftq_complete",
+            "items/ftq_notes",
+            "items/ftq_quality",
+            "items/ftq_recall_reason",
+            "items/ftq_recalled",
+            "items/ftq_series_id",
+            "items/ftq_usable",
+            "items/img03_id",
+            "items/origin_dataset_id"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "visit",
-                "isAbout": "visit"
+                "isAbout": "items/visit"
             },
             {
                 "variableName": "abcd_compliant",
-                "isAbout": "abcd_compliant"
+                "isAbout": "items/abcd_compliant"
             },
             {
                 "variableName": "file_source",
-                "isAbout": "file_source"
+                "isAbout": "items/file_source"
             },
             {
                 "variableName": "ftq_complete",
-                "isAbout": "ftq_complete"
+                "isAbout": "items/ftq_complete"
             },
             {
                 "variableName": "ftq_notes",
-                "isAbout": "ftq_notes"
+                "isAbout": "items/ftq_notes"
             },
             {
                 "variableName": "ftq_quality",
-                "isAbout": "ftq_quality"
+                "isAbout": "items/ftq_quality"
             },
             {
                 "variableName": "ftq_recall_reason",
-                "isAbout": "ftq_recall_reason"
+                "isAbout": "items/ftq_recall_reason"
             },
             {
                 "variableName": "ftq_recalled",
-                "isAbout": "ftq_recalled"
+                "isAbout": "items/ftq_recalled"
             },
             {
                 "variableName": "ftq_series_id",
-                "isAbout": "ftq_series_id"
+                "isAbout": "items/ftq_series_id"
             },
             {
                 "variableName": "ftq_usable",
-                "isAbout": "ftq_usable"
+                "isAbout": "items/ftq_usable"
             },
             {
                 "variableName": "img03_id",
-                "isAbout": "img03_id"
+                "isAbout": "items/img03_id"
             },
             {
                 "variableName": "origin_dataset_id",
-                "isAbout": "origin_dataset_id"
+                "isAbout": "items/origin_dataset_id"
             }
         ]
     }

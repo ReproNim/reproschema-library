@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_prim_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prim_l",
@@ -15,11 +15,11 @@
         "schema:maxValue": 5,
         "choices": [
             {
-                "name": "Child's Biological Mother La madre biologica del niño / de la niña",
+                "name": "Child's Biological Mother La madre biologica del ni\u00f1o / de la ni\u00f1a",
                 "value": 1
             },
             {
-                "name": "Child's Biological Father El padre biologico del niño / de la niña",
+                "name": "Child's Biological Father El padre biologico del ni\u00f1o / de la ni\u00f1a",
                 "value": 2
             },
             {
@@ -27,7 +27,7 @@
                 "value": 3
             },
             {
-                "name": "Child's Custodial Parent El padre o la madre que tiene la custodia del niño / de la niña",
+                "name": "Child's Custodial Parent El padre o la madre que tiene la custodia del ni\u00f1o / de la ni\u00f1a",
                 "value": 4
             },
             {
@@ -41,7 +41,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Child's Biological Mother La madre biologica del niño / de la niña; 2 = Child's Biological Father El padre biologico del niño / de la niña; 3 = Adoptive Parent Padre o madre adoptivo(a); 4 = Child's Custodial Parent El padre o la madre que tiene la custodia del niño / de la niña; 5 = Other Otro"
+            "value": "1 = Child's Biological Mother La madre biologica del ni\u00f1o / de la ni\u00f1a; 2 = Child's Biological Father El padre biologico del ni\u00f1o / de la ni\u00f1a; 3 = Adoptive Parent Padre o madre adoptivo(a); 4 = Child's Custodial Parent El padre o la madre que tiene la custodia del ni\u00f1o / de la ni\u00f1a; 5 = Other Otro"
         }
     ]
 }

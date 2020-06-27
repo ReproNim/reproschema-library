@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_m_arts_school_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_m_arts_school_l",
     "altLabel": "sai_m_arts_school_p_l sports_activity_m_arts_school_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Martial Arts Artes marciales Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school? ¿Alguna de estas actividades formA parte de algún equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?",
+    "question": "Martial Arts Artes marciales Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 0,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -29,7 +29,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No"
+            "value": "1 = Yes S\u00ed; 0 = No No"
         }
     ]
 }

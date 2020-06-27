@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "fam_roster_10c_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "fam_roster_10c_v2_l",
@@ -43,7 +43,7 @@
                 "value": 7
             },
             {
-                "name": "Housemate or roommate Compañero(a) de casa o de habitacion ",
+                "name": "Housemate or roommate Compa\u00f1ero(a) de casa o de habitacion ",
                 "value": 8
             },
             {
@@ -81,7 +81,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Husband or wife Esposo(a) ; 2 = Son-in-law or daughter-in-law Yerno / nuera ; 3 = Biological son or daughter Hijo(a) biologico(a) ; 4 = Other relative Otro pariente ; 5 = Adopted son or daughter Hijo(a) adoptado(a) ; 6 = Roomer or boarder Ocupante o inquilino ; 7 = Stepson or stepdaughter Hijastro(a) ; 8 = Housemate or roommate Compañero(a) de casa o de habitacion ; 9 = Brother or sister Hermano(a) ; 10 = Unmarried partner Pareja en union libre ; 11 = Father or mother Padre o madre ; 12 = Foster child Hijo(a) en cuidado tutelar ; 13 = Grandchild Nieto(a) ; 14 = Other nonrelative Otra persona que no es su pariente ; 15 = Parent-in-law Suegro(a)"
+            "value": "1 = Husband or wife Esposo(a) ; 2 = Son-in-law or daughter-in-law Yerno / nuera ; 3 = Biological son or daughter Hijo(a) biologico(a) ; 4 = Other relative Otro pariente ; 5 = Adopted son or daughter Hijo(a) adoptado(a) ; 6 = Roomer or boarder Ocupante o inquilino ; 7 = Stepson or stepdaughter Hijastro(a) ; 8 = Housemate or roommate Compa\u00f1ero(a) de casa o de habitacion ; 9 = Brother or sister Hermano(a) ; 10 = Unmarried partner Pareja en union libre ; 11 = Father or mother Padre o madre ; 12 = Foster child Hijo(a) en cuidado tutelar ; 13 = Grandchild Nieto(a) ; 14 = Other nonrelative Otra persona que no es su pariente ; 15 = Parent-in-law Suegro(a)"
         }
     ]
 }

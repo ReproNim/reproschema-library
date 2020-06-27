@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_ed_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_ed_v2_l",
     "altLabel": "demo_ed_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "What grade is the child in? If it is summer, indicate grade starting in the fall. ¿En qué grado está el/la nino(a)? [Si es verano, indique el grado que iniciará en el otono]",
+    "question": "What grade is the child in? If it is summer, indicate grade starting in the fall. \u00bfEn qu\u00e9 grado est\u00e1 el/la nino(a)? [Si es verano, indique el grado que iniciar\u00e1 en el otono]",
     "ui": {
         "inputType": "radio"
     },

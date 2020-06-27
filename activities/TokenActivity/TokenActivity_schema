@@ -1,7 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/TokenActivity/TokenActivity_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "TokenActivity_schema",
     "skos:prefLabel": "TokenActivity Assessment",
@@ -13,19 +11,15 @@
     },
     "ui": {
         "addProperties": [
-            {"isAbout": "token_screen",
-            "variableName": "token_screen",
-            "isVis": true
+            {
+                "isAbout": "items/token_screen",
+                "variableName": "token_screen",
+                "isVis": true
             }
         ],
         "order": [
-            "token_screen"
+            "items/token_screen"
         ],
         "shuffle": false
-
     }
 }
-
-
-
-

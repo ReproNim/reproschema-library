@@ -6,8 +6,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dash: <http://datashapes.org/dash#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix reproterms: <https://raw.githubusercontent.com/ReproNim/reproschema/master/terms/> .
-@prefix reproschema: <https://raw.githubusercontent.com/ReproNim/reproschema/master/schemas/> .
+@prefix reproterms: <https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/terms/> .
+@prefix reproschema: <https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/schemas/> .
 
 reproschema:FieldShape
     a sh:NodeShape ;
@@ -103,7 +103,7 @@ schema:ChoicesShape
     ] ;
     sh:property [
         sh:path schema:image ;
-        sh:datatype xsd:string ;
+        sh:datatype xsd:anyURI ;
     ] ;
     sh:property [
         sh:path reproterms:dontKnow ;

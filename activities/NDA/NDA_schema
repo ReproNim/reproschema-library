@@ -1,7 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/NDA_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "NDA_schema",
     "skos:prefLabel": "NDA guid",
@@ -10,40 +8,48 @@
     "schema:version": "0.0.1",
     "ui": {
         "addProperties": [
-            {"isAbout": "gender",
-            "variableName": "gender",
-            "isVis": true
+            {
+                "isAbout": "items/gender",
+                "variableName": "gender",
+                "isVis": true
             },
-            {"isAbout": "first_name",
-            "variableName": "first_name",
-            "isVis": true
+            {
+                "isAbout": "items/first_name",
+                "variableName": "first_name",
+                "isVis": true
             },
-            {"isAbout": "middle_name",
-            "variableName": "middle_name",
-            "isVis": true
+            {
+                "isAbout": "items/middle_name",
+                "variableName": "middle_name",
+                "isVis": true
             },
-            {"isAbout": "last_name",
-            "variableName": "last_name",
-            "isVis": true
+            {
+                "isAbout": "items/last_name",
+                "variableName": "last_name",
+                "isVis": true
             },
-            {"isAbout": "yearOfBirth",
-            "variableName": "yearOfBirth",
-            "isVis": true
+            {
+                "isAbout": "items/yearOfBirth",
+                "variableName": "yearOfBirth",
+                "isVis": true
             },
-            {"isAbout": "city_of_birth",
-            "variableName": "city_of_birth",
-            "isVis": true
+            {
+                "isAbout": "items/city_of_birth",
+                "variableName": "city_of_birth",
+                "isVis": true
             }
         ],
         "order": [
-            "gender",
-            "first_name",
-            "middle_name",
-            "last_name",
-            "yearOfBirth",
-            "city_of_birth"
+            "items/gender",
+            "items/first_name",
+            "items/middle_name",
+            "items/last_name",
+            "items/yearOfBirth",
+            "items/city_of_birth"
         ],
         "shuffle": false,
-        "allow": ["skipped"]
+        "allow": [
+            "skipped"
+        ]
     }
 }

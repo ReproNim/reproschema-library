@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "phq9_6",
     "skos:prefLabel": "PHQ9-6",
@@ -7,11 +7,11 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "question": {
-        "en": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down?",
-        "es": "¿Se ha sentido mal con usted mismo(a) – o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia?"
+        "en": "Feeling bad about yourself \u2014 or that you are a failure or have let yourself or your family down?",
+        "es": "\u00bfSe ha sentido mal con usted mismo(a) \u2013 o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/PHQ-9/valueConstraints"
+    "responseOptions": "../valueConstraints"
 }

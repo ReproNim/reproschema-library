@@ -1,7 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/NDA_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_nda_schema",
     "skos:prefLabel": "ABCD NDAguid",
@@ -10,38 +8,44 @@
     "schema:version": "0.0.1",
     "ui": {
         "addProperties": [
-            {"isAbout": "eventname",
-            "variableName": "eventname",
-            "isVis": true
+            {
+                "isAbout": "../NDA/items/eventname",
+                "variableName": "eventname",
+                "isVis": true
             },
-            {"isAbout": "interview_age",
-            "variableName": "interview_age",
-            "isVis": true
+            {
+                "isAbout": "../NDA/items/interview_age",
+                "variableName": "interview_age",
+                "isVis": true
             },
-            {"isAbout": "interview_date",
-            "variableName": "interview_date",
-            "isVis": true
+            {
+                "isAbout": "../NDA/items/interview_date",
+                "variableName": "interview_date",
+                "isVis": true
             },
-            {"isAbout": "sex",
-            "variableName": "sex",
-            "isVis": true
+            {
+                "isAbout": "../NDA/items/sex",
+                "variableName": "sex",
+                "isVis": true
             },
-            {"isAbout": "src_subject_id",
-            "variableName": "src_subject_id",
-            "isVis": true
+            {
+                "isAbout": "../NDA/items/src_subject_id",
+                "variableName": "src_subject_id",
+                "isVis": true
             },
-            {"isAbout": "subjectKey",
-            "variableName": "subjectKey",
-            "isVis": true
+            {
+                "isAbout": "../NDA/items/subjectKey",
+                "variableName": "subjectKey",
+                "isVis": true
             }
         ],
         "order": [
-            "eventname",
-            "interview_age",
-            "interview_date",
-            "sex",
-            "src_subject_id",
-            "subjectKey"
+            "../NDA/items/eventname",
+            "../NDA/items/interview_age",
+            "../NDA/items/interview_date",
+            "../NDA/items/sex",
+            "../NDA/items/src_subject_id",
+            "../NDA/items/subjectKey"
         ],
         "shuffle": false
     }

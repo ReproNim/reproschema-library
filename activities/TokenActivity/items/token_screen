@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "token_screen",
     "skos:prefLabel": "token_screen",
@@ -17,41 +17,43 @@
         "schema:minValue": 0,
         "schema:maxValue": 5,
         "multipleChoice": true,
-        "choices": [{
-            "name": {
-                "en": "Paid attention"
+        "choices": [
+            {
+                "name": {
+                    "en": "Paid attention"
+                },
+                "value": 0
             },
-            "value": 0
-        },
-        {
-            "name": {
-                "en": "Cleaned up room"
+            {
+                "name": {
+                    "en": "Cleaned up room"
+                },
+                "value": 1
             },
-            "value": 1
-        },
-        {
-            "name": {
-                "en": "Brushed teeth"
+            {
+                "name": {
+                    "en": "Brushed teeth"
+                },
+                "value": 2
             },
-            "value": 2
-        },
-        {
-            "name": {
-                "en": "Lied difficult"
+            {
+                "name": {
+                    "en": "Lied difficult"
+                },
+                "value": 3
             },
-            "value": 3
-        },
-        {
-            "name": {
-                "en": "Showed aggression"
+            {
+                "name": {
+                    "en": "Showed aggression"
+                },
+                "value": 4
             },
-            "value": 4
-        },
-        {
-            "name": {
-                "en": "Used foul language"
-            },
-            "value": 5
-        }]
+            {
+                "name": {
+                    "en": "Used foul language"
+                },
+                "value": 5
+            }
+        ]
     }
 }

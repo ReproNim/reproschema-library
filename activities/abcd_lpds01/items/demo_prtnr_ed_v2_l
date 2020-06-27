@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_prtnr_ed_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prtnr_ed_v2_l",
     "altLabel": "demo_prtnr_ed_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "What is the highest grade or level of school your partner completed or highest degree they received? ¿Cuál es el máximo nivel de estudios completados de su pareja o el máximo título que ha recibido?",
+    "question": "What is the highest grade or level of school your partner completed or highest degree they received? \u00bfCu\u00e1l es el m\u00e1ximo nivel de estudios completados de su pareja o el m\u00e1ximo t\u00edtulo que ha recibido?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 999,
         "choices": [
             {
-                "name": "Never attended/Kindergarten only Nunca asistí/Kinder solamente ",
+                "name": "Never attended/Kindergarten only Nunca asist\u00ed/Kinder solamente ",
                 "value": 0
             },
             {
@@ -83,7 +83,7 @@
                 "value": 16
             },
             {
-                "name": "Associate degree: Academic Program Título de asociado: programa académico ",
+                "name": "Associate degree: Academic Program T\u00edtulo de asociado: programa acad\u00e9mico ",
                 "value": 17
             },
             {
@@ -107,7 +107,7 @@
                 "value": 77
             },
             {
-                "name": "Don't Know No lo sé ",
+                "name": "Don't Know No lo s\u00e9 ",
                 "value": 99
             },
             {
@@ -115,7 +115,7 @@
                 "value": 777
             },
             {
-                "name": "Don't Know No lo sé",
+                "name": "Don't Know No lo s\u00e9",
                 "value": 999
             }
         ],
@@ -125,7 +125,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = Never attended/Kindergarten only Nunca asistí/Kinder solamente ; 1 = 1st grade 1.er grado ; 2 = 2nd grade 2. grado ; 3 = 3rd grade 3.er grado ; 4 = 4th grade 4. grado ; 5 = 5th grade 5. grado ; 6 = 6th grade 6. grado ; 7 = 7th grade 7. grado ; 8 = 8th grade 8. grado ; 9 = 9th grade 9. grado ; 10 = 10th grade 10. grado ; 11 = 11th grade 11. grado ; 12 = 12th grade; 13 = High school graduate Preparatoria terminada ; 14 = GED or equivalent Diploma General de Equivalencia (GED) o equivalente ; 15 = Some college; 16 = Associate degree: Occupational; 17 = Associate degree: Academic Program Título de asociado: programa académico ; 18 = Bachelor's degree (ex. BA; 19 = Master's degree (ex. MA; 20 = Professional School degree (ex. MD; 21 = Doctoral degree (ex. PhD; 77 = Refused to answer Prefiero no responder ; 99 = Don't Know No lo sé ; 777 = Refused to answer Prefiero no responder ; 999 = Don't Know No lo sé"
+            "value": "0 = Never attended/Kindergarten only Nunca asist\u00ed/Kinder solamente ; 1 = 1st grade 1.er grado ; 2 = 2nd grade 2. grado ; 3 = 3rd grade 3.er grado ; 4 = 4th grade 4. grado ; 5 = 5th grade 5. grado ; 6 = 6th grade 6. grado ; 7 = 7th grade 7. grado ; 8 = 8th grade 8. grado ; 9 = 9th grade 9. grado ; 10 = 10th grade 10. grado ; 11 = 11th grade 11. grado ; 12 = 12th grade; 13 = High school graduate Preparatoria terminada ; 14 = GED or equivalent Diploma General de Equivalencia (GED) o equivalente ; 15 = Some college; 16 = Associate degree: Occupational; 17 = Associate degree: Academic Program T\u00edtulo de asociado: programa acad\u00e9mico ; 18 = Bachelor's degree (ex. BA; 19 = Master's degree (ex. MA; 20 = Professional School degree (ex. MD; 21 = Doctoral degree (ex. PhD; 77 = Refused to answer Prefiero no responder ; 99 = Don't Know No lo s\u00e9 ; 777 = Refused to answer Prefiero no responder ; 999 = Don't Know No lo s\u00e9"
         }
     ]
 }

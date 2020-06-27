@@ -1,14 +1,16 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "phq9a_valueConstraints",
+    "@type": "reproschema:ResponseOptions",
     "valueType": "xsd:integer",
     "schema:minValue": 0,
     "schema:maxValue": 3,
     "multipleChoice": false,
-    "choices": [{
-        "schema:name": "Not at all",
-        "schema:value": 0
-    },
+    "choices": [
+        {
+            "schema:name": "Not at all",
+            "schema:value": 0
+        },
         {
             "schema:name": "Several days",
             "schema:value": 1

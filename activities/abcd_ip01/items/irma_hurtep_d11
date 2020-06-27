@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_d11",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_d11",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you think a family member might die during the hurricane? ¿Pensaste que un miembro de la familia podría morir durante el huracán?",
+    "question": "Did you think a family member might die during the hurricane? \u00bfPensaste que un miembro de la familia podr\u00eda morir durante el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

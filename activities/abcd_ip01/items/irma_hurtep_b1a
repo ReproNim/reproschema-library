@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b1a",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_b1a",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did your child leave (evacuate) your home for the hurricane? ¿Su hijo(a) dejo (evacuo) su hogar por el huracán?",
+    "question": "Did your child leave (evacuate) your home for the hurricane? \u00bfSu hijo(a) dejo (evacuo) su hogar por el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },

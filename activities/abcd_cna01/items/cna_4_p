@@ -1,14 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cna_4_p",
     "@type": "reproschema:Field",
-    "prefLabel": {"en": "cna_4_p", "es": "cna_4_p_es"},
+    "prefLabel": {
+        "en": "cna_4_p",
+        "es": "cna_4_p_es"
+    },
     "altLabel": "child_nutrition_4_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "question": {
         "en": "Think about what your child eats in a typical week, during this past year since we last saw you. In a typical week, does your child eat: Berries 2 or more times per week",
-        "es": "Piense en lo que su niño(a) come durante una semana  típica, durante el último año; desde la última vez que lo vimos.  En una semana típica, su niño(a) come: Bayas (ej. frutas como fresas, moras, arándanos, y frambuesas) 2 veces o más por semana."
+        "es": "Piense en lo que su ni\u00f1o(a) come durante una semana  t\u00edpica, durante el \u00faltimo a\u00f1o; desde la \u00faltima vez que lo vimos.  En una semana t\u00edpica, su ni\u00f1o(a) come: Bayas (ej. frutas como fresas, moras, ar\u00e1ndanos, y frambuesas) 2 veces o m\u00e1s por semana."
     },
     "ui": {
         "inputType": "radio"

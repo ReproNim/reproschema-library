@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_27",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_27",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "27. I want to get back at someone for what happened during Hurricane Irma. 27. Quiero castigar a alguien por lo que sucediA durante el huracán Irma.",
+    "question": "27. I want to get back at someone for what happened during Hurricane Irma. 27. Quiero castigar a alguien por lo que sucediA durante el hurac\u00e1n Irma.",
     "ui": {
         "inputType": "radio"
     },

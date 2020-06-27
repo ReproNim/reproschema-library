@@ -1,7 +1,7 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9_10",
+    "@id": "phq9a_10",
     "skos:prefLabel": "PHQ9a-10",
     "schema:description": "schema for Q10 of the derived PHQ-9 Assessment",
     "schema:schemaVersion": "0.0.1",
@@ -10,5 +10,40 @@
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/PHQ-9a/valueConstraints"
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Not difficult at all",
+                    "es": "No ha sido dif\u00edcil"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat difficult",
+                    "es": "Un poco dif\u00edcil"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very difficult",
+                    "es": "Muy dif\u00edcil"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Extremely difficult",
+                    "es": "Extremadamente dif\u00edcil"
+                },
+                "value": 3
+            }
+        ]
+    }
 }

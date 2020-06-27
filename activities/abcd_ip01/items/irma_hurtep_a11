@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a11",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a11",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Were you without power or water for a week or more?  ¿Estabas sin energía o agua durante una semana o más?",
+    "question": "Were you without power or water for a week or more?  \u00bfEstabas sin energ\u00eda o agua durante una semana o m\u00e1s?",
     "ui": {
         "inputType": "radio"
     },

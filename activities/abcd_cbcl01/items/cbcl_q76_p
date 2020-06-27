@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q76_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q76_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Sleeps less than most kids ",
-        "es": "Duerme menos que la mayoría de los/las niños(as)/jóvenes"
+        "es": "Duerme menos que la mayor\u00eda de los/las ni\u00f1os(as)/j\u00f3venes"
     },
     "ui": {
         "inputType": "radio"

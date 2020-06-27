@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_run_self_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_run_self_l",
     "altLabel": "sai_run_self_p_l sports_activity_run_self_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Track, Running, Cross-country Atletismo en pista / correr / correr a campo traviesa Did your child learn this activity without formal instruction? ¿Su niño(a) aprendiA esta actividad sin instrucciAn formal?",
+    "question": "Track, Running, Cross-country Atletismo en pista / correr / correr a campo traviesa Did your child learn this activity without formal instruction? \u00bfSu ni\u00f1o(a) aprendiA esta actividad sin instrucciAn formal?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 0,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -29,7 +29,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No"
+            "value": "1 = Yes S\u00ed; 0 = No No"
         }
     ]
 }

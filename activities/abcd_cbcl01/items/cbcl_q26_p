@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q26_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q26_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Doesn't seem to feel guilty after misbehaving ",
-        "es": "No parece sentirse culpable después de portarse mal"
+        "es": "No parece sentirse culpable despu\u00e9s de portarse mal"
     },
     "ui": {
         "inputType": "radio"

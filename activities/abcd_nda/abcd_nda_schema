@@ -9,43 +9,43 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/eventname",
+                "isAbout": "../NDA/items/eventname",
                 "variableName": "eventname",
                 "isVis": true
             },
             {
-                "isAbout": "items/interview_age",
+                "isAbout": "../NDA/items/interview_age",
                 "variableName": "interview_age",
                 "isVis": true
             },
             {
-                "isAbout": "items/interview_date",
+                "isAbout": "../NDA/items/interview_date",
                 "variableName": "interview_date",
                 "isVis": true
             },
             {
-                "isAbout": "items/sex",
+                "isAbout": "../NDA/items/sex",
                 "variableName": "sex",
                 "isVis": true
             },
             {
-                "isAbout": "items/src_subject_id",
+                "isAbout": "../NDA/items/src_subject_id",
                 "variableName": "src_subject_id",
                 "isVis": true
             },
             {
-                "isAbout": "items/subjectKey",
+                "isAbout": "../NDA/items/subjectKey",
                 "variableName": "subjectKey",
                 "isVis": true
             }
         ],
         "order": [
-            "items/eventname",
-            "items/interview_age",
-            "items/interview_date",
-            "items/sex",
-            "items/src_subject_id",
-            "items/subjectKey"
+            "../NDA/items/eventname",
+            "../NDA/items/interview_age",
+            "../NDA/items/interview_date",
+            "../NDA/items/sex",
+            "../NDA/items/src_subject_id",
+            "../NDA/items/subjectKey"
         ],
         "shuffle": false
     }

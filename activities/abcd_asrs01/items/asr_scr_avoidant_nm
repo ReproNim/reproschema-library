@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "asr_scr_avoidant_nm",
     "@type": "reproschema:Field",
     "prefLabel": "asr_scr_avoidant_nm",

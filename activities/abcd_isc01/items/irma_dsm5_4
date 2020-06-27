@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_4",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_4",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "4. I get upset easily or get into arguments or physical fights. 4. Me enojo fácilmente o me meto en discusiones o peleas físicas.",
+    "question": "4. I get upset easily or get into arguments or physical fights. 4. Me enojo f\u00e1cilmente o me meto en discusiones o peleas f\u00edsicas.",
     "ui": {
         "inputType": "radio"
     },

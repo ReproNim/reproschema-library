@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_prnt_ethn2_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_ethn2_v2_l",
@@ -15,7 +15,7 @@
         "schema:maxValue": 999,
         "choices": [
             {
-                "name": "Puerto Rican Puertorriqueño) ",
+                "name": "Puerto Rican Puertorrique\u00f1o) ",
                 "value": 10
             },
             {
@@ -51,7 +51,7 @@
                 "value": 40
             },
             {
-                "name": "Other Hispanic Otro Hispánico ",
+                "name": "Other Hispanic Otro Hisp\u00e1nico ",
                 "value": 41
             },
             {
@@ -69,7 +69,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "10 = Puerto Rican Puertorriqueño) ; 12 = Dominican (Republic) Dominicano (Republica) ; 13 = Mexican/Mexicano Mexicano ; 14 = Mexican American Mexicano Americano ; 15 = Chicano Chicano ; 18 = Cuban Cubano ; 19 = Cuban American Cubano Americano ; 20 = Central or South American Centro o Sur Americano ; 40 = Other Latin American Otro Latino Americano ; 41 = Other Hispanic Otro Hispánico ;  777 = Refused to answer Prefiero no responder ; 999 = Don't know No lo se"
+            "value": "10 = Puerto Rican Puertorrique\u00f1o) ; 12 = Dominican (Republic) Dominicano (Republica) ; 13 = Mexican/Mexicano Mexicano ; 14 = Mexican American Mexicano Americano ; 15 = Chicano Chicano ; 18 = Cuban Cubano ; 19 = Cuban American Cubano Americano ; 20 = Central or South American Centro o Sur Americano ; 40 = Other Latin American Otro Latino Americano ; 41 = Other Hispanic Otro Hisp\u00e1nico ;  777 = Refused to answer Prefiero no responder ; 999 = Don't know No lo se"
         }
     ]
 }

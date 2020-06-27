@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_pssc_1",
     "@type": "reproschema:Field",
     "prefLabel": "irma_pssc_1",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "1. In the last month, how often have you been upset because of something that happened unexpectedly? 1. En el último mes, ¿con qué frecuencia se ha sentido molestado(a) por algo inesperado?",
+    "question": "1. In the last month, how often have you been upset because of something that happened unexpectedly? 1. En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia se ha sentido molestado(a) por algo inesperado?",
     "ui": {
         "inputType": "radio"
     },

@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_prnt_ethn_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_ethn_v2_l",
     "altLabel": "demo_prnt_ethn_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Do you consider yourself Hispanic/Latino/Latina? ¿Se considera usted hispano(a) o latino(a)?",
+    "question": "Do you consider yourself Hispanic/Latino/Latina? \u00bfSe considera usted hispano(a) o latino(a)?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 999,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -27,7 +27,7 @@
                 "value": 777
             },
             {
-                "name": "Don't know No lo sé",
+                "name": "Don't know No lo s\u00e9",
                 "value": 999
             }
         ],
@@ -37,7 +37,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 2 = No No;777 = Refuse to answer Niego contestar; 999 = Don't know No lo sé"
+            "value": "1 = Yes S\u00ed; 2 = No No;777 = Refuse to answer Niego contestar; 999 = Don't know No lo s\u00e9"
         }
     ]
 }

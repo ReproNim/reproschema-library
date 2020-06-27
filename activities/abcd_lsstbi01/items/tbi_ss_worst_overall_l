@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "tbi_ss_worst_overall_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_ss_worst_overall_l",
     "altLabel": "brain_injury_ss_worst_overall_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Worst Injury Overall: Worst TBI - 1, Improbable  TBI (no TBI or TBI w/o LOC or memory loss); 2, Possible mild TBI (TBI w/o LOC but memory loss); 3, Mild TBI (TBI w/LOC ≤ 30 min); 4, Moderate TBI (TBI w/LOC  30 min - 24 hrs); 5, Severe TBI (TBI w/ LOC ≥ 24 hrs)",
+    "question": "Worst Injury Overall: Worst TBI - 1, Improbable  TBI (no TBI or TBI w/o LOC or memory loss); 2, Possible mild TBI (TBI w/o LOC but memory loss); 3, Mild TBI (TBI w/LOC \u2264 30 min); 4, Moderate TBI (TBI w/LOC  30 min - 24 hrs); 5, Severe TBI (TBI w/ LOC \u2265 24 hrs)",
     "ui": {
         "inputType": "radio"
     },

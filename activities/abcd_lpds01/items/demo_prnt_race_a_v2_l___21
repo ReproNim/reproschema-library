@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_prnt_race_a_v2_l___21",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_race_a_v2_l___21",
     "altLabel": "demo_prnt_race_a_p_l___21",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "What race do you consider yourself to be? Please check all that apply. ¿De qué raza se considera usted? Seleccione 1 o más de estas categorías: (21, Japanese Japonesa)",
+    "question": "What race do you consider yourself to be? Please check all that apply. \u00bfDe qu\u00e9 raza se considera usted? Seleccione 1 o m\u00e1s de estas categor\u00edas: (21, Japanese Japonesa)",
     "ui": {
         "inputType": "radio"
     },

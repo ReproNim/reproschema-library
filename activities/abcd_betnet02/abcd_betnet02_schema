@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/abcd_betnet02/abcd_betnet02_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_betnet02_schema",
     "skos:prefLabel": "abcd_betnet02",
@@ -10,918 +7,918 @@
     "schema:version": "0.0.1",
     "ui": {
         "order": [
-            "rsfmri_c_ngd_ad_ngd_ad",
-            "rsfmri_c_ngd_ad_ngd_ca",
-            "rsfmri_c_ngd_ad_ngd_cgc",
-            "rsfmri_c_ngd_ad_ngd_dla",
-            "rsfmri_c_ngd_ad_ngd_dt",
-            "rsfmri_c_ngd_ad_ngd_fo",
-            "rsfmri_c_ngd_ad_ngd_n",
-            "rsfmri_c_ngd_ad_ngd_rspltp",
-            "rsfmri_c_ngd_ad_ngd_sa",
-            "rsfmri_c_ngd_ad_ngd_smh",
-            "rsfmri_c_ngd_ad_ngd_smm",
-            "rsfmri_c_ngd_ad_ngd_vs",
-            "rsfmri_c_ngd_ad_ngd_vta",
-            "rsfmri_c_ngd_ca_ngd_ad",
-            "rsfmri_c_ngd_ca_ngd_ca",
-            "rsfmri_c_ngd_ca_ngd_cgc",
-            "rsfmri_c_ngd_ca_ngd_dla",
-            "rsfmri_c_ngd_ca_ngd_dt",
-            "rsfmri_c_ngd_ca_ngd_fo",
-            "rsfmri_c_ngd_ca_ngd_n",
-            "rsfmri_c_ngd_ca_ngd_rspltp",
-            "rsfmri_c_ngd_ca_ngd_sa",
-            "rsfmri_c_ngd_ca_ngd_smh",
-            "rsfmri_c_ngd_ca_ngd_smm",
-            "rsfmri_c_ngd_ca_ngd_vs",
-            "rsfmri_c_ngd_ca_ngd_vta",
-            "rsfmri_c_ngd_cgc_ngd_ad",
-            "rsfmri_c_ngd_cgc_ngd_ca",
-            "rsfmri_c_ngd_cgc_ngd_cgc",
-            "rsfmri_c_ngd_cgc_ngd_dla",
-            "rsfmri_c_ngd_cgc_ngd_dt",
-            "rsfmri_c_ngd_cgc_ngd_fo",
-            "rsfmri_c_ngd_cgc_ngd_n",
-            "rsfmri_c_ngd_cgc_ngd_rspltp",
-            "rsfmri_c_ngd_cgc_ngd_sa",
-            "rsfmri_c_ngd_cgc_ngd_smh",
-            "rsfmri_c_ngd_cgc_ngd_smm",
-            "rsfmri_c_ngd_cgc_ngd_vs",
-            "rsfmri_c_ngd_cgc_ngd_vta",
-            "rsfmri_c_ngd_dla_ngd_ad",
-            "rsfmri_c_ngd_dla_ngd_ca",
-            "rsfmri_c_ngd_dla_ngd_cgc",
-            "rsfmri_c_ngd_dla_ngd_dla",
-            "rsfmri_c_ngd_dla_ngd_dt",
-            "rsfmri_c_ngd_dla_ngd_fo",
-            "rsfmri_c_ngd_dla_ngd_n",
-            "rsfmri_c_ngd_dla_ngd_rspltp",
-            "rsfmri_c_ngd_dla_ngd_sa",
-            "rsfmri_c_ngd_dla_ngd_smh",
-            "rsfmri_c_ngd_dla_ngd_smm",
-            "rsfmri_c_ngd_dla_ngd_vs",
-            "rsfmri_c_ngd_dla_ngd_vta",
-            "rsfmri_c_ngd_dt_ngd_ad",
-            "rsfmri_c_ngd_dt_ngd_ca",
-            "rsfmri_c_ngd_dt_ngd_cgc",
-            "rsfmri_c_ngd_dt_ngd_dla",
-            "rsfmri_c_ngd_dt_ngd_dt",
-            "rsfmri_c_ngd_dt_ngd_fo",
-            "rsfmri_c_ngd_dt_ngd_n",
-            "rsfmri_c_ngd_dt_ngd_rspltp",
-            "rsfmri_c_ngd_dt_ngd_sa",
-            "rsfmri_c_ngd_dt_ngd_smh",
-            "rsfmri_c_ngd_dt_ngd_smm",
-            "rsfmri_c_ngd_dt_ngd_vs",
-            "rsfmri_c_ngd_dt_ngd_vta",
-            "rsfmri_c_ngd_fo_ngd_ad",
-            "rsfmri_c_ngd_fo_ngd_ca",
-            "rsfmri_c_ngd_fo_ngd_cgc",
-            "rsfmri_c_ngd_fo_ngd_dla",
-            "rsfmri_c_ngd_fo_ngd_dt",
-            "rsfmri_c_ngd_fo_ngd_fo",
-            "rsfmri_c_ngd_fo_ngd_n",
-            "rsfmri_c_ngd_fo_ngd_rspltp",
-            "rsfmri_c_ngd_fo_ngd_sa",
-            "rsfmri_c_ngd_fo_ngd_smh",
-            "rsfmri_c_ngd_fo_ngd_smm",
-            "rsfmri_c_ngd_fo_ngd_vs",
-            "rsfmri_c_ngd_fo_ngd_vta",
-            "rsfmri_c_ngd_maxmotion",
-            "rsfmri_c_ngd_maxrot",
-            "rsfmri_c_ngd_maxtrans",
-            "rsfmri_c_ngd_meanmotion",
-            "rsfmri_c_ngd_meanrot",
-            "rsfmri_c_ngd_meantrans",
-            "rsfmri_c_ngd_n_ngd_ad",
-            "rsfmri_c_ngd_n_ngd_ca",
-            "rsfmri_c_ngd_n_ngd_cgc",
-            "rsfmri_c_ngd_n_ngd_dla",
-            "rsfmri_c_ngd_n_ngd_dt",
-            "rsfmri_c_ngd_n_ngd_fo",
-            "rsfmri_c_ngd_n_ngd_n",
-            "rsfmri_c_ngd_n_ngd_rspltp",
-            "rsfmri_c_ngd_n_ngd_sa",
-            "rsfmri_c_ngd_n_ngd_smh",
-            "rsfmri_c_ngd_n_ngd_smm",
-            "rsfmri_c_ngd_n_ngd_vs",
-            "rsfmri_c_ngd_n_ngd_vta",
-            "rsfmri_c_ngd_ntpoints",
-            "rsfmri_c_ngd_numtrs",
-            "rsfmri_c_ngd_nvols",
-            "rsfmri_c_ngd_rspltp_ngd_ad",
-            "rsfmri_c_ngd_rspltp_ngd_ca",
-            "rsfmri_c_ngd_rspltp_ngd_cgc",
-            "rsfmri_c_ngd_rspltp_ngd_dla",
-            "rsfmri_c_ngd_rspltp_ngd_dt",
-            "rsfmri_c_ngd_rspltp_ngd_fo",
-            "rsfmri_c_ngd_rspltp_ngd_n",
-            "rsfmri_c_ngd_rspltp_ngd_rspltp",
-            "rsfmri_c_ngd_rspltp_ngd_sa",
-            "rsfmri_c_ngd_rspltp_ngd_smh",
-            "rsfmri_c_ngd_rspltp_ngd_smm",
-            "rsfmri_c_ngd_rspltp_ngd_vs",
-            "rsfmri_c_ngd_rspltp_ngd_vta",
-            "rsfmri_c_ngd_sa_ngd_ad",
-            "rsfmri_c_ngd_sa_ngd_ca",
-            "rsfmri_c_ngd_sa_ngd_cgc",
-            "rsfmri_c_ngd_sa_ngd_dla",
-            "rsfmri_c_ngd_sa_ngd_dt",
-            "rsfmri_c_ngd_sa_ngd_fo",
-            "rsfmri_c_ngd_sa_ngd_n",
-            "rsfmri_c_ngd_sa_ngd_rspltp",
-            "rsfmri_c_ngd_sa_ngd_sa",
-            "rsfmri_c_ngd_sa_ngd_smh",
-            "rsfmri_c_ngd_sa_ngd_smm",
-            "rsfmri_c_ngd_sa_ngd_vs",
-            "rsfmri_c_ngd_sa_ngd_vta",
-            "rsfmri_c_ngd_smh_ngd_ad",
-            "rsfmri_c_ngd_smh_ngd_ca",
-            "rsfmri_c_ngd_smh_ngd_cgc",
-            "rsfmri_c_ngd_smh_ngd_dla",
-            "rsfmri_c_ngd_smh_ngd_dt",
-            "rsfmri_c_ngd_smh_ngd_fo",
-            "rsfmri_c_ngd_smh_ngd_n",
-            "rsfmri_c_ngd_smh_ngd_rspltp",
-            "rsfmri_c_ngd_smh_ngd_sa",
-            "rsfmri_c_ngd_smh_ngd_smh",
-            "rsfmri_c_ngd_smh_ngd_smm",
-            "rsfmri_c_ngd_smh_ngd_vs",
-            "rsfmri_c_ngd_smh_ngd_vta",
-            "rsfmri_c_ngd_smm_ngd_ad",
-            "rsfmri_c_ngd_smm_ngd_ca",
-            "rsfmri_c_ngd_smm_ngd_cgc",
-            "rsfmri_c_ngd_smm_ngd_dla",
-            "rsfmri_c_ngd_smm_ngd_dt",
-            "rsfmri_c_ngd_smm_ngd_fo",
-            "rsfmri_c_ngd_smm_ngd_n",
-            "rsfmri_c_ngd_smm_ngd_rspltp",
-            "rsfmri_c_ngd_smm_ngd_sa",
-            "rsfmri_c_ngd_smm_ngd_smh",
-            "rsfmri_c_ngd_smm_ngd_smm",
-            "rsfmri_c_ngd_smm_ngd_vs",
-            "rsfmri_c_ngd_smm_ngd_vta",
-            "rsfmri_c_ngd_stcontignvols",
-            "rsfmri_c_ngd_stnvols",
-            "rsfmri_c_ngd_tr",
-            "rsfmri_c_ngd_visitid",
-            "rsfmri_c_ngd_vs_ngd_ad",
-            "rsfmri_c_ngd_vs_ngd_ca",
-            "rsfmri_c_ngd_vs_ngd_cgc",
-            "rsfmri_c_ngd_vs_ngd_dla",
-            "rsfmri_c_ngd_vs_ngd_dt",
-            "rsfmri_c_ngd_vs_ngd_fo",
-            "rsfmri_c_ngd_vs_ngd_n",
-            "rsfmri_c_ngd_vs_ngd_rspltp",
-            "rsfmri_c_ngd_vs_ngd_sa",
-            "rsfmri_c_ngd_vs_ngd_smh",
-            "rsfmri_c_ngd_vs_ngd_smm",
-            "rsfmri_c_ngd_vs_ngd_vs",
-            "rsfmri_c_ngd_vs_ngd_vta",
-            "rsfmri_c_ngd_vta_ngd_ad",
-            "rsfmri_c_ngd_vta_ngd_ca",
-            "rsfmri_c_ngd_vta_ngd_cgc",
-            "rsfmri_c_ngd_vta_ngd_dla",
-            "rsfmri_c_ngd_vta_ngd_dt",
-            "rsfmri_c_ngd_vta_ngd_fo",
-            "rsfmri_c_ngd_vta_ngd_n",
-            "rsfmri_c_ngd_vta_ngd_rspltp",
-            "rsfmri_c_ngd_vta_ngd_sa",
-            "rsfmri_c_ngd_vta_ngd_smh",
-            "rsfmri_c_ngd_vta_ngd_smm",
-            "rsfmri_c_ngd_vta_ngd_vs",
-            "rsfmri_c_ngd_vta_ngd_vta"
+            "items/rsfmri_c_ngd_ad_ngd_ad",
+            "items/rsfmri_c_ngd_ad_ngd_ca",
+            "items/rsfmri_c_ngd_ad_ngd_cgc",
+            "items/rsfmri_c_ngd_ad_ngd_dla",
+            "items/rsfmri_c_ngd_ad_ngd_dt",
+            "items/rsfmri_c_ngd_ad_ngd_fo",
+            "items/rsfmri_c_ngd_ad_ngd_n",
+            "items/rsfmri_c_ngd_ad_ngd_rspltp",
+            "items/rsfmri_c_ngd_ad_ngd_sa",
+            "items/rsfmri_c_ngd_ad_ngd_smh",
+            "items/rsfmri_c_ngd_ad_ngd_smm",
+            "items/rsfmri_c_ngd_ad_ngd_vs",
+            "items/rsfmri_c_ngd_ad_ngd_vta",
+            "items/rsfmri_c_ngd_ca_ngd_ad",
+            "items/rsfmri_c_ngd_ca_ngd_ca",
+            "items/rsfmri_c_ngd_ca_ngd_cgc",
+            "items/rsfmri_c_ngd_ca_ngd_dla",
+            "items/rsfmri_c_ngd_ca_ngd_dt",
+            "items/rsfmri_c_ngd_ca_ngd_fo",
+            "items/rsfmri_c_ngd_ca_ngd_n",
+            "items/rsfmri_c_ngd_ca_ngd_rspltp",
+            "items/rsfmri_c_ngd_ca_ngd_sa",
+            "items/rsfmri_c_ngd_ca_ngd_smh",
+            "items/rsfmri_c_ngd_ca_ngd_smm",
+            "items/rsfmri_c_ngd_ca_ngd_vs",
+            "items/rsfmri_c_ngd_ca_ngd_vta",
+            "items/rsfmri_c_ngd_cgc_ngd_ad",
+            "items/rsfmri_c_ngd_cgc_ngd_ca",
+            "items/rsfmri_c_ngd_cgc_ngd_cgc",
+            "items/rsfmri_c_ngd_cgc_ngd_dla",
+            "items/rsfmri_c_ngd_cgc_ngd_dt",
+            "items/rsfmri_c_ngd_cgc_ngd_fo",
+            "items/rsfmri_c_ngd_cgc_ngd_n",
+            "items/rsfmri_c_ngd_cgc_ngd_rspltp",
+            "items/rsfmri_c_ngd_cgc_ngd_sa",
+            "items/rsfmri_c_ngd_cgc_ngd_smh",
+            "items/rsfmri_c_ngd_cgc_ngd_smm",
+            "items/rsfmri_c_ngd_cgc_ngd_vs",
+            "items/rsfmri_c_ngd_cgc_ngd_vta",
+            "items/rsfmri_c_ngd_dla_ngd_ad",
+            "items/rsfmri_c_ngd_dla_ngd_ca",
+            "items/rsfmri_c_ngd_dla_ngd_cgc",
+            "items/rsfmri_c_ngd_dla_ngd_dla",
+            "items/rsfmri_c_ngd_dla_ngd_dt",
+            "items/rsfmri_c_ngd_dla_ngd_fo",
+            "items/rsfmri_c_ngd_dla_ngd_n",
+            "items/rsfmri_c_ngd_dla_ngd_rspltp",
+            "items/rsfmri_c_ngd_dla_ngd_sa",
+            "items/rsfmri_c_ngd_dla_ngd_smh",
+            "items/rsfmri_c_ngd_dla_ngd_smm",
+            "items/rsfmri_c_ngd_dla_ngd_vs",
+            "items/rsfmri_c_ngd_dla_ngd_vta",
+            "items/rsfmri_c_ngd_dt_ngd_ad",
+            "items/rsfmri_c_ngd_dt_ngd_ca",
+            "items/rsfmri_c_ngd_dt_ngd_cgc",
+            "items/rsfmri_c_ngd_dt_ngd_dla",
+            "items/rsfmri_c_ngd_dt_ngd_dt",
+            "items/rsfmri_c_ngd_dt_ngd_fo",
+            "items/rsfmri_c_ngd_dt_ngd_n",
+            "items/rsfmri_c_ngd_dt_ngd_rspltp",
+            "items/rsfmri_c_ngd_dt_ngd_sa",
+            "items/rsfmri_c_ngd_dt_ngd_smh",
+            "items/rsfmri_c_ngd_dt_ngd_smm",
+            "items/rsfmri_c_ngd_dt_ngd_vs",
+            "items/rsfmri_c_ngd_dt_ngd_vta",
+            "items/rsfmri_c_ngd_fo_ngd_ad",
+            "items/rsfmri_c_ngd_fo_ngd_ca",
+            "items/rsfmri_c_ngd_fo_ngd_cgc",
+            "items/rsfmri_c_ngd_fo_ngd_dla",
+            "items/rsfmri_c_ngd_fo_ngd_dt",
+            "items/rsfmri_c_ngd_fo_ngd_fo",
+            "items/rsfmri_c_ngd_fo_ngd_n",
+            "items/rsfmri_c_ngd_fo_ngd_rspltp",
+            "items/rsfmri_c_ngd_fo_ngd_sa",
+            "items/rsfmri_c_ngd_fo_ngd_smh",
+            "items/rsfmri_c_ngd_fo_ngd_smm",
+            "items/rsfmri_c_ngd_fo_ngd_vs",
+            "items/rsfmri_c_ngd_fo_ngd_vta",
+            "items/rsfmri_c_ngd_maxmotion",
+            "items/rsfmri_c_ngd_maxrot",
+            "items/rsfmri_c_ngd_maxtrans",
+            "items/rsfmri_c_ngd_meanmotion",
+            "items/rsfmri_c_ngd_meanrot",
+            "items/rsfmri_c_ngd_meantrans",
+            "items/rsfmri_c_ngd_n_ngd_ad",
+            "items/rsfmri_c_ngd_n_ngd_ca",
+            "items/rsfmri_c_ngd_n_ngd_cgc",
+            "items/rsfmri_c_ngd_n_ngd_dla",
+            "items/rsfmri_c_ngd_n_ngd_dt",
+            "items/rsfmri_c_ngd_n_ngd_fo",
+            "items/rsfmri_c_ngd_n_ngd_n",
+            "items/rsfmri_c_ngd_n_ngd_rspltp",
+            "items/rsfmri_c_ngd_n_ngd_sa",
+            "items/rsfmri_c_ngd_n_ngd_smh",
+            "items/rsfmri_c_ngd_n_ngd_smm",
+            "items/rsfmri_c_ngd_n_ngd_vs",
+            "items/rsfmri_c_ngd_n_ngd_vta",
+            "items/rsfmri_c_ngd_ntpoints",
+            "items/rsfmri_c_ngd_numtrs",
+            "items/rsfmri_c_ngd_nvols",
+            "items/rsfmri_c_ngd_rspltp_ngd_ad",
+            "items/rsfmri_c_ngd_rspltp_ngd_ca",
+            "items/rsfmri_c_ngd_rspltp_ngd_cgc",
+            "items/rsfmri_c_ngd_rspltp_ngd_dla",
+            "items/rsfmri_c_ngd_rspltp_ngd_dt",
+            "items/rsfmri_c_ngd_rspltp_ngd_fo",
+            "items/rsfmri_c_ngd_rspltp_ngd_n",
+            "items/rsfmri_c_ngd_rspltp_ngd_rspltp",
+            "items/rsfmri_c_ngd_rspltp_ngd_sa",
+            "items/rsfmri_c_ngd_rspltp_ngd_smh",
+            "items/rsfmri_c_ngd_rspltp_ngd_smm",
+            "items/rsfmri_c_ngd_rspltp_ngd_vs",
+            "items/rsfmri_c_ngd_rspltp_ngd_vta",
+            "items/rsfmri_c_ngd_sa_ngd_ad",
+            "items/rsfmri_c_ngd_sa_ngd_ca",
+            "items/rsfmri_c_ngd_sa_ngd_cgc",
+            "items/rsfmri_c_ngd_sa_ngd_dla",
+            "items/rsfmri_c_ngd_sa_ngd_dt",
+            "items/rsfmri_c_ngd_sa_ngd_fo",
+            "items/rsfmri_c_ngd_sa_ngd_n",
+            "items/rsfmri_c_ngd_sa_ngd_rspltp",
+            "items/rsfmri_c_ngd_sa_ngd_sa",
+            "items/rsfmri_c_ngd_sa_ngd_smh",
+            "items/rsfmri_c_ngd_sa_ngd_smm",
+            "items/rsfmri_c_ngd_sa_ngd_vs",
+            "items/rsfmri_c_ngd_sa_ngd_vta",
+            "items/rsfmri_c_ngd_smh_ngd_ad",
+            "items/rsfmri_c_ngd_smh_ngd_ca",
+            "items/rsfmri_c_ngd_smh_ngd_cgc",
+            "items/rsfmri_c_ngd_smh_ngd_dla",
+            "items/rsfmri_c_ngd_smh_ngd_dt",
+            "items/rsfmri_c_ngd_smh_ngd_fo",
+            "items/rsfmri_c_ngd_smh_ngd_n",
+            "items/rsfmri_c_ngd_smh_ngd_rspltp",
+            "items/rsfmri_c_ngd_smh_ngd_sa",
+            "items/rsfmri_c_ngd_smh_ngd_smh",
+            "items/rsfmri_c_ngd_smh_ngd_smm",
+            "items/rsfmri_c_ngd_smh_ngd_vs",
+            "items/rsfmri_c_ngd_smh_ngd_vta",
+            "items/rsfmri_c_ngd_smm_ngd_ad",
+            "items/rsfmri_c_ngd_smm_ngd_ca",
+            "items/rsfmri_c_ngd_smm_ngd_cgc",
+            "items/rsfmri_c_ngd_smm_ngd_dla",
+            "items/rsfmri_c_ngd_smm_ngd_dt",
+            "items/rsfmri_c_ngd_smm_ngd_fo",
+            "items/rsfmri_c_ngd_smm_ngd_n",
+            "items/rsfmri_c_ngd_smm_ngd_rspltp",
+            "items/rsfmri_c_ngd_smm_ngd_sa",
+            "items/rsfmri_c_ngd_smm_ngd_smh",
+            "items/rsfmri_c_ngd_smm_ngd_smm",
+            "items/rsfmri_c_ngd_smm_ngd_vs",
+            "items/rsfmri_c_ngd_smm_ngd_vta",
+            "items/rsfmri_c_ngd_stcontignvols",
+            "items/rsfmri_c_ngd_stnvols",
+            "items/rsfmri_c_ngd_tr",
+            "items/rsfmri_c_ngd_visitid",
+            "items/rsfmri_c_ngd_vs_ngd_ad",
+            "items/rsfmri_c_ngd_vs_ngd_ca",
+            "items/rsfmri_c_ngd_vs_ngd_cgc",
+            "items/rsfmri_c_ngd_vs_ngd_dla",
+            "items/rsfmri_c_ngd_vs_ngd_dt",
+            "items/rsfmri_c_ngd_vs_ngd_fo",
+            "items/rsfmri_c_ngd_vs_ngd_n",
+            "items/rsfmri_c_ngd_vs_ngd_rspltp",
+            "items/rsfmri_c_ngd_vs_ngd_sa",
+            "items/rsfmri_c_ngd_vs_ngd_smh",
+            "items/rsfmri_c_ngd_vs_ngd_smm",
+            "items/rsfmri_c_ngd_vs_ngd_vs",
+            "items/rsfmri_c_ngd_vs_ngd_vta",
+            "items/rsfmri_c_ngd_vta_ngd_ad",
+            "items/rsfmri_c_ngd_vta_ngd_ca",
+            "items/rsfmri_c_ngd_vta_ngd_cgc",
+            "items/rsfmri_c_ngd_vta_ngd_dla",
+            "items/rsfmri_c_ngd_vta_ngd_dt",
+            "items/rsfmri_c_ngd_vta_ngd_fo",
+            "items/rsfmri_c_ngd_vta_ngd_n",
+            "items/rsfmri_c_ngd_vta_ngd_rspltp",
+            "items/rsfmri_c_ngd_vta_ngd_sa",
+            "items/rsfmri_c_ngd_vta_ngd_smh",
+            "items/rsfmri_c_ngd_vta_ngd_smm",
+            "items/rsfmri_c_ngd_vta_ngd_vs",
+            "items/rsfmri_c_ngd_vta_ngd_vta"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_n",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_ad_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_ad_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_ad_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_n",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_ca_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_ca_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_ca_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_n",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_cgc_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_cgc_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_cgc_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_n",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_dla_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_dla_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_dla_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_n",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_dt_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_dt_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_dt_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_n",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_fo_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_fo_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_fo_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_maxmotion",
-                "isAbout": "rsfmri_c_ngd_maxmotion"
+                "isAbout": "items/rsfmri_c_ngd_maxmotion"
             },
             {
                 "variableName": "rsfmri_c_ngd_maxrot",
-                "isAbout": "rsfmri_c_ngd_maxrot"
+                "isAbout": "items/rsfmri_c_ngd_maxrot"
             },
             {
                 "variableName": "rsfmri_c_ngd_maxtrans",
-                "isAbout": "rsfmri_c_ngd_maxtrans"
+                "isAbout": "items/rsfmri_c_ngd_maxtrans"
             },
             {
                 "variableName": "rsfmri_c_ngd_meanmotion",
-                "isAbout": "rsfmri_c_ngd_meanmotion"
+                "isAbout": "items/rsfmri_c_ngd_meanmotion"
             },
             {
                 "variableName": "rsfmri_c_ngd_meanrot",
-                "isAbout": "rsfmri_c_ngd_meanrot"
+                "isAbout": "items/rsfmri_c_ngd_meanrot"
             },
             {
                 "variableName": "rsfmri_c_ngd_meantrans",
-                "isAbout": "rsfmri_c_ngd_meantrans"
+                "isAbout": "items/rsfmri_c_ngd_meantrans"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_n_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_n_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_n_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_n_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_n_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_n_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_n",
-                "isAbout": "rsfmri_c_ngd_n_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_n_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_n_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_n_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_n_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_n_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_n_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_n_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_n_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_ntpoints",
-                "isAbout": "rsfmri_c_ngd_ntpoints"
+                "isAbout": "items/rsfmri_c_ngd_ntpoints"
             },
             {
                 "variableName": "rsfmri_c_ngd_numtrs",
-                "isAbout": "rsfmri_c_ngd_numtrs"
+                "isAbout": "items/rsfmri_c_ngd_numtrs"
             },
             {
                 "variableName": "rsfmri_c_ngd_nvols",
-                "isAbout": "rsfmri_c_ngd_nvols"
+                "isAbout": "items/rsfmri_c_ngd_nvols"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_n",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_rspltp_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_rspltp_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_rspltp_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_n",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_sa_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_sa_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_sa_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_n",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_smh_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_smh_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_smh_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_n",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_smm_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_smm_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_smm_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_stcontignvols",
-                "isAbout": "rsfmri_c_ngd_stcontignvols"
+                "isAbout": "items/rsfmri_c_ngd_stcontignvols"
             },
             {
                 "variableName": "rsfmri_c_ngd_stnvols",
-                "isAbout": "rsfmri_c_ngd_stnvols"
+                "isAbout": "items/rsfmri_c_ngd_stnvols"
             },
             {
                 "variableName": "rsfmri_c_ngd_tr",
-                "isAbout": "rsfmri_c_ngd_tr"
+                "isAbout": "items/rsfmri_c_ngd_tr"
             },
             {
                 "variableName": "rsfmri_c_ngd_visitid",
-                "isAbout": "rsfmri_c_ngd_visitid"
+                "isAbout": "items/rsfmri_c_ngd_visitid"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_n",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_vs_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_vs_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_vs_ngd_vta"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_ad",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_ad"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_ad"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_ca",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_ca"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_ca"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_cgc",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_cgc"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_cgc"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_dla",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_dla"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_dla"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_dt",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_dt"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_dt"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_fo",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_fo"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_fo"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_n",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_n"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_n"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_rspltp",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_rspltp"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_rspltp"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_sa",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_sa"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_sa"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_smh",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_smh"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_smh"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_smm",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_smm"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_smm"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_vs",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_vs"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_vs"
             },
             {
                 "variableName": "rsfmri_c_ngd_vta_ngd_vta",
-                "isAbout": "rsfmri_c_ngd_vta_ngd_vta"
+                "isAbout": "items/rsfmri_c_ngd_vta_ngd_vta"
             }
         ]
     }

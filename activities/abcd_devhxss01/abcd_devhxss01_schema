@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/abcd_devhxss01/abcd_devhxss01_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_devhxss01_schema",
     "skos:prefLabel": "abcd_devhxss01",
@@ -10,93 +7,93 @@
     "schema:version": "0.0.1",
     "ui": {
         "order": [
-            "devhx_ss_12_p",
-            "devhx_ss_8_alcohol_avg_p",
-            "devhx_ss_8_alcohol_effects_p",
-            "devhx_ss_8_alcohol_max_p",
-            "devhx_ss_8_cigs_per_day_p",
-            "devhx_ss_8_coc_crack_amt_p",
-            "devhx_ss_8_her_morph_amt_p",
-            "devhx_ss_8_marijuana_amt_p",
-            "devhx_ss_8_oxycont_amt_p",
-            "devhx_ss_9_alcohol_avg_p",
-            "devhx_ss_9_alcohol_effects_p",
-            "devhx_ss_9_alcohol_max_p",
-            "devhx_ss_9_cigs_per_day_p",
-            "devhx_ss_9_coc_crack_amt_p",
-            "devhx_ss_9_her_morph_amt_p",
-            "devhx_ss_9_marijuana_amt_p",
-            "devhx_ss_9_oxycont_amt_p"
+            "items/devhx_ss_12_p",
+            "items/devhx_ss_8_alcohol_avg_p",
+            "items/devhx_ss_8_alcohol_effects_p",
+            "items/devhx_ss_8_alcohol_max_p",
+            "items/devhx_ss_8_cigs_per_day_p",
+            "items/devhx_ss_8_coc_crack_amt_p",
+            "items/devhx_ss_8_her_morph_amt_p",
+            "items/devhx_ss_8_marijuana_amt_p",
+            "items/devhx_ss_8_oxycont_amt_p",
+            "items/devhx_ss_9_alcohol_avg_p",
+            "items/devhx_ss_9_alcohol_effects_p",
+            "items/devhx_ss_9_alcohol_max_p",
+            "items/devhx_ss_9_cigs_per_day_p",
+            "items/devhx_ss_9_coc_crack_amt_p",
+            "items/devhx_ss_9_her_morph_amt_p",
+            "items/devhx_ss_9_marijuana_amt_p",
+            "items/devhx_ss_9_oxycont_amt_p"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "devhx_ss_12_p",
-                "isAbout": "devhx_ss_12_p"
+                "isAbout": "items/devhx_ss_12_p"
             },
             {
                 "variableName": "devhx_ss_8_alcohol_avg_p",
-                "isAbout": "devhx_ss_8_alcohol_avg_p"
+                "isAbout": "items/devhx_ss_8_alcohol_avg_p"
             },
             {
                 "variableName": "devhx_ss_8_alcohol_effects_p",
-                "isAbout": "devhx_ss_8_alcohol_effects_p"
+                "isAbout": "items/devhx_ss_8_alcohol_effects_p"
             },
             {
                 "variableName": "devhx_ss_8_alcohol_max_p",
-                "isAbout": "devhx_ss_8_alcohol_max_p"
+                "isAbout": "items/devhx_ss_8_alcohol_max_p"
             },
             {
                 "variableName": "devhx_ss_8_cigs_per_day_p",
-                "isAbout": "devhx_ss_8_cigs_per_day_p"
+                "isAbout": "items/devhx_ss_8_cigs_per_day_p"
             },
             {
                 "variableName": "devhx_ss_8_coc_crack_amt_p",
-                "isAbout": "devhx_ss_8_coc_crack_amt_p"
+                "isAbout": "items/devhx_ss_8_coc_crack_amt_p"
             },
             {
                 "variableName": "devhx_ss_8_her_morph_amt_p",
-                "isAbout": "devhx_ss_8_her_morph_amt_p"
+                "isAbout": "items/devhx_ss_8_her_morph_amt_p"
             },
             {
                 "variableName": "devhx_ss_8_marijuana_amt_p",
-                "isAbout": "devhx_ss_8_marijuana_amt_p"
+                "isAbout": "items/devhx_ss_8_marijuana_amt_p"
             },
             {
                 "variableName": "devhx_ss_8_oxycont_amt_p",
-                "isAbout": "devhx_ss_8_oxycont_amt_p"
+                "isAbout": "items/devhx_ss_8_oxycont_amt_p"
             },
             {
                 "variableName": "devhx_ss_9_alcohol_avg_p",
-                "isAbout": "devhx_ss_9_alcohol_avg_p"
+                "isAbout": "items/devhx_ss_9_alcohol_avg_p"
             },
             {
                 "variableName": "devhx_ss_9_alcohol_effects_p",
-                "isAbout": "devhx_ss_9_alcohol_effects_p"
+                "isAbout": "items/devhx_ss_9_alcohol_effects_p"
             },
             {
                 "variableName": "devhx_ss_9_alcohol_max_p",
-                "isAbout": "devhx_ss_9_alcohol_max_p"
+                "isAbout": "items/devhx_ss_9_alcohol_max_p"
             },
             {
                 "variableName": "devhx_ss_9_cigs_per_day_p",
-                "isAbout": "devhx_ss_9_cigs_per_day_p"
+                "isAbout": "items/devhx_ss_9_cigs_per_day_p"
             },
             {
                 "variableName": "devhx_ss_9_coc_crack_amt_p",
-                "isAbout": "devhx_ss_9_coc_crack_amt_p"
+                "isAbout": "items/devhx_ss_9_coc_crack_amt_p"
             },
             {
                 "variableName": "devhx_ss_9_her_morph_amt_p",
-                "isAbout": "devhx_ss_9_her_morph_amt_p"
+                "isAbout": "items/devhx_ss_9_her_morph_amt_p"
             },
             {
                 "variableName": "devhx_ss_9_marijuana_amt_p",
-                "isAbout": "devhx_ss_9_marijuana_amt_p"
+                "isAbout": "items/devhx_ss_9_marijuana_amt_p"
             },
             {
                 "variableName": "devhx_ss_9_oxycont_amt_p",
-                "isAbout": "devhx_ss_9_oxycont_amt_p"
+                "isAbout": "items/devhx_ss_9_oxycont_amt_p"
             }
         ]
     }

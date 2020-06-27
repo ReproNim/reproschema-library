@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_yrs_2a_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_yrs_2a_l",
     "altLabel": "demo_yrs_2a_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Does your child's religion have rules forbidding the use of alcohol? ¿La religion de su nin-o(a) tiene reglas que prohíben el uso del alcohol?",
+    "question": "Does your child's religion have rules forbidding the use of alcohol? \u00bfLa religion de su nin-o(a) tiene reglas que proh\u00edben el uso del alcohol?",
     "ui": {
         "inputType": "radio"
     },
@@ -15,7 +15,7 @@
         "schema:maxValue": 999,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
@@ -23,7 +23,7 @@
                 "value": 0
             },
             {
-                "name": "Don't know No lo sé",
+                "name": "Don't know No lo s\u00e9",
                 "value": 999
             }
         ],
@@ -33,7 +33,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 0 = No No; 999 = Don't know No lo sé"
+            "value": "1 = Yes S\u00ed; 0 = No No; 999 = Don't know No lo s\u00e9"
         }
     ]
 }

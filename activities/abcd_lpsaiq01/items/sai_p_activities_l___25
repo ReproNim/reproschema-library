@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_activities_l___25",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___25",
     "altLabel": "sports_activity_activities_p_l___25",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "(25, Drama,  Theater,  Acting,  Film Drama,  teatro,  actuaciAn,  cinematografía)",
+    "question": "(25, Drama,  Theater,  Acting,  Film Drama,  teatro,  actuaciAn,  cinematograf\u00eda)",
     "ui": {
         "inputType": "radio"
     },

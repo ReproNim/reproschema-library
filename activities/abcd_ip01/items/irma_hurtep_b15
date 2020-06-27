@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b15",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_b15",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "At any time before the hurricane, did you think you might die? En cualquier momento antes del huracán, ¿crees que podrías morir?",
+    "question": "At any time before the hurricane, did you think you might die? En cualquier momento antes del hurac\u00e1n, \u00bfcrees que podr\u00edas morir?",
     "ui": {
         "inputType": "radio"
     },

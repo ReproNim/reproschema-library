@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "tbi_1d_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_1d_l",
     "altLabel": "brain_injury_1d_l tbi_1d_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How old was he/she? ¿Qué edad tenía?",
+    "question": "How old was he/she? \u00bfQu\u00e9 edad ten\u00eda?",
     "ui": {
         "inputType": "number"
     },

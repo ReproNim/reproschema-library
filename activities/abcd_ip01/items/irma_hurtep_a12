@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a12",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a12",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Did you have to travel a lot longer to get to work or school? ¿Tuvo que viajar mucho más tiempo para ir al trabajo o a la escuela?",
+    "question": "Did you have to travel a lot longer to get to work or school? \u00bfTuvo que viajar mucho m\u00e1s tiempo para ir al trabajo o a la escuela?",
     "ui": {
         "inputType": "radio"
     },

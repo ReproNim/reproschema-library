@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q56e_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q56e_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Rashes or other skin problems ",
-        "es": "Salpullido o irritación en la piel"
+        "es": "Salpullido o irritaci\u00f3n en la piel"
     },
     "ui": {
         "inputType": "radio"

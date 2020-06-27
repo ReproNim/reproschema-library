@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "meim_ethnic_id_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_ethnic_id_p",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "In terms of ethnic group, I consider myself to be: \nEn cuanto a mi grupo étnico, me considero:",
+    "question": "In terms of ethnic group, I consider myself to be: \nEn cuanto a mi grupo \u00e9tnico, me considero:",
     "ui": {
         "inputType": "radio"
     },
@@ -14,7 +14,7 @@
         "schema:maxValue": 777,
         "choices": [
             {
-                "name": "White/Caucasian Blanco / Caucásico ",
+                "name": "White/Caucasian Blanco / Cauc\u00e1sico ",
                 "value": 1
             },
             {
@@ -58,7 +58,7 @@
                 "value": 11
             },
             {
-                "name": "Native Hawaiian or Pacific Islander Nativo de Hawaii o Islas del Pacífico ",
+                "name": "Native Hawaiian or Pacific Islander Nativo de Hawaii o Islas del Pac\u00edfico ",
                 "value": 12
             },
             {
@@ -66,7 +66,7 @@
                 "value": 13
             },
             {
-                "name": "Other Ethnicity Otro origen étnico ",
+                "name": "Other Ethnicity Otro origen \u00e9tnico ",
                 "value": 14
             },
             {
@@ -74,7 +74,7 @@
                 "value": 0
             },
             {
-                "name": "Don't know No sé ",
+                "name": "Don't know No s\u00e9 ",
                 "value": 999
             },
             {
@@ -88,7 +88,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = White/Caucasian Blanco / Caucásico ; 2 = Western European Europeo occidental (del oeste) ; 3 = Eastern European Europeo oriental (del este) ; 4 = Hispanic/Latino Hispano / Latino ; 5 = Black/African American Negro / Afroamericano ; 6 = Afro-Carribean/Indo-Carribbean/West Indian (i.e. Jamaica; 7 = East Asian (i.e. China; 8 = South Asian (i.e. India; 9 = Southeast Asian (i.e. Phillipines; 10 = American Indian/Alaska Native Indio Americano / Nativo de Alaska ; 11 = Middle Eastern/North African De Medio Oriente / Norteafricano ; 12 = Native Hawaiian or Pacific Islander Nativo de Hawaii o Islas del Pacífico ; 13 = Mixed Ethnicity Etnicidad Mixta ; 14 = Other Ethnicity Otro origen étnico ; 0 = None Ninguno ; 999 = Don't know No sé ; 777 = Refuse to answer Me Niego a responder "
+            "value": "1 = White/Caucasian Blanco / Cauc\u00e1sico ; 2 = Western European Europeo occidental (del oeste) ; 3 = Eastern European Europeo oriental (del este) ; 4 = Hispanic/Latino Hispano / Latino ; 5 = Black/African American Negro / Afroamericano ; 6 = Afro-Carribean/Indo-Carribbean/West Indian (i.e. Jamaica; 7 = East Asian (i.e. China; 8 = South Asian (i.e. India; 9 = Southeast Asian (i.e. Phillipines; 10 = American Indian/Alaska Native Indio Americano / Nativo de Alaska ; 11 = Middle Eastern/North African De Medio Oriente / Norteafricano ; 12 = Native Hawaiian or Pacific Islander Nativo de Hawaii o Islas del Pac\u00edfico ; 13 = Mixed Ethnicity Etnicidad Mixta ; 14 = Other Ethnicity Otro origen \u00e9tnico ; 0 = None Ninguno ; 999 = Don't know No s\u00e9 ; 777 = Refuse to answer Me Niego a responder "
         }
     ]
 }

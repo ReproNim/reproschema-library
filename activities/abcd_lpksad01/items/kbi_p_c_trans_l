@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "kbi_p_c_trans_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_trans_l",
     "altLabel": "kbi_c_trans_p_l ksads_back_c_trans_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Is your child transgender? ¿Su niño(a) es transgénero",
+    "question": "Is your child transgender? \u00bfSu ni\u00f1o(a) es transg\u00e9nero",
     "ui": {
         "inputType": "radio"
     },
@@ -15,11 +15,11 @@
         "schema:maxValue": 4,
         "choices": [
             {
-                "name": "Yes Sí",
+                "name": "Yes S\u00ed",
                 "value": 1
             },
             {
-                "name": "Maybe/Don't know Tal vez/No sé",
+                "name": "Maybe/Don't know Tal vez/No s\u00e9",
                 "value": 2
             },
             {
@@ -37,7 +37,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "1 = Yes Sí; 2 = Maybe/Don't know Tal vez/No sé; 3 = No No; 4 = Decline to answer Niego contestar"
+            "value": "1 = Yes S\u00ed; 2 = Maybe/Don't know Tal vez/No s\u00e9; 3 = No No; 4 = Decline to answer Niego contestar"
         }
     ]
 }

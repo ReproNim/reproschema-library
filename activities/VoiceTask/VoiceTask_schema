@@ -1,7 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceTask/VoiceTask_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "VoiceTask_schema",
     "skos:prefLabel": "voice tasks",
@@ -11,65 +9,70 @@
     "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
     "ui": {
         "addProperties": [
-                {"isAbout": "say_ah",
+            {
+                "isAbout": "items/say_ah",
                 "variableName": "say_ah",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "pataka",
+            },
+            {
+                "isAbout": "items/pataka",
                 "variableName": "pataka",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "guided_speech",
+            },
+            {
+                "isAbout": "items/guided_speech",
                 "variableName": "guided_speech",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "free_speech_movie",
+            },
+            {
+                "isAbout": "items/free_speech_movie",
                 "variableName": "free_speech_movie",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "rainbow_passage",
+            },
+            {
+                "isAbout": "items/rainbow_passage",
                 "variableName": "rainbow_passage",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "multipart_voice",
+            },
+            {
+                "isAbout": "items/multipart_voice",
                 "variableName": "multipart_voice",
                 "isVis": true
-                },
-                {"isAbout": "feedback_question",
+            },
+            {
+                "isAbout": "items/feedback_question",
                 "variableName": "feedback_question",
                 "requiredValue": true,
                 "isVis": true
-                },
-                {"isAbout": "feedback_yes",
+            },
+            {
+                "isAbout": "items/feedback_yes",
                 "variableName": "feedback_yes",
                 "requiredValue": true,
                 "isVis": "feedback_question === 1"
-                },
-                {"isAbout": "feedback_brief",
+            },
+            {
+                "isAbout": "items/feedback_brief",
                 "variableName": "feedback_brief",
                 "isVis": "feedback_question === 1 && feedback_yes !== 7"
-                }
+            }
         ],
         "order": [
-            "say_ah",
-            "pataka",
-            "guided_speech",
-            "free_speech_movie",
-            "rainbow_passage",
-            "multipart_voice",
-            "feedback_question",
-            "feedback_yes",
-            "feedback_brief"
+            "items/say_ah",
+            "items/pataka",
+            "items/guided_speech",
+            "items/free_speech_movie",
+            "items/rainbow_passage",
+            "items/multipart_voice",
+            "items/feedback_question",
+            "items/feedback_yes",
+            "items/feedback_brief"
         ],
         "shuffle": true
     }
 }
-
-
-
-

@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "sai_p_read_hours_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_read_hours_l",
     "altLabel": "sai_read_hours_p_l sports_activity_read_hours_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent reading for pleasure? Desde la última vez que nos vimos en [asnt_timestamp_c], ¿aproximadamente  cuántas horas por semana pasa su niño(a) leyendo por placer?",
+    "question": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent reading for pleasure? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfaproximadamente  cu\u00e1ntas horas por semana pasa su ni\u00f1o(a) leyendo por placer?",
     "ui": {
         "inputType": "number"
     },

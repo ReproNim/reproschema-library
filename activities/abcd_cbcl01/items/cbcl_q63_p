@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q63_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q63_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Prefers being with older kids ",
-        "es": "Prefiere estar con niños(as) mayores que él/ella"
+        "es": "Prefiere estar con ni\u00f1os(as) mayores que \u00e9l/ella"
     },
     "ui": {
         "inputType": "radio"

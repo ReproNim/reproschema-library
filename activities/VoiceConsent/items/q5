@@ -1,7 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceConsent/VoiceConsent_context"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "quiz_q5",
     "skos:prefLabel": "Quiz Q1",
@@ -18,10 +16,11 @@
         "schema:minValue": 0,
         "schema:maxValue": 1,
         "multipleChoice": false,
-        "choices": [{
-            "schema:name": "Track my symptoms and triggers",
-            "schema:value": 1
-        },
+        "choices": [
+            {
+                "schema:name": "Track my symptoms and triggers",
+                "schema:value": 1
+            },
             {
                 "schema:name": "Schedule an appointment with my regular doctor",
                 "schema:value": 0
@@ -33,7 +32,3 @@
         ]
     }
 }
-
-
-
-

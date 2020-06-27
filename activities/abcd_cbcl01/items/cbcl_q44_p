@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q44_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q44_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Bites fingernails ",
-        "es": "Se come/muerde las uñas"
+        "es": "Se come/muerde las u\u00f1as"
     },
     "ui": {
         "inputType": "radio"

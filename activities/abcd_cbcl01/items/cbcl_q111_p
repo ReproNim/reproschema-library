@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "cbcl_q111_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q111_p",
@@ -7,7 +7,7 @@
     "schema:version": "0.0.1",
     "question": {
         "en": "Withdrawn, doesn't get involved with others ",
-        "es": "Se aísla, no se relaciona con los demás"
+        "es": "Se a\u00edsla, no se relaciona con los dem\u00e1s"
     },
     "ui": {
         "inputType": "radio"

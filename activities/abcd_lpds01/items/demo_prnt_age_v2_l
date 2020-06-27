@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "demo_prnt_age_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_age_v2_l",
     "altLabel": "demo_prnt_age_p_l",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "question": "How old are you? ¿Qué edad tiene usted?",
+    "question": "How old are you? \u00bfQu\u00e9 edad tiene usted?",
     "ui": {
         "inputType": "number"
     },
@@ -19,7 +19,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "Provide your age in years.  Proporcione su edad en años."
+            "value": "Provide your age in years.  Proporcione su edad en a\u00f1os."
         }
     ]
 }

@@ -1,6 +1,5 @@
 {
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "free_speech_sad",
     "skos:prefLabel": " Sad Free speech",
@@ -19,5 +18,4 @@
         "schema:minValue": 0,
         "schema:maxValue": 120000
     }
-
 }

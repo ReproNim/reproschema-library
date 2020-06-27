@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "fluentLanguages",
     "skos:prefLabel": "Fluent languages",
@@ -13,9 +13,6 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": true,
-        "choices": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/languages.json"
+        "choices": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/resources/languages.json"
     }
 }
-
-
-

@@ -1,3 +1,9 @@
+import requests
+import requests_cache
+import tempfile
+
+requests_cache.install_cache(tempfile.mkdtemp())
+
 from pyld import jsonld
 from pyshacl import validate
 import json
@@ -50,6 +56,7 @@ def validate_data(data, root, shape_file_path):
     if not conforms:
         raise ValueError(v_text)
 
+
 start, stop = simple_http_server(port=8000, path=os.getcwd())
 
 start()
@@ -73,5 +80,7 @@ for root, dirs, files in os.walk('activities'):
             except ValueError as e:
                 print ("File '%s' has validation errors: \n %s" %(full_file_name, e))
                 stop()
+                requests_cache.clear()
                 raise
 stop()
+requests_cache.clear()

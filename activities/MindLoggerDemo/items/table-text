@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "table-test",
+    "@id": "table-text",
     "skos:prefLabel": "Table Text",
     "skos:altLabel": "Table Text",
     "schema:description": "Demo of the Table Text widget",

@@ -12,6 +12,6 @@
         "en": "Age (Years Old)"
     },
     "responseOptions": {
-        "requiredValue": true
+        valueRequired": true
     }
 }

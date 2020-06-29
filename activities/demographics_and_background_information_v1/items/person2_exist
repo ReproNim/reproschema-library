@@ -13,6 +13,6 @@
         "en": "Is there another person who significantly contributes to the participant's current living expenses.\n"
     },
     "responseOptions": {
-        "requiredValue": true
+        valueRequired": true
     }
 }

@@ -13,7 +13,7 @@
         "valueType": "xsd:int",
         "minValue": "1",
         "maxValue": "18",
-        "requiredValue": true
+        valueRequired": true
     },
     "question": {
         "en": "What was the age of first outpatient treatment? "

@@ -11,7 +11,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:date",
-        "requiredValue": true
+        valueRequired": true
     },
     "question": {
         "en": "What is the date of your child's last period? "

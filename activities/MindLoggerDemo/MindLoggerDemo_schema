@@ -32,7 +32,7 @@
             {
                 "variableName": "date",
                 "isAbout": "items/date",
-                "requiredValue": true
+                valueRequired": true
             },
             {
                 "variableName": "time-range",
@@ -54,12 +54,12 @@
             {
                 "variableName": "audio-record",
                 "isAbout": "items/audio-record",
-                "requiredValue": true
+                valueRequired": true
             },
             {
                 "variableName": "audio-image-record",
                 "isAbout": "items/audio-image-record",
-                "requiredValue": true
+                valueRequired": true
             },
             {
                 "variableName": "drawing",

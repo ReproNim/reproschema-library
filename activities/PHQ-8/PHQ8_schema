@@ -18,49 +18,49 @@
             {
                 "isAbout": "items/phq9_1",
                 "variableName": "phq8_1",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9_2",
                 "variableName": "phq8_2",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9_3",
                 "variableName": "phq8_3",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9_4",
                 "variableName": "phq8_4",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9_5",
                 "variableName": "phq8_5",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9_6",
                 "variableName": "phq8_6",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9_7",
                 "variableName": "phq8_7",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9_8",
                 "variableName": "phq8_8",
-                "requiredValue": true,
+                valueRequired": true,
                 "isVis": true
             },
             {

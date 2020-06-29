@@ -13,7 +13,7 @@
         "valueType": "xsd:int",
         "minValue": "1",
         "maxValue": "365",
-        "requiredValue": true
+        valueRequired": true
     },
     "question": {
         "en": "If yes, how many times? "

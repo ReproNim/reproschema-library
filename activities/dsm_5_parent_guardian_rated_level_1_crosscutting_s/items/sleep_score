@@ -10,7 +10,7 @@
     },
     "responseOptions": {
         "valueType": "float",
-        "requiredValue": true
+        valueRequired": true
     },
     "question": {
         "en": "Sleep Rating  DSM 5"

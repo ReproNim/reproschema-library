@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "ui": {
         "inputType": "text",
-        "readonly": true
+        "readonlyValue": true
     },
     "responseOptions": {
         "valueSets": [

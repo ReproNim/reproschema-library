@@ -13,7 +13,7 @@
         "valueType": "xsd:int",
         "minValue": "10",
         "maxValue": "500",
-        "requiredValue": true
+        "valueRequired": true
     },
     "question": {
         "en": "What was the total duration of treatment in weeks? \n(the sum of all outpatient treatment combined)\n"

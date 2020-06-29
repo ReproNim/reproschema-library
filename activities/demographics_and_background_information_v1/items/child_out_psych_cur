@@ -16,6 +16,6 @@
         "en": "Is your child who will be participating in the study currently involved in outpatient psychiatric/psychological treatment?   "
     },
     "responseOptions": {
-        "requiredValue": true
+        "valueRequired": true
     }
 }

@@ -10,7 +10,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "requiredValue": true
+        "valueRequired": true
     },
     "question": {
         "en": "Additional Months old"

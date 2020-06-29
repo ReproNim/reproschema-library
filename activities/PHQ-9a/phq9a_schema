@@ -18,55 +18,55 @@
             {
                 "isAbout": "items/phq9a_1",
                 "variableName": "phq9a_1",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_2",
                 "variableName": "phq9a_2",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_3",
                 "variableName": "phq9a_3",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_4",
                 "variableName": "phq9a_4",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_5",
                 "variableName": "phq9a_5",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_6",
                 "variableName": "phq9a_6",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_7",
                 "variableName": "phq9a_7",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_8",
                 "variableName": "phq9a_8",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/phq9a_9",
                 "variableName": "phq9a_9",
-                "requiredValue": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {

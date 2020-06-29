@@ -9,6 +9,6 @@
     "question": "Thank You for participating. Please save your data now.",
     "ui": {
         "inputType": "save",
-        "readonly": true
+        "readonlyValue": true
     }
 }

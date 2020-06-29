@@ -38,7 +38,7 @@
                 "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png"
             }
         ],
-        "requiredValue": true
+        "valueRequired": true
     },
     "ui": {
         "inputType": "radio"

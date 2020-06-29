@@ -24,6 +24,6 @@
                 "@type": "option"
             }
         ],
-        "requiredValue": true
+        "valueRequired": true
     }
 }

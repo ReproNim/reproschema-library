@@ -49,7 +49,7 @@
             {
                 "variableName": "audio-stimulus",
                 "isAbout": "items/audio-stimulus",
-                "allow": [ "autoAdvance", "allowReplay"]
+                "allow": [ "reproschema:AutoAdvance", "reproschema:AllowReplay"]
             },
             {
                 "variableName": "audio-record",
@@ -127,8 +127,8 @@
             "items/upload"
         ],
         "allow": [
-            "skipped",
-            "dontKnow"
+            "reproschema:Skipped",
+            "reproschema:DontKnow"
         ]
     }
 }

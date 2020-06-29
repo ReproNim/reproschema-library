@@ -11,7 +11,7 @@
     "ui": {
         "inputType": "radio",
         "allow": [
-            "autoAdvance"
+            "reproschema:AutoAdvance"
         ]
     },
     "responseOptions": {

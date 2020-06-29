@@ -10,7 +10,7 @@
     "ui": {
         "inputType": "visual-stimulus-response",
         "allow": [
-            "autoAdvance"
+            "reproschema:AutoAdvance"
         ]
     },
     "inputOptions": [

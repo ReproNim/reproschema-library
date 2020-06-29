@@ -37,8 +37,8 @@
         "inputType": "multipart",
         "shuffle": false,
         "allow": [
-            "skipped",
-            "dontKnow"
+            "reproschema:Skipped",
+            "reproschema:DontKnow"
         ]
     }
 }

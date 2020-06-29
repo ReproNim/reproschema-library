@@ -38,7 +38,7 @@
         ],
         "shuffle": false,
         "allow": [
-            "skipped"
+            "reproschema:Skipped"
         ]
     }
 }

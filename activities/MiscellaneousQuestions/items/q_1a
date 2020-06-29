@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "q_1",
-    "skos:prefLabel": "q_1",
+    "@id": "q_1a",
+    "skos:prefLabel": "q_1a",
     "schema:description": "Q1a of the Other Questions Assessment",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",

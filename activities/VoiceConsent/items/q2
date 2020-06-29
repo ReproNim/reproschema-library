@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "quiz_q2",
+    "@id": "q2",
     "skos:prefLabel": "Quiz Q2",
     "skos:altLabel": "quiz_q2",
     "schema:description": "Quiz Question 2",

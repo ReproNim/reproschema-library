@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
-    "@id": "phq8_valueConstraints",
-    "@type": "reproschema:ResponseOptions",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
     "schema:minValue": 0,
     "schema:maxValue": 3,

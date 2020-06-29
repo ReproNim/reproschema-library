@@ -4,8 +4,8 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_mental_health_l",
     "altLabel": "kbi_c_mental_health_p_l ksads_back_c_mental_health_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Since we last saw you, how many times has your child been in the hospital for mental health problems? Desde la \u00faltima vez que nos vimos, \u00bfcu\u00e1ntas veces ha estado su ni\u00f1o(a) en el hospital por problemas de salud mental?",
     "ui": {
         "inputType": "number"

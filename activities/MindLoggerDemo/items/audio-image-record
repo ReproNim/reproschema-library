@@ -2,19 +2,19 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "audio-image-record",
-    "skos:prefLabel": "Audio Image Record",
-    "skos:altLabel": "Audio Image Record",
-    "schema:description": "Demo of the Audio Image widget",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Audio Image Record",
+    "altLabel": "Audio Image Record",
+    "description": "Demo of the Audio Image widget",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "## Audio Image Record\r\n\r\nRecord audio from the user's microphone while showing the user a visual stimulus.\r\n\r\nLook at the map in the image below, and give directions to another person over the phone as to how you would follow the route from Start to Stop, using the landmarks.",
-    "schema:image": "https://www.dropbox.com/s/wgtjq3bgqlfhbzd/map3g.png?raw=1",
+    "image": "https://www.dropbox.com/s/wgtjq3bgqlfhbzd/map3g.png?raw=1",
     "ui": {
         "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
-        "schema:minValue": 0,
-        "schema:maxValue": 60000
+        "valueType": "AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
     }
 }

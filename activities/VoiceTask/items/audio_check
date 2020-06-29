@@ -2,17 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "audio_check",
-    "skos:prefLabel": "Audio Check",
-    "schema:description": "microphone test for participant",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Audio Check",
+    "description": "microphone test for participant",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Going to test your microphone. Click on the start button and say something audibly. Click Play button to hear your recording. If you think there is too much background noise, please go somewhere quieter and Redo, else click Continue.",
     "ui": {
         "inputType": "audioCheck"
     },
     "responseOptions": {
         "valueType": "audioCheck",
-        "schema:minValue": 0,
-        "schema:maxValue": 4000
+        "minValue": 0,
+        "maxValue": 4000
     }
 }

@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "describe_image",
-    "skos:prefLabel": "Describe image",
-    "schema:description": "describe image question for voice task",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Describe image",
+    "description": "describe image question for voice task",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Describe the image shown below for a minute",
     "ui": {
         "inputType": "audioImageRecord"

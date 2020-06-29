@@ -3,15 +3,15 @@
     "@id": "meim_ethnic_id_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_ethnic_id_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "In terms of ethnic group, I consider myself to be: \nEn cuanto a mi grupo \u00e9tnico, me considero:",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 777,
+        "minValue": 1,
+        "maxValue": 777,
         "choices": [
             {
                 "name": "White/Caucasian Blanco / Cauc\u00e1sico ",

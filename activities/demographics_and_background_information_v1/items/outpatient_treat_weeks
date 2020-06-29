@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "@id": "outpatient_treat_weeks",
     "prefLabel": "outpatient_treat_weeks",
     "ui": {
@@ -11,8 +11,8 @@
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "schema:minValue": "10",
-        "schema:maxValue": "500",
+        "minValue": "10",
+        "maxValue": "500",
         "requiredValue": true
     },
     "question": {

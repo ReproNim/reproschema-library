@@ -3,15 +3,15 @@
     "@id": "meim_2_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_2_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I have a strong sense of belonging to my own ethnic group. Tengo un fuerte sentido de pertenecer con mi propio grupo \u00e9tnico.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 5,
+        "minValue": 1,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "Strongly Agree Estoy totalmente de acuerdo",

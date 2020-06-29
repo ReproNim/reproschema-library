@@ -1,41 +1,41 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "@id": "dsm_5_x_19",
     "prefLabel": "dsm_5_x_19",
     "responseOptions": {
         "multipleChoice": false,
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "None",
-                "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/not at all .png"
+                "value": 0,
+                "name": "None",
+                "@type": "option",
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/not at all .png"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Slight",
-                "@type": "schema:option"
+                "value": 1,
+                "name": "Slight",
+                "@type": "option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Mild",
-                "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/several days .png"
+                "value": 2,
+                "name": "Mild",
+                "@type": "option",
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/several days .png"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Moderate",
-                "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/more than half the days .png"
+                "value": 3,
+                "name": "Moderate",
+                "@type": "option",
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/more than half the days .png"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Severe",
-                "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png"
+                "value": 4,
+                "name": "Severe",
+                "@type": "option",
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png"
             }
         ],
         "requiredValue": true

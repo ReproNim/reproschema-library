@@ -2,16 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "interview_age",
-    "skos:prefLabel": "Interview Age",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Interview Age",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Age in months at the time of the interview/test/sampling/imaging.",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "schema:minValue": 0,
-        "schema:maxValue": 1260
+        "minValue": 0,
+        "maxValue": 1260
     }
 }

@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "CageAid_schema",
-    "skos:prefLabel": "CAGE AID",
-    "schema:description": "schema describing cage aid assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "CAGE AID",
+    "description": "schema describing cage aid assessment",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "preamble": "When thinking about drug use, include illegal drug use and the use of prescription drug use other than prescribed.",
     "ui": {
         "addProperties": [

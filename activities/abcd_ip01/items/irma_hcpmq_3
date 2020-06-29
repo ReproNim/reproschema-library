@@ -3,15 +3,15 @@
     "@id": "irma_hcpmq_3",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hcpmq_3",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "3. I brought up the hurricane to my child to inform him or her about what was happening. 3. Hable del hurac\u00e1n a mi hijo para informarle sobre lo que estaba pasando..",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all like me or my family0  Nada como yo o mi familia0",

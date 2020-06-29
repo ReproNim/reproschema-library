@@ -3,8 +3,8 @@
     "@id": "cbcl_q105_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q105_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Uses drugs for non medical purposes (don't include alcohol or tobacco) ",
         "es": "Usa drogas sin motivo m\u00e9dico (no incluya alcohol o tabaco)"
@@ -13,8 +13,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 2,
+        "minValue": 0,
+        "maxValue": 2,
         "choices": [
             {
                 "name": {

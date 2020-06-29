@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "audio_eligibility",
-    "skos:prefLabel": "Audio check result",
-    "schema:description": "audio check result",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Audio check result",
+    "description": "audio check result",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Result",
     "ui": {
         "inputType": "static",
@@ -13,7 +13,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:boolean",
-        "schema:minValue": 0,
-        "schema:maxValue": 1
+        "minValue": 0,
+        "maxValue": 1
     }
 }

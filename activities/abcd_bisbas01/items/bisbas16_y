@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "bisbas16_y",
     "altLabel": "bisbas_16",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Nobody can stop me when I want something.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 3,
+        "minValue": 0,
+        "maxValue": 3,
         "choices": [
             {
                 "name": "Not true",

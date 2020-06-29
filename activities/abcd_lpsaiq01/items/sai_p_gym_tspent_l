@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_gym_tspent_l",
     "altLabel": "sai_gym_tspent_p_l sports_activity_gym_tspent_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Gymnastics Gimnasia About how many minutes per session? \u00bfAproximadamente cu\u00e1ntos minutos por sesiAn?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 999,
-        "schema:maxValue": 9,
+        "minValue": 999,
+        "maxValue": 9,
         "choices": [
             {
                 "name": "Don't know No lo s\u00e9 ",

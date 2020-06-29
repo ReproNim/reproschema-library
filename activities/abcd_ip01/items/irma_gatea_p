@@ -3,15 +3,15 @@
     "@id": "irma_gatea_p",
     "@type": "reproschema:Field",
     "prefLabel": "irma_gatea_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Were you and your child living in Florida at the time that Hurricane Irma hit the United States (September 2017)? \u00bfEstaban usted y su hijo(a)  viviendo en Florida  en el momento en que el hurac\u00e1n Irma llegA a los Estados Unidos (Septiembre de 2017)?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

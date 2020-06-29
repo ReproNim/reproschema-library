@@ -3,15 +3,15 @@
     "@id": "meim_4_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_4_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I have often done things that will help me understand my ethnic background better. Muchas veces he hecho cosas que me ayudar\u00e1n a comprender mejor a mi grupo \u00e9tnico.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 5,
+        "minValue": 1,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "Strongly Agree Estoy totalmente de acuerdo",

@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_gay_problems_l",
     "altLabel": "kbi_c_gay_problems_p_l ksads_back_c_gay_prob_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Since we last saw you, has this caused any problems for your child with your family or with kids at school? Desde la \u00faltima vez que nos vimos, \u00bfesto le ha causado a su ni\u00f1o(a) alg\u00fan problema con su familia o con los ni\u00f1os en la escuela?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 4,
+        "minValue": 1,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all Para nada",

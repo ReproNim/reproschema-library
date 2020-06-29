@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_7",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_7",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "7. I don't feel like doing things with my family or friends or other things that I liked to do. 7. No tengo ganas de hacer cosas con mi familia o amigos u otras cosas que me gusta hacer.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "None (Never)0  De ningun modo (Nunca)0",

@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gad7_7",
-    "skos:prefLabel": "GAD7-7",
-    "schema:description": "schema for Q7 of the GAD7 Assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "GAD7-7",
+    "description": "schema for Q7 of the GAD7 Assessment",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Feeling afraid as if something awful might happen?",
         "es": "\u00bfHa tenido miedo de que algo terrible fuera a pasar?"

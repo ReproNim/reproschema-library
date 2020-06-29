@@ -3,8 +3,8 @@
     "@id": "ksads_23_966_t",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_23_966_t",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Diagnosis - NopastsuicidalideationorbehaviorPast",
     "ui": {
         "inputType": "text"

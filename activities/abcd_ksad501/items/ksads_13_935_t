@@ -3,8 +3,8 @@
     "@id": "ksads_13_935_t",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_13_935_t",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Diagnosis - Bulimia Nervosa (F50.2) PRESENT",
     "ui": {
         "inputType": "text"

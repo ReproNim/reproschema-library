@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "bpm_3_y",
     "altLabel": "bpm_3 bpmy_3",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I fail to finish things I start",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 999,
+        "minValue": 0,
+        "maxValue": 999,
         "choices": [
             {
                 "name": "Not True",

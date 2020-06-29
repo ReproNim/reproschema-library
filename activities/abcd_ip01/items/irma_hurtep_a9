@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_a9",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a9",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Has anyone stolen anything from your home since the hurricane? \u00bfAlguien ha robado algo de su casa desde el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

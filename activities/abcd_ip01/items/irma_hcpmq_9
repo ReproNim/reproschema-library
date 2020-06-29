@@ -3,15 +3,15 @@
     "@id": "irma_hcpmq_9",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hcpmq_9",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "9. I encouraged my child to focus on other, more pleasant, topics. 9. Apoye a mi hijo a enfocarse en otros temas m\u00e1s agradables.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all like me or my family0  Nada como yo o mi familia0",

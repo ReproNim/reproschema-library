@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_empl_time_l",
     "altLabel": "demo_prnt_empl_time_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Work Full time or Part time? \u00bfTrabaja de tiempo completo o medio tiempo?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 2,
+        "minValue": 1,
+        "maxValue": 2,
         "choices": [
             {
                 "name": "Full time Tiempo Completo",

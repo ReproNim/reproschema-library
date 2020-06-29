@@ -3,15 +3,15 @@
     "@id": "irma_hcpmq_13",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hcpmq_13",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "13. I did not let my child watch any hurricane-related news and media. 13. No dej\u00e9 que mi hijo mirara noticias y medios relacionados con huracanes.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all like me or my family0  Nada como yo o mi familia0",

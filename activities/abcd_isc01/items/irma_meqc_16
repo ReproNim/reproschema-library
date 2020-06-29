@@ -3,15 +3,15 @@
     "@id": "irma_meqc_16",
     "@type": "reproschema:Field",
     "prefLabel": "irma_meqc_16",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "16.  Which Television channel did you watch most when viewing news related to Hurricane Irma?  16. \u00bfQu\u00e9 canal de televisiAn viste m\u00e1s cuando viste noticias relacionadas con el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 7,
+        "minValue": 1,
+        "maxValue": 7,
         "choices": [
             {
                 "name": "The Weather Channel  The Weather Channel",

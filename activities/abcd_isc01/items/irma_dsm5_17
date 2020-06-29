@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_17",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_17",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "17. I feel alone even when I am around other people. 17. Siento solo incluso cuando estoy cerca de otras personas.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "None (Never)0  De ningun modo (Nunca)0",

@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "ThankYou_schema",
-    "skos:prefLabel": "Thank You",
-    "schema:description": "ThankYou page schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Thank You",
+    "description": "ThankYou page schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {

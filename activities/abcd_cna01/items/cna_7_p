@@ -7,8 +7,8 @@
         "es": "cna_7_p_es"
     },
     "altLabel": "child_nutrition_7_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Think about what your child eats in a typical week, during this past year since we last saw you. In a typical week, does your child eat: Poultry 2 or more times per week",
         "es": "Piense en lo que su ni\u00f1o(a) come durante una semana  t\u00edpica, durante el \u00faltimo a\u00f1o; desde la \u00faltima vez que lo vimos.  En una semana t\u00edpica, su ni\u00f1o(a) come: Carne de aves (ej. pollo o pavo) o huevos 2 o m\u00e1s veces por semana."
@@ -17,8 +17,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 999,
+        "minValue": 1,
+        "maxValue": 999,
         "choices": [
             {
                 "name": {

@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_a11",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a11",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Were you without power or water for a week or more?  \u00bfEstabas sin energ\u00eda o agua durante una semana o m\u00e1s?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

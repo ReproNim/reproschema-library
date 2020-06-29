@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_child_time2_v2_dk_l",
     "altLabel": "demo_child_time2_dk_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Don't know/Refuse to answer No lo s\u00e9/Prefiere no contestar",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 999,
-        "schema:maxValue": 777,
+        "minValue": 999,
+        "maxValue": 777,
         "choices": [
             {
                 "name": "Don't know No lo s\u00e9",

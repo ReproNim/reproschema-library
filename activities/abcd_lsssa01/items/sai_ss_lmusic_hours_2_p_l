@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_ss_lmusic_hours_2_p_l",
     "altLabel": "sports_activity_ss_lmusic_hours_2_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Music.  About how many hours per week does your child spend listening to music for pleasure?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 1,
+        "minValue": 1,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "0",

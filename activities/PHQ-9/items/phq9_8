@@ -3,9 +3,9 @@
     "@type": "reproschema:Field",
     "@id": "phq9_8",
     "prefLabel": "PHQ9-8",
-    "schema:description": "schema for Q8 of the PHQ-9 Assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "description": "schema for Q8 of the PHQ-9 Assessment",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Moving or speaking so slowly that other people could have noticed? Or the opposite \u2014 being so fidgety or restless that you have been moving around a lot more than usual?",
         "es": "\u00bfSe ha movido o hablado tan lento que otras personas podr\u00edan haberlo notado? o lo contrario \u2013 muy inquieto(a) o agitado(a) que ha estado movi\u00e9ndose mucho m\u00e1s de lo normal?"

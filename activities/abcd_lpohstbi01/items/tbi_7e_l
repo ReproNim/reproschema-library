@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "tbi_7e_l",
     "altLabel": "brain_injury_7e_l tbi_7e_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "At what age did these effects begin? \u00bfA qu\u00e9 edad comenzaron estos efectos?",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:float",
-        "schema:minValue": 7,
-        "schema:maxValue": 20
+        "minValue": 7,
+        "maxValue": 20
     }
 }

@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_a12",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a12",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Did you have to travel a lot longer to get to work or school? \u00bfTuvo que viajar mucho m\u00e1s tiempo para ir al trabajo o a la escuela?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

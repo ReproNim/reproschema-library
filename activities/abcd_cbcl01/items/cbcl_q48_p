@@ -3,8 +3,8 @@
     "@id": "cbcl_q48_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q48_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "",
         "es": "Not liked by other kids No le cae bien a otros ni\u00f1os(as)/j\u00f3venes"
@@ -13,8 +13,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 2,
+        "minValue": 0,
+        "maxValue": 2,
         "choices": [
             {
                 "name": {

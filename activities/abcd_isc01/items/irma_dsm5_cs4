@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_cs4",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_cs4",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "CS4. Do these reactions, thoughts, and feelings cause some other problem at home? CS4. \u00bfEstas reacciones, pensamientos y sentimientos causan alg\u00fan otro problema en casa?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

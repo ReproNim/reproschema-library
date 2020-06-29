@@ -3,15 +3,15 @@
     "@id": "irma_hcpmq_5",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hcpmq_5",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "5. I asked my child what questions he or she might have about the hurricane. 5. Le pregunt\u00e9 a mi hijo qu\u00e9 preguntas podr\u00eda tener sobre el hurac\u00e1n.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all like me or my family0  Nada como yo o mi familia0",

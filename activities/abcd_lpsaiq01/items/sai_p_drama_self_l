@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_drama_self_l",
     "altLabel": "sai_drama_self_p_l sports_activity_drama_self_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Theater, Acting, Film Teatro, actuaciAn, cinematograf\u00eda Did your child learn this activity without formal instruction? \u00bfSu ni\u00f1o(a) aprendiA esta actividad sin instrucciAn formal?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes S\u00ed",

@@ -2,9 +2,9 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_lpds01_schema",
-    "skos:prefLabel": "abcd_lpds01",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "abcd_lpds01",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "order": [
             "items/demo_brthdat_v2_l",

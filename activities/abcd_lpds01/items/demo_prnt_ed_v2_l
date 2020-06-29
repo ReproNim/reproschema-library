@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_ed_v2_l",
     "altLabel": "demo_prnt_ed_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "What is the highest grade or level of school you have completed or the highest degree you have received? \u00bfCu\u00e1l es su m\u00e1ximo nivel de estudios completados o el m\u00e1ximo t\u00edtulo que ha recibido?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 21,
+        "minValue": 0,
+        "maxValue": 21,
         "choices": [
             {
                 "name": "Never attended/Kindergarten only Nunca asist\u00ed/Kinder solamente ",

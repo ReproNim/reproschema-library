@@ -3,16 +3,16 @@
     "@id": "asr_scr_perstr_t",
     "@type": "reproschema:Field",
     "prefLabel": "asr_scr_perstr_t",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Personal Strength ASR Adaptive Functioning Scale (t-score)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "schema:minValue": 20,
-        "schema:maxValue": 60
+        "minValue": 20,
+        "maxValue": 60
     },
     "additionalNotesObj": [
         {

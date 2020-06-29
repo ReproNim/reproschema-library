@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "VoiceConsent_schema",
-    "skos:prefLabel": "Voice Consent",
-    "schema:description": "Consent for voice study",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Voice Consent",
+    "description": "Consent for voice study",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "preamble": "Learn about the study, risks and benefits of joining by going through the consent. Once you have accepted it, take a short quiz to check what you have learned from the consent document.",
     "ui": {
         "addProperties": [

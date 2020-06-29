@@ -3,15 +3,15 @@
     "@id": "meim_5_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_5_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I have often talked to other people in order to learn more about my ethnic group. Con frecuencia he hablado con otras personas para aprender m\u00e1s sobre mi grupo \u00e9tnico.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 5,
+        "minValue": 1,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "Strongly Agree Estoy totalmente de acuerdo",

@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "ehi2b",
     "altLabel": "ehi_2b",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Throwing",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 100,
-        "schema:maxValue": -100,
+        "minValue": 100,
+        "maxValue": -100,
         "choices": [
             {
                 "name": "Always Right",

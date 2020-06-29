@@ -3,15 +3,15 @@
     "@id": "meim_3_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_3_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I understand pretty well what my ethnic group membership means to me. Entiendo bastante bien lo que significa para m\u00ed pertenecer a mi grupo \u00e9tnico.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 5,
+        "minValue": 1,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "Strongly Agree Estoy totalmente de acuerdo",

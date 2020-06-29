@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "fes_youth_q6",
     "altLabel": "fes_q6",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Family members sometimes hit each other.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "True",

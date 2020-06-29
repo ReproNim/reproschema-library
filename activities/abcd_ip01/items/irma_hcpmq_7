@@ -3,15 +3,15 @@
     "@id": "irma_hcpmq_7",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hcpmq_7",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "7. I expressed concerns to my child that he or she might not be fully safe. 7. Le expres\u00e9 mi preocupaciAn a mi hijo de que \u00e9l o ella podr\u00edan no estar completamente seguros.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all like me or my family0  Nada como yo o mi familia0",

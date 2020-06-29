@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_30",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_30",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "30. I feel like things around me look strange, different, or like I am in a fog. 30. Siento que las cosas a mi alrededor se ven extra\u00f1as, diferentes o como si estuviera en una niebla.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "None (Never)0  De ningun modo (Nunca)0",

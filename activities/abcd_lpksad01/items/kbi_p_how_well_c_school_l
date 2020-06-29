@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_how_well_c_school_l",
     "altLabel": "kbi_how_well_c_school_p_l ksads_back_c_how_well_school_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "In general, how does your child do in school? En general, \u00bfc\u00f3mo le va a su ni\u00f1o(a) en la escuela?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": -1,
+        "minValue": 1,
+        "maxValue": -1,
         "choices": [
             {
                 "name": "Very well Muy bien",

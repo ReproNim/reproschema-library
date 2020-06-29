@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "MindLoggerDemo_schema",
-    "skos:prefLabel": "MindLogger Widget Demo",
-    "schema:description": "This activity contains one of each type of widget supported by the MindLogger mobile app.",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "MindLogger Widget Demo",
+    "description": "This activity contains one of each type of widget supported by the MindLogger mobile app.",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "preamble": "Please follow the instructions for the task.",
     "ui": {
         "addProperties": [

@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_b18",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_b18",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate?  Si se pronostica que otro hurac\u00e1n golpea donde usted vive, \u00bfpreferir\u00eda quedarse en su casa o evacuar?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 5,
+        "minValue": 1,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "Definitely Stay at Home  Definitivamente quedarme en casa",

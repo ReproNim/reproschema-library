@@ -3,15 +3,15 @@
     "@id": "irma_pssp_5",
     "@type": "reproschema:Field",
     "prefLabel": "irma_pssp_5",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "5. In the last month, how often have you felt that things were going your way? 5. En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia ha sentido que las cosas siguen tu camino?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Never0  Nunca0",

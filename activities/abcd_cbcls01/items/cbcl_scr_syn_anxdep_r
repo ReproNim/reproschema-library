@@ -3,15 +3,15 @@
     "@id": "cbcl_scr_syn_anxdep_r",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_scr_syn_anxdep_r",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "AnxDep CBCL Syndrome Scale (raw score)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "value": 0

@@ -3,15 +3,15 @@
     "@id": "irma_meqc_5",
     "@type": "reproschema:Field",
     "prefLabel": "irma_meqc_5",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "5. Media coverage of other storms (e.g., Hurricane Jose, Hurricane Maria) after Irma 5. Cobertura medi\u00e1tica de otras tormentas (por ejemplo, Hurac\u00e1n Jos\u00e9, Hurac\u00e1n Mar\u00eda) despu\u00e9s de Irma",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all (did not view news related to hurricane)0  De ningun modo (no vio noticias relacionadas con el hurac\u00e1n)0",

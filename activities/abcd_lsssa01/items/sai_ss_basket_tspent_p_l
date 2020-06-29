@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_ss_basket_tspent_p_l",
     "altLabel": "sports_activity_ss_basket_tspent_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Basketball\nAbout how many minutes per session?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 999,
-        "schema:maxValue": 9,
+        "minValue": 999,
+        "maxValue": 9,
         "choices": [
             {
                 "name": "Don't know",

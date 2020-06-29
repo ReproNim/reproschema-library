@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_lmusic_l",
     "altLabel": "sai_p_lmusic_p_l sports_activity_lmusic_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Since we last saw you on [asnt_timestamp_c], has your child listened to music for pleasure? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfsu ni\u00f1o(a) ha escuchado m\u00fasica por placer?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes S\u00ed",

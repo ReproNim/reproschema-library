@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "su_risk_p_6",
     "altLabel": "su_crpf_avail_6_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Is \"medical marijuana\" (marijuana prescribed by a doctor) legal in your state?  \u00bfEs la \"marihuana medicinal\" (marihuana recetada por un m\u00e9dico) legal en su estado?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 2,
+        "minValue": 0,
+        "maxValue": 2,
         "choices": [
             {
                 "name": "Yes S\u00ed",

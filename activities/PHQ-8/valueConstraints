@@ -3,8 +3,8 @@
     "@id": "valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
-    "schema:minValue": 0,
-    "schema:maxValue": 3,
+    "minValue": 0,
+    "maxValue": 3,
     "multipleChoice": false,
     "choices": [
         {

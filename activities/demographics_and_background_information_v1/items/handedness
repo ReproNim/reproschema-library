@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "handedness",
-    "skos:prefLabel": "Handedness",
-    "schema:description": "schema for simple handedness of the subject",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Handedness",
+    "description": "schema for simple handedness of the subject",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Handedness",
     "ui": {
         "inputType": "radio"
@@ -13,20 +13,20 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": false,
-        "schema:minValue": 0,
-        "schema:maxValue": 2,
+        "minValue": 0,
+        "maxValue": 2,
         "choices": [
             {
-                "schema:name": "Left",
-                "schema:value": 0
+                "name": "Left",
+                "value": 0
             },
             {
-                "schema:name": "Right",
-                "schema:value": 1
+                "name": "Right",
+                "value": 1
             },
             {
-                "schema:name": "Ambidextrous",
-                "schema:value": 2
+                "name": "Ambidextrous",
+                "value": 2
             }
         ]
     }

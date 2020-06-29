@@ -3,15 +3,15 @@
     "@id": "irma_meqp_14",
     "@type": "reproschema:Field",
     "prefLabel": "irma_meqp_14",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "14. Irma-related social media activity after the storm 14. Actividad de medios sociales relacionada con Irma despu\u00e9s de la tormenta",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Once per day or less0  Una ves por d\u00eda on menos0",

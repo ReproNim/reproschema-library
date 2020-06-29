@@ -3,6 +3,6 @@
     "@id": "say_ah_valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "audioRecord",
-    "schema:minValue": 0,
-    "schema:maxValue": 10000
+    "minValue": 0,
+    "maxValue": 10000
 }

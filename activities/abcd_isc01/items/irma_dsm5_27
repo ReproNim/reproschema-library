@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_27",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_27",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "27. I want to get back at someone for what happened during Hurricane Irma. 27. Quiero castigar a alguien por lo que sucediA durante el hurac\u00e1n Irma.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "None (Never)0  De ningun modo (Nunca)0",

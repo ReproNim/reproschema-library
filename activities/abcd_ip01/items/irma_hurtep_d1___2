@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_d1___2",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_d1___2",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el hurac\u00e1n? (puedes verificar m\u00e1s de uno) (2, in a closet,  bathroom,  or hallway  en un armario,  ba\u00f1o o pasillo)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "No",

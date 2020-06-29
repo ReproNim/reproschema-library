@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "bads_1",
-    "skos:prefLabel": "BADS-1",
-    "schema:description": "Q1 of the BADS Assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "BADS-1",
+    "description": "Q1 of the BADS Assessment",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "There were certain things I needed to do that I didn\u2019t do. ",
     "ui": {
         "inputType": "slider"

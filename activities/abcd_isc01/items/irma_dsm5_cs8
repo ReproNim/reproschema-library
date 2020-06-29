@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_cs8",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_cs8",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "CS8. Do these reactions, thoughts, and feelings make it harder for you to do important things that other kids your age are doing? CS8. \u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted hacer cosas importantes que otros ni\u00f1os de su edad est\u00e1n haciendo?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

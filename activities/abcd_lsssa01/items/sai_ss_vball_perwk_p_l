@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_ss_vball_perwk_p_l",
     "altLabel": "sports_activity_ss_vball_perwk_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Volleyball\nAbout how many days per week?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 999,
-        "schema:maxValue": 10,
+        "minValue": 999,
+        "maxValue": 10,
         "choices": [
             {
                 "name": "Don't know",

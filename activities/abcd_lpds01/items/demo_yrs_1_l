@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_yrs_1_l",
     "altLabel": "demo_yrs_1_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "How often does your child attend religious services? \u00bfCon qu\u00e9 frecuencia asiste su nin-o(a) a servicios religiosos?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 777,
+        "minValue": 0,
+        "maxValue": 777,
         "choices": [
             {
                 "name": "Never Nunca",

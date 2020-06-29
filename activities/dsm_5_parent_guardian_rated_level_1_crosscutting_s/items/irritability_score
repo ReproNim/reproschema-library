@@ -10,7 +10,7 @@
     },
     "responseOptions": {
         "valueType": "float",
-        valueRequired": true
+        "valueRequired": true
     },
     "question": {
         "en": "Irritability Rating DSM 5"

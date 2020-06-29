@@ -13,6 +13,6 @@
         "en": "Has your child who will be participating in study ever been in outpatient psychiatric/psychological treatment?\t"
     },
     "responseOptions": {
-        valueRequired": true
+        "valueRequired": true
     }
 }

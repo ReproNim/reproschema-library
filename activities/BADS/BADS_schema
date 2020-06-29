@@ -19,55 +19,55 @@
             {
                 "isAbout": "items/bads_1",
                 "variableName": "bads_1",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_2",
                 "variableName": "bads_2",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_3",
                 "variableName": "bads_3",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_4",
                 "variableName": "bads_4",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_5",
                 "variableName": "bads_5",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_6",
                 "variableName": "bads_6",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_7",
                 "variableName": "bads_7",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_8",
                 "variableName": "bads_8",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/bads_9",
                 "variableName": "bads_9",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {

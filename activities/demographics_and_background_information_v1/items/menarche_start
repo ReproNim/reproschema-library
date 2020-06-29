@@ -13,7 +13,7 @@
         "valueType": "xsd:int",
         "minValue": "8",
         "maxValue": "25",
-        valueRequired": true
+        "valueRequired": true
     },
     "question": {
         "en": "At what age did your child have her first menstrual period?"

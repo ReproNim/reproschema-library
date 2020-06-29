@@ -10,7 +10,7 @@
     },
     "responseOptions": {
         "valueType": "float",
-        valueRequired": true
+        "valueRequired": true
     },
     "question": {
         "en": "Anxiety Rating DSM 5"

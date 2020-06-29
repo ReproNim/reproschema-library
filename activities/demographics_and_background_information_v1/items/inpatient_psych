@@ -13,6 +13,6 @@
         "en": "Has your child who will be participating in study ever been in inpatient psychiatric treatment (hospitalized)?  "
     },
     "responseOptions": {
-        valueRequired": true
+        "valueRequired": true
     }
 }

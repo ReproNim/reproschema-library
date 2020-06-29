@@ -13,19 +13,19 @@
             {
                 "isAbout": "items/view_numbers",
                 "variableName": "view_numbers",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/read_passage",
                 "variableName": "read_passage",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/say_numbers",
                 "variableName": "say_numbers",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             }
         ],

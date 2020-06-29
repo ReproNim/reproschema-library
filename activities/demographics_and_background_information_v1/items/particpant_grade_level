@@ -15,6 +15,6 @@
     "responseOptions": {
         "minValue": "1",
         "maxValue": "12",
-        valueRequired": true
+        "valueRequired": true
     }
 }

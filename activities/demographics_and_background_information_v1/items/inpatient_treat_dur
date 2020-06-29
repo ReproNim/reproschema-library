@@ -11,7 +11,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        valueRequired": true
+        "valueRequired": true
     },
     "question": {
         "en": "What was the total duration of treatment in weeks? (the sum of all inpatient treatment combined)\n"

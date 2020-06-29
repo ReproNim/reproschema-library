@@ -29,7 +29,7 @@
                 "@type": "option"
             }
         ],
-        valueRequired": true
+        "valueRequired": true
     },
     "ui": {
         "inputType": "radio",

@@ -56,6 +56,6 @@
                 "@type": "option"
             }
         ],
-        valueRequired": true
+        "valueRequired": true
     }
 }

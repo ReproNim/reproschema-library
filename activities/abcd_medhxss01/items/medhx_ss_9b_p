@@ -4,16 +4,16 @@
     "@type": "reproschema:Field",
     "prefLabel": "medhx_ss_9b_p",
     "altLabel": "medhx_ss_9b_anesthesia_times_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Has he/she ever had general anesthesia or sedation for any surgery or procedure: How many times?",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:float",
-        "schema:minValue": 0,
-        "schema:maxValue": 15
+        "minValue": 0,
+        "maxValue": 15
     },
     "additionalNotesObj": [
         {

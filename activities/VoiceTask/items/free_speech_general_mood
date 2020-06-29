@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "free_speech_general_mood",
-    "skos:prefLabel": "Free speech general",
-    "schema:description": "free speech item for voice task",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Free speech general",
+    "description": "free speech item for voice task",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Tell me how you're feeling, and why you think you feel that way with as much detail as possible.",
         "es": "Cuente c\u00f3mo se siente y por qu\u00e9 piensa que se siente de ese modo con el mayor detalle y profundidad posible."
@@ -15,8 +15,8 @@
     },
     "responseOptions": {
         "valueType": "audioRecord",
-        "schema:minValue": 0,
-        "schema:maxValue": 120000,
+        "minValue": 0,
+        "maxValue": 120000,
         "multipleChoice": false
     }
 }

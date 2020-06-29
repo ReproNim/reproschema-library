@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_b1a",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_b1a",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Did your child leave (evacuate) your home for the hurricane? \u00bfSu hijo(a) dejo (evacuo) su hogar por el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

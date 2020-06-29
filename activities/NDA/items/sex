@@ -2,34 +2,34 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "sex",
-    "skos:prefLabel": "Sex",
-    "skos:altLabel": "gender",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Sex",
+    "altLabel": "gender",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Sex of the subject",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "Female",
                 "value": "F"
             },
             {
-                "schema:name": "Male",
-                "schema:value": "M"
+                "name": "Male",
+                "value": "M"
             },
             {
-                "schema:name": "Other",
-                "schema:value": "O"
+                "name": "Other",
+                "value": "O"
             },
             {
-                "schema:name": "Not Reported",
-                "schema:value": "NR"
+                "name": "Not Reported",
+                "value": "NR"
             }
         ]
     }

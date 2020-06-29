@@ -3,8 +3,8 @@
     "@id": "cbcl_q58_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q58_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Picks nose, skin, or other parts of body ",
         "es": "Mete el dedo en la nariz, se ara\u00f1a la piel u otras partes del cuerpo"
@@ -13,8 +13,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 2,
+        "minValue": 0,
+        "maxValue": 2,
         "choices": [
             {
                 "name": {

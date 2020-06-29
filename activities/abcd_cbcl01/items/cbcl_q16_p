@@ -3,8 +3,8 @@
     "@id": "cbcl_q16_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q16_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Cruelty, bullying, or meanness to others ",
         "es": "Es cruel, abusador(a), y malo(a) con los dem\u00e1s"
@@ -13,8 +13,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 2,
+        "minValue": 0,
+        "maxValue": 2,
         "choices": [
             {
                 "name": {

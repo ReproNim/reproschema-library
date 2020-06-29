@@ -3,15 +3,15 @@
     "@id": "irma_gatea_c",
     "@type": "reproschema:Field",
     "prefLabel": "irma_gatea_c",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Do you live in the state of Florida? \u00bfVives en el estado de la Florida?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

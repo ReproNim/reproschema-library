@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_ss_gym_nmonth_p_l",
     "altLabel": "sports_activity_ss_gym_nmonth_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Gymnastics. Since we last saw you, about how many months per year did your child participate?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 999,
-        "schema:maxValue": 13,
+        "minValue": 999,
+        "maxValue": 13,
         "choices": [
             {
                 "name": "Don't know",

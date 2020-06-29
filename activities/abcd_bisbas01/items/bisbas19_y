@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "bisbas19_y",
     "altLabel": "bisbas_19",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I am always willing to try something new, when I think it will be fun.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 3,
+        "minValue": 0,
+        "maxValue": 3,
         "choices": [
             {
                 "name": "Not true",

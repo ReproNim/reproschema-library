@@ -3,8 +3,8 @@
     "@id": "ksads_8_302_p",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_8_302_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Symptom - Social situations invariably provoke \u03beanxiety Past",
     "ui": {
         "inputType": "text"

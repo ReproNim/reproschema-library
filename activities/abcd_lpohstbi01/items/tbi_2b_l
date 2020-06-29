@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "tbi_2b_l",
     "altLabel": "brain_injury_2b_l tbi_2b_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Was he/she knocked out or did he/she lose consciousness (LOC)? If yes, how long? \u00bfEstuvo \u00e9l o ella noqueado/a o perdi\u00f3 el conocimiento? \u00bfSi la respuesta es si, por cu\u00e1nto tiempo?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 3,
+        "minValue": 0,
+        "maxValue": 3,
         "choices": [
             {
                 "name": "No LOC Sin p\u00e9rdida de conocimiento",

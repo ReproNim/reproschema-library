@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "fam_roster_10c_v2_l",
     "altLabel": "demo_fam_roster_10c_p_l fam_roster_10c_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Person #10, relationship to you: Persona #10, parentesco a usted:",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 15,
+        "minValue": 1,
+        "maxValue": 15,
         "choices": [
             {
                 "name": "Husband or wife Esposo(a) ",

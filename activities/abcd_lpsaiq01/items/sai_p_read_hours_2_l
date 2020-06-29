@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_read_hours_2_l",
     "altLabel": "sports_activity_p_read_hours_2_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent reading for pleasure?  Desde la ?ltima vez que nos vimos en [asnt_timestamp_c], ?aproximadamente  cu?ntas horas por semana pasa su ni?o(a) leyendo por placer?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 1,
+        "minValue": 1,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "Less than 1 hour ",

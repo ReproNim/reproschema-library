@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "anthroweightcast",
     "altLabel": "anthro_weight_cast",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Participant Wearing a Cast or Medical Prosthesis?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "Yes",

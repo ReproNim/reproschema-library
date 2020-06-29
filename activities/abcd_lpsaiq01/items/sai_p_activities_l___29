@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___29",
     "altLabel": "sports_activity_activities_p_l___29",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "(29, My child has not participated in any of the above activities Mi ni\u00f1o(a) no ha participado en ninguna de estas actividades)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "No",

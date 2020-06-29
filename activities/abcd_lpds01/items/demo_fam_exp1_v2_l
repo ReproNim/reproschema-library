@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_fam_exp1_v2_l",
     "altLabel": "demo_fam_exp1_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Needed food but couldn't afford to buy it or couldn't afford to go out to get it? \u00bfNecesitaban comida pero no les alcanzaba el dinero para comprarla o para salir a comprarla?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 777,
+        "minValue": 0,
+        "maxValue": 777,
         "choices": [
             {
                 "name": "No No",

@@ -3,8 +3,8 @@
     "@id": "ksads_7_300_p",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_7_300_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Symptom - Separation anxiety (past) duration was at least 2 weeks",
     "ui": {
         "inputType": "text"

@@ -3,15 +3,15 @@
     "@id": "irma_pssc_9",
     "@type": "reproschema:Field",
     "prefLabel": "irma_pssc_9",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "9. In the last month, how often have you been angered because of things that happened that were outside of your control? 9. En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia se ha enojado por cosas que sucedieron fuera de su control?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Never0  Nunca0",

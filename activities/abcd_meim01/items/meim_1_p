@@ -3,15 +3,15 @@
     "@id": "meim_1_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_1_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I have spent time trying to find out more about my ethnic group, such as its history, traditions, and customs. He pasado tiempo intentando saber m\u00e1s sobre mi grupo \u00e9tnico, como su historia, tradiciones y costumbres.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 5,
+        "minValue": 1,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "Strongly Agree Estoy totalmente de acuerdo",

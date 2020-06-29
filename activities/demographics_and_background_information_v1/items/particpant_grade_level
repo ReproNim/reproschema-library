@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "@id": "particpant_grade_level",
     "prefLabel": "particpant_grade_level",
     "ui": {
@@ -13,8 +13,8 @@
         "en": "Youth participant's grade level"
     },
     "responseOptions": {
-        "schema:minValue": "1",
-        "schema:maxValue": "12",
+        "minValue": "1",
+        "maxValue": "12",
         "requiredValue": true
     }
 }

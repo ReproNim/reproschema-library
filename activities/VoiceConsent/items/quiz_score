@@ -2,11 +2,11 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "quiz_score",
-    "skos:prefLabel": "Score of Consent Quiz",
-    "skos:altLabel": "quiz_score",
-    "schema:description": "schema for consent quiz score",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Score of Consent Quiz",
+    "altLabel": "quiz_score",
+    "description": "schema for consent quiz score",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "inputType": "xsd:int",
         "readOnly": true

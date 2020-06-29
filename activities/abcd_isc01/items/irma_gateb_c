@@ -3,15 +3,15 @@
     "@id": "irma_gateb_c",
     "@type": "reproschema:Field",
     "prefLabel": "irma_gateb_c",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Do you live in the state of South Carolina)? \u00bfVives en el estado de Carolina del Sur?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

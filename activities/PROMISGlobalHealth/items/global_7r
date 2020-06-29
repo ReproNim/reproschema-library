@@ -2,62 +2,62 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "global_7r",
-    "skos:prefLabel": "PROMIS-GH-7r",
-    "schema:description": "Q7r of the PROMIS Global Health survey",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "PROMIS-GH-7r",
+    "description": "Q7r of the PROMIS Global Health survey",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "In the past 7 days, how would you rate your pain on average?",
     "ui": {
         "inputType": "slider"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "schema:minValue": "No pain",
-        "schema:maxValue": "Worst pain imaginable",
+        "minValue": "No pain",
+        "maxValue": "Worst pain imaginable",
         "choices": [
             {
-                "schema:name": "0",
-                "schema:value": 5
+                "name": "0",
+                "value": 5
             },
             {
-                "schema:name": "1",
-                "schema:value": 4
+                "name": "1",
+                "value": 4
             },
             {
-                "schema:name": "2",
-                "schema:value": 4
+                "name": "2",
+                "value": 4
             },
             {
-                "schema:name": "3",
-                "schema:value": 4
+                "name": "3",
+                "value": 4
             },
             {
-                "schema:name": "4",
-                "schema:value": 3
+                "name": "4",
+                "value": 3
             },
             {
-                "schema:name": "5",
-                "schema:value": 3
+                "name": "5",
+                "value": 3
             },
             {
-                "schema:name": "6",
-                "schema:value": 3
+                "name": "6",
+                "value": 3
             },
             {
-                "schema:name": "7",
-                "schema:value": 2
+                "name": "7",
+                "value": 2
             },
             {
-                "schema:name": "8",
-                "schema:value": 2
+                "name": "8",
+                "value": 2
             },
             {
-                "schema:name": "9",
-                "schema:value": 2
+                "name": "9",
+                "value": 2
             },
             {
-                "schema:name": "10",
-                "schema:value": 1
+                "name": "10",
+                "value": 1
             }
         ]
     }

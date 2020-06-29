@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "abcd_compliant",
     "altLabel": "ftq_compliant",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Sequence parameters compliant with the ABCD imaging protocol",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 0,
+        "minValue": 0,
+        "maxValue": 0,
         "choices": [
             {
                 "value": 0

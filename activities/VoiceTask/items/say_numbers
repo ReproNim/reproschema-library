@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "say_numbers",
-    "skos:prefLabel": "Say numbers",
-    "schema:description": "say numbers",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Say numbers",
+    "description": "say numbers",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Say the numbers you were asked to memorize previously",
     "ui": {
         "inputType": "audioRecord"

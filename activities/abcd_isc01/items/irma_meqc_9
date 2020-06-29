@@ -3,15 +3,15 @@
     "@id": "irma_meqc_9",
     "@type": "reproschema:Field",
     "prefLabel": "irma_meqc_9",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "9. Internet media coverage of Hurricane Irma after the storm 9. Cobertura de los medios de Internet del Hurac\u00e1n Irma despu\u00e9s de la tormenta",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Once per day or less0  Una ves por d\u00eda on menos0",

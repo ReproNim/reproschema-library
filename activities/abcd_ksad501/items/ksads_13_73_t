@@ -3,8 +3,8 @@
     "@id": "ksads_13_73_t",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_13_73_t",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Symptom - Weight control other (laxatives exercise dieting pills) Past",
     "ui": {
         "inputType": "text"

@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_cna01_schema",
-    "skos:prefLabel": {
+    "prefLabel": {
         "en": "abcd_cna01",
         "es": "abcd_cna01_es"
     },
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "order": [
             "items/cna_1_p",

@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_trans_l",
     "altLabel": "kbi_c_trans_p_l ksads_back_c_trans_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Is your child transgender? \u00bfSu ni\u00f1o(a) es transg\u00e9nero",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 4,
+        "minValue": 1,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Yes S\u00ed",

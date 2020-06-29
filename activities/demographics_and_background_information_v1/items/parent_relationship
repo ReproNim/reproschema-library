@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "@id": "parent_relationship",
     "prefLabel": "parent_relationship",
     "ui": {
@@ -14,74 +14,74 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "biological father ",
-                "@type": "schema:option"
+                "value": 1,
+                "name": "biological father ",
+                "@type": "option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "biological mother ",
-                "@type": "schema:option"
+                "value": 2,
+                "name": "biological mother ",
+                "@type": "option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "stepmother ",
-                "@type": "schema:option"
+                "value": 3,
+                "name": "stepmother ",
+                "@type": "option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "stepfather ",
-                "@type": "schema:option"
+                "value": 4,
+                "name": "stepfather ",
+                "@type": "option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "foster mother ",
-                "@type": "schema:option"
+                "value": 5,
+                "name": "foster mother ",
+                "@type": "option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "foster father ",
-                "@type": "schema:option"
+                "value": 6,
+                "name": "foster father ",
+                "@type": "option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "grandfather ",
-                "@type": "schema:option"
+                "value": 7,
+                "name": "grandfather ",
+                "@type": "option"
             },
             {
-                "schema:value": 8,
-                "schema:name": "grandmother ",
-                "@type": "schema:option"
+                "value": 8,
+                "name": "grandmother ",
+                "@type": "option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "aunt ",
-                "@type": "schema:option"
+                "value": 9,
+                "name": "aunt ",
+                "@type": "option"
             },
             {
-                "schema:value": 10,
-                "schema:name": "uncle ",
-                "@type": "schema:option"
+                "value": 10,
+                "name": "uncle ",
+                "@type": "option"
             },
             {
-                "schema:value": 11,
-                "schema:name": "older sister ",
-                "@type": "schema:option"
+                "value": 11,
+                "name": "older sister ",
+                "@type": "option"
             },
             {
-                "schema:value": 12,
-                "schema:name": "older brother ",
-                "@type": "schema:option"
+                "value": 12,
+                "name": "older brother ",
+                "@type": "option"
             },
             {
-                "schema:value": 13,
-                "schema:name": "other relative ",
-                "@type": "schema:option"
+                "value": 13,
+                "name": "other relative ",
+                "@type": "option"
             },
             {
-                "schema:value": 14,
-                "schema:name": "other non relative",
-                "@type": "schema:option"
+                "value": 14,
+                "name": "other non relative",
+                "@type": "option"
             }
         ],
         "requiredValue": true

@@ -3,15 +3,15 @@
     "@id": "meim_6_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_6_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I feel a strong attachment towards my own ethnic group. Siento una fuerte conexi\u00f3n hacia mi propio grupo \u00e9tnico.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 5,
+        "minValue": 1,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "Strongly Agree Estoy totalmente de acuerdo",

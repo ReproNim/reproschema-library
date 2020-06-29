@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "bads_5",
-    "skos:prefLabel": "BADS-5",
-    "schema:description": "schema for Q5 of the BADS Assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "BADS-5",
+    "description": "schema for Q5 of the BADS Assessment",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I was an active person and accomplished the\ngoals I set out to do",
     "ui": {
         "inputType": "slider"

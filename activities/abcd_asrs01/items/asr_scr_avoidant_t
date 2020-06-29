@@ -3,16 +3,16 @@
     "@id": "asr_scr_avoidant_t",
     "@type": "reproschema:Field",
     "prefLabel": "asr_scr_avoidant_t",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Avoidant Personality Problems ASR DSM-5-Oriented Scale (t-score)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "schema:minValue": 50,
-        "schema:maxValue": 90
+        "minValue": 50,
+        "maxValue": 90
     },
     "additionalNotesObj": [
         {

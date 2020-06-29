@@ -3,15 +3,15 @@
     "@id": "demo_prnt_ethnic_acs_p",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_ethnic_acs_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Do you consider yourself Hispanic/Latino/Latina??Se considera usted hispano(a) o latino(a)?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 0,
+        "minValue": 0,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "No, not of Hispanic, Latino, or Spanish origin No, no soy de origen Hispano, Latino, o Espa?ol",

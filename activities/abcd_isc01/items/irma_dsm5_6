@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_6",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_6",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "6. I feel like what happened during Hurricane Irma was sickening or gross. 6. Siento que lo que sucediA durante el hurac\u00e1n Irma fue repugnante o asqueroso.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "None (Never)0  De ningun modo (Nunca)0",

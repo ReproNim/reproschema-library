@@ -3,15 +3,15 @@
     "@id": "irma_meqp_10",
     "@type": "reproschema:Field",
     "prefLabel": "irma_meqp_10",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "10. Internet media coverage of other storms (e.g., Hurricane Jose, Hurricane Maria) after Irma 10. Cobertura de los medios de Internet de otras tormentas (por ejemplo, Hurac\u00e1n Jos\u00e9, Hurac\u00e1n Mar\u00eda) despu\u00e9s de Irma",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Once per day or less0  Una ves por d\u00eda on menos0",

@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_d14",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_d14",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el hurracan, \u00bfpensaste que el hurac\u00e1n estaba causando da\u00f1os importantes a su hogar, o que podr\u00edas perder su hogar?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

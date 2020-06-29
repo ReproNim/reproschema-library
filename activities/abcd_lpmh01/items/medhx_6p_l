@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "medhx_6p_l",
     "altLabel": "medhx_6p_seizure_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Since we last saw you, has she/he been to a doctor for any of these things? Seizure Convulsi\u00f3n",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes S\u00ed",

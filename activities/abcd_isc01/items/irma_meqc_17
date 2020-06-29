@@ -3,15 +3,15 @@
     "@id": "irma_meqc_17",
     "@type": "reproschema:Field",
     "prefLabel": "irma_meqc_17",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "17.  Which Social Media platform did you use the most when checking for news related to Hurricane Irma?  17. \u00bfQu\u00e9 plataforma de medios sociales usA m\u00e1s al buscar noticias relacionadas con el hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 7,
+        "minValue": 1,
+        "maxValue": 7,
         "choices": [
             {
                 "name": "Facebook  Facebook",

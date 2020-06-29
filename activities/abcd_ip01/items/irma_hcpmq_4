@@ -3,15 +3,15 @@
     "@id": "irma_hcpmq_4",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hcpmq_4",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "4. I tried to prevent other people from discussing the hurricane in front of my child. 4. Trat\u00e9 de evitar que otras personas hablen del hurac\u00e1n delante de mi hijo(a)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all like me or my family0  Nada como yo o mi familia0",

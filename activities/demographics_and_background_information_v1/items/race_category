@@ -1,42 +1,42 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "@id": "race_category",
     "prefLabel": "race_category",
     "responseOptions": {
         "multipleChoice": false,
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Caucasian or White ",
-                "@type": "schema:option"
+                "value": 1,
+                "name": "Caucasian or White ",
+                "@type": "option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Black or African American ",
-                "@type": "schema:option"
+                "value": 2,
+                "name": "Black or African American ",
+                "@type": "option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "American Indian or Alaska Native ",
-                "@type": "schema:option"
+                "value": 3,
+                "name": "American Indian or Alaska Native ",
+                "@type": "option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Asian ",
-                "@type": "schema:option"
+                "value": 4,
+                "name": "Asian ",
+                "@type": "option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Native Hawaiian or other Pacific Islander ",
-                "@type": "schema:option"
+                "value": 5,
+                "name": "Native Hawaiian or other Pacific Islander ",
+                "@type": "option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "Multiracial",
-                "@type": "schema:option"
+                "value": 6,
+                "name": "Multiracial",
+                "@type": "option"
             }
         ],
         "requiredValue": true

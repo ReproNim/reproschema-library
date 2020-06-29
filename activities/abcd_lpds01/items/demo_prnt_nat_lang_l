@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_nat_lang_l",
     "altLabel": "demo_prnt_nat_lang_p demo_prnt_nat_lang_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "What is your native language? In other words, what was the first language most spoken to you by your parents or guardians after birth? [you can only pick one]    \u00bfCu\u00e1l es su idioma nativo? En otras palabras \u00bfcual fue el primer idioma que mas le hablaron sus padres o guardi\u00e1n la mayor parte del tiempo despu\u00e9s que usted nacio. [ puede seleccionar solamente uno]",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 58,
-        "schema:maxValue": 57,
+        "minValue": 58,
+        "maxValue": 57,
         "choices": [
             {
                 "name": "English Ingl\u00e9s ",

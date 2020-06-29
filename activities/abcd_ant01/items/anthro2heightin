@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "anthro2heightin",
     "altLabel": "anthro_2_height_in",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "STANDING HEIGHT #2 (in inches)",
     "ui": {
         "inputType": "select"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 7,
+        "minValue": 1,
+        "maxValue": 7,
         "choices": [
             {
                 "name": "12 inches",

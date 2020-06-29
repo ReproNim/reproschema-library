@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "bisbas5r_y",
     "altLabel": "bisbas_5r",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I do not become fearful or nervous, even when something bad happens to me.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 3,
-        "schema:maxValue": 0,
+        "minValue": 3,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Not true",

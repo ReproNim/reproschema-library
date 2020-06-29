@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "PHQ8_schema",
-    "skos:prefLabel": "PHQ-8 Assessment",
-    "schema:description": "PHQ-8 assessment schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "PHQ-8 Assessment",
+    "description": "PHQ-8 assessment schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "preamble": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
     "scoringLogic": [
         {

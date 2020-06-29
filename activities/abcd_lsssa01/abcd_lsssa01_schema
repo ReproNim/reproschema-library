@@ -2,9 +2,9 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_lsssa01_schema",
-    "skos:prefLabel": "abcd_lsssa01",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "abcd_lsssa01",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "order": [
             "items/sai_ss_art_nmonth_p_l",

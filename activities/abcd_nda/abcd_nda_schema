@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_nda_schema",
-    "skos:prefLabel": "ABCD NDAguid",
-    "schema:description": "schema describing terms needed to generate NDA guid for ABCD study",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "ABCD NDAguid",
+    "description": "schema describing terms needed to generate NDA guid for ABCD study",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {

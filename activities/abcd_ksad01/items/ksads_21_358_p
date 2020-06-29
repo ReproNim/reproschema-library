@@ -3,8 +3,8 @@
     "@id": "ksads_21_358_p",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_21_358_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Symptom - Inability to \u03berecall aspects of trauma Past",
     "ui": {
         "inputType": "text"

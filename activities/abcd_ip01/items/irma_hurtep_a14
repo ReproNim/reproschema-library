@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_a14",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_a14",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes? \u00bfHubo mucho da\u00f1o en su vecindario, como grandes \u00e1rboles sin segar o casas gravemente da\u00f1adas?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes  Si",

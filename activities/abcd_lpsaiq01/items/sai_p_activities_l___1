@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___1",
     "altLabel": "sports_activity_activities_p_l___1",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "(1, Baseball,  Softball  B\u00e9isbol,  Softbol)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "No",

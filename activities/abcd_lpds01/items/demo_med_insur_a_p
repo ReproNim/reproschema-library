@@ -3,15 +3,15 @@
     "@id": "demo_med_insur_a_p",
     "@type": "reproschema:Field",
     "prefLabel": "demo_med_insur_a_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "a. Insurance through a current or former employer or union (of this person or another family member)a. Seguro a trav?s de un empleador o sindicato actual o anterior (de esta persona u otro miembro de la familia)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 777,
+        "minValue": 0,
+        "maxValue": 777,
         "choices": [
             {
                 "name": "No No",

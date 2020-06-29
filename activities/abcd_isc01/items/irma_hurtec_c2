@@ -3,15 +3,15 @@
     "@id": "irma_hurtec_c2",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtec_c2",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Keep you from making friends or doing things with friends? \u00bfEvita hacer amigos o hacer cosas con amigos?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 3,
+        "minValue": 0,
+        "maxValue": 3,
         "choices": [
             {
                 "name": "Not at all  De ningun modo",

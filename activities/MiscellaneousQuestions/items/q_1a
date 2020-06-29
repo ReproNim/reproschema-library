@@ -2,71 +2,71 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "q_1a",
-    "skos:prefLabel": "q_1a",
-    "schema:description": "Q1a of the Other Questions Assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "q_1a",
+    "description": "Q1a of the Other Questions Assessment",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Mental health condition",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "schema:minValue": 0,
-        "schema:maxValue": 13,
+        "minValue": 0,
+        "maxValue": 13,
         "multipleChoice": false,
         "choices": [
             {
-                "schema:name": "Alcohol use disorder",
-                "schema:value": 1
+                "name": "Alcohol use disorder",
+                "value": 1
             },
             {
-                "schema:name": "Anxiety reaction/panic disorder",
-                "schema:value": 2
+                "name": "Anxiety reaction/panic disorder",
+                "value": 2
             },
             {
-                "schema:name": "Attention-deficit/hyperactivity disorder (ADHD)",
-                "schema:value": 3
+                "name": "Attention-deficit/hyperactivity disorder (ADHD)",
+                "value": 3
             },
             {
-                "schema:name": "Autism spectrum disorder",
-                "schema:value": 4
+                "name": "Autism spectrum disorder",
+                "value": 4
             },
             {
-                "schema:name": "Bipolar disorder",
-                "schema:value": 5
+                "name": "Bipolar disorder",
+                "value": 5
             },
             {
-                "schema:name": "Depression",
-                "schema:value": 6
+                "name": "Depression",
+                "value": 6
             },
             {
-                "schema:name": "Drug use disorder",
-                "schema:value": 7
+                "name": "Drug use disorder",
+                "value": 7
             },
             {
-                "schema:name": "Eating disorder",
-                "schema:value": 8
+                "name": "Eating disorder",
+                "value": 8
             },
             {
-                "schema:name": "Personality disorder",
-                "schema:value": 9
+                "name": "Personality disorder",
+                "value": 9
             },
             {
-                "schema:name": "Post-traumatic stress disorder (PTSD)",
-                "schema:value": 10
+                "name": "Post-traumatic stress disorder (PTSD)",
+                "value": 10
             },
             {
-                "schema:name": "Schizophrenia",
-                "schema:value": 11
+                "name": "Schizophrenia",
+                "value": 11
             },
             {
-                "schema:name": "Social phobia",
-                "schema:value": 12
+                "name": "Social phobia",
+                "value": 12
             },
             {
-                "schema:name": "Other mental health or substance use condition",
-                "schema:value": 13
+                "name": "Other mental health or substance use condition",
+                "value": 13
             }
         ]
     }

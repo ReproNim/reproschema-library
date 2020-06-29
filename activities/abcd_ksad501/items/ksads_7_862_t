@@ -3,8 +3,8 @@
     "@id": "ksads_7_862_t",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_7_862_t",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Diagnosis - Separation Anxiety Disorder (F93.00) PAST",
     "ui": {
         "inputType": "text"

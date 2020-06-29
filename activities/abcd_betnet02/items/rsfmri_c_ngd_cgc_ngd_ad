@@ -4,8 +4,8 @@
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_cgc_ngd_ad",
     "altLabel": "rsfmri_cor_network.gordon_cingulooperc_network.gordon_auditory rsfmri_cor_networkgordon_cingulooperc_networkgordon_auditory",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Average correlation between cingulo-opercular network and auditory network",
     "ui": {
         "inputType": "number"

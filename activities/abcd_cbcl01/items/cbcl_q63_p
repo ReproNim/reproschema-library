@@ -3,8 +3,8 @@
     "@id": "cbcl_q63_p",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_q63_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Prefers being with older kids ",
         "es": "Prefiere estar con ni\u00f1os(as) mayores que \u00e9l/ella"
@@ -13,8 +13,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 2,
+        "minValue": 0,
+        "maxValue": 2,
         "choices": [
             {
                 "name": {

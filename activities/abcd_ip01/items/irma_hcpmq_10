@@ -3,15 +3,15 @@
     "@id": "irma_hcpmq_10",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hcpmq_10",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "10. I monitored conversations that my child was exposed to, and was sure to end them if topics came up that I thought could frighten my child. 10. Supervis\u00e9 las conversaciones a las que mi hijo estuvo expuesto, y estaba seguro de finalizarlas si surg\u00edan temas que pens\u00e9 que podr\u00edan asustar a mi hijo.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Not at all like me or my family0  Nada como yo o mi familia0",

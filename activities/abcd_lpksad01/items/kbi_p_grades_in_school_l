@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_grades_in_school_l",
     "altLabel": "kbi_grades_in_school_p_l ksads_back_grades_in_school_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "What kind of grades does your child get on average? \u00bfCu\u00e1l es el promedio de calificaciones de su ni\u00f1o(a)?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": -1,
+        "minValue": 1,
+        "maxValue": -1,
         "choices": [
             {
                 "name": "A's / Excellent A / Excelente",

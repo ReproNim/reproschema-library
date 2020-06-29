@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_conflict_causes_l___7",
     "altLabel": "kbi_conflict_causes_p_l___7 ksads_back_conflict_causes_p_l___7",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Click the things that cause conflict between you and your child: A continuaci\u00f3n, seleccione aquello que causa conflicto entre usted y su ni\u00f1o(a): (7, Trouble with Police Problemas con la polic\u00eda)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "No",

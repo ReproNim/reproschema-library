@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "phq9_6",
-    "skos:prefLabel": "PHQ9-6",
-    "schema:description": "schema for Q6 of the PHQ-9 Assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "PHQ9-6",
+    "description": "schema for Q6 of the PHQ-9 Assessment",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Feeling bad about yourself \u2014 or that you are a failure or have let yourself or your family down?",
         "es": "\u00bfSe ha sentido mal con usted mismo(a) \u2013 o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia?"

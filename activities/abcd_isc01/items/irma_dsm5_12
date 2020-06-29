@@ -3,15 +3,15 @@
     "@id": "irma_dsm5_12",
     "@type": "reproschema:Field",
     "prefLabel": "irma_dsm5_12",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "12. I have trouble feeling happiness or love. 12. Tengo problemas para sentir felicidad o amor.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 4,
+        "minValue": 0,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "None (Never)0  De ningun modo (Nunca)0",

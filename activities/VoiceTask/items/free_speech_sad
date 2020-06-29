@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "free_speech_sad",
-    "skos:prefLabel": " Sad Free speech",
-    "schema:description": "sad free speech item for voice task",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": " Sad Free speech",
+    "description": "sad free speech item for voice task",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Describe a sad event from your past with as much detail and depth as possible.",
         "es": "Cuente un recuerdo triste de su vida con el mayor detalle y profundidad posible."
@@ -15,7 +15,7 @@
     },
     "responseOptions": {
         "valueType": "audioRecord",
-        "schema:minValue": 0,
-        "schema:maxValue": 120000
+        "minValue": 0,
+        "maxValue": 120000
     }
 }

@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_roster_v2_refuse_l",
     "altLabel": "demo_roster_refuse_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Not applicable  No aplica; Refuse to answer Prefiero no contestar",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": -1,
-        "schema:maxValue": 777,
+        "minValue": -1,
+        "maxValue": 777,
         "choices": [
             {
                 "name": "Not applicable (for example",

@@ -2,32 +2,32 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "q4",
-    "skos:prefLabel": "Quiz Q4",
-    "skos:altLabel": "quiz_q4",
-    "schema:description": "Quiz Question 4",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Quiz Q4",
+    "altLabel": "quiz_q4",
+    "description": "Quiz Question 4",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Are there risks of participating in this study?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "type": "xsd:string",
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "multipleChoice": false,
         "choices": [
             {
-                "schema:name": "There is no risk of participating in this research study",
-                "schema:value": 0
+                "name": "There is no risk of participating in this research study",
+                "value": 0
             },
             {
-                "schema:name": "There is a risk that my regular doctor won\u2019t be allowed to care for me any longer",
-                "schema:value": 0
+                "name": "There is a risk that my regular doctor won\u2019t be allowed to care for me any longer",
+                "value": 0
             },
             {
-                "schema:name": "Some activities may be tiring and seeing my data may be stressful",
-                "schema:value": 1
+                "name": "Some activities may be tiring and seeing my data may be stressful",
+                "value": 1
             }
         ]
     }

@@ -4,8 +4,8 @@
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_n_ngd_cgc",
     "altLabel": "rsfmri_cor_network.gordon_none_network.gordon_cingulooperc rsfmri_cor_networkgordon_none_networkgordon_cingulooperc",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Average correlation between \"none\" network and cingulo-opercular network",
     "ui": {
         "inputType": "number"

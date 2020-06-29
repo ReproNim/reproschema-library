@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_race_a_v2_l___22",
     "altLabel": "demo_prnt_race_a_p_l___22",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "What race do you consider yourself to be? Please check all that apply. \u00bfDe qu\u00e9 raza se considera usted? Seleccione 1 o m\u00e1s de estas categor\u00edas: (22, Korean Coreana)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "No",

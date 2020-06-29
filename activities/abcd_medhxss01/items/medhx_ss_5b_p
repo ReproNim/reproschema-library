@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "medhx_ss_5b_p",
     "altLabel": "medhx_ss_5b_times_er_before_past_yr_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "How many times did s(he) go to the emergency room before the past year?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 5,
+        "minValue": 0,
+        "maxValue": 5,
         "choices": [
             {
                 "name": "0",

@@ -3,8 +3,8 @@
     "@id": "ksads_13_932_p",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_13_932_p",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Diagnosis - Anorexia Nervosa (F50.01) \u03beRestricting subtype PRESENT",
     "ui": {
         "inputType": "text"

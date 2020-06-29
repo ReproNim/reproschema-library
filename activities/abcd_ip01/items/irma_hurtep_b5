@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_b5",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_b5",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "How many hours in total did your child spend traveling before the hurricane? \u00bfCu\u00e1ntas horas en total paso tu hijo viajando antes del hurac\u00e1n?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 4,
+        "minValue": 1,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Under 2 hours  Menos de 2 horas",

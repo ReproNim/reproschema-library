@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_age_v2_refuse_l",
     "altLabel": "demo_prnt_age_bl_refuse_p_l demo_prnt_age_refuse_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Refuse to answer Niego contestar",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "schema:minValue": 777,
-        "schema:maxValue": 777,
+        "minValue": 777,
+        "maxValue": 777,
         "choices": [
             {
                 "name": "Refuse to answer Niego contestar",

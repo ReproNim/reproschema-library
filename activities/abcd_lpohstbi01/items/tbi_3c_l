@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "tbi_3c_l",
     "altLabel": "brain_injury_3c_l tbi_3c_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Was he/she dazed or did he/she have a gap in his/her memory from the injury? \u00bfSe sinti\u00f3 \u00e9l/ella aturdido, o tuvo lapsos de memoria  por causa de la lesi\u00f3n?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 0,
+        "minValue": 1,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Yes Si",

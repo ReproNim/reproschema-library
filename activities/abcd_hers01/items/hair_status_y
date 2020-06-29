@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "hair_status_y",
     "altLabel": "biospec_hair_status",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Hair Sample Collection:",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 2,
-        "schema:maxValue": 2,
+        "minValue": 2,
+        "maxValue": 2,
         "choices": [
             {
                 "name": "Collected",

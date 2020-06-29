@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_nat_lang_2_l",
     "altLabel": "demo_prnt_nat_lang_2_p demo_prnt_nat_lang_2_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Please choose one of these four options regarding the first language or languages most spoken to you by your parents or guardians after birth.\n Por favor escoja una de estas tres opciones sobre el primer idioma o idiomas m\u00e1s hablados a usted, despu\u00e9s de nacer, por sus padres o guardianes.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 3,
+        "minValue": 1,
+        "maxValue": 3,
         "choices": [
             {
                 "name": "Your parents or guardians spoke to you in English more than any other language after birth Sus padres o guardianes le hablaron en ingles",

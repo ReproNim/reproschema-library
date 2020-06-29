@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "free_speech_movie",
-    "skos:prefLabel": "Free speech movie",
-    "schema:description": "free speech item for voice task",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Free speech movie",
+    "description": "free speech item for voice task",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Please state the name of the last movie or television show that you were really \"struck by\". Describe three things that made it memorable.",
         "es": "Por favor diga el nombre de la \u00faltima pel\u00edcula o serie que realmente te cautiv\u00f3. Describa tres cosas que la hicieron memorable."
@@ -15,8 +15,8 @@
     },
     "responseOptions": {
         "valueType": "audioRecord",
-        "schema:minValue": 0,
-        "schema:maxValue": 60000,
+        "minValue": 0,
+        "maxValue": 60000,
         "multipleChoice": false
     }
 }

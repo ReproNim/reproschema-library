@@ -2,10 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "fluentLanguages",
-    "skos:prefLabel": "Fluent languages",
-    "schema:description": "schema for fluent languages of participant",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Fluent languages",
+    "description": "schema for fluent languages of participant",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Fluent Language",
     "ui": {
         "inputType": "selectLanguage"

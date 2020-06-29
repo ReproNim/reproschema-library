@@ -3,8 +3,8 @@
     "@id": "tbi_ss_before15_nm_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_ss_before15_nm_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "TBI-LOC before age 15\nnumber missing",
     "ui": {
         "inputType": "number"

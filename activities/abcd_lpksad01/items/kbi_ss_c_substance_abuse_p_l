@@ -4,8 +4,8 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_ss_c_substance_abuse_p_l",
     "altLabel": "ksads_back_ss_c_substance_abuse_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Since we last saw you, how many times has your child been in the hospital for substance abuse problems?",
     "ui": {
         "inputType": "number"

@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "demo_yrs_2a_l",
     "altLabel": "demo_yrs_2a_p_l",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Does your child's religion have rules forbidding the use of alcohol? \u00bfLa religion de su nin-o(a) tiene reglas que proh\u00edben el uso del alcohol?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 999,
+        "minValue": 1,
+        "maxValue": 999,
         "choices": [
             {
                 "name": "Yes S\u00ed",

@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "bisbas7_y",
     "altLabel": "bisbas_7",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "I am very fearful compared to my friends.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 0,
+        "minValue": 0,
+        "maxValue": 0,
         "choices": [
             {
                 "name": "Not true",

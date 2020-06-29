@@ -3,8 +3,8 @@
     "@id": "hormone_scr_hse_rep2_qns",
     "@type": "reproschema:Field",
     "prefLabel": "hormone_scr_hse_rep2_qns",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Salimetrics hormone test estradiol (HSE)  quality not sufficient (repetition 2)",
     "ui": {
         "inputType": "text"

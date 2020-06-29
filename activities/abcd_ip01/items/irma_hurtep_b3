@@ -3,15 +3,15 @@
     "@id": "irma_hurtep_b3",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtep_b3",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "When your child evacuated, how long was he or she away from your home? Cuando tu hijo(a) evacuA, \u00bfcu\u00e1nto tiempo estuvo lejos de su casa?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 1,
-        "schema:maxValue": 4,
+        "minValue": 1,
+        "maxValue": 4,
         "choices": [
             {
                 "name": "Less than a day  Menos de un d\u00eda",

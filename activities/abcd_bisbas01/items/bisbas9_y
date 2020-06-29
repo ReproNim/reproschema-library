@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "bisbas9_y",
     "altLabel": "bisbas_9",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "When I am doing well at something, I like to keep doing this.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 3,
+        "minValue": 0,
+        "maxValue": 3,
         "choices": [
             {
                 "name": "Not true",

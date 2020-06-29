@@ -2,11 +2,11 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "sign",
-    "skos:prefLabel": "Consent Signature",
-    "skos:altLabel": "sign",
-    "schema:description": "signature for study consent",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Consent Signature",
+    "altLabel": "sign",
+    "description": "signature for study consent",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Sign the consent document",
     "ui": {
         "inputType": "sign"

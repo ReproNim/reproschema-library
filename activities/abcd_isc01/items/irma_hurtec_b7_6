@@ -3,15 +3,15 @@
     "@id": "irma_hurtec_b7_6",
     "@type": "reproschema:Field",
     "prefLabel": "irma_hurtec_b7_6",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "How did you get news of information about Hurricane Irma? Check all that apply. \u00bfCAmo obtuvo noticias de informaciAn sobre el hurac\u00e1n? Marque todo lo que corresponda. (6, I did not get news or information about Hurricane Irma No recib\u00ed noticias o informaciAn sobre el hurac\u00e1n Irma)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "No",

@@ -2,117 +2,117 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "visual-stimulus-response",
-    "skos:prefLabel": "Visual Stimulus Response",
-    "skos:altLabel": "Visual Stimulus Response",
-    "schema:description": "Flanker practice",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Visual Stimulus Response",
+    "altLabel": "Visual Stimulus Response",
+    "description": "Flanker practice",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "inputType": "visual-stimulus-response",
         "allow": [
-            "autoAdvance"
+            "reproschema:AutoAdvance"
         ]
     },
     "inputOptions": [
         {
-            "@type": "schema:ItemList",
-            "schema:name": "trials",
-            "schema:numberOfItems": 3,
-            "schema:itemListElement": [
+            "@type": "ItemList",
+            "name": "trials",
+            "numberOfItems": 3,
+            "itemListElement": [
                 {
-                    "@type": "schema:Property",
-                    "schema:name": "q1",
-                    "schema:image": "<h3>A 2016 interview with this Batman actor found him looking sad; the internet then made him the meme we deserve</h3>",
+                    "@type": "Property",
+                    "name": "q1",
+                    "image": "<h3>A 2016 interview with this Batman actor found him looking sad; the internet then made him the meme we deserve</h3>",
                     "responseOptions": {
                         "@type": "xsd:anyURI",
                         "choices": [
                             {
-                                "@type": "schema:Number",
-                                "schema:name": "Christian Bale",
-                                "schema:value": 0
+                                "@type": "Number",
+                                "name": "Christian Bale",
+                                "value": 0
                             },
                             {
-                                "@type": "schema:Number",
-                                "schema:name": "Ben Affleck",
-                                "schema:value": 1
+                                "@type": "Number",
+                                "name": "Ben Affleck",
+                                "value": 1
                             }
                         ]
                     },
-                    "schema:value": 1
+                    "value": 1
                 },
                 {
-                    "@type": "schema:Property",
-                    "schema:name": "q2",
-                    "schema:image": "<h3>A common sight was walking around Monet who worked outdoors, as in a cliff walk in this Channel-side French region</h3",
+                    "@type": "Property",
+                    "name": "q2",
+                    "image": "<h3>A common sight was walking around Monet who worked outdoors, as in a cliff walk in this Channel-side French region</h3",
                     "responseOptions": {
                         "@type": "xsd:anyURI",
                         "choices": [
                             {
-                                "@type": "schema:Number",
-                                "schema:name": "Normandy",
-                                "schema:value": 0
+                                "@type": "Number",
+                                "name": "Normandy",
+                                "value": 0
                             },
                             {
-                                "@type": "schema:Number",
-                                "schema:name": "Brittany",
-                                "schema:value": 1
+                                "@type": "Number",
+                                "name": "Brittany",
+                                "value": 1
                             }
                         ]
                     },
-                    "schema:value": 0
+                    "value": 0
                 },
                 {
-                    "@type": "schema:Property",
-                    "schema:name": "q3",
-                    "schema:image": "<h3>Modern auto safety took a big step in '66 as LBJ signed bills mandating seatbelts & rupture-resistant these</h3>",
+                    "@type": "Property",
+                    "name": "q3",
+                    "image": "<h3>Modern auto safety took a big step in '66 as LBJ signed bills mandating seatbelts & rupture-resistant these</h3>",
                     "responseOptions": {
                         "@type": "xsd:anyURI",
                         "choices": [
                             {
-                                "@type": "schema:Number",
-                                "schema:name": "Air bags",
-                                "schema:value": 0
+                                "@type": "Number",
+                                "name": "Air bags",
+                                "value": 0
                             },
                             {
-                                "@type": "schema:Number",
-                                "schema:name": "Fuel tanks",
-                                "schema:value": 1
+                                "@type": "Number",
+                                "name": "Fuel tanks",
+                                "value": 1
                             }
                         ]
                     },
-                    "schema:value": 1
+                    "value": 1
                 }
             ]
         },
         {
-            "@type": "schema:Boolean",
-            "schema:name": "showFixation",
-            "schema:value": false
+            "@type": "Boolean",
+            "name": "showFixation",
+            "value": false
         },
         {
-            "@type": "schema:Boolean",
-            "schema:name": "showFeedback",
-            "schema:value": true
+            "@type": "Boolean",
+            "name": "showFeedback",
+            "value": true
         },
         {
-            "@type": "schema:Boolean",
-            "schema:name": "showResults",
-            "schema:value": true
+            "@type": "Boolean",
+            "name": "showResults",
+            "value": true
         },
         {
-            "@type": "schema:Text",
-            "schema:name": "samplingMethod",
-            "schema:value": "randomize-order"
+            "@type": "Text",
+            "name": "samplingMethod",
+            "value": "randomize-order"
         },
         {
-            "@type": "schema:Number",
-            "schema:name": "sampleSize",
-            "schema:value": 3
+            "@type": "Number",
+            "name": "sampleSize",
+            "value": 3
         },
         {
-            "@type": "schema:Number",
-            "schema:name": "trialDuration",
-            "schema:value": 10000
+            "@type": "Number",
+            "name": "trialDuration",
+            "value": 10000
         }
     ]
 }

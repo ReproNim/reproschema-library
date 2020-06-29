@@ -4,8 +4,8 @@
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_smm_ngd_smm",
     "altLabel": "rsfmri_cor_network.gordon_smmouth_network.gordon_smmouth rsfmri_cor_networkgordon_smmouth_networkgordon_smmouth",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Average correlation between sensorimotor mouth network and sensorimotor mouth network",
     "ui": {
         "inputType": "number"

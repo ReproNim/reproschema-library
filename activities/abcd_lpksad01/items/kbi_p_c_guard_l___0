@@ -4,15 +4,15 @@
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_guard_l___0",
     "altLabel": "kbi_c_guard_p_l___0 ksads_back_c_guard_p_l___0",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": "Since we last saw you, who else has your child lived with at least part of the time? Desde la \u00faltima vez que nos vimos, \u00bfCon qui\u00e9n m\u00e1s pasa tiempo su ni\u00f1o(a)? (0, Not applicable No aplica)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "schema:minValue": 0,
-        "schema:maxValue": 1,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "name": "No",

@@ -11,12 +11,22 @@
         "readonlyValue": true
     },
     "responseOptions": {
-        "valueSets": [
-            "minimal",
-            "mild",
-            "moderate",
-            "moderately severe",
-            "severe"
+        "choices": [
+            {
+                "name": "minimal"
+            },
+            {
+                "name": "mild"
+            },
+            {
+                "name": "moderate"
+            },
+            {
+                "name": "moderately severe"
+            },
+            {
+                "name": "severe"
+            }
         ]
     }
 }

@@ -6,12 +6,10 @@
     "@id": "last_period",
     "prefLabel": "last_period",
     "ui": {
-        "inputType": "date",
-        "customAlignment": "RH"
+        "inputType": "date"
     },
     "responseOptions": {
-        "valueType": "xsd:date",
-        valueRequired": true
+        "valueType": "xsd:date"
     },
     "question": {
         "en": "What is the date of your child's last period? "

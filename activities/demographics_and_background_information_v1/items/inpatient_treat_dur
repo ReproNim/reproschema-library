@@ -6,12 +6,10 @@
     "@id": "inpatient_treat_dur",
     "prefLabel": "inpatient_treat_dur",
     "ui": {
-        "inputType": "text",
-        "customAlignment": "RH"
+        "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        valueRequired": true
+        "valueType": "xsd:string"
     },
     "question": {
         "en": "What was the total duration of treatment in weeks? (the sum of all inpatient treatment combined)\n"

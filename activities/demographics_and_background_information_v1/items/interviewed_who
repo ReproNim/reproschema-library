@@ -15,16 +15,13 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Participant only ",
-                "@type": "option"
+                "name": "Participant only "
             },
             {
                 "value": 2,
                 "name": "Participant and informant (e.g.",
-                "@type": "option",
                 "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/parent).png"
             }
-        ],
-        valueRequired": true
+        ]
     }
 }

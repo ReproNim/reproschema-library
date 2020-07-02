@@ -6,12 +6,11 @@
     "@id": "person1_other_id",
     "prefLabel": "person1_other_id",
     "ui": {
-        "inputType": "text",
-        "customAlignment": "LV"
+        "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        valueRequired": true
+        "valueType": "xsd:string"
+
     },
     "question": {
         "en": "If Person 1 has other identity, please specify"

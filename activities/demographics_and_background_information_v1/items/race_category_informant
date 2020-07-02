@@ -10,40 +10,32 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Caucasian or White ",
-                "@type": "option"
+                "name": "Caucasian or White "
             },
             {
                 "value": 2,
-                "name": "Black or African American ",
-                "@type": "option"
+                "name": "Black or African American "
             },
             {
                 "value": 3,
-                "name": "American Indian or Alaska Native ",
-                "@type": "option"
+                "name": "American Indian or Alaska Native "
             },
             {
                 "value": 4,
-                "name": "Asian ",
-                "@type": "option"
+                "name": "Asian "
             },
             {
                 "value": 5,
-                "name": "Native Hawaiian or other Pacific Islander ",
-                "@type": "option"
+                "name": "Native Hawaiian or other Pacific Islander "
             },
             {
                 "value": 6,
-                "name": "Multiracial",
-                "@type": "option"
+                "name": "Multiracial"
             }
-        ],
-        valueRequired": true
+        ]
     },
     "ui": {
-        "inputType": "radio",
-        "customAlignment": "LV"
+        "inputType": "radio"
     },
     "preamble": {
         "en": "Your race and ethnic identity."

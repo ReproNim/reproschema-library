@@ -6,13 +6,19 @@
     "@id": "child_out_psych_ever",
     "prefLabel": "child_out_psych_ever",
     "ui": {
-        "inputType": "",
-        "customAlignment": "RH"
+        "inputType": "radio"
     },
     "question": {
         "en": "Has your child who will be participating in study ever been in outpatient psychiatric/psychological treatment?\t"
     },
     "responseOptions": {
-        valueRequired": true
+        "choices": [
+            {
+                "name": "Yes"
+            },
+            {
+                "name": "No"
+            }
+        ]
     }
 }

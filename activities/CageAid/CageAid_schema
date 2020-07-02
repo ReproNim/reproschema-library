@@ -12,6 +12,7 @@
             {
                 "isAbout": "items/ca_1",
                 "variableName": "ca_1",
+                "valueRequired": true,
                 "isVis": true
             },
             {

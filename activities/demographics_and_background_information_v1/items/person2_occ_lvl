@@ -6,8 +6,7 @@
     "@id": "person2_occ_lvl",
     "prefLabel": "person2_occ_lvl",
     "ui": {
-        "inputType": "select",
-        "customAlignment": "LV"
+        "inputType": "select"
     },
     "question": {
         "en": "Highest Occupational Level for Person 2"
@@ -16,46 +15,37 @@
         "choices": [
             {
                 "value": 1,
-                "name": "No paid employment ",
-                "@type": "option"
+                "name": "No paid employment "
             },
             {
                 "value": 2,
-                "name": "Unskilled employee ",
-                "@type": "option"
+                "name": "Unskilled employee "
             },
             {
                 "value": 3,
                 "name": "Machine operator",
-                "@type": "option",
                 "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/semi-skilled employee .png"
             },
             {
                 "value": 4,
-                "name": "Skilled manual employee ",
-                "@type": "option"
+                "name": "Skilled manual employee "
             },
             {
                 "value": 5,
-                "name": "Clerical or sales worker",
-                "@type": "option"
+                "name": "Clerical or sales worker"
             },
             {
                 "value": 6,
-                "name": "Administrative personnel",
-                "@type": "option"
+                "name": "Administrative personnel"
             },
             {
                 "value": 7,
-                "name": "Business manager of large concern",
-                "@type": "option"
+                "name": "Business manager of large concern"
             },
             {
                 "value": 8,
-                "name": "Higher executive",
-                "@type": "option"
+                "name": "Higher executive"
             }
-        ],
-        valueRequired": true
+        ]
     }
 }

@@ -10,21 +10,17 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Yes ",
-                "@type": "option"
+                "name": "Yes "
             },
             {
                 "value": 0,
-                "name": "No ",
-                "@type": "option"
+                "name": "No "
             },
             {
                 "value": 9999,
-                "name": "Don't Know",
-                "@type": "option"
+                "name": "Don't Know"
             }
-        ],
-        valueRequired": true
+        ]
     },
     "ui": {
         "inputType": "radio"

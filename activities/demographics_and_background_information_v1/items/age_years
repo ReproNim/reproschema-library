@@ -6,12 +6,12 @@
     "@id": "age_years",
     "prefLabel": "age_years",
     "ui": {
-        "inputType": ""
+        "inputType": "number"
     },
     "question": {
         "en": "Age (Years Old)"
     },
     "responseOptions": {
-        valueRequired": true
+        "valueType": "xsd:integer"
     }
 }

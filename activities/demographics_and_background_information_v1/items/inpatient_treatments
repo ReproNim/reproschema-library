@@ -6,14 +6,12 @@
     "@id": "inpatient_treatments",
     "prefLabel": "inpatient_treatments",
     "ui": {
-        "inputType": "number",
-        "customAlignment": "RH"
+        "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "minValue": "0",
-        "maxValue": "52",
-        valueRequired": true
+        "minValue": 0,
+        "maxValue": 52
     },
     "question": {
         "en": "If yes, how many times?"

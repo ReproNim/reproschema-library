@@ -6,14 +6,12 @@
     "@id": "outpatient_treat_age",
     "prefLabel": "outpatient_treat_age",
     "ui": {
-        "inputType": "number",
-        "customAlignment": "RH"
+        "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "minValue": "1",
-        "maxValue": "18",
-        valueRequired": true
+        "minValue": 1,
+        "maxValue": 18
     },
     "question": {
         "en": "What was the age of first outpatient treatment? "

@@ -6,8 +6,7 @@
     "@id": "person2_education",
     "prefLabel": "person2_education",
     "ui": {
-        "inputType": "select",
-        "customAlignment": "LV"
+        "inputType": "select"
     },
     "question": {
         "en": "Person 2 Education Level"
@@ -16,40 +15,32 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Under 7 years of Schooling (Specify Grade Below) ",
-                "@type": "option"
+                "name": "Under 7 years of Schooling (Specify Grade Below) "
             },
             {
                 "value": 2,
-                "name": "Junior High School (6-8th Grade) (Specify Grade Below) ",
-                "@type": "option"
+                "name": "Junior High School (6-8th Grade) (Specify Grade Below) "
             },
             {
                 "value": 3,
-                "name": "Partial High School (9-12th Grade) (Specify Grade Below) ",
-                "@type": "option"
+                "name": "Partial High School (9-12th Grade) (Specify Grade Below) "
             },
             {
                 "value": 4,
-                "name": "High School Graduate ",
-                "@type": "option"
+                "name": "High School Graduate "
             },
             {
                 "value": 5,
-                "name": "Partial College Training ",
-                "@type": "option"
+                "name": "Partial College Training "
             },
             {
                 "value": 6,
-                "name": "Standard College University Graduate ",
-                "@type": "option"
+                "name": "Standard College University Graduate "
             },
             {
                 "value": 7,
-                "name": "Completed Graduate Professional Training",
-                "@type": "option"
+                "name": "Completed Graduate Professional Training"
             }
-        ],
-        valueRequired": true
+        ]
     }
 }

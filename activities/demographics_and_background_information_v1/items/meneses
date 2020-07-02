@@ -6,13 +6,19 @@
     "@id": "meneses",
     "prefLabel": "meneses",
     "ui": {
-        "inputType": "",
-        "customAlignment": "RH"
+        "inputType": "radio"
     },
     "question": {
         "en": "Has your child  had her first period (menses)?"
     },
     "responseOptions": {
-        valueRequired": true
+        "choices": [
+            {
+                "name": "Yes"
+            },
+            {
+                "name": "No"
+            }
+        ]
     }
 }

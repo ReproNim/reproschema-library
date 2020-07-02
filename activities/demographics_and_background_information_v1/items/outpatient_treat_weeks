@@ -6,14 +6,12 @@
     "@id": "outpatient_treat_weeks",
     "prefLabel": "outpatient_treat_weeks",
     "ui": {
-        "inputType": "number",
-        "customAlignment": "RH"
+        "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "minValue": "10",
-        "maxValue": "500",
-        valueRequired": true
+        "minValue": 10,
+        "maxValue": 500
     },
     "question": {
         "en": "What was the total duration of treatment in weeks? \n(the sum of all outpatient treatment combined)\n"

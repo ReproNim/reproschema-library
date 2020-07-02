@@ -10,20 +10,16 @@
         "choices": [
             {
                 "value": 0,
-                "name": "Hispanic or Latino ",
-                "@type": "option"
+                "name": "Hispanic or Latino "
             },
             {
                 "value": 1,
-                "name": "Not Hispanic or Latino",
-                "@type": "option"
+                "name": "Not Hispanic or Latino"
             }
-        ],
-        valueRequired": true
+        ]
     },
     "ui": {
-        "inputType": "radio",
-        "customAlignment": "LV"
+        "inputType": "radio"
     },
     "question": {
         "en": "Ethnic Categories:"

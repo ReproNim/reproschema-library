@@ -12,7 +12,7 @@
             {
                 "isAbout": "items/consent_overview",
                 "variableName": "consent_overview",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
@@ -28,31 +28,31 @@
             {
                 "isAbout": "items/q1",
                 "variableName": "q1",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/q2",
                 "variableName": "q2",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/q3",
                 "variableName": "q3",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/q4",
                 "variableName": "q4",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/q5",
                 "variableName": "q5",
-                valueRequired": true,
+                "valueRequired": true,
                 "isVis": true
             },
             {

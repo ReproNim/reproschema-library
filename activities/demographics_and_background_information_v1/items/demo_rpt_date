@@ -9,8 +9,7 @@
         "inputType": "date"
     },
     "responseOptions": {
-        "valueType": "xsd:date",
-        valueRequired": true
+        "valueType": "xsd:date"
     },
     "question": {
         "en": "Report Date"

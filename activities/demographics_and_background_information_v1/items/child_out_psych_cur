@@ -6,8 +6,7 @@
     "@id": "child_out_psych_cur",
     "prefLabel": "child_out_psych_cur",
     "ui": {
-        "inputType": "",
-        "customAlignment": "RH"
+        "inputType": ""
     },
     "preamble": {
         "en": "Psychiatric/Psychological/Psychosocial Treatment"
@@ -16,6 +15,13 @@
         "en": "Is your child who will be participating in the study currently involved in outpatient psychiatric/psychological treatment?   "
     },
     "responseOptions": {
-        valueRequired": true
+        "choices": [
+            {
+                "name": "Yes"
+            },
+            {
+                "name": "No"
+            }
+        ]
     }
 }

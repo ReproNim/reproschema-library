@@ -11,18 +11,16 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:anyURI",
+        "valueType": "xsd:integer",
         "multipleChoice": false,
         "minValue": 0,
         "maxValue": 1,
         "choices": [
             {
-                "@type": "Female",
                 "name": "Female",
                 "value": 0
             },
             {
-                "@type": "Male",
                 "name": "Male",
                 "value": 1
             }

@@ -11,25 +11,19 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 0,
-        "maxValue": 1,
+        "valueType": [ "xsd:anyURI", "xsd:string" ],
         "choices": [
             {
                 "name": "Female",
-                "value": "F"
+                "value": "http://schema.org/Female"
             },
             {
                 "name": "Male",
-                "value": "M"
+                "value": "http://schema.org/Male"
             },
             {
                 "name": "Other",
                 "value": "O"
-            },
-            {
-                "name": "Not Reported",
-                "value": "NR"
             }
         ]
     }

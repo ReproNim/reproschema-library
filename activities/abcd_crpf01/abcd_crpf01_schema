@@ -2,16 +2,19 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_crpf01_schema",
-    "prefLabel": "abcd_crpf01",
+    "prefLabel": {
+        "en": "abcd_crpf01",
+        "es": "abcd_crpf01_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
+    "preamble": {
+        "en": "Now I am going to ask you about how easy it is to get certain substances.",
+        "es": "/Ahora le voy a preguntar quÃ© tan fÃ¡cil es conseguir ciertas sustancias."
+    },
     "ui": {
         "order": [
             "items/su_risk_p_1",
-            "items/su_risk_p_10",
-            "items/su_risk_p_11",
-            "items/su_risk_p_12",
-            "items/su_risk_p_13",
             "items/su_risk_p_2",
             "items/su_risk_p_3",
             "items/su_risk_p_4",
@@ -19,7 +22,11 @@
             "items/su_risk_p_6",
             "items/su_risk_p_7",
             "items/su_risk_p_8",
-            "items/su_risk_p_9"
+            "items/su_risk_p_9",
+            "items/su_risk_p_10",
+            "items/su_risk_p_11",
+            "items/su_risk_p_12",
+            "items/su_risk_p_13"
         ],
         "shuffle": false,
         "addProperties": [

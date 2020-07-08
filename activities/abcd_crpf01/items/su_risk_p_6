@@ -2,11 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "su_risk_p_6",
     "@type": "reproschema:Field",
-    "prefLabel": "su_risk_p_6",
+    "prefLabel": {
+        "en": "su_risk_p_6",
+        "es": "su_risk_p_6_es"
+    },
     "altLabel": "su_crpf_avail_6_p",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Is \"medical marijuana\" (marijuana prescribed by a doctor) legal in your state?  \u00bfEs la \"marihuana medicinal\" (marihuana recetada por un m\u00e9dico) legal en su estado?",
+    "question": {
+        "en": "Is \"medical marijuana\" (marijuana prescribed by a doctor) legal in your state?",
+        "es": "¿Es la \"marihuana medicinal\" (marihuana recetada por un médico) legal en su estado?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -15,19 +21,25 @@
         "maxValue": 2,
         "choices": [
             {
-                "name": "Yes S\u00ed",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "Yes",
+                    "es": "Sí"
+                }
             },
             {
-                "name": "No No",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             },
             {
-                "name": "I do not know No lo s\u00e9",
-                "value": 2
-            },
-            {
-                "value": null
+                "value": 2,
+                "name": {
+                    "en": "I do not know",
+                    "es": "No lo sé"
+                }
             }
         ],
         "valueType": "xsd:integer"
@@ -36,7 +48,7 @@
         {
             "source": "ABCD_NDA",
             "column": "notes",
-            "value": "0 = Yes S\u00ed; 1 = No No; 2 = I do not know No lo s\u00e9; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar qu\u00c3\u00a9 tan f\u00c3\u00a1cil es conseguir ciertas sustancias."
+            "value": "0 = Yes Sí; 1 = No No; 2 = I do not know No lo sé; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar quÃ© tan fÃ¡cil es conseguir ciertas sustancias."
         }
     ]
 }

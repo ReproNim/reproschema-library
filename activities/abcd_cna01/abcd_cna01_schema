@@ -10,48 +10,15 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/cna_1_p",
-            "items/cna_2_p",
-            "items/cna_3_p",
-            "items/cna_4_p",
-            "items/cna_5_p",
-            "items/cna_6_p",
-            "items/cna_7_p",
-            "items/cna_8_p",
-            "items/cna_9_p",
-            "items/cna_10_p",
-            "items/cna_11_p",
-            "items/cna_12_p",
-            "items/cna_13_p",
-            "items/cna_14_p",
+            "cna01_section1_schema",
             "items/cna_15_p",
             "items/cna_16_p"
         ],
         "shuffle": false,
         "addProperties": [
             {
-                "variableName": "cna_1_p",
-                "isAbout": "items/cna_1_p"
-            },
-            {
-                "variableName": "cna_10_p",
-                "isAbout": "items/cna_10_p"
-            },
-            {
-                "variableName": "cna_11_p",
-                "isAbout": "items/cna_11_p"
-            },
-            {
-                "variableName": "cna_12_p",
-                "isAbout": "items/cna_12_p"
-            },
-            {
-                "variableName": "cna_13_p",
-                "isAbout": "items/cna_13_p"
-            },
-            {
-                "variableName": "cna_14_p",
-                "isAbout": "items/cna_14_p"
+                "variableName": "cna01_section1_schema",
+                "isAbout": "cna01_section1_schema"
             },
             {
                 "variableName": "cna_15_p",
@@ -60,38 +27,6 @@
             {
                 "variableName": "cna_16_p",
                 "isAbout": "items/cna_16_p"
-            },
-            {
-                "variableName": "cna_2_p",
-                "isAbout": "items/cna_2_p"
-            },
-            {
-                "variableName": "cna_3_p",
-                "isAbout": "items/cna_3_p"
-            },
-            {
-                "variableName": "cna_4_p",
-                "isAbout": "items/cna_4_p"
-            },
-            {
-                "variableName": "cna_5_p",
-                "isAbout": "items/cna_5_p"
-            },
-            {
-                "variableName": "cna_6_p",
-                "isAbout": "items/cna_6_p"
-            },
-            {
-                "variableName": "cna_7_p",
-                "isAbout": "items/cna_7_p"
-            },
-            {
-                "variableName": "cna_8_p",
-                "isAbout": "items/cna_8_p"
-            },
-            {
-                "variableName": "cna_9_p",
-                "isAbout": "items/cna_9_p"
             }
         ]
     }

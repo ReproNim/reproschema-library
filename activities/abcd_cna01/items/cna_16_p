@@ -11,7 +11,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Did you/biological mother take daily prenatal vitamins or folic acid supplements while you/she were pregnant?",
-        "es": "\u00bfTomo usted o la madre biol\u00f3gica vitaminas prenatales diarias o acido f\u00f3lico durante su embarazo?"
+        "es": "�Tomo usted o la madre biol�gica vitaminas prenatales diarias o acido f�lico durante su embarazo?"
     },
     "ui": {
         "inputType": "radio"
@@ -21,25 +21,25 @@
         "maxValue": 999,
         "choices": [
             {
+                "value": 1,
                 "name": {
                     "en": "Yes",
                     "es": "Si"
-                },
-                "value": 1
+                }
             },
             {
+                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                },
-                "value": 0
+                }
             },
             {
+                "value": 999,
                 "name": {
                     "en": "Don't Know",
                     "es": "No Recuerdo"
-                },
-                "value": 999
+                }
             }
         ],
         "valueType": "xsd:integer"

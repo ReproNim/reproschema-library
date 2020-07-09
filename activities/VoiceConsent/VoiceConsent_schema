@@ -16,11 +16,6 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/quiz_schema",
-                "variableName": "quiz_schema",
-                "isVis": true
-            },
-            {
                 "isAbout": "items/sign",
                 "variableName": "sign",
                 "isVis": "q1 + q2 + q3 + q4 + q5 === 5"

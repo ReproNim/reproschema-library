@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "nasal_high_pinched",
+    "prefLabel": "Sentences with high frequency of nasals spoken with a nasal pinch",
+    "description": "Sentences with high frequency of nasals, spoken while pinching the nose",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "preamble": "Hit record and read the sentences while pinching your nose.",
+    "question": "Let me sing by the moon with novel phonemes. There is nothing in my spoon to use as a sling.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "audioPassageRecord",
+        "minValue": 0,
+        "maxValue": 15000
+    }
+}
+

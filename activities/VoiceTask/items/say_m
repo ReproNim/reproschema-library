@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "say_m",
+    "prefLabel": "Sustained nasal m",
+    "description": "say m for 10 seconds",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Say sum and hold the /m/ for as long as you can. When you are done, hit the Stop button to end recording. Take a deep breath and click to start."
+    },
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": "say_ah_valueConstraints"
+}

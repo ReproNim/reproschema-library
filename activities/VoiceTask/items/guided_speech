@@ -12,7 +12,7 @@
         "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "audioImageRecord",
+        "valueType": "schema:AudioObject",
         "minValue": 0,
         "maxValue": 60000
     }

@@ -14,7 +14,7 @@
         "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "audioRecord",
+        "valueType": "schema:AudioObject",
         "minValue": 0,
         "maxValue": 60000,
         "multipleChoice": false

@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "deep_breath",
     "prefLabel": "Deep breaths",
@@ -12,7 +12,7 @@
         "inputType": "audioPassageRecord"
     },
     "responseOptions": {
-        "valueType": "audioPassageRecord",
+        "valueType": "schema:AudioObject",
         "minValue": 0,
         "maxValue": 60000
     }

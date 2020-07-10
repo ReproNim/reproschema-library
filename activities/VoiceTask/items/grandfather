@@ -11,7 +11,7 @@
         "inputType": "audioPassageRecord"
     },
     "responseOptions": {
-        "valueType": "audioPassageRecord",
+        "valueType": "schema:AudioObject",
         "minValue": 0,
         "maxValue": 60000
     }

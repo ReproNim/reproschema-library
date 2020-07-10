@@ -1,0 +1,92 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "cna01_section1_schema",
+    "prefLabel": {
+        "en": "cna01_section1",
+        "es": "cna01_section1_es"
+    },
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Think about what your child eats in a typical week, during this past year since we last saw you. In a typical week, does your child eat:",
+        "es": "Piense en lo que su niño(a) come durante una semana típica, durante el último año; desde la última vez que lo vimos. En una semana típica, su niño(a) come:"
+    },
+    "ui": {
+        "order": [
+            "items/cna_1_p",
+            "items/cna_2_p",
+            "items/cna_3_p",
+            "items/cna_4_p",
+            "items/cna_5_p",
+            "items/cna_6_p",
+            "items/cna_7_p",
+            "items/cna_8_p",
+            "items/cna_9_p",
+            "items/cna_10_p",
+            "items/cna_11_p",
+            "items/cna_12_p",
+            "items/cna_13_p",
+            "items/cna_14_p"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "cna_1_p",
+                "isAbout": "items/cna_1_p"
+            },
+            {
+                "variableName": "cna_10_p",
+                "isAbout": "items/cna_10_p"
+            },
+            {
+                "variableName": "cna_11_p",
+                "isAbout": "items/cna_11_p"
+            },
+            {
+                "variableName": "cna_12_p",
+                "isAbout": "items/cna_12_p"
+            },
+            {
+                "variableName": "cna_13_p",
+                "isAbout": "items/cna_13_p"
+            },
+            {
+                "variableName": "cna_14_p",
+                "isAbout": "items/cna_14_p"
+            },
+            {
+                "variableName": "cna_2_p",
+                "isAbout": "items/cna_2_p"
+            },
+            {
+                "variableName": "cna_3_p",
+                "isAbout": "items/cna_3_p"
+            },
+            {
+                "variableName": "cna_4_p",
+                "isAbout": "items/cna_4_p"
+            },
+            {
+                "variableName": "cna_5_p",
+                "isAbout": "items/cna_5_p"
+            },
+            {
+                "variableName": "cna_6_p",
+                "isAbout": "items/cna_6_p"
+            },
+            {
+                "variableName": "cna_7_p",
+                "isAbout": "items/cna_7_p"
+            },
+            {
+                "variableName": "cna_8_p",
+                "isAbout": "items/cna_8_p"
+            },
+            {
+                "variableName": "cna_9_p",
+                "isAbout": "items/cna_9_p"
+            }
+        ]
+    }
+}

@@ -10,30 +10,24 @@
         "choices": [
             {
                 "value": 2,
-                "name": "Mother ",
-                "@type": "option"
+                "name": "Mother "
             },
             {
                 "value": 3,
-                "name": "Father ",
-                "@type": "option"
+                "name": "Father "
             },
             {
                 "value": 4,
-                "name": "Spouse/Partner ",
-                "@type": "option"
+                "name": "Spouse/Partner "
             },
             {
                 "value": 5,
-                "name": "Other (specify):",
-                "@type": "option"
+                "name": "Other (specify):"
             }
-        ],
-        "valueRequired": true
+        ]
     },
     "ui": {
-        "inputType": "radio",
-        "customAlignment": "LV"
+        "inputType": "radio"
     },
     "question": {
         "en": "Person 1 is identified as:"

@@ -11,34 +11,28 @@
             {
                 "value": 0,
                 "name": "None",
-                "@type": "option",
                 "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/not at all .png"
             },
             {
                 "value": 1,
-                "name": "Slight",
-                "@type": "option"
+                "name": "Slight"
             },
             {
                 "value": 2,
                 "name": "Mild",
-                "@type": "option",
                 "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/several days .png"
             },
             {
                 "value": 3,
                 "name": "Moderate",
-                "@type": "option",
                 "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/more than half the days .png"
             },
             {
                 "value": 4,
                 "name": "Severe",
-                "@type": "option",
                 "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png"
             }
-        ],
-        "valueRequired": true
+        ]
     },
     "ui": {
         "inputType": "radio"

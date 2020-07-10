@@ -15,100 +15,80 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Less than $2,000 ",
-                "@type": "option"
+                "name": "Less than $2,000 "
             },
             {
                 "value": 2,
-                "name": "$2,000-2,999 ",
-                "@type": "option"
+                "name": "$2,000-2,999 "
             },
             {
                 "value": 3,
-                "name": "$3,000-3,999 ",
-                "@type": "option"
+                "name": "$3,000-3,999 "
             },
             {
                 "value": 4,
-                "name": "$4,000-4,999 ",
-                "@type": "option"
+                "name": "$4,000-4,999 "
             },
             {
                 "value": 5,
-                "name": "$5,000-5,999 ",
-                "@type": "option"
+                "name": "$5,000-5,999 "
             },
             {
                 "value": 6,
-                "name": "$6,000-6,999 ",
-                "@type": "option"
+                "name": "$6,000-6,999 "
             },
             {
                 "value": 7,
-                "name": "$7,000-7,999 ",
-                "@type": "option"
+                "name": "$7,000-7,999 "
             },
             {
                 "value": 8,
-                "name": "$8,000-8,999 ",
-                "@type": "option"
+                "name": "$8,000-8,999 "
             },
             {
                 "value": 9,
-                "name": "$9,000-9,999 ",
-                "@type": "option"
+                "name": "$9,000-9,999 "
             },
             {
                 "value": 10,
-                "name": "$10,000-12,499 ",
-                "@type": "option"
+                "name": "$10,000-12,499 "
             },
             {
                 "value": 11,
-                "name": "$12,500-14,999 ",
-                "@type": "option"
+                "name": "$12,500-14,999 "
             },
             {
                 "value": 12,
-                "name": "$15,000-17,499 ",
-                "@type": "option"
+                "name": "$15,000-17,499 "
             },
             {
                 "value": 13,
-                "name": "$17,500-19,999 ",
-                "@type": "option"
+                "name": "$17,500-19,999 "
             },
             {
                 "value": 14,
-                "name": "$20,000-24,999 ",
-                "@type": "option"
+                "name": "$20,000-24,999 "
             },
             {
                 "value": 15,
-                "name": "$25,000-34,999 ",
-                "@type": "option"
+                "name": "$25,000-34,999 "
             },
             {
                 "value": 16,
-                "name": "$35,000-49,999 ",
-                "@type": "option"
+                "name": "$35,000-49,999 "
             },
             {
                 "value": 17,
-                "name": "$50,000-69,999 ",
-                "@type": "option"
+                "name": "$50,000-69,999 "
             },
             {
                 "value": 18,
-                "name": "$70,000-99,999 ",
-                "@type": "option"
+                "name": "$70,000-99,999 "
             },
             {
                 "value": 19,
-                "name": "$100,000-and over",
-                "@type": "option"
+                "name": "$100,000-and over"
             }
-        ],
-        "valueRequired": true
+        ]
     }
 }

@@ -11,7 +11,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Were you/biological mother taking daily prenatal vitamins or folic acid supplements before you/she became pregnant?",
-        "es": "\u00bfTomo usted o la madre biol\u00f3gica vitaminas prenatales diarias o acido f\u00f3lico antes de quedar embarazada?"
+        "es": " �Tomo usted o la madre biol�gica vitaminas prenatales diarias o acido f�lico antes de quedar embarazada?"
     },
     "ui": {
         "inputType": "radio"
@@ -21,25 +21,25 @@
         "maxValue": 999,
         "choices": [
             {
+                "value": 1,
                 "name": {
                     "en": "Yes",
                     "es": "Si"
-                },
-                "value": 1
+                }
             },
             {
+                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                },
-                "value": 0
+                }
             },
             {
+                "value": 999,
                 "name": {
                     "en": "Don't Know",
                     "es": "No Recuerdo"
-                },
-                "value": 999
+                }
             }
         ],
         "valueType": "xsd:integer"

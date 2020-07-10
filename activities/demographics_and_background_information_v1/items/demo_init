@@ -9,8 +9,7 @@
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "valueRequired": true
+        "valueType": "xsd:string"
     },
     "question": {
         "en": "Initials of study personnel collecting data"

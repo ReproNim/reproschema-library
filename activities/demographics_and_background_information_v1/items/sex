@@ -10,20 +10,16 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Female ",
-                "@type": "option"
+                "name": "Female "
             },
             {
                 "value": 2,
-                "name": "Male",
-                "@type": "option"
+                "name": "Male"
             }
-        ],
-        "valueRequired": true
+        ]
     },
     "ui": {
-        "inputType": "radio",
-        "customAlignment": "RH"
+        "inputType": "radio"
     },
     "question": {
         "en": "Sex of Participant:"

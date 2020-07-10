@@ -9,10 +9,10 @@
     "version": "0.0.1",
     "ui": {
         "inputType": "xsd:int",
-        "readOnly": true
+        "readonlyValue": true
     },
     "responseOptions": {
-        "type": "xsd:integer",
+        "valueType": "xsd:integer",
         "minValue": 0,
         "maxValue": 5
     }

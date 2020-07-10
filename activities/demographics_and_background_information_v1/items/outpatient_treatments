@@ -6,14 +6,12 @@
     "@id": "outpatient_treatments",
     "prefLabel": "outpatient_treatments",
     "ui": {
-        "inputType": "number",
-        "customAlignment": "RH"
+        "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "minValue": "1",
-        "maxValue": "365",
-        "valueRequired": true
+        "minValue": 1,
+        "maxValue": 365
     },
     "question": {
         "en": "If yes, how many times? "

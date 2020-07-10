@@ -10,35 +10,28 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Catholic ",
-                "@type": "option"
+                "name": "Catholic "
             },
             {
                 "value": 2,
-                "name": "Protestant ",
-                "@type": "option"
+                "name": "Protestant "
             },
             {
                 "value": 3,
-                "name": "Jewish ",
-                "@type": "option"
+                "name": "Jewish "
             },
             {
                 "value": 4,
-                "name": "Other ",
-                "@type": "option"
+                "name": "Other "
             },
             {
                 "value": 5,
-                "name": "Never Affiliated with Any",
-                "@type": "option"
+                "name": "Never Affiliated with Any"
             }
-        ],
-        "valueRequired": true
+        ]
     },
     "ui": {
-        "inputType": "radio",
-        "customAlignment": "LV"
+        "inputType": "radio"
     },
     "question": {
         "en": "Religious Categories:\n"

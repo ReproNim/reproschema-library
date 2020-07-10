@@ -6,13 +6,12 @@
     "@id": "inpatient_treat_age",
     "prefLabel": "inpatient_treat_age",
     "ui": {
-        "inputType": "number",
-        "customAlignment": "RH"
+        "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "minValue": "1",
-        "maxValue": "18"
+        "minValue": 1,
+        "maxValue": 18
     },
     "question": {
         "en": "What was the age of first inpatient treatment? "

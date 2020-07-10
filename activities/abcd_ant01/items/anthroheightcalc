@@ -9,7 +9,7 @@
     "question": "Standing Height Average (inches): If three measurements were obtained, the two closest measurements will be averaged. Should the third measurement fall equally between the first two measurements, all three will be averaged.",
     "ui": {
         "inputType": "text",
-        "readOnly": true
+        "readonlyValue": true
     },
     "responseOptions": {
         "valueType": "xsd:string"

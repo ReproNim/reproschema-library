@@ -6,13 +6,19 @@
     "@id": "person2_exist",
     "prefLabel": "person2_exist",
     "ui": {
-        "inputType": "",
-        "customAlignment": "LV"
+        "inputType": "radio"
     },
     "question": {
         "en": "Is there another person who significantly contributes to the participant's current living expenses.\n"
     },
     "responseOptions": {
-        "valueRequired": true
+        "choices": [
+            {
+                "name": "Yes"
+            },
+            {
+                "name": "No"
+            }
+        ]
     }
 }

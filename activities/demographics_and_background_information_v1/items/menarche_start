@@ -6,14 +6,12 @@
     "@id": "menarche_start",
     "prefLabel": "menarche_start",
     "ui": {
-        "inputType": "number",
-        "customAlignment": "RH"
+        "inputType": "number"
     },
     "responseOptions": {
         "valueType": "xsd:int",
-        "minValue": "8",
-        "maxValue": "25",
-        "valueRequired": true
+        "minValue": 8,
+        "maxValue": 25
     },
     "question": {
         "en": "At what age did your child have her first menstrual period?"

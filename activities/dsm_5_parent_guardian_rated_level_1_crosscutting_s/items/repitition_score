@@ -9,8 +9,7 @@
         "inputType": "static"
     },
     "responseOptions": {
-        "valueType": "float",
-        "valueRequired": true
+        "valueType": "float"
     },
     "question": {
         "en": "Repetition Rating DSM 5"

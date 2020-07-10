@@ -15,75 +15,60 @@
         "choices": [
             {
                 "value": 1,
-                "name": "biological father ",
-                "@type": "option"
+                "name": "biological father "
             },
             {
                 "value": 2,
-                "name": "biological mother ",
-                "@type": "option"
+                "name": "biological mother "
             },
             {
                 "value": 3,
-                "name": "stepmother ",
-                "@type": "option"
+                "name": "stepmother "
             },
             {
                 "value": 4,
-                "name": "stepfather ",
-                "@type": "option"
+                "name": "stepfather "
             },
             {
                 "value": 5,
-                "name": "foster mother ",
-                "@type": "option"
+                "name": "foster mother "
             },
             {
                 "value": 6,
-                "name": "foster father ",
-                "@type": "option"
+                "name": "foster father "
             },
             {
                 "value": 7,
-                "name": "grandfather ",
-                "@type": "option"
+                "name": "grandfather "
             },
             {
                 "value": 8,
-                "name": "grandmother ",
-                "@type": "option"
+                "name": "grandmother "
             },
             {
                 "value": 9,
-                "name": "aunt ",
-                "@type": "option"
+                "name": "aunt "
             },
             {
                 "value": 10,
-                "name": "uncle ",
-                "@type": "option"
+                "name": "uncle "
             },
             {
                 "value": 11,
-                "name": "older sister ",
-                "@type": "option"
+                "name": "older sister "
             },
             {
                 "value": 12,
-                "name": "older brother ",
-                "@type": "option"
+                "name": "older brother "
             },
             {
                 "value": 13,
-                "name": "other relative ",
-                "@type": "option"
+                "name": "other relative "
             },
             {
                 "value": 14,
-                "name": "other non relative",
-                "@type": "option"
+                "name": "other non relative"
             }
-        ],
-        "valueRequired": true
+        ]
     }
 }

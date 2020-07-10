@@ -9,8 +9,7 @@
         "inputType": "static"
     },
     "responseOptions": {
-        "valueType": "float",
-        "valueRequired": true
+        "valueType": "float"
     },
     "question": {
         "en": "Mania Rating DSM 5"

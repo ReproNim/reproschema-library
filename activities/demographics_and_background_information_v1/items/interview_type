@@ -15,15 +15,12 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Face-to-Face Interview ",
-                "@type": "option"
+                "name": "Face-to-Face Interview "
             },
             {
                 "value": 2,
-                "name": "Phone Interview",
-                "@type": "option"
+                "name": "Phone Interview"
             }
-        ],
-        "valueRequired": true
+        ]
     }
 }

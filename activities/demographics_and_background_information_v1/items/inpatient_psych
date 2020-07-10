@@ -6,13 +6,19 @@
     "@id": "inpatient_psych",
     "prefLabel": "inpatient_psych",
     "ui": {
-        "inputType": "",
-        "customAlignment": "RH"
+        "inputType": "radio"
     },
     "question": {
         "en": "Has your child who will be participating in study ever been in inpatient psychiatric treatment (hospitalized)?  "
     },
     "responseOptions": {
-        "valueRequired": true
+        "choices": [
+            {
+                "name": "Yes"
+            },
+            {
+                "name": "No"
+            }
+        ]
     }
 }

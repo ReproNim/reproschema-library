@@ -9,8 +9,7 @@
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "valueRequired": true
+        "valueType": "xsd:string"
     },
     "question": {
         "en": "Verification ID\n(Coordinator enter subjects birth date in the Verify ID app and copy the verify ID value here).  "

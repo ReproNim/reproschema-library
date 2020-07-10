@@ -12,7 +12,6 @@
         "inputType": "sign"
     },
     "responseOptions": {
-        "type": "xsd:string",
-        "maxLength": 100
+        "valueType": "xsd:string"
     }
 }

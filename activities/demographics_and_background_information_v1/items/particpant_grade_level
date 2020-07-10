@@ -6,15 +6,13 @@
     "@id": "particpant_grade_level",
     "prefLabel": "particpant_grade_level",
     "ui": {
-        "inputType": "",
-        "customAlignment": "LV"
+        "inputType": ""
     },
     "question": {
         "en": "Youth participant's grade level"
     },
     "responseOptions": {
-        "minValue": "1",
-        "maxValue": "12",
-        "valueRequired": true
+        "minValue": 1,
+        "maxValue": 12
     }
 }

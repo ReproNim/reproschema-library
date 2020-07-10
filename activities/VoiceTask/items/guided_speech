@@ -7,14 +7,13 @@
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
     "question": "Look at the map in the image below, and give directions to another person over the phone as to how you would follow the route from Start to Stop, using the landmarks.",
+    "image": "https://www.dropbox.com/s/wgtjq3bgqlfhbzd/map3g.png?raw=1",
     "ui": {
         "inputType": "audioImageRecord"
     },
     "responseOptions": {
         "valueType": "audioImageRecord",
         "minValue": 0,
-        "maxValue": 60000,
-        "image": "https://www.dropbox.com/s/wgtjq3bgqlfhbzd/map3g.png?raw=1",
-        "multipleChoice": false
+        "maxValue": 60000
     }
 }

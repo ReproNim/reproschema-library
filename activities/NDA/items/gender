@@ -12,19 +12,14 @@
     },
     "responseOptions": {
         "valueType": "xsd:anyURI",
-        "multipleChoice": false,
-        "minValue": 0,
-        "maxValue": 1,
         "choices": [
             {
-                "@type": "Female",
-                "name": "Female",
-                "value": 0
+                "name": "Female (self-reported)",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C46108"
             },
             {
-                "@type": "Male",
-                "name": "Male",
-                "value": 1
+                "name": "Male (self-reported)",
+                "value": "http://purl.obolibrary.org/obo/NCIT_C46107"
             }
         ]
     }

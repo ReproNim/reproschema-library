@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "caterpillar_p_fast",
+    "@id": "caterpillar_fast",
     "prefLabel": "Caterpillar Passage (Fast version)",
     "description": "Caterpillar passage task read as fast as possible",
     "schemaVersion": "0.0.1",

@@ -546,7 +546,7 @@
             "matrixRanking": ""
         }
     ],
-    "scoringLogic": [
+    "compute": [
         {
             "variableName": "somatic_score",
             "jsExpression": "max( dsm_5_i_1 , dsm_5_i_2 )"

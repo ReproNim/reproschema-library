@@ -7,7 +7,7 @@
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
     "preamble": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
-    "scoringLogic": [
+    "compute": [
         {
             "variableName": "phq8_total_score",
             "jsExpression": "phq8_1 + phq8_2 + phq8_3 + phq8_4 + phq8_5 + phq8_6 + phq8_7 + phq8_8"

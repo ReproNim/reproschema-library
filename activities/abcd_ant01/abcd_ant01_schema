@@ -5,7 +5,7 @@
     "prefLabel": "abcd_ant01",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "scoringLogic": [
+    "compute": [
         {
             "variableName": "anthroheightcalc",
             "jsExpression": "anthro3heightin? (anthro_1_height_in + anthro2heightin + anthro3heightin)/3 : (anthro_1_height_in + anthro2heightin)/2"

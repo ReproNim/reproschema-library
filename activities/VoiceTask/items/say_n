@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "say_n",
+    "prefLabel": "Sustained nasal n",
+    "description": "say n for 10 seconds",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Say sun and hold the /n/ for as long as you can. When you are done, hit the Stop button to end recording. Take a deep breath and click to start."
+    },
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": "say_ah_valueConstraints"
+}

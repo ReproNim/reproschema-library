@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "deep_breath",
+    "prefLabel": "Deep breaths",
+    "description": "Characterization of breaths",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "preamble": "Hit record and do the following",
+    "question": "Inhalation for 4 seconds followed by exhalation for 4 seconds. Repeat this 4 times.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
+    }
+}
+

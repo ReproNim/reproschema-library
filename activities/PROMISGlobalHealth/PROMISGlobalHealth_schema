@@ -6,7 +6,7 @@
     "description": "brief survey to assess the general health",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "scoringLogic": [
+    "compute": [
         {
             "variableName": "promis_total_score",
             "jsExpression": "global_1 + global_2 + global_3 + global_4 + global_5 + global_9r + global_6 + global_10r + global_8r + global_7r"

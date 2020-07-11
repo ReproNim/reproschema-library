@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "kmart_exhale",
+    "prefLabel": "Kmart sentences (Exhale version)",
+    "description": "K-mart sentences read after exhaling.",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "preamble": "Hit record. Exhale and then read as much as you can at the end of exhalation.",
+    "question": "The girl was thirsty and drank some juice, followed by a coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 20000
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "free_speech_food",
+    "prefLabel": "Free response about favorite food",
+    "description": "7.\tFree speech in response to a few questions about food",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "preamble": "Hit record and respond to the questions",
+    "question": "Describe your favorite food. What ingredients are in it? Why do you like it? What memories do you associate with it?",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
+    }
+}
+

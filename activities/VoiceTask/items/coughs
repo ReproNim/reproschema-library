@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "coughs",
+    "prefLabel": "Coughs",
+    "description": "Characterization of coughs",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "preamble": "Hit record and do the following",
+    "question": "Inhale, cough 3 times. Repeat twice.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 15000
+    }
+}
+

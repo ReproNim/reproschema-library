@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_d7",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_d7",
+    "prefLabel": {
+        "en": "irma_hurtep_d7",
+        "es": "irma_hurtep_d7_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Did your child have to go outside during the hurricane because the building you were in was damaged? \u00bfTu hijo(a) tuvo que salir afuera durante el hurac\u00e1n porque el edificio donde estabas fue da\u00f1ado?",
+    "question": {
+        "en": "Did your child have to go outside during the hurricane because the building you were in was damaged?",
+        "es": "¿Tu hijo(a) tuvo que salir afuera durante el huracán porque el edificio donde estabas fue dañado?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

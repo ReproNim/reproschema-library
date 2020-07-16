@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@type": "reproschema:Field",
+	"@id": "participant_id",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
+    "prefLabel": "participant_id",
+    "ui": {
+        "inputType": "pid"
+    },
+	"question": {
+        "en": "Participant ID"
+    },
+    "responseOptions": {
+        "valueType": "schema:identifier"
+    }
+}

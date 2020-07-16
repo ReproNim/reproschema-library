@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_gateb_p",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_gateb_p",
+    "prefLabel": {
+        "en": "irma_gateb_p",
+        "es": "irma_gateb_p_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Were you and your child living in South Carolina at the time that Hurricane Irma hit the United States (September 2017)?  \u00bfEstaban usted y su hijo(a)  viviendo en la Carolina del Sur  en el momento en que el hurac\u00e1n Irma llegA a los Estados Unidos (Septiembre de 2017)?",
+    "question": {
+        "en": "Were you and your child living in South Carolina at the time that Hurricane Irma hit the United States (September 2017)?",
+        "es": "¿Estaban usted y su hijo(a) viviendo en la Carolina del Sur en el momento en que el huracán Irma llegA a los Estados Unidos (Septiembre de 2017)?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

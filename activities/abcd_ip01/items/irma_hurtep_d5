@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_d5",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_d5",
+    "prefLabel": {
+        "en": "irma_hurtep_d5",
+        "es": "irma_hurtep_d5_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "At any time during the hurricane, did you think you might die? En cualquier momento durante el hurac\u00e1n, \u00bfpensaste que podr\u00edas morir?",
+    "question": {
+        "en": "At any time during the hurricane, did you think you might die?",
+        "es": "En cualquier momento durante el huracán, ¿pensaste que podrías morir?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

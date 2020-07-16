@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b4",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_b4",
+    "prefLabel": {
+        "en": "irma_hurtep_b4",
+        "es": "irma_hurtep_b4_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "When your child evacuated, did he or she stay in more than one place during the evacuation? Cuando tu hijo evacuA, \u00bfse quedA en m\u00e1s de un lugar durante la evacuaciAn?",
+    "question": {
+        "en": "When your child evacuated, did he or she stay in more than one place during the evacuation? Cuando tu hijo evacuA,",
+        "es": "¿se quedA en más de un lugar durante la evacuaciAn?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,23 +20,32 @@
         "maxValue": 2,
         "choices": [
             {
-                "name": "No  No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No ",
+                    "es": "No"
+                }
             },
             {
-                "name": "Yes",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                }
             },
             {
-                "name": "Yes",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "0 = No  No; 1 = Yes; 2 = Yes"
         }

@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_meqc_17",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_meqc_17",
+    "prefLabel": {
+        "en": "irma_meqc_17",
+        "es": "irma_meqc_17_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "17.  Which Social Media platform did you use the most when checking for news related to Hurricane Irma?  17. \u00bfQu\u00e9 plataforma de medios sociales usA m\u00e1s al buscar noticias relacionadas con el hurac\u00e1n?",
+    "question": {
+        "en": "17. Which Social Media platform did you use the most when checking for news related to Hurricane Irma? 17.",
+        "es": "¿Qué plataforma de medios sociales usA más al buscar noticias relacionadas con el huracán?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,41 +20,62 @@
         "maxValue": 7,
         "choices": [
             {
-                "name": "Facebook  Facebook",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Facebook ",
+                    "es": "Facebook"
+                }
             },
             {
-                "name": "Twitter  Twitter",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "Twitter ",
+                    "es": "Twitter"
+                }
             },
             {
-                "name": "Instagram  Instagram",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "Instagram ",
+                    "es": "Instagram"
+                }
             },
             {
-                "name": "Snapchat  Snapchat",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "Snapchat ",
+                    "es": "Snapchat"
+                }
             },
             {
-                "name": "YouTube  YouTube",
-                "value": 5
+                "value": 5,
+                "name": {
+                    "en": "YouTube ",
+                    "es": "YouTube"
+                }
             },
             {
-                "name": "Other  Otro",
-                "value": 6
+                "value": 6,
+                "name": {
+                    "en": "Other ",
+                    "es": "Otro"
+                }
             },
             {
-                "name": "I did not check any social media platforms for news related to Hurricane Irma No revis\u00e9 ninguna plataforma de redes sociales para noticias relacionadas con el hurac\u00e1n Irma",
-                "value": 7
+                "value": 7,
+                "name": {
+                    "en": "I did not check any social media platforms for news related to Hurricane",
+                    "es": "Irma No revisé ninguna plataforma de redes sociales para noticias relacionadas con el huracán Irma"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
-            "value": "1 = Facebook  Facebook; 2 = Twitter  Twitter; 3 = Instagram  Instagram; 4 = Snapchat  Snapchat; 5 = YouTube  YouTube; 6 = Other  Otro; 7 = I did not check any social media platforms for news related to Hurricane Irma No revis\u00e9 ninguna plataforma de redes sociales para noticias relacionadas con el hurac\u00e1n Irma"
+            "value": "1 = Facebook  Facebook; 2 = Twitter  Twitter; 3 = Instagram  Instagram; 4 = Snapchat  Snapchat; 5 = YouTube  YouTube; 6 = Other  Otro; 7 = I did not check any social media platforms for news related to Hurricane Irma No revisé ninguna plataforma de redes sociales para noticias relacionadas con el huracán Irma"
         }
     ]
 }

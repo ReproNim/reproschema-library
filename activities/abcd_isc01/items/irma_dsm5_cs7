@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_cs7",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_dsm5_cs7",
+    "prefLabel": {
+        "en": "irma_dsm5_cs7",
+        "es": "irma_dsm5_cs7_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "CS7. Do these reactions, thoughts, and feelings make it harder for you to get along with your friends or make new friends? CS7. \u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted llevarse bien con sus amigos o hacer nuevos amigos?",
+    "question": {
+        "en": "CS7. Do these reactions, thoughts, and feelings make it harder for you to get along with your friends or make new friends? CS7.",
+        "es": "¿Estas reacciones, pensamientos y sentimientos hace más difícil para usted llevarse bien con sus amigos o hacer nuevos amigos?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

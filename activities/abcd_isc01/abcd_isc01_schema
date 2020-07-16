@@ -2,7 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_isc01_schema",
-    "prefLabel": "abcd_isc01",
+    "prefLabel": {
+        "en": "abcd_isc01",
+        "es": "abcd_isc01_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
     "ui": {

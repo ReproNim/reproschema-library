@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_cs8",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_dsm5_cs8",
+    "prefLabel": {
+        "en": "irma_dsm5_cs8",
+        "es": "irma_dsm5_cs8_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "CS8. Do these reactions, thoughts, and feelings make it harder for you to do important things that other kids your age are doing? CS8. \u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted hacer cosas importantes que otros ni\u00f1os de su edad est\u00e1n haciendo?",
+    "question": {
+        "en": "CS8. Do these reactions, thoughts, and feelings make it harder for you to do important things that other kids your age are doing? CS8.",
+        "es": "¿Estas reacciones, pensamientos y sentimientos hace más difícil para usted hacer cosas importantes que otros niños de su edad están haciendo?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

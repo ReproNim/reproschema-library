@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a14",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_a14",
+    "prefLabel": {
+        "en": "irma_hurtep_a14",
+        "es": "irma_hurtep_a14_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes? \u00bfHubo mucho da\u00f1o en su vecindario, como grandes \u00e1rboles sin segar o casas gravemente da\u00f1adas?",
+    "question": {
+        "en": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes?",
+        "es": "¿Hubo mucho daño en su vecindario, como grandes árboles sin segar o casas gravemente dañadas?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

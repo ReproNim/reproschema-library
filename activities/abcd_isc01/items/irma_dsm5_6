@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_6",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_dsm5_6",
+    "prefLabel": {
+        "en": "irma_dsm5_6",
+        "es": "irma_dsm5_6_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "6. I feel like what happened during Hurricane Irma was sickening or gross. 6. Siento que lo que sucediA durante el hurac\u00e1n Irma fue repugnante o asqueroso.",
+    "question": {
+        "en": "6. I feel like what happened during Hurricane Irma was sickening or gross.",
+        "es": "6. Siento que lo que sucediA durante el huracán Irma fue repugnante o asqueroso."
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,31 +20,46 @@
         "maxValue": 4,
         "choices": [
             {
-                "name": "None (Never)0  De ningun modo (Nunca)0",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "None (Never) ",
+                    "es": "De ningun modo (Nunca) "
+                }
             },
             {
-                "name": "Little (2 days over the past month)1  Un poco (2 dias durante el ultimo mes)1",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Little (2 days over the past month) ",
+                    "es": "Un poco (2 dias durante el ultimo mes) "
+                }
             },
             {
-                "name": "Some (1-2 days a week)2  A veces (1-2 dias a la semana)2",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "Some (1-2 days a week) ",
+                    "es": "A veces (1-2 dias a la semana) "
+                }
             },
             {
-                "name": "Much (2-3 days a week)3  Mucho (2-3 dias a la semana)3",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "Much (2-3 days a week) ",
+                    "es": "Mucho (2-3 dias a la semana) "
+                }
             },
             {
-                "name": "Most (Almost every day)4 Munchisimo (Casi todos los dias)4",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "Most (Almost every day)",
+                    "es": "Munchisimo (Casi todos los dias)"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "0 = None (Never)0  De ningun modo (Nunca)0; 1 = Little (2 days over the past month)1  Un poco (2 dias durante el ultimo mes)1; 2 = Some (1-2 days a week)2  A veces (1-2 dias a la semana)2; 3 = Much (2-3 days a week)3  Mucho (2-3 dias a la semana)3; 4 = Most (Almost every day)4 Munchisimo (Casi todos los dias)4"
         }

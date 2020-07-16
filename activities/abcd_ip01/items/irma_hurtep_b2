@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b2",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_b2",
+    "prefLabel": {
+        "en": "irma_hurtep_b2",
+        "es": "irma_hurtep_b2_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "When your child evacuated your home, where did he or she go?   \u00bfCuando tu hijo(a) evacuA de su casa, a dAnde fue?",
+    "question": {
+        "en": "When your child evacuated your home, where did he or she go?",
+        "es": "¿Cuando tu hijo(a) evacuA de su casa, a dAnde fue?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,29 +20,41 @@
         "maxValue": 4,
         "choices": [
             {
-                "name": "To a friend or relative's home nearby (less than an hour away)  Para la casa de un amigo o familiar cercano (a menos de una hora de distancia)",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "To a friend or relative's home nearby (less than an hour away) ",
+                    "es": "Para la casa de un amigo o familiar cercano (a menos de una hora de distancia) "
+                }
             },
             {
-                "name": "To a shelter nearby (less than an hour away)  A un refugio cercano (a menos de una hora de distancia)",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "To a shelter nearby (less than an hour away) ",
+                    "es": "A un refugio cercano (a menos de una hora de distancia) "
+                }
             },
             {
-                "name": "To another place in the state A otro lugar en el estado",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "To another place in the state ",
+                    "es": "A otro lugar en el estado"
+                }
             },
             {
-                "name": "Left the state Sali\u00f3 del estado",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "Left the state",
+                    "es": "Salió del estado"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
-            "value": "1 = To a friend or relative's home nearby (less than an hour away)  Para la casa de un amigo o familiar cercano (a menos de una hora de distancia); 2 = To a shelter nearby (less than an hour away)  A un refugio cercano (a menos de una hora de distancia); 3 = To another place in the state A otro lugar en el estado; 4 = Left the state Sali\u00f3 del estado"
+            "value": "1 = To a friend or relative's home nearby (less than an hour away)  Para la casa de un amigo o familiar cercano (a menos de una hora de distancia); 2 = To a shelter nearby (less than an hour away)  A un refugio cercano (a menos de una hora de distancia); 3 = To another place in the state A otro lugar en el estado; 4 = Left the state Salió del estado"
         }
     ]
 }

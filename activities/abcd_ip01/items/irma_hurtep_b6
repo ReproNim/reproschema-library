@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b6",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_b6",
+    "prefLabel": {
+        "en": "irma_hurtep_b6",
+        "es": "irma_hurtep_b6_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "How many hours in total did your child spend traveling to get back home after the hurricane? \u00bfCu\u00e1ntas horas en total paso tu hijo(a) viajando para regresar a su casa despu\u00e9s del hurac\u00e1n?",
+    "question": {
+        "en": "How many hours in total did your child spend traveling to get back home after the hurricane?",
+        "es": "¿Cuántas horas en total paso tu hijo(a) viajando para regresar a su casa después del huracán?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,29 +20,41 @@
         "maxValue": 4,
         "choices": [
             {
-                "name": "Under 2 hours  Menos de 2 horas",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Under 2 hours ",
+                    "es": "Menos de 2 horas"
+                }
             },
             {
-                "name": "2-5 hours  2-5 horas",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "2-5 hours ",
+                    "es": "2-5 horas"
+                }
             },
             {
-                "name": "5-10 hours  5-10 horas",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "5-10 hours ",
+                    "es": "5-10 horas"
+                }
             },
             {
-                "name": "More than 10 hours total M\u00e1s de 10 horas en total",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "More than 10 hours total",
+                    "es": "Más de 10 horas en total"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
-            "value": "1 = Under 2 hours  Menos de 2 horas; 2 = 2-5 hours  2-5 horas; 3 = 5-10 hours  5-10 horas; 4 = More than 10 hours total M\u00e1s de 10 horas en total"
+            "value": "1 = Under 2 hours  Menos de 2 horas; 2 = 2-5 hours  2-5 horas; 3 = 5-10 hours  5-10 horas; 4 = More than 10 hours total Más de 10 horas en total"
         }
     ]
 }

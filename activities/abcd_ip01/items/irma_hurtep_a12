@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a12",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_a12",
+    "prefLabel": {
+        "en": "irma_hurtep_a12",
+        "es": "irma_hurtep_a12_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Did you have to travel a lot longer to get to work or school? \u00bfTuvo que viajar mucho m\u00e1s tiempo para ir al trabajo o a la escuela?",
+    "question": {
+        "en": "Did you have to travel a lot longer to get to work or school?",
+        "es": "¿Tuvo que viajar mucho más tiempo para ir al trabajo o a la escuela?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

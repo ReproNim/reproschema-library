@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_cs6",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_dsm5_cs6",
+    "prefLabel": {
+        "en": "irma_dsm5_cs6",
+        "es": "irma_dsm5_cs6_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "CS6. Do these reactions, thoughts, and feelings cause other problems at school? CS6. \u00bfEstas reacciones, pensamientos y sentimientos causan otros problemas en la escuela?",
+    "question": {
+        "en": "CS6. Do these reactions, thoughts, and feelings cause other problems at school? CS6.",
+        "es": "¿Estas reacciones, pensamientos y sentimientos causan otros problemas en la escuela?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

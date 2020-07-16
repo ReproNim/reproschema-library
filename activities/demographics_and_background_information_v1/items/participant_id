@@ -12,6 +12,6 @@
         "en": "Participant ID"
     },
     "responseOptions": {
-        "valueType": "schema:identifier"
+        "valueType": "xsd:string"
     }
 }

@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a3",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_a3",
+    "prefLabel": {
+        "en": "irma_hurtep_a3",
+        "es": "irma_hurtep_a3_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Did you move to a new place because of the hurricane? \u00bfTe mudaste a un lugar nuevo debido al hurac\u00e1n?",
+    "question": {
+        "en": "Did you move to a new place because of the hurricane?",
+        "es": "¿Te mudaste a un lugar nuevo debido al huracán?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

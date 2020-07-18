@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_b17",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtec_b17",
+    "prefLabel": {
+        "en": "irma_hurtec_b17",
+        "es": "irma_hurtec_b17_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home? En cualquier momento antes del hurac\u00e1n, \u00bfpensA que el hurac\u00e1n podr\u00eda causar un da\u00f1o mayor a su hogar, o que podr\u00eda perder su hogar?",
+    "question": {
+        "en": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home?",
+        "es": "En cualquier momento antes del huracán, ¿pensA que el huracán podría causar un daño mayor a su hogar, o que podría perder su hogar?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

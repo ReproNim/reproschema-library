@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b3",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_b3",
+    "prefLabel": {
+        "en": "irma_hurtep_b3",
+        "es": "irma_hurtep_b3_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "When your child evacuated, how long was he or she away from your home? Cuando tu hijo(a) evacuA, \u00bfcu\u00e1nto tiempo estuvo lejos de su casa?",
+    "question": {
+        "en": "When your child evacuated, how long was he or she away from your home? Cuando tu hijo(a) evacuA,",
+        "es": "¿cuánto tiempo estuvo lejos de su casa?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,29 +20,41 @@
         "maxValue": 4,
         "choices": [
             {
-                "name": "Less than a day  Menos de un d\u00eda",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Less than a day ",
+                    "es": "Menos de un día"
+                }
             },
             {
-                "name": "1-2 days  1-2 d\u00edas",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "1-2 days ",
+                    "es": "1-2 días"
+                }
             },
             {
-                "name": "3-6 days  3-6 d\u00eda",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "3-6 days ",
+                    "es": "3-6 día"
+                }
             },
             {
-                "name": "A week or more Una semana o m\u00e1s",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "A week or more",
+                    "es": "Una semana o más"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
-            "value": "1 = Less than a day  Menos de un d\u00eda; 2 = 1-2 days  1-2 d\u00edas; 3 = 3-6 days  3-6 d\u00eda; 4 = A week or more Una semana o m\u00e1s"
+            "value": "1 = Less than a day  Menos de un día; 2 = 1-2 days  1-2 días; 3 = 3-6 days  3-6 día; 4 = A week or more Una semana o más"
         }
     ]
 }

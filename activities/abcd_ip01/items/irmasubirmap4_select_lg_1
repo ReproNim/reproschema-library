@@ -2,11 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irmasubirmap4_select_lg_1",
     "@type": "reproschema:Field",
-    "prefLabel": "irmasubirmap4_select_lg_1",
+    "prefLabel": {
+        "en": "irmasubirmap4_select_lg_1",
+        "es": "irmasubirmap4_select_lg_1_es"
+    },
     "altLabel": "irma_substudy_irma_p4_select_language___1",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "\u00bfEspa\u00f1ol? (1, S\u00ed)",
+    "question": {
+        "en": "",
+        "es": "¿Español? (1, Sí)"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -15,19 +21,25 @@
         "maxValue": 1,
         "choices": [
             {
-                "name": "No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             },
             {
-                "name": "Yes",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "0 = No; 1 = Yes"
         }

@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_meqc_6",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_meqc_6",
+    "prefLabel": {
+        "en": "irma_meqc_6",
+        "es": "irma_meqc_6_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "6. Internet media coverage of Hurricane Harvey 6. Cobertura de los medios de Internet del Hurac\u00e1n Harvey",
+    "question": {
+        "en": "6. Internet media coverage of Hurricane Harvey",
+        "es": "6. Cobertura de los medios de Internet del Huracán Harvey"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,33 +20,48 @@
         "maxValue": 4,
         "choices": [
             {
-                "name": "Once per day or less0  Una ves por d\u00eda on menos0",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "Once per day or less0  Una ves por día on menos0",
+                    "es": "Una ves por día on menos "
+                }
             },
             {
-                "name": "Several times per day1  Varias veses por d\u00eda1",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Several times per day1  Varias veses por día1",
+                    "es": "Varias veses por día "
+                }
             },
             {
-                "name": "Almost every hour2  Casi cada hora2",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "Almost every hour2  Casi cada hora2",
+                    "es": "Casi cada hora "
+                }
             },
             {
-                "name": "Several times per hour3  Varias veses por hora3",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "Several times per hour3  Varias veses por hora3",
+                    "es": "Varias veses por hora "
+                }
             },
             {
-                "name": "Almost continuously4 Casi continuamente4",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "Almost continuously4 Casi continuamente4",
+                    "es": "Casi continuamente"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
-            "value": "0 = Once per day or less0  Una ves por d\u00eda on menos0; 1 = Several times per day1  Varias veses por d\u00eda1; 2 = Almost every hour2  Casi cada hora2; 3 = Several times per hour3  Varias veses por hora3; 4 = Almost continuously4 Casi continuamente4"
+            "value": "0 = Once per day or less0  Una ves por día on menos0; 1 = Several times per day1  Varias veses por día1; 2 = Almost every hour2  Casi cada hora2; 3 = Several times per hour3  Varias veses por hora3; 4 = Almost continuously4 Casi continuamente4"
         }
     ]
 }

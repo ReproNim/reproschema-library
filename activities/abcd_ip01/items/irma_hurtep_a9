@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_a9",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_a9",
+    "prefLabel": {
+        "en": "irma_hurtep_a9",
+        "es": "irma_hurtep_a9_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Has anyone stolen anything from your home since the hurricane? \u00bfAlguien ha robado algo de su casa desde el hurac\u00e1n?",
+    "question": {
+        "en": "Has anyone stolen anything from your home since the hurricane?",
+        "es": "¿Alguien ha robado algo de su casa desde el huracán?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_b13",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtec_b13",
+    "prefLabel": {
+        "en": "irma_hurtec_b13",
+        "es": "irma_hurtec_b13_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Overall, how safe did you feel before the hurricane? En general, \u00bfqu\u00e9 tan seguro usted sintiA antes del hurac\u00e1n?",
+    "question": {
+        "en": "Overall, how safe did you feel before the hurricane?",
+        "es": "En general, ¿qué tan seguro usted sintiA antes del huracán?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,27 +20,39 @@
         "maxValue": 3,
         "choices": [
             {
-                "name": "Not at all  De ningun modo",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "Not at all ",
+                    "es": "De ningun modo"
+                }
             },
             {
-                "name": "A little  Un poco",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "A little ",
+                    "es": "Un poco"
+                }
             },
             {
-                "name": "A lot  Mucho",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "A lot ",
+                    "es": "Mucho"
+                }
             },
             {
-                "name": "A whole lot Muchisimo",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "A whole lot",
+                    "es": "Muchisimo"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "0 = Not at all  De ningun modo; 1 = A little  Un poco; 2 = A lot  Mucho; 3 = A whole lot Muchisimo"
         }

@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_b7___4",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_b7___4",
+    "prefLabel": {
+        "en": "irma_hurtep_b7___4",
+        "es": "irma_hurtep_b7___4_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "How did you get news of information about Hurricane Irma? Check all that apply. \u00bfCAmo obtuvo noticias de informaciAn sobre el hurac\u00e1n? Marque todo lo que corresponda. (4, From family and friends  De familia y amigos)",
+    "question": {
+        "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
+        "es": "¿CAmo obtuvo noticias de informaciAn sobre el huracán? Marque todo lo que corresponda. (4, From family and friends De familia y amigos)"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 1,
         "choices": [
             {
-                "name": "No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             },
             {
-                "name": "Yes",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "0 = No; 1 = Yes"
         }

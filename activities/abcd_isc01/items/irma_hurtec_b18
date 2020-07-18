@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_b18",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtec_b18",
+    "prefLabel": {
+        "en": "irma_hurtec_b18",
+        "es": "irma_hurtec_b18_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate?  Si se pronostica que otro hurac\u00e1n golpea donde usted vive, \u00bfpreferir\u00eda quedarse en su casa o evacuar?",
+    "question": {
+        "en": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate? Si se pronostica que otro huracán golpea donde usted vive,",
+        "es": "¿preferiría quedarse en su casa o evacuar?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,31 +20,46 @@
         "maxValue": 5,
         "choices": [
             {
-                "name": "Definitely Stay at Home  Definitivamente quedarme en casa",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Definitely Stay at Home ",
+                    "es": "Definitivamente quedarme en casa"
+                }
             },
             {
-                "name": "Probably Stay at Home  Probablemente quedarme en casa",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "Probably Stay at Home ",
+                    "es": "Probablemente quedarme en casa"
+                }
             },
             {
-                "name": "Unsure  Inseguro",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "Unsure ",
+                    "es": "Inseguro"
+                }
             },
             {
-                "name": "Probably Leave (evacuate)  Probablemente salir (evacuar)",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "Probably Leave (evacuate) ",
+                    "es": "Probablemente salir (evacuar)"
+                }
             },
             {
-                "name": "Definitely Leave (evacuate) Definitivamente salir (evacuar)",
-                "value": 5
+                "value": 5,
+                "name": {
+                    "en": "Definitely Leave (evacuate)",
+                    "es": "Definitivamente salir (evacuar)"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Definitely Stay at Home  Definitivamente quedarme en casa; 2 = Probably Stay at Home  Probablemente quedarme en casa; 3 = Unsure  Inseguro; 4 = Probably Leave (evacuate)  Probablemente salir (evacuar); 5 = Definitely Leave (evacuate) Definitivamente salir (evacuar)"
         }

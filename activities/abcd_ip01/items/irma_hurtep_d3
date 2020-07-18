@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtep_d3",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtep_d3",
+    "prefLabel": {
+        "en": "irma_hurtep_d3",
+        "es": "irma_hurtep_d3_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Was there any flooding or water damage in the place your child stayed in during the hurricane? \u00bfHubo alguna inundaciAn o da\u00f1o por agua en el lugar donde se quedA durante el hurac\u00e1n?",
+    "question": {
+        "en": "Was there any flooding or water damage in the place your child stayed in during the hurricane?",
+        "es": "¿Hubo alguna inundaciAn o daño por agua en el lugar donde se quedA durante el huracán?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

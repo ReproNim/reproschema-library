@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_d12",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtec_d12",
+    "prefLabel": {
+        "en": "irma_hurtec_d12",
+        "es": "irma_hurtec_d12_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Did you think you might be hurt badly during the hurricane? \u00bfPensaste que podr\u00edas herirte de gravedad durante el hurac\u00e1n?",
+    "question": {
+        "en": "Did you think you might be hurt badly during the hurricane?",
+        "es": "¿Pensaste que podrías herirte de gravedad durante el huracán?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

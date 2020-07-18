@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_hurtec_d14",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_hurtec_d14",
+    "prefLabel": {
+        "en": "irma_hurtec_d14",
+        "es": "irma_hurtec_d14_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el hurac\u00e1n, \u00bf usted penso que el hurac\u00e1n estaba causando un da\u00f1o grave a tu casa, o que podr\u00edas perder tu casa?",
+    "question": {
+        "en": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el huracán,",
+        "es": "¿ usted penso que el huracán estaba causando un daño grave a tu casa, o que podrías perder tu casa?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,19 +20,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes  Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes  Si; 0 = No No"
         }

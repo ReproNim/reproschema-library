@@ -2,10 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@id": "irma_dsm5_20",
     "@type": "reproschema:Field",
-    "prefLabel": "irma_dsm5_20",
+    "prefLabel": {
+        "en": "irma_dsm5_20",
+        "es": "irma_dsm5_20_es"
+    },
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "20. I hurt myself on purpose. 20. Me lastimo a propAsito.",
+    "question": {
+        "en": "20. I hurt myself on purpose.",
+        "es": "20. Me lastimo a propAsito."
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -14,31 +20,46 @@
         "maxValue": 4,
         "choices": [
             {
-                "name": "None (Never)0  De ningun modo (Nunca)0",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "None (Never) ",
+                    "es": "De ningun modo (Nunca) "
+                }
             },
             {
-                "name": "Little (2 days over the past month)1  Un poco (2 dias durante el ultimo mes)1",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Little (2 days over the past month) ",
+                    "es": "Un poco (2 dias durante el ultimo mes) "
+                }
             },
             {
-                "name": "Some (1-2 days a week)2  A veces (1-2 dias a la semana)2",
-                "value": 2
+                "value": 2,
+                "name": {
+                    "en": "Some (1-2 days a week) ",
+                    "es": "A veces (1-2 dias a la semana) "
+                }
             },
             {
-                "name": "Much (2-3 days a week)3  Mucho (2-3 dias a la semana)3",
-                "value": 3
+                "value": 3,
+                "name": {
+                    "en": "Much (2-3 days a week) ",
+                    "es": "Mucho (2-3 dias a la semana) "
+                }
             },
             {
-                "name": "Most (Almost every day)4 Munchisimo (Casi todos los dias)4",
-                "value": 4
+                "value": 4,
+                "name": {
+                    "en": "Most (Almost every day)",
+                    "es": "Munchisimo (Casi todos los dias)"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "0 = None (Never)0  De ningun modo (Nunca)0; 1 = Little (2 days over the past month)1  Un poco (2 dias durante el ultimo mes)1; 2 = Some (1-2 days a week)2  A veces (1-2 dias a la semana)2; 3 = Much (2-3 days a week)3  Mucho (2-3 dias a la semana)3; 4 = Most (Almost every day)4 Munchisimo (Casi todos los dias)4"
         }

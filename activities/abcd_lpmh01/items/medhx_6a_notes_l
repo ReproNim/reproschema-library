@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
     "@id": "medhx_6a_notes_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_6a_notes_l",

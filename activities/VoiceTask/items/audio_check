@@ -6,7 +6,10 @@
     "description": "microphone test for participant",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Going to test your microphone. Click on the start button and say something audibly. Click Play button to hear your recording. If you think there is too much background noise, please go somewhere quieter and Redo, else click Continue.",
+    "question":
+        {"en": "Going to test your microphone. Click on the start button and say something audibly. Click Play button to hear your recording. If you think there is too much background noise, please go somewhere quieter and Redo, else click Continue.",
+        "es": "Vamos a verificar si funciona tu micrófono. Clickeá en el botón start (comenzar) y dí algo. Clickeá play (reproducir) para oir tu grabación. Si crees que hay demasiado ruido de fondo,  por favor ve a un lugar más silencioso y vuelva a hacerlo, sino ya puede comenzar."
+        }
     "ui": {
         "inputType": "audioCheck"
     },

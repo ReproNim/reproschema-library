@@ -6,8 +6,14 @@
     "description": "K-mart sentences read after inhaling and then within one exhale .",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "preamble": "Hit record. Inhale and in one exhalation, read the sentences.",
-    "question": "The girl was thirsty and drank some juice, followed by a coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
+    "preamble":
+        {"en": "Hit record. Inhale and in one exhalation, read the sentences.",
+        "es": "Aprieta record (grabar). Inhale y en una exhalación, lea las oraciones."
+        },
+    "question":
+        {"en": "The girl was thirsty and drank some juice, followed by a coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
+        "es": "La niña tenía sed y bebió un poco de jugo, seguido de una coca cola. Tus pantalones buenos se ven geniales, sin embargo, tus pantalones rotos parecen una versión barata de la selección de descuentos de Walmart. ¿Están manchados de aceite?"
+        },
     "ui": {
         "inputType": "audioPassageRecord"
     },

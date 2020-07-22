@@ -16,7 +16,7 @@
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 120000,
+        "maxValue": 180000,
         "multipleChoice": false
     }
 }

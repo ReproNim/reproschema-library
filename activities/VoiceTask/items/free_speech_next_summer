@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": {
         "en": "How do you imagine your next summer? Describe it with as much detail as possible.",
-        "es": "\u00bfC\u00f3mo se imagina que podr\u00eda ser su pr\u00f3ximo verano? Cuente con el mayor detalle posible."
+        "es": "Cómo se imagina que podría ser su próximo verano? Cuente con el mayor detalle posible."
     },
     "ui": {
         "inputType": "audioRecord"
@@ -16,7 +16,7 @@
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 120000,
+        "maxValue": 180000,
         "multipleChoice": false
     }
 }

@@ -4,5 +4,5 @@
     "@type": "reproschema:ResponseOption",
     "valueType": "schema:AudioObject",
     "minValue": 0,
-    "maxValue": 10000
+    "maxValue": 25000
 }

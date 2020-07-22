@@ -6,8 +6,15 @@
     "description": "Characterization of coughs",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "preamble": "Hit record and do the following",
-    "question": "Inhale, cough 3 times. Repeat twice.",
+    "preamble":
+        {
+        "en": "Hit record and do the following",
+        "es": "Aprieta record (grabar) y haz lo siguiente"
+        },
+    "question":
+        {"en": "Inhale, cough 3 times. Repeat twice.",
+        "es": "Inhale, tose 3 veces. Repite esto dos veces."
+        },
     "ui": {
         "inputType": "audioPassageRecord"
     },

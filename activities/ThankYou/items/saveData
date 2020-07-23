@@ -6,7 +6,7 @@
     "description": "save data to server",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Thank You for participating. Please save your data now.",
+    "question": "Thank You for participating!",
     "ui": {
         "inputType": "save",
         "readonlyValue": true

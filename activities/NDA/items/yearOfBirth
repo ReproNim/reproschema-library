@@ -6,7 +6,10 @@
     "description": "schema for Year of birth YYYY",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
-    "question": "Year of birth",
+    "question": 
+        {"en": "Year of birth",
+        "es": "Año de nacimiento"
+    },   
     "ui": {
         "inputType": "year"
     },

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "kbi_p_c_reg_friend_group_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_reg_friend_group_l",
     "altLabel": "kbi_c_reg_friend_group_p_l ksads_back_c_reg_friend_group_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Does your child have a regular group of kids he or she hangs out with at school or in your neighborhood? \u00bfSu ni\u00f1o(a) tiene un grupo de ni\u00f1os con quienes convive o se junta en la escuela o en su vecindario?",
     "ui": {

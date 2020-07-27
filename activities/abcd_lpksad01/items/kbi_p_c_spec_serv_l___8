@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "kbi_p_c_spec_serv_l___8",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_spec_serv_l___8",
     "altLabel": "kbi_c_spec_serv_p_l___8 ksads_back_c_spec_serv_p_l___8",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Does your child receive special services at school? Click all that apply: \u00bfSu ni\u00f1o(a) recibe servicios especiales en la escuela?   Seleccione todas las opciones que correspondan o apliquen: (8, Gifted Program Programa para ni\u00f1os dotados)",
     "ui": {

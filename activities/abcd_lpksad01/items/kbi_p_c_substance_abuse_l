@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "kbi_p_c_substance_abuse_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_substance_abuse_l",
     "altLabel": "kbi_c_substance_abuse_p_l ksads_back_c_substance_abuse_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Since we last saw you, how many times has your child been in the hospital for substance abuse problems?Desde la \u00faltima vez que nos vimos, \u00bfcu\u00e1ntas veces ha estado su ni\u00f1o(a) en el hospital por problemas de abuso de sustancias?",
     "ui": {

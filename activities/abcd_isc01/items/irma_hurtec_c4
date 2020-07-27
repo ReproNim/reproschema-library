@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_hurtec_c4",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtec_c4",
         "es": "irma_hurtec_c4_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "Keep you from enjoying or doing other things?(For example: do you have problems sleeping, eating, or keeping your mind on things like work or school?)",

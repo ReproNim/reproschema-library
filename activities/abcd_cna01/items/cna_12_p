@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "cna_12_p",
     "@type": "reproschema:Field",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "cna_12_p_es"
     },
     "altLabel": "child_nutrition_12_p",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": " Butter or margarine is used less than 1 ",

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "fes_youth_q1",
     "@type": "reproschema:Field",
     "prefLabel": "fes_youth_q1",
     "altLabel": "fes_q1",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "We fight a lot in our family.",
     "ui": {

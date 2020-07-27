@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_hurtec_b17",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtec_b17",
         "es": "irma_hurtec_b17_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home?",

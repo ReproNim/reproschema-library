@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "bpm_8_y",
     "@type": "reproschema:Field",
     "prefLabel": "bpm_8_y",
     "altLabel": "bpm_8 bpmy_8",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "I disobey at school. (Interviewer: Please select \"Not True\" when participant is not in school at the time of the assessment.)",
     "ui": {

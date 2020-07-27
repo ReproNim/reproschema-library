@@ -1,10 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "describe_image_valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "schema:AudioObject",
     "minValue": 0,
     "maxValue": 60000,
-    "image": "https://picsum.photos/500/400",
     "multipleChoice": false
 }

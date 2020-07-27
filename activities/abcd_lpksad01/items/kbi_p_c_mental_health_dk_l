@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "kbi_p_c_mental_health_dk_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_mental_health_dk_l",
     "altLabel": "kbi_c_mental_health_dk_p_l ksads_back_c_mental_health_dk_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Don't know No lo s\u00e9",
     "ui": {

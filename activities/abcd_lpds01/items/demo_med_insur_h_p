@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "demo_med_insur_h_p",
     "@type": "reproschema:Field",
     "prefLabel": "demo_med_insur_h_p",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "h. Any other type of health insurance or health coverage plan -h. Cualquier otro tipo de seguro de salud o plan de cobertura de salud:",
     "ui": {

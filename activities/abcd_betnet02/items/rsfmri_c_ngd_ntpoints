@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "rsfmri_c_ngd_ntpoints",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_ntpoints",
     "altLabel": "rsfmri_cor_network.gordon_ntpoints rsfmri_cor_networkgordon_ntpoints",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Number of frames after excluding outlier frames (based on standard deviation across ROIs)",
     "ui": {

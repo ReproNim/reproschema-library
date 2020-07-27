@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "abcd_compliant",
     "@type": "reproschema:Field",
     "prefLabel": "abcd_compliant",
     "altLabel": "ftq_compliant",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Sequence parameters compliant with the ABCD imaging protocol",
     "ui": {

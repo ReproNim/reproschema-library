@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_hurtep_a14",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtep_a14",
         "es": "irma_hurtep_a14_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes?",

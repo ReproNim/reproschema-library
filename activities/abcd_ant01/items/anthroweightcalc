@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "anthroweightcalc",
     "@type": "reproschema:Field",
     "prefLabel": "anthroweightcalc",
     "altLabel": "anthro_weight_calc",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Average Measured Weight (lbs):If three measurements were obtained, the two closest measurements will be averaged. Should the third measurement fall equally between the first two measurements, all three will be averaged.",
     "ui": {

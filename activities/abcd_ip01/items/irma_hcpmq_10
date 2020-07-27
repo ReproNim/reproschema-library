@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_hcpmq_10",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hcpmq_10",
         "es": "irma_hcpmq_10_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "10. I monitored conversations that my child was exposed to, and was sure to end them if topics came up that I thought could frighten my child.",

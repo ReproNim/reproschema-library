@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_hurtep_a21e",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtep_a21e",
         "es": "irma_hurtep_a21e_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "e. Problems keeping up with work or school ",

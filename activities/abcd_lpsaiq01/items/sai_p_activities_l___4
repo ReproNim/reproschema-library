@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_activities_l___4",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___4",
     "altLabel": "sports_activity_activities_p_l___4",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "(4, Field Hockey Hockey sobre c\u00e9sped)",
     "ui": {

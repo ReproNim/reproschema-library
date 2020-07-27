@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "su_risk_p_9",
     "@type": "reproschema:Field",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "su_risk_p_9_es"
     },
     "altLabel": "su_crpf_avail_9_p",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "How many of your friends or family members have a medical marijuana prescription?",

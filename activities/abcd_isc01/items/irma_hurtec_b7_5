@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_hurtec_b7_5",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtec_b7_5",
         "es": "irma_hurtec_b7_5_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "How did you get news of information about Hurricane Irma? Check all that apply.",

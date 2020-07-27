@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "demo_prnt_race_acs_p__16",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_race_acs_p__16",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "What is your race? Mark (X) one or more boxes (+ race list above)?Cu?l es su raza? Marque (X) en una o m?s casillas (+ translated list of races above) : Other Asian, for example, Hmong, Laotian, Thai, Pakistani, Cambodian, and so on",
     "ui": {

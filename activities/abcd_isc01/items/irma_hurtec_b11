@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_hurtec_b11",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtec_b11",
         "es": "irma_hurtec_b11_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "Overall, how stressed did you feel before the hurricane?",

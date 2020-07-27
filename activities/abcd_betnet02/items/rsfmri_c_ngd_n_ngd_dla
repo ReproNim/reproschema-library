@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "rsfmri_c_ngd_n_ngd_dla",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_n_ngd_dla",
     "altLabel": "rsfmri_cor_network.gordon_none_network.gordon_dorsalattn rsfmri_cor_networkgordon_none_networkgordon_dorsalattn",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Average correlation between \"none\" network and dorsal attention network",
     "ui": {

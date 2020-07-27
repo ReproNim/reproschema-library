@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "demo_prnt_empl_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_empl_v2_l",
     "altLabel": "demo_prnt_empl_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Are you working now, looking for work, retired, stay at home parent, a student, or something else? \u00bfTrabaja actualmente, est\u00e1 buscando trabajo, est\u00e1 retirado, se dedica al hogar, estudia o realiza alguna otra actividad?",
     "ui": {

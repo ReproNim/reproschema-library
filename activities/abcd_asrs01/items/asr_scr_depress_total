@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "asr_scr_depress_total",
     "@type": "reproschema:Field",
     "prefLabel": "asr_scr_depress_total",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Depressive Problems ASR DSM-5-Oriented Scale (number of dependent raw scores)",
     "ui": {

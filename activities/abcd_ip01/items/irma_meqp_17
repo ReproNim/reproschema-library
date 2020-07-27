@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_meqp_17",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_meqp_17",
         "es": "irma_meqp_17_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "17. Which Social Media platform did you use the most when checking for news related to the hurricane? 17.",

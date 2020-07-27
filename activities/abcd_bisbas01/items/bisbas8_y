@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "bisbas8_y",
     "@type": "reproschema:Field",
     "prefLabel": "bisbas8_y",
     "altLabel": "bisbas_8",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "I feel excited and full of energy when I get something that I want.",
     "ui": {

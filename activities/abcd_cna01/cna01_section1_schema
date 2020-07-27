@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "cna01_section1_schema",
     "prefLabel": {
         "en": "cna01_section1",
         "es": "cna01_section1_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": {
         "en": "Think about what your child eats in a typical week, during this past year since we last saw you. In a typical week, does your child eat:",

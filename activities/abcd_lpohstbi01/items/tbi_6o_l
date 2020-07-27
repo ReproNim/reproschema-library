@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_6o_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_6o_l",
     "altLabel": "brain_injury_6o_l tbi_6o_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Do you want to report any more injuries with loss of consciousness since we last saw you on [asnt_timestamp_c]? Desde la \u00faltima vez que nos vimos en [baseline_year_1_arm_1][asnt_timestamp] \u00bfquisiera reportar otras lesiones que hayan resultado en la p\u00e9rdida de conocimiento ?",
     "ui": {

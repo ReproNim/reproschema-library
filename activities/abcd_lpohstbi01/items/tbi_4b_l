@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_4b_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_4b_l",
     "altLabel": "brain_injury_4b_l tbi_4b_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Was he/she knocked out or did he/she lose consciousness (LOC)? If yes, how long? \u00bfEstuvo \u00e9l o ella noqueado/a o perdi\u00f3 el conocimiento? \u00bfSi la respuesta es si, por cu\u00e1nto tiempo?",
     "ui": {

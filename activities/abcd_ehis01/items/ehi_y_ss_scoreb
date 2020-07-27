@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "ehi_y_ss_scoreb",
     "@type": "reproschema:Field",
     "prefLabel": "ehi_y_ss_scoreb",
     "altLabel": "ehi_handedness ehi_ss_score",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Handedness score rating",
     "ui": {

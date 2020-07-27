@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_dsm5_4",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_dsm5_4",
         "es": "irma_dsm5_4_es"
     },
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "4. I get upset easily or get into arguments or physical fights.",

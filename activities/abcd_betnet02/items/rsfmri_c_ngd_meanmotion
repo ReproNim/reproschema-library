@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "rsfmri_c_ngd_meanmotion",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_meanmotion",
     "altLabel": "rsfmri_cor_network.gordon_mean.motion rsfmri_cor_networkgordon_meanmotion",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Average framewise displacement in mm",
     "ui": {

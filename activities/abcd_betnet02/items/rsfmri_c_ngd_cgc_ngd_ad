@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "rsfmri_c_ngd_cgc_ngd_ad",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_cgc_ngd_ad",
     "altLabel": "rsfmri_cor_network.gordon_cingulooperc_network.gordon_auditory rsfmri_cor_networkgordon_cingulooperc_networkgordon_auditory",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Average correlation between cingulo-opercular network and auditory network",
     "ui": {

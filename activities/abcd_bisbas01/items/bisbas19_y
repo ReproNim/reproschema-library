@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "bisbas19_y",
     "@type": "reproschema:Field",
     "prefLabel": "bisbas19_y",
     "altLabel": "bisbas_19",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "I am always willing to try something new, when I think it will be fun.",
     "ui": {

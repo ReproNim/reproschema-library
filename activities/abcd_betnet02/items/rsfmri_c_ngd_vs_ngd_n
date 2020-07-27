@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "rsfmri_c_ngd_vs_ngd_n",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_vs_ngd_n",
     "altLabel": "rsfmri_cor_network.gordon_visual_network.gordon_none rsfmri_cor_networkgordon_visual_networkgordon_none",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Average correlation between visual network and \"none\" network",
     "ui": {

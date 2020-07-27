@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_lmusic_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_lmusic_l",
     "altLabel": "sai_p_lmusic_p_l sports_activity_lmusic_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Since we last saw you on [asnt_timestamp_c], has your child listened to music for pleasure? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfsu ni\u00f1o(a) ha escuchado m\u00fasica por placer?",
     "ui": {

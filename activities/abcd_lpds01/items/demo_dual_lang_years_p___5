@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "demo_dual_lang_years_p___5",
     "@type": "reproschema:Field",
     "prefLabel": "demo_dual_lang_years_p___5",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Which Years (check all that apply)? \u00bfQue anos (marque todo lo que corresponda)? (5, 2nd 2do grado)",
     "ui": {

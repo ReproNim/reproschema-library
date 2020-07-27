@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "medhx_ss_6f_times_p",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_ss_6f_times_p",
     "altLabel": "medhx_ss_6f_falls_times_p",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Falls\r: How many times?",
     "ui": {

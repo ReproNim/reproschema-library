@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "auto_record",
     "prefLabel": "Auto Record",
     "altLabel": "auto_record",
     "description": "auto record for microphone test",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Going to test your microphone. Click on the start button and then say something audibly.",
     "ui": {

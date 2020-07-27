@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_4c_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_4c_l",
     "altLabel": "brain_injury_4c_l tbi_4c_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Was he/she dazed or did he/she have a gap in his/her memory from the injury? \u00bfSe sinti\u00f3 \u00e9l/ella aturdido, o tuvo lapsos de memoria  por causa de la lesi\u00f3n?",
     "ui": {

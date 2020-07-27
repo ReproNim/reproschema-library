@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_6q_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_6q_l",
     "altLabel": "brain_injury_6q_l tbi_6q_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "How many minutes was the longest knock out? \u00bfCu\u00e1ntos minutos dur\u00f3 el tiempo m\u00e1s largo que estuvo inconsciente?",
     "ui": {

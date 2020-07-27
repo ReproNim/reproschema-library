@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "audio_check",
     "prefLabel": "Audio Check",
     "description": "microphone test for participant",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Going to test your microphone. Click on the start button and say something audibly. Click Play button to hear your recording. If you think there is too much background noise, please go somewhere quieter and Redo, else click Continue.",
     "ui": {

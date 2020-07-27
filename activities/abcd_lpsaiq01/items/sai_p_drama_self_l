@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_drama_self_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_drama_self_l",
     "altLabel": "sai_drama_self_p_l sports_activity_drama_self_p_l",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Theater, Acting, Film Teatro, actuaciAn, cinematograf\u00eda Did your child learn this activity without formal instruction? \u00bfSu ni\u00f1o(a) aprendiA esta actividad sin instrucciAn formal?",
     "ui": {

@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "meim_3_p",
     "@type": "reproschema:Field",
     "prefLabel": "meim_3_p",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "I understand pretty well what my ethnic group membership means to me. Entiendo bastante bien lo que significa para m\u00ed pertenecer a mi grupo \u00e9tnico.",
     "ui": {

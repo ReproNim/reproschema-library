@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "devhx_ss_9_alcohol_max_p",
     "@type": "reproschema:Field",
     "prefLabel": "devhx_ss_9_alcohol_max_p",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Alcohol? \n\nMaximum drinks in one sitting?",
     "ui": {

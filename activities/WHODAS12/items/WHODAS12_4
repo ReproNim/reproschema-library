@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS12_4",
+    "prefLabel": "WHODAS12_4",
+    "description": "Q4 of the WHODAS12",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "How much of a problem did you have in joining in community activities (for example, festivities, religious or other activities) in the same way as anyone else can?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

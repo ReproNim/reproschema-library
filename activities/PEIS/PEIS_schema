@@ -1,0 +1,128 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PEIS_schema",
+    "prefLabel": "PEIS",
+    "description": "PEIS assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "http://pandemicimpactreport.com/",
+    "preamble": {
+        "en": "How much has your wellbeing and functioning been different in the following ways in the past 4 weeks, compared to the way it was before the beginning of the COVID-19 pandemic in the U.S.?",
+        "es": ""
+    },
+    "compute": [
+        {
+            "variableName": "PEIS_total_score",
+            "jsExpression": "PEIS_1 + PEIS_2 + PEIS_3 + PEIS_4 + PEIS_5 + PEIS_6 + PEIS_7 + PEIS_8 + PEIS_9 + PEIS_10 + PEIS_11 + PEIS_12 + PEIS_13 + PEIS_14 + PEIS_15 + PEIS_16"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/PEIS_1",
+                "variableName": "PEIS_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PEIS_2",
+                "variableName": "PEIS_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PEIS_3",
+                "variableName": "PEIS_3",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PEIS_4",
+                "variableName": "PEIS_4",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PEIS_5",
+                "variableName": "PEIS_5",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PEIS_6",
+                "variableName": "PEIS_6",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PEIS_7",
+                "variableName": "PEIS_7",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_8",
+                "variableName": "PEIS_8",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_9",
+                "variableName": "PEIS_9",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_10",
+                "variableName": "PEIS_10",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_11",
+                "variableName": "PEIS_11",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_12",
+                "variableName": "PEIS_12",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_13",
+                "variableName": "PEIS_13",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_14",
+                "variableName": "PEIS_14",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_15",
+                "variableName": "PEIS_15",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PEIS_16",
+                "variableName": "PEIS_16",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PEIS_total_score",
+                "variableName": "PEIS_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/PEIS_1",
+            "items/PEIS_2",
+            "items/PEIS_3",
+            "items/PEIS_4",
+            "items/PEIS_5",
+            "items/PEIS_6",
+            "items/PEIS_7",
+            "items/PEIS_8",
+            "items/PEIS_9",
+            "items/PEIS_10",
+            "items/PEIS_11",
+            "items/PEIS_12",
+            "items/PEIS_13",
+            "items/PEIS_14",
+            "items/PEIS_15",
+            "items/PEIS_16"
+        ],
+        "shuffle": false
+    }
+}

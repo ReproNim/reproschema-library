@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "swed_4",
+    "prefLabel": "SWED-4",
+    "description": "Q4 of the SWED Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Compared to other things in your life, how important is your weight to you?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "My weight is not important compared to other things in my life",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "My weight is a little more important than some other things in my life",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My weight is more important than most, but not all, things in my life",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "My weight is the most important thing in my life",
+                    "es": ""
+                },
+                "value": 3
+            }
+        ]
+    }
+}

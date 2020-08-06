@@ -1,0 +1,73 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "swed_3",
+    "prefLabel": "SWED-3",
+    "description": "Q3 of the SWED Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "When was the last time you went on a diet?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 6,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "I have never been on a diet",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I was on a diet about one year ago",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I was on a diet about 6 months ago",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I was on a diet about 3 months ago",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I was on a diet about 1 month ago",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I was on a diet less than 1 month ago",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I was on a diet now",
+                    "es": ""
+                },
+                "value": 3
+            }
+        ]
+    }
+}

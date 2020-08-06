@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "mdq_13",
-    "prefLabel": "MDQ-13",
-    "description": "schema for Q13 of the MDQ Assessment",
+    "@id": "mdq_16",
+    "prefLabel": "MDQ-16",
+    "description": "schema for Q16 of the MDQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": {

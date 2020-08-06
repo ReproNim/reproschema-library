@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "ptsd_valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 1,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": {
+                "en": "Yes",
+                "es": "Si"
+            },
+            "value": 1
+        },
+        {
+            "name": {
+                "en": "No",
+                "es": "No"
+            },
+            "value": 0
+        }
+    ]
+}

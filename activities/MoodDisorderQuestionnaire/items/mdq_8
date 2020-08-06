@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mdq_7",
+    "prefLabel": "MDQ-7",
+    "description": "schema for Q7 of the MDQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Has there ever been a period of time when you were not your usual self and…",
+        "es": ""
+    },
+    "question": {
+        "en": "you had much more energy than usual?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../mdq_valueConstraints"
+}

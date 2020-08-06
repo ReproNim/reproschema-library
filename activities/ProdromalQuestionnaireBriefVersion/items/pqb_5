@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pqb_5",
+    "prefLabel": "PQ-B-5",
+    "description": "schema for Q5 of the PQ-B Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Have you felt that you are not in control of your own ideas or thoughts?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../pqb_valueConstraints"
+}

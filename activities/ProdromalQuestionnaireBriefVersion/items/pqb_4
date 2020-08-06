@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pqb_4",
+    "prefLabel": "PQ-B-4",
+    "description": "Q4 of the PQ-B Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Have you had experiences with telepathy, psychic forces, or fortune telling?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../pqb_valueConstraints"
+}

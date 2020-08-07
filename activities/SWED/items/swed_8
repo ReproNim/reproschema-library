@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "swed_8",
+    "prefLabel": "SWED-8",
+    "description": "schema for Q8 of the SWED Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "In the past 3 months, how many times have you done any of the following as a means to control your weight and shape: Used diuretics or laxatives??",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer"
+    }
+}

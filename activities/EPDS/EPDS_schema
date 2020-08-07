@@ -1,0 +1,92 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "EPDS_schema",
+    "prefLabel": "Postpartum Depression",
+    "description": "EPDS assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
+    "preamble": {
+        "en": "Please check the answer that comes closest to how you have felt IN THE PAST 7 DAYS, not just how you feel today. ",
+        "es": ""
+    },
+    "compute": [
+        {
+            "variableName": "epds_total_score",
+            "jsExpression": "epds_1 + epds_2 + epds_3 + epds_4 + epds_5 + epds_6 + epds_7 + epds_8 + epds_9 + epds_10"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/epds_1",
+                "variableName": "epds_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_2",
+                "variableName": "epds_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_3",
+                "variableName": "epds_3",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_4",
+                "variableName": "epds_4",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_5",
+                "variableName": "epds_5",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_6",
+                "variableName": "epds_6",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_7",
+                "variableName": "epds_7",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_8",
+                "variableName": "epds_8",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_9",
+                "variableName": "epds_9",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_10",
+                "variableName": "epds_10",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/epds_total_score",
+                "variableName": "epds_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/epds_1",
+            "items/epds_2",
+            "items/epds_3",
+            "items/epds_4",
+            "items/epds_5",
+            "items/epds_6",
+            "items/epds_7",
+            "items/epds_8",
+            "items/epds_9",
+            "items/epds_10"
+        ],
+        "shuffle": false
+    }
+}

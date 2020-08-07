@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "epds_7",
+    "prefLabel": "EPDS-7",
+    "description": "schema for Q7 of the EPDS Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "I have been so unhappy that I have had difficulty sleeping",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, most of the time",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes, sometimes",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not very often",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No, not at all",
+                    "es": ""
+                },
+                "value": 3
+            }
+        ]
+    }
+}

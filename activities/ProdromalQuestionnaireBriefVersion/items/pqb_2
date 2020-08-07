@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pqb_2",
+    "prefLabel": "PQ-B-2",
+    "description": "Q2 of the PQ-B Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Have you heard unusual sounds like banging, clicking, hissing, clapping or ringing in your ears?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../pqb_valueConstraints"
+}

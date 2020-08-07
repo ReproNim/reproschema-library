@@ -1,0 +1,135 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SWED_schema",
+    "prefLabel": "Eating Disorder",
+    "description": "SWED assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
+    "preamble": {
+        "en": "Please check the answer that comes closest to how you have felt IN THE PAST 7 DAYS, not just how you feel today. ",
+        "es": ""
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/swed_1",
+                "variableName": "swed_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_2",
+                "variableName": "swed_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_3",
+                "variableName": "swed_3",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_4",
+                "variableName": "swed_4",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_5",
+                "variableName": "swed_5",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_6",
+                "variableName": "swed_6",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_7",
+                "variableName": "swed_7",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_8",
+                "variableName": "swed_8",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_9",
+                "variableName": "swed_9",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_10",
+                "variableName": "swed_10",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_11",
+                "variableName": "swed_11",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_12",
+                "variableName": "swed_12",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_13",
+                "variableName": "swed_13",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_14",
+                "variableName": "swed_14",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_15",
+                "variableName": "swed_15",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_16",
+                "variableName": "swed_16",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_17",
+                "variableName": "swed_17",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_18",
+                "variableName": "swed_18",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/swed_19",
+                "variableName": "swed_19",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/swed_1",
+            "items/swed_2",
+            "items/swed_3",
+            "items/swed_4",
+            "items/swed_5",
+            "items/swed_6",
+            "items/swed_7",
+            "items/swed_8",
+            "items/swed_9",
+            "items/swed_10",
+            "items/swed_11",
+            "items/swed_12",
+            "items/swed_13",
+            "items/swed_14",
+            "items/swed_15",
+            "items/swed_16",
+            "items/swed_17",
+            "items/swed_18",
+            "items/swed_19"
+        ],
+        "shuffle": false
+    }
+}

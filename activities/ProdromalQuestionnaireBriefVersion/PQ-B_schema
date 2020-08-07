@@ -1,0 +1,273 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PQ-B_schema",
+    "prefLabel": "Bipolar",
+    "description": "PQ-B assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
+    "preamble": {
+        "en": "Please indicate whether you have had the following thoughts, feelings and experiences in the past month by checking “yes” or “no” for each item. Do not include experiences that occur only while under the influence of alcohol, drugs or medications that were not prescribed to you. If you answer “YES” to an item, also indicate how distressing that experience has been for you. ",
+        "es": ""
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/pqb_1",
+                "variableName": "pqb_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_1a",
+                "variableName": "pqb_1a",
+                "isVis": "pqb_1 === 1"
+            },
+            {
+                "isAbout": "items/pqb_2",
+                "variableName": "pqb_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_2a",
+                "variableName": "pqb_2a",
+                "isVis": "pqb_2 === 1"
+            },
+            {
+                "isAbout": "items/pqb_3",
+                "variableName": "pqb_3",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_3a",
+                "variableName": "pqb_3a",
+                "isVis": "pqb_3 === 1"
+            },
+            {
+                "isAbout": "items/pqb_4",
+                "variableName": "pqb_4",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_4a",
+                "variableName": "pqb_4a",
+                "isVis": "pqb_4 === 1"
+            },
+            {
+                "isAbout": "items/pqb_5",
+                "variableName": "pqb_5",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_5a",
+                "variableName": "pqb_5a",
+                "isVis": "pqb_5 === 1"
+            },
+            {
+                "isAbout": "items/pqb_6",
+                "variableName": "pqb_6",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_6a",
+                "variableName": "pqb_6a",
+                "isVis": "pqb_6 === 1"
+            },
+            {
+                "isAbout": "items/pqb_7",
+                "variableName": "pqb_7",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_7a",
+                "variableName": "pqb_7a",
+                "isVis": "pqb_7 === 1"
+            },
+            {
+                "isAbout": "items/pqb_8",
+                "variableName": "pqb_8",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_8a",
+                "variableName": "pqb_8a",
+                "isVis": "pqb_8 === 1"
+            },
+            {
+                "isAbout": "items/pqb_9",
+                "variableName": "pqb_9",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_9a",
+                "variableName": "pqb_9a",
+                "isVis": "pqb_9 === 1"
+            },
+            {
+                "isAbout": "items/pqb_10",
+                "variableName": "pqb_10",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_10a",
+                "variableName": "pqb_10a",
+                "isVis": "pqb_10 === 1"
+            },
+            {
+                "isAbout": "items/pqb_11",
+                "variableName": "pqb_11",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_11a",
+                "variableName": "pqb_11a",
+                "isVis": "pqb_11 === 1"
+            },
+            {
+                "isAbout": "items/pqb_12",
+                "variableName": "pqb_12",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_12a",
+                "variableName": "pqb_12a",
+                "isVis": "pqb_12 === 1"
+            },
+            {
+                "isAbout": "items/pqb_13",
+                "variableName": "pqb_13",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_13a",
+                "variableName": "pqb_13a",
+                "isVis": "pqb_13 === 1"
+            },
+            {
+                "isAbout": "items/pqb_14",
+                "variableName": "pqb_14",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_14a",
+                "variableName": "pqb_14a",
+                "isVis": "pqb_14 === 1"
+            },
+            {
+                "isAbout": "items/pqb_15",
+                "variableName": "pqb_15",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_15a",
+                "variableName": "pqb_15a",
+                "isVis": "pqb_15 === 1"
+            },
+            {
+                "isAbout": "items/pqb_16",
+                "variableName": "pqb_16",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_16a",
+                "variableName": "pqb_16a",
+                "isVis": "pqb_16 === 1"
+            },
+            {
+                "isAbout": "items/pqb_17",
+                "variableName": "pqb_17",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_17a",
+                "variableName": "pqb_17a",
+                "isVis": "pqb_17 === 1"
+            },
+            {
+                "isAbout": "items/pqb_18",
+                "variableName": "pqb_18",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_18a",
+                "variableName": "pqb_18a",
+                "isVis": "pqb_18 === 1"
+            },
+            {
+                "isAbout": "items/pqb_19",
+                "variableName": "pqb_19",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_19a",
+                "variableName": "pqb_19a",
+                "isVis": "pqb_19 === 1"
+            },
+            {
+                "isAbout": "items/pqb_20",
+                "variableName": "pqb_20",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_20a",
+                "variableName": "pqb_20a",
+                "isVis": "pqb_20 === 1"
+            },
+            {
+                "isAbout": "items/pqb_21",
+                "variableName": "pqb_21",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/pqb_21a",
+                "variableName": "pqb_21a",
+                "isVis": "pqb_21 === 1"
+            }
+        ],
+        "order": [
+            "items/pqb_1",
+            "items/pqb_1a",
+            "items/pqb_2",
+            "items/pqb_2a",
+            "items/pqb_3",
+            "items/pqb_3a",
+            "items/pqb_4",
+            "items/pqb_4a",
+            "items/pqb_5",
+            "items/pqb_5a",
+            "items/pqb_6",
+            "items/pqb_6a",
+            "items/pqb_7",
+            "items/pqb_7a",
+            "items/pqb_8",
+            "items/pqb_8a",
+            "items/pqb_9",
+            "items/pqb_9a",
+            "items/pqb_10",
+            "items/pqb_10a",
+            "items/pqb_11",
+            "items/pqb_11a",
+            "items/pqb_12",
+            "items/pqb_12a",
+            "items/pqb_13",
+            "items/pqb_13a",
+            "items/pqb_14",
+            "items/pqb_14a",
+            "items/pqb_15",
+            "items/pqb_15a",
+            "items/pqb_16",
+            "items/pqb_16a",
+            "items/pqb_17",
+            "items/pqb_17a",
+            "items/pqb_18",
+            "items/pqb_18a",
+            "items/pqb_19",
+            "items/pqb_19a",
+            "items/pqb_20",
+            "items/pqb_20a",
+            "items/pqb_21",
+            "items/pqb_21a"
+        ],
+        "shuffle": false
+    }
+}

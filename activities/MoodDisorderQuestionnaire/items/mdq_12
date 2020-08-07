@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mdq_12",
+    "prefLabel": "MDQ-12",
+    "description": "schema for Q12 of the MDQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Has there ever been a period of time when you were not your usual self and…",
+        "es": ""
+    },
+    "question": {
+        "en": "you did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../mdq_valueConstraints"
+}

@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mdq_10",
+    "prefLabel": "MDQ-10",
+    "description": "schema for Q10 of the MDQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Has there ever been a period of time when you were not your usual self and…",
+        "es": ""
+    },
+    "question": {
+        "en": "…you were much more social or outgoing than usual, for example, you telephoned friends in the middle of the night?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../mdq_valueConstraints"
+}

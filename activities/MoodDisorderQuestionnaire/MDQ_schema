@@ -1,0 +1,117 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "MDQ_schema",
+    "prefLabel": "Bipolar",
+    "description": "MDQ assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
+    "preamble": {
+        "en": "Please answer each question as best you can.",
+        "es": ""
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/mdq_1",
+                "variableName": "mdq_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_2",
+                "variableName": "mdq_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_3",
+                "variableName": "mdq_3",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_4",
+                "variableName": "mdq_4",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_5",
+                "variableName": "mdq_5",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_6",
+                "variableName": "mdq_6",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_7",
+                "variableName": "mdq_7",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_8",
+                "variableName": "mdq_8",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_9",
+                "variableName": "mdq_9",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_10",
+                "variableName": "mdq_10",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_11",
+                "variableName": "mdq_11",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_12",
+                "variableName": "mdq_12",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_13",
+                "variableName": "mdq_13",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_14",
+                "variableName": "mdq_14",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_15",
+                "variableName": "mdq_15",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/mdq_16",
+                "variableName": "mdq_16",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/mdq_1",
+            "items/mdq_2",
+            "items/mdq_3",
+            "items/mdq_4",
+            "items/mdq_5",
+            "items/mdq_6",
+            "items/mdq_7",
+            "items/mdq_8",
+            "items/mdq_9",
+            "items/mdq_10",
+            "items/mdq_11",
+            "items/mdq_12",
+            "items/mdq_13",
+            "items/mdq_14",
+            "items/mdq_15",
+            "items/mdq_16"
+        ],
+        "shuffle": false
+    }
+}

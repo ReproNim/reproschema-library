@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "epds_6",
+    "prefLabel": "EPDS-6",
+    "description": "schema for Q6 of the EPDS Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Things have been getting on top of me",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, most of the time I haven't been able to cope at all.",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes, sometimes I haven't been coping as well as usual",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, most of the time I have coped quite well.",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No, I have been coping as well as ever.",
+                    "es": ""
+                },
+                "value": 3
+            }
+        ]
+    }
+}

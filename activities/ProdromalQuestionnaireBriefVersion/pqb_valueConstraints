@@ -12,14 +12,14 @@
                 "en": "Yes",
                 "es": "Si"
             },
-            "value": 0
+            "value": 1
         },
         {
             "name": {
                 "en": "No",
                 "es": "No"
             },
-            "value": 1
+            "value": 0
         }
     ]
 }

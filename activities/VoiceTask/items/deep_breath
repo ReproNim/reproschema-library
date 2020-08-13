@@ -6,8 +6,14 @@
     "description": "Characterization of breaths",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Hit record and do the following",
-    "question": "Inhalation for 4 seconds followed by exhalation for 4 seconds. Repeat this 4 times.",
+    "preamble":
+        {"en": "Hit record and do the following",
+        "es": "Aprieta record (grabar) y haz lo siguiente"
+        },
+    "question":
+        {"en": "Inhalation for 4 seconds followed by exhalation for 4 seconds. Repeat this 4 times.",
+        "es": "Inhale por 4 segundos y exhale por 4 segundos. Repite esto 4 veces."
+        },
     "ui": {
         "inputType": "audioPassageRecord"
     },

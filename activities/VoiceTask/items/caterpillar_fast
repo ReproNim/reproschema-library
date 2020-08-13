@@ -6,14 +6,19 @@
     "description": "Caterpillar passage task read as fast as possible",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Take a deep breath, hit record, and read as fast and as much as you can.",
-    "question": "Do you like amusement parks? Well, I sure do. To amuse myself, I went twice last spring. My most MEMORABLE moment was riding on the Caterpillar, which is a gigantic roller coaster high above the ground. When I saw how high the Caterpillar rose into the bright blue sky I knew it was for me. After waiting in line for thirty minutes, I made it to the front where the man measured my height to see if I was tall enough. I gave the man my coins, asked for change, and jumped on the cart. Tick, tick, tick, the Caterpillar climbed slowly up the tracks. It went SO high I could see the parking lot. Boy was I SCARED! I thought to myself, \"There’s no turning back now.\" People were so scared they screamed as we swiftly zoomed fast, fast, and faster along the tracks. As quickly as it started, the Caterpillar came to a stop. Unfortunately, it was time to pack the car and drive home. That night I dreamt of the wild ride on the Caterpillar. Taking a trip to the amusement park and riding on the Caterpillar was my MOST memorable moment ever!",
+    "preamble":
+        {"en": "Take a deep breath, hit record, and read as fast and as much as you can.",
+        "es": "Respira profundamente, haga click en grabar y lea lo más rápido y lo más que pueda."},
+    "question":
+        {"en": "Do you like amusement parks? Well, I sure do. To amuse myself, I went twice last spring. My most MEMORABLE moment was riding on the Caterpillar, which is a gigantic roller coaster high above the ground. When I saw how high the Caterpillar rose into the bright blue sky I knew it was for me. After waiting in line for thirty minutes, I made it to the front where the man measured my height to see if I was tall enough. I gave the man my coins, asked for change, and jumped on the cart. Tick, tick, tick, the Caterpillar climbed slowly up the tracks. It went SO high I could see the parking lot. Boy was I SCARED! I thought to myself, \"There’s no turning back now.\" People were so scared they screamed as we swiftly zoomed fast, fast, and faster along the tracks. As quickly as it started, the Caterpillar came to a stop. Unfortunately, it was time to pack the car and drive home. That night I dreamt of the wild ride on the Caterpillar. Taking a trip to the amusement park and riding on the Caterpillar was my MOST memorable moment ever!",
+        "es": "¿Te gustan los parques de atracciones? Bueno, a mí me gustan. Para divertirme, fui dos veces la primavera pasada. Mi momento más MEMORABLE fue montar en la Oruga, que es una montaña rusa gigantesca muy por arriba del suelo. Cuando vi cuán alto se elevaba la Oruga en el cielo azul brillante, supe que era para mí. Después de esperar en la cola durante treinta minutos, llegué al frente donde el hombre midió mi altura para ver si era lo suficientemente alto. Le di mis monedas al hombre, pedí el cambio y salté al carro. Tick, tick, tick, la oruga subió lentamente por las vías. Fue TAN alto que pude ver el estacionamiento. ¡Estaba ASUSTADO! Pensé para mí mismo: \"No hay vuelta atrás ahora\". La gente estaba tan asustada que gritaba mientras nos alejábamos rápidamente, rápido y más rápido por las vías. Tan rápido como comenzó, la Oruga se detuvo. Desafortunadamente, era hora de empacar el automóvil y conducir a casa. Esa noche soñé con el paseo salvaje en la Oruga. ¡Hacer un viaje al parque de atracciones y subirme a la Oruga fue mi momento MÁS memorable!"
+        },
     "ui": {
         "inputType": "audioPassageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 60000
+        "maxValue": 170000
     }
 }

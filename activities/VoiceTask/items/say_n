@@ -7,8 +7,9 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Say sun and hold the /n/ for as long as you can. When you are done, hit the Stop button to end recording. Take a deep breath and click to start."
-    },
+        "en": "Say /sun/ and hold the /n/ for as long as you can, in a relaxed way and at a normal volume, without interrupting. When you are done, hit the Stop button to end recording. Take a deep breath and click to start.",
+        "es": "Diga /man/ y mantenga la /n/ por el mayor tiempo que puedas, de forma relajada y en volumen normal, con un solo aliento, sin cortar. Cuando te quedes sin aire, haz click de nuevo para cortar la grabación. Toma un aliento profundo, haz click y empieza."
+        },
     "ui": {
         "inputType": "audioRecord"
     },

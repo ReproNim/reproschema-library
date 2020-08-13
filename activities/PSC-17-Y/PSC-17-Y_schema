@@ -1,0 +1,134 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PSC-17-Y_schema",
+    "prefLabel": "PSC-17-Y",
+    "description": "PSC-17-Y assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.massgeneral.org/psychiatry/treatments-and-services/pediatric-symptom-checklist",
+    "preamble": {
+        "en": "Please mark under the heading that best fits you:",
+        "es": ""
+    },
+    "compute": [
+        {
+            "variableName": "PSC-17-Y_total_score",
+            "jsExpression": "PSC-17-Y_1 + PSC-17-Y_2 + PSC-17-Y_3 + PSC-17-Y_4 + PSC-17-Y_5 + PSC-17-Y_6 + PSC-17-Y_7 + PSC-17-Y_8 + PSC-17-Y_9 + PSC-17-Y_10 + PSC-17-Y_11 + PSC-17-Y_12 + PSC-17-Y_13 + PSC-17-Y_14 + PSC-17-Y_15 + PSC-17-Y_16 + PSC-17-Y_17"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/PSC-17-Y_1",
+                "variableName": "PSC-17-Y_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PSC-17-Y_2",
+                "variableName": "PSC-17-Y_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PSC-17-Y_3",
+                "variableName": "PSC-17-Y_3",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PSC-17-Y_4",
+                "variableName": "PSC-17-Y_4",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PSC-17-Y_5",
+                "variableName": "PSC-17-Y_5",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PSC-17-Y_6",
+                "variableName": "PSC-17-Y_6",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PSC-17-Y_7",
+                "variableName": "PSC-17-Y_7",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_8",
+                "variableName": "PSC-17-Y_8",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_9",
+                "variableName": "PSC-17-Y_9",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_10",
+                "variableName": "PSC-17-Y_10",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_11",
+                "variableName": "PSC-17-Y_11",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_12",
+                "variableName": "PSC-17-Y_12",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_13",
+                "variableName": "PSC-17-Y_13",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_14",
+                "variableName": "PSC-17-Y_14",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_15",
+                "variableName": "PSC-17-Y_15",
+                "isVis": true
+            },
+                        {
+                "isAbout": "items/PSC-17-Y_16",
+                "variableName": "PSC-17-Y_16",
+                "isVis": true
+            },
+                                    {
+                "isAbout": "items/PSC-17-Y_17",
+                "variableName": "PSC-17-Y_17",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/PSC-17-Y_total_score",
+                "variableName": "PSC-17-Y_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/PSC-17-Y_1",
+            "items/PSC-17-Y_2",
+            "items/PSC-17-Y_3",
+            "items/PSC-17-Y_4",
+            "items/PSC-17-Y_5",
+            "items/PSC-17-Y_6",
+            "items/PSC-17-Y_7",
+            "items/PSC-17-Y_8",
+            "items/PSC-17-Y_9",
+            "items/PSC-17-Y_10",
+            "items/PSC-17-Y_11",
+            "items/PSC-17-Y_12",
+            "items/PSC-17-Y_13",
+            "items/PSC-17-Y_14",
+            "items/PSC-17-Y_15",
+            "items/PSC-17-Y_16",
+            "items/PSC-17-Y_17"
+        ],
+        "shuffle": false
+    }
+}

@@ -6,15 +6,21 @@
     "description": "7.\tFree speech in response to a few questions about food",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Hit record and respond to the questions",
-    "question": "Describe your favorite food. What ingredients are in it? Why do you like it? What memories do you associate with it?",
+    "preamble":
+        {"en": "Hit record and respond to the questions",
+        "es": "Aprieta record (grabar) y responda las preguntas"
+        },
+    "question":
+        {"en": "Describe your favorite food. What ingredients are in it? Why do you like it? What memories do you associate with it?",
+        "es": "Describe tu comida favorita. ¿Qué ingredientes tiene? ¿Por qué te gusta? ¿Qué recuerdos asocias con esta comida?"
+        },
     "ui": {
         "inputType": "audioPassageRecord"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 60000
+        "maxValue": 120000
     }
 }
 

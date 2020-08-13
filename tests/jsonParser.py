@@ -16,4 +16,3 @@ for root, dirs, files in os.walk('activities', topdown=True):
                 raise
 if tested == 0:
     raise ValueError("Zero files tested")
-

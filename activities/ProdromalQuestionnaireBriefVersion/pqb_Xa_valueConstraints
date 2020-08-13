@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "pqb_Xa_valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 1,
+    "maxValue": 5,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": {
+                "en": "Strongly disagree",
+                "es": "Strongly disagree_es"
+            },
+            "value": 1
+        },
+        {
+            "name": {
+                "en": "disagree",
+                "es": "disagree_es"
+            },
+            "value": 2
+        },
+        {
+            "name": {
+                "en": "neutral",
+                "es": "neutral_es"
+            },
+            "value": 3
+        },
+        {
+            "name": {
+                "en": "agree",
+                "es": "agree_es"
+            },
+            "value": 4
+        },
+        {
+            "name": {
+                "en": "strongly agree",
+                "es": "strongly agree_es"
+            },
+            "value": 5
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "mdq_valueConstraints",
+    "@id": "swed_valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
     "minValue": 0,

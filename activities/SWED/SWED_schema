@@ -6,7 +6,7 @@
     "description": "SWED assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6320726/",
     "preamble": {
         "en": "Please check the answer that comes closest to how you have felt IN THE PAST 7 DAYS, not just how you feel today. ",
         "es": ""

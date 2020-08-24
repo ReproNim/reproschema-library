@@ -2,7 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "PQ-B_schema",
-    "prefLabel": "Psychosis",
+    "prefLabel": {
+        "en": "Psychosis",
+        "es": "Psicosis"
+    },
     "description": "PQ-B assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",

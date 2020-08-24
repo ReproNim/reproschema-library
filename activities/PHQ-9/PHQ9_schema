@@ -2,7 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "PHQ9_schema",
-    "prefLabel": "PHQ-9 Assessment",
+    "prefLabel": {
+        "en": "PHQ-9 Assessment",
+        "es": "PHQ-9 Evaluación"
+    },
     "description": "PHQ-9 assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",

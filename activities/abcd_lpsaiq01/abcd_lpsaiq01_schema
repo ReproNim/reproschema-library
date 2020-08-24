@@ -2,7 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_lpsaiq01_schema",
-    "prefLabel": "abcd_lpsaiq01",
+    "prefLabel": {
+        "en": "abcd_lpsaiq01",
+        "es": "abcd_lpsaiq01_es"
+    },
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

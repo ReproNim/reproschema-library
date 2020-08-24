@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "6. In the last month, how often have you found that you could not cope with all the things that you had to do? 6.",
-        "es": "En el último mes, ¿con qué frecuencia descubriA que no podía enfrentarse a todas las cosas que tenía que hacer?"
+        "es": "En el último mes, ¿con qué frecuencia descubrió que no podía enfrentarse a todas las cosas que tenía que hacer?"
     },
     "ui": {
         "inputType": "radio"

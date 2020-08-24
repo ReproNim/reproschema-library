@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Did you lose internet for a week or more?",
-        "es": "¿PerdiA Internet por una semana o más?"
+        "es": "¿Perdió Internet por una semana o más?"
     },
     "ui": {
         "inputType": "radio"

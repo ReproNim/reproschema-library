@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "When your child evacuated your home, where did he or she go?",
-        "es": "¿Cuando tu hijo(a) evacuA de su casa, a dAnde fue?"
+        "es": "¿Cuando tu hijo(a) evacuó de su casa, a dónde fue?"
     },
     "ui": {
         "inputType": "radio"
@@ -54,7 +54,7 @@
         {
             "source": "NDA",
             "column": "notes",
-            "value": "1 = To a friend or relative's home nearby (less than an hour away)  Para la casa de un amigo o familiar cercano (a menos de una hora de distancia); 2 = To a shelter nearby (less than an hour away)  A un refugio cercano (a menos de una hora de distancia); 3 = To another place in the state A otro lugar en el estado; 4 = Left the state Salió del estado"
+            "value": "1 = To a friend or relative's home nearby (less than an hour away)  Para la casa de un amigo o familiar cercano (a menos de una hora de distancia); 2 = To a shelter nearby (less than an hour away)  A un refugio cercano (a menos de una hora de distancia); 3 = To another place in the state A otro lugar en el estado; 4 = Left the state SaliÃ³ del estado"
         }
     ]
 }

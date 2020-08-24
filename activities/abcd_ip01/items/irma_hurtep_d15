@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Overall, how scared or upset were you during the hurricane?",
-        "es": "En general, ¿qué miedo o malestar usted sintiA durante el huracán?"
+        "es": "En general, ¿qué miedo o malestar usted sintió durante el huracán?"
     },
     "ui": {
         "inputType": "radio"

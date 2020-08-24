@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Did you or a close family member lose a job because of the hurricane?",
-        "es": "¿PerdiA usted o un miembro de su familia su trabajo debido al huracán?"
+        "es": "¿Perdió usted o un miembro de su familia su trabajo debido al huracán?"
     },
     "ui": {
         "inputType": "radio"

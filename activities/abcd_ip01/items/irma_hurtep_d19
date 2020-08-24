@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Overall, how safe did you feel during the hurricane?",
-        "es": "En general, ¿qué tan seguro usted sintiA durante el huracán?"
+        "es": "En general, ¿qué tan seguro usted sintió durante el huracán?"
     },
     "ui": {
         "inputType": "radio"

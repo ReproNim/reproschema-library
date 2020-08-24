@@ -2,11 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_2_l",
     "@type": "reproschema:Field",
-    "prefLabel": "tbi_2_l",
+    "prefLabel": {
+        "en": "tbi_2_l",
+        "es": "tbi_2_l_es"
+    },
     "altLabel": "brain_injury_2_l tbi_2_p_l",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Since we last saw you on [asnt_timestamp_c], has your child injured his/her head or neck in a car accident or from crashing some other moving vehicle like a bicycle, motorcyle, or ATV? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c],\u00a0\u00bfsu ni\u00f1o/a se ha lesionado  la cabeza o el cuello en un accidente de auto o al chocar cuando iba en alg\u00fan otro veh\u00edculo en movimiento, como una bicicleta, motocicleta o veh\u00edculo todo terreno?",
+    "question": {
+        "en": "Since we last saw you on [asnt_timestamp_c], has your child injured his/her head or neck in a car accident or from crashing some other moving vehicle like a bicycle, motorcyle, or ATV?",
+        "es": "Desde la última vez que nos vimos en [asnt_timestamp_c],Â ¿su niño/a se ha lesionado la cabeza o el cuello en un accidente de auto o al chocar cuando iba en algún otro vehículo en movimiento, como una bicicleta, motocicleta o vehículo todo terreno?"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -15,19 +21,25 @@
         "maxValue": 0,
         "choices": [
             {
-                "name": "Yes Si",
-                "value": 1
+                "value": 1,
+                "name": {
+                    "en": "Yes ",
+                    "es": "Si"
+                }
             },
             {
-                "name": "No No",
-                "value": 0
+                "value": 0,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
             }
         ],
         "valueType": "xsd:integer"
     },
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
+            "source": "NDA",
             "column": "notes",
             "value": "1 = Yes Si; 0 = No No"
         }

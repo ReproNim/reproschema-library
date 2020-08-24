@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
-        "es": "¿CAmo obtuvo noticias de informaciAn sobre el huracán? Marque todo lo que corresponda. (3, Social media (e.g., Facebook, Twitter, Instagram) Medios de ComunicaciAn social (e.g., Facebook, Twitter, Instagram))"
+        "es": "¿Cómo obtuvo noticias de información sobre el huracán? Marque todo lo que corresponda. (3, Social media (e.g., Facebook, Twitter, Instagram) Medios de Comunicación social (e.g., Facebook, Twitter, Instagram))"
     },
     "ui": {
         "inputType": "radio"

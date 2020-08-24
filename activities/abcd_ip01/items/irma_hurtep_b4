@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "When your child evacuated, did he or she stay in more than one place during the evacuation? Cuando tu hijo evacuA,",
-        "es": "¿se quedA en más de un lugar durante la evacuaciAn?"
+        "es": "¿se quedA en más de un lugar durante la evacuación?"
     },
     "ui": {
         "inputType": "radio"

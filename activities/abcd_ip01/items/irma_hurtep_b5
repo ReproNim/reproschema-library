@@ -54,7 +54,7 @@
         {
             "source": "NDA",
             "column": "notes",
-            "value": "1 = Under 2 hours  Menos de 2 horas; 2 = 2-5 hours  2-5 horas; 3 = 5-10 hours  5-10 horas; 4 = More than 10 hours total Más de 10 horas en total"
+            "value": "1 = Under 2 hours  Menos de 2 horas; 2 = 2-5 hours  2-5 horas; 3 = 5-10 hours  5-10 horas; 4 = More than 10 hours total MÃ¡s de 10 horas en total"
         }
     ]
 }

@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "3. In the last month, how often have you felt nervous and stressed? 3.",
-        "es": "En el último mes, ¿con qué frecuencia se sintiA nervioso(a) y estresado(a)?"
+        "es": "En el último mes, ¿con qué frecuencia se sintió nervioso(a) y estresado(a)?"
     },
     "ui": {
         "inputType": "radio"

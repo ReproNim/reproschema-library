@@ -2,11 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_7f_l",
     "@type": "reproschema:Field",
-    "prefLabel": "tbi_7f_l",
+    "prefLabel": {
+        "en": "tbi_7f_l",
+        "es": "tbi_7f_l_es"
+    },
     "altLabel": "brain_injury_7f_l tbi_7f_p_l",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "At what age did these effects end? \u00bfA qu\u00e9 edad terminaron estos efectos?",
+    "question": {
+        "en": "At what age did these effects end?",
+        "es": "¿A qué edad terminaron estos efectos?"
+    },
     "ui": {
         "inputType": "number"
     },
@@ -14,5 +20,12 @@
         "valueType": "xsd:float",
         "minValue": 7,
         "maxValue": 20
-    }
+    },
+    "additionalNotesObj": [
+        {
+            "source": "NDA",
+            "column": "notes",
+            "value": ""
+        }
+    ]
 }

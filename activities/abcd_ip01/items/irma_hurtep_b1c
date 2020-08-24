@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Were you with your child during the evacuation?",
-        "es": "Estabas con tu hijo(a) durante la evacuaciAn?"
+        "es": "Estabas con tu hijo(a) durante la evacuación?"
     },
     "ui": {
         "inputType": "radio"

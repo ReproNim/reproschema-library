@@ -2,11 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_2d_l",
     "@type": "reproschema:Field",
-    "prefLabel": "tbi_2d_l",
+    "prefLabel": {
+        "en": "tbi_2d_l",
+        "es": "tbi_2d_l_es"
+    },
     "altLabel": "brain_injury_2d_l tbi_2d_p_l",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "How old was he/she? \u00bfQu\u00e9 edad ten\u00eda?",
+    "question": {
+        "en": "How old was he/she?",
+        "es": "¿Qué edad tenía?"
+    },
     "ui": {
         "inputType": "number"
     },
@@ -14,5 +20,12 @@
         "valueType": "xsd:float",
         "minValue": 0,
         "maxValue": 20
-    }
+    },
+    "additionalNotesObj": [
+        {
+            "source": "NDA",
+            "column": "notes",
+            "value": ""
+        }
+    ]
 }

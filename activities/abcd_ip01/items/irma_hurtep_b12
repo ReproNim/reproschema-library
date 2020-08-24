@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Overall, how stressed do you think your child felt before the hurricane?",
-        "es": "En general, ¿que tan estresado se sintiA su hijo(a) antes del huracán?"
+        "es": "En general, ¿que tan estresado se sintió su hijo(a) antes del huracán?"
     },
     "ui": {
         "inputType": "radio"

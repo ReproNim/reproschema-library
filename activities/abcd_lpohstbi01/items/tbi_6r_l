@@ -2,15 +2,30 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_6r_l",
     "@type": "reproschema:Field",
-    "prefLabel": "tbi_6r_l",
+    "prefLabel": {
+        "en": "tbi_6r_l",
+        "es": "tbi_6r_l_es"
+    },
     "altLabel": "brain_injury_6r_l tbi_6r_p_l",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "How many were more than or equal to 30 min? \u00bfCu\u00e1ntas veces ha estado inconsciente por \u2265 30 min o m\u00e1s?",
+    "question": {
+        "en": "How many were more than or equal to 30 min?",
+        "es": "¿Cuántas veces ha estado inconsciente por â¥ 30 min o más?"
+    },
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
-    }
+        "valueType": "xsd:float",
+        "minValue": null,
+        "maxValue": null
+    },
+    "additionalNotesObj": [
+        {
+            "source": "NDA",
+            "column": "notes",
+            "value": ""
+        }
+    ]
 }

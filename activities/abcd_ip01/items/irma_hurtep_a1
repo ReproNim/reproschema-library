@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Was your home damaged badly or destroyed by the hurricane?",
-        "es": "¿Su hogar sufriA daños graves o fue destruido por el huracán?"
+        "es": "¿Su hogar sufrió daños graves o fue destruido por el huracán?"
     },
     "ui": {
         "inputType": "radio"

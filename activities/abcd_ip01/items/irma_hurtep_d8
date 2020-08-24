@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Did a pet your child liked get hurt or die during the hurricane?",
-        "es": "¿Se lastimA o muriA una mascota que le gustaba a su hijo(a) durante el huracán?"
+        "es": "¿Se lastimó o murió una mascota que le gustaba a su hijo(a) durante el huracán?"
     },
     "ui": {
         "inputType": "radio"

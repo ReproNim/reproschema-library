@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
-        "es": "¿CAmo obtuvo noticias de informaciAn sobre el huracán? Marque todo lo que corresponda. (2, Internet (e.g., online news) Internet (e.g., noticias del internet))"
+        "es": "¿Cómo obtuvo noticias de información sobre el huracán? Marque todo lo que corresponda. (2, Internet (e.g., online news) Internet (e.g., noticias del internet))"
     },
     "ui": {
         "inputType": "radio"

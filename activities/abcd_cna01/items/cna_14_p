@@ -17,8 +17,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
-        "maxValue": 999,
+        "minValue": 0,
+        "maxValue": 1,
         "choices": [
             {
                 "value": 1,
@@ -32,13 +32,6 @@
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
-            },
-            {
-                "value": 999,
-                "name": {
-                    "en": "Don't Know",
-                    "es": "No Recuerdo"
                 }
             }
         ],

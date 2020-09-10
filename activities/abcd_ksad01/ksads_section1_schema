@@ -1,0 +1,250 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "ksads_section1_schema",
+    "prefLabel": "abcd_ksad01",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/ksads_1_1_p",
+            "items/ksads_1_2_p",
+            "items/ksads_1_3_p",
+            "items/ksads_1_4_p",
+            "items/ksads_1_5_p",
+            "items/ksads_1_6_p",
+            "items/ksads_1_156_p",
+            "items/ksads_1_157_p",
+            "items/ksads_1_158_p",
+            "items/ksads_1_159_p",
+            "items/ksads_1_160_p",
+            "items/ksads_1_161_p",
+            "items/ksads_1_162_p",
+            "items/ksads_1_163_p",
+            "items/ksads_1_164_p",
+            "items/ksads_1_165_p",
+            "items/ksads_1_166_p",
+            "items/ksads_1_167_p",
+            "items/ksads_1_168_p",
+            "items/ksads_1_169_p",
+            "items/ksads_1_170_p",
+            "items/ksads_1_171_p",
+            "items/ksads_1_172_p",
+            "items/ksads_1_173_p",
+            "items/ksads_1_174_p",
+            "items/ksads_1_175_p",
+            "items/ksads_1_176_p",
+            "items/ksads_1_177_p",
+            "items/ksads_1_178_p",
+            "items/ksads_1_179_p",
+            "items/ksads_1_180_p",
+            "items/ksads_1_181_p",
+            "items/ksads_1_182_p",
+            "items/ksads_1_183_p",
+            "items/ksads_1_184_p",
+            "items/ksads_1_185_p",
+            "items/ksads_1_186_p",
+            "items/ksads_1_187_p",
+            "items/ksads_1_188_p",
+            "items/ksads_1_840_p",
+            "items/ksads_1_841_p",
+            "items/ksads_1_842_p",
+            "items/ksads_1_843_p",
+            "items/ksads_1_844_p",
+            "items/ksads_1_845_p",
+            "items/ksads_1_846_p",
+            "items/ksads_1_847_p"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "ksads_1_1_p",
+                "isAbout": "items/ksads_1_1_p"
+            },
+            {
+                "variableName": "ksads_1_156_p",
+                "isAbout": "items/ksads_1_156_p"
+            },
+            {
+                "variableName": "ksads_1_157_p",
+                "isAbout": "items/ksads_1_157_p"
+            },
+            {
+                "variableName": "ksads_1_158_p",
+                "isAbout": "items/ksads_1_158_p"
+            },
+            {
+                "variableName": "ksads_1_159_p",
+                "isAbout": "items/ksads_1_159_p"
+            },
+            {
+                "variableName": "ksads_1_160_p",
+                "isAbout": "items/ksads_1_160_p"
+            },
+            {
+                "variableName": "ksads_1_161_p",
+                "isAbout": "items/ksads_1_161_p"
+            },
+            {
+                "variableName": "ksads_1_162_p",
+                "isAbout": "items/ksads_1_162_p"
+            },
+            {
+                "variableName": "ksads_1_163_p",
+                "isAbout": "items/ksads_1_163_p"
+            },
+            {
+                "variableName": "ksads_1_164_p",
+                "isAbout": "items/ksads_1_164_p"
+            },
+            {
+                "variableName": "ksads_1_165_p",
+                "isAbout": "items/ksads_1_165_p"
+            },
+            {
+                "variableName": "ksads_1_166_p",
+                "isAbout": "items/ksads_1_166_p"
+            },
+            {
+                "variableName": "ksads_1_167_p",
+                "isAbout": "items/ksads_1_167_p"
+            },
+            {
+                "variableName": "ksads_1_168_p",
+                "isAbout": "items/ksads_1_168_p"
+            },
+            {
+                "variableName": "ksads_1_169_p",
+                "isAbout": "items/ksads_1_169_p"
+            },
+            {
+                "variableName": "ksads_1_170_p",
+                "isAbout": "items/ksads_1_170_p"
+            },
+            {
+                "variableName": "ksads_1_171_p",
+                "isAbout": "items/ksads_1_171_p"
+            },
+            {
+                "variableName": "ksads_1_172_p",
+                "isAbout": "items/ksads_1_172_p"
+            },
+            {
+                "variableName": "ksads_1_173_p",
+                "isAbout": "items/ksads_1_173_p"
+            },
+            {
+                "variableName": "ksads_1_174_p",
+                "isAbout": "items/ksads_1_174_p"
+            },
+            {
+                "variableName": "ksads_1_175_p",
+                "isAbout": "items/ksads_1_175_p"
+            },
+            {
+                "variableName": "ksads_1_176_p",
+                "isAbout": "items/ksads_1_176_p"
+            },
+            {
+                "variableName": "ksads_1_177_p",
+                "isAbout": "items/ksads_1_177_p"
+            },
+            {
+                "variableName": "ksads_1_178_p",
+                "isAbout": "items/ksads_1_178_p"
+            },
+            {
+                "variableName": "ksads_1_179_p",
+                "isAbout": "items/ksads_1_179_p"
+            },
+            {
+                "variableName": "ksads_1_180_p",
+                "isAbout": "items/ksads_1_180_p"
+            },
+            {
+                "variableName": "ksads_1_181_p",
+                "isAbout": "items/ksads_1_181_p"
+            },
+            {
+                "variableName": "ksads_1_182_p",
+                "isAbout": "items/ksads_1_182_p"
+            },
+            {
+                "variableName": "ksads_1_183_p",
+                "isAbout": "items/ksads_1_183_p"
+            },
+            {
+                "variableName": "ksads_1_184_p",
+                "isAbout": "items/ksads_1_184_p"
+            },
+            {
+                "variableName": "ksads_1_185_p",
+                "isAbout": "items/ksads_1_185_p"
+            },
+            {
+                "variableName": "ksads_1_186_p",
+                "isAbout": "items/ksads_1_186_p"
+            },
+            {
+                "variableName": "ksads_1_187_p",
+                "isAbout": "items/ksads_1_187_p"
+            },
+            {
+                "variableName": "ksads_1_188_p",
+                "isAbout": "items/ksads_1_188_p"
+            },
+            {
+                "variableName": "ksads_1_2_p",
+                "isAbout": "items/ksads_1_2_p"
+            },
+            {
+                "variableName": "ksads_1_3_p",
+                "isAbout": "items/ksads_1_3_p"
+            },
+            {
+                "variableName": "ksads_1_4_p",
+                "isAbout": "items/ksads_1_4_p"
+            },
+            {
+                "variableName": "ksads_1_5_p",
+                "isAbout": "items/ksads_1_5_p"
+            },
+            {
+                "variableName": "ksads_1_6_p",
+                "isAbout": "items/ksads_1_6_p"
+            },
+            {
+                "variableName": "ksads_1_840_p",
+                "isAbout": "items/ksads_1_840_p"
+            },
+            {
+                "variableName": "ksads_1_841_p",
+                "isAbout": "items/ksads_1_841_p"
+            },
+            {
+                "variableName": "ksads_1_842_p",
+                "isAbout": "items/ksads_1_842_p"
+            },
+            {
+                "variableName": "ksads_1_843_p",
+                "isAbout": "items/ksads_1_843_p"
+            },
+            {
+                "variableName": "ksads_1_844_p",
+                "isAbout": "items/ksads_1_844_p"
+            },
+            {
+                "variableName": "ksads_1_845_p",
+                "isAbout": "items/ksads_1_845_p"
+            },
+            {
+                "variableName": "ksads_1_846_p",
+                "isAbout": "items/ksads_1_846_p"
+            },
+            {
+                "variableName": "ksads_1_847_p",
+                "isAbout": "items/ksads_1_847_p"
+            }
+        ]
+    }
+}

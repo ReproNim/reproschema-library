@@ -1,0 +1,185 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "ksads_section16_schema",
+    "prefLabel": "abcd_ksad01",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/ksads_16_100_p",
+            "items/ksads_16_101_p",
+            "items/ksads_16_102_p",
+            "items/ksads_16_103_p",
+            "items/ksads_16_104_p",
+            "items/ksads_16_105_p",
+            "items/ksads_16_106_p",
+            "items/ksads_16_107_p",
+            "items/ksads_16_447_p",
+            "items/ksads_16_448_p",
+            "items/ksads_16_449_p",
+            "items/ksads_16_450_p",
+            "items/ksads_16_451_p",
+            "items/ksads_16_452_p",
+            "items/ksads_16_453_p",
+            "items/ksads_16_454_p",
+            "items/ksads_16_455_p",
+            "items/ksads_16_456_p",
+            "items/ksads_16_457_p",
+            "items/ksads_16_458_p",
+            "items/ksads_16_459_p",
+            "items/ksads_16_460_p",
+            "items/ksads_16_461_p",
+            "items/ksads_16_462_p",
+            "items/ksads_16_463_p",
+            "items/ksads_16_464_p",
+            "items/ksads_16_465_p",
+            "items/ksads_16_466_p",
+            "items/ksads_16_897_p",
+            "items/ksads_16_898_p",
+            "items/ksads_16_899_p",
+            "items/ksads_16_900_p",
+            "items/ksads_16_98_p",
+            "items/ksads_16_99_p"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "ksads_16_100_p",
+                "isAbout": "items/ksads_16_100_p"
+            },
+            {
+                "variableName": "ksads_16_101_p",
+                "isAbout": "items/ksads_16_101_p"
+            },
+            {
+                "variableName": "ksads_16_102_p",
+                "isAbout": "items/ksads_16_102_p"
+            },
+            {
+                "variableName": "ksads_16_103_p",
+                "isAbout": "items/ksads_16_103_p"
+            },
+            {
+                "variableName": "ksads_16_104_p",
+                "isAbout": "items/ksads_16_104_p"
+            },
+            {
+                "variableName": "ksads_16_105_p",
+                "isAbout": "items/ksads_16_105_p"
+            },
+            {
+                "variableName": "ksads_16_106_p",
+                "isAbout": "items/ksads_16_106_p"
+            },
+            {
+                "variableName": "ksads_16_107_p",
+                "isAbout": "items/ksads_16_107_p"
+            },
+            {
+                "variableName": "ksads_16_447_p",
+                "isAbout": "items/ksads_16_447_p"
+            },
+            {
+                "variableName": "ksads_16_448_p",
+                "isAbout": "items/ksads_16_448_p"
+            },
+            {
+                "variableName": "ksads_16_449_p",
+                "isAbout": "items/ksads_16_449_p"
+            },
+            {
+                "variableName": "ksads_16_450_p",
+                "isAbout": "items/ksads_16_450_p"
+            },
+            {
+                "variableName": "ksads_16_451_p",
+                "isAbout": "items/ksads_16_451_p"
+            },
+            {
+                "variableName": "ksads_16_452_p",
+                "isAbout": "items/ksads_16_452_p"
+            },
+            {
+                "variableName": "ksads_16_453_p",
+                "isAbout": "items/ksads_16_453_p"
+            },
+            {
+                "variableName": "ksads_16_454_p",
+                "isAbout": "items/ksads_16_454_p"
+            },
+            {
+                "variableName": "ksads_16_455_p",
+                "isAbout": "items/ksads_16_455_p"
+            },
+            {
+                "variableName": "ksads_16_456_p",
+                "isAbout": "items/ksads_16_456_p"
+            },
+            {
+                "variableName": "ksads_16_457_p",
+                "isAbout": "items/ksads_16_457_p"
+            },
+            {
+                "variableName": "ksads_16_458_p",
+                "isAbout": "items/ksads_16_458_p"
+            },
+            {
+                "variableName": "ksads_16_459_p",
+                "isAbout": "items/ksads_16_459_p"
+            },
+            {
+                "variableName": "ksads_16_460_p",
+                "isAbout": "items/ksads_16_460_p"
+            },
+            {
+                "variableName": "ksads_16_461_p",
+                "isAbout": "items/ksads_16_461_p"
+            },
+            {
+                "variableName": "ksads_16_462_p",
+                "isAbout": "items/ksads_16_462_p"
+            },
+            {
+                "variableName": "ksads_16_463_p",
+                "isAbout": "items/ksads_16_463_p"
+            },
+            {
+                "variableName": "ksads_16_464_p",
+                "isAbout": "items/ksads_16_464_p"
+            },
+            {
+                "variableName": "ksads_16_465_p",
+                "isAbout": "items/ksads_16_465_p"
+            },
+            {
+                "variableName": "ksads_16_466_p",
+                "isAbout": "items/ksads_16_466_p"
+            },
+            {
+                "variableName": "ksads_16_897_p",
+                "isAbout": "items/ksads_16_897_p"
+            },
+            {
+                "variableName": "ksads_16_898_p",
+                "isAbout": "items/ksads_16_898_p"
+            },
+            {
+                "variableName": "ksads_16_899_p",
+                "isAbout": "items/ksads_16_899_p"
+            },
+            {
+                "variableName": "ksads_16_900_p",
+                "isAbout": "items/ksads_16_900_p"
+            },
+            {
+                "variableName": "ksads_16_98_p",
+                "isAbout": "items/ksads_16_98_p"
+            },
+            {
+                "variableName": "ksads_16_99_p",
+                "isAbout": "items/ksads_16_99_p"
+            }
+        ]
+    }
+}

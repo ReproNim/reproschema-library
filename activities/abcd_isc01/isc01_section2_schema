@@ -1,0 +1,28 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "isc01_section2_schema",
+    "prefLabel": {
+        "en": "isc01_section2",
+        "es": "isc01_section2_es"
+    },
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/irma_gatea_c",
+            "items/irma_gateb_c"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "irma_gatea_c",
+                "isAbout": "items/irma_gatea_c"
+            },
+            {
+                "variableName": "irma_gateb_c",
+                "isAbout": "items/irma_gateb_c"
+            }
+        ]
+    }
+}

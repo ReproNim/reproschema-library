@@ -31,8 +31,9 @@
                 "value": 1
             },
             {
-                "name": {
-                    "en": "Very True/Often True", Muy cierto o cierto con frecuencia// Below is a list of items that describe children and youths. For each item that describes your child now or within the past 6 months"
+                 "name": {
+                    "en": "Very True/Often True",
+                     "es": "Muy cierto o cierto con frecuencia"
                 },
                 "value": 2
             }

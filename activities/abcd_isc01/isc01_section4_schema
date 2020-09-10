@@ -1,0 +1,103 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "isc01_section4_schema",
+    "prefLabel": {
+        "en": "isc01_section4",
+        "es": "isc01_section4_es"
+    },
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/irma_meqc_1",
+            "items/irma_meqc_2",
+            "items/irma_meqc_3",
+            "items/irma_meqc_4",
+            "items/irma_meqc_5",
+            "items/irma_meqc_6",
+            "items/irma_meqc_7",
+            "items/irma_meqc_8",
+            "items/irma_meqc_9",
+            "items/irma_meqc_10",
+            "items/irma_meqc_11",
+            "items/irma_meqc_12",
+            "items/irma_meqc_13",
+            "items/irma_meqc_14",
+            "items/irma_meqc_15",
+            "items/irma_meqc_16",
+            "items/irma_meqc_17"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "irma_meqc_1",
+                "isAbout": "items/irma_meqc_1"
+            },
+            {
+                "variableName": "irma_meqc_10",
+                "isAbout": "items/irma_meqc_10"
+            },
+            {
+                "variableName": "irma_meqc_11",
+                "isAbout": "items/irma_meqc_11"
+            },
+            {
+                "variableName": "irma_meqc_12",
+                "isAbout": "items/irma_meqc_12"
+            },
+            {
+                "variableName": "irma_meqc_13",
+                "isAbout": "items/irma_meqc_13"
+            },
+            {
+                "variableName": "irma_meqc_14",
+                "isAbout": "items/irma_meqc_14"
+            },
+            {
+                "variableName": "irma_meqc_15",
+                "isAbout": "items/irma_meqc_15"
+            },
+            {
+                "variableName": "irma_meqc_16",
+                "isAbout": "items/irma_meqc_16"
+            },
+            {
+                "variableName": "irma_meqc_17",
+                "isAbout": "items/irma_meqc_17"
+            },
+            {
+                "variableName": "irma_meqc_2",
+                "isAbout": "items/irma_meqc_2"
+            },
+            {
+                "variableName": "irma_meqc_3",
+                "isAbout": "items/irma_meqc_3"
+            },
+            {
+                "variableName": "irma_meqc_4",
+                "isAbout": "items/irma_meqc_4"
+            },
+            {
+                "variableName": "irma_meqc_5",
+                "isAbout": "items/irma_meqc_5"
+            },
+            {
+                "variableName": "irma_meqc_6",
+                "isAbout": "items/irma_meqc_6"
+            },
+            {
+                "variableName": "irma_meqc_7",
+                "isAbout": "items/irma_meqc_7"
+            },
+            {
+                "variableName": "irma_meqc_8",
+                "isAbout": "items/irma_meqc_8"
+            },
+            {
+                "variableName": "irma_meqc_9",
+                "isAbout": "items/irma_meqc_9"
+            }
+        ]
+    }
+}

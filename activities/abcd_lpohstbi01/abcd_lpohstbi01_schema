@@ -3,9 +3,10 @@
     "@type": "reproschema:Activity",
     "@id": "abcd_lpohstbi01_schema",
     "prefLabel": {
-        "en": "abcd_lpohstbi01",
+        "en": "ABCD Longitudinal Parent Ohio State Traumatic Brain Injury Screen-Short Modified (OTBI)",
         "es": "abcd_lpohstbi01_es"
     },
+    "altLabel": "abcd_lpohstbi01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

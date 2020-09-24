@@ -2,7 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_medhxss01_schema",
-    "prefLabel": "abcd_medhxss01",
+    "prefLabel": "ABCD Summary Scores Medical History",
+    "altLabel": "abcd_medhxss01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

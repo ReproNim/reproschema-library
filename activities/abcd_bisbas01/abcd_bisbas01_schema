@@ -2,7 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_bisbas01_schema",
-    "prefLabel": "abcd_bisbas01",
+    "prefLabel": "ABCD Youth Behavioral Inhibition/Behavioral Approach System Scales Modified from PhenX (BIS/BAS)",
+    "altLabel": "abcd_bisbas01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

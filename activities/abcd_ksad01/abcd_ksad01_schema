@@ -2,7 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_ksad01_schema",
-    "prefLabel": "abcd_ksad01",
+    "prefLabel": "ABCD Parent Diagnostic Interview for DSM-5 Full (KSADS-5)",
+    "altLabel": "abcd_ksad01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

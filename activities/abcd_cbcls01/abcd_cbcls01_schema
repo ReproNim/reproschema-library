@@ -2,7 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_cbcls01_schema",
-    "prefLabel": "abcd_cbcls01",
+    "prefLabel": "ABCD Parent Child Behavior Checklist Scores Aseba (CBCL)",
+    "altLabel": "abcd_cbcls01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

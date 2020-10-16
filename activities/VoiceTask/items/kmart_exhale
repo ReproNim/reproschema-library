@@ -9,9 +9,9 @@
     "preamble":
         {"en": "Hit record. Exhale and then read as much as you can at the end of exhalation.",
         "es": "Presiona grabar. Exhalar y lea todo lo que pueda después de exhalar."},
-    "question":
-        {"en": "The girl was thirsty and drank some juice, followed by a coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
-        "es": "La niña tenía sed y bebió un poco de jugo, seguido de una coca cola. Tus pantalones buenos se ven geniales, sin embargo, tus pantalones rotos parecen una versión barata de la selección de descuentos de Walmart. ¿Están manchados de aceite?"
+    "question":    
+        {"en": "Your good pants look great, however, your ripped pants look like a cheap version of a K-mart special. Is that oil staining on them? The girl was thirsty and drank some juice, followed by a coke.",
+        "es": "Tus pantalones buenos se ven geniales, sin embargo, tus pantalones rotos parecen una versión barata de la selección de descuentos de Walmart. ¿Están manchados con aceite? La niña tenía sed y bebió un poco de jugo, seguido de una coca cola."
         },
     "ui": {
         "inputType": "audioPassageRecord"

@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_dsm5_30",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_dsm5_30",
         "es": "irma_dsm5_30_es"
     },
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "30. I feel like things around me look strange, different, or like I am in a fog.",

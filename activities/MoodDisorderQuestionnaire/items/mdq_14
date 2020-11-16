@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "mdq_14",
     "prefLabel": "MDQ-14",
     "description": "schema for Q14 of the MDQ Assessment",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "If you checked YES to more than one of the questions, have several of these ever happened during the same period of time? Please select 1 response only",

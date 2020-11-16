@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "bisbas16_y",
     "@type": "reproschema:Field",
     "prefLabel": "bisbas16_y",
     "altLabel": "bisbas_16",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Nobody can stop me when I want something.",
     "ui": {

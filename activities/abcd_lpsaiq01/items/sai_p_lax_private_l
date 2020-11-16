@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_lax_private_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_lax_private_l",
     "altLabel": "sai_p_lax_private_p_l sports_activity_lax_private_p_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Lacrosse Lacrosse Did your child receive individual private instruction? \u00bfSu ni\u00f1o(a) recibiA instrucciAn privada individual?",
     "ui": {

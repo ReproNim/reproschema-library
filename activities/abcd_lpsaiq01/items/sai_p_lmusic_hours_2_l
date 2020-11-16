@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_lmusic_hours_2_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_lmusic_hours_2_l",
     "altLabel": "sports_activity_p_lmusic_hours_2_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent listening to music for pleasure?  Desde la ?ltima vez que nos vimos en [asnt_timestamp_c], ?aproximadamente cu?ntas horas por semana pasa su ni?o(a) escuchando m?sica por placer?",
     "ui": {

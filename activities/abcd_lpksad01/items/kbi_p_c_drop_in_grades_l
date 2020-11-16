@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "kbi_p_c_drop_in_grades_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_drop_in_grades_l",
     "altLabel": "kbi_c_drop_in_grades_p_l ksads_back_c_drop_in_grades_p_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "In the past year or past several months, has there been a drop in your child's grades? \u00bfLas calificaciones de su ni\u00f1o(a) han bajado en el \u00faltimo a\u00f1o o en los \u00faltimos meses?",
     "ui": {

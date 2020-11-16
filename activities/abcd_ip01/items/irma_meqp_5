@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_meqp_5",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_meqp_5",
         "es": "irma_meqp_5_es"
     },
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "5. Media coverage of other storms (e.g., Hurricane Jose, Hurricane Maria) after Irma",

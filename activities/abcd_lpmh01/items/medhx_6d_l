@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "medhx_6d_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_6d_l",
     "altLabel": "medhx_6d_stitches_p_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Since we last saw you, has she/he been to a doctor for any of these things? Stitches Suturas",
     "ui": {

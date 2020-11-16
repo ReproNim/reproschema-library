@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_gatea_p",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_gatea_p",
         "es": "irma_gatea_p_es"
     },
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "Were you and your child living in Florida at the time that Hurricane Irma hit the United States (September 2017)?",

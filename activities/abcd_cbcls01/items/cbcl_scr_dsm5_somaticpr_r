@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "cbcl_scr_dsm5_somaticpr_r",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_scr_dsm5_somaticpr_r",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "SomaticPr CBCL DSM5 Scale (raw score)",
     "ui": {

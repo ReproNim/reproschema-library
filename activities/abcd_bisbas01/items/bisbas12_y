@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "bisbas12_y",
     "@type": "reproschema:Field",
     "prefLabel": "bisbas12_y",
     "altLabel": "bisbas_12",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "I get really excited when I see an opportunity to get something I like.",
     "ui": {

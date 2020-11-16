@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_activities_l___21",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___21",
     "altLabel": "sports_activity_activities_p_l___21",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "(21, Volleyball VAleibol)",
     "ui": {

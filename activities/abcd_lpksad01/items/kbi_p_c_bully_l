@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "kbi_p_c_bully_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_bully_l",
     "altLabel": "kbi_c_bully_p_l ksads_back_c_bully_p_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Since we last saw you, did your child have any problems with bullying at school or in your neighborhood? Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) tiene alg\u00fan problema de acoso en la escuela o en su vecindario?",
     "ui": {

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_music_self_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_music_self_l",
     "altLabel": "sai_music_self_p_l sports_activity_music_self_p_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra) Instrumento musical (canto, coro, guitarra, piano, bater\u00eda, viol\u00edn, flauta, banda, banda de rock, orquesta) Did your child learn this activity without formal instruction? \u00bfSu ni\u00f1o(a) aprendiA esta actividad sin instrucciAn formal?",
     "ui": {

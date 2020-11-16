@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "demo_med_insur_a_p",
     "@type": "reproschema:Field",
     "prefLabel": "demo_med_insur_a_p",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "a. Insurance through a current or former employer or union (of this person or another family member)a. Seguro a trav?s de un empleador o sindicato actual o anterior (de esta persona u otro miembro de la familia)",
     "ui": {

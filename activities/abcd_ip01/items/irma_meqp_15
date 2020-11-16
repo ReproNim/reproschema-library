@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_meqp_15",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_meqp_15",
         "es": "irma_meqp_15_es"
     },
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "15. Social media activity related to other storms (e.g., Hurricane Jose, Hurricane Maria) after Irma",

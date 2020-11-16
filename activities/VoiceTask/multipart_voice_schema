@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "multipart_voice_schema",
     "prefLabel": "voice tasks",
     "description": "Voice tasks",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": "In the following task, you will be shown a sequence of numbers. Please read it aloud and remember the sequence. Then you will be asked to read a passage aloud. After you finish reading it, you will be asked to speak aloud the sequence of numbers you had previously memorized.",
     "ui": {

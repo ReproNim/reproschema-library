@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "rsfmri_c_ngd_vs_ngd_ad",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_vs_ngd_ad",
     "altLabel": "rsfmri_cor_network.gordon_visual_network.gordon_auditory rsfmri_cor_networkgordon_visual_networkgordon_auditory",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Average correlation between visual network and auditory network",
     "ui": {

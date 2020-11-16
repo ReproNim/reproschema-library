@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "demo_prnt_race_a_v2_l___18",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_race_a_v2_l___18",
     "altLabel": "demo_prnt_race_a_p_l___18",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "What race do you consider yourself to be? Please check all that apply. \u00bfDe qu\u00e9 raza se considera usted? Seleccione 1 o m\u00e1s de estas categor\u00edas: (18, Asian Indian India asi\u00e1tica)",
     "ui": {

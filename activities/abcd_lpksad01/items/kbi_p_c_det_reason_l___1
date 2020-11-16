@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "kbi_p_c_det_reason_l___1",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_det_reason_l___1",
     "altLabel": "kbi_c_det_reason_p_l___1 ksads_back_c_det_reason_p_l___1",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "For what? Click all that apply: \u00bfPor qu\u00e9 motivo?  Seleccione todas las opciones que correspondan o apliquen: (1, Fighting Pelear)",
     "ui": {

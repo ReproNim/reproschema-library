@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "sai_p_surf_perwk_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_surf_perwk_l",
     "altLabel": "sai_surf_perwk_p_l sports_activity_surf_perwk_p_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Surfing Surfear About how many days per week? \u00bfAproximadamente cu\u00e1ntos d\u00edas a la semana?",
     "ui": {

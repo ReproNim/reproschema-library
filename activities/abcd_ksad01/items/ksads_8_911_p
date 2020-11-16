@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "ksads_8_911_p",
     "@type": "reproschema:Field",
     "prefLabel": "ksads_8_911_p",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Diagnosis - Other Specified Anxiety Disorder (Social Anxiety Disorder impairment does not meet minimum duration) F41.8",
     "ui": {

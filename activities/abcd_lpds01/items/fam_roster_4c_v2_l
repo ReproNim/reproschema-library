@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "fam_roster_4c_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "fam_roster_4c_v2_l",
     "altLabel": "demo_fam_roster_4c_p_l fam_roster_4c_p_l",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Person #4, relationship to you: Persona #4, parentesco a usted:",
     "ui": {

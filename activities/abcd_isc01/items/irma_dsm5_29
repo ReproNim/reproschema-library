@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "irma_dsm5_29",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_dsm5_29",
         "es": "irma_dsm5_29_es"
     },
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "29. I feel not connected to my body, like I'm not really there inside.",

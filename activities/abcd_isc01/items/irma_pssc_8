@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "irma_pssc_8",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_pssc_8",
         "es": "irma_pssc_8_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
         "en": "8. In the last month, how often have you felt that you were on top of things? 8.",

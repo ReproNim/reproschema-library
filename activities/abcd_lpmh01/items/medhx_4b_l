@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "medhx_4b_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_4b_l",
     "altLabel": "medhx_4b_times_er_before_past_yr_p_l medhx_4b_times_er_past_yr_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "How many times has he/she been to the emergency room since we last saw you on [asnt_timestamp_c]? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfcu\u00e1ntas veces ha visitado \u00e9l/ella la sala de emergencias?",
     "ui": {

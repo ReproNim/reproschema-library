@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "cbcl_scr_07_ocd_m",
     "@type": "reproschema:Field",
     "prefLabel": "cbcl_scr_07_ocd_m",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Obsessive-Compulsive Problems (OCD) CBCL Scale2007 Scale (missing values)",
     "ui": {

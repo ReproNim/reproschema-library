@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "asr_scr_avoidant_r",
     "@type": "reproschema:Field",
     "prefLabel": "asr_scr_avoidant_r",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Avoidant Personality Problems ASR DSM-5-Oriented Scale (raw score)",
     "ui": {

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "demo_yrs_1_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_yrs_1_l",
     "altLabel": "demo_yrs_1_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "How often does your child attend religious services? \u00bfCon qu\u00e9 frecuencia asiste su nin-o(a) a servicios religiosos?",
     "ui": {

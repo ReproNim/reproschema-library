@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "medhx_11_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_11_l",
     "altLabel": "medhx_11_blue_green_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Is he/she able to see the difference between blue and green? \u00bfEs su ni\u00f1o(a) capaz de ver la diferencia entre el azul y el verde?",
     "ui": {

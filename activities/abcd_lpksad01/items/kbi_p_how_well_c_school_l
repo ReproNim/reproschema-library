@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "kbi_p_how_well_c_school_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_how_well_c_school_l",
     "altLabel": "kbi_how_well_c_school_p_l ksads_back_c_how_well_school_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "In general, how does your child do in school? En general, \u00bfc\u00f3mo le va a su ni\u00f1o(a) en la escuela?",
     "ui": {

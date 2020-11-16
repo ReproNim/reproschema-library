@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "sai_p_wpolo_school_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_wpolo_school_l",
     "altLabel": "sai_wpolo_school_p_l sports_activity_wpolo_school_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Swimming, Water Polo NataciAn / waterpolo Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?",
     "ui": {

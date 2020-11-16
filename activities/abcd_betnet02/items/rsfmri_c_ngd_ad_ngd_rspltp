@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "rsfmri_c_ngd_ad_ngd_rspltp",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_ad_ngd_rspltp",
     "altLabel": "rsfmri_cor_network.gordon_auditory_network.gordon_retrosplenialtemporal rsfmri_cor_networkgordon_auditory_networkgordon_retrosplenialtemporal",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Average correlation between auditory network and retrosplenial temporal network",
     "ui": {

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "kbi_p_conflict_causes_l___6",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_conflict_causes_l___6",
     "altLabel": "kbi_conflict_causes_p_l___6 ksads_back_conflict_causes_p_l___6",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Click the things that cause conflict between you and your child: A continuaci\u00f3n, seleccione aquello que causa conflicto entre usted y su ni\u00f1o(a): (6, Trouble in School Problemas en la escuela)",
     "ui": {

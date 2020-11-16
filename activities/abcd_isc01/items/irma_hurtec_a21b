@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "irma_hurtec_a21b",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtec_a21b",
         "es": "irma_hurtec_a21b_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
         "en": "b. Problems spending time with friends ",

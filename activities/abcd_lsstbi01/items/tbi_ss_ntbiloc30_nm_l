@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "tbi_ss_ntbiloc30_nm_l",
     "@type": "reproschema:Field",
     "prefLabel": "tbi_ss_ntbiloc30_nm_l",
     "altLabel": "brain_injury_ss_ntbiloc30_nm_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Number of TBI_LOC >= 30\r: Number missing",
     "ui": {

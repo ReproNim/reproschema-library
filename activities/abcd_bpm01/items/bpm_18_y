@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "bpm_18_y",
     "@type": "reproschema:Field",
     "prefLabel": "bpm_18_y",
     "altLabel": "bpm_18 bpmy_18",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "I am unhappy, sad, or depressed",
     "ui": {

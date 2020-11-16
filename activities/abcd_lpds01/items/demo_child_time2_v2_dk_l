@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "demo_child_time2_v2_dk_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_child_time2_v2_dk_l",
     "altLabel": "demo_child_time2_dk_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Don't know/Refuse to answer No lo s\u00e9/Prefiere no contestar",
     "ui": {

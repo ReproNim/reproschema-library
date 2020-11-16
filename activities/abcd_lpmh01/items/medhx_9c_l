@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "medhx_9c_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_9c_l",
     "altLabel": "medhx_9c_anesthesia_age_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "At what age for the most recent time (years)? \u00bfA qu\u00e9 edad durante el tiempo m\u00e1s reciente?",
     "ui": {

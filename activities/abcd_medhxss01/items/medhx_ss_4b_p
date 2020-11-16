@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "medhx_ss_4b_p",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_ss_4b_p",
     "altLabel": "medhx_ss_4b_times_er_past_yr_p",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "How many times has he/she been to the emergency room in that past year?",
     "ui": {

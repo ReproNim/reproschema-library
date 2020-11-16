@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "kbi_p_c_guard_l___7",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_guard_l___7",
     "altLabel": "kbi_c_guard_p_l___7 ksads_back_c_guard_p_l___7",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Since we last saw you, who else has your child lived with at least part of the time? Desde la \u00faltima vez que nos vimos, \u00bfCon qui\u00e9n m\u00e1s pasa tiempo su ni\u00f1o(a)? (7, Foster Parent Padre o madre de crianza temporal)",
     "ui": {

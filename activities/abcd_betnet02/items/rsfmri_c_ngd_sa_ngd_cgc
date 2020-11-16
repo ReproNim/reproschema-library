@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "rsfmri_c_ngd_sa_ngd_cgc",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_sa_ngd_cgc",
     "altLabel": "rsfmri_cor_network.gordon_salience_network.gordon_cingulooperc rsfmri_cor_networkgordon_salience_networkgordon_cingulooperc",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "Average correlation between salience network and cingulo-opercular network",
     "ui": {

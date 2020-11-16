@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "irma_pssc_9",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_pssc_9",
         "es": "irma_pssc_9_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
         "en": "9. In the last month, how often have you been angered because of things that happened that were outside of your control? 9.",

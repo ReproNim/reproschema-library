@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@id": "demo_prtnr_ed_v2_l",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prtnr_ed_v2_l",
     "altLabel": "demo_prtnr_ed_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": "What is the highest grade or level of school your partner completed or highest degree they received? \u00bfCu\u00e1l es el m\u00e1ximo nivel de estudios completados de su pareja o el m\u00e1ximo t\u00edtulo que ha recibido?",
     "ui": {

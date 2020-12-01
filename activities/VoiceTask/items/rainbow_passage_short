@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "rainbow_passage_short",
+    "prefLabel": "rainbow passage short",
+    "description": "rainbow short task",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Using your normal voice and in one breath read the following:",
+        "es": "Usando su voz normal y tomando un solo suspiro lea lo siguiente:"
+    },
+    "question": {
+        "en": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. There is , according to legend, a boiling pot of gold at one end.",
+        "es": "Cuando la luz del sol golpea las gotas de lluvia en el aire, actúan como un prisma y forman un arco iris. El arco iris es una división de la luz blanca en muchos colores hermosos. Estos toman la forma de un largo arco de medio punto, con su recorrido muy en lo alto y sus dos extremos más allá del horizonte. Hay, según la leyenda, una olla de oro hirviendo en un extremo."
+    }
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

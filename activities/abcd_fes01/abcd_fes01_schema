@@ -2,7 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_fes01_schema",
-    "prefLabel": "abcd_fes01",
+    "prefLabel": "ABCD Youth Family Environment Scale-Family Conflict Subscale Modified from PhenX (FES)",
+    "altLabel": "abcd_fes01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

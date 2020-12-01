@@ -11,8 +11,8 @@
         "es": "Aprieta record (grabar) y haz lo siguiente"
         },
     "question":
-        {"en": "Inhalation for 4 seconds followed by exhalation for 4 seconds. Repeat this 4 times.",
-        "es": "Inhale por 4 segundos y exhale por 4 segundos. Repite esto 4 veces."
+        {"en": "Relax and inhale for 4 seconds, then exhale for 4 seconds.  Repeat this 4 more times.",
+        "es": "Relájese e inhale durante 4 segundos, luego exhale durante 4 segundos. Repite esto 4 veces más."
         },
     "ui": {
         "inputType": "audioPassageRecord"

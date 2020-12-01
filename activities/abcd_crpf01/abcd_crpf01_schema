@@ -3,9 +3,10 @@
     "@type": "reproschema:Activity",
     "@id": "abcd_crpf01_schema",
     "prefLabel": {
-        "en": "abcd_crpf01",
+        "en": "ABCD Parent Community Risk and Protective Factors (CRPF)",
         "es": "abcd_crpf01_es"
     },
+    "altLabel": "abcd_crpf01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": {

@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question":
-    {"en": "Please hit record, and then say the sequence /pa-ta-ka/ as fast as possible repeatedly. When you are done, hit the Stop button to end.",
-    "es": "Haz clic en record (grabar), y luego diga /pa-ta-ka/ lo más rápido posible una y otra vez. Cuando termines, haz click en Stop (parar) para terminar."
+    {"en": "Click the Record button, take a deep breath and repeat the phrase “pa-ta-ka” as many times as you can in one breath.",
+    "es": "Haga clic en el botón Grabar, respire profundamente y repita la frase“ pa-ta-ka ”tantas veces como pueda en una sola respiración."
     },
     "ui": {
         "inputType": "audioRecord"

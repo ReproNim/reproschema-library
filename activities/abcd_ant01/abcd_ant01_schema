@@ -2,7 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_ant01_schema",
-    "prefLabel": "abcd_ant01",
+    "prefLabel": "ABCD Youth Anthropometrics Modified From PhenX (ANT)",
+    "altLabel": "abcd_ant01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "compute": [

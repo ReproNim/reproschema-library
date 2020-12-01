@@ -8,8 +8,8 @@
     "version": "0.0.1",
     "preamble":
         {
-        "en": "Hit record and read the sentences while pinching your nose.",
-        "es": "Presiona grabar y lea las oraciones mientras pellizcándote la nariz."
+        "en": "Click Record and read the following two sentences while pinching your nose. Click the Stop button when finished.",
+        "es": "Haga clic en Grabar y lea las dos oraciones siguientes mientras se pellizca la nariz. Haga clic en el botón Detener cuando haya terminado."
         },
     "question": {
         "en": "Let me sing by the moon with novel phonemes. There is nothing in my spoon to use as a sling.",

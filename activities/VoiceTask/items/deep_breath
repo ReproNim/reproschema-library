@@ -8,11 +8,11 @@
     "version": "0.0.1",
     "preamble":
         {"en": "Hit record and do the following",
-        "es": "Aprieta record (grabar) y haz lo siguiente"
+        "es": "Haga click en Grabar y haz lo siguiente"
         },
     "question":
         {"en": "Relax and inhale for 4 seconds, then exhale for 4 seconds.  Repeat this 4 more times.",
-        "es": "Relájese e inhale durante 4 segundos, luego exhale durante 4 segundos. Repite esto 4 veces más."
+        "es": "Relájese e inhale durante 4 segundos, luego exhale durante 4 segundos. Repita esto 4 veces más."
         },
     "ui": {
         "inputType": "audioPassageRecord"

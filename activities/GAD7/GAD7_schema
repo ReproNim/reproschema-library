@@ -69,6 +69,7 @@
             "items/gad7_6",
             "items/gad7_7"
         ],
+        "inputType": "section",
         "shuffle": false
     }
 }

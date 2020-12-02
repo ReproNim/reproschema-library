@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question":
-    {"en": "Click the Record button, take a deep breath and repeat the phrase “pa-ta-ka” as many times as you can in one breath.",
-    "es": "Haga clic en el botón Grabar, respire profundamente y repita la frase“ pa-ta-ka ”tantas veces como pueda en una sola respiración."
+    {"en": "Click the Record button, take a deep breath and repeat the phrase “pa-ta-ka” as many times as you can <b>in one breath</b>.",
+    "es": "Haga clic en el botón Grabar, respire profundamente y repita la frase “pa-ta-ka” tantas veces como pueda en <b>una sola respiración</b>."
     },
     "ui": {
         "inputType": "audioRecord"

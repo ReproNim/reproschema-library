@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question":
-    {"en": "Using your normal voice, count upwards from 65 to 105 as fast as you can.",
-    "es": "Usando su voz normal, cuente desde 65 hasta 105 lo más rápido que pueda."
+    {"en": "Using your normal voice, count upwards from 65 to 105 <b>as fast as you can</b>.",
+    "es": "Usando su voz normal, cuente desde 65 hasta 105 <b>lo más rápido que pueda</b>."
     },
     "ui": {
         "inputType": "audioRecord"
@@ -16,6 +16,6 @@
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 120000
+        "maxValue": 100000
     }
 }

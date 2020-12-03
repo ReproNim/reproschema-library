@@ -6,7 +6,10 @@
     "description": "save data to server",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Thank You for participating!",
+    "question": {
+        "en": "Thank you for participating!",
+        "es": "Gracias por participar!"
+    },
     "ui": {
         "inputType": "save",
         "readonlyValue": true

@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "preamble":
         {"en": "Hit record and respond to the questions",
-        "es": "Aprieta record (grabar) y responda las preguntas"
+        "es": "Haga click en Grabar y responda las siguientes preguntas"
         },
     "question":
         {"en": "Describe your favorite food. What ingredients are in it? Why do you like it? What memories do you associate with it?",

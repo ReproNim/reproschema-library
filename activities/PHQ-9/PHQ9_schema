@@ -99,7 +99,6 @@
             "items/phq9_9",
             "items/phq9_10"
         ],
-        "inputType": "section",
         "shuffle": false
     }
 }

@@ -11,7 +11,7 @@
             {
                 "isAbout": "items/saveData",
                 "variableName": "saveData",
-                "isVis": true
+                "isVis": "true"
             }
         ],
         "order": [

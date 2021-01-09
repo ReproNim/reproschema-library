@@ -13,6 +13,6 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": true,
-        "choices": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/languages.json"
+        "choices": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/resources/languages.json"
     }
 }

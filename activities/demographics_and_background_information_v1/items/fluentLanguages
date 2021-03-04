@@ -1,18 +1,16 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "fluentLanguages",
     "prefLabel": "Fluent languages",
     "description": "schema for fluent languages of participant",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Fluent Language",
+    "question": "Which languages do you speak fluently?",
     "ui": {
-        "inputType": "selectLanguage"
+        "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": true,
-        "choices": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/languages.json"
+        "valueType": "xsd:string"
     }
 }

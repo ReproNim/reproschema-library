@@ -61,10 +61,10 @@
             },
 	        {
                 "name": {
-	                "en": "Other, please specify: _______\"",
-	                "es": "Otro (especificar): _______"
+	                "en": "Other",
+	                "es": "Otro"
                 },
-                "value": 6
+                "value": 99
             }
 
         ]

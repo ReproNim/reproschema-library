@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dialect",
+    "prefLabel": "dialect",
+    "description": "schema to identify dialect of the subject",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": {
+	    "en": "In which city or region do they speak most similar to how you speak English (or explain)?",
+	    "es": "En qué ciudad o región hablan parecido a cómo habla usted Español o Castellano (o explique)?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}
+
+

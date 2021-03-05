@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "preamble": {
-        "en": "Take a deep breadth and read as much as you can in one breadth using your normal voice (and stop when you run out of air):",
+        "en": "Take a deep breath and read as much as you can in one breath using your normal voice (and stop when you run out of air):",
         "es": "Respire hondo y lea todo lo que pueda con un solo aliento usando su voz normal (y deténgase cuando se quede sin aire):"
     },
     "question": {

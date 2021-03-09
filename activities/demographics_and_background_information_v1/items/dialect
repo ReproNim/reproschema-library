@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": {
 	    "en": "In which city or region do they speak most similar to how you speak English (or explain)?",
-	    "es": "En qué ciudad o región hablan parecido a cómo habla usted Español o Castellano (o explique)?"
+	    "es": "¿En qué ciudad o región hablan parecido a cómo habla usted Español o Castellano (o explique)?"
     },
     "ui": {
         "inputType": "text"

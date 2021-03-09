@@ -6,7 +6,11 @@
     "description": "schema for fluent languages of participant",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Which languages do you speak fluently?",
+    "question": {
+        "en": "Which languages do you speak fluently?",
+        "es": "¿Qué idiomas habla con fluidez?"
+    },
+    
     "ui": {
         "inputType": "text"
     },

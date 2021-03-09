@@ -8,8 +8,8 @@
     "version": "0.0.1",
     "preamble":
         {
-        "en": "Hit record and do the following",
-        "es": "Aprieta record (grabar) y haz lo siguiente."
+        "en": "Hit Record and do the following",
+        "es": "Haga clic en Grabar y haz lo siguiente."
         },
     "question":
         {"en": "Inhale, cough 3 times. Repeat two more times.",

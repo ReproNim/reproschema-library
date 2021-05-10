@@ -10,28 +10,36 @@
         {
             "name": {
                 "en": "Not at all",
-                "es": "Para nada"
+                "es": "Para nada",
+                "nl": "Helemaal niet",
+                "fr": "Pas du tout"
             },
             "value": 0
         },
         {
             "name": {
                 "en": "Several days",
-                "es": "Varios d\u00edas"
+                "es": "Varios d\u00edas",
+                "nl": "Verschei dene dagen",
+                "fr": "Plusieurs jours"
             },
             "value": 1
         },
         {
             "name": {
                 "en": "More than half the days",
-                "es": "M\u00e1s de la mitad de los d\u00edas"
+                "es": "M\u00e1s de la mitad de los d\u00edas",
+                "nl": "Meer dan de helft van de dagen",
+                "fr": "Plus de la moitié des jours"
             },
             "value": 2
         },
         {
             "name": {
                 "en": "Nearly everyday",
-                "es": "Casi todos los d\u00edas"
+                "es": "Casi todos los d\u00edas",
+                "nl": "Bijna elke dag",
+                "fr": "Presque tous les jours"
             },
             "value": 3
         }

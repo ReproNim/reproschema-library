@@ -12,7 +12,8 @@
                 "en": "Not at all",
                 "es": "Para nada",
                 "ar": "أبدا",
-                "fr": "Jamais"
+                "fr": "Jamais",
+                "nl": "Helemaal Niet"
             },
             "value": 0
         },
@@ -21,7 +22,8 @@
                 "en": "Several days",
                 "es": "Varios d\u00edas",
                 "ar": "بعض الأيام",
-                "fr": "Plusieurs jours"
+                "fr": "Plusieurs jours",
+                "nl": "Verschei Dene-dagen"
             },
             "value": 1
         },
@@ -30,7 +32,8 @@
                 "en": "More than half the days",
                 "es": "M\u00e1s de la mitad de los d\u00edas",
                 "ar": "أكثر من نصف الأيام",
-                "fr": "Plus de la moitié du temps"
+                "fr": "Plus de la moitié du temps",
+                "nl": "Meer dan de helft van de dagen"
             },
             "value": 2
         },
@@ -39,7 +42,8 @@
                 "en": "Nearly everyday",
                 "es": "Casi todos los d\u00edas",
                 "ar": "كل يوم تقريبا",
-                "fr": "Presque tous les jours"
+                "fr": "Presque tous les jours",
+                "nl": "Bijna elke dag"
             },
             "value": 3
         }

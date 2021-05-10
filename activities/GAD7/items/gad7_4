@@ -8,7 +8,8 @@
     "version": "0.0.1",
     "question": {
         "en": "Trouble relaxing?",
-        "es": "\u00bfHa tenido dificultad para relajarse?"
+        "es": "\u00bfHa tenido dificultad para relajarse?",
+        "ar": ".الاسترخاء في الصعوبة"
     },
     "ui": {
         "inputType": "radio"

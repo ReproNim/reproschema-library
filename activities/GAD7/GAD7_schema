@@ -9,7 +9,8 @@
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by the following problems?",
-        "es": "Durante las \u00faltimas 2 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?"
+        "es": "Durante las \u00faltimas 2 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "ar": "خلال الأسبوعين الماضيين، آم مرّة أقلقتك المشاآل التّالية؟ ضع علامة “9 “للإشارة لجوابك)"
     },
     "compute": [
         {

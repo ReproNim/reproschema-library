@@ -9,7 +9,9 @@
     "question": {
         "en": "Trouble relaxing?",
         "es": "\u00bfHa tenido dificultad para relajarse?",
-        "ar": ".الاسترخاء في الصعوبة"
+        "ar": ".الاسترخاء في الصعوبة",
+        "nl": "Moeite hebben u te ontspannen",
+        "fr": "Des difficultés à se détendre"
     },
     "ui": {
         "inputType": "radio"

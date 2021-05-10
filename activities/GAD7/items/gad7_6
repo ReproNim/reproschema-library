@@ -9,7 +9,9 @@
     "question": {
         "en": "Becoming easily annoyed or irritable?",
         "es": "\u00bfSe ha molestado o irritado f\u00e1cilmente?",
-        "ar": "لسرعة في الانزعاج أو الانفعال."
+        "ar": "لسرعة في الانزعاج أو الانفعال.",
+        "nl": "Snel geërgerd of geïrriteerd zijn",
+        "fr": "Une tendance à être facilement contrarié(e) ou irritable "
     },
     "ui": {
         "inputType": "radio"

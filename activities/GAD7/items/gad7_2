@@ -8,7 +8,8 @@
     "version": "0.0.1",
     "question": {
         "en": "Not being able to stop or control worrying?",
-        "es": "\u00bfNo ha sido capaz de parar o controlar su preocupaci\u00f3n?"
+        "es": "\u00bfNo ha sido capaz de parar o controlar su preocupaci\u00f3n?",
+        "ar": "-عدم القدرة على إنهاء القلق أو التحكّم فيه."
     },
     "ui": {
         "inputType": "radio"

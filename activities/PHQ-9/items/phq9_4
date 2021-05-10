@@ -10,7 +10,9 @@
         "en": "Feeling tired or having little energy?",
         "es": "\u00bfSe ha sentido cansado(a) o con poca energ\u00eda?",
         "nl": "Zich neerslachtig, depressief of hopeloos voelen",
-        "fr": "Se sentir fatigué(e) ou manquer d’énergie"
+        "fr": "Se sentir fatigué(e) ou manquer d’énergie",
+        "ar": "الشعور بالتعب أو بامتلاك القليل جداً من الطاقة"
+
     },
     "ui": {
         "inputType": "radio"

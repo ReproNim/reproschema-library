@@ -10,7 +10,8 @@
         "en": "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
         "es": "¿Qué tan difícil le han dificultado estos problemas hacer su trabajo, ocuparse de las cosas en casa o llevarse bien con otras personas?",
         "nl": "Hoe moeilijk hebben deze problemen het voor u gemaakt om uw werk te doen, thuis voor dingen te zorgen of met andere mensen om te gaan?",
-        "fr": "À quel point ces problèmes vous ont-ils rendu difficile de faire votre travail, de vous occuper de vos affaires à la maison ou de vous entendre avec d'autres personnes?"
+        "fr": "À quel point ces problèmes vous ont-ils rendu difficile de faire votre travail, de vous occuper de vos affaires à la maison ou de vous entendre avec d'autres personnes?",
+        "ar": "ما مدى صعوبة هذه المشاكل بالنسبة لك للقيام بعملك ، أو الاعتناء بالأشياء في المنزل ، أو التعايش مع الآخرين؟"
     },
     "ui": {
         "inputType": "radio"
@@ -26,7 +27,8 @@
                     "en": "Not difficult at all",
                     "es": "Nada dificil",
                     "nl": "helemaal niet moeilijk",
-                    "fr": "Pas difficile du tout"
+                    "fr": "Pas difficile du tout",
+                    "ar": "ليس من الصعب على الإطلاق"
                 },
                 "value": 0
             },
@@ -35,7 +37,8 @@
                     "en": "Somewhat difficult",
                     "es": "algo dificil",
                     "nl": "enigszins moeilijk",
-                    "fr": "Un peu difficile"
+                    "fr": "Un peu difficile",
+                    "ar": "من الصعب إلى حد ما"
                 },
                 "value": 1
             },
@@ -44,7 +47,8 @@
                     "en": "Very difficult",
                     "es": "Muy dificil",
                     "nl": "erg moeilijk",
-                    "fr": "Très difficile"
+                    "fr": "Très difficile",
+                    "ar": "صعب جدا"
                 },
                 "value": 2
             },
@@ -53,7 +57,8 @@
                     "en": "Extremely difficult",
                     "es": "Extremadamente dificil",
                     "nl": "Extreem moeilijk",
-                    "fr": "Extrêmement difficile"
+                    "fr": "Extrêmement difficile",
+                    "ar": "صعب للغاية"
                 },
                 "value": 3
             }

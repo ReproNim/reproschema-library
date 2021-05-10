@@ -10,28 +10,32 @@
         {
             "name": {
                 "en": "Not at all",
-                "es": "Para nada"
+                "es": "Para nada",
+                "ar": "أبدا"
             },
             "value": 0
         },
         {
             "name": {
                 "en": "Several days",
-                "es": "Varios d\u00edas"
+                "es": "Varios d\u00edas",
+                "ar": "بعض الأيام"
             },
             "value": 1
         },
         {
             "name": {
                 "en": "More than half the days",
-                "es": "M\u00e1s de la mitad de los d\u00edas"
+                "es": "M\u00e1s de la mitad de los d\u00edas",
+                "ar": "أكثر من نصف الأيام"
             },
             "value": 2
         },
         {
             "name": {
                 "en": "Nearly everyday",
-                "es": "Casi todos los d\u00edas"
+                "es": "Casi todos los d\u00edas",
+                "ar": "كل يوم تقريبا"
             },
             "value": 3
         }

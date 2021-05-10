@@ -10,7 +10,8 @@
         "en": "Feeling bad about yourself or that you are a failure or have let yourself or your family down?",
         "es": "\u00bfSe ha sentido mal con usted mismo(a)  o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia?",
         "nl": "Een slecht gevoel hebben over uzelf — of het gevoel hebben dat u een mislukkeling bent of het gevoel dat u zichzelf of uw familie teleurgesteld hebt",
-        "fr": "Avoir une mauvaise opinion de soi-même, ou avoir le sentiment d’être nul(le), ou d’avoir déçu sa famille ou s’êtredéçu(e) soi-même"
+        "fr": "Avoir une mauvaise opinion de soi-même, ou avoir le sentiment d’être nul(le), ou d’avoir déçu sa famille ou s’êtredéçu(e) soi-même",
+        "ar": "لشعور بعدم الرضا عن النفس أو الشعور بأنك قد أخذلت نفسك أو عائلتك"
     },
     "ui": {
         "inputType": "radio"

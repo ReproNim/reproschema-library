@@ -8,7 +8,8 @@
     "version": "0.0.1",
     "question": {
         "en": "Worrying too much about different things?",
-        "es": "\u00bfSe ha preocupado demasiado por diferentes motivos?"
+        "es": "\u00bfSe ha preocupado demasiado por diferentes motivos?",
+        "ar": "القلق المفرط على أشياء مختلفة."
     },
     "ui": {
         "inputType": "radio"

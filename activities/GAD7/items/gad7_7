@@ -8,7 +8,8 @@
     "version": "0.0.1",
     "question": {
         "en": "Feeling afraid as if something awful might happen?",
-        "es": "\u00bfHa tenido miedo de que algo terrible fuera a pasar?"
+        "es": "\u00bfHa tenido miedo de que algo terrible fuera a pasar?",
+        "ar": "الشّعور بالخوف آما لو أن شيئا فضيعا قد يحدث."
     },
     "ui": {
         "inputType": "radio"

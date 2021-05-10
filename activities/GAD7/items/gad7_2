@@ -9,7 +9,9 @@
     "question": {
         "en": "Not being able to stop or control worrying?",
         "es": "\u00bfNo ha sido capaz de parar o controlar su preocupaci\u00f3n?",
-        "ar": "-عدم القدرة على إنهاء القلق أو التحكّم فيه."
+        "ar": "-عدم القدرة على إنهاء القلق أو التحكّم فيه.",
+        "nl": "Niet kunnen stoppen met u zorgen maken of dit niet kunnen beteugelen",
+        "fr": "Une incapacité à arrêter de s’inquiéter ou à contrôler ses inquiétudes"
     },
     "ui": {
         "inputType": "radio"

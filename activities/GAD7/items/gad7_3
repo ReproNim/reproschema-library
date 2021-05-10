@@ -9,7 +9,9 @@
     "question": {
         "en": "Worrying too much about different things?",
         "es": "\u00bfSe ha preocupado demasiado por diferentes motivos?",
-        "ar": "القلق المفرط على أشياء مختلفة."
+        "ar": "القلق المفرط على أشياء مختلفة.",
+        "nl": "U te veel zorgen maken om verschillende dingen",
+        "fr": "Une inquiétude excessive à propos de différentes choses"
     },
     "ui": {
         "inputType": "radio"

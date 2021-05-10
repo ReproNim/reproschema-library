@@ -8,7 +8,11 @@
     "version": "0.0.1",
     "question": {
         "en": "Feeling down, depressed or hopeless?",
-        "es": "\u00bfSe ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas?"
+        "es": "\u00bfSe ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas?",
+        "nl": "Zich neerslachtig, depressief of hopeloos voelen?",
+        "fr": " Être triste, déprimé(e) ou désespéré(e)?",
+        "ar": " .الشعور بالحزن أو ضيق الصدر أو اليأس"
+
     },
     "ui": {
         "inputType": "radio"

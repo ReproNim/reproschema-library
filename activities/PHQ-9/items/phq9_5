@@ -8,7 +8,9 @@
     "version": "0.0.1",
     "question": {
         "en": "Poor appetite or overeating?",
-        "es": "\u00bfSin apetito o ha comido en exceso?"
+        "es": "Sin apetito o ha comido en exceso?",
+        "nl": "Weinig eetlust of overmatig eten?",
+        "fr": "Avoir peu d’appétit ou manger trop?"
     },
     "ui": {
         "inputType": "radio"

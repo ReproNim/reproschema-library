@@ -13,7 +13,8 @@
                 "es": "Para nada",
                 "ar": "أبدا",
                 "fr": "Jamais",
-                "nl": "Helemaal Niet"
+                "nl": "Helemaal Niet",
+                "it": "Mai"
             },
             "value": 0
         },
@@ -23,7 +24,8 @@
                 "es": "Varios d\u00edas",
                 "ar": "بعض الأيام",
                 "fr": "Plusieurs jours",
-                "nl": "Verschei Dene-dagen"
+                "nl": "Verschei Dene-dagen",
+                "it": "Alcuni giorni"
             },
             "value": 1
         },
@@ -33,7 +35,8 @@
                 "es": "M\u00e1s de la mitad de los d\u00edas",
                 "ar": "أكثر من نصف الأيام",
                 "fr": "Plus de la moitié du temps",
-                "nl": "Meer dan de helft van de dagen"
+                "nl": "Meer dan de helft van de dagen",
+                "it": "Per oltre la metà dei giorni"
             },
             "value": 2
         },
@@ -43,7 +46,8 @@
                 "es": "Casi todos los d\u00edas",
                 "ar": "كل يوم تقريبا",
                 "fr": "Presque tous les jours",
-                "nl": "Bijna elke dag"
+                "nl": "Bijna elke dag",
+                "it": "Quasi ogni giorno"
             },
             "value": 3
         }

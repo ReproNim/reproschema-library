@@ -11,7 +11,8 @@
         "es": "Tener problemas para relajarse",
         "ar": ".الاسترخاء في الصعوبة",
         "nl": "Moeite hebben u te ontspannen",
-        "fr": "Des difficultés à se détendre"
+        "fr": "Des difficultés à se détendre",
+        "it": "Avere difficoltà a rilassars"
     },
     "ui": {
         "inputType": "radio"

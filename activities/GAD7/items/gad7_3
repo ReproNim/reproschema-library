@@ -11,7 +11,8 @@
         "es": "Preocuparse demasiado por diferentes cuestiones",
         "ar": "القلق المفرط على أشياء مختلفة.",
         "nl": "U te veel zorgen maken om verschillende dingen",
-        "fr": "Une inquiétude excessive à propos de différentes choses"
+        "fr": "Une inquiétude excessive à propos de différentes choses",
+        "it": "Preoccuparsi troppo per varie cose"
     },
     "ui": {
         "inputType": "radio"

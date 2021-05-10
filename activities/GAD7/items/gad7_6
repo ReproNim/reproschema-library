@@ -11,7 +11,8 @@
         "es": "Enfadarse o irritarse con facilidad",
         "ar": "لسرعة في الانزعاج أو الانفعال.",
         "nl": "Snel geërgerd of geïrriteerd zijn",
-        "fr": "Une tendance à être facilement contrarié(e) ou irritable "
+        "fr": "Une tendance à être facilement contrarié(e) ou irritable",
+        "it": "Infastidirsi o irritarsi facilmente"
     },
     "ui": {
         "inputType": "radio"

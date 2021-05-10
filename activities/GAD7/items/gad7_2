@@ -11,7 +11,8 @@
         "es": "Ser incapaz de dejar de preocuparse o de controlar la preocupación",
         "ar": "-عدم القدرة على إنهاء القلق أو التحكّم فيه.",
         "nl": "Niet kunnen stoppen met u zorgen maken of dit niet kunnen beteugelen",
-        "fr": "Une incapacité à arrêter de s’inquiéter ou à contrôler ses inquiétudes"
+        "fr": "Une incapacité à arrêter de s’inquiéter ou à contrôler ses inquiétudes",
+        "it": "Non riuscire a smettere di preoccuparsi o a tenere sotto controllo le preoccupazioni"
     },
     "ui": {
         "inputType": "radio"

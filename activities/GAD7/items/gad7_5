@@ -11,7 +11,8 @@
         "es": "Estar tan inquieto/a que le resulta difícil permanecer sentado/a",
         "ar": "شدة الاضطراب لدرجة صعوبة البقاء في هدوء.",
         "nl": "Zo rusteloos zijn dat het moeilijk is om stil te zitten",
-        "fr": "Une agitation telle qu’il est difficile à tenir en place"
+        "fr": "Une agitation telle qu’il est difficile à tenir en place",
+        "it": "Essere talmente irrequieto/a da far fatica a stare seduto/a fermo/a"
     },
     "ui": {
         "inputType": "radio"

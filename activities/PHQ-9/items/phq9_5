@@ -11,7 +11,8 @@
         "es": "Sin apetito o ha comido en exceso?",
         "nl": "Weinig eetlust of overmatig eten?",
         "fr": "Avoir peu d’appétit ou manger trop?",
-        "ar": "قلة الشهية أو الزيادة في تناول الطعام عن المعتاد"
+        "ar": "قلة الشهية أو الزيادة في تناول الطعام عن المعتاد",
+        "pt-BR": "Falta de apetite ou comendo demais"
     },
     "ui": {
         "inputType": "radio"

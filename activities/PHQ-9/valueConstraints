@@ -13,7 +13,8 @@
                 "es": "Para nada",
                 "nl": "Helemaal niet",
                 "fr": "Pas du tout",
-                "pt-BR": "Nenhuma vez"
+                "pt-BR": "Nenhuma vez",
+                "ko": "전혀 방해 받지 않았다"
             },
             "value": 0
         },
@@ -23,7 +24,8 @@
                 "es": "Varios d\u00edas",
                 "nl": "Verschei dene dagen",
                 "fr": "Plusieurs jours",
-                "pt-BR": "Vários dias"
+                "pt-BR": "Vários dias",
+                "ko": "며칠 동안 방해 받았다"
             },
             "value": 1
         },
@@ -33,7 +35,8 @@
                 "es": "M\u00e1s de la mitad de los d\u00edas",
                 "nl": "Meer dan de helft van de dagen",
                 "fr": "Plus de la moitié des jours",
-                "pt-BR": "Mais da metade dos dias"
+                "pt-BR": "Mais da metade dos dias",
+                "ko": "7 일 이상방해 받았다"
             },
             "value": 2
         },
@@ -43,7 +46,8 @@
                 "es": "Casi todos los d\u00edas",
                 "nl": "Bijna elke dag",
                 "fr": "Presque tous les jours",
-                "pt-BR": "Quase todos os dias"
+                "pt-BR": "Quase todos os dias",
+                "ko": "거의 매일 방해 받았다"
             },
             "value": 3
         }

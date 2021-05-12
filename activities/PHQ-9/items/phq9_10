@@ -12,7 +12,8 @@
         "nl": "Hoe moeilijk hebben deze problemen het voor u gemaakt om uw werk te doen, thuis voor dingen te zorgen of met andere mensen om te gaan?",
         "fr": "À quel point ces problèmes vous ont-ils rendu difficile de faire votre travail, de vous occuper de vos affaires à la maison ou de vous entendre avec d'autres personnes?",
         "ar": "ما مدى صعوبة هذه المشاكل بالنسبة لك للقيام بعملك ، أو الاعتناء بالأشياء في المنزل ، أو التعايش مع الآخرين؟",
-        "pt-BR": "Se você assinalou qualquer um dos problemas, indique o grau de dificuldade que os mesmos lhe causaram para realizar seu trabalho, tomar conta das coisas em casa ou para se relacionar com as pessoas?"
+        "pt-BR": "Se você assinalou qualquer um dos problemas, indique o grau de dificuldade que os mesmos lhe causaram para realizar seu trabalho, tomar conta das coisas em casa ou para se relacionar com as pessoas?",
+        "ko": "만일 당신이 위의 문제 중 하나 이상 "예" 라고 응답하셨으면, 이러한 문제들로 인해서 당신은 일을 하거나 가정일을 돌보거나 다른 사람과 어울리는 것이 얼마나 어려웠습니까?"
     },
     "ui": {
         "inputType": "radio"
@@ -30,7 +31,8 @@
                     "nl": "helemaal niet moeilijk",
                     "fr": "Pas difficile du tout",
                     "ar": "ليس من الصعب على الإطلاق",
-                    "pt-BR": "Nenhuma dificuldade"
+                    "pt-BR": "Nenhuma dificuldade",
+                    "ko": "전혀 어렵지 않았다"
                 },
                 "value": 0
             },
@@ -41,7 +43,8 @@
                     "nl": "enigszins moeilijk",
                     "fr": "Un peu difficile",
                     "ar": "من الصعب إلى حد ما",
-                    "pt-BR": "Alguma dificuldade"
+                    "pt-BR": "Alguma dificuldade",
+                    "ko": "약간 어려웠다"
                 },
                 "value": 1
             },
@@ -52,7 +55,8 @@
                     "nl": "erg moeilijk",
                     "fr": "Très difficile",
                     "ar": "صعب جدا",
-                    "pt-BR": "Muita dificuldade"
+                    "pt-BR": "Muita dificuldade",
+                    "ko": "많이 어려웠다"
                 },
                 "value": 2
             },
@@ -63,7 +67,8 @@
                     "nl": "Extreem moeilijk",
                     "fr": "Extrêmement difficile",
                     "ar": "صعب للغاية",
-                    "pt-BR": "Extrema dificuldade"
+                    "pt-BR": "Extrema dificuldade",
+                    "ko": "매우 많이 어려웠다"
                 },
                 "value": 3
             }

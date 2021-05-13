@@ -13,7 +13,8 @@
         "fr": "Avoir peu d’appétit ou manger trop?",
         "ar": "قلة الشهية أو الزيادة في تناول الطعام عن المعتاد",
         "pt-BR": "Falta de apetite ou comendo demais",
-        "ko": "입맛이 없거나 과식을 함"
+        "ko": "입맛이 없거나 과식을 함",
+        "it": "Scarso appetito o mangiare troppo"
     },
     "ui": {
         "inputType": "radio"

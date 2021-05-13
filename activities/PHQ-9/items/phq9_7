@@ -13,7 +13,8 @@
         "fr": "Avoir du mal à se concentrer, par exemple, pour lire le journal ou regarder la télévision",
         "ar": "صعوبة في الترآيز مثلاً أثناء قراءة الصحيفة أو مشاهدة التلفزيون",
         "pt-BR": "Dificuldade para se concentrar nas coisas, como ler o jornal ou ver televisão",
-        "ko": "신문을 읽거나 텔레비전 보는 것과 같은 일에 집중하는 것이 어려움"
+        "ko": "신문을 읽거나 텔레비전 보는 것과 같은 일에 집중하는 것이 어려움",
+        "it": "Difficoltà a concentrarsi su qualcosa, per esempio leggere il giornale o guardare la televisione"
     },
     "ui": {
         "inputType": "radio"

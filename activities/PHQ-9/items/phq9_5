@@ -14,7 +14,8 @@
         "ar": "قلة الشهية أو الزيادة في تناول الطعام عن المعتاد",
         "pt-BR": "Falta de apetite ou comendo demais",
         "ko": "입맛이 없거나 과식을 함",
-        "it": "Scarso appetito o mangiare troppo"
+        "it": "Scarso appetito o mangiare troppo",
+        "ja": "あまり食欲がない、または食べ過ぎる"
     },
     "ui": {
         "inputType": "radio"

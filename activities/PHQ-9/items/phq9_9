@@ -14,7 +14,8 @@
         "ar": "راودتك أفكار بأنه من الأفضل لو آنت ميتا أو أفكار بأن تقوم بإيذاء النفس",
         "pt-BR": "Pensar em se ferir de alguma maneira ou que seria melhor estar morto/a",
         "ko": "자신이 죽는 것이 더 낫다고 생각하거나 어떤 식으로든 자신을 해칠 것이라고 생각함",
-        "it": "Pensare che sarebbe meglio morire o farsi del male in un modo o nell’altro"
+        "it": "Pensare che sarebbe meglio morire o farsi del male in un modo o nell’altro",
+        "ja": "死んだほうがましだ、あるいは自分を何らかの方法で傷つけようと 思ったことがある"
     },
     "ui": {
         "inputType": "radio"

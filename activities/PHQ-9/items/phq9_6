@@ -16,7 +16,8 @@
         "ko": "자신을 부정적으로 봄 - 혹은 자신이 실패자라고 느끼거나 자신 또는 가족을 실망시킴",
         "it": "Avere una scarsa opinione di sé, o sentirsi un/una fallito/a o aver deluso se stesso/a o i propri familiari",
         "ja": "自分はダメな人間だ、人生の敗北者だと気に病む、または自分自身あるいは家族に申し訳がないと感じる",
-        "fi": "Tyytymättömyys omaan itseen – tai tunne, että olette epäonnistuneet tai laiminlyöneet itsenne tai perheenne"
+        "fi": "Tyytymättömyys omaan itseen – tai tunne, että olette epäonnistuneet tai laiminlyöneet itsenne tai perheenne",
+        "fil": "Pagkaramdam ng masama tungkol sa iyong sarili — o na bigo ka o nabigo mo ang iyong sarili o ang iyong pamilya"
     },
     "ui": {
         "inputType": "radio"

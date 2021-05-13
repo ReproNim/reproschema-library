@@ -16,7 +16,8 @@
         "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
         "it": "Scarso interesse o piacere nel fare le cose",
         "ja": "物事に対してほとんど興味がない、または楽しめない",
-        "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää"
+        "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
+        "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay"
     },
     "ui": {
         "inputType": "radio"

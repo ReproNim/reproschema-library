@@ -16,7 +16,8 @@
         "ko": "자신이 죽는 것이 더 낫다고 생각하거나 어떤 식으로든 자신을 해칠 것이라고 생각함",
         "it": "Pensare che sarebbe meglio morire o farsi del male in un modo o nell’altro",
         "ja": "死んだほうがましだ、あるいは自分を何らかの方法で傷つけようと 思ったことがある",
-        "fi": " Ajatukset, että voisi olla yhtä hyvin kuollut tai, että voisi vahingoittaa itseään jollakin tavalla"
+        "fi": " Ajatukset, että voisi olla yhtä hyvin kuollut tai, että voisi vahingoittaa itseään jollakin tavalla",
+        "fil": "Nag-iisip na mas mabuting mamatay ka na lang o saktan mo ang iyong sarili sa ilang paraan"
     },
     "ui": {
         "inputType": "radio"

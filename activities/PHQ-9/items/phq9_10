@@ -15,7 +15,8 @@
         "pt-BR": "Se você assinalou qualquer um dos problemas, indique o grau de dificuldade que os mesmos lhe causaram para realizar seu trabalho, tomar conta das coisas em casa ou para se relacionar com as pessoas?",
         "ko": "만일 당신이 위의 문제 중 하나 이상 "예" 라고 응답하셨으면, 이러한 문제들로 인해서 당신은 일을 하거나 가정일을 돌보거나 다른 사람과 어울리는 것이 얼마나 어려웠습니까?",
         "it": "Se ha fatto una crocetta su uno qualsiasi di questi problemi, quanto questi problemi le hanno reso difficile fare il suo lavoro, occuparsi delle sue cose a casa o avere buoni rapporti con gli altri?",
-        "ja": "一つでも問題に当てはまる場合、仕事をしたり、家事をしたり、他の人と仲良くやっていくことがどのくらい困難に なっていますか?"
+        "ja": "一つでも問題に当てはまる場合、仕事をしたり、家事をしたり、他の人と仲良くやっていくことがどのくらい困難に なっていますか?",
+        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?"
     },
     "ui": {
         "inputType": "radio"
@@ -36,7 +37,8 @@
                     "pt-BR": "Nenhuma dificuldade",
                     "ko": "전혀 어렵지 않았다",
                     "it": "Per niente difficile",
-                    "ja": "全く困難で ない"
+                    "ja": "全く困難で ない",
+                    "fi": "Ei lainkaan"
                 },
                 "value": 0
             },
@@ -50,7 +52,8 @@
                     "pt-BR": "Alguma dificuldade",
                     "ko": "약간 어려웠다",
                     "it": "Abbastanza difficile",
-                    "ja": "やや困難"
+                    "ja": "やや困難",
+                    "fi": "Hieman vaikeaa"
                 },
                 "value": 1
             },
@@ -64,7 +67,8 @@
                     "pt-BR": "Muita dificuldade",
                     "ko": "많이 어려웠다",
                     "it": "Molto difficile",
-                    "ja": "大変困難"
+                    "ja": "大変困難",
+                    "fi": "Hyvin vaikeaa"
                 },
                 "value": 2
             },
@@ -78,7 +82,8 @@
                     "pt-BR": "Extrema dificuldade",
                     "ko": "매우 많이 어려웠다",
                     "it": "Estremamente difficile",
-                    "ja": "極端に困難"
+                    "ja": "極端に困難",
+                    "fi": "Erittäin vaikeaa"
                 },
                 "value": 3
             }

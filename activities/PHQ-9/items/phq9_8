@@ -16,7 +16,8 @@
         "ko": "다른 사람들이 주목할 정도로 너무 느리게 움직이거나 말을 함. 또는 반대로 평상시보다 많이 움직여서, 너무 안절부절 못하거나 들떠 있음",
         "it": "Muoversi o parlare così lentamente da poter essere notato/a da altre persone. O, al contrario, essere così irrequieto/a da muoversi molto più del solito",
         "ja": "他人が気づくぐらいに動きや話し方が遅くなる、あるいは これと反対に、そわそわしたり、落ちつかず、普段よりも動き回る ことがある",
-        "fi": "Liikutteko tai puhutteko niin hitaasti, että muut ihmiset ovat saattaneet huomata? Tai päinvastoin - oletteko olleet niin hermostunut tai levoton, että olette liikkuneet paljon tavallista enemmän"
+        "fi": "Liikutteko tai puhutteko niin hitaasti, että muut ihmiset ovat saattaneet huomata? Tai päinvastoin - oletteko olleet niin hermostunut tai levoton, että olette liikkuneet paljon tavallista enemmän",
+        "fil": "Pagkilos o pagsasalita ng mabagal na maaring napansin ng ibang tao? O ang kabaligtaran — pagiging alumpihit o di mapakali kaya ikot nang ikot nang higit sa karaniwan"
     },
     "ui": {
         "inputType": "radio"

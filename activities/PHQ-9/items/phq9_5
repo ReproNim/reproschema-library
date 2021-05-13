@@ -16,7 +16,8 @@
         "ko": "입맛이 없거나 과식을 함",
         "it": "Scarso appetito o mangiare troppo",
         "ja": "あまり食欲がない、または食べ過ぎる",
-        "fi": "Huono ruokahalu tai ylensyöminen"
+        "fi": "Huono ruokahalu tai ylensyöminen",
+        "fil": "Kawalan ng ganang kumain o labis na pagkain"
     },
     "ui": {
         "inputType": "radio"

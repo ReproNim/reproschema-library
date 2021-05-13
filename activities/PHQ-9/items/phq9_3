@@ -14,7 +14,8 @@
         "nl": "Moeilijk inslapen, moeilijk doorslapen of te veel slapen",
         "pt-BR": "Dificuldade para pegar no sono ou permanecer dormindo, ou dormir mais do que de costume",
         "ko": "잠이 들거나 계속 잠을 자는 것이 어려움, 또는 잠을 너무 많이 잠",
-        "it": "Problemi ad addormentarsi o a dormire tutta la notte senza svegliarsi, o a dormire troppo"
+        "it": "Problemi ad addormentarsi o a dormire tutta la notte senza svegliarsi, o a dormire troppo",
+        "ja": "寝付きが悪い、途中で目がさめる、または逆に眠り過ぎる"
 
     },
     "ui": {

@@ -15,7 +15,8 @@
                 "fr": "Pas du tout",
                 "pt-BR": "Nenhuma vez",
                 "ko": "전혀 방해 받지 않았다",
-                "it": "Mai"
+                "it": "Mai",
+                "ja": "全くない"
             },
             "value": 0
         },
@@ -27,7 +28,8 @@
                 "fr": "Plusieurs jours",
                 "pt-BR": "Vários dias",
                 "ko": "며칠 동안 방해 받았다",
-                "it": "Alcuni giorni"
+                "it": "Alcuni giorni",
+                "ja": "数日"
             },
             "value": 1
         },
@@ -39,7 +41,8 @@
                 "fr": "Plus de la moitié des jours",
                 "pt-BR": "Mais da metade dos dias",
                 "ko": "7 일 이상방해 받았다",
-                "it": "Per più della metà dei giorni"
+                "it": "Per più della metà dei giorni",
+                "ja": "半分以上"
             },
             "value": 2
         },
@@ -51,7 +54,8 @@
                 "fr": "Presque tous les jours",
                 "pt-BR": "Quase todos os dias",
                 "ko": "거의 매일 방해 받았다",
-                "it": "Quasi ogni giorno"
+                "it": "Quasi ogni giorno",
+                "ja": "ほとんど 毎日"
             },
             "value": 3
         }

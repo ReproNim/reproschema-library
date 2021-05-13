@@ -13,7 +13,8 @@
         "fr": "Avoir une mauvaise opinion de soi-même, ou avoir le sentiment d’être nul(le), ou d’avoir déçu sa famille ou s’êtredéçu(e) soi-même",
         "ar": "لشعور بعدم الرضا عن النفس أو الشعور بأنك قد أخذلت نفسك أو عائلتك",
         "pt-BR": "Se sentir mal consigo mesmo/a — ou achar que você é um fracasso ou que decepcionou sua família ou você mesmo/a",
-        "ko": "자신을 부정적으로 봄 - 혹은 자신이 실패자라고 느끼거나 자신 또는 가족을 실망시킴"
+        "ko": "자신을 부정적으로 봄 - 혹은 자신이 실패자라고 느끼거나 자신 또는 가족을 실망시킴",
+        "it": "Avere una scarsa opinione di sé, o sentirsi un/una fallito/a o aver deluso se stesso/a o i propri familiari"
     },
     "ui": {
         "inputType": "radio"

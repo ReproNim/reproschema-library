@@ -21,7 +21,8 @@
         "nl": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van één of meer van de volgende problemen?",
         "ja": "この 2 週間、次のような問題にどのくらい頻繁に 悩まされていますか?",
         "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
-        "fil": "Nitong nakaraang 14 na araw, gaano ka kadalas binagabag ng alinman sa mga sumusunod na mga problema?"
+        "fil": "Nitong nakaraang 14 na araw, gaano ka kadalas binagabag ng alinman sa mga sumusunod na mga problema?",
+        "no": "Hvor ofte har du vært plaget av ett eller flere av de følgende problemene i løpet av de siste 2 ukene,?"
     },
     "compute": [
         {

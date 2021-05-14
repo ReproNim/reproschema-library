@@ -18,7 +18,7 @@
         "ja": "一つでも問題に当てはまる場合、仕事をしたり、家事をしたり、他の人と仲良くやっていくことがどのくらい困難に なっていますか?",
         "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
         "fil": "Kung may tsinekan kang anumang mga problema, gaano ka pinahirapan ng mga problemang ito na gawin ang iyong trabaho, asikasuhin ang mga bagay sa bahay, o makisama sa ibang tao?",
-        "no": "Hvor ofte har du vært plaget av ett eller flere av de følgende problemene i løpet av de siste 2 ukene,?",
+        "no": "Hvis du har opplevd ett eller flere av de problemene som nevnes, i hvor stor grad har problemene gjort det vanskelig for deg å utføre arbeidet ditt, ordne med ting hjemme eller å komme overens med andre?",
     },
     "ui": {
         "inputType": "radio"

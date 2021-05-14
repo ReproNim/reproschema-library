@@ -18,7 +18,8 @@
                 "it": "Mai",
                 "ja": "全くない",
                 "fil": "Hindi kailanman",
-                "no": "Ikke i det hele tatt"
+                "no": "Ikke i det hele tatt",
+                "kn": "ಇಲಲ್⁮ೕ ಇಲಲ"
             },
             "value": 0
         },
@@ -33,7 +34,8 @@
                 "it": "Alcuni giorni",
                 "ja": "数日",
                 "fil": "Maramin g Araw",
-                "no": "Noen dager"
+                "no": "Noen dager",
+                "kn": "ಹಲ ಾರು ⁂ನಗಳು"
             },
             "value": 1
         },
@@ -48,7 +50,8 @@
                 "it": "Per più della metà dei giorni",
                 "ja": "半分以上",
                 "fil": "Lagpas sa kalahati ng bilang ng mga araw",
-                "no": "Mer enn halvparten av dagene"
+                "no": "Mer enn halvparten av dagene",
+                "kn": "ಅಧರ್ಕಿಕ್ಂತ ⁲ಚುಚ್ ⁂ನಗಳು"
             },
             "value": 2
         },
@@ -63,7 +66,8 @@
                 "it": "Quasi ogni giorno",
                 "ja": "ほとんど 毎日",
                 "fil": "Halos arawaraw",
-                "no": "Nesten hver dag"
+                "no": "Nesten hver dag",
+                "kn": "⁲‷ಚ್ನಂಶ ಪರ್⁀⁂ನ"
             },
             "value": 3
         }

@@ -19,7 +19,9 @@
         "fi": "Tyytymättömyys omaan itseen – tai tunne, että olette epäonnistuneet tai laiminlyöneet itsenne tai perheenne",
         "fil": "Pagkaramdam ng masama tungkol sa iyong sarili — o na bigo ka o nabigo mo ang iyong sarili o ang iyong pamilya",
         "no": "Vært misfornøyd med deg selv eller følt deg mislykket - eller følt at du har sviktet deg selv eller familien din",
-        "kn": "⁄ಮಮ್ ಬಗೆಗ್ ⁄ಮಗೇ ಕೆಟಟ್  ಾವ⁤ — ಅಥ ಾ ⁄ೕವು ⁎ಫಲರು ಅಥ ಾ ⁄ೕವು ⁄ಮಮ್ ‍ಾಗೊ ಕುಟುಂಬದವರ ⁄⁋ೕ₃ಗಿಂತ ಕೆಳಮಟಟ್ದ⁌ಲ್⁂ದ್ೕ⁋ ಎಂಬ  ಾವ⁤"
+        "kn": "⁄ಮಮ್ ಬಗೆಗ್ ⁄ಮಗೇ ಕೆಟಟ್  ಾವ⁤ — ಅಥ ಾ ⁄ೕವು ⁎ಫಲರು ಅಥ ಾ ⁄ೕವು ⁄ಮಮ್ ‍ಾಗೊ ಕುಟುಂಬದವರ ⁄⁋ೕ₃ಗಿಂತ ಕೆಳಮಟಟ್ದ⁌ಲ್⁂ದ್ೕ⁋ ಎಂಬ  ಾವ⁤",
+        "ru": "Вы плохо о себе думали: считали себя неудачником(неудачницей), или были в себе разочарованы, или считали, что подвели свою семью",
+        "pl": "Poczucie niezadowolenia z siebie — lub uczucie, że jest się do niczego, albo że zawiódł/zawiodła Pan/Pani siebie lub rodzinę"
     },
     "ui": {
         "inputType": "radio"

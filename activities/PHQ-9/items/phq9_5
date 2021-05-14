@@ -19,7 +19,9 @@
         "fi": "Huono ruokahalu tai ylensyöminen",
         "fil": "Kawalan ng ganang kumain o labis na pagkain",
         "no": "Dårlig appetitt eller å spise for mye",
-        "kn": "ಕ‽⁩ ಹ⁑ವು ಅಥ ಾ ಅ⁀ ಾಗಿ ⁀ನುನ್ವುದು"
+        "kn": "ಕ‽⁩ ಹ⁑ವು ಅಥ ಾ ಅ⁀ ಾಗಿ ⁀ನುನ್ವುದು",
+        "ru": "У Вас был плохой аппетит, или Вы переедали",
+        "pl": "Brak apetytu lub przejadanie się"
     },
     "ui": {
         "inputType": "radio"

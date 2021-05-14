@@ -19,7 +19,9 @@
         "fi": "Vaikeus keskittyä asioihin, kuten lehden lukemiseen tai television katseluun",
         "fil": "Hirap magtuon ng pansin sa mga bagay, tulad ng pagbabasa ng dyaryo or panonood ng telebisyon",
         "no": "Vansker med å konsentrere deg om ting, slik som å lese avisen eller se på TV",
-        "kn": "ಪ⁀ರ್ಕೆಯನುನ್ ಓದಲು ಅಥ ಾ ⁛⁌⁎ಜನ್ ⁤ೂೕಡುವುದು ಇΏಾಯ್⁂ ⁎ಷಯಗಳ⁌ಲ್ ಗಮನ ಕೇಂ⁂ರ್ೕಕ⁋ಸಲು ⁠ೂಂದ⁫"
+        "kn": "ಪ⁀ರ್ಕೆಯನುನ್ ಓದಲು ಅಥ ಾ ⁛⁌⁎ಜನ್ ⁤ೂೕಡುವುದು ಇΏಾಯ್⁂ ⁎ಷಯಗಳ⁌ಲ್ ಗಮನ ಕೇಂ⁂ರ್ೕಕ⁋ಸಲು ⁠ೂಂದ⁫",
+        "ru": "Вам было трудно сосредоточиться (например, на чтении газеты или на просмотре телепередач)",
+        "pl": "Problemy ze skupieniem się na przykład przy czytaniu gazety lub oglądaniu telewizji"
     },
     "ui": {
         "inputType": "radio"

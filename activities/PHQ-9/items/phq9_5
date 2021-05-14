@@ -17,7 +17,8 @@
         "it": "Scarso appetito o mangiare troppo",
         "ja": "あまり食欲がない、または食べ過ぎる",
         "fi": "Huono ruokahalu tai ylensyöminen",
-        "fil": "Kawalan ng ganang kumain o labis na pagkain"
+        "fil": "Kawalan ng ganang kumain o labis na pagkain",
+        "no": "Dårlig appetitt eller å spise for mye"
     },
     "ui": {
         "inputType": "radio"

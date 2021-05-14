@@ -17,8 +17,8 @@
         "it": "Problemi ad addormentarsi o a dormire tutta la notte senza svegliarsi, o a dormire troppo",
         "ja": "寝付きが悪い、途中で目がさめる、または逆に眠り過ぎる",
         "fi": "Nukahtamis- tai nukkumisvaikeudet tai liiallinen nukkuminen",
-        "fil": "Hirap na makatulog o manatiling tulog, o labis na pagtulog"
-
+        "fil": "Hirap na makatulog o manatiling tulog, o labis na pagtulog",
+        "no": "Vansker med å sovne eller med å sove natten gjennom uten å våkne – eller med at du sover for mye"
     },
     "ui": {
         "inputType": "radio"

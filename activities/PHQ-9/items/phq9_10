@@ -17,7 +17,8 @@
         "it": "Se ha fatto una crocetta su uno qualsiasi di questi problemi, quanto questi problemi le hanno reso difficile fare il suo lavoro, occuparsi delle sue cose a casa o avere buoni rapporti con gli altri?",
         "ja": "一つでも問題に当てはまる場合、仕事をしたり、家事をしたり、他の人と仲良くやっていくことがどのくらい困難に なっていますか?",
         "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
-        "fil": "Kung may tsinekan kang anumang mga problema, gaano ka pinahirapan ng mga problemang ito na gawin ang iyong trabaho, asikasuhin ang mga bagay sa bahay, o makisama sa ibang tao?"
+        "fil": "Kung may tsinekan kang anumang mga problema, gaano ka pinahirapan ng mga problemang ito na gawin ang iyong trabaho, asikasuhin ang mga bagay sa bahay, o makisama sa ibang tao?",
+        "no": "Hvor ofte har du vært plaget av ett eller flere av de følgende problemene i løpet av de siste 2 ukene,?",
     },
     "ui": {
         "inputType": "radio"
@@ -40,7 +41,8 @@
                     "it": "Per niente difficile",
                     "ja": "全く困難で ない",
                     "fi": "Ei lainkaan",
-                    "fil": "Hinding-hindi pinahirapan"
+                    "fil": "Hinding-hindi pinahirapan",
+                    "no": "Ikke vanskelig i det hele tatt"
                 },
                 "value": 0
             },
@@ -56,7 +58,8 @@
                     "it": "Abbastanza difficile",
                     "ja": "やや困難",
                     "fi": "Hieman vaikeaa",
-                    "fil": "Medyo Pinahirapan"
+                    "fil": "Medyo Pinahirapan",
+                    "no": "Litt vanskelig"
                 },
                 "value": 1
             },
@@ -72,7 +75,8 @@
                     "it": "Molto difficile",
                     "ja": "大変困難",
                     "fi": "Hyvin vaikeaa",
-                    "fil": "Masyadong Pinahirapan"
+                    "fil": "Masyadong Pinahirapan",
+                    "no": "Veldig vanskelig"
                 },
                 "value": 2
             },
@@ -88,7 +92,8 @@
                     "it": "Estremamente difficile",
                     "ja": "極端に困難",
                     "fi": "Erittäin vaikeaa",
-                    "fil": "Labis na Pinahirapan"
+                    "fil": "Labis na Pinahirapan",
+                    "no": "Ekstremt vanskelig"
                 },
                 "value": 3
             }

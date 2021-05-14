@@ -17,7 +17,8 @@
         "it": "Difficoltà a concentrarsi su qualcosa, per esempio leggere il giornale o guardare la televisione",
         "ja": "新聞を読む、またはテレビを見ることなどに集中することが 難しい",
         "fi": "Vaikeus keskittyä asioihin, kuten lehden lukemiseen tai television katseluun",
-        "fil": "Hirap magtuon ng pansin sa mga bagay, tulad ng pagbabasa ng dyaryo or panonood ng telebisyon"
+        "fil": "Hirap magtuon ng pansin sa mga bagay, tulad ng pagbabasa ng dyaryo or panonood ng telebisyon",
+        "no": "Vansker med å konsentrere deg om ting, slik som å lese avisen eller se på TV"
     },
     "ui": {
         "inputType": "radio"

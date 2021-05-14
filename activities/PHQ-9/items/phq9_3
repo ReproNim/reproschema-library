@@ -18,7 +18,8 @@
         "ja": "寝付きが悪い、途中で目がさめる、または逆に眠り過ぎる",
         "fi": "Nukahtamis- tai nukkumisvaikeudet tai liiallinen nukkuminen",
         "fil": "Hirap na makatulog o manatiling tulog, o labis na pagtulog",
-        "no": "Vansker med å sovne eller med å sove natten gjennom uten å våkne – eller med at du sover for mye"
+        "no": "Vansker med å sovne eller med å sove natten gjennom uten å våkne – eller med at du sover for mye",
+        "kn": "⁄⁢ರ್ ಬರುವುದು ಅಥ ಾ ⁄⁢ರ್ಯ⁌ಲ್ರುವುದಕೆಕ್ ⁠ೂಂದ⁫, ಅಥ ಾ ಅ⁀ ಾಗಿ ⁄⁢ರ್  ಾಡುವುದು"
     },
     "ui": {
         "inputType": "radio"

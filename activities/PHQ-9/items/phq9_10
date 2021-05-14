@@ -19,6 +19,7 @@
         "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
         "fil": "Kung may tsinekan kang anumang mga problema, gaano ka pinahirapan ng mga problemang ito na gawin ang iyong trabaho, asikasuhin ang mga bagay sa bahay, o makisama sa ibang tao?",
         "no": "Hvis du har opplevd ett eller flere av de problemene som nevnes, i hvor stor grad har problemene gjort det vanskelig for deg å utføre arbeidet ditt, ordne med ting hjemme eller å komme overens med andre?",
+        "kn": "⁄ೕವು  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಗೆ ⁗ಕ್  ಾ‽ದದ್⁫, ಆ ಸಮⁱಯ್ಗಳು ⁄ಮಗೆ ⁄ಮಮ್ ಕೆಲಸವನುನ್  ಾಡಲು, ಮ⁤ಯ⁌ಲ್ನ ⁎ಷಯಗಳನುನ್ ⁤ೂೕ‽ಕೊಳಳ್ಲು, ಅಥ ಾ ಇತರ⁫ೂಂ⁂ಗೆ ⁲ೂಂ⁂ಕೊಂಡು ⁲ೂೕಗಲು ಎಷುಟ್ ಕಷಟ್ವನುನ್ಂಟು ಾ‽ದವು?"
     },
     "ui": {
         "inputType": "radio"
@@ -42,7 +43,8 @@
                     "ja": "全く困難で ない",
                     "fi": "Ei lainkaan",
                     "fil": "Hinding-hindi pinahirapan",
-                    "no": "Ikke vanskelig i det hele tatt"
+                    "no": "Ikke vanskelig i det hele tatt",
+
                 },
                 "value": 0
             },

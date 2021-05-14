@@ -18,7 +18,8 @@
         "ja": "疲れた感じがする、または気力がない",
         "fi": "Väsymys tai energian puute",
         "fil": "Pagkaramdam ng pagod o walang lakas",
-        "no": "Følt deg trett eller slapp"
+        "no": "Følt deg trett eller slapp",
+        "kn": "ಆ ಾಸಗೊಳುಳ್ವುದು ಅಥ ಾ ⁗ೖತನಯ್ ಇಲಲ್⁂ರುವುದು"
     },
     "ui": {
         "inputType": "radio"

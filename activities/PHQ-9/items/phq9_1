@@ -19,7 +19,9 @@
         "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
         "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay",
         "no": "Lite interesse for eller glede over å gjøre ting",
-        "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ"
+        "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ",
+        "ru": "Вам не хотелось ничего делать",
+        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności"
     },
     "ui": {
         "inputType": "radio"

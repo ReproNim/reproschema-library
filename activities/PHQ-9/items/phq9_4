@@ -19,7 +19,10 @@
         "fi": "Väsymys tai energian puute",
         "fil": "Pagkaramdam ng pagod o walang lakas",
         "no": "Følt deg trett eller slapp",
-        "kn": "ಆ ಾಸಗೊಳುಳ್ವುದು ಅಥ ಾ ⁗ೖತನಯ್ ಇಲಲ್⁂ರುವುದು"
+        "kn": "ಆ ಾಸಗೊಳುಳ್ವುದು ಅಥ ಾ ⁗ೖತನಯ್ ಇಲಲ್⁂ರುವುದು",
+        "ru": "Вы были утомлены, или у Вас было мало сил",
+        "pl": "Uczucie zmęczenia lub brak energii"
+
     },
     "ui": {
         "inputType": "radio"

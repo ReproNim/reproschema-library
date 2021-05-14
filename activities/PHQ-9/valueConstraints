@@ -19,7 +19,9 @@
                 "ja": "全くない",
                 "fil": "Hindi kailanman",
                 "no": "Ikke i det hele tatt",
-                "kn": "ಇಲಲ್⁮ೕ ಇಲಲ"
+                "kn": "ಇಲಲ್⁮ೕ ಇಲಲ",
+                "ru": "Ни разу",
+                "pl": "Wcale nie dokuczały"
             },
             "value": 0
         },
@@ -35,7 +37,9 @@
                 "ja": "数日",
                 "fil": "Maramin g Araw",
                 "no": "Noen dager",
-                "kn": "ಹಲ ಾರು ⁂ನಗಳು"
+                "kn": "ಹಲ ಾರು ⁂ನಗಳು",
+                "ru": "Несколь ко дней",
+                "pl": "Kilka dni"
             },
             "value": 1
         },
@@ -51,7 +55,9 @@
                 "ja": "半分以上",
                 "fil": "Lagpas sa kalahati ng bilang ng mga araw",
                 "no": "Mer enn halvparten av dagene",
-                "kn": "ಅಧರ್ಕಿಕ್ಂತ ⁲ಚುಚ್ ⁂ನಗಳು"
+                "kn": "ಅಧರ್ಕಿಕ್ಂತ ⁲ಚುಚ್ ⁂ನಗಳು",
+                "ru": "Более недели",
+                "pl": "Więcej niż połowę dni"
             },
             "value": 2
         },
@@ -67,7 +73,9 @@
                 "ja": "ほとんど 毎日",
                 "fil": "Halos arawaraw",
                 "no": "Nesten hver dag",
-                "kn": "⁲‷ಚ್ನಂಶ ಪರ್⁀⁂ನ"
+                "kn": "⁲‷ಚ್ನಂಶ ಪರ್⁀⁂ನ",
+                "ru": "Почти каждый день",
+                "pl": "Niemal codzien-nie"
             },
             "value": 3
         }

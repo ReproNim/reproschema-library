@@ -19,7 +19,9 @@
         "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
         "fil": "Kung may tsinekan kang anumang mga problema, gaano ka pinahirapan ng mga problemang ito na gawin ang iyong trabaho, asikasuhin ang mga bagay sa bahay, o makisama sa ibang tao?",
         "no": "Hvis du har opplevd ett eller flere av de problemene som nevnes, i hvor stor grad har problemene gjort det vanskelig for deg å utføre arbeidet ditt, ordne med ting hjemme eller å komme overens med andre?",
-        "kn": "⁄ೕವು  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಗೆ ⁗ಕ್  ಾ‽ದದ್⁫, ಆ ಸಮⁱಯ್ಗಳು ⁄ಮಗೆ ⁄ಮಮ್ ಕೆಲಸವನುನ್  ಾಡಲು, ಮ⁤ಯ⁌ಲ್ನ ⁎ಷಯಗಳನುನ್ ⁤ೂೕ‽ಕೊಳಳ್ಲು, ಅಥ ಾ ಇತರ⁫ೂಂ⁂ಗೆ ⁲ೂಂ⁂ಕೊಂಡು ⁲ೂೕಗಲು ಎಷುಟ್ ಕಷಟ್ವನುನ್ಂಟು ಾ‽ದವು?"
+        "kn": "⁄ೕವು  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಗೆ ⁗ಕ್  ಾ‽ದದ್⁫, ಆ ಸಮⁱಯ್ಗಳು ⁄ಮಗೆ ⁄ಮಮ್ ಕೆಲಸವನುನ್  ಾಡಲು, ಮ⁤ಯ⁌ಲ್ನ ⁎ಷಯಗಳನುನ್ ⁤ೂೕ‽ಕೊಳಳ್ಲು, ಅಥ ಾ ಇತರ⁫ೂಂ⁂ಗೆ ⁲ೂಂ⁂ಕೊಂಡು ⁲ೂೕಗಲು ಎಷುಟ್ ಕಷಟ್ವನುನ್ಂಟು ಾ‽ದವು?",
+        "ru": "Если Вы положительно ответили на какие-нибудь пункты, то оцените, насколько трудно Вам было работать, заниматься домашними делами или общаться с людьми из-за этих проблем?",
+        "pl": "Jeżeli zaznaczył/-a Pan/Pani którekolwiek z problemów, jak bardzo utrudniły one Panu/Pani wykonywanie pracy, zajmowanie się domem lub relacje z innymi ludźmi?"
     },
     "ui": {
         "inputType": "radio"
@@ -44,6 +46,8 @@
                     "fi": "Ei lainkaan",
                     "fil": "Hinding-hindi pinahirapan",
                     "no": "Ikke vanskelig i det hele tatt",
+                    "ru": "Совсем не трудно",
+                    "pl": "W ogóle nie utrudniły"
 
                 },
                 "value": 0
@@ -61,7 +65,9 @@
                     "ja": "やや困難",
                     "fi": "Hieman vaikeaa",
                     "fil": "Medyo Pinahirapan",
-                    "no": "Litt vanskelig"
+                    "no": "Litt vanskelig",
+                    "ru": "Немного трудно",
+                    "pl": "Trochę utrudniły"
                 },
                 "value": 1
             },
@@ -78,7 +84,9 @@
                     "ja": "大変困難",
                     "fi": "Hyvin vaikeaa",
                     "fil": "Masyadong Pinahirapan",
-                    "no": "Veldig vanskelig"
+                    "no": "Veldig vanskelig",
+                    "ru": "Очень трудно",
+                    "pl": "Bardzo utrudniły"
                 },
                 "value": 2
             },
@@ -95,7 +103,9 @@
                     "ja": "極端に困難",
                     "fi": "Erittäin vaikeaa",
                     "fil": "Labis na Pinahirapan",
-                    "no": "Ekstremt vanskelig"
+                    "no": "Ekstremt vanskelig",
+                    "ru": "Чрезвычайно трудно",
+                    "pl": "Niezmiernie utrudniły"
                 },
                 "value": 3
             }

@@ -17,7 +17,8 @@
                 "ko": "전혀 방해 받지 않았다",
                 "it": "Mai",
                 "ja": "全くない",
-                "fil": "Hindi kailanman"
+                "fil": "Hindi kailanman",
+                "no": "Ikke i det hele tatt"
             },
             "value": 0
         },
@@ -31,7 +32,8 @@
                 "ko": "며칠 동안 방해 받았다",
                 "it": "Alcuni giorni",
                 "ja": "数日",
-                "fil": "Maramin g Araw"
+                "fil": "Maramin g Araw",
+                "no": "Noen dager"
             },
             "value": 1
         },
@@ -45,7 +47,8 @@
                 "ko": "7 일 이상방해 받았다",
                 "it": "Per più della metà dei giorni",
                 "ja": "半分以上",
-                "fil": "Lagpas sa kalahati ng bilang ng mga araw"
+                "fil": "Lagpas sa kalahati ng bilang ng mga araw",
+                "no": "Mer enn halvparten av dagene"
             },
             "value": 2
         },
@@ -59,7 +62,8 @@
                 "ko": "거의 매일 방해 받았다",
                 "it": "Quasi ogni giorno",
                 "ja": "ほとんど 毎日",
-                "fil": "Halos arawaraw"
+                "fil": "Halos arawaraw",
+                "no": "Nesten hver dag"
             },
             "value": 3
         }

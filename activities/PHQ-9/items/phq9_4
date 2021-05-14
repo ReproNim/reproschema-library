@@ -17,8 +17,8 @@
         "it": "Sentirsi stanco/a o avere poca energia",
         "ja": "疲れた感じがする、または気力がない",
         "fi": "Väsymys tai energian puute",
-        "fil": "Pagkaramdam ng pagod o walang lakas"
-
+        "fil": "Pagkaramdam ng pagod o walang lakas",
+        "no": "Følt deg trett eller slapp"
     },
     "ui": {
         "inputType": "radio"

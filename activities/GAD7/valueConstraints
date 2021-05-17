@@ -14,7 +14,18 @@
                 "ar": "أبدا",
                 "fr": "Jamais",
                 "nl": "Helemaal Niet",
-                "it": "Mai"
+                "it": "Mai",
+                "pt-BR": "Nenhuma vez",
+                "fil": "Hindi Kailanman",
+                "fi": "Ei lainkaan",
+                "kn": "ಇಲῤ⁮ೕ ಇಲῤ",
+                "ko": "전혀 방해 받지 않았다",
+                "no": "Ikke i det hele tatt",
+                "pl": "Wcale nie dokuczały",
+                "pt-PT": "Nunca",
+                "ro": "Deloc",
+                "ru": "Ни разу",
+                "zh-CN": "从来 没有"
             },
             "value": 0
         },
@@ -25,7 +36,18 @@
                 "ar": "بعض الأيام",
                 "fr": "Plusieurs jours",
                 "nl": "Verschei Dene-dagen",
-                "it": "Alcuni giorni"
+                "it": "Alcuni giorni",
+                "pt-BR": "Vários dias",
+                "fil": "Maraming Araw",
+                "fi": "Useana päivänä",
+                "kn": "⁓ಲವ⁳ ⁂ನಗಳು",
+                "ko": "며칠 동안 방해 받았다",
+                "no": "Noen dager",
+                "pl": "Kilka dni",
+                "pt-PT": "Em vários dias",
+                "ro": "Câteva zile",
+                "ru": "Несколько дней",
+                "zh-CN": "有几天"
             },
             "value": 1
         },
@@ -36,7 +58,18 @@
                 "ar": "أكثر من نصف الأيام",
                 "fr": "Plus de la moitié du temps",
                 "nl": "Meer dan de helft van de dagen",
-                "it": "Per oltre la metà dei giorni"
+                "it": "Per oltre la metà dei giorni",
+                "pt-BR": "Mais da metade dos dias",
+                "fil": "Lagpas sa kalahati ng bilang ng mga araw",
+                "fi": "Useammin kuin puolet ajasta",
+                "kn": "ಅಧῇ″Ὲಂತ ⁲‷῍ನ ⁂ನಗಳು",
+                "ko": "2 주 중 절반 이상방해 받았다",
+                "no": "Mer enn halvparten av dagene",
+                "pl": "Więcej niż połowę dni",
+                "pt-PT": "Em mais de metade do número de dias",
+                "ro": "Peste jumătate din zile",
+                "ru": "Более недели",
+                "zh-CN": "刚超过 一半天数"
             },
             "value": 2
         },
@@ -47,7 +80,18 @@
                 "ar": "كل يوم تقريبا",
                 "fr": "Presque tous les jours",
                 "nl": "Bijna elke dag",
-                "it": "Quasi ogni giorno"
+                "it": "Quasi ogni giorno",
+                "pt-BR": "Quase todos os dias",
+                "fil": "Halos araw-araw",
+                "fi": "Lähes joka päivä",
+                "kn": "ಬಹು⁠ೕಕ ಪῢ⁀ೕ ⁂ನ",
+                "ko": "거의 매일 방해 받았다",
+                "no": "Nesten hver dag",
+                "pl": "Niemal codziennie",
+                "pt-PT": "Em quase todos os dias",
+                "ro": "Aproape zilnic",
+                "ru": "Почти каждый день",
+                "zh-CN": "接近 每天"
             },
             "value": 3
         }

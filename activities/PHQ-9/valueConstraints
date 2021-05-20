@@ -26,7 +26,9 @@
                 "lv": "Nemaz",
                 "ms": "Tiada langsung",
                 "pt-PT": "Nunca",
-                "ro": "Deloc"
+                "ro": "Deloc",
+                "zh-CN": "从来沒有",
+                "sv": "Inte alls"
             },
             "value": 0
         },
@@ -49,7 +51,9 @@
                 "lv": "Dažas dienas",
                 "ms": "Beberapa hari",
                 "pt-PT": "Em vários dias",
-                "ro": "Câteva zile"
+                "ro": "Câteva zile",
+                "zh-CN": "有几天",
+                "sv": "Flera dagar"
             },
             "value": 1
         },
@@ -72,7 +76,9 @@
                 "lv": "Vairāk par nedēļu",
                 "ms": "Lebih daripada 7 hari",
                 "pt-PT": "Em mais de metade do número de dias",
-                "ro": "Peste jumătate din zile"
+                "ro": "Peste jumătate din zile",
+                "zh-CN": "刚超过 一半 天数",
+                "sv": "Mer än hälften av dagarna"
             },
             "value": 2
         },
@@ -95,7 +101,9 @@
                 "lv": "Gandrīz katru dienu",
                 "ms": "Hampir setiap hari",
                 "pt-PT": "Em quase todos os dias",
-                "ro": "Aproape zilnic"
+                "ro": "Aproape zilnic",
+                "zh-CN": "接近 每天",
+                "sv": "Nästan varje dag"
             },
             "value": 3
         }

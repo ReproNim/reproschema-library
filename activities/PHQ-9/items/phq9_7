@@ -26,7 +26,10 @@
         "lv": "Grūtības koncentrēties, piemēram, lasīt avīzi vai skatīties TV",
         "ms": "Masalah untuk menumpukan perhatian ke atas sesuatu perkara seperti membaca surat khabar atau menonton televisyen",
         "pt-PT": "Tive dificuldade em concentrar-me nas coisas, como ao ler o jornal ou ver televisão",
-        "ro": "Dificultăţi de concentrare asupra unor lucruri precum cititul ziarului sau uitatul la televizor"
+        "ro": "Dificultăţi de concentrare asupra unor lucruri precum cititul ziarului sau uitatul la televizor",
+        "zh-CN": "难于集中精神做事，例如看报纸或看电视",
+        "sv": "Svårigheter att koncentrera dig på saker, till exempel att läsa tidningen eller att titta på TV",
+        "uk": "Вам було важко зосередитись, наприклад, на читанні газети або перегляді телепередач"
     },
     "ui": {
         "inputType": "radio"

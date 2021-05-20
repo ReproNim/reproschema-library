@@ -26,7 +26,10 @@
         "lv": "Grūtības iemigt, caurs/trausls miegs vai pārāk ilga gulēšana",
         "ms": "Masalah untuk tidur atau tidur nyenyak atau tidur berlebihan",
         "pt-PT": "Tive dificuldade em adormecer ou em dormir sem interrupções, ou dormi demais",
-        "ro": "Dificultăţi de adormire sau de continuitate a somnului ori somnul prea îndelungat"
+        "ro": "Dificultăţi de adormire sau de continuitate a somnului ori somnul prea îndelungat",
+        "zn-CH": "难于入睡；半夜会醒，或相反，睡觉时间过多",
+        "sv": "Svårigheter att somna eller få en sammanhängande sömn, eller sovit för mycket",
+        "uk": "Вам було важко засинати або не прокидатись, або Ви спали надто довго"
     },
     "ui": {
         "inputType": "radio"

@@ -26,7 +26,10 @@
         "lv": "Neapmierinātība ar sevi – sajūta, ka esat neveiksminieks/-ce vai arī esat pievīlis/-usi savas vai ģimenes cerības",
         "ms": "Rasa buruk mengenai diri anda — atau anda seorang yang gagal atau anda telah menyebabkan diri anda atau keluarga anda kecewa",
         "pt-PT": "Senti que não gosto de mim próprio/a — ou que sou um(a) falhado/a ou me desiludi a mim próprio/a ou à minha família",
-        "ro": "Sentimente negative la adresa dvs. — sau că sunteţi un (o) ratat(ă) sau că v-aţi dezamăgit, pe dvs. sau familia dvs."
+        "ro": "Sentimente negative la adresa dvs. — sau că sunteţi un (o) ratat(ă) sau că v-aţi dezamăgit, pe dvs. sau familia dvs.",
+        "zh-CN": "不喜欢自己──觉得自己做得不好、对自己失望或有负家人 期望",
+        "sv": "Tycker illa om dig själv – eller att du känt dig misslyckad eller att du svikit dig själv eller din familj",
+        "uk": "Ви погано про себе думали — або Ви почувалися невдахою, або ж розчаровувались у собі, або думали, що підвели родину"
     },
     "ui": {
         "inputType": "radio"

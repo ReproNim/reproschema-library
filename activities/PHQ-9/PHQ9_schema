@@ -30,7 +30,10 @@
         "lv": "Cik bieži pēdējo 2 nedēļu laikā Jūs ir apgrūtinājušas kādas no šādām problēmām?",
         "ms": "Dalam tempoh 2 minggu yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
         "pt-PT": "Durante os últimos 14 dias, em quantos foi afectado/a por algum dos seguintes problemas?",
-        "ro": "În ultimele 2 săptămâni, cât de des v-a deranjat oricare dintre următoarele probleme?"
+        "ro": "În ultimele 2 săptămâni, cât de des v-a deranjat oricare dintre următoarele probleme?",
+        "zh-CN": "在过去两周，您经常受到以下问题的困扰吗?",
+        "sv": "Under de senaste 2 veckorna, hur ofta har du besvärats av något/några av följande problem?",
+        "uk": "Як часто за останні 2 тижні Вас турбували будь-які з наступних проблем?"
     },
     "compute": [
         {

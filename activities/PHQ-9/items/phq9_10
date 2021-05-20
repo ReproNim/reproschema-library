@@ -26,7 +26,10 @@
         "ms": "Jika anda menandakan sebarang masalah, sejauh manakah masalah-masalah tersebut membuatkan anda sukar untuk membuat kerja anda, menguruskan kerja-kerja di rumah atau bergaul dengan orang lain?",
         "lv": "Ja Jūs uz kādu no 9 apgalvojumiem atbildējāt apstiprinoši, novērtējiet, cik lielas grūtības Jums radīja darbs, nodarbošanās ar sadzīves lietām vai saskarsme ar cilvēkiem",
         "pt-PT": "Se indicou alguns problemas, até que ponto é que eles dificultaram o seu trabalho, o cuidar da casa ou o lidar com outras pessoas?",
-        "ro": "Dacă aţi bifat oricare din aceste probleme, cât de mult v-au îngreunat ele munca, rezolvarea treburilor de acasă sau buna înţelegere cu ceilalţi?"
+        "ro": "Dacă aţi bifat oricare din aceste probleme, cât de mult v-au îngreunat ele munca, rezolvarea treburilor de acasă sau buna înţelegere cu ceilalţi?",
+        "zh-CN": "如果你选出以上任何问题，这些问题对你的工作、处理家中事务或与人相处时来说造成多大困难?",
+        "sv": "Om du svarat att du haft något av dessa problem, hur svårt har dessa problem gjort det för dig att utföra ditt arbete, ta hand om saker hemma, eller att komma överens med andra människor?",
+        "uk": "Якщо Ви відповіли позитивно на деякі пункти, оцініть, наскільки важко Вам було працювати,займатись домашніми справами або взаємодіяти з іншими людьми через ці проблеми?"
     },
     "ui": {
         "inputType": "radio"
@@ -57,7 +60,10 @@
                     "lv": "Nebija grūti",
                     "ms": "Tidak mempunyai kesukaran langsung",
                     "pt-PT": "Dificultaram extremamente",
-                    "ro": "Deloc"
+                    "ro": "Deloc",
+                    "zh-CN": "完全沒有困难",
+                    "sv": "Inte alls svårt",
+                    "uk": "Зовсім не важко"
 
                 },
                 "value": 0
@@ -82,7 +88,10 @@
                     "lv": "Nedaudz grūti",
                     "ms": "Agak sukar",
                     "pt-PT": "Dificultaram muito",
-                    "ro": "Oarecum"
+                    "ro": "Oarecum",
+                    "zh-CN": "有一些困难",
+                    "sv": "Lite svårt",
+                    "uk": "Дещо важко"
                 },
                 "value": 1
             },
@@ -106,7 +115,10 @@
                     "lv": "Ļoti grūti",
                     "ms": "Sangat sukar",
                     "pt-PT": "Dificultaram um pouco",
-                    "ro": "Foarte mult"
+                    "ro": "Foarte mult",
+                    "zh-CN": "非常困难",
+                    "sv": "Mycket svårt",
+                    "uk": "Дуже важко"
                 },
                 "value": 2
             },
@@ -130,7 +142,10 @@
                     "lv": "Ārkārtīgi grūti",
                     "ms": "Terlampau sukar",
                     "pt-PT": "Não dificultaram",
-                    "ro": "Extrem de mult"
+                    "ro": "Extrem de mult",
+                    "zh-CN": "极度困难",
+                    "sv": "Extremt svårt",
+                    "uk": "Надзвичайно важко"
                 },
                 "value": 3
             }

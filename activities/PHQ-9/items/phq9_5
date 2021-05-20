@@ -21,7 +21,12 @@
         "no": "Dårlig appetitt eller å spise for mye",
         "kn": "ಕ‽⁩ ಹ⁑ವು ಅಥ ಾ ಅ⁀ ಾಗಿ ⁀ನುನ್ವುದು",
         "ru": "У Вас был плохой аппетит, или Вы переедали",
-        "pl": "Brak apetytu lub przejadanie się"
+        "pl": "Brak apetytu lub przejadanie się",
+        "bg": "Липса на апетит или прекомерно хранене",
+        "lv": "Pazemināta ēstgriba vai pārēšanās",
+        "ms": "Kurang selera atau makan berlebihan",
+        "pt-PT": "Tive falta ou excesso de apetite",
+        "ro": "Apetit redus sau alimentare excesivă"
     },
     "ui": {
         "inputType": "radio"

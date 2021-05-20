@@ -21,7 +21,12 @@
         "no": "Hvis du har opplevd ett eller flere av de problemene som nevnes, i hvor stor grad har problemene gjort det vanskelig for deg å utføre arbeidet ditt, ordne med ting hjemme eller å komme overens med andre?",
         "kn": "⁄ೕವು  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಗೆ ⁗ಕ್  ಾ‽ದದ್⁫, ಆ ಸಮⁱಯ್ಗಳು ⁄ಮಗೆ ⁄ಮಮ್ ಕೆಲಸವನುನ್  ಾಡಲು, ಮ⁤ಯ⁌ಲ್ನ ⁎ಷಯಗಳನುನ್ ⁤ೂೕ‽ಕೊಳಳ್ಲು, ಅಥ ಾ ಇತರ⁫ೂಂ⁂ಗೆ ⁲ೂಂ⁂ಕೊಂಡು ⁲ೂೕಗಲು ಎಷುಟ್ ಕಷಟ್ವನುನ್ಂಟು ಾ‽ದವು?",
         "ru": "Если Вы положительно ответили на какие-нибудь пункты, то оцените, насколько трудно Вам было работать, заниматься домашними делами или общаться с людьми из-за этих проблем?",
-        "pl": "Jeżeli zaznaczył/-a Pan/Pani którekolwiek z problemów, jak bardzo utrudniły one Panu/Pani wykonywanie pracy, zajmowanie się domem lub relacje z innymi ludźmi?"
+        "pl": "Jeżeli zaznaczył/-a Pan/Pani którekolwiek z problemów, jak bardzo utrudniły one Panu/Pani wykonywanie pracy, zajmowanie się domem lub relacje z innymi ludźmi?",
+        "bg": "Ако сте отбелязали някакви проблеми, доколко трудно Ви беше поради тези проблеми да се справяте с работата си, да се грижите за нещата у дома или да се разбирате с другите хора?",
+        "ms": "Jika anda menandakan sebarang masalah, sejauh manakah masalah-masalah tersebut membuatkan anda sukar untuk membuat kerja anda, menguruskan kerja-kerja di rumah atau bergaul dengan orang lain?",
+        "lv": "Ja Jūs uz kādu no 9 apgalvojumiem atbildējāt apstiprinoši, novērtējiet, cik lielas grūtības Jums radīja darbs, nodarbošanās ar sadzīves lietām vai saskarsme ar cilvēkiem",
+        "pt-PT": "Se indicou alguns problemas, até que ponto é que eles dificultaram o seu trabalho, o cuidar da casa ou o lidar com outras pessoas?",
+        "ro": "Dacă aţi bifat oricare din aceste probleme, cât de mult v-au îngreunat ele munca, rezolvarea treburilor de acasă sau buna înţelegere cu ceilalţi?"
     },
     "ui": {
         "inputType": "radio"
@@ -47,7 +52,12 @@
                     "fil": "Hinding-hindi pinahirapan",
                     "no": "Ikke vanskelig i det hele tatt",
                     "ru": "Совсем не трудно",
-                    "pl": "W ogóle nie utrudniły"
+                    "pl": "W ogóle nie utrudniły",
+                    "bg": "Въобще не ми беше трудно",
+                    "lv": "Nebija grūti",
+                    "ms": "Tidak mempunyai kesukaran langsung",
+                    "pt-PT": "Dificultaram extremamente",
+                    "ro": "Deloc"
 
                 },
                 "value": 0
@@ -67,7 +77,12 @@
                     "fil": "Medyo Pinahirapan",
                     "no": "Litt vanskelig",
                     "ru": "Немного трудно",
-                    "pl": "Trochę utrudniły"
+                    "pl": "Trochę utrudniły",
+                    "bg": "Донякъде трудно",
+                    "lv": "Nedaudz grūti",
+                    "ms": "Agak sukar",
+                    "pt-PT": "Dificultaram muito",
+                    "ro": "Oarecum"
                 },
                 "value": 1
             },
@@ -86,7 +101,12 @@
                     "fil": "Masyadong Pinahirapan",
                     "no": "Veldig vanskelig",
                     "ru": "Очень трудно",
-                    "pl": "Bardzo utrudniły"
+                    "pl": "Bardzo utrudniły",
+                    "bg": "Много трудно",
+                    "lv": "Ļoti grūti",
+                    "ms": "Sangat sukar",
+                    "pt-PT": "Dificultaram um pouco",
+                    "ro": "Foarte mult"
                 },
                 "value": 2
             },
@@ -105,7 +125,12 @@
                     "fil": "Labis na Pinahirapan",
                     "no": "Ekstremt vanskelig",
                     "ru": "Чрезвычайно трудно",
-                    "pl": "Niezmiernie utrudniły"
+                    "pl": "Niezmiernie utrudniły",
+                    "bg": "Изключително трудно",
+                    "lv": "Ārkārtīgi grūti",
+                    "ms": "Terlampau sukar",
+                    "pt-PT": "Não dificultaram",
+                    "ro": "Extrem de mult"
                 },
                 "value": 3
             }

@@ -21,7 +21,12 @@
         "no": "Tanker om at du like gjerne kunne vært død eller på annen måte ville skade deg selv",
         "kn": "⁄ೕವು ಸತತ್⁫ ⁗῿ಾನ್ಗಿರುತತ್⁢ ಎಂಬ ಅಥ ಾ  ಾವು´ಾದರೂ ⁋ೕ⁀ಯ⁌ಲ್ ⁄ಮಮ್ನುನ್ ‍ಾ⁄ಪ‽⁑ಕೊಳುಳ್ವ ⁶ೕಚ⁤ಗಳು",
         "ru": "Вас посещали мысли о том, что Вам лучше было бы умереть, или о том, чтобы причинить себе какой-нибудь вред",
-        "pl": "Myśli, że lepiej byłoby umrzeć, albo chęć zrobienia sobie jakiejś krzywdy"
+        "pl": "Myśli, że lepiej byłoby umrzeć, albo chęć zrobienia sobie jakiejś krzywdy",
+        "bg": "Мисли, че е по-добре да не сте жив (а) или желание да се нараните по някакъв начин",
+        "lv": "Domas, ka labāk būtu nomirt vai kaut kā nodarīt sev pāri",
+        "ms": "Memikirkan adalah lebih baik saja jika anda mati atau mencederakan diri sendiri dalam beberapa cara",
+        "pt-PT": "Pensei que seria melhor estar morto/a, ou em magoar-me a mim próprio/a de alguma forma",
+        "ro": "Gânduri că v-ar fi mai bine mort sau gândul de a vă face vreun rău"
     },
     "ui": {
         "inputType": "radio"

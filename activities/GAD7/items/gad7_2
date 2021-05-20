@@ -23,7 +23,13 @@
         "pt-PT": "Fui incapaz de parar de me preocupar ou de controlar as preocupações",
         "ro": "Incapacitatea de a vă opri sau controla îngrijorarea",
         "ru": "Вы были неспособны успокоиться или контролировать свое волнение",
-        "zh-CN": "不能停止或控制担心"
+        "zh-CN": "不能停止或控制担心",
+        "bg": "Неспособност да спрете да се тревожите или да контролирате тревогата си",
+        "da": "Ikke kunnet holde op med at bekymre dig eller ikke kunnet styre din bekymring",
+        "sv": "Inte kunnat sluta oroa dig eller kontrollera din oro",
+        "lv": "Nespējāt nomierināties vai kontrolēt satraukumu",
+        "ms": "Tidak mampu untuk berhenti daripada atau mengawal rasa bimbang",
+        "uk": "Ви не могли зупинити або контролювати своє хвилювання"
     },
     "ui": {
         "inputType": "radio"

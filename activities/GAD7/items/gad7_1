@@ -23,7 +23,13 @@
         "pt-PT": "Senti-me nervoso/a, ansioso/a ou irritado/a",
         "ro": "Sentimentul de nervozitate, anxietate sau tensiune",
         "ru": "Вы нервничали, тревожились или испытывали сильный стресс",
-        "zh-CN": "感觉心神不安、焦虑或高度紧张"
+        "zh-CN": "感觉心神不安、焦虑或高度紧张",
+        "bg": "Нервност, тревожност или чувство, че сте на ръба",
+        "da": "Følt dig nervøs, ængstelig eller anspændt",
+        "sv": "Känt dig nervös, ängslig eller väldigt stressad",
+        "lv": "Jutāt nervozitāti, raizes vai sasprindzinājumu",
+        "ms": "Berasa tidak senang, bimbang atau resah",
+        "uk": "Ви нервували, відчували тривогу або були дуже напружені"
 
     },
     "ui": {

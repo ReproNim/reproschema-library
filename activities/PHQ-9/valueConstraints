@@ -21,7 +21,12 @@
                 "no": "Ikke i det hele tatt",
                 "kn": "ಇಲಲ್⁮ೕ ಇಲಲ",
                 "ru": "Ни разу",
-                "pl": "Wcale nie dokuczały"
+                "pl": "Wcale nie dokuczały",
+                "bg": "Нито веднъж",
+                "lv": "Nemaz",
+                "ms": "Tiada langsung",
+                "pt-PT": "Nunca",
+                "ro": "Deloc"
             },
             "value": 0
         },
@@ -39,7 +44,12 @@
                 "no": "Noen dager",
                 "kn": "ಹಲ ಾರು ⁂ನಗಳು",
                 "ru": "Несколь ко дней",
-                "pl": "Kilka dni"
+                "pl": "Kilka dni",
+                "bg": "Няколко дни",
+                "lv": "Dažas dienas",
+                "ms": "Beberapa hari",
+                "pt-PT": "Em vários dias",
+                "ro": "Câteva zile"
             },
             "value": 1
         },
@@ -57,7 +67,12 @@
                 "no": "Mer enn halvparten av dagene",
                 "kn": "ಅಧರ್ಕಿಕ್ಂತ ⁲ಚುಚ್ ⁂ನಗಳು",
                 "ru": "Более недели",
-                "pl": "Więcej niż połowę dni"
+                "pl": "Więcej niż połowę dni",
+                "bg": "Повече от половината от дните",
+                "lv": "Vairāk par nedēļu",
+                "ms": "Lebih daripada 7 hari",
+                "pt-PT": "Em mais de metade do número de dias",
+                "ro": "Peste jumătate din zile"
             },
             "value": 2
         },
@@ -75,7 +90,12 @@
                 "no": "Nesten hver dag",
                 "kn": "⁲‷ಚ್ನಂಶ ಪರ್⁀⁂ನ",
                 "ru": "Почти каждый день",
-                "pl": "Niemal codzien-nie"
+                "pl": "Niemal codzien-nie",
+                "bg": "Почти всеки ден",
+                "lv": "Gandrīz katru dienu",
+                "ms": "Hampir setiap hari",
+                "pt-PT": "Em quase todos os dias",
+                "ro": "Aproape zilnic"
             },
             "value": 3
         }

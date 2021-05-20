@@ -21,7 +21,12 @@
         "no": "Følt deg trett eller slapp",
         "kn": "ಆ ಾಸಗೊಳುಳ್ವುದು ಅಥ ಾ ⁗ೖತನಯ್ ಇಲಲ್⁂ರುವುದು",
         "ru": "Вы были утомлены, или у Вас было мало сил",
-        "pl": "Uczucie zmęczenia lub brak energii"
+        "pl": "Uczucie zmęczenia lub brak energii",
+        "bg": "Чувство на умора или липса на енергия",
+        "lv": "Nogurums vai enerģijas trūkums",
+        "ms": "Rasa letih atau mempunyai sedikit tenaga",
+        "pt-PT": "Senti cansaço ou falta de energia",
+        "ro": "Senzaţia de oboseală sau lipsă de energie"
 
     },
     "ui": {

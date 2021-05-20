@@ -25,7 +25,13 @@
                 "pt-PT": "Nunca",
                 "ro": "Deloc",
                 "ru": "Ни разу",
-                "zh-CN": "从来 没有"
+                "zh-CN": "从来 没有",
+                "bg": "Нито веднъж",
+                "da": "Slet ikke",
+                "sv": "Inte alls",
+                "lv": "Nemaz",
+                "ms": "Tiada langsung",
+                "uk": "Зовсім не турбували"
             },
             "value": 0
         },
@@ -47,7 +53,13 @@
                 "pt-PT": "Em vários dias",
                 "ro": "Câteva zile",
                 "ru": "Несколько дней",
-                "zh-CN": "有几天"
+                "zh-CN": "有几天",
+                "bg": "Няколко дни",
+                "da": "Flere dage",
+                "sv": "Flera dagar",
+                "lv": "Dažas dienas",
+                "ms": "Beberapa hari",
+                "uk": "Декілька днів"
             },
             "value": 1
         },
@@ -69,7 +81,13 @@
                 "pt-PT": "Em mais de metade do número de dias",
                 "ro": "Peste jumătate din zile",
                 "ru": "Более недели",
-                "zh-CN": "刚超过 一半天数"
+                "zh-CN": "刚超过 一半天数",
+                "bg": "Повече от половината от дните",
+                "da": "Mere end halvdelen af dagene",
+                "sv": "Mer än hälften av dagarna",
+                "lv": "Vairāk par nedēļu",
+                "ms": "Lebih separuh daripada hari-hari tersebut",
+                "uk": "Більше половини усіх днів"
             },
             "value": 2
         },
@@ -91,7 +109,13 @@
                 "pt-PT": "Em quase todos os dias",
                 "ro": "Aproape zilnic",
                 "ru": "Почти каждый день",
-                "zh-CN": "接近 每天"
+                "zh-CN": "接近 每天",
+                "bg": "Почти всеки ден",
+                "da": "Næsten hver dag",
+                "sv": "Nästan varje dag",
+                "lv": "Gandrīz katru dienu",
+                "ms": "Hampir setiap hari",
+                "uk": "Майже щоденно"
             },
             "value": 3
         }

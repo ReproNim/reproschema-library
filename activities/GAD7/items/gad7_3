@@ -23,7 +23,13 @@
         "pt-PT": "Preocupei-me demais com diferentes assuntos",
         "ro": "Îngrijorarea excesivă pentru diverse lucruri",
         "ru": "Вы слишком сильно волновались по различным поводам",
-        "zh-CN": "为各种各样的事情过度担心"
+        "zh-CN": "为各种各样的事情过度担心",
+        "bg": "Прекалена тревога за различни неща",
+        "da": "Bekymret dig for meget om alt muligt",
+        "sv": "Oroat dig för mycket för olika saker",
+        "lv": "Pārmērīgi satraucāties par dažādām lietām",
+        "ms": "Terlalu banyak berasa bimbang mengenai berbagai perkara",
+        "uk": "Ви занадто хвилювались через різні речі"
     },
     "ui": {
         "inputType": "radio"

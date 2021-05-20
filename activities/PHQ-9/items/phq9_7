@@ -21,7 +21,12 @@
         "no": "Vansker med å konsentrere deg om ting, slik som å lese avisen eller se på TV",
         "kn": "ಪ⁀ರ್ಕೆಯನುನ್ ಓದಲು ಅಥ ಾ ⁛⁌⁎ಜನ್ ⁤ೂೕಡುವುದು ಇΏಾಯ್⁂ ⁎ಷಯಗಳ⁌ಲ್ ಗಮನ ಕೇಂ⁂ರ್ೕಕ⁋ಸಲು ⁠ೂಂದ⁫",
         "ru": "Вам было трудно сосредоточиться (например, на чтении газеты или на просмотре телепередач)",
-        "pl": "Problemy ze skupieniem się na przykład przy czytaniu gazety lub oglądaniu telewizji"
+        "pl": "Problemy ze skupieniem się na przykład przy czytaniu gazety lub oglądaniu telewizji",
+        "bg": "Проблеми с концентрацията при извършването на различни дейности, като например четене на вестници или гледане на телевизия",
+        "lv": "Grūtības koncentrēties, piemēram, lasīt avīzi vai skatīties TV",
+        "ms": "Masalah untuk menumpukan perhatian ke atas sesuatu perkara seperti membaca surat khabar atau menonton televisyen",
+        "pt-PT": "Tive dificuldade em concentrar-me nas coisas, como ao ler o jornal ou ver televisão",
+        "ro": "Dificultăţi de concentrare asupra unor lucruri precum cititul ziarului sau uitatul la televizor"
     },
     "ui": {
         "inputType": "radio"

@@ -23,7 +23,13 @@
         "pt-PT": "Tive dificuldade em relaxar",
         "ro": "Dificultăţi de relaxare",
         "ru": "Вам было трудно расслабиться",
-        "zh-CN": "难以放松"
+        "zh-CN": "难以放松",
+        "bg": "Проблеми с отпускането",
+        "da": "Haft svært ved at slappe af",
+        "lv": "Grūtības atslābināties",
+        "sv": "Haft svårt att slappna av",
+        "ms": "Sukar untuk relaks",
+        "uk": "Вам було важко розслабитись"
     },
     "ui": {
         "inputType": "radio"

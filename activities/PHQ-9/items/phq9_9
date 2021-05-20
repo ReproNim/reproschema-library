@@ -26,7 +26,10 @@
         "lv": "Domas, ka labāk būtu nomirt vai kaut kā nodarīt sev pāri",
         "ms": "Memikirkan adalah lebih baik saja jika anda mati atau mencederakan diri sendiri dalam beberapa cara",
         "pt-PT": "Pensei que seria melhor estar morto/a, ou em magoar-me a mim próprio/a de alguma forma",
-        "ro": "Gânduri că v-ar fi mai bine mort sau gândul de a vă face vreun rău"
+        "ro": "Gânduri că v-ar fi mai bine mort sau gândul de a vă face vreun rău",
+        "zh-CN": "想到自己最好去死或者自残",
+        "sv": "Tankar att det skulle vara bättre om du var död eller att du skulle skada dig på något sätt",
+        "uk": "У Вас були думки, що Вам краще б померти, або Ви думали про те, щоб заподіяти собі яку-небудь шкоду"
     },
     "ui": {
         "inputType": "radio"

@@ -26,7 +26,10 @@
         "lv": "Slikts/nomākts garastāvoklis, nospiestība vai bezcerības sajūta",
         "ms": "Rasa sedih, tidak gembira atau putus asa",
         "pt-PT": "Senti desânimo, desalento ou falta de esperança",
-        "ro": "Sentimentul de tristeţe, deprimare sau deznădăjduire"
+        "ro": "Sentimentul de tristeţe, deprimare sau deznădăjduire",
+        "zh-CN": "情绪低落、抑郁或绝望",
+        "sv": "Känt dig nedstämd, deprimerad eller upplevt känsla av hopplöshet",
+        "uk": "Ви почувалися сумними, пригніченими або безнадійними"
 
     },
     "ui": {

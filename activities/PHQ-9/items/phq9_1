@@ -26,7 +26,10 @@
         "lv": "Interešu un dzīvesprieka trūkums",
         "ms": "Kurang berminat atau keseronokan dalam melakukan sesuatu perkara",
         "pt-PT": "Tive pouco interesse ou prazer em fazer coisas",
-        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri"
+        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri",
+        "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
+        "sv": "Lite intresse eller glädje av att göra saker",
+        "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
      },
     "ui": {
         "inputType": "radio"

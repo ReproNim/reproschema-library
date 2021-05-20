@@ -26,7 +26,10 @@
         "lv": "Kustības un runa bija tik lēna, ka citi cilvēki to varēja pamanīt. Vai pretēji – bijāt tik satraukts/satraukta un rosīgs/rosīga, ka kustību aktivitāte kļuva lielāka nekā par sti",
         "ms": "Bergerak atau bercakap terlalu perlahan sehinggakan orang lain perasan? Atau sebaliknya — menjadi sangat resah atau gelisah sehinggakan anda telah bergerak dengan banyak daripada biasa",
         "pt-PT": "Movimentei-me ou falei tão lentamente que outras pessoas poderão ter notado. Ou o oposto: estive agitado/a a ponto de andar de um lado para o outro muito mais do que é habitual",
-        "ro": "Mişcarea sau vorbitul atât de lente încât alte persoane ar fi putut remarca? Sau contrariul — o stare de nelinişte sau agitaţie excesivă, care v-a făcut să vă mişcaţi mult mai mult decât de obicei"
+        "ro": "Mişcarea sau vorbitul atât de lente încât alte persoane ar fi putut remarca? Sau contrariul — o stare de nelinişte sau agitaţie excesivă, care v-a făcut să vă mişcaţi mult mai mult decât de obicei",
+        "zh-CN": "其它人反映你行动或说话迟缓；或者相反，你比平常活动更 多──坐立不安、停不下来",
+        "sv": "Att du rört dig eller talat så långsamt att andra människor märkt det? Eller motsatsen – att du varit så nervös eller rastlös att du rört dig mer än vanligt",
+        "uk": "Ви рухались або розмовляли настільки повільно, що інші люди могли б це помітити? Або ж навпаки, Ви були настільки метушливі або неспокійні, що пересувались набагато більше, ніж зазвичай"
     },
     "ui": {
         "inputType": "radio"

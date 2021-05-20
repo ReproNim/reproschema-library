@@ -26,7 +26,10 @@
         "lv": "Pazemināta ēstgriba vai pārēšanās",
         "ms": "Kurang selera atau makan berlebihan",
         "pt-PT": "Tive falta ou excesso de apetite",
-        "ro": "Apetit redus sau alimentare excesivă"
+        "ro": "Apetit redus sau alimentare excesivă",
+        "zh-CN": "胃口极差或饮食过量",
+        "sv": "Dålig aptit eller ätit för mycket",
+        "uk": "У Вас був поганий апетит, або Ви переїдали"
     },
     "ui": {
         "inputType": "radio"

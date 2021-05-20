@@ -26,7 +26,10 @@
         "lv": "Nogurums vai enerģijas trūkums",
         "ms": "Rasa letih atau mempunyai sedikit tenaga",
         "pt-PT": "Senti cansaço ou falta de energia",
-        "ro": "Senzaţia de oboseală sau lipsă de energie"
+        "ro": "Senzaţia de oboseală sau lipsă de energie",
+        "zh-CN": "觉得疲倦或沒有活力",
+        "sv": "Känt dig trött eller haft för lite energi",
+        "uk": "Ви відчували втому або мало сил"
 
     },
     "ui": {

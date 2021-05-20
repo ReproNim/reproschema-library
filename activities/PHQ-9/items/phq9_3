@@ -21,7 +21,12 @@
         "no": "Vansker med å sovne eller med å sove natten gjennom uten å våkne – eller med at du sover for mye",
         "kn": "⁄⁢ರ್ ಬರುವುದು ಅಥ ಾ ⁄⁢ರ್ಯ⁌ಲ್ರುವುದಕೆಕ್ ⁠ೂಂದ⁫, ಅಥ ಾ ಅ⁀ ಾಗಿ ⁄⁢ರ್  ಾಡುವುದು",
         "ru": "Вам было трудно заснуть, у Вас был прерывистый сон,или Вы слишком много спали",
-        "pl": "Kłopoty z zaśnięciem lub przerywany sen, albo zbyt długi sen"
+        "pl": "Kłopoty z zaśnięciem lub przerywany sen, albo zbyt długi sen",
+        "bg": "Проблеми със съня: трудно заспиване, неспокоен сън или прекалено много сън",
+        "lv": "Grūtības iemigt, caurs/trausls miegs vai pārāk ilga gulēšana",
+        "ms": "Masalah untuk tidur atau tidur nyenyak atau tidur berlebihan",
+        "pt-PT": "Tive dificuldade em adormecer ou em dormir sem interrupções, ou dormi demais",
+        "ro": "Dificultăţi de adormire sau de continuitate a somnului ori somnul prea îndelungat"
     },
     "ui": {
         "inputType": "radio"

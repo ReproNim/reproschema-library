@@ -21,7 +21,12 @@
         "no": "Vært misfornøyd med deg selv eller følt deg mislykket - eller følt at du har sviktet deg selv eller familien din",
         "kn": "⁄ಮಮ್ ಬಗೆಗ್ ⁄ಮಗೇ ಕೆಟಟ್  ಾವ⁤ — ಅಥ ಾ ⁄ೕವು ⁎ಫಲರು ಅಥ ಾ ⁄ೕವು ⁄ಮಮ್ ‍ಾಗೊ ಕುಟುಂಬದವರ ⁄⁋ೕ₃ಗಿಂತ ಕೆಳಮಟಟ್ದ⁌ಲ್⁂ದ್ೕ⁋ ಎಂಬ  ಾವ⁤",
         "ru": "Вы плохо о себе думали: считали себя неудачником(неудачницей), или были в себе разочарованы, или считали, что подвели свою семью",
-        "pl": "Poczucie niezadowolenia z siebie — lub uczucie, że jest się do niczego, albo że zawiódł/zawiodła Pan/Pani siebie lub rodzinę"
+        "pl": "Poczucie niezadowolenia z siebie — lub uczucie, że jest się do niczego, albo że zawiódł/zawiodła Pan/Pani siebie lub rodzinę",
+        "bg": "Отрицателно мнение за себе си или чувство, че сте неудачник, че сте разочаровали себе си или семейството си",
+        "lv": "Neapmierinātība ar sevi – sajūta, ka esat neveiksminieks/-ce vai arī esat pievīlis/-usi savas vai ģimenes cerības",
+        "ms": "Rasa buruk mengenai diri anda — atau anda seorang yang gagal atau anda telah menyebabkan diri anda atau keluarga anda kecewa",
+        "pt-PT": "Senti que não gosto de mim próprio/a — ou que sou um(a) falhado/a ou me desiludi a mim próprio/a ou à minha família",
+        "ro": "Sentimente negative la adresa dvs. — sau că sunteţi un (o) ratat(ă) sau că v-aţi dezamăgit, pe dvs. sau familia dvs."
     },
     "ui": {
         "inputType": "radio"

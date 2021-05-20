@@ -24,7 +24,13 @@
         "fil": "Nitong nakaraang 14 na araw, gaano ka kadalas binagabag ng alinman sa mga sumusunod na mga problema?",
         "no": "Hvor ofte har du vært plaget av ett eller flere av de følgende problemene i løpet av de siste 2 ukene,?",
         "kn": "ಕ⁭ದ 2  ಾರಗಳ⁌ಲ್, ⁄ೕವು ಪ⁢ೕ ಪ⁢ೕ ಈ ಕೆಳಗಿನ  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಂದ ಎಷುಟ್ ‷ಂ⁀ತ ಾಗಿ⁂ದ್⁋?",
-        "ru": "Как часто за последние 2 недели Вас беспокоили следующие проблемы?"
+        "ru": "Как часто за последние 2 недели Вас беспокоили следующие проблемы?",
+        "pl": "Jak często w ciągu ostatnich 2 tygodni dokuczały Panu/Pani następujące problemy?",
+        "bg": "Колко често през изминалите две седмици, сте бил (а) обезпокоен (а) от следните проблеми?",
+        "lv": "Cik bieži pēdējo 2 nedēļu laikā Jūs ir apgrūtinājušas kādas no šādām problēmām?",
+        "ms": "Dalam tempoh 2 minggu yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
+        "pt-PT": "Durante os últimos 14 dias, em quantos foi afectado/a por algum dos seguintes problemas?",
+        "ro": "În ultimele 2 săptămâni, cât de des v-a deranjat oricare dintre următoarele probleme?"
     },
     "compute": [
         {

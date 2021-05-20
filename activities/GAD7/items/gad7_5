@@ -23,7 +23,13 @@
         "pt-PT": "Estive tão inquieto/a que era difícil ficar sossegado/a",
         "ro": "O nelinişte excesivă, din cauza căreia v-a fost-a fost dificil să staţi liniştit",
         "ru": "Вы были настолько суетливы, что Вам было тяжело усидеть на месте",
-        "zh-CN": "非常不安静以至于难以坐定"
+        "zh-CN": "非常不安静以至于难以坐定",
+        "bg": "Чувство за безпокойство, което трудно позволява да стоите на едно място",
+        "da": "Været så rastløs, at du har haft svært ved at sidde stille",
+        "sv": "Varit så rastlös att du har haft svårt att sitta still",
+        "lv": "Bijāt tik nemierīgs, ka nespējāt nosēdēt uz vietas",
+        "ms": "Menjadi terlalu gelisah sehinggakan payah untuk duduk diam",
+        "uk": "Ви були настільки неспокійні, що Вам було важко всидіти на одному місці"
     },
     "ui": {
         "inputType": "radio"

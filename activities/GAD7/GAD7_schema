@@ -24,7 +24,13 @@
         "pt-PT": "Durante os últimos 14 dias, em quantos foi afectado/a pelos seguintes problemas?",
         "ro": "În ultimele 2 săptămâni, cât de des v-au deranjat următoarele probleme?",
         "ru": "Как часто Вас за последние 14 дней беспокоили следующие проблемы?",
-        "zh-CN": "在过去两周，您经常受到以下问题的困扰吗"
+        "zh-CN": "在过去两周，您经常受到以下问题的困扰吗",
+        "bg": "Колко често през изминалите две седмици, сте бил (а) обезпокоен (а) от следните проблеми?",
+        "da": "Hvor ofte i de sidste 14 dage har du været generet af følgende problemer?",
+        "sv": "Under de senaste 14 dagarna, hur ofta har du du besvärats av följande problem?",
+        "lv": "Cik bieži pēdējo 2 nedēļu laikā Jūs saskārāties ar kādu no zemāk minētajām problēmām?",
+        "ms": "Dalam tempoh 14 hari yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
+        "uk": "Як часто за останні 2 тижні Вас турбували наступні проблеми?"
     },
     "compute": [
         {

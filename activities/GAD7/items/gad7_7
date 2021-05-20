@@ -22,7 +22,13 @@
         "pl": "Obawiał(a) się Pan(i), tak jakby miało się stać coś strasznego",
         "ro": "Un sentiment de teamă ca şi cum s-ar putea întâmpla ceva groaznic",
         "ru": "Вы испытывали страх, словно должно произойти нечто ужасное",
-        "zh-CN": "害怕发生可怕的事情"
+        "zh-CN": "害怕发生可怕的事情",
+        "bg": "Страх, че може да се случи нещо ужасно",
+        "da": "Været bange, som om noget frygteligt kunne ske",
+        "sv": "Känt dig rädd för att något hemskt skulle hända",
+        "lv": "Jutāt bailes, ka varētu notikt kaut kas šausmīgs",
+        "ms": "Berasa takut seolah-olah sesuatu yang sangat buruk mungkin berlaku",
+        "uk": "Ви відчували страх, неначе щось жахливе може статися"
     },
     "ui": {
         "inputType": "radio"

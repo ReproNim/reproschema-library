@@ -21,8 +21,13 @@
         "no": "Lite interesse for eller glede over å gjøre ting",
         "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ",
         "ru": "Вам не хотелось ничего делать",
-        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności"
-    },
+        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności",
+        "bg": "Слаб интерес или минимално удоволствие от правенето на различни неща",
+        "lv": "Interešu un dzīvesprieka trūkums",
+        "ms": "Kurang berminat atau keseronokan dalam melakukan sesuatu perkara",
+        "pt-PT": "Tive pouco interesse ou prazer em fazer coisas",
+        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri"
+     },
     "ui": {
         "inputType": "radio"
     },

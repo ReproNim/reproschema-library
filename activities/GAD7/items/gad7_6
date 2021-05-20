@@ -23,7 +23,13 @@
         "pt-PT": "Estive facilmente incomodado/a ou irritável",
         "ro": "Apariţia uşoară a enervării sau iritabilităţii",
         "ru": "Вы легко злились или раздражались",
-        "zh-CN": "变得易恼火或易急躁"
+        "zh-CN": "变得易恼火或易急躁",
+        "bg": "Лесно достигане на състояние на яд или раздразнителност",
+        "da": "Haft let ved at blive sur eller irritabel",
+        "sv": "Blivit lätt irriterad eller retlig",
+        "lv": "Viegli kļuvāt aizkaitināms/-a",
+        "ms": "Menjadi mudah naik berang atau lekas marah",
+        "uk": "Вам було легко дошкулити або роздратувати"
     },
     "ui": {
         "inputType": "radio"

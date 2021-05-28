@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 3,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Not bothered at all",
+            "value": 0
+        },
+        {
+            "name": "Bothered a little",
+            "value": 1
+        },
+        {
+            "name": "Bothered a lot",
+            "value": 2
+        }
+    ]
+}

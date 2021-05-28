@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "radio_item",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "Worrying about your health",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Periods are unchanged",
+                "value": 0
+            },
+            {
+                "name": "No periods because pregnant or recently gave birth",
+                "value": 1
+            },
+            {
+                "name": "Periods have become irregular or changed in frequency, duration, or amount",
+                "value": 2
+            },
+            {
+                "name": "No periods for at least a year",
+                "value": 3
+            },
+            {
+                "name": "Having periods because taking hormone replacement (estrogen) therapy or oral contraceptives",
+                "value": 4
+            }
+        ]
+    }
+}

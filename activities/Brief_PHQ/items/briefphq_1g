@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9a_6",
-    "prefLabel": "PHQ9a-6",
-    "description": "schema for Q6 of the derived PHQ-9 Assessment",
+    "@id": "briefphq_1g",
+    "prefLabel": "Brief PHQ q1g",
+    "description": "schema for Q1g of the derived Brief PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Feeling bad about yourself or that you are a failure or have let yourself or your family down?",
+    "question": "Trouble concentrating on things, such as reading the newspaper or watching television?",
     "ui": {
         "inputType": "radio"
     },

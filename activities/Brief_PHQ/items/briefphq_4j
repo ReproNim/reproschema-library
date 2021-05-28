@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "radio_item",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "Thinking or dreaming about something terrible that happened to you\nin the past—like your house being destroyed, a severe accident, being hit or assaulted, or being forced to commit a sexual act",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Not bothered",
+                "value": 0
+            },
+            {
+                "name": "Bothered a little",
+                "value": 1
+            },
+            {
+                "name": "Bothered a lot",
+                "value": 2
+            }
+        ]
+    }
+}

@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9a_9",
+    "@id": "briefphq_1i",
     "prefLabel": "PHQ9a-9",
-    "description": "schema for Q9 of the derived PHQ-9 Assessment",
+    "description": "schema for Q1i of the Brief PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Thoughts that you would be better off dead or of hurting yourself in some way?",

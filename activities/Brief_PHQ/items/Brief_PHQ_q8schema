@@ -1,0 +1,76 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "Brief_PHQ_q8schema",
+    "prefLabel": {
+        "en": "Brief PHQ Assessment",
+        "es": "Breve PHQ Evaluación"
+    },
+    "description": "PHQ-9 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "compute": [
+        {
+            "variableName": "briefphq8_total_score",
+            "jsExpression": "briefphq_8a + briefphq_8b + briefphq_8c + briefphq_8d + briefphq_8e + briefphq_8f"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/briefphq_8a",
+                "variableName": "briefphq_8a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_8b",
+                "variableName": "briefphq_8b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_8c",
+                "variableName": "briefphq_8c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_8d",
+                "variableName": "briefphq_8d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_8e",
+                "variableName": "briefphq_8e",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_8f",
+                "variableName": "briefphq_8f",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq8_total_score",
+                "variableName": "briefphq8_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/briefphq_8a",
+            "items/briefphq_8b",
+            "items/briefphq_8c",
+            "items/briefphq_8d",
+            "items/briefphq_8e",
+            "items/briefphq_8f"
+        ],
+        "shuffle": false
+    }
+}

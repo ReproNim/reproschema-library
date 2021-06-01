@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "Brief_PHQ_q4schema",
+    "@id": "Brief_PHQ_q2schema",
     "prefLabel": {
         "en": "Brief PHQ Assessment",
         "es": "Breve PHQ Evaluación"
@@ -15,8 +15,8 @@
     },
     "compute": [
         {
-            "variableName": "briefphq4_total_score",
-            "jsExpression": "briefphq_4a + briefphq_4b + briefphq_4c + briefphq_4d + briefphq_4e + briefphq_4f + briefphq_4g + briefphq_4h + briefphq_4i + briefphq_4j"
+            "variableName": "briefphq_q2_total_score",
+            "jsExpression": "briefphq_2a + briefphq_2b + briefphq_2c + briefphq_2d + briefphq_2e"
         }
     ],
     "ui": {
@@ -52,51 +52,17 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/briefphq_4f",
-                "variableName": "briefphq_4f",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/briefphq_4g",
-                "variableName": "briefphq_4g",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/briefphq_4h",
-                "variableName": "briefphq_4h",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/briefphq_4i",
-                "variableName": "briefphq_4i",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/briefphq_4j",
-                "variableName": "briefphq_4j",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/briefphq_total_score",
-                "variableName": "briefphq4_total_score",
+                "isAbout": "items/phq9_total_score",
+                "variableName": "phq9_total_score",
                 "isVis": false
             }
         ],
         "order": [
-            "items/briefphq_4a",
-            "items/briefphq_4b",
-            "items/briefphq_4c",
-            "items/briefphq_4d",
-            "items/briefphq_4e",
-            "items/briefphq_4f",
-            "items/briefphq_4g",
-            "items/briefphq_4h",
-            "items/briefphq_4i",
-            "items/briefphq_4j"
+            "items/briefphq_2a",
+            "items/briefphq_2b",
+            "items/briefphq_2c",
+            "items/briefphq_2d",
+            "items/briefphq_2e"
         ],
         "shuffle": false
     }

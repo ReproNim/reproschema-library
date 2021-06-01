@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9a_2",
+    "@id": "briefphq_1b",
     "prefLabel": "BriefPHQ-1b",
     "description": "Q1b of the derived Brief PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",

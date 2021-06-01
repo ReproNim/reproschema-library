@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ9_schema",
+    "@id": "Brief_PHQ_1schema",
     "prefLabel": {
         "en": "Brief PHQ Assessment",
         "es": "Breve PHQ Evaluación"

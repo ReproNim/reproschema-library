@@ -115,15 +115,21 @@
         ],
         "order": [
             "items/phq15_1",
-            "items/phq9a_2",
-            "items/phq9a_3",
-            "items/phq9a_4",
-            "items/phq9a_5",
-            "items/phq9a_6",
-            "items/phq9a_7",
-            "items/phq9a_8",
-            "items/phq9a_9",
-            "items/phq9a_10"
+            "items/phq15_2",
+            "items/phq15_3",
+            "items/phq15_4",
+            "items/phq15_5",
+            "items/phq15_6",
+            "items/phq15_7",
+            "items/phq15_8",
+            "items/phq15_9",
+            "items/phq15_10",
+            "items/phq15_11",
+            "items/phq15_12",
+            "items/phq15_13",
+            "items/phq15_14",
+            "items/phq15_15",
+            "items/phq15_16"
         ],
         "shuffle": false
     }

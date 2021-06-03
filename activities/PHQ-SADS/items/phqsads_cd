@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "briefphq_2a",
+    "@id": "phqsads_cd",
     "prefLabel": "radio item",
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "In the last 4 weeks, have you had an anxiety attack—\nsuddenly feeling fear or panic?",
+    "question": "Do these attacks bother you a lot or are you worried about having another attack?",
     "ui": {
         "inputType": "radio"
     },

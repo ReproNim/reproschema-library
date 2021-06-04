@@ -15,15 +15,14 @@
     "compute": [
         {
             "variableName": "phqsads_total_score",
-            "jsExpression": "phq8 + phq8_2 + phq8_3 + phq8_4 + phq8_5 + phq8_6 + phq8_7 + phq8_8"
+            "jsExpression": "phq15_total_score + gad7_total_score + phqsads_ca + phqsads_cb + phqsads_cc + phqsads_cd + phq + phq8_total_score"
         }
     ],
     "ui": {
         "addProperties": [
 	        {"isAbout": "../activities/PHQ_15/phq15_schema",
             "variableName": "phq15_schema",
-            "prefLabel": {"en": "A"},
-	    "isVis": true
+            "prefLabel": {"en": "A"}
             },
             {"isAbout": "../activities/GAD7/GAD7_schema",
             "variableName": "GAD7_schema",
@@ -31,23 +30,28 @@
             },
             {"isAbout": "items/phqsads_ca",
             "variableName": "phqsads_ca",
-            "prefLabel": {"en": "ca"}
+            "prefLabel": {"en": "ca"},
+            "isVis": true
             },
             {"isAbout": "items/phqsads_cb",
             "variableName": "phqsads_cb",
-            "prefLabel": {"en": "cb"}
+            "prefLabel": {"en": "cb"},
+            "isVis": true
             },
             {"isAbout": "items/phqsads_cc",
             "variableName": "phqsads_cc",
-            "prefLabel": {"en": "cc"}
+            "prefLabel": {"en": "cc"},
+            "isVis": true
             },
             {"isAbout": "items/phqsads_cd",
             "variableName": "phqsads_cd",
-            "prefLabel": {"en": "cd"}
+            "prefLabel": {"en": "cd"},
+            "isVis": true
             },
             {"isAbout": "items/phqsads_ce",
             "variableName": "phqsads_ce",
-            "prefLabel": {"en": "ce"}
+            "prefLabel": {"en": "ce"},
+            "isVis": true
             },
             {"isAbout": "../activities/PHQ-8/PHQ8_schema",
             "variableName": "PHQ8_schema",

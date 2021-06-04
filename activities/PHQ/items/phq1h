@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq1h",
+    "prefLabel": "PHQ1h",
+    "description": "Q1h of the derived PHQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "Dizziness",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

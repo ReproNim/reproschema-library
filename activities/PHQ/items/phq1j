@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq1j",
+    "prefLabel": "PHQ1j",
+    "description": "Q1j of the derived PHQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "Feeling your heart pound or race",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

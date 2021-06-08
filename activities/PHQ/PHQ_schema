@@ -10,7 +10,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+        "en": "This questionnaire is an important part of providing you with the best health care possible. Your answers will help in understanding problems that you may have. Please answer every question to the best of your ability unless you are requested to skip over a question."
     },
     "compute": [
         {

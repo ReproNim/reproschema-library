@@ -1,0 +1,125 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ1_schema",
+    "prefLabel": {
+        "en": "PHQ-1 Assessment",
+        "es": "PHQ-1 Evaluación"
+    },
+    "description": "PHQ-1 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "compute": [
+        {
+            "variableName": "phq1_total_score",
+            "jsExpression": "phq1a + phq1b + phq1c + phq1d + phq1e + phq1f + phq1g + phq1h + phq1i + phq1j +phq1k + phq1l + phq1m"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq1a",
+                "variableName": "phq1a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1b",
+                "variableName": "phq1b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1c",
+                "variableName": "phq1c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1d",
+                "variableName": "phq1d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1e",
+                "variableName": "phq1e",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1f",
+                "variableName": "phq1f",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1g",
+                "variableName": "phq1g",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq1h",
+                "variableName": "phq1h",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq1i",
+                "variableName": "phq1i",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq1j",
+                "variableName": "phq1j",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq1k",
+                "variableName": "phq1k",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq1l",
+                "variableName": "phq1l",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1m",
+                "variableName": "phq1m",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq1_total_score",
+                "variableName": "phq1_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq1a",
+            "items/phq1b",
+            "items/phq1c",
+            "items/phq1d",
+            "items/phq1e",
+            "items/phq1f",
+            "items/phq1g",
+            "items/phq1h",
+            "items/phq1i",
+            "items/phq1j",
+            "items/phq1k",
+            "items/phq1l",
+            "items/phq1m"
+        ],
+        "shuffle": false
+    }
+}

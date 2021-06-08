@@ -1,0 +1,69 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ7_schema",
+    "prefLabel": {
+        "en": "PHQ-7 Assessment",
+        "es": "PHQ-7 Evaluación"
+    },
+    "description": "PHQ-7 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?"
+    },
+    "compute": [
+        {
+            "variableName": "phq10_total_score",
+            "jsExpression": "phq10a + phq10b + phq10c + phq10d + phq10e"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq10a",
+                "variableName": "phq10a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10b",
+                "variableName": "phq10b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10c",
+                "variableName": "phq10c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10d",
+                "variableName": "phq10d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10e",
+                "variableName": "phq10e",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10_total_score",
+                "variableName": "phq10_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq10a",
+            "items/phq10b",
+            "items/phq10c",
+            "items/phq10d",
+            "items/phq10e"
+        ],
+        "shuffle": false
+    }
+}

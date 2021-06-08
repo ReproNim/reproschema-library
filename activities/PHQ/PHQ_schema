@@ -1,0 +1,89 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ8_schema",
+    "prefLabel": {
+        "en": "PHQ-8 Assessment",
+        "es": "PHQ-8 Evaluación"
+    },
+    "description": "PHQ-8 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "compute": [
+        {
+            "variableName": "phq_total_score",
+            "jsExpression": "phq1_total_score + phq2_total_score + phq3_total_score + phq4_total_score + phq5_total_score + phq6_total_score + phq7_total_score + phq8 + phq9 + phq10_total_score + phq11"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+	        {"isAbout": "../activities/PHQ/PHQ1_schema",
+            "variableName": "PHQ1_schema",
+            "prefLabel": {"en": "1"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ2_schema",
+            "variableName": "PHQ2_schema",
+            "prefLabel": {"en": "2"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ3_schema",
+            "variableName": "PHQ3_schema",
+            "prefLabel": {"en": "3"}
+            },
+            {"isAbout": "../activities/PHQ/PHQq4_schema",
+            "variableName": "PHQq4_schema",
+            "prefLabel": {"en": "4"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ5_schema",
+            "variableName": "PHQ5_schema",
+            "prefLabel": {"en": "5"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ6_schema",
+            "variableName": "PHQ6_schema",
+            "prefLabel": {"en": "6"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ7_schema",
+            "variableName": "PHQ7_schema",
+            "prefLabel": {"en": "7"}
+            },
+            {"isAbout": "items/phq8",
+            "variableName": "phq8",
+            "prefLabel": {"en": "8"},
+            "isVis": true
+            },
+            {"isAbout": "items/phq9",
+            "variableName": "phq9",
+            "prefLabel": {"en": "9"},
+            "isVis": true
+            },
+            {"isAbout": "../activities/PHQ/PHQ10_schema",
+            "variableName": "PHQ10_schema",
+            "prefLabel": {"en": "10"}
+            },
+            {"isAbout": "items/phq11",
+            "variableName": "phq11",
+            "prefLabel": {"en": "11"}
+            }
+        ],
+    "order": [
+            "../activities/PHQ/PHQ1_schema",
+            "../activities/PHQ/PHQ2_schema",
+            "../activities/PHQ/PHQ3_schema",
+            "../activities/PHQ/PHQ4_schema",
+            "../activities/PHQ/PHQ5_schema",
+            "../activities/PHQ/PHQ6_schema",
+            "../activities/PHQ/PHQ7_schema",
+            "items/phq8",
+            "items/phq9",
+            "../activities/PHQ/PHQ10_schema",
+            "items/phq11"
+        ],
+        "shuffle": false,
+        "allow":
+        ["reproschema:AutoAdvance",
+         "reproschema:Export"
+        ]
+    }
+}

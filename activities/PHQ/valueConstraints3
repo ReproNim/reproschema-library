@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 2,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Not at all",
+            "value": 0
+        },
+        {
+            "name": "Several days",
+            "value": 1
+        },
+        {
+            "name": "More than half the days",
+            "value": 2
+        }
+    ]
+}

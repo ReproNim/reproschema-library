@@ -1,0 +1,55 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ6_schema",
+    "prefLabel": {
+        "en": "PHQ-6 Assessment",
+        "es": "PHQ-6 Evaluación"
+    },
+    "description": "PHQ-6 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Questions about eating"
+    },
+    "compute": [
+        {
+            "variableName": "phq6_total_score",
+            "jsExpression": "phq6a + phq6b + phq6c"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq6a",
+                "variableName": "phq6a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq6b",
+                "variableName": "phq6b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq6c",
+                "variableName": "phq6c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq6_total_score",
+                "variableName": "phq6_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq6a",
+            "items/phq6b",
+            "items/phq6c"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,61 +1,61 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ4_schema",
+    "@id": "PHQ7_schema",
     "prefLabel": {
-        "en": "PHQ-4 Assessment",
-        "es": "PHQ-4 Evaluación"
+        "en": "PHQ-7 Assessment",
+        "es": "PHQ-7 Evaluación"
     },
-    "description": "PHQ-4 assessment schema",
+    "description": "PHQ-7 assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?"
     },
     "compute": [
         {
-            "variableName": "phq4_total_score",
-            "jsExpression": "phq4_1 + phq4_2 + phq4_3 + phq4_4"
+            "variableName": "phq7_total_score",
+            "jsExpression": "phq7a + phq7b + phq7c + phq7d"
         }
     ],
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/phq4_1",
-                "variableName": "phq4_1",
+                "isAbout": "items/phq7a",
+                "variableName": "phq7a",
                 "valueRequired": true,
                 "isVis": true
             },
             {
-                "isAbout": "items/phq4_2",
-                "variableName": "phq4_2",
+                "isAbout": "items/phq7b",
+                "variableName": "phq7b",
                 "valueRequired": true,
                 "isVis": true
             },
             {
-                "isAbout": "items/phq4_3",
-                "variableName": "phq4_3",
+                "isAbout": "items/phq7c",
+                "variableName": "phq7c",
                 "valueRequired": true,
                 "isVis": true
             },
             {
-                "isAbout": "items/phq4_4",
-                "variableName": "phq4_4",
+                "isAbout": "items/phq7d",
+                "variableName": "phq7d",
                 "valueRequired": true,
                 "isVis": true
             },
             {
-                "isAbout": "items/phq4_total_score",
-                "variableName": "phq4_total_score",
+                "isAbout": "items/phq7_total_score",
+                "variableName": "phq7_total_score",
                 "isVis": false
             }
         ],
         "order": [
-            "items/phq4_1",
-            "items/phq4_2",
-            "items/phq4_3",
-            "items/phq4_4"
+            "items/phq7a",
+            "items/phq7b",
+            "items/phq7c",
+            "items/phq7d"
         ],
         "shuffle": false
     }

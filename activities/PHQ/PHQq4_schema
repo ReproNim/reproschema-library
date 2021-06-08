@@ -1,0 +1,111 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ2_schema",
+    "prefLabel": {
+        "en": "PHQ-2 Assessment",
+        "es": "PHQ-2 Evaluación"
+    },
+    "description": "PHQ-1 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Think about your last bad anxiety attack"
+    },
+    "compute": [
+        {
+            "variableName": "phq4_total_score",
+            "jsExpression": "phq4a + phq4b + phq4c + phq4d + phq4e + phq4f + phq4g + phq4h + phq4i + phq4j + phq4k"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq4a",
+                "variableName": "phq4a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4b",
+                "variableName": "phq4b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4c",
+                "variableName": "phq4c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4d",
+                "variableName": "phq4d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4e",
+                "variableName": "phq4e",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4f",
+                "variableName": "phq4f",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4g",
+                "variableName": "phq4g",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq4h",
+                "variableName": "phq4h",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq4i",
+                "variableName": "phq4i",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4j",
+                "variableName": "phq4j",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4k",
+                "variableName": "phq4k",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4_total_score",
+                "variableName": "phq4_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq4a",
+            "items/phq4b",
+            "items/phq4c",
+            "items/phq4d",
+            "items/phq4e",
+            "items/phq4f",
+            "items/phq4g",
+            "items/phq4h",
+            "items/phq4i",
+            "items/phq4j",
+            "items/phq4k"
+        ],
+        "shuffle": false
+    }
+}

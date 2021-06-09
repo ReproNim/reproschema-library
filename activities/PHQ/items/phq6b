@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Do you often eat, within any 2-hour period, what most people would regard as an unusually large amount of food?",
+    "question": {
+        "en": "Do you often eat, within any 2-hour period, what most people would regard as an unusually large amount of food?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

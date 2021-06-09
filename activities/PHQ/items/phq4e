@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Did you feel as if you were choking?",
+    "question": {
+        "en": "Did you feel as if you were choking?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

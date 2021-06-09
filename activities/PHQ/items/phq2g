@@ -7,6 +7,10 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Trouble concentrating on things, such as reading the newspaper or watching television?",
+    "question": {
+        "en": "Menstrual cramps or other problems with your periods",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

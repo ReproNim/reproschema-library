@@ -6,7 +6,10 @@
     "description": "Q1d of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Menstrual cramps or other problems with your periods",
+    "question": {
+        "en": "Menstrual cramps or other problems with your periods",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

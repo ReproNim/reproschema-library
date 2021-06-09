@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "You drank alcohol even though a doctor suggested that you stop drinking because of a problem with your health.",
+    "question": {
+        "en": "You drank alcohol even though a doctor suggested that you stop drinking because of a problem with your health.",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

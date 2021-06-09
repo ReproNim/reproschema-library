@@ -6,7 +6,10 @@
     "description": "Q5a of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Trouble falling asleep or staying asleep.",
+    "question": {
+        "en": "Trouble falling asleep or staying asleep.",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

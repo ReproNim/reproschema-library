@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Do some of these attacks come suddenly out of the blue—that is,\nin situations where you don't expect to be nervous or uncomfortable?",
+    "question": {
+        "en": "Do some of these attacks come suddenly out of the blue—that is, in situations where you don't expect to be nervous or uncomfortable?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

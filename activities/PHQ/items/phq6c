@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Has this been as often, on average, as twice a week for the last 3 months?",
+    "question": {
+        "en": "Has this been as often, on average, as twice a week for the last 3 months?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

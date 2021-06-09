@@ -6,7 +6,10 @@
     "description": "Q1m of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Nausea, gas, or indigestion",
+    "question": {
+        "en": "Nausea, gas, or indigestion",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

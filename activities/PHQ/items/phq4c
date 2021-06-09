@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Did you have chest pain or pressure?",
+    "question": {
+        "en": "Did you have chest pain or pressure?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

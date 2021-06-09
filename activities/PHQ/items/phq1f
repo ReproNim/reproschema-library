@@ -6,7 +6,10 @@
     "description": "Q1f of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Headaches",
+    "question": {
+        "en": "Headaches",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

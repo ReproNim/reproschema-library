@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "In the last 4 weeks, have you had an anxiety attack— suddenly feeling fear or panic?",
+    "question": {
+        "en": "In the last 4 weeks, have you had an anxiety attack— suddenly feeling fear or panic?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

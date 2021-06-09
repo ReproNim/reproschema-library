@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "You missed or were late for work, school, or other activities because you were drinking or hung over.",
+    "question": {
+        "en": "You missed or were late for work, school, or other activities because you were drinking or hung over.",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

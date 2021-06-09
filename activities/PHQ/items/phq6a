@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Do you often feel that you can’t control what or how much you eat?",
+    "question": {
+        "en": "Do you often feel that you can’t control what or how much you eat?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

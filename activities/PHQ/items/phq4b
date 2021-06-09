@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Did your heart race, pound, or skip?",
+    "question": {
+        "en": "Did your heart race, pound, or skip?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

@@ -6,7 +6,10 @@
     "description": "Q5a of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Trouble concentrating on things, such as reading a book or watching TV.",
+    "question": {
+        "en": "Trouble concentrating on things, such as reading a book or watching TV.",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

@@ -6,7 +6,10 @@
     "description": "Q1e of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Pain or problems during sexual intercourse",
+    "question": {
+        "en": "Pain or problems during sexual intercourse",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

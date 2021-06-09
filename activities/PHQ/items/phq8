@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "If you checked “YES” to any of these ways of avoiding gaining weight,\nwere any as often, on average, as twice a week?",
+    "question": {
+        "en": "If you checked “YES” to any of these ways of avoiding gaining weight,\nwere any as often, on average, as twice a week?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

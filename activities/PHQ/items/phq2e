@@ -6,7 +6,10 @@
     "description": "schema for Q5 of the derived PHQ-9 Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Poor appetite or overeating?",
+    "question": {
+        "en": "Poor appetite or overeating?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

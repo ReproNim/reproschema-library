@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Did you tremble or shake?",
+    "question": {
+        "en": "Did you tremble or shake?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

@@ -6,7 +6,10 @@
     "description": "schema for Q6 of the derived PHQ-9 Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Feeling bad about yourself or that you are a failure or have let yourself or your family down?",
+    "question": {
+        "en": "Feeling bad about yourself or that you are a failure or have let yourself or your family down?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

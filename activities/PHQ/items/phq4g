@@ -6,7 +6,10 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Did you have nausea or an upset stomach, or the feeling that you were going to have diarrhea?",
+    "question": {
+        "en": "Did you have nausea or an upset stomach, or the feeling that you were going to have diarrhea?",
+        "": ""
+     },
     "ui": {
         "inputType": "radio"
     },

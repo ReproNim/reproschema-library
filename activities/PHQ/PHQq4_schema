@@ -15,7 +15,7 @@
     },
     "compute": [
         {
-            "variableName": "phq4_total_score",
+            "variableName": "phqq4_total_score",
             "jsExpression": "phq4a + phq4b + phq4c + phq4d + phq4e + phq4f + phq4g + phq4h + phq4i + phq4j + phq4k"
         }
     ],

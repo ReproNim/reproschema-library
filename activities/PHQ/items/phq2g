@@ -6,10 +6,29 @@
     "description": "schema for Q7 of the derived PHQ-9 Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Trouble concentrating on things, such as reading the newspaper or watching television?",
     "question": {
-        "en": "Menstrual cramps or other problems with your periods",
-        "": ""
+        "en": "Trouble concentrating on things, such as reading the newspaper or watching television?",
+        "es": "\u00bfHa tenido dificultad para concentrarse en ciertas actividades, tales como leer el peridico o ver la televisin?",
+        "nl": "Problemen om u te concentreren, bijvoorbeeld om de krant te lezen of om tv te kijken",
+        "fr": "Avoir du mal à se concentrer, par exemple, pour lire le journal ou regarder la télévision",
+        "ar": "صعوبة في الترآيز مثلاً أثناء قراءة الصحيفة أو مشاهدة التلفزيون",
+        "pt-BR": "Dificuldade para se concentrar nas coisas, como ler o jornal ou ver televisão",
+        "ko": "신문을 읽거나 텔레비전 보는 것과 같은 일에 집중하는 것이 어려움",
+        "it": "Difficoltà a concentrarsi su qualcosa, per esempio leggere il giornale o guardare la televisione",
+        "ja": "新聞を読む、またはテレビを見ることなどに集中することが 難しい",
+        "fi": "Vaikeus keskittyä asioihin, kuten lehden lukemiseen tai television katseluun",
+        "fil": "Hirap magtuon ng pansin sa mga bagay, tulad ng pagbabasa ng dyaryo or panonood ng telebisyon",
+        "no": "Vansker med å konsentrere deg om ting, slik som å lese avisen eller se på TV",
+        "kn": "ಪ⁀ರ್ಕೆಯನುನ್ ಓದಲು ಅಥ ಾ ⁛⁌⁎ಜನ್ ⁤ೂೕಡುವುದು ಇΏಾಯ್⁂ ⁎ಷಯಗಳ⁌ಲ್ ಗಮನ ಕೇಂ⁂ರ್ೕಕ⁋ಸಲು ⁠ೂಂದ⁫",
+        "ru": "Вам было трудно сосредоточиться (например, на чтении газеты или на просмотре телепередач)",
+        "pl": "Problemy ze skupieniem się na przykład przy czytaniu gazety lub oglądaniu telewizji",
+        "bg": "Проблеми с концентрацията при извършването на различни дейности, като например четене на вестници или гледане на телевизия",
+        "lv": "Grūtības koncentrēties, piemēram, lasīt avīzi vai skatīties TV",
+        "ms": "Masalah untuk menumpukan perhatian ke atas sesuatu perkara seperti membaca surat khabar atau menonton televisyen",
+        "ro": "Dificultăţi de concentrare asupra unor lucruri precum cititul ziarului sau uitatul la televizor",
+        "zh-CN": "难于集中精神做事，例如看报纸或看电视",
+        "sv": "Svårigheter att koncentrera dig på saker, till exempel att läsa tidningen eller att titta på TV",
+        "uk": "Вам було важко зосередитись, наприклад, на читанні газети або перегляді телепередач"
      },
     "ui": {
         "inputType": "radio"

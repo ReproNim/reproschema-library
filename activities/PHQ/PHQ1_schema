@@ -11,7 +11,8 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+        "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las últimas 4 semanas, ¿cuánta molestia ha tenido por cualquiera de los siguientes problemas?"
     },
     "compute": [
         {

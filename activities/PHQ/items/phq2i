@@ -8,7 +8,27 @@
     "version": "0.0.1",
     "question": {
         "en": "Thoughts that you would be better off dead or of hurting yourself in some way?",
-        "": ""
+        "es": "¿Pensamientos de que sería mejor estar muerto o lastimarse de alguna manera?",
+        "nl": "Dacht je dat je beter af zou zijn als je dood bent of jezelf op de een of andere manier pijn doet?",
+        "fr": "Vous pensez que vous feriez mieux de mourir ou de vous blesser d'une manière ou d'une autre?",
+        "ar": "راودتك أفكار بأنه من الأفضل لو آنت ميتا أو أفكار بأن تقوم بإيذاء النفس",
+        "pt-BR": "Pensar em se ferir de alguma maneira ou que seria melhor estar morto/a",
+        "ko": "자신이 죽는 것이 더 낫다고 생각하거나 어떤 식으로든 자신을 해칠 것이라고 생각함",
+        "it": "Pensare che sarebbe meglio morire o farsi del male in un modo o nell’altro",
+        "ja": "死んだほうがましだ、あるいは自分を何らかの方法で傷つけようと 思ったことがある",
+        "fi": " Ajatukset, että voisi olla yhtä hyvin kuollut tai, että voisi vahingoittaa itseään jollakin tavalla",
+        "fil": "Nag-iisip na mas mabuting mamatay ka na lang o saktan mo ang iyong sarili sa ilang paraan",
+        "no": "Tanker om at du like gjerne kunne vært død eller på annen måte ville skade deg selv",
+        "kn": "⁄ೕವು ಸತತ್⁫ ⁗῿ಾನ್ಗಿರುತತ್⁢ ಎಂಬ ಅಥ ಾ  ಾವು´ಾದರೂ ⁋ೕ⁀ಯ⁌ಲ್ ⁄ಮಮ್ನುನ್ ‍ಾ⁄ಪ‽⁑ಕೊಳುಳ್ವ ⁶ೕಚ⁤ಗಳು",
+        "ru": "Вас посещали мысли о том, что Вам лучше было бы умереть, или о том, чтобы причинить себе какой-нибудь вред",
+        "pl": "Myśli, że lepiej byłoby umrzeć, albo chęć zrobienia sobie jakiejś krzywdy",
+        "bg": "Мисли, че е по-добре да не сте жив (а) или желание да се нараните по някакъв начин",
+        "lv": "Domas, ka labāk būtu nomirt vai kaut kā nodarīt sev pāri",
+        "ms": "Memikirkan adalah lebih baik saja jika anda mati atau mencederakan diri sendiri dalam beberapa cara",
+        "ro": "Gânduri că v-ar fi mai bine mort sau gândul de a vă face vreun rău",
+        "zh-CN": "想到自己最好去死或者自残",
+        "sv": "Tankar att det skulle vara bättre om du var död eller att du skulle skada dig på något sätt",
+        "uk": "У Вас були думки, що Вам краще б померти, або Ви думали про те, щоб заподіяти собі яку-небудь шкоду"
      },
     "ui": {
         "inputType": "radio"

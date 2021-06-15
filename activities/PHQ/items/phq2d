@@ -8,7 +8,27 @@
     "version": "0.0.1",
     "question": {
         "en": "Feeling tired or having little energy?",
-        "": ""
+        "es": "\u00bfSe ha sentido cansado(a) o con poca energ\u00eda?",
+        "nl": "Zich neerslachtig, depressief of hopeloos voelen",
+        "fr": "Se sentir fatigué(e) ou manquer d’énergie",
+        "ar": "الشعور بالتعب أو بامتلاك القليل جداً من الطاقة",
+        "pt-BR": "Se sentir cansado/a ou com pouca energia",
+        "ko": "피곤하다고 느끼거나 기운이 거의 없음",
+        "it": "Sentirsi stanco/a o avere poca energia",
+        "ja": "疲れた感じがする、または気力がない",
+        "fi": "Väsymys tai energian puute",
+        "fil": "Pagkaramdam ng pagod o walang lakas",
+        "no": "Følt deg trett eller slapp",
+        "kn": "ಆ ಾಸಗೊಳುಳ್ವುದು ಅಥ ಾ ⁗ೖತನಯ್ ಇಲಲ್⁂ರುವುದು",
+        "ru": "Вы были утомлены, или у Вас было мало сил",
+        "pl": "Uczucie zmęczenia lub brak energii",
+        "bg": "Чувство на умора или липса на енергия",
+        "lv": "Nogurums vai enerģijas trūkums",
+        "ms": "Rasa letih atau mempunyai sedikit tenaga",
+        "ro": "Senzaţia de oboseală sau lipsă de energie",
+        "zh-CN": "觉得疲倦或沒有活力",
+        "sv": "Känt dig trött eller haft för lite energi",
+        "uk": "Ви відчували втому або мало сил"
      },
     "ui": {
         "inputType": "radio"

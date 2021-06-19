@@ -11,7 +11,12 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?"
+        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
+        "es": "¿Alguna de estas situaciones le ha ocurrido más de una vez en los últimos 6 meses?",
+        "nl": "Zijn één of meer van de volgende dingen u in de afgelopen 6 maanden meer dan eensoverkomen?",
+        "fr": "Avez-vous été dans l’une des situations suivantes plus d’une fois au cours des derniers 6 mois?",
+        "pt-BR": "Alguma das situações abaixo aconteceu com você mais de uma vez nos últimos 6 meses?",
+        "ko": "지난 6개월동안다음의일들이한번이상일어났습니까?"
     },
     "compute": [
         {

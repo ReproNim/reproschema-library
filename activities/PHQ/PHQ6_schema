@@ -11,7 +11,12 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Questions about eating"
+        "en": "Questions about eating",
+        "es": "Preguntas sobre la alimentación.",
+        "nl": "Vragen over eetgewoonten.",
+        "fr": "Questions sur l’alimentation.",
+        "pt-BR": "Perguntas sobre hábitos alimentares.",
+        "ko": "식생활에대한질문."
     },
     "compute": [
         {

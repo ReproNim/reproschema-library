@@ -1,17 +1,22 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ2_schema",
+    "@id": "PHQ4_schema",
     "prefLabel": {
-        "en": "PHQ-2 Assessment",
-        "es": "PHQ-2 Evaluación"
+        "en": "PHQ-4 Assessment",
+        "es": "PHQ-4 Evaluación"
     },
-    "description": "PHQ-1 assessment schema",
+    "description": "PHQ-2 assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Think about your last bad anxiety attack"
+        "en": "Think about your last bad anxiety attack",
+        "es": "Piense acerca de su último ataque serio de ansiedad.",
+        "nl": "Denk bij het beantwoorden van de volgende vraag aan de laatste ernstige angstaanval die u gehad hebt",
+        "fr": "Pensez à votre dernière grave crise d’anxiété.",
+        "pt-BR": "Pense na sua última forte crise de ansiedade.",
+        "ko": "가장최근에경험한심한불안발작에대해생각해보십시오."
     },
     "compute": [
         {

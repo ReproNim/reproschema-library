@@ -11,7 +11,12 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+        "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las últimas 4 semanas, ¿qué tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "nl": "Hoe vaak hebt u in de afgelopen 4 wekenlast gehad van één of meer van de volgende problemen?",
+        "fr": "Au cours des 4 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
+        "pt-BR": "Durante as últimas 4 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
+        "ko": "지난 4주일동안당신은다음의문제들로인해서얼마나자주방해를받았습니까?"
     },
     "compute": [
         {

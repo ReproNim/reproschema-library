@@ -12,7 +12,8 @@
         "nl": "Uw hart voelen bonzen of snel kloppen",
         "fr": "Évanouissements",
         "pt-BR": "Desmaios",
-        "ko": "잠시동안기절"
+        "ko": "잠시동안기절",
+        "it": "Episodi di svenimento"
      },
     "ui": {
         "inputType": "radio"

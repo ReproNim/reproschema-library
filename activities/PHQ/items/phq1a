@@ -12,7 +12,8 @@
         "nl": "Buikpijn",
         "fr": "Maux d‟estomac",
         "pt-BR": "Dor de estômago",
-        "ko": "위또는배의통증"
+        "ko": "위또는배의통증",
+        "it": "Mal di stomaco"
      },
     "ui": {
         "inputType": "radio"

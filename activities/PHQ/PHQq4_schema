@@ -1,36 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-<<<<<<< HEAD
-    "@id": "PHQ4_schema",
-    "prefLabel": {
-        "en": "PHQ-4 Assessment",
-        "es": "PHQ-4 Evaluación"
-    },
-    "description": "PHQ-2 assessment schema",
-=======
-    "@id": "PHQ2_schema",
-    "prefLabel": {
-        "en": "PHQ-2 Assessment",
-        "es": "PHQ-2 Evaluación"
-    },
-    "description": "PHQ-1 assessment schema",
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
+    "@type": "reproschema:Field",
+    "@id": "phqq4_total_score",
+    "prefLabel": "Score PHQ4-4",
+    "description": "total score of the PHQ-4 Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-<<<<<<< HEAD
-        "en": "Think about your last bad anxiety attack",
-        "es": "Piense acerca de su último ataque serio de ansiedad.",
-        "nl": "Denk bij het beantwoorden van de volgende vraag aan de laatste ernstige angstaanval die u gehad hebt",
-        "fr": "Pensez à votre dernière grave crise d’anxiété.",
-        "pt-BR": "Pense na sua última forte crise de ansiedade.",
-        "ko": "가장최근에경험한심한불안발작에대해생각해보십시오."
-=======
-        "en": "Think about your last bad anxiety attack"
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
-    },
+     "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
     "compute": [
         {
             "variableName": "phqq4_total_score",

@@ -6,101 +6,102 @@
     "description": "total score of the PHQ-4 Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-     "preamble": {
+    "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
-    "compute": [
-        {
-            "variableName": "phqq4_total_score",
-            "jsExpression": "phq4a + phq4b + phq4c + phq4d + phq4e + phq4f + phq4g + phq4h + phq4i + phq4j + phq4k"
-        }
-    ],
-    "ui": {
-        "addProperties": [
+        "compute": [
             {
-                "isAbout": "items/phq4a",
-                "variableName": "phq4a",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4b",
-                "variableName": "phq4b",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4c",
-                "variableName": "phq4c",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4d",
-                "variableName": "phq4d",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4e",
-                "variableName": "phq4e",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4f",
-                "variableName": "phq4f",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4g",
-                "variableName": "phq4g",
-                "valueRequired": true,
-                "isVis": true
-            },
-             {
-                "isAbout": "items/phq4h",
-                "variableName": "phq4h",
-                "valueRequired": true,
-                "isVis": true
-            },
-             {
-                "isAbout": "items/phq4i",
-                "variableName": "phq4i",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4j",
-                "variableName": "phq4j",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4k",
-                "variableName": "phq4k",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "isAbout": "items/phq4_total_score",
-                "variableName": "phq4_total_score",
-                "isVis": false
+                "variableName": "phqq4_total_score",
+                "jsExpression": "phq4a + phq4b + phq4c + phq4d + phq4e + phq4f + phq4g + phq4h + phq4i + phq4j + phq4k"
             }
         ],
-        "order": [
-            "items/phq4a",
-            "items/phq4b",
-            "items/phq4c",
-            "items/phq4d",
-            "items/phq4e",
-            "items/phq4f",
-            "items/phq4g",
-            "items/phq4h",
-            "items/phq4i",
-            "items/phq4j",
-            "items/phq4k"
-        ],
-        "shuffle": false
+        "ui": {
+            "addProperties": [
+                {
+                    "isAbout": "items/phq4a",
+                    "variableName": "phq4a",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4b",
+                    "variableName": "phq4b",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4c",
+                    "variableName": "phq4c",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4d",
+                    "variableName": "phq4d",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4e",
+                    "variableName": "phq4e",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4f",
+                    "variableName": "phq4f",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4g",
+                    "variableName": "phq4g",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4h",
+                    "variableName": "phq4h",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4i",
+                    "variableName": "phq4i",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4j",
+                    "variableName": "phq4j",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4k",
+                    "variableName": "phq4k",
+                    "valueRequired": true,
+                    "isVis": true
+                },
+                {
+                    "isAbout": "items/phq4_total_score",
+                    "variableName": "phq4_total_score",
+                    "isVis": false
+                }
+            ],
+            "order": [
+                "items/phq4a",
+                "items/phq4b",
+                "items/phq4c",
+                "items/phq4d",
+                "items/phq4e",
+                "items/phq4f",
+                "items/phq4g",
+                "items/phq4h",
+                "items/phq4i",
+                "items/phq4j",
+                "items/phq4k"
+            ],
+            "shuffle": false
+        }
     }
 }

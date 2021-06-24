@@ -3,8 +3,13 @@
     "@type": "reproschema:Activity",
     "@id": "PHQ1_schema",
     "prefLabel": {
+<<<<<<< HEAD
         "en": "PHQ Assessment",
         "es": "PHQ Evaluación"
+=======
+        "en": "PHQ-1 Assessment",
+        "es": "PHQ-1 Evaluación"
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     },
     "description": "PHQ-1 assessment schema",
     "schemaVersion": "1.0.0-rc1",
@@ -12,11 +17,15 @@
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
         "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
+<<<<<<< HEAD
         "es": "Durante las últimas 4 semanas, ¿cuánta molestia ha tenido por cualquiera de los siguientes problemas?",
         "nl": "Hoeveel last hebt u in de afgelopen 4 wekengehad van één of meer van de volgende problemen?",
         "fr": "Au cours des 4 dernières semaines, à quel point avez-vous été gêné(e) par les problèmes suivants?",
         "pt-BR": "Durante as últimas 4 semanas, o quanto você foi incomodado/a por qualquer um dos problemas abaixo?",
         "ko": "지난 4주일동안당신은다음문제들로인해서얼마나많이방해를받았습니까?"
+=======
+        "es": "Durante las últimas 4 semanas, ¿cuánta molestia ha tenido por cualquiera de los siguientes problemas?"
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     },
     "compute": [
         {

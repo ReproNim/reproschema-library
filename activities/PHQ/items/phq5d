@@ -1,17 +1,48 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
+<<<<<<< HEAD
     "@id": "phq5d",
     "prefLabel": "PHQ 5d",
     "description": "Q5d of the derived PHQ Assessment",
+=======
+    "@id": "phq5b",
+    "prefLabel": "PHQ 5b",
+    "description": "Q5a of the derived PHQ Assessment",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
         "en": "Muscle tension, aches, or soreness.",
+<<<<<<< HEAD
         "es": "Dolor o tensión muscular.",
         "nl": "U rusteloos voelen waardooru moeilijk kan stilzitten.",
         "fr": "Avoir des tensions, des douleurs ou des courbatures musculaires.",
         "ko": "근육의긴장, 통증, 혹은아픔"
+=======
+        "es": "Tensión muscular, dolores o malestares.",
+        "nl": "Weinig interesse of plezier in activiteiten",
+        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
+        "it": "Scarso interesse o piacere nel fare le cose",
+        "ja": "物事に対してほとんど興味がない、または楽しめない",
+        "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
+        "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay",
+        "no": "Lite interesse for eller glede over å gjøre ting",
+        "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ",
+        "ru": "Вам не хотелось ничего делать",
+        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności",
+        "bg": "Слаб интерес или минимално удоволствие от правенето на различни неща",
+        "lv": "Interešu un dzīvesprieka trūkums",
+        "ms": "Kurang berminat atau keseronokan dalam melakukan sesuatu perkara",
+        "pt-PT": "Tive pouco interesse ou prazer em fazer coisas",
+        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri",
+        "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
+        "sv": "Lite intresse eller glädje av att göra saker",
+        "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
      },
     "ui": {
         "inputType": "radio"

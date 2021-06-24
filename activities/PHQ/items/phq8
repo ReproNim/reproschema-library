@@ -1,18 +1,47 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
+<<<<<<< HEAD
     "@id": "phq8",
+=======
+    "@id": "phq9",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     "prefLabel": "radio item",
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
         "en": "If you checked “YES” to any of these ways of avoiding gaining weight,\nwere any as often, on average, as twice a week?",
+<<<<<<< HEAD
         "es": "Si marcó “SÍ” a cualquiera de estos métodos para evitar subir de peso, ¿fue alguno de ellos tan seguido, en promedio, como 2 veces por semana?",
         "nl": "Indien u “JA” hebt geantwoord op één of meer van deze manieren om gewichtstoename te voorkomen, gebeurde ditdan gemiddeld 2 maal per week?",
         "fr": "Si vous avez répondu «OUI» à l’un de ces moyens d’éviter de prendre du poids, cela s’est-il produit en moyenne 2fois par semaine ?",
         "pt-BR": "Se você marcou “SIM” para qualquer uma dessas maneiras de evitar ganhar peso, alguma delas ocorreu, em média, duas vezes por semana?",
         "ko": "만일당신이체중이증가하는것을막기위해위의방법중에서하나이상"예" 라고응답했다면, 일주일에평균 2번그런일을했습니까?"
+=======
+        "es": "Si marcó “SÍ” a cualquiera de estos métodos para evitar subir de peso,\n¿fue alguno de ellos tan seguido, en promedio, como 2 veces por semana?",
+        "nl": "Weinig interesse of plezier in activiteiten",
+        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
+        "it": "Scarso interesse o piacere nel fare le cose",
+        "ja": "物事に対してほとんど興味がない、または楽しめない",
+        "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
+        "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay",
+        "no": "Lite interesse for eller glede over å gjøre ting",
+        "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ",
+        "ru": "Вам не хотелось ничего делать",
+        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności",
+        "bg": "Слаб интерес или минимално удоволствие от правенето на различни неща",
+        "lv": "Interešu un dzīvesprieka trūkums",
+        "ms": "Kurang berminat atau keseronokan dalam melakukan sesuatu perkara",
+        "pt-PT": "Tive pouco interesse ou prazer em fazer coisas",
+        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri",
+        "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
+        "sv": "Lite intresse eller glädje av att göra saker",
+        "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
      },
     "ui": {
         "inputType": "radio"
@@ -22,6 +51,7 @@
         "minValue": 0,
         "maxValue": 2,
         "multipleChoice": false,
+<<<<<<< HEAD
         "choices": [
             {
                 "name": "No",
@@ -31,6 +61,57 @@
                 "name": "Yes",
                 "value": 1
             }
+=======
+         "choices": [
+        {
+            "name": {
+                "en": "No",
+                "es": "No",
+                "nl": "Nee",
+                "fr": "Non",
+                "pt-BR": "NÃO",
+                "ko": "아니오",
+                "it": "No",
+                "ja": "番号",
+                "fil": "Hindi",
+                "no": "Nei",
+                "kn": "ಇಲ್ಲ",
+                "ru": "нет",
+                "pl": "Nie",
+                "bg": "не",
+                "lv": "Nē",
+                "ms": "Tidak",
+                "ro": "Nu",
+                "zh-CN": "不",
+                "sv": "Nej"
+            },
+            "value": 0
+        },
+        {
+            "name": {
+                "en": "Yes",
+                "es": "SÍ",
+                "nl": "Ja",
+                "fr": "Oui",
+                "pt-BR": "Sim",
+                "ko": "예",
+                "it": "sì",
+                "ja": "はい",
+                "fil": "Oo",
+                "no": "ja",
+                "kn": "ಹೌದು",
+                "ru": "Несколь ко дней",
+                "pl": "tak",
+                "bg": "да",
+                "lv": "Jā",
+                "ms": "Ya",
+                "ro": "da",
+                "zh-CN": "是的",
+                "sv": "ja"
+            },
+            "value": 1
+        }
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         ]
     }
 }

@@ -9,10 +9,17 @@
     "question": {
         "en": "Do some of these attacks come suddenly out of the blue—that is, in situations where you don't expect to be nervous or uncomfortable?",
         "es": "¿Algunos de estos ataques aparecen de repente cuando\nmenos se lo espera, es decir, en situaciones en que aparentemente no está nervioso/a ni incómodo/a?",
+<<<<<<< HEAD
         "nl": "Doen sommige van deze aanvallen zich soms plotseling enonverwacht voor (dat wil zeggen: in situaties waarin uniet verwacht zenuwachtig of niet op uw gemak te zijn)?"
         "fr": "Certaines de ces crises surviennent-elles soudainement, de façon inattendue, c‟est-à-dire dans des situations où vous ne vous attendez pas à être nerveux(se) ou mal à l‟aise ?",
         "pt-BR": "Algumas dessas crises acontecem de repente, vêem do nada – ou seja, em situações que você não espera se sentir nervoso/a ou pouco à vontade?",
         "ko": "이러한발작이갑자기느닷없이일어납니까 - 즉, 긴장되거나불편할것이라고예상하지않은상황에서일어납니까?",
+=======
+        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "it": "Scarso interesse o piacere nel fare le cose",
         "ja": "物事に対してほとんど興味がない、または楽しめない",
         "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",

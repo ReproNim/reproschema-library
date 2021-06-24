@@ -9,10 +9,18 @@
     "question": {
         "en": "Did you feel dizzy, unsteady, or faint?",
         "es": "¿Se sintió mareado/a, inestable o a punto de desmayarse?",
+<<<<<<< HEAD
         "nl": "Voelde u zich duizelig, wankel of zwak?",
         "fr": "Avez-vous eu des vertiges, l‟impression de perdre l‟équilibre ou avez-vous été sur le point de vous évanouir ?",
         "pt-BR": "Você se sentiu tonto/a, cambaleante ou a ponto de desmaiar?",
         "ko": "현기증이나거나균형을잃거나, 혹은기절할것같이느꼈습니까?",
+=======
+        "nl": "Weinig interesse of plezier in activiteiten",
+        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "it": "Scarso interesse o piacere nel fare le cose",
         "ja": "物事に対してほとんど興味がない、または楽しめない",
         "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",

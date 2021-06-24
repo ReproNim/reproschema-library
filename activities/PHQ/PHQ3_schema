@@ -4,19 +4,27 @@
     "@id": "PHQ3_schema",
     "prefLabel": {
         "en": "PHQ-3 Assessment",
+<<<<<<< HEAD
         "es": "PHQ-3 Evaluación",
+=======
+        "es": "PHQ-3 Evaluación"
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     },
     "description": "PHQ-3 assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
+<<<<<<< HEAD
         "en": "Questions about anxiety."
         "es": "Preguntas acerca de la ansiedad.",
         "nl": "Vragen over angst.",
         "fr": "Questions sur l’anxiété.",
         "pt-BR": "Perguntas sobre ansiedade.",
         "ko": "불안에관한질문."
+=======
+        "en": "Questions about anxiety"
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     },
     "compute": [
         {

@@ -11,6 +11,10 @@
         "es": "\u00bfHa tenido dificultad para concentrarse en ciertas actividades, tales como leer el peridico o ver la televisin?",
         "nl": "Problemen om u te concentreren, bijvoorbeeld om de krant te lezen of om tv te kijken",
         "fr": "Avoir du mal à se concentrer, par exemple, pour lire le journal ou regarder la télévision",
+<<<<<<< HEAD
+=======
+        "ar": "صعوبة في الترآيز مثلاً أثناء قراءة الصحيفة أو مشاهدة التلفزيون",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "pt-BR": "Dificuldade para se concentrar nas coisas, como ler o jornal ou ver televisão",
         "ko": "신문을 읽거나 텔레비전 보는 것과 같은 일에 집중하는 것이 어려움",
         "it": "Difficoltà a concentrarsi su qualcosa, per esempio leggere il giornale o guardare la televisione",

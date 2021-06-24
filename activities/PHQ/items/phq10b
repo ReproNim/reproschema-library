@@ -9,10 +9,18 @@
     "question": {
         "en": "You drank alcohol, were high from alcohol, or hung over while you were working, going to school, or taking care of children or other responsibilities.",
         "es": "Bebió alcohol, estaba bajo los efectos del alcohol, con resaca\n(cruda) mientras trabajaba, iba hacia la escuela, estaba cuidando\nniños o tenía otras responsabilidades. ",
+<<<<<<< HEAD
         "nl": "U hebt alcohol gedronken, u was aangeschoten of u had eenkater terwijl u aan het werken was, op school was, terwijl u op kinderen paste of andere verantwoordelijkheden had.",
         "fr": "Vous avez bu de l‟alcool, avez été ivre, ou avez eu la gueule de bois pendant que vous travailliez, étiez en cours, que vous vous occupiez des enfants ou aviez d‟autres responsabilités.",
         "pt-BR": "Você tomou bebida alcoólica, ficou embriagado/a ou de ressaca enquanto trabalhava, ia à escola, tomava conta de crianças ou executava outras tarefas de responsabilidade.",
         "ko": "일을하거나학교에가거나혹은자녀를돌보거나다른책임을수행하는동안술을마셨거나술에취해기분이좋거나숙취상태에있었다.",
+=======
+        "nl": "Weinig interesse of plezier in activiteiten",
+        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "it": "Scarso interesse o piacere nel fare le cose",
         "ja": "物事に対してほとんど興味がない、または楽しめない",
         "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",

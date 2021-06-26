@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "cit_selfefficacy1",
-    "prefLabel": "Self Efficacy 1",
-    "description": "Q31 of the CIT Assessment",
+    "@id": "cit_selfworth3",
+    "prefLabel": "Self worth 3",
+    "description": "Q36 of the CIT Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "I can succeed if I put my mind to it."
+        "en": "The work I do is important for other people."
      },
     "ui": {
         "inputType": "radio"

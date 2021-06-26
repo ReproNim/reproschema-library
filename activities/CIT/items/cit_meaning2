@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "cit_selfefficacy1",
-    "prefLabel": "Self Efficacy 1",
-    "description": "Q31 of the CIT Assessment",
+    "@id": "cit_meaning2",
+    "prefLabel": "Meaning 2",
+    "description": "Q41 of the CIT Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "I can succeed if I put my mind to it."
+        "en": "I have found a satisfactory meaning in life."
      },
     "ui": {
         "inputType": "radio"

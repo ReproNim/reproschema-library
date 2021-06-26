@@ -11,16 +11,13 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-<<<<<<< HEAD
+
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
         "es": "Durante las 2 últimas semanas, ¿qué tan seguido ha tenido molestias debido a los siguientes problemas?",
         "nl": "Hoe vaak hebt u in de afgelopen 2 wekenlast gehad van één of meer van de volgende problemen?",
         "fr": "Au cours des 2 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
         "pt-BR": "Durante as últimas 2 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
         "ko": "지난 2주일동안당신은다음의문제들로인해서얼마나자주방해를받았습니까?"
-=======
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     },
     "compute": [
         {

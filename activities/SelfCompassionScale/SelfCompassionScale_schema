@@ -1,0 +1,185 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SelfCompassionScale_schema",
+    "prefLabel": {
+        "en": "Self Compassion Assessment",
+        "es": "Self Compassion Evaluación"
+    },
+    "description": "PHQ-4 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Please read each statement carefully before answering."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/selfcompassion_1",
+                "variableName": "selfcompassion_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_2",
+                "variableName": "selfcompassion_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_3",
+                "variableName": "phq4_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_4",
+                "variableName": "phq4_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_5",
+                "variableName": "phq4_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_6",
+                "variableName": "phq4_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_7",
+                "variableName": "selfcompassion_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_8",
+                "variableName": "selfcompassion_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_9",
+                "variableName": "selfcompassion_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_10",
+                "variableName": "selfcompassion_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_11",
+                "variableName": "selfcompassion_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_12",
+                "variableName": "selfcompassion_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_13",
+                "variableName": "selfcompassion_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_14",
+                "variableName": "selfcompassion_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_15",
+                "variableName": "selfcompassion_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_16",
+                "variableName": "selfcompassion_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_17",
+                "variableName": "selfcompassion_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_18",
+                "variableName": "selfcompassion_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_19",
+                "variableName": "selfcompassion_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_20",
+                "variableName": "selfcompassion_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_21",
+                "variableName": "selfcompassion_21",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_22",
+                "variableName": "selfcompassion_22",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_23",
+                "variableName": "selfcompassion_23",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_24",
+                "variableName": "selfcompassion_24",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_25",
+                "variableName": "selfcompassion_25",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_26",
+                "variableName": "selfcompassion_26",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/GQ_1",
+            "items/GQ_2",
+            "items/GQ_3",
+            "items/GQ_4",
+            "items/GQ_5",
+            "items/selfcompassion_26"
+        ],
+        "shuffle": false
+    }
+}

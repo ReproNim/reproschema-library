@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ4_schema",
+    "@id": "GQ6_schema",
     "prefLabel": {
-        "en": "PHQ-4 Assessment",
-        "es": "PHQ-4 Evaluación"
+        "en": "GQ-6 Assessment",
+        "es": "GQ-6 Evaluación"
     },
-    "description": "PHQ-4 assessment schema",
+    "description": "GQ-6 assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
@@ -29,7 +29,7 @@
             },
             {
                 "isAbout": "items/GQ_3",
-                "variableName": "phq4_3",
+                "variableName": "GQ_3",
                 "valueRequired": true,
                 "isVis": true
             },

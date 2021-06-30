@@ -6,7 +6,7 @@
         "en": "Self Compassion Assessment",
         "es": "Self Compassion Evaluación"
     },
-    "description": "PHQ-4 assessment schema",
+    "description": "Self Compassion schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
@@ -29,25 +29,25 @@
             },
             {
                 "isAbout": "items/selfcompassion_3",
-                "variableName": "phq4_3",
+                "variableName": "selfcompassion_3",
                 "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/selfcompassion_4",
-                "variableName": "phq4_3",
+                "variableName": "selfcompassion_4",
                 "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/selfcompassion_5",
-                "variableName": "phq4_3",
+                "variableName": "selfcompassion_5",
                 "valueRequired": true,
                 "isVis": true
             },
             {
                 "isAbout": "items/selfcompassion_6",
-                "variableName": "phq4_3",
+                "variableName": "selfcompassion_6",
                 "valueRequired": true,
                 "isVis": true
             },

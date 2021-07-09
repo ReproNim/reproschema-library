@@ -1,0 +1,107 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "DAS_schema",
+    "prefLabel": {
+        "en": "Lyubomirsky Affect Scale Assessment",
+        "es": "Big Five Inventory Evaluación"
+    },
+    "description": "Self Compassion schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "To what extent are you experiencing this emotion in the past 24 hrs?"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/LAS_1",
+                "variableName": "LAS_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_2",
+                "variableName": "LAS_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_3",
+                "variableName": "LAS_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_4",
+                "variableName": "LAS_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_5",
+                "variableName": "LAS_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_6",
+                "variableName": "LAS_6",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_7",
+                "variableName": "LAS_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_8",
+                "variableName": "LAS_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_9",
+                "variableName": "LAS_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_10",
+                "variableName": "LAS_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_11",
+                "variableName": "LAS_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/LAS_12",
+                "variableName": "LAS_12",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/LAS_1",
+            "items/LAS_2",
+            "items/LAS_3",
+            "items/LAS_4",
+            "items/LAS_5",
+            "items/LAS_6",
+            "items/LAS_7",
+            "items/LAS_8",
+            "items/LAS_9",
+            "items/LAS_10",
+            "items/LAS_11",
+            "items/LAS_12"
+        ],
+        "shuffle": true
+    }
+}

@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "cit_life2",
     "prefLabel": "Life 2",
-    "description": "Q46 of the CIT Assessment",
+    "description": "Q47 of the CIT Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

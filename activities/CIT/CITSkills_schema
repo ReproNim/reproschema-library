@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITSkills_schema",
+    "prefLabel": {
+        "en": "CIT Skills"
+    },
+    "description": "CIT Skills schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Skills"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_skills1",
+                "variableName": "cit_skills1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "cit_skills2",
+                "variableName": "cit_skills2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_skills3",
+                "variableName": "cit_skills3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_skills1",
+            "items/cit_skills2",
+            "items/cit_skills3"
+        ],
+        "shuffle": false
+    }
+}

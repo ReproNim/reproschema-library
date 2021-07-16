@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITRespect_schema",
+    "prefLabel": {
+        "en": "CIT Respect"
+    },
+    "description": "CIT Respect schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Respect"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_respect1",
+                "variableName": "cit_respect1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "cit_respect2",
+                "variableName": "cit_respect2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_respect3",
+                "variableName": "cit_respect3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_respect1",
+            "items/cit_respect2",
+            "items/cit_respect3"
+        ],
+        "shuffle": false
+    }
+}

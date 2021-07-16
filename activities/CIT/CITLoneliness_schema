@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITLoneliness_schema",
+    "prefLabel": {
+        "en": "CIT Loneliness"
+    },
+    "description": "CIT Loneliness schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Loneliness"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_lonely1",
+                "variableName": "cit_lonely1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "cit_lonely2",
+                "variableName": "cit_lonely2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_lonely3",
+                "variableName": "cit_lonely3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_lonely1",
+            "items/cit_lonely2",
+            "items/cit_lonely3"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITAccomplishment_schema",
+    "prefLabel": {
+        "en": "CIT Accomplishment"
+    },
+    "description": "CIT Accomplishment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Accomplishment"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_accomplish1",
+                "variableName": "cit_accomplish1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "cit_accomplish2",
+                "variableName": "cit_accomplish2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_accomplish3",
+                "variableName": "cit_accomplish3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_accomplish1",
+            "items/cit_accomplish2",
+            "items/cit_accomplish3"
+        ],
+        "shuffle": false
+    }
+}

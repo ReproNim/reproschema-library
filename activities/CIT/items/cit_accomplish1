@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "cit_accomplish1",
     "prefLabel": "Accomplishment 1",
-    "description": "Q28 of the CIT Assessment",
+    "description": "1 of the CIT Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

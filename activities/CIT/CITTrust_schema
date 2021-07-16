@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITTrust_schema",
+    "prefLabel": {
+        "en": "CIT Trust"
+    },
+    "description": "CIT Trust schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Trust"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_trust1",
+                "variableName": "cit_trust1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "cit_trust2",
+                "variableName": "cit_trust2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_trust3",
+                "variableName": "cit_trust3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_trust1",
+            "items/cit_trust2",
+            "items/cit_trust3"
+        ],
+        "shuffle": false
+    }
+}

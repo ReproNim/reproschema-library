@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "cit_negativefeeling3",
     "prefLabel": "Negative feelings 3",
-    "description": "Q53 of the CIT Assessment",
+    "description": "Q54 of the CIT Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

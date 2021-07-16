@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "cit_optimism1",
     "prefLabel": "Optimism 1",
-    "description": "Q42 of the CIT Assessment",
+    "description": "Q43 of the CIT Assessment",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {

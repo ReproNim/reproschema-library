@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_accomplish2",
+                "isAbout": "items/cit_accomplish2",
                 "variableName": "cit_accomplish2",
                 "valueRequired": true,
                 "isVis": true

@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_learn2",
+                "isAbout": "items/cit_learn2",
                 "variableName": "cit_learn2",
                 "valueRequired": true,
                 "isVis": true

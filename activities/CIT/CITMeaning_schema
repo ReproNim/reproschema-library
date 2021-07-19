@@ -1,42 +1,42 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "CITCommunity_schema",
+    "@id": "CITMeaning_schema",
     "prefLabel": {
-        "en": "CIT Community"
+        "en": "CIT Meaning"
     },
-    "description": "CIT Community schema",
+    "description": "CIT Meaning schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Community"
+        "en": "Meaning"
     },
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/cit_community1",
-                "variableName": "cit_community1",
+                "isAbout": "items/cit_meaning1",
+                "variableName": "cit_meaning1",
                 "valueRequired": true,
                 "isVis": true
             },
             {
-                "isAbout": "items/cit_community2",
-                "variableName": "cit_community2",
+                "isAbout": "items/cit_meaning2",
+                "variableName": "cit_meaning2",
                 "valueRequired": true,
                 "isVis": true
             },
             {
-                "isAbout": "items/cit_community3",
-                "variableName": "cit_community3",
+                "isAbout": "items/cit_meaning3",
+                "variableName": "cit_meaning3",
                 "valueRequired": true,
                 "isVis": true
             }
         ],
         "order": [
-            "items/cit_community1",
-            "items/cit_community2",
-            "items/cit_community3"
+            "items/cit_meaning1",
+            "items/cit_meaning2",
+            "items/cit_meaning3"
         ],
         "shuffle": false
     }

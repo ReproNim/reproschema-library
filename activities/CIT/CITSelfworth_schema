@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_selfworth2",
+                "isAbout": "items/cit_selfworth2",
                 "variableName": "cit_selfworth2",
                 "valueRequired": true,
                 "isVis": true

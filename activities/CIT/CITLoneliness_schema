@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_lonely2",
+                "isAbout": "items/cit_lonely2",
                 "variableName": "cit_lonely2",
                 "valueRequired": true,
                 "isVis": true

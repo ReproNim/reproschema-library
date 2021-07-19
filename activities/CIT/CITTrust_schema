@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_trust2",
+                "isAbout": "items/cit_trust2",
                 "variableName": "cit_trust2",
                 "valueRequired": true,
                 "isVis": true

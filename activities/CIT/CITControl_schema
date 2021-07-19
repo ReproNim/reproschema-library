@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_control2",
+                "isAbout": "items/cit_control2",
                 "variableName": "cit_control2",
                 "valueRequired": true,
                 "isVis": true

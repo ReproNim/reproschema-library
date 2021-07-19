@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_respect2",
+                "isAbout": "items/cit_respect2",
                 "variableName": "cit_respect2",
                 "valueRequired": true,
                 "isVis": true

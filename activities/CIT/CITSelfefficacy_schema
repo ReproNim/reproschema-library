@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_selfefficacy2",
+                "isAbout": "items/cit_selfefficacy2",
                 "variableName": "cit_selfefficacy2",
                 "valueRequired": true,
                 "isVis": true

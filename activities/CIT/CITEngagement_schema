@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_engage2",
+                "isAbout": "items/cit_engage2",
                 "variableName": "cit_engage2",
                 "valueRequired": true,
                 "isVis": true

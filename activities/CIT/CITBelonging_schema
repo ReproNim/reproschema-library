@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_belong2",
+                "isAbout": "items/cit_belong2",
                 "variableName": "cit_belong2",
                 "valueRequired": true,
                 "isVis": true

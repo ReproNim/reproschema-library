@@ -21,7 +21,7 @@
                 "isVis": true
             },
             {
-                "isAbout": "cit_skills2",
+                "isAbout": "items/cit_skills2",
                 "variableName": "cit_skills2",
                 "valueRequired": true,
                 "isVis": true

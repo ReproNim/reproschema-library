@@ -1,0 +1,58 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SFI_schema",
+    "prefLabel": {
+        "en": "SFI schema"
+    },
+    "description": "SFI schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Secure Flourish Index"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "Domain1_schema",
+                "variableName": "Domain1_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "Domain2_schema",
+                "variableName": "Domain2_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "Domain3_schema",
+                "variableName": "Domain3_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "Domain4_schema",
+                "variableName": "Domain4_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "Domain5_schema",
+                "variableName": "Domain5_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "Domain6_schema",
+                "variableName": "Domain6_schema",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "Domain1_schema",
+            "Domain2_schema",
+            "Domain3_schema",
+            "Domain4_schema",
+            "Domain5_schema",
+            "Domain6_schema"
+        ],
+        "shuffle": false
+    }
+}

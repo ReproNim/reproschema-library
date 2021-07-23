@@ -19,7 +19,7 @@
                 "ja": "全くない",
                 "fil": "Hindi kailanman",
                 "no": "Ikke i det hele tatt",
-                "kn": "ಇಲಲ್⁮ೕ ಇಲಲ",
+                "kn": "ಇಲಲ್ೕ ಇಲಲ",
                 "ru": "Ни разу",
                 "pl": "Wcale nie dokuczały",
                 "bg": "Нито веднъж",
@@ -35,7 +35,7 @@
         {
             "name": {
                 "en": "Several days",
-                "es": "Varios d\u00edas",
+                "es": "Varios das",
                 "nl": "Verschei dene dagen",
                 "fr": "Plusieurs jours",
                 "pt-BR": "Vários dias",
@@ -44,7 +44,7 @@
                 "ja": "数日",
                 "fil": "Maramin g Araw",
                 "no": "Noen dager",
-                "kn": "ಹಲ ಾರು ⁂ನಗಳು",
+                "kn": "ಹಲಾರು ⁂ನಗಳು",
                 "ru": "Несколь ко дней",
                 "pl": "Kilka dni",
                 "bg": "Няколко дни",
@@ -60,7 +60,7 @@
         {
             "name": {
                 "en": "More than half the days",
-                "es": "M\u00e1s de la mitad de los d\u00edas",
+                "es": "Mas de la mitad de los das",
                 "nl": "Meer dan de helft van de dagen",
                 "fr": "Plus de la moitié des jours",
                 "pt-BR": "Mais da metade dos dias",
@@ -85,7 +85,7 @@
         {
             "name": {
                 "en": "Nearly everyday",
-                "es": "Casi todos los d\u00edas",
+                "es": "Casi todos los das",
                 "nl": "Bijna elke dag",
                 "fr": "Presque tous les jours",
                 "pt-BR": "Quase todos os dias",

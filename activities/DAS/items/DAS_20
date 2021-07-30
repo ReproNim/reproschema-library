@@ -3,11 +3,11 @@
     "@type": "reproschema:Field",
     "@id": "DAS_20",
     "prefLabel": "DAS 20",
-    "description": "Q20 of the Daily Affect Scale",
+    "description": "Q11 of the Daily Affect Scale",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Shame"
+        "en": "Sad"
     },
     "ui": {
         "inputType": "radio"

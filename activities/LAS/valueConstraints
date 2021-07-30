@@ -4,36 +4,36 @@
     "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 3,
+    "maxValue": 6,
     "multipleChoice": false,
     "choices": [
         {
             "name": "Not at all",
+            "value": 0
+        },
+        {
+            "name": "Very slightly",
             "value": 1
         },
         {
-            "name": "2",
+            "name": "Somewhat",
             "value": 2
         },
         {
-            "name": "3",
+            "name": "Moderately",
             "value": 3
         },
         {
-            "name": "Neutral",
+            "name": "Much",
             "value": 4
         },
         {
-            "name": "5",
+            "name": "Very much",
             "value": 5
         },
         {
-            "name": "6",
+            "name": "Extremely",
             "value": 6
-        },
-        {
-            "name": "Completely",
-            "value": 7
         }
     ]
 }

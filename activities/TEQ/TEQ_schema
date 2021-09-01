@@ -1,0 +1,134 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "TEQ_schema",
+    "prefLabel": {
+        "en": "Toronto Empathy Questionnaire Assessment"
+    },
+    "description": "Self Compassion schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Please read each statement below carefully and rate how frequently you feel or act in the manner described. There are no right or wrong answers or trick questions. Please answer each question as honestly as you can."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/TEQ_1",
+                "variableName": "TEQ_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_2",
+                "variableName": "TEQ_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_3",
+                "variableName": "TEQ_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_4",
+                "variableName": "TEQ_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_5",
+                "variableName": "TEQ_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_6",
+                "variableName": "TEQ_6",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_7",
+                "variableName": "TEQ_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_8",
+                "variableName": "TEQ_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_9",
+                "variableName": "TEQ_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_10",
+                "variableName": "TEQ_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_11",
+                "variableName": "TEQ_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_12",
+                "variableName": "TEQ_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_13",
+                "variableName": "TEQ_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_14",
+                "variableName": "TEQ_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_15",
+                "variableName": "TEQ_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/TEQ_16",
+                "variableName": "TEQ_16",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/TEQ_1",
+            "items/TEQ_2",
+            "items/TEQ_3",
+            "items/TEQ_4",
+            "items/TEQ_5",
+            "items/TEQ_6",
+            "items/TEQ_7",
+            "items/TEQ_8",
+            "items/TEQ_9",
+            "items/TEQ_10",
+            "items/TEQ_11",
+            "items/TEQ_12",
+            "items/TEQ_13",
+            "items/TEQ_14",
+            "items/TEQ_15",
+            "items/TEQ_16"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "Domain3_schema",
+    "prefLabel": {
+        "en": "Domain 3"
+    },
+    "description": "Domain 3 schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Domain 3: Meaning and Purpose"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/SFI_5",
+                "variableName": "SFI_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SFI_6",
+                "variableName": "SFI_6",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/SFI_5",
+            "items/SFI_6"
+        ],
+        "shuffle": false
+    }
+}

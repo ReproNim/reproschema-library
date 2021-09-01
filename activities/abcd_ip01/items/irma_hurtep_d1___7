@@ -9,7 +9,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el huracán? (puedes verificar más de uno) (7, other",
+        "en": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el huracÃ¡n? (puedes verificar mÃ¡s de uno) (7, other",
         "es": "Otro)"
     },
     "ui": {

@@ -1,0 +1,128 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SelfCompassionScale_schema",
+    "prefLabel": {
+        "en": "Big Five Inventory Assessment",
+        "es": "Big Five Inventory Evaluación"
+    },
+    "description": "Self Compassion schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Here are a number of characteristics that may or may not apply to you. For example, do you agree that you are someone who likes to spend time with others? Please rate the following statements to indicate the extent to which you agree with that statement. I am someone who..."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/BFI_1",
+                "variableName": "BFI_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_2",
+                "variableName": "BFI_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_3",
+                "variableName": "BFI_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_4",
+                "variableName": "BFI_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_5",
+                "variableName": "BFI_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_6",
+                "variableName": "BFI_6",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_7",
+                "variableName": "BFI_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_8",
+                "variableName": "BFI_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_9",
+                "variableName": "BFI_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_10",
+                "variableName": "BFI_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_11",
+                "variableName": "BFI_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_12",
+                "variableName": "BFI_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_13",
+                "variableName": "BFI_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_14",
+                "variableName": "BFI_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/BFI_15",
+                "variableName": "BFI_15",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/BFI_1",
+            "items/BFI_2",
+            "items/BFI_3",
+            "items/BFI_4",
+            "items/BFI_5",
+            "items/BFI_6",
+            "items/BFI_7",
+            "items/BFI_8",
+            "items/BFI_9",
+            "items/BFI_10",
+            "items/BFI_11",
+            "items/BFI_12",
+            "items/BFI_13",
+            "items/BFI_14",
+            "items/BFI_15"
+        ],
+        "shuffle": false
+    }
+}

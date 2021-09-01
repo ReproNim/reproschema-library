@@ -61,7 +61,7 @@
         {
             "source": "NDA",
             "column": "notes",
-            "value": "0 = Once per day or less0  Una ves por día on menos0; 1 = Several times per day1  Varias veses por día1; 2 = Almost every hour2  Casi cada hora2; 3 = Several times per hour3  Varias veses por hora3; 4 = Almost continuously4 Casi continuamente4"
+            "value": "0 = Once per day or less0  Una ves por dÃ­a on menos0; 1 = Several times per day1  Varias veses por dÃ­a1; 2 = Almost every hour2  Casi cada hora2; 3 = Several times per hour3  Varias veses por hora3; 4 = Almost continuously4 Casi continuamente4"
         }
     ]
 }

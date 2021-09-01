@@ -1,0 +1,60 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq7c",
+    "prefLabel": "PHQ 7c",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": {
+        "en": "Fasted –– not eaten anything at all for at least 24 hours?",
+        "es": "Ayunó –– ¿pasó por lo menos 24 horas sin comer nada?",
+<<<<<<< HEAD
+        "nl": "Helemaal niets gegeten gedurende minstens 24 uur?",
+        "fr": "Jeûner, ne rien manger du tout pendant au moins 24 heures?",
+        "pt-BR": "Fez jejum –– não comeu absolutamente nada durante pelo menos 24 horas?",
+        "ko": "단식 – 최소 24시간동안아무것도먹지않기",
+=======
+        "nl": "Weinig interesse of plezier in activiteiten",
+        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
+        "it": "Scarso interesse o piacere nel fare le cose",
+        "ja": "物事に対してほとんど興味がない、または楽しめない",
+        "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
+        "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay",
+        "no": "Lite interesse for eller glede over å gjøre ting",
+        "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ",
+        "ru": "Вам не хотелось ничего делать",
+        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności",
+        "bg": "Слаб интерес или минимално удоволствие от правенето на различни неща",
+        "lv": "Interešu un dzīvesprieka trūkums",
+        "ms": "Kurang berminat atau keseronokan dalam melakukan sesuatu perkara",
+        "pt-PT": "Tive pouco interesse ou prazer em fazer coisas",
+        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri",
+        "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
+        "sv": "Lite intresse eller glädje av att göra saker",
+        "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "No",
+                "value": 0
+            },
+            {
+                "name": "Yes",
+                "value": 1
+            }
+        ]
+    }
+}

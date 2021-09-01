@@ -1,14 +1,14 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "say_ee",
     "prefLabel": "Say EE",
     "description": "say ee for 10 seconds",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
-        "en": "Say /ee/ as in /feet/ for as long as you can, in a relaxed way and at a normal volume, without interrupting. When you are done, hit the Stop button to end recording. Take a deep breath and click to start.",
-        "es": "Diga /iii/ como en /kilo/ por el mayor tiempo que puedas, de forma relajada y en volumen normal, con un solo aliento, sin cortar. Cuando te quedes sin aire, haz click de nuevo para cortar la grabación. Toma un aliento profundo, haz click y empieza."
+        "en": "Using your normal voice, take a deep breath and say \"ee\" as in \"feet\" until you run completely out of air.",
+        "es": "Usando su voz normal, respire hondo y diga \"iii\" como en \"kilo\" hasta que usted se quede completamente sin aire."
     },
     "ui": {
         "inputType": "audioRecord"

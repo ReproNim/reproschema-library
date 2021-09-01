@@ -1,0 +1,128 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SelfCompassionScale_schema",
+    "prefLabel": {
+        "en": "Mindful Attention Awareness Scale Assessment",
+        "es": "Mindful Attention Awareness Scale Evaluación"
+    },
+    "description": "Self Compassion schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Below is a collection of statements about your everyday experience. Using the 1-6 scale, please indicate how frequently or infrequently you currently have each experience. Please answer according to what really reflects your experience rather than what you think your experience should be. Please treat each item separately from every other item."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/MAAS_1",
+                "variableName": "MAAS_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_2",
+                "variableName": "MAAS_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_3",
+                "variableName": "MAAS_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_4",
+                "variableName": "MAAS_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_5",
+                "variableName": "MAAS_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_6",
+                "variableName": "MAAS_6",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_7",
+                "variableName": "MAAS_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_8",
+                "variableName": "MAAS_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_9",
+                "variableName": "MAAS_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_10",
+                "variableName": "MAAS_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_11",
+                "variableName": "MAAS_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_12",
+                "variableName": "MAAS_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_13",
+                "variableName": "MAAS_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_14",
+                "variableName": "MAAS_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/MAAS_15",
+                "variableName": "MAAS_15",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/MAAS_1",
+            "items/MAAS_2",
+            "items/MAAS_3",
+            "items/MAAS_4",
+            "items/MAAS_5",
+            "items/MAAS_6",
+            "items/MAAS_7",
+            "items/MAAS_8",
+            "items/MAAS_9",
+            "items/MAAS_10",
+            "items/MAAS_11",
+            "items/MAAS_12",
+            "items/MAAS_13",
+            "items/MAAS_14",
+            "items/MAAS_15"
+        ],
+        "shuffle": false
+    }
+}

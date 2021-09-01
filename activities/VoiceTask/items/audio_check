@@ -1,14 +1,14 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "audio_check",
     "prefLabel": "Audio Check",
     "description": "microphone test for participant",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question":
-        {"en": "Going to test your microphone. Click on the start button and say something audibly. Click Play button to hear your recording. If you think there is too much background noise, please go somewhere quieter and Redo, else click Continue.",
-        "es": "Vamos a verificar si funciona tu micrófono. Clickeá en el botón start (comenzar) y dí algo. Clickeá play (reproducir) para oir tu grabación. Si crees que hay demasiado ruido de fondo,  por favor ve a un lugar más silencioso y vuelva a hacerlo, sino ya puede comenzar."
+        {"en": "Before we start, let’s test your microphone. Click on the Start button below and say something out loud like “Testing 1, 2, 3”. Recording will stop automatically after 5 seconds. Click Play to hear your recording. If you hear background noise, please go to a quieter place and try again by selecting Redo recording.  If it sounds good, click Continue.",
+        "es": "Antes de comenzar, probemos su micrófono. Haga clic en el botón Comenzar y diga algo en voz alta como \"Prueba 1, 2, 3\". La grabación se detendrá automáticamente después de 5 segundos. Haga clic en Reproducir para escuchar su grabación. Si escucha ruido de fondo, vaya a un lugar más silencioso y vuelva a intentarlo seleccionando Rehacer grabación. Si suena bien, haga clic en Continuar."
         },
     "ui": {
         "inputType": "audioCheck"

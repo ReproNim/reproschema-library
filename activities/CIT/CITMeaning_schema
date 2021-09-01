@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITMeaning_schema",
+    "prefLabel": {
+        "en": "CIT Meaning"
+    },
+    "description": "CIT Meaning schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Meaning"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_meaning1",
+                "variableName": "cit_meaning1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_meaning2",
+                "variableName": "cit_meaning2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_meaning3",
+                "variableName": "cit_meaning3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_meaning1",
+            "items/cit_meaning2",
+            "items/cit_meaning3"
+        ],
+        "shuffle": false
+    }
+}

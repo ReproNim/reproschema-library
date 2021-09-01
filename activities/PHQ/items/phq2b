@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq9a_2",
+    "prefLabel": "PHQ9a-2",
+    "description": "Q2 of the derived PHQ-9 Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Feeling down, depressed or hopeless?",
+        "es": "\u00bfSe ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas?",
+        "nl": "Zich neerslachtig, depressief of hopeloos voelen?",
+        "fr": " Être triste, déprimé(e) ou désespéré(e)?",
+<<<<<<< HEAD
+=======
+        "ar": " .الشعور بالحزن أو ضيق الصدر أو اليأس",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
+        "pt-BR": "Se sentir “para baixo”, deprimido/a ou sem perspectiva",
+        "ko": "기분이 가라앉거나, 우울하거나, 희망이 없음",
+        "it": "Sentirsi giù, triste o disperato/a",
+        "ja": "気分が落ち込む、憂うつになる、または絶望的な気持ちになる",
+        "fi": "Alakuloisuus, masentuneisuus tai toivottomuus",
+        "fil": "Pakiramdam na nalulungkot, nadidipress o nawawalan ng pag-asa",
+        "no": "Følt deg nedfor, deprimert eller fylt av håpløshet",
+        "kn": "⁧ೕಸರ, ಖಿನನ್⁠ ಅಥ ಾ ಹΏಾ⁯",
+        "ru": "У Вас было плохое настроение, Вы были подавлены или испытывали чувство безысходности",
+        "pl": "Uczucie smutku, przygnębienia lub beznadziejności",
+        "bg": "Чувство за потиснатост, депресия или отчаяние",
+        "lv": "Slikts/nomākts garastāvoklis, nospiestība vai bezcerības sajūta",
+        "ms": "Rasa sedih, tidak gembira atau putus asa",
+        "pt-PT": "Senti desânimo, desalento ou falta de esperança",
+        "ro": "Sentimentul de tristeţe, deprimare sau deznădăjduire",
+        "zh-CN": "情绪低落、抑郁或绝望",
+        "sv": "Känt dig nedstämd, deprimerad eller upplevt känsla av hopplöshet",
+        "uk": "Ви почувалися сумними, пригніченими або безнадійними"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints2"
+}

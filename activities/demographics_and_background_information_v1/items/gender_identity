@@ -1,0 +1,77 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "gender_identity",
+    "prefLabel": "Gender",
+    "description": "schema to identify gender of the subject",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Gender identity (select all that apply):",
+	    "es": "Identidad de género (seleccione todas las que correspondan):"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:anyURI",
+	    "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+	                "en": "Woman / cis women",
+	                "es": "Mujer / mujer cis"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+	                "en": "Man / cis man",
+	                "es": "Hombre / hombre cis"
+                },
+                "value": 1
+            },
+	        {
+                "name": {
+	                "en": "Trans woman",
+	                "es": "Mujer trans"
+                },
+                "value": 2
+            },
+	        {
+                "name": {
+	                "en": "Trans man",
+	                "es": "Hombre trans"
+                },
+                "value": 3
+            },
+	        {
+                "name": {
+	                "en": "Non-binary",
+	                "es": "No binario(e)"
+                },
+                "value": 4
+            },
+	        {
+                "name": {
+	                "en": "Prefer not to disclose",
+	                "es": "Prefiero no responder"
+                },
+                "value": 5
+            },
+	        {
+                "name": {
+	                "en": "Other",
+	                "es": "Otro"
+                },
+                "value": 99
+            }
+
+        ]
+    }
+}
+
+
+
+
+

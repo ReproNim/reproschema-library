@@ -2,15 +2,30 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_6p_l",
     "@type": "reproschema:Field",
-    "prefLabel": "tbi_6p_l",
+    "prefLabel": {
+        "en": "tbi_6p_l",
+        "es": "tbi_6p_l_es"
+    },
     "altLabel": "brain_injury_6p_l tbi_6p_p_l",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "If yes, how many more? \u00bfSi la respuesta fue s\u00ed, cuantas m\u00e1s?",
+    "question": {
+        "en": "If yes, how many more?",
+        "es": "¿Si la respuesta fue sí, cuantas más?"
+    },
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
-    }
+        "valueType": "xsd:float",
+        "minValue": null,
+        "maxValue": null
+    },
+    "additionalNotesObj": [
+        {
+            "source": "NDA",
+            "column": "notes",
+            "value": ""
+        }
+    ]
 }

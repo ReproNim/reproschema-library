@@ -2,11 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@id": "tbi_7e_l",
     "@type": "reproschema:Field",
-    "prefLabel": "tbi_7e_l",
+    "prefLabel": {
+        "en": "tbi_7e_l",
+        "es": "tbi_7e_l_es"
+    },
     "altLabel": "brain_injury_7e_l tbi_7e_p_l",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "At what age did these effects begin? \u00bfA qu\u00e9 edad comenzaron estos efectos?",
+    "question": {
+        "en": "At what age did these effects begin?",
+        "es": "¿A qué edad comenzaron estos efectos?"
+    },
     "ui": {
         "inputType": "number"
     },
@@ -14,5 +20,12 @@
         "valueType": "xsd:float",
         "minValue": 7,
         "maxValue": 20
-    }
+    },
+    "additionalNotesObj": [
+        {
+            "source": "NDA",
+            "column": "notes",
+            "value": ""
+        }
+    ]
 }

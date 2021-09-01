@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them? 10.",
-        "es": "En el último mes, ¿con qué frecuencia sintiA que las dificultades se acumulaban tanto que no podía superarlas?"
+        "es": "En el último mes, ¿con qué frecuencia sintió que las dificultades se acumulaban tanto que no podía superarlas?"
     },
     "ui": {
         "inputType": "radio"

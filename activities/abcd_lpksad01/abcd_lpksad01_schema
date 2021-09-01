@@ -2,7 +2,11 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_lpksad01_schema",
-    "prefLabel": "abcd_lpksad01",
+    "prefLabel": {
+        "en": "ABCD Longitudinal Parent Diagnostic Interview for DSM-5 Background Items Full (KSAD)",
+        "es": "abcd_lpksad01_es"
+    },
+    "altLabel": "abcd_lpksad01",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq1_total_score",
+    "prefLabel": "Score PHQ-8",
+    "description": "total score of section 1 for the PHQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "xsd:int",
+        "readonlyValue": true
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "maxValue": 27
+    }
+}

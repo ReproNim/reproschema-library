@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "phq9a_5",
+    "@type": "reproschema:Field",
+    "prefLabel": "PHQ9a-5",
+    "description": "schema for Q5 of the derived PHQ-9 Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Poor appetite or overeating?",
+        "es": "Sin apetito o ha comido en exceso?",
+        "nl": "Weinig eetlust of overmatig eten?",
+        "fr": "Avoir peu d’appétit ou manger trop?",
+<<<<<<< HEAD
+=======
+        "ar": "قلة الشهية أو الزيادة في تناول الطعام عن المعتاد",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
+        "pt-BR": "Falta de apetite ou comendo demais",
+        "ko": "입맛이 없거나 과식을 함",
+        "it": "Scarso appetito o mangiare troppo",
+        "ja": "あまり食欲がない、または食べ過ぎる",
+        "fi": "Huono ruokahalu tai ylensyöminen",
+        "fil": "Kawalan ng ganang kumain o labis na pagkain",
+        "no": "Dårlig appetitt eller å spise for mye",
+        "kn": "ಕ‽⁩ ಹ⁑ವು ಅಥ ಾ ಅ⁀ ಾಗಿ ⁀ನುನ್ವುದು",
+        "ru": "У Вас был плохой аппетит, или Вы переедали",
+        "pl": "Brak apetytu lub przejadanie się",
+        "bg": "Липса на апетит или прекомерно хранене",
+        "lv": "Pazemināta ēstgriba vai pārēšanās",
+        "ms": "Kurang selera atau makan berlebihan",
+        "ro": "Apetit redus sau alimentare excesivă",
+        "zh-CN": "胃口极差或饮食过量",
+        "sv": "Dålig aptit eller ätit för mycket",
+        "uk": "У Вас був поганий апетит, або Ви переїдали"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints2"
+}

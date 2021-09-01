@@ -1,0 +1,157 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq11",
+    "prefLabel": "PHQ11",
+    "description": "schema for Q11 of the PHQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+        "es": "¿Qué tan difícil le han dificultado estos problemas hacer su trabajo, ocuparse de las cosas en casa o llevarse bien con otras personas?",
+        "nl": "Hoe moeilijk hebben deze problemen het voor u gemaakt om uw werk te doen, thuis voor dingen te zorgen of met andere mensen om te gaan?",
+        "fr": "À quel point ces problèmes vous ont-ils rendu difficile de faire votre travail, de vous occuper de vos affaires à la maison ou de vous entendre avec d'autres personnes?",
+<<<<<<< HEAD
+=======
+        "ar": "ما مدى صعوبة هذه المشاكل بالنسبة لك للقيام بعملك ، أو الاعتناء بالأشياء في المنزل ، أو التعايش مع الآخرين؟",
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
+        "pt-BR": "Se você assinalou qualquer um dos problemas, indique o grau de dificuldade que os mesmos lhe causaram para realizar seu trabalho, tomar conta das coisas em casa ou para se relacionar com as pessoas?",
+        "ko": "만일 당신이 위의 문제 중 하나 이상 '예' 라고 응답하셨으면, 이러한 문제들로 인해서 당신은 일을 하거나 가정일을 돌보거나 다른 사람과 어울리는 것이 얼마나 어려웠습니까?",
+        "it": "Se ha fatto una crocetta su uno qualsiasi di questi problemi, quanto questi problemi le hanno reso difficile fare il suo lavoro, occuparsi delle sue cose a casa o avere buoni rapporti con gli altri?",
+        "ja": "一つでも問題に当てはまる場合、仕事をしたり、家事をしたり、他の人と仲良くやっていくことがどのくらい困難に なっていますか?",
+        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
+        "fil": "Kung may tsinekan kang anumang mga problema, gaano ka pinahirapan ng mga problemang ito na gawin ang iyong trabaho, asikasuhin ang mga bagay sa bahay, o makisama sa ibang tao?",
+        "no": "Hvis du har opplevd ett eller flere av de problemene som nevnes, i hvor stor grad har problemene gjort det vanskelig for deg å utføre arbeidet ditt, ordne med ting hjemme eller å komme overens med andre?",
+        "kn": "⁄ೕವು  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಗೆ ⁗ಕ್  ಾ‽ದದ್⁫, ಆ ಸಮⁱಯ್ಗಳು ⁄ಮಗೆ ⁄ಮಮ್ ಕೆಲಸವನುನ್  ಾಡಲು, ಮ⁤ಯ⁌ಲ್ನ ⁎ಷಯಗಳನುನ್ ⁤ೂೕ‽ಕೊಳಳ್ಲು, ಅಥ ಾ ಇತರ⁫ೂಂ⁂ಗೆ ⁲ೂಂ⁂ಕೊಂಡು ⁲ೂೕಗಲು ಎಷುಟ್ ಕಷಟ್ವನುನ್ಂಟು ಾ‽ದವು?",
+        "ru": "Если Вы положительно ответили на какие-нибудь пункты, то оцените, насколько трудно Вам было работать, заниматься домашними делами или общаться с людьми из-за этих проблем?",
+        "pl": "Jeżeli zaznaczył/-a Pan/Pani którekolwiek z problemów, jak bardzo utrudniły one Panu/Pani wykonywanie pracy, zajmowanie się domem lub relacje z innymi ludźmi?",
+        "bg": "Ако сте отбелязали някакви проблеми, доколко трудно Ви беше поради тези проблеми да се справяте с работата си, да се грижите за нещата у дома или да се разбирате с другите хора?",
+        "ms": "Jika anda menandakan sebarang masalah, sejauh manakah masalah-masalah tersebut membuatkan anda sukar untuk membuat kerja anda, menguruskan kerja-kerja di rumah atau bergaul dengan orang lain?",
+        "lv": "Ja Jūs uz kādu no 9 apgalvojumiem atbildējāt apstiprinoši, novērtējiet, cik lielas grūtības Jums radīja darbs, nodarbošanās ar sadzīves lietām vai saskarsme ar cilvēkiem",
+        "pt-PT": "Se indicou alguns problemas, até que ponto é que eles dificultaram o seu trabalho, o cuidar da casa ou o lidar com outras pessoas?",
+        "ro": "Dacă aţi bifat oricare din aceste probleme, cât de mult v-au îngreunat ele munca, rezolvarea treburilor de acasă sau buna înţelegere cu ceilalţi?",
+        "zh-CN": "如果你选出以上任何问题，这些问题对你的工作、处理家中事务或与人相处时来说造成多大困难?",
+        "sv": "Om du svarat att du haft något av dessa problem, hur svårt har dessa problem gjort det för dig att utföra ditt arbete, ta hand om saker hemma, eller att komma överens med andra människor?",
+        "uk": "Якщо Ви відповіли позитивно на деякі пункти, оцініть, наскільки важко Вам було працювати,займатись домашніми справами або взаємодіяти з іншими людьми через ці проблеми?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Not difficult at all",
+                    "es": "Nada dificil",
+                    "nl": "helemaal niet moeilijk",
+                    "fr": "Pas difficile du tout",
+                    "ar": "ليس من الصعب على الإطلاق",
+                    "pt-BR": "Nenhuma dificuldade",
+                    "ko": "전혀 어렵지 않았다",
+                    "it": "Per niente difficile",
+                    "ja": "全く困難で ない",
+                    "fi": "Ei lainkaan",
+                    "fil": "Hinding-hindi pinahirapan",
+                    "no": "Ikke vanskelig i det hele tatt",
+                    "ru": "Совсем не трудно",
+                    "pl": "W ogóle nie utrudniły",
+                    "bg": "Въобще не ми беше трудно",
+                    "lv": "Nebija grūti",
+                    "ms": "Tidak mempunyai kesukaran langsung",
+                    "pt-PT": "Dificultaram extremamente",
+                    "ro": "Deloc",
+                    "zh-CN": "完全沒有困难",
+                    "sv": "Inte alls svårt",
+                    "uk": "Зовсім не важко"
+
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat difficult",
+                    "es": "algo dificil",
+                    "nl": "enigszins moeilijk",
+                    "fr": "Un peu difficile",
+                    "ar": "من الصعب إلى حد ما",
+                    "pt-BR": "Alguma dificuldade",
+                    "ko": "약간 어려웠다",
+                    "it": "Abbastanza difficile",
+                    "ja": "やや困難",
+                    "fi": "Hieman vaikeaa",
+                    "fil": "Medyo Pinahirapan",
+                    "no": "Litt vanskelig",
+                    "ru": "Немного трудно",
+                    "pl": "Trochę utrudniły",
+                    "bg": "Донякъде трудно",
+                    "lv": "Nedaudz grūti",
+                    "ms": "Agak sukar",
+                    "pt-PT": "Dificultaram muito",
+                    "ro": "Oarecum",
+                    "zh-CN": "有一些困难",
+                    "sv": "Lite svårt",
+                    "uk": "Дещо важко"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very difficult",
+                    "es": "Muy dificil",
+                    "nl": "erg moeilijk",
+                    "fr": "Très difficile",
+                    "ar": "صعب جدا",
+                    "pt-BR": "Muita dificuldade",
+                    "ko": "많이 어려웠다",
+                    "it": "Molto difficile",
+                    "ja": "大変困難",
+                    "fi": "Hyvin vaikeaa",
+                    "fil": "Masyadong Pinahirapan",
+                    "no": "Veldig vanskelig",
+                    "ru": "Очень трудно",
+                    "pl": "Bardzo utrudniły",
+                    "bg": "Много трудно",
+                    "lv": "Ļoti grūti",
+                    "ms": "Sangat sukar",
+                    "pt-PT": "Dificultaram um pouco",
+                    "ro": "Foarte mult",
+                    "zh-CN": "非常困难",
+                    "sv": "Mycket svårt",
+                    "uk": "Дуже важко"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Extremely difficult",
+                    "es": "Extremadamente dificil",
+                    "nl": "Extreem moeilijk",
+                    "fr": "Extrêmement difficile",
+                    "ar": "صعب للغاية",
+                    "pt-BR": "Extrema dificuldade",
+                    "ko": "매우 많이 어려웠다",
+                    "it": "Estremamente difficile",
+                    "ja": "極端に困難",
+                    "fi": "Erittäin vaikeaa",
+                    "fil": "Labis na Pinahirapan",
+                    "no": "Ekstremt vanskelig",
+                    "ru": "Чрезвычайно трудно",
+                    "pl": "Niezmiernie utrudniły",
+                    "bg": "Изключително трудно",
+                    "lv": "Ārkārtīgi grūti",
+                    "ms": "Terlampau sukar",
+                    "pt-PT": "Não dificultaram",
+                    "ro": "Extrem de mult",
+                    "zh-CN": "极度困难",
+                    "sv": "Extremt svårt",
+                    "uk": "Надзвичайно важко"
+                },
+                "value": 3
+            }
+        ]
+    }
+}

@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Overall, how safe do you think your child felt before the hurricane?",
-        "es": "En general, ¿qué tan seguro se sintiA su hijo(a) antes del huracán?"
+        "es": "En general, ¿qué tan seguro se sintió su hijo(a) antes del huracán?"
     },
     "ui": {
         "inputType": "radio"

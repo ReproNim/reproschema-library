@@ -1,0 +1,131 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CIT_schema",
+    "prefLabel": {
+        "en": "CIT schema"
+    },
+    "description": "CIT schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Please indicate your agreement or disagreement with each of the following statements."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "CITSupport_schema",
+                "variableName": "CITSupport_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITCommunity_schema",
+                "variableName": "CITCommunity_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITTrust_schema",
+                "variableName": "CITTrust_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITRespect_schema",
+                "variableName": "CITRespect_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITLoneliness_schema",
+                "variableName": "CITLoneliness_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITBelonging_schema",
+                "variableName": "CITBelonging_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITEngagement_schema",
+                "variableName": "CITEngagement_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITSkills_schema",
+                "variableName": "CITSkills_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITLearning_schema",
+                "variableName": "CITLearning_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITAccomplishment_schema",
+                "variableName": "CITAccomplishment_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITSelfefficacy_schema",
+                "variableName": "CITSelfefficacy_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITSelfworth_schema",
+                "variableName": "CITSelfworth_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITControl_schema",
+                "variableName": "CITControl_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITMeaning_schema",
+                "variableName": "CITMeaning_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITOptimism_schema",
+                "variableName": "CITOptimism_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITSatisfaction_schema",
+                "variableName": "CITSatisfaction_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITPositive_schema",
+                "variableName": "CITPositive_schema",
+                "isVis": true
+            },
+            {
+                "isAbout": "CITNegative_schema",
+                "variableName": "CITNegative_schema",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "CITSupport_schema",
+            "CITCommunity_schema",
+            "CITTrust_schema",
+            "CITRespect_schema",
+            "CITLoneliness_schema",
+            "CITBelonging_schema",
+            "CITEngagement_schema",
+            "CITSkills_schema",
+            "CITLearning_schema",
+            "CITAccomplishment_schema",
+            "CITSelfefficacy_schema",
+            "CITSelfworth_schema",
+            "CITControl_schema",
+            "CITMeaning_schema",
+            "CITOptimism_schema",
+            "CITSatisfaction_schema",
+            "CITPositive_schema",
+            "CITNegative_schema"
+        ],
+        "shuffle": false
+    }
+}

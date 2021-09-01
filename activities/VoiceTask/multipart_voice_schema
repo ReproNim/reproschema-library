@@ -1,6 +1,6 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
+    "@type": "reproschema:Field",
     "@id": "multipart_voice_schema",
     "prefLabel": "voice tasks",
     "description": "Voice tasks",

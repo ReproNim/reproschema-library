@@ -8,7 +8,28 @@
     "version": "0.0.1",
     "question": {
         "en": "Moving or speaking so slowly that other people could have noticed? Or the opposite \u2014 being so fidgety or restless that you have been moving around a lot more than usual?",
-        "es": "\u00bfSe ha movido o hablado tan lento que otras personas podr\u00edan haberlo notado? o lo contrario \u2013 muy inquieto(a) o agitado(a) que ha estado movi\u00e9ndose mucho m\u00e1s de lo normal?"
+        "es": "\u00bfSe ha movido o hablado tan lento que otras personas podr\u00edan haberlo notado? o lo contrario \u2013 muy inquieto(a) o agitado(a) que ha estado movi\u00e9ndose mucho m\u00e1s de lo normal?",
+        "nl": "Zo traag bewegen of zo langzaam spreken dat andere mensen dit opgemerkt kunnen hebben? Of het tegenovergestelde, zo zenuwachtig of rusteloos zijn dat u veel meer bewoog dan gebruikelijk?",
+        "fr": "Bouger ou parler si lentement que les autres auraient pu le remarquer. Ou au contraire, être si agité(e) que vous avez eu du mal à tenir en place par rapport à d’habitude?",
+        "ar": " بطء في الحرآة أو بطء في التحدث عما هو معتاد لدرجة ملحوظة من الآخرين / أو على العكس من ذلك التحدث بسرعة وآثرة الحرآة أآثر من المعتا",
+        "pt-BR": "Lentidão para se movimentar ou falar, a ponto das outras pessoas perceberem? Ou o oposto – estar tão agitado/a ou irrequieto/a que você fica andando de um lado para o outro muito mais do que de costume",
+        "ko": "다른 사람들이 주목할 정도로 너무 느리게 움직이거나 말을 함. 또는 반대로 평상시보다 많이 움직여서, 너무 안절부절 못하거나 들떠 있음",
+        "it": "Muoversi o parlare così lentamente da poter essere notato/a da altre persone. O, al contrario, essere così irrequieto/a da muoversi molto più del solito",
+        "ja": "他人が気づくぐらいに動きや話し方が遅くなる、あるいは これと反対に、そわそわしたり、落ちつかず、普段よりも動き回る ことがある",
+        "fi": "Liikutteko tai puhutteko niin hitaasti, että muut ihmiset ovat saattaneet huomata? Tai päinvastoin - oletteko olleet niin hermostunut tai levoton, että olette liikkuneet paljon tavallista enemmän",
+        "fil": "Pagkilos o pagsasalita ng mabagal na maaring napansin ng ibang tao? O ang kabaligtaran — pagiging alumpihit o di mapakali kaya ikot nang ikot nang higit sa karaniwan",
+        "no": "Beveget deg eller snakket så langsomt at andre kan ha merket det? Eller motsatt – følt deg så urolig eller rastløs at du har vært mye mer i bevegelse enn vanlig",
+        "kn": "ಇತರರ ಗಮನಕೆಕ್ ಬರುವಷುಟ್ ⁄῾ಾನ ಾಗಿ ನ⁝´ಾಡುವುದು ಅಥ ಾ  ಾತ῿ಾಡುವುದು? ಅಥ ಾ ತ⁂ವ್ರುದಧ್ ಾಗಿ — ‌ಾ ಾನಯ್ಕಿಕ್ಂತ ⁲ಚುಚ್ ಅ⁀ತ್ಂ⁂ತತ್ ಓῸಾಡುವಷುಟ್ ಚಡಪ‽ಕೆ ಅಥ ಾ ಅ ಾಂ⁀",
+        "ru": "Вы двигались или говорили настолько медленно, что окружающие это замечали? Или, наоборот, Вы были настолько суетливы или взбудоражены, что двигались гор здо больше обычного",
+        "pl": "Poruszanie się lub mówienie tak wolno, że inni mogliby to zauważyć? Albo wręcz przeciwnie — niemożność usiedzenia w miejscu lub podenerwowanie powodujące ruc liwość znacznie większą niż zwykle",
+        "bg": "Бавно движение или говор, което прави впечатление на останалите. Или обратното — безпокойство или неспособност да се спрете на едно място, което Ви кара да се движите наоколо много повече от обикновено",
+        "lv": "Kustības un runa bija tik lēna, ka citi cilvēki to varēja pamanīt. Vai pretēji – bijāt tik satraukts/satraukta un rosīgs/rosīga, ka kustību aktivitāte kļuva lielāka nekā par sti",
+        "ms": "Bergerak atau bercakap terlalu perlahan sehinggakan orang lain perasan? Atau sebaliknya — menjadi sangat resah atau gelisah sehinggakan anda telah bergerak dengan banyak daripada biasa",
+        "pt-PT": "Movimentei-me ou falei tão lentamente que outras pessoas poderão ter notado. Ou o oposto: estive agitado/a a ponto de andar de um lado para o outro muito mais do que é habitual",
+        "ro": "Mişcarea sau vorbitul atât de lente încât alte persoane ar fi putut remarca? Sau contrariul — o stare de nelinişte sau agitaţie excesivă, care v-a făcut să vă mişcaţi mult mai mult decât de obicei",
+        "zh-CN": "其它人反映你行动或说话迟缓；或者相反，你比平常活动更 多──坐立不安、停不下来",
+        "sv": "Att du rört dig eller talat så långsamt att andra människor märkt det? Eller motsatsen – att du varit så nervös eller rastlös att du rört dig mer än vanligt",
+        "uk": "Ви рухались або розмовляли настільки повільно, що інші люди могли б це помітити? Або ж навпаки, Ви були настільки метушливі або неспокійні, що пересувались набагато більше, ніж зазвичай"
     },
     "ui": {
         "inputType": "radio"

@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Overall, how scared or upset do you think your child during the hurricane?",
-        "es": "En general, ¿qué miedo o malestar usted cree que su hijo(a) sintiA durante el huracán?"
+        "es": "En general, ¿qué miedo o malestar usted cree que su hijo(a) sintió durante el huracán?"
     },
     "ui": {
         "inputType": "radio"

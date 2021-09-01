@@ -9,7 +9,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate? Si se pronostica que otro huracán golpea donde usted vive,",
+        "en": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate? Si se pronostica que otro huracÃ¡n golpea donde usted vive,",
         "es": "¿preferiría quedarse en su casa o evacuar?"
     },
     "ui": {

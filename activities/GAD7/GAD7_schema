@@ -9,7 +9,28 @@
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by the following problems?",
-        "es": "Durante las \u00faltimas 2 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?"
+        "es": "Durante las \u00faltimas 2 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "ar": "خلال الأسبوعين الماضيين، آم مرّة أقلقتك المشاآل التّالية؟ ضع علامة “9 “للإشارة لجوابك)",
+        "it": "Nelle ultime 2 settimane, con quale frequenza le ha dato fastidio ciascuno dei seguenti problemi?",
+        "nl": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van één of meer van de volgende problemen?",
+        "fr": "Au cours des 2 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
+        "pt-BR": "Durante as últimas 2 semanas, com que freqüência você foi incomodado/a pelos problemas abaixo?",
+        "fil": "Nitong mga nakaraang 14 na araw, gaano ka kadalas binagabag ng mga sumusunod na problema?",
+        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
+        "kn": "ಕ⁭ದ ಎರಡು  ಾರಗಳ⁌ῤ, ಈ ⁓ಳ‵ನ ಸಮⁱῡಗ⁍ಂದ ⁄ೕವ⁳ ಆ῰ಾಗ ಎಷುῒ ⁠ೂಂದ⁫⁕ೂಳ῰ಾ‵⁂Ῑೕ⁋?",
+        "ko": "지난 2 주 동안 당신은 다음의 문제들로 인해서 얼마나 자주 방해를 받았습니까?",
+        "no": "Hvor ofte har du vært plaget av de følgende problemene i løpet av de siste 14 dagene?",
+        "pl": "Jak często w ciągu ostatnich 2 tygodni dokuczały Panu(i) następujące problemy?",
+        "pt-PT": "Durante os últimos 14 dias, em quantos foi afectado/a pelos seguintes problemas?",
+        "ro": "În ultimele 2 săptămâni, cât de des v-au deranjat următoarele probleme?",
+        "ru": "Как часто Вас за последние 14 дней беспокоили следующие проблемы?",
+        "zh-CN": "在过去两周，您经常受到以下问题的困扰吗",
+        "bg": "Колко често през изминалите две седмици, сте бил (а) обезпокоен (а) от следните проблеми?",
+        "da": "Hvor ofte i de sidste 14 dage har du været generet af følgende problemer?",
+        "sv": "Under de senaste 14 dagarna, hur ofta har du du besvärats av följande problem?",
+        "lv": "Cik bieži pēdējo 2 nedēļu laikā Jūs saskārāties ar kādu no zemāk minētajām problēmām?",
+        "ms": "Dalam tempoh 14 hari yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
+        "uk": "Як часто за останні 2 тижні Вас турбували наступні проблеми?"
     },
     "compute": [
         {

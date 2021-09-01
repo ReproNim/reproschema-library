@@ -10,7 +10,7 @@
     "version": "0.0.1",
     "question": {
         "en": "Overall, how stressed did you feel during the hurricane?",
-        "es": "En general, ¿que tan estresado usted sintiA durante el huracán?"
+        "es": "En general, ¿que tan estresado usted sintió durante el huracán?"
     },
     "ui": {
         "inputType": "radio"

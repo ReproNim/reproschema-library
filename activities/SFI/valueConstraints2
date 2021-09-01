@@ -1,0 +1,55 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "valueConstraints2",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 3,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Poor",
+            "value": 0
+        },
+        {
+            "name": "",
+            "value": 1
+        },
+        {
+            "name": "",
+            "value": 2
+        },
+        {
+            "name": "",
+            "value": 3
+        },
+        {
+            "name": "",
+            "value": 4
+        },
+        {
+            "name": "",
+            "value": 5
+        },
+        {
+            "name": "",
+            "value": 6
+        },
+        {
+            "name": "",
+            "value": 7
+        },
+        {
+            "name": "",
+            "value": 8
+        },
+        {
+            "name": "",
+            "value": 9
+        },
+        {
+            "name": "Excellent",
+            "value": 10
+        }
+    ]
+}

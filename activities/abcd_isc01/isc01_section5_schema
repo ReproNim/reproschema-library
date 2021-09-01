@@ -1,0 +1,68 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "isc01_section5_schema",
+    "prefLabel": {
+        "en": "isc01_section5",
+        "es": "isc01_section5_es"
+    },
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+             "items/irma_pssc_1",
+            "items/irma_pssc_2",
+            "items/irma_pssc_3",
+            "items/irma_pssc_4",
+            "items/irma_pssc_5",
+            "items/irma_pssc_6",
+            "items/irma_pssc_7",
+            "items/irma_pssc_8",
+            "items/irma_pssc_9",
+            "items/irma_pssc_10"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "irma_pssc_1",
+                "isAbout": "items/irma_pssc_1"
+            },
+            {
+                "variableName": "irma_pssc_10",
+                "isAbout": "items/irma_pssc_10"
+            },
+            {
+                "variableName": "irma_pssc_2",
+                "isAbout": "items/irma_pssc_2"
+            },
+            {
+                "variableName": "irma_pssc_3",
+                "isAbout": "items/irma_pssc_3"
+            },
+            {
+                "variableName": "irma_pssc_4",
+                "isAbout": "items/irma_pssc_4"
+            },
+            {
+                "variableName": "irma_pssc_5",
+                "isAbout": "items/irma_pssc_5"
+            },
+            {
+                "variableName": "irma_pssc_6",
+                "isAbout": "items/irma_pssc_6"
+            },
+            {
+                "variableName": "irma_pssc_7",
+                "isAbout": "items/irma_pssc_7"
+            },
+            {
+                "variableName": "irma_pssc_8",
+                "isAbout": "items/irma_pssc_8"
+            },
+            {
+                "variableName": "irma_pssc_9",
+                "isAbout": "items/irma_pssc_9"
+            }
+        ]
+    }
+}

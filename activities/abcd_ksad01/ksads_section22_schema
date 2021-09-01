@@ -1,0 +1,35 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "ksads_section22_schema",
+    "prefLabel": "abcd_ksad01",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/ksads_22_141_p",
+            "items/ksads_22_142_p",
+            "items/ksads_22_969_p",
+            "items/ksads_22_970_p"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "ksads_22_141_p",
+                "isAbout": "items/ksads_22_141_p"
+            },
+            {
+                "variableName": "ksads_22_142_p",
+                "isAbout": "items/ksads_22_142_p"
+            },
+            {
+                "variableName": "ksads_22_969_p",
+                "isAbout": "items/ksads_22_969_p"
+            },
+            {
+                "variableName": "ksads_22_970_p",
+                "isAbout": "items/ksads_22_970_p"
+            }
+        ]
+    }
+}

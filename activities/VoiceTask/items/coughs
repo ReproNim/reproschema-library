@@ -1,19 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "coughs",
     "prefLabel": "Coughs",
     "description": "Characterization of coughs",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "preamble":
         {
-        "en": "Hit record and do the following",
-        "es": "Aprieta record (grabar) y haz lo siguiente"
+        "en": "Hit Record and do the following",
+        "es": "Haga clic en Grabar y haz lo siguiente."
         },
     "question":
-        {"en": "Inhale, cough 3 times. Repeat twice.",
-        "es": "Inhale, tose 3 veces. Repite esto dos veces."
+        {"en": "Inhale, cough 3 times. Repeat two more times.",
+        "es": "Debe inhalar y luego toser 3 veces. Repite esto dos veces más."
         },
     "ui": {
         "inputType": "audioPassageRecord"

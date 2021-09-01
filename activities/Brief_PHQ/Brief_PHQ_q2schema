@@ -1,0 +1,69 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "Brief_PHQ_q2schema",
+    "prefLabel": {
+        "en": "Brief PHQ Assessment",
+        "es": "Breve PHQ Evaluación"
+    },
+    "description": "PHQ-9 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "In the last 4 weeks, how much have you been bothered by any of the following problems?"
+    },
+    "compute": [
+        {
+            "variableName": "briefphq_q2_total_score",
+            "jsExpression": "briefphq_2a + briefphq_2b + briefphq_2c + briefphq_2d + briefphq_2e"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/briefphq_4a",
+                "variableName": "briefphq_4a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_4b",
+                "variableName": "briefphq_4b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_4c",
+                "variableName": "briefphq_4c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_4d",
+                "variableName": "briefphq_4d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/briefphq_4e",
+                "variableName": "briefphq_4e",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq9_total_score",
+                "variableName": "phq9_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/briefphq_2a",
+            "items/briefphq_2b",
+            "items/briefphq_2c",
+            "items/briefphq_2d",
+            "items/briefphq_2e"
+        ],
+        "shuffle": false
+    }
+}

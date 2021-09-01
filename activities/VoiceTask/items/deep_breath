@@ -1,18 +1,18 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "deep_breath",
     "prefLabel": "Deep breaths",
     "description": "Characterization of breaths",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "preamble":
         {"en": "Hit record and do the following",
-        "es": "Aprieta record (grabar) y haz lo siguiente"
+        "es": "Haga click en Grabar y haz lo siguiente"
         },
     "question":
-        {"en": "Inhalation for 4 seconds followed by exhalation for 4 seconds. Repeat this 4 times.",
-        "es": "Inhale por 4 segundos y exhale por 4 segundos. Repite esto 4 veces."
+        {"en": "Relax and inhale for 4 seconds, then exhale for 4 seconds.  Repeat this 4 more times.",
+        "es": "Relájese e inhale durante 4 segundos, luego exhale durante 4 segundos. Repite esto 4 veces más."
         },
     "ui": {
         "inputType": "audioPassageRecord"
@@ -20,7 +20,7 @@
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 60000
+        "maxValue": 45000
     }
 }
 

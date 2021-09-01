@@ -1,0 +1,61 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq3d",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": {
+        "en": "Do these attacks bother you a lot or are you worried about having another attack?",
+<<<<<<< HEAD
+        "es": "¿Estos ataques le molestan mucho o le preocupa tener otro ataque?",
+        "nl": "Hebt u erg last van deze aanvallen of maakt u zich zorgen overeen mogelijke nieuwe aanval in de toekomst?",
+        "fr": "Ces crises vous gênent-elles beaucoup ou êtes-vous inquiet(e) à l‟idée d‟en avoir une autre?",
+        "pt-BR": "Essas crises incomodam você muito ou você está preocupado/a em ter outra crise?",
+        "ko": "이러한발작때문에당신은많이방해를받거나또다른발작이일어날까걱정이됩니까?"
+=======
+        "es": "¿Estos ataques le molestan mucho o le preocupa tener otro\nataque?",
+        "nl": "Hebt u erg last van deze aanvallen of maakt u zich zorgen over\neen mogelijke nieuwe aanval in de toekomst?",
+        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
+        "it": "Scarso interesse o piacere nel fare le cose",
+        "ja": "物事に対してほとんど興味がない、または楽しめない",
+        "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
+        "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay",
+        "no": "Lite interesse for eller glede over å gjøre ting",
+        "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ",
+        "ru": "Вам не хотелось ничего делать",
+        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności",
+        "bg": "Слаб интерес или минимално удоволствие от правенето на различни неща",
+        "lv": "Interešu un dzīvesprieka trūkums",
+        "ms": "Kurang berminat atau keseronokan dalam melakukan sesuatu perkara",
+        "pt-PT": "Tive pouco interesse ou prazer em fazer coisas",
+        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri",
+        "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
+        "sv": "Lite intresse eller glädje av att göra saker",
+        "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
+>>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "No",
+                "value": 0
+            },
+            {
+                "name": "Yes",
+                "value": 1
+            }
+        ]
+    }
+}

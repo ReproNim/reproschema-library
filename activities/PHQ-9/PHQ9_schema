@@ -2,14 +2,38 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "PHQ9_schema",
-    "prefLabel": "PHQ-9 Assessment",
+    "prefLabel": {
+        "en": "PHQ-9 Assessment",
+        "es": "PHQ-9 Evaluación"
+    },
     "description": "PHQ-9 assessment schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
-        "es": "Durante las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le han molestado los siguintes problemas?"
+        "es": "Durante las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le han molestado los siguintes problemas?",
+        "it": "Nelle ultime 2 settimane, con quale frequenza le ha dato fastidio ciascuno dei seguenti problemi?",
+        "fr": "Au cours des 2 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
+        "ko": "지난 2 주일 동안 당신은 다음의 문제들로 인해서 얼마나 자주 방해를 받았습니까?",
+        "ar": "خلال الأسبوعين الماضيين، آم مرة عانيت من أي من المشاآل التالية؟",
+        "pt-BR": "Durante as últimas 2 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
+        "nl": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van één of meer van de volgende problemen?",
+        "ja": "この 2 週間、次のような問題にどのくらい頻繁に 悩まされていますか?",
+        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
+        "fil": "Nitong nakaraang 14 na araw, gaano ka kadalas binagabag ng alinman sa mga sumusunod na mga problema?",
+        "no": "Hvor ofte har du vært plaget av ett eller flere av de følgende problemene i løpet av de siste 2 ukene,?",
+        "kn": "ಕ⁭ದ 2  ಾರಗಳ⁌ಲ್, ⁄ೕವು ಪ⁢ೕ ಪ⁢ೕ ಈ ಕೆಳಗಿನ  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಂದ ಎಷುಟ್ ‷ಂ⁀ತ ಾಗಿ⁂ದ್⁋?",
+        "ru": "Как часто за последние 2 недели Вас беспокоили следующие проблемы?",
+        "pl": "Jak często w ciągu ostatnich 2 tygodni dokuczały Panu/Pani następujące problemy?",
+        "bg": "Колко често през изминалите две седмици, сте бил (а) обезпокоен (а) от следните проблеми?",
+        "lv": "Cik bieži pēdējo 2 nedēļu laikā Jūs ir apgrūtinājušas kādas no šādām problēmām?",
+        "ms": "Dalam tempoh 2 minggu yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
+        "pt-PT": "Durante os últimos 14 dias, em quantos foi afectado/a por algum dos seguintes problemas?",
+        "ro": "În ultimele 2 săptămâni, cât de des v-a deranjat oricare dintre următoarele probleme?",
+        "zh-CN": "在过去两周，您经常受到以下问题的困扰吗?",
+        "sv": "Under de senaste 2 veckorna, hur ofta har du besvärats av något/några av följande problem?",
+        "uk": "Як часто за останні 2 тижні Вас турбували будь-які з наступних проблем?"
     },
     "compute": [
         {
@@ -96,7 +120,6 @@
             "items/phq9_9",
             "items/phq9_10"
         ],
-        "inputType": "section",
         "shuffle": false
     }
 }

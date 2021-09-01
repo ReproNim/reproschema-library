@@ -54,7 +54,7 @@
         {
             "source": "NDA",
             "column": "notes",
-            "value": "1 = Less than a day  Menos de un día; 2 = 1-2 days  1-2 días; 3 = 3-6 days  3-6 día; 4 = A week or more Una semana o más"
+            "value": "1 = Less than a day  Menos de un dÃ­a; 2 = 1-2 days  1-2 dÃ­as; 3 = 3-6 days  3-6 dÃ­a; 4 = A week or more Una semana o mÃ¡s"
         }
     ]
 }

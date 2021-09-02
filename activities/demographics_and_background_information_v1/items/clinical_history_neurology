@@ -1,0 +1,59 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosed1",
+    "prefLabel": "Diagnosed",
+    "description": "schema for native diagnosed of participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Stroke"
+            },
+            {
+                "value": 2,
+                "name": "Alzheimer's disease"
+            },
+            {
+                "value": 3,
+                "name": "Parkinson's disease"
+            },
+            {
+                "value": 4,
+                "name": "Migraine"
+            },
+            {
+                "value": 5,
+                "name": "Epilepsy"
+            },
+            {
+                "value": 6,
+                "name": "Brain tumor"
+            },
+            {
+                "value": 7,
+                "name": "Multiple Sclerosis"
+            },
+            {
+                "value": 0,
+                "name": "Prefer not to disclose"
+            },
+            {
+                "value": -1,
+                "name": "Other"
+            },
+            {
+                "value": 999,
+                "name": "None"
+            }
+        ]
+    }
+}

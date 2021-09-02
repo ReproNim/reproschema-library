@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "sutva_question2",
+    "prefLabel": "number_of_people",
+    "ui": {
+        "inputType": "number"
+    },
+    "question": {
+        "en": "How many?"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer"
+    }
+}

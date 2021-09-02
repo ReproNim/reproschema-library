@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "employment_categories",
+    "prefLabel": "Employment type",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "If yes,:",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Part time",
+                "value": 0
+            },
+            {
+                "name": "Full time",
+                "value": 1
+            },
+            {
+                "name": "Other",
+                "value": 2
+            }
+        ]
+    }
+}

@@ -1,33 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ7_schema",
+    "@id": "PHQ10_schema",
     "prefLabel": {
-        "en": "PHQ-7 Assessment",
-        "es": "PHQ-7 Evaluación"
+        "en": "PHQ-Q10",
+        "es": "PHQ-Q10"
     },
-    "description": "PHQ-7 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "description": "PHQ Q10 schema",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-<<<<<<< HEAD
         "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
         "es": "¿Alguna de estas situaciones le ha ocurrido más de una vez en los últimos 6 meses?",
         "nl": "Zijn één of meer van de volgende dingen u in de afgelopen 6 maanden meer dan eensoverkomen?",
         "fr": "Avez-vous été dans l’une des situations suivantes plus d’une fois au cours des derniers 6 mois?",
         "pt-BR": "Alguma das situações abaixo aconteceu com você mais de uma vez nos últimos 6 meses?",
         "ko": "지난 6개월동안다음의일들이한번이상일어났습니까?"
-=======
-        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?"
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     },
-    "compute": [
-        {
-            "variableName": "phq10_total_score",
-            "jsExpression": "phq10a + phq10b + phq10c + phq10d + phq10e"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
@@ -59,11 +49,6 @@
                 "variableName": "phq10e",
                 "valueRequired": true,
                 "isVis": true
-            },
-            {
-                "isAbout": "items/phq10_total_score",
-                "variableName": "phq10_total_score",
-                "isVis": false
             }
         ],
         "order": [

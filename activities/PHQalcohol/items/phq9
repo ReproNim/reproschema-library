@@ -1,21 +1,14 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq6a",
-    "prefLabel": "PHQ 6a",
-    "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc2",
+    "@id": "phq9",
+    "prefLabel": "PHQ Q9",
+    "description": "PHQ alcohol Q9",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Do you often feel that you can’t control what or how much you eat?",
-<<<<<<< HEAD
-        "es": "¿Siente que a menudo no puede controlar qué come o cuántocome?",
-        "nl": "Hebt u vaak het gevoel geen controle te hebbenover watof hoeveelu eet?",
-        "fr": "Avez-vous souvent l‟impression de ne pas pouvoir contrôler ce que vous mangezou les quantitésde nourriture que vous mangez?",
-        "pt-BR": "Você sente com freqüência que não consegue controlar o que ou o quanto você come?",
-        "ko": "당신은무엇을혹은얼마나먹을지를조절할수없다고자주느끼십니까?"
-=======
-        "es": "¿Siente que a menudo no puede controlar qué come o cuánto come?",
+        "en": "Do you ever drink alcohol (including beer or wine)?",
+        "es": "¿Consume bebidas alcohólicas (incluidos la cerveza o el vino)?",
         "nl": "Weinig interesse of plezier in activiteiten",
         "fr": "Peu d’intérêt ou de plaisir à faire les choses",
         "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
@@ -37,7 +30,6 @@
         "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
         "sv": "Lite intresse eller glädje av att göra saker",
         "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
      },
     "ui": {
         "inputType": "radio"
@@ -45,15 +37,55 @@
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 1,
+        "maxValue": 2,
         "multipleChoice": false,
-        "choices": [
+         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No",
+                    "es": "No",
+                    "nl": "Nee",
+                    "fr": "Non",
+                    "pt-BR": "NÃO",
+                    "ko": "아니오",
+                    "it": "No",
+                    "ja": "番号",
+                    "fil": "Hindi",
+                    "no": "Nei",
+                    "kn": "ಇಲ್ಲ",
+                    "ru": "нет",
+                    "pl": "Nie",
+                    "bg": "не",
+                    "lv": "Nē",
+                    "ms": "Tidak",
+                    "ro": "Nu",
+                    "zh-CN": "不",
+                    "sv": "Nej"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes",
+                    "es": "SÍ",
+                    "nl": "Ja",
+                    "fr": "Oui",
+                    "pt-BR": "Sim",
+                    "ko": "예",
+                    "it": "sì",
+                    "ja": "はい",
+                    "fil": "Oo",
+                    "no": "ja",
+                    "kn": "ಹೌದು",
+                    "ru": "Несколь ко дней",
+                    "pl": "tak",
+                    "bg": "да",
+                    "lv": "Jā",
+                    "ms": "Ya",
+                    "ro": "da",
+                    "zh-CN": "是的",
+                    "sv": "ja"
+                },
                 "value": 1
             }
         ]

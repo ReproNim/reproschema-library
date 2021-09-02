@@ -1,26 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq7b",
-    "prefLabel": "PHQ 7b",
-    "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc2",
+    "@id": "phq10a",
+    "prefLabel": "PHQ 10a",
+    "description": "PHQ alcohol Q10a",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Took more than twice the recommended dose of laxatives?",
-        "es": "¿Tomó más del doble de la dosis recomendada de laxantes?",
-<<<<<<< HEAD
-        "nl": "Meer dan het dubbele van de aanbevolen dosislaxeermiddelen genomen?",
-        "fr": "Prendre plus de deux fois la dose recommandée de laxatifs ?",
-        "pt-BR": "Tomou mais do dobro da dose recomendada de laxante?",
-        "ko": "대변을나오게하는약을권장량의두배이상복용",
-=======
+        "en": "You drank alcohol even though a doctor suggested that you stop drinking because of a problem with your health.",
+        "es": "Bebió alcohol aunque el médico le sugirió que parara de hacerlo debido a un problema con su salud",
         "nl": "Weinig interesse of plezier in activiteiten",
         "fr": "Peu d’intérêt ou de plaisir à faire les choses",
         "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
         "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
         "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "it": "Scarso interesse o piacere nel fare le cose",
         "ja": "物事に対してほとんど興味がない、または楽しめない",
         "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
@@ -48,11 +41,51 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No",
+                    "es": "No",
+                    "nl": "Nee",
+                    "fr": "Non",
+                    "pt-BR": "NÃO",
+                    "ko": "아니오",
+                    "it": "No",
+                    "ja": "番号",
+                    "fil": "Hindi",
+                    "no": "Nei",
+                    "kn": "ಇಲ್ಲ",
+                    "ru": "нет",
+                    "pl": "Nie",
+                    "bg": "не",
+                    "lv": "Nē",
+                    "ms": "Tidak",
+                    "ro": "Nu",
+                    "zh-CN": "不",
+                    "sv": "Nej"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes",
+                    "es": "SÍ",
+                    "nl": "Ja",
+                    "fr": "Oui",
+                    "pt-BR": "Sim",
+                    "ko": "예",
+                    "it": "sì",
+                    "ja": "はい",
+                    "fil": "Oo",
+                    "no": "ja",
+                    "kn": "ಹೌದು",
+                    "ru": "Несколь ко дней",
+                    "pl": "tak",
+                    "bg": "да",
+                    "lv": "Jā",
+                    "ms": "Ya",
+                    "ro": "da",
+                    "zh-CN": "是的",
+                    "sv": "ja"
+                },
                 "value": 1
             }
         ]

@@ -1,20 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9",
-    "prefLabel": "radio item",
+    "@id": "phq6c",
+    "prefLabel": "PHQ 6c",
     "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Do you ever drink alcohol (including beer or wine)?",
-        "es": "¿Consume bebidas alcohólicas (incluidos la cerveza o el vino)?",
+        "en": "Has this been as often, on average, as twice a week for the last 3 months?",
 <<<<<<< HEAD
-        "nl": "Drinkt u wel eens alcohol (bierof wijn inbegrepen)?",
-        "fr": "Vous arrive-t-il de boire de l’alcool (y compris de la bière ou du vin)?",
-        "pt-BR": "Você toma bebida alcoólica (incluindo cerveja ou vinho)?",
-        "ko": "당신은술(맥주나포도주포함)을마십니까?"
+        "es": "¿Ha sido esto tan seguido, en promedio, hasta 2 veces por semana durante los últimos 3 meses? ",
+        "nl": "Gebeurde dit de laatste 3 maanden gemiddeld 2 maalper week?",
+        "fr": "En moyenne, cela s‟est-il produit 2 fois par semaine au cours des 3 derniers mois ?",
+        "pt-BR": "Isso ocorreu, em média, duas vezes por semana nos últimos 3 meses?",
+        "ko": "평균으로볼때, 지난 3개월동안일주일에 2번이러한일이있었습니까?"
 =======
+        "es": "¿Ha sido esto tan seguido, en promedio, hasta 2 veces por\nsemana durante los últimos 3 meses?",
         "nl": "Weinig interesse of plezier in activiteiten",
         "fr": "Peu d’intérêt ou de plaisir à faire les choses",
         "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
@@ -44,9 +45,8 @@
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 1,
         "multipleChoice": false,
-<<<<<<< HEAD
         "choices": [
             {
                 "name": "No",
@@ -56,57 +56,6 @@
                 "name": "Yes",
                 "value": 1
             }
-=======
-         "choices": [
-        {
-            "name": {
-                "en": "No",
-                "es": "No",
-                "nl": "Nee",
-                "fr": "Non",
-                "pt-BR": "NÃO",
-                "ko": "아니오",
-                "it": "No",
-                "ja": "番号",
-                "fil": "Hindi",
-                "no": "Nei",
-                "kn": "ಇಲ್ಲ",
-                "ru": "нет",
-                "pl": "Nie",
-                "bg": "не",
-                "lv": "Nē",
-                "ms": "Tidak",
-                "ro": "Nu",
-                "zh-CN": "不",
-                "sv": "Nej"
-            },
-            "value": 0
-        },
-        {
-            "name": {
-                "en": "Yes",
-                "es": "SÍ",
-                "nl": "Ja",
-                "fr": "Oui",
-                "pt-BR": "Sim",
-                "ko": "예",
-                "it": "sì",
-                "ja": "はい",
-                "fil": "Oo",
-                "no": "ja",
-                "kn": "ಹೌದು",
-                "ru": "Несколь ко дней",
-                "pl": "tak",
-                "bg": "да",
-                "lv": "Jā",
-                "ms": "Ya",
-                "ro": "da",
-                "zh-CN": "是的",
-                "sv": "ja"
-            },
-            "value": 1
-        }
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         ]
     }
 }

@@ -1,26 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq10d",
-    "prefLabel": "PHQ 10d",
-    "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc2",
+    "@id": "phq10e",
+    "prefLabel": "PHQ 10e",
+    "description": "PHQ alcohol 10e",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "You had a problem getting along with other people while you were drinking.",
-        "es": "Tuvo dificultad para llevarse bien con otras personas mientras tomaba.",
-<<<<<<< HEAD
-        "nl": "U kon moeilijk overweg met andere mensen terwijl uaan het drinken was.",
-        "fr": "Vous avez eu du mal à vous entendre avec les autres lorsque vous buviez.",
-        "pt-BR": "Você teve algum problema para se relacionar com outras pessoas quando estava bebendo.",
-        "ko": "술을마시는동안다른사람과어울리는데문제가있었다.",
-=======
+        "en": "You drove a car after having several drinks or after drinking too much.",
+        "es": "Condujo un automóvil luego de haber bebido varios tragos o haber bebido demasiado.",
         "nl": "Weinig interesse of plezier in activiteiten",
         "fr": "Peu d’intérêt ou de plaisir à faire les choses",
-        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل",
         "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
         "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "it": "Scarso interesse o piacere nel fare le cose",
         "ja": "物事に対してほとんど興味がない、または楽しめない",
         "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
@@ -94,7 +87,6 @@
                 "sv": "ja"
             },
             "value": 1
-        }
-        ]
+        },
     }
 }

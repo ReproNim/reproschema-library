@@ -1,24 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-<<<<<<< HEAD
     "@id": "phq5g",
     "prefLabel": "PHQ 5g",
     "description": "Q5g of the derived PHQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question": "Becoming easily annoyed or irritable.",
-    "question": {
-        "en": "Menstrual cramps or other problems with your periods",
-        "es": "Se ha sentido molesto o irritable fácilmente.",
-        "nl": "U gemakkelijk geërgerd of geprikkeld voelen",
-        "fr": "Être facilement contrarié(e) ou irritable.",
-        "pt-BR": "Ficar facilmente aborrecido/a ou irritado/a.",
-        "ko": "쉽게화가나거나짜증이남"
-=======
-    "@id": "phq5b",
-    "prefLabel": "PHQ 5b",
-    "description": "Q5a of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
@@ -45,7 +30,6 @@
         "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
         "sv": "Lite intresse eller glädje av att göra saker",
         "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
      },
     "ui": {
         "inputType": "radio"

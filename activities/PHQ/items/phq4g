@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "phq4g",
 <<<<<<< HEAD
@@ -8,7 +8,7 @@
     "prefLabel": "radio item",
 >>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "Did you have nausea or an upset stomach, or the feeling that you were going to have diarrhea?",

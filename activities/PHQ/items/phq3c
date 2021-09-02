@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "phq3c",
     "prefLabel": "radio item",
     "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "Do some of these attacks come suddenly out of the blue—that is, in situations where you don't expect to be nervous or uncomfortable?",

@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
 <<<<<<< HEAD
     "@id": "phq5e",
@@ -10,7 +10,7 @@
     "prefLabel": "PHQ 5b",
     "description": "Q5a of the derived PHQ Assessment",
 >>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "Trouble falling asleep or staying asleep.",

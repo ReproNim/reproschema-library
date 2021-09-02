@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ8_schema",
+    "@id": "PHQSADS_schema",
     "prefLabel": {
         "en": "PHQ-8 Assessment",
         "es": "PHQ-8 Evaluación"

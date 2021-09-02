@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "selfcompassion_5",
+    "@id": "selfcompassion_6",
     "prefLabel": "Self compassion 6",
     "description": "Q6 of the Self Compassion Scale",
     "schemaVersion": "1.0.0-rc1",

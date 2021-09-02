@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "PHQq4_total_score",
-    "prefLabel": "Score PHQ4-4",
-    "description": "total score of the PHQ-4 Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@id": "PHQq4_schema",
+    "prefLabel": "PHQ4-4",
+    "description": "PHQ-4 Q4",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",

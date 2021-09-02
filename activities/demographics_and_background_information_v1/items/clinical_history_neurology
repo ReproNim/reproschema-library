@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "diagnosed1",
+    "@id": "clinical_history_neurology",
     "prefLabel": "Diagnosed",
     "description": "schema for native diagnosed of participant",
     "schemaVersion": "1.0.0-rc4",

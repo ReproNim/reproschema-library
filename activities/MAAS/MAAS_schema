@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "SelfCompassionScale_schema",
+    "@id": "MAAS_schema",
     "prefLabel": {
         "en": "Mindful Attention Awareness Scale Assessment",
         "es": "Mindful Attention Awareness Scale Evaluación"

@@ -1,14 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ8_schema",
+    "@id": "PHQ_schema",
     "prefLabel": {
-<<<<<<< HEAD
         "en": "PHQ Assessment",
         "es": "PHQ Evaluación"
     },
     "description": "PHQ assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
         "en": "This questionnaire is an important part of providing you with the best health care possible. Your answers will help in understanding problems that you may have. Please answer every question to the best of your ability unless you are requested to skip over a question.",
@@ -17,17 +16,10 @@
         "fr": "Ce questionnaire joue un rôle important pour nous aider à vous offrir les meilleurs soins possibles.  Vos réponses nous permettront de comprendre les problèmes que vous pouvez avoir. Répondez à chaque question du mieux que vous le pouvez, à moins que l‟on ne vous demande de passer à la question suivante",
         "pt-BR": "Este questionário é uma etapa importante para proporcionar a você os melhores cuidados possíveis em saúde. Suas respostas irão ajudar na compreensão de problemas que você possa ter. Por favor, responda a todas as perguntas da melhor maneira possível, a menos que haja instrução para que você pule uma pergunta.",
         "ko": "이질문지는당신에게가능한최상의건강관리를제공하는데중요한부분입니다. 당신의응답은당신이갖고있을지모르는문제들을이해하는데도움이될것입니다. 다음문항으로넘어가라는지시가없는한모든문항에최선을다해응답해주시기를부탁드립니다."
-=======
-        "en": "PHQ-8 Assessment",
-        "es": "PHQ-8 Evaluación"
     },
     "description": "PHQ-8 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "preamble": {
-        "en": "This questionnaire is an important part of providing you with the best health care possible. Your answers will help in understanding problems that you may have. Please answer every question to the best of your ability unless you are requested to skip over a question."
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
-    },
     "compute": [
         {
             "variableName": "phq_total_score",

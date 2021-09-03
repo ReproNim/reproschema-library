@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "SITBI_3",
-    "prefLabel": "SITBI_3",
+    "@id": "SITBI_7",
+    "prefLabel": "SITBI_7",
     "description": "This is a text item.",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",

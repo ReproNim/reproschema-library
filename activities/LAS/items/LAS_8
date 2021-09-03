@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "LAS_2",
-    "prefLabel": "LAS 2",
-    "description": "Q2 of the Lyubomirsky Affect Scale",
+    "@id": "LAS_8",
+    "prefLabel": "LAS 8",
+    "description": "Q8 of the Lyubomirsky Affect Scale",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

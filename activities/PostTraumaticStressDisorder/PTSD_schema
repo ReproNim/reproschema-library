@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "PTSD_schema",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "PTSD_es"
     },
     "description": "PTSD assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
     "preamble": {
@@ -30,27 +30,27 @@
             {
                 "isAbout": "items/ptsd_2",
                 "variableName": "ptsd_2",
-                "isVis": true
+                "isVis": "ptsd_1 === 1"
             },
             {
                 "isAbout": "items/ptsd_3",
                 "variableName": "ptsd_3",
-                "isVis": true
+                "isVis": "ptsd_1 === 1"
             },
             {
                 "isAbout": "items/ptsd_4",
                 "variableName": "ptsd_4",
-                "isVis": true
+                "isVis": "ptsd_1 === 1"
             },
             {
                 "isAbout": "items/ptsd_5",
                 "variableName": "ptsd_5",
-                "isVis": true
+                "isVis": "ptsd_1 === 1"
             },
             {
                 "isAbout": "items/ptsd_6",
                 "variableName": "ptsd_6",
-                "isVis": true
+                "isVis": "ptsd_1 === 1"
             }
         ],
         "order": [

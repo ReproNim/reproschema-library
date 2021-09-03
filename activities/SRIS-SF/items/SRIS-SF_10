@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "SRIS-SF_10",
+    "prefLabel": "SRIS-SF 10",
+    "description": "Q10 of the SRIS-SF Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Thinking about my thoughts makes me more confused"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../SRIS-SFvalueConstraints"
+}

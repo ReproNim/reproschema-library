@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@id": "SRIS-SFvalueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 1,
+    "maxValue": 7,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Strongly disagree",
+            "value": 1
+        },
+        {
+            "name": "disagree",
+            "value": 2
+        },
+        {
+            "name": "Slightly disagree",
+            "value": 3
+        },
+        {
+            "name": "Neutral",
+            "value": 4
+        },
+        {
+            "name": "Slightly agree",
+            "value": 5
+        },
+        {
+            "name": "Agree",
+            "value": 6
+        },
+        {
+            "name": "Strongly agree",
+            "value": 7
+        }
+    ]
+}

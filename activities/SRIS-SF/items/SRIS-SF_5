@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "GQ_5",
+    "prefLabel": "SRIS-SF 5",
+    "description": "Q5 of the SRIS-SF Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "I am very interested in examining what I think about"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../SRIS-SFvalueConstraints"
+}

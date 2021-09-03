@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PTSD_schema",
+    "@id": "PC-PTSD-5_schema",
     "prefLabel": {
-        "en": "PTSD",
+        "en": "PC-PTSD-5",
         "es": "PTSD_es"
     },
-    "description": "PTSD assessment schema",
+    "description": "PC-PTSD-5 assessment schema",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",

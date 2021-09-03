@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ptsd_3",
-    "prefLabel": "PTSD-3",
-    "description": "Q3 of the PTSD Assessment",
+    "@id": "pc-ptsd5_4",
+    "prefLabel": "PC-PTSD-5-4",
+    "description": "Q4 of the PC-PTSD-5 Assessment",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
@@ -11,11 +11,11 @@
         "es": ""
     },
     "question": {
-        "en": "tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)? ",
+        "en": "been constantly on guard, watchful, or easily startled? ",
         "es": ""
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../ptsd_valueConstraints"
+    "responseOptions": "../pc-ptsd5valueConstraints"
 }

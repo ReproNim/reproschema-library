@@ -1,17 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "DAS_schema",
+    "@id": "LAS_schema",
     "prefLabel": {
         "en": "Lyubomirsky Affect Scale Assessment",
         "es": "Lyubomirsky Affect Scale Evaluación"
     },
     "description": "Lyubomirsky Affect Scale schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "To what extent are you experiencing this emotion in the past 24 hrs?"
+        "en": "Using the 7-point scale below, please indicate the extent to which you feel this way right now:"
     },
     "ui": {
         "addProperties": [

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "valueConstraints",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@id": "GQ6valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 3,
+    "maxValue": 7,
     "multipleChoice": false,
     "choices": [
         {
@@ -12,11 +12,11 @@
             "value": 1
         },
         {
-            "name": "Slightly disagree",
+            "name": "disagree",
             "value": 2
         },
         {
-            "name": "Disagree",
+            "name": "Slightly disagree",
             "value": 3
         },
         {

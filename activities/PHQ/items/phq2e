@@ -1,6 +1,6 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "phq9a_5",
+    "@id": "phq2e",
     "@type": "reproschema:Field",
     "prefLabel": "PHQ9a-5",
     "description": "schema for Q5 of the derived PHQ-9 Assessment",
@@ -11,10 +11,7 @@
         "es": "Sin apetito o ha comido en exceso?",
         "nl": "Weinig eetlust of overmatig eten?",
         "fr": "Avoir peu d’appétit ou manger trop?",
-<<<<<<< HEAD
-=======
         "ar": "قلة الشهية أو الزيادة في تناول الطعام عن المعتاد",
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "pt-BR": "Falta de apetite ou comendo demais",
         "ko": "입맛이 없거나 과식을 함",
         "it": "Scarso appetito o mangiare troppo",

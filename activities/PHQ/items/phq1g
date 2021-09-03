@@ -1,11 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-<<<<<<< HEAD
     "@id": "phq1g",
-=======
-    "@id": "phq1f",
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
     "prefLabel": "PHQ1g",
     "description": "Q1g of the derived PHQ Assessment",
     "schemaVersion": "1.0.0-rc4",
@@ -14,18 +10,11 @@
         "en": "Chest pain",
         "es": "Dolor en el pecho",
         "nl": "Pijn in de borstkas",
-<<<<<<< HEAD
-        "fr": "Douleur à la poitrine",
-        "pt-BR": "Dor no peito",
-        "ko": "가슴의통증",
-        "it": "Dolore al torace",
-=======
         "fr": "Peu d’intérêt ou de plaisir à faire les choses",
-        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل"
+        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل",
         "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
         "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
         "it": "Scarso interesse o piacere nel fare le cose",
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "ja": "物事に対してほとんど興味がない、または楽しめない",
         "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
         "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay",

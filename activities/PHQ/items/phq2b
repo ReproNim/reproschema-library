@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9a_2",
+    "@id": "phq2b",
     "prefLabel": "PHQ9a-2",
     "description": "Q2 of the derived PHQ-9 Assessment",
     "schemaVersion": "1.0.0-rc4",
@@ -11,10 +11,7 @@
         "es": "\u00bfSe ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas?",
         "nl": "Zich neerslachtig, depressief of hopeloos voelen?",
         "fr": " Être triste, déprimé(e) ou désespéré(e)?",
-<<<<<<< HEAD
-=======
         "ar": " .الشعور بالحزن أو ضيق الصدر أو اليأس",
->>>>>>> 08e109b710701c6dfbebb2be1784ad7d62028274
         "pt-BR": "Se sentir “para baixo”, deprimido/a ou sem perspectiva",
         "ko": "기분이 가라앉거나, 우울하거나, 희망이 없음",
         "it": "Sentirsi giù, triste o disperato/a",

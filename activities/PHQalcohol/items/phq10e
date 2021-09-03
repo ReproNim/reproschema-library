@@ -40,53 +40,54 @@
         "maxValue": 1,
         "multipleChoice": false,
          "choices": [
-        {
-            "name": {
-                "en": "No",
-                "es": "No",
-                "nl": "Nee",
-                "fr": "Non",
-                "pt-BR": "NÃO",
-                "ko": "아니오",
-                "it": "No",
-                "ja": "番号",
-                "fil": "Hindi",
-                "no": "Nei",
-                "kn": "ಇಲ್ಲ",
-                "ru": "нет",
-                "pl": "Nie",
-                "bg": "не",
-                "lv": "Nē",
-                "ms": "Tidak",
-                "ro": "Nu",
-                "zh-CN": "不",
-                "sv": "Nej"
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No",
+                    "nl": "Nee",
+                    "fr": "Non",
+                    "pt-BR": "NÃO",
+                    "ko": "아니오",
+                    "it": "No",
+                    "ja": "番号",
+                    "fil": "Hindi",
+                    "no": "Nei",
+                    "kn": "ಇಲ್ಲ",
+                    "ru": "нет",
+                    "pl": "Nie",
+                    "bg": "не",
+                    "lv": "Nē",
+                    "ms": "Tidak",
+                    "ro": "Nu",
+                    "zh-CN": "不",
+                    "sv": "Nej"
+                },
+                "value": 0
             },
-            "value": 0
-        },
-        {
-            "name": {
-                "en": "Yes",
-                "es": "SÍ",
-                "nl": "Ja",
-                "fr": "Oui",
-                "pt-BR": "Sim",
-                "ko": "예",
-                "it": "sì",
-                "ja": "はい",
-                "fil": "Oo",
-                "no": "ja",
-                "kn": "ಹೌದು",
-                "ru": "Несколь ко дней",
-                "pl": "tak",
-                "bg": "да",
-                "lv": "Jā",
-                "ms": "Ya",
-                "ro": "da",
-                "zh-CN": "是的",
-                "sv": "ja"
-            },
-            "value": 1
-        },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "SÍ",
+                    "nl": "Ja",
+                    "fr": "Oui",
+                    "pt-BR": "Sim",
+                    "ko": "예",
+                    "it": "sì",
+                    "ja": "はい",
+                    "fil": "Oo",
+                    "no": "ja",
+                    "kn": "ಹೌದು",
+                    "ru": "Несколь ко дней",
+                    "pl": "tak",
+                    "bg": "да",
+                    "lv": "Jā",
+                    "ms": "Ya",
+                    "ro": "da",
+                    "zh-CN": "是的",
+                    "sv": "ja"
+                },
+                "value": 1
+            }
+         ]
     }
 }

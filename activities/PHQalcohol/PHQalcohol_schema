@@ -1,10 +1,10 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "PHQ10_schema",
+    "@id": "PHQalcohol_schema",
     "prefLabel": {
-        "en": "PHQ-Q10",
-        "es": "PHQ-Q10"
+        "en": "PHQ-alcohol",
+        "es": "PHQ-alcohol_es"
     },
     "description": "PHQ Q10 schema",
     "schemaVersion": "1.0.0-rc4",

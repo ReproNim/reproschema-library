@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9_10",
+    "@id": "briefphq_3",
     "prefLabel": "PHQ9-10",
     "description": "schema for Q10 of the PHQ-9 Assessment",
     "schemaVersion": "1.0.0-rc1",

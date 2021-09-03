@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
@@ -20,12 +20,16 @@
             "value": 3
         },
         {
-            "name": "Very infrequently",
+            "name": "Somewhat infrequently",
             "value": 4
         },
         {
-            "name": "Almost never",
+            "name": "Very infrequently",
             "value": 5
+        },
+        {
+            "name": "Almost never",
+            "value": 6
         }
     ]
 }

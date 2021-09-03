@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "GQ_4",
+    "@id": "SRIS-SF_4",
     "prefLabel": "SRIS-SF 4",
     "description": "Q4 of the SRIS-SF Assessment",
     "schemaVersion": "1.0.0-rc4",

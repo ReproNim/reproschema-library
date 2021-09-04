@@ -91,7 +91,7 @@
         "shuffle": false,
         "allow":
         ["reproschema:AutoAdvance",
-         "reproschema:Export"
+         "reproschema:AllowExport"
         ]
     }
 }

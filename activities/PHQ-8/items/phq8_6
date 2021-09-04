@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq8_6",
+    "prefLabel": "PHQ8-6",
+    "description": "Q6 of the PHQ-8 Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Feeling bad about yourself or that you are a failure or have let yourself or your family down?",
+        "es": "\u00bfSe ha sentido mal con usted mismo(a)  o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia?",
+        "nl": "Een slecht gevoel hebben over uzelf — of het gevoel hebben dat u een mislukkeling bent of het gevoel dat u zichzelf of uw familie teleurgesteld hebt",
+        "fr": "Avoir une mauvaise opinion de soi-même, ou avoir le sentiment d’être nul(le), ou d’avoir déçu sa famille ou s’êtredéçu(e) soi-même",
+        "ar": "لشعور بعدم الرضا عن النفس أو الشعور بأنك قد أخذلت نفسك أو عائلتك",
+        "pt-BR": "Se sentir mal consigo mesmo/a — ou achar que você é um fracasso ou que decepcionou sua família ou você mesmo/a",
+        "ko": "자신을 부정적으로 봄 - 혹은 자신이 실패자라고 느끼거나 자신 또는 가족을 실망시킴",
+        "it": "Avere una scarsa opinione di sé, o sentirsi un/una fallito/a o aver deluso se stesso/a o i propri familiari",
+        "ja": "自分はダメな人間だ、人生の敗北者だと気に病む、または自分自身あるいは家族に申し訳がないと感じる",
+        "fi": "Tyytymättömyys omaan itseen – tai tunne, että olette epäonnistuneet tai laiminlyöneet itsenne tai perheenne",
+        "fil": "Pagkaramdam ng masama tungkol sa iyong sarili — o na bigo ka o nabigo mo ang iyong sarili o ang iyong pamilya",
+        "no": "Vært misfornøyd med deg selv eller følt deg mislykket - eller følt at du har sviktet deg selv eller familien din",
+        "kn": "⁄ಮಮ್ ಬಗೆಗ್ ⁄ಮಗೇ ಕೆಟಟ್  ಾವ⁤ — ಅಥ ಾ ⁄ೕವು ⁎ಫಲರು ಅಥ ಾ ⁄ೕವು ⁄ಮಮ್ ‍ಾಗೊ ಕುಟುಂಬದವರ ⁄⁋ೕ₃ಗಿಂತ ಕೆಳಮಟಟ್ದ⁌ಲ್⁂ದ್ೕ⁋ ಎಂಬ  ಾವ⁤",
+        "ru": "Вы плохо о себе думали: считали себя неудачником(неудачницей), или были в себе разочарованы, или считали, что подвели свою семью",
+        "pl": "Poczucie niezadowolenia z siebie — lub uczucie, że jest się do niczego, albo że zawiódł/zawiodła Pan/Pani siebie lub rodzinę",
+        "bg": "Отрицателно мнение за себе си или чувство, че сте неудачник, че сте разочаровали себе си или семейството си",
+        "lv": "Neapmierinātība ar sevi – sajūta, ka esat neveiksminieks/-ce vai arī esat pievīlis/-usi savas vai ģimenes cerības",
+        "ms": "Rasa buruk mengenai diri anda — atau anda seorang yang gagal atau anda telah menyebabkan diri anda atau keluarga anda kecewa",
+        "pt-PT": "Senti que não gosto de mim próprio/a — ou que sou um(a) falhado/a ou me desiludi a mim próprio/a ou à minha família",
+        "ro": "Sentimente negative la adresa dvs. — sau că sunteţi un (o) ratat(ă) sau că v-aţi dezamăgit, pe dvs. sau familia dvs.",
+        "zh-CN": "不喜欢自己──觉得自己做得不好、对自己失望或有负家人 期望",
+        "sv": "Tycker illa om dig själv – eller att du känt dig misslyckad eller att du svikit dig själv eller din familj",
+        "uk": "Ви погано про себе думали — або Ви почувалися невдахою, або ж розчаровувались у собі, або думали, що підвели родину"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

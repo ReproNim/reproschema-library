@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "briefphq_6",
+    "prefLabel": "text item",
+    "description": "This is a text item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": " What is the most stressful thing in your life right now?",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "GQ_1",
+    "prefLabel": "GQ 1",
+    "description": "Q1 of the GQ-6 Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "I have so much in life to be thankful for."
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../GQ6valueConstraints"
+}

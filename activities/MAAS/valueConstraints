@@ -1,0 +1,35 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 3,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Almost always",
+            "value": 1
+        },
+        {
+            "name": "Very frequently",
+            "value": 2
+        },
+        {
+            "name": "Somewhat frequently",
+            "value": 3
+        },
+        {
+            "name": "Somewhat infrequently",
+            "value": 4
+        },
+        {
+            "name": "Very infrequently",
+            "value": 5
+        },
+        {
+            "name": "Almost never",
+            "value": 6
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "race_ethnicity_global",
+    "prefLabel": "race_ethnicity",
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Black"
+            },
+            {
+                "value": 2,
+                "name": "African American"
+            },
+            {
+                "value": 3,
+                "name": "Middle Eastern or North African"
+            },
+            {
+                "value": 4,
+                "name": "Sub-Saharan African"
+            },
+            {
+                "value": 5,
+                "name": "East Asian"
+            },
+            {
+                "value": 6,
+                "name": "Southeast Asian"
+            },
+            {
+                "value": 7,
+                "name": "South Asian"
+            },
+            {
+                "value": 8,
+                "name": "Central Asian"
+            },
+            {
+                "value": 9,
+                "name": "Pacific Islander"
+            },
+            {
+                "value": 10,
+                "name": "Indigenous, First Nation"
+            },
+            {
+                "value": 11,
+                "name": "Hispanic or Latino/a/x"
+            },
+            {
+                "value": 12,
+                "name": "Latin American"
+            },
+            {
+                "value": 13,
+                "name": "Brown"
+            },
+            {
+                "value": 14,
+                "name": "Caribbean"
+            },
+            {
+                "value": 15,
+                "name": "White"
+            },
+            {
+                "value": 16,
+                "name": "Western European"
+            },
+            {
+                "value": 17,
+                "name": "Eastern European"
+            },
+            {
+                "value": 18,
+                "name": "Romani"
+            },
+            {
+                "value": 19,
+                "name": "None"
+            },
+            {
+                "value": 20,
+                "name": "Other"
+            }
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Which categories describe you (select all that apply): "
+    }
+}

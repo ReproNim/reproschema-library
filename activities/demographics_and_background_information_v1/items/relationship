@@ -1,0 +1,47 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "relationship",
+    "prefLabel": "Relationship",
+    "description": "schema for relationship of participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What is your relationship status?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Single"
+            },
+            {
+                "value": 2,
+                "name": "In a relationship"
+            },
+            {
+                "value": 3,
+                "name": "Married"
+            },
+            {
+                "value": 4,
+                "name": "Divorced"
+            },
+            {
+                "value": 5,
+                "name": "Widowed"
+            },
+            {
+                "value": 6,
+                "name": "Prefer not to disclose"
+            },
+            {
+                "value": 7,
+                "name": "Other"
+            }
+        ]
+    }
+}

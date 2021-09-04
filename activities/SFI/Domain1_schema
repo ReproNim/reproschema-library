@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "Domain1_schema",
+    "prefLabel": {
+        "en": "Domain 1"
+    },
+    "description": "Domain 1 schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Domain 1: Happiness and Life Satisfaction"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/SFI_1",
+                "variableName": "SFI_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SFI_2",
+                "variableName": "SFI_2",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/SFI_1",
+            "items/SFI_2"
+        ],
+        "shuffle": false
+    }
+}

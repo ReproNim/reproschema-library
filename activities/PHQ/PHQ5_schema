@@ -1,0 +1,88 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ5_schema",
+    "prefLabel": {
+        "en": "PHQ-5 Assessment",
+        "es": "PHQ-5 Evaluación"
+    },
+    "description": "PHQ-5 assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las últimas 4 semanas, ¿qué tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "nl": "Hoe vaak hebt u in de afgelopen 4 wekenlast gehad van één of meer van de volgende problemen?",
+        "fr": "Au cours des 4 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
+        "pt-BR": "Durante as últimas 4 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
+        "ko": "지난 4주일동안당신은다음의문제들로인해서얼마나자주방해를받았습니까?"
+    },
+    "compute": [
+        {
+            "variableName": "phq5_total_score",
+            "jsExpression": "phq5a + phq5b + phq5c + phq5d + phq5e + phq5f + phq5g"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq5a",
+                "variableName": "phq5a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq5b",
+                "variableName": "phq5b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq5c",
+                "variableName": "phq5c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq5d",
+                "variableName": "phq5d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq5e",
+                "variableName": "phq5e",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq5f",
+                "variableName": "phq5f",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq5g",
+                "variableName": "phq5g",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq5_total_score",
+                "variableName": "phq5_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq5a",
+            "items/phq5b",
+            "items/phq5c",
+            "items/phq5d",
+            "items/phq5e",
+            "items/phq5f",
+            "items/phq5g"
+        ],
+        "shuffle": false
+    }
+}

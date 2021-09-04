@@ -1,0 +1,97 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ_schema",
+    "prefLabel": {
+        "en": "PHQ Assessment",
+        "es": "PHQ Evaluación"
+    },
+    "description": "PHQ assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "This questionnaire is an important part of providing you with the best health care possible. Your answers will help in understanding problems that you may have. Please answer every question to the best of your ability unless you are requested to skip over a question.",
+        "es": "Este  cuestionario  es  una  parte  importante  en  proveerle  el  mejor  cuidado  de  salud  posible.  Sus  respuestas  ayudarán  a  entender  los  problemas  que  pueda  tener.  Por  favor  conteste  a  cada  pregunta  de  la  mejor  forma  posible a menos que se le pida pasar a otra pregunta",
+        "nl": "Deze vragenlijst draagt er in belangrijke mate aan bij u de best mogelijke gezondheidszorg te kunnen leveren. Uw antwoorden helpen ons eventuele problemen te begrijpen. Beantwoordt u elke vraag alstublieft zo goed mogelijk, tenzij u wordt verzocht een vraag over te slaan",
+        "fr": "Ce questionnaire joue un rôle important pour nous aider à vous offrir les meilleurs soins possibles.  Vos réponses nous permettront de comprendre les problèmes que vous pouvez avoir. Répondez à chaque question du mieux que vous le pouvez, à moins que l‟on ne vous demande de passer à la question suivante",
+        "pt-BR": "Este questionário é uma etapa importante para proporcionar a você os melhores cuidados possíveis em saúde. Suas respostas irão ajudar na compreensão de problemas que você possa ter. Por favor, responda a todas as perguntas da melhor maneira possível, a menos que haja instrução para que você pule uma pergunta.",
+        "ko": "이질문지는당신에게가능한최상의건강관리를제공하는데중요한부분입니다. 당신의응답은당신이갖고있을지모르는문제들을이해하는데도움이될것입니다. 다음문항으로넘어가라는지시가없는한모든문항에최선을다해응답해주시기를부탁드립니다."
+    },
+    "description": "PHQ-8 assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "compute": [
+        {
+            "variableName": "phq_total_score",
+            "jsExpression": "phq1_total_score + phq2_total_score + phq3_total_score + phq4_total_score + phq5_total_score + phq6_total_score + phq7_total_score + phq8 + phq9 + phq10_total_score + phq11"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+	        {"isAbout": "../activities/PHQ/PHQ1_schema",
+            "variableName": "PHQ1_schema",
+            "prefLabel": {"en": "1"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ2_schema",
+            "variableName": "PHQ2_schema",
+            "prefLabel": {"en": "2"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ3_schema",
+            "variableName": "PHQ3_schema",
+            "prefLabel": {"en": "3"}
+            },
+            {"isAbout": "../activities/PHQ/PHQq4_schema",
+            "variableName": "PHQq4_schema",
+            "prefLabel": {"en": "4"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ5_schema",
+            "variableName": "PHQ5_schema",
+            "prefLabel": {"en": "5"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ6_schema",
+            "variableName": "PHQ6_schema",
+            "prefLabel": {"en": "6"}
+            },
+            {"isAbout": "../activities/PHQ/PHQ7_schema",
+            "variableName": "PHQ7_schema",
+            "prefLabel": {"en": "7"}
+            },
+            {"isAbout": "items/phq8",
+            "variableName": "phq8",
+            "prefLabel": {"en": "8"},
+            "isVis": true
+            },
+            {"isAbout": "items/phq9",
+            "variableName": "phq9",
+            "prefLabel": {"en": "9"},
+            "isVis": true
+            },
+            {"isAbout": "../activities/PHQ/PHQ10_schema",
+            "variableName": "PHQ10_schema",
+            "prefLabel": {"en": "10"}
+            },
+            {"isAbout": "items/phq11",
+            "variableName": "phq11",
+            "prefLabel": {"en": "11"}
+            }
+        ],
+    "order": [
+            "../activities/PHQ/PHQ1_schema",
+            "../activities/PHQ/PHQ2_schema",
+            "../activities/PHQ/PHQ3_schema",
+            "../activities/PHQ/PHQ4_schema",
+            "../activities/PHQ/PHQ5_schema",
+            "../activities/PHQ/PHQ6_schema",
+            "../activities/PHQ/PHQ7_schema",
+            "items/phq8",
+            "items/phq9",
+            "../activities/PHQ/PHQ10_schema",
+            "items/phq11"
+        ],
+        "shuffle": false,
+        "allow":
+        ["reproschema:AutoAdvance",
+         "reproschema:AllowExport"
+        ]
+    }
+}

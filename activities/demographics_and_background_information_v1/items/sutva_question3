@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sutva_question3",
+    "prefLabel": "Sutva question 3",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How often do you talk with them?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Never",
+                "value": 0
+            },
+            {
+                "name": "A couple of times a year",
+                "value": 1
+            },
+            {
+                "name": "Monthly",
+                "value": 2
+            },
+            {
+                "name": "Weekly",
+                "value": 3
+            }
+        ]
+    }
+}

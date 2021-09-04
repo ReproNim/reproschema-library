@@ -1,0 +1,103 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ2_schema",
+    "prefLabel": {
+        "en": "PHQ-2 Assessment",
+        "es": "PHQ-2 Evaluación"
+    },
+    "description": "PHQ-1 assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las 2 últimas semanas, ¿qué tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "nl": "Hoe vaak hebt u in de afgelopen 2 wekenlast gehad van één of meer van de volgende problemen?",
+        "fr": "Au cours des 2 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
+        "pt-BR": "Durante as últimas 2 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
+        "ko": "지난 2주일동안당신은다음의문제들로인해서얼마나자주방해를받았습니까?"
+    },
+    "compute": [
+        {
+            "variableName": "phq2_total_score",
+            "jsExpression": "phq2a + phq2b + phq2c + phq2d + phq2e + phq2f + phq2g + phq2h + phq2i"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq2a",
+                "variableName": "phq2a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq2b",
+                "variableName": "phq2b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq2c",
+                "variableName": "phq2c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq2d",
+                "variableName": "phq2d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq2e",
+                "variableName": "phq2e",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq2f",
+                "variableName": "phq2f",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq2g",
+                "variableName": "phq2g",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq2h",
+                "variableName": "phq2h",
+                "valueRequired": true,
+                "isVis": true
+            },
+             {
+                "isAbout": "items/phq2i",
+                "variableName": "phq2i",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq2_total_score",
+                "variableName": "phq2_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq2a",
+            "items/phq2b",
+            "items/phq2c",
+            "items/phq2d",
+            "items/phq2e",
+            "items/phq2f",
+            "items/phq2g",
+            "items/phq2h",
+            "items/phq2i"
+        ],
+        "shuffle": false
+    }
+}

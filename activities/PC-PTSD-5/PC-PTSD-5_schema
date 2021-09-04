@@ -1,0 +1,66 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PC-PTSD-5_schema",
+    "prefLabel": {
+        "en": "PC-PTSD-5",
+        "es": "PTSD_es"
+    },
+    "description": "PC-PTSD-5 assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
+    "preamble": {
+        "en": "Please answer each question as best you can.",
+        "es": ""
+    },
+    "compute": [
+        {
+            "variableName": "ptsd_total_score",
+            "jsExpression": "ptsd_2 + ptsd_3 + ptsd_4 + ptsd_5 + ptsd_6"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/ptsd_1",
+                "variableName": "ptsd_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/ptsd_2",
+                "variableName": "ptsd_2",
+                "isVis": "ptsd_1 === 1"
+            },
+            {
+                "isAbout": "items/ptsd_3",
+                "variableName": "ptsd_3",
+                "isVis": "ptsd_1 === 1"
+            },
+            {
+                "isAbout": "items/ptsd_4",
+                "variableName": "ptsd_4",
+                "isVis": "ptsd_1 === 1"
+            },
+            {
+                "isAbout": "items/ptsd_5",
+                "variableName": "ptsd_5",
+                "isVis": "ptsd_1 === 1"
+            },
+            {
+                "isAbout": "items/ptsd_6",
+                "variableName": "ptsd_6",
+                "isVis": "ptsd_1 === 1"
+            }
+        ],
+        "order": [
+            "items/ptsd_1",
+            "items/ptsd_2",
+            "items/ptsd_3",
+            "items/ptsd_4",
+            "items/ptsd_5",
+            "items/ptsd_6"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SRIS-SF_schema",
+    "prefLabel": {
+        "en": "SRIS-SF Assessment",
+        "es": "SRIS-SF Evaluación"
+    },
+    "description": "SRIS-SF assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/SRIS-SF_1",
+                "variableName": "SRIS-SF_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_2",
+                "variableName": "SRIS-SF_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_3",
+                "variableName": "SRIS-SF_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_4",
+                "variableName": "SRIS-SF_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_5",
+                "variableName": "SRIS-SF_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_6",
+                "variableName": "SRIS-SF_6",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_7",
+                "variableName": "SRIS-SF_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_8",
+                "variableName": "SRIS-SF_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_9",
+                "variableName": "SRIS-SF_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_10",
+                "variableName": "SRIS-SF_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_11",
+                "variableName": "SRIS-SF_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SRIS-SF_12",
+                "variableName": "SRIS-SF_12",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/SRIS-SF_1",
+            "items/SRIS-SF_2",
+            "items/SRIS-SF_3",
+            "items/SRIS-SF_4",
+            "items/SRIS-SF_5",
+            "items/SRIS-SF_6",
+            "items/SRIS-SF_7",
+            "items/SRIS-SF_8",
+            "items/SRIS-SF_9",
+            "items/SRIS-SF_10",
+            "items/SRIS-SF_11",
+            "items/SRIS-SF_12"
+        ],
+        "shuffle": false
+    }
+}

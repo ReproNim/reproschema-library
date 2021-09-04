@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITBelonging_schema",
+    "prefLabel": {
+        "en": "CIT Belonging"
+    },
+    "description": "CIT Belonging schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Belonging"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_belong1",
+                "variableName": "cit_belong1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_belong2",
+                "variableName": "cit_belong2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_belong3",
+                "variableName": "cit_belong3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_belong1",
+            "items/cit_belong2",
+            "items/cit_belong3"
+        ],
+        "shuffle": false
+    }
+}

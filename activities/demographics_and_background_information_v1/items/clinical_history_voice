@@ -1,0 +1,83 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "clinical_history_voice",
+    "prefLabel": "Clinical history voice",
+    "description": "schema for clinical history of voice for participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Have you been diagnosed with any of these speech, language or hearing conditions or had any of the interventions mentioned below? (check all that apply)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Hearing loss"
+            },
+            {
+                "value": 2,
+                "name": "Apraxia"
+            },
+            {
+                "value": 3,
+                "name": "Stuttering"
+            },
+            {
+                "value": 4,
+                "name": "Dysarthria"
+            },
+            {
+                "value": 5,
+                "name": "Hoarseness"
+            },
+            {
+                "value": 6,
+                "name": "Lisping"
+            },
+            {
+                "value": 7,
+                "name": "Spasmodic Dysphonia"
+            },
+            {
+                "value": 8,
+                "name": "Vocal Fold Paralysis"
+            },
+            {
+                "value": 9,
+                "name": "Aphasia"
+            },
+            {
+                "value": 10,
+                "name": "Dyslexia"
+            },
+            {
+                "value": 11,
+                "name": "Cochlear Implant"
+            },
+            {
+                "value": 12,
+                "name": "Ear Surgery"
+            },
+            {
+                "value": 13,
+                "name": "Throat Surgery"
+            },
+            {
+                "value": 0,
+                "name": "Prefer not to disclose"
+            },
+            {
+                "value": -1,
+                "name": "Other"
+            },
+            {
+                "value": 999,
+                "name": "None"
+            }
+        ]
+    }
+}

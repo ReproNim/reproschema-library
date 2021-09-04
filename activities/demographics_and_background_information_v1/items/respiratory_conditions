@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "respiratory_conditions",
+    "prefLabel": "Respiratory conditions",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you have any conditions that may affect respiration or voice? (For example, asthma, sinusitis, pneumonia, allergies, other)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "No",
+                "value": 0
+            },
+            {
+                "name": "Yes",
+                "value": 1
+            }
+        ]
+    }
+}

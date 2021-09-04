@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sutva_question",
+    "prefLabel": "Sutva question",
+    "description": "Sutva question",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you know people in the study?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "No/Probably not",
+                "value": 0
+            },
+            {
+                "name": "I think so",
+                "value": 1
+            },
+            {
+                "name": "Yes",
+                "value": 2
+            }
+        ]
+    }
+}

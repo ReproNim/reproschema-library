@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "SRIS-SF_3",
+    "prefLabel": "SRIS-SF 3",
+    "description": "Q3 of the SRIS-SF Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "I often think about the way I feel about things"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../SRIS-SFvalueConstraints"
+}

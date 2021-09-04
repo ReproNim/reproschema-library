@@ -1,0 +1,94 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQeating_schema",
+    "prefLabel": {
+        "en": "PHQ eating",
+        "es": "PHQ eating"
+    },
+    "description": "PHQ eating disorder schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
+        "es": "En los últimos 3 meses, ¿ha ocupado a menudo cualquiera de los siguientes métodos para evitar subir de peso?",
+        "nl": "Hebt u in de afgelopen 3 maanden vaakéén of meer van de volgende dingen gedaan om te voorkomen dat u in gewicht aankomt?",
+        "fr": "Au cours des 3 derniers mois, avez-vous souventagi de la manière suivante pour éviter de prendre du poids?",
+        "pt-BR": "Nos últimos 3 meses você fez com freqüência alguma das coisas abaixo para evitar ganhar peso?",
+        "ko": "지난 3개월동안당신은체중이증가하는것을막기위해다음과같은행동을자주했습니까?"
+    },
+    "ui": {
+        "addProperties": [
+	        {
+                "isAbout": "items/phq6a",
+                "variableName": "phq6a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq6b",
+                "variableName": "phq6b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq6c",
+                "variableName": "phq6c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq6_total_score",
+                "variableName": "phq6_total_score",
+                "isVis": false
+            },
+            {
+                "isAbout": "items/phq7a",
+                "variableName": "phq7a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq7b",
+                "variableName": "phq7b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq7c",
+                "variableName": "phq7c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq7d",
+                "variableName": "phq7d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq7_total_score",
+                "variableName": "phq7_total_score",
+                "isVis": false
+            },
+	        {
+                "isAbout": "items/phq8",
+                "variableName": "phq8",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+	        "items/phq6a",
+            "items/phq6b",
+            "items/phq6c",
+            "items/phq7a",
+            "items/phq7b",
+            "items/phq7c",
+            "items/phq7d",
+	        "items/phq8"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITSelfefficacy_schema",
+    "prefLabel": {
+        "en": "CIT Self Efficacy"
+    },
+    "description": "CIT Self Efficacy schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Trust"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_selfefficacy1",
+                "variableName": "cit_selfefficacy1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_selfefficacy2",
+                "variableName": "cit_selfefficacy2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_selfefficacy3",
+                "variableName": "cit_selfefficacy3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_selfefficacy1",
+            "items/cit_selfefficacy2",
+            "items/cit_selfefficacy3"
+        ],
+        "shuffle": false
+    }
+}

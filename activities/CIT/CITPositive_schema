@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITPositive_schema",
+    "prefLabel": {
+        "en": "CIT Positive"
+    },
+    "description": "CIT Positive schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Positive Feelings"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_positive1",
+                "variableName": "cit_positive1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_positive2",
+                "variableName": "cit_positive2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_positive3",
+                "variableName": "cit_positive3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_positive1",
+            "items/cit_positive2",
+            "items/cit_positive3"
+        ],
+        "shuffle": false
+    }
+}

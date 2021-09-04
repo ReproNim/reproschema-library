@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "smoking",
+    "prefLabel": "Smoking",
+    "description": "This is a radio item.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you smoke? This includes tobacco, cannabis, vapes or e-cigarettes.",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "I've never smoked regularly",
+                "value": 0
+            },
+            {
+                "name": "I used to smoke",
+                "value": 1
+            },
+            {
+                "name": "I currently smoke",
+                "value": 2
+            }
+        ]
+    }
+}

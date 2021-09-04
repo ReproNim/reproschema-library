@@ -8,7 +8,27 @@
     "version": "0.0.1",
     "question": {
         "en": "Feeling afraid as if something awful might happen?",
-        "es": "\u00bfHa tenido miedo de que algo terrible fuera a pasar?"
+        "es": "Sentir miedo de que algo terrible pueda ocurrir",
+        "ar": "الشّعور بالخوف آما لو أن شيئا فضيعا قد يحدث.",
+        "nl": "Bang zijn dat er iets vreselijks zou kunnen gebeuren",
+        "fr": "Un sentiment de peur comme si quelque chose de terrible risquait de se produire",
+        "it": "Avere paura che possa succedere qualcosa di terribile",
+        "pt-BR": "Sentir medo como se algo horrível fosse acontecer",
+        "fil": "Pakiramdam na natatakot na baka may mangyaring masama",
+        "fi": "Olen ollut peloissani ikään kuin jotain kamalaa voisi tapahtua",
+        "kn": "ಏ῿ಾದರೂ ಅ῿ಾಹುತ ಸಂಭ⁎ಸುತῗ⁢ ಎಂದು ⁲ದರುವ⁳ದು",
+        "ko": "마치 끔찍한 일이 생길 것처럼 두렵게 느껴진다",
+        "no": "Følt deg redd som om noe forferdelig kunne komme til å skje",
+        "pl": "Obawiał(a) się Pan(i), tak jakby miało się stać coś strasznego",
+        "ro": "Un sentiment de teamă ca şi cum s-ar putea întâmpla ceva groaznic",
+        "ru": "Вы испытывали страх, словно должно произойти нечто ужасное",
+        "zh-CN": "害怕发生可怕的事情",
+        "bg": "Страх, че може да се случи нещо ужасно",
+        "da": "Været bange, som om noget frygteligt kunne ske",
+        "sv": "Känt dig rädd för att något hemskt skulle hända",
+        "lv": "Jutāt bailes, ka varētu notikt kaut kas šausmīgs",
+        "ms": "Berasa takut seolah-olah sesuatu yang sangat buruk mungkin berlaku",
+        "uk": "Ви відчували страх, неначе щось жахливе може статися"
     },
     "ui": {
         "inputType": "radio"

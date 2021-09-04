@@ -8,7 +8,28 @@
     "version": "0.0.1",
     "question": {
         "en": "Not being able to stop or control worrying?",
-        "es": "\u00bfNo ha sido capaz de parar o controlar su preocupaci\u00f3n?"
+        "es": "Ser incapaz de dejar de preocuparse o de controlar la preocupación",
+        "ar": "-عدم القدرة على إنهاء القلق أو التحكّم فيه.",
+        "nl": "Niet kunnen stoppen met u zorgen maken of dit niet kunnen beteugelen",
+        "fr": "Une incapacité à arrêter de s’inquiéter ou à contrôler ses inquiétudes",
+        "it": "Non riuscire a smettere di preoccuparsi o a tenere sotto controllo le preoccupazioni",
+        "pt-BR": "Não ser capaz de impedir ou de controlar as preocupações",
+        "fil": "Kawalan ng kakayahan na pigilan o kontrolin ang pag-aalala",
+        "fi": "En ole voinut lopettaa tai hallita huolestumistani",
+        "kn": "‷ಂ⁀ಸುವ⁳ದನುΊ ⁄⁌ῤಸಲು ಅಥ ಾ ⁄ಯಂ⁀ῢಸಲು ಧῡ ಾಗ⁂ರುವ⁳ದು",
+        "ko": "걱정하는 것을 멈추거나 조절할 수가 없다",
+        "no": "Ikke klart å slutte å bekymre deg eller kontrolleren bekymringene dine",
+        "pl": "Nie mógł(a) Pan(i) przestać się martwić albo zapanować nad tym",
+        "pt-PT": "Fui incapaz de parar de me preocupar ou de controlar as preocupações",
+        "ro": "Incapacitatea de a vă opri sau controla îngrijorarea",
+        "ru": "Вы были неспособны успокоиться или контролировать свое волнение",
+        "zh-CN": "不能停止或控制担心",
+        "bg": "Неспособност да спрете да се тревожите или да контролирате тревогата си",
+        "da": "Ikke kunnet holde op med at bekymre dig eller ikke kunnet styre din bekymring",
+        "sv": "Inte kunnat sluta oroa dig eller kontrollera din oro",
+        "lv": "Nespējāt nomierināties vai kontrolēt satraukumu",
+        "ms": "Tidak mampu untuk berhenti daripada atau mengawal rasa bimbang",
+        "uk": "Ви не могли зупинити або контролювати своє хвилювання"
     },
     "ui": {
         "inputType": "radio"

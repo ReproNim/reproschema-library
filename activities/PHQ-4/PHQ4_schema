@@ -1,0 +1,62 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ4_schema",
+    "prefLabel": {
+        "en": "PHQ-4 Assessment",
+        "es": "PHQ-4 Evaluación"
+    },
+    "description": "PHQ-4 assessment schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "compute": [
+        {
+            "variableName": "phq4_total_score",
+            "jsExpression": "phq4_1 + phq4_2 + phq4_3 + phq4_4"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq4_1",
+                "variableName": "phq4_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4_2",
+                "variableName": "phq4_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4_3",
+                "variableName": "phq4_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4_4",
+                "variableName": "phq4_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq4_total_score",
+                "variableName": "phq4_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq4_1",
+            "items/phq4_2",
+            "items/phq4_3",
+            "items/phq4_4"
+        ],
+        "shuffle": false
+    }
+}

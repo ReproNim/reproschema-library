@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITSelfworth_schema",
+    "prefLabel": {
+        "en": "CIT Self Worth"
+    },
+    "description": "CIT Self Worth schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Self Worth"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_selfworth1",
+                "variableName": "cit_selfworth1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_selfworth2",
+                "variableName": "cit_selfworth2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_selfworth3",
+                "variableName": "cit_selfworth3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_selfworth1",
+            "items/cit_selfworth2",
+            "items/cit_selfworth3"
+        ],
+        "shuffle": false
+    }
+}

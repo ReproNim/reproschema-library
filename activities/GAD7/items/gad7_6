@@ -8,7 +8,28 @@
     "version": "0.0.1",
     "question": {
         "en": "Becoming easily annoyed or irritable?",
-        "es": "\u00bfSe ha molestado o irritado f\u00e1cilmente?"
+        "es": "Enfadarse o irritarse con facilidad",
+        "ar": "لسرعة في الانزعاج أو الانفعال.",
+        "nl": "Snel geërgerd of geïrriteerd zijn",
+        "fr": "Une tendance à être facilement contrarié(e) ou irritable",
+        "it": "Infastidirsi o irritarsi facilmente",
+        "pt-BR": "Ficar facilmente aborrecido/a ou irritado/a",
+        "fil": "Nagiging madaling mayamot o mairita",
+        "fi": "Olen suuttunut tai ärtynyt herkäst",
+        "kn": "ಸುಲಭ ಾ‵ ⁓ೂೕಪ⁕ೂಳುῥವ⁳ದು ಅಥ ಾ ″⁋″⁋ ಾಗುವ⁳ದು",
+        "ko": "쉽게 짜증이 나거나 쉽게 성을 내게 된다",
+        "no": "Blitt lett sint eller irritert",
+        "pl": "Łatwo stawał(a) się Pan(i) rozdrażniony(a) lub poirytowany(a)",
+        "pt-PT": "Estive facilmente incomodado/a ou irritável",
+        "ro": "Apariţia uşoară a enervării sau iritabilităţii",
+        "ru": "Вы легко злились или раздражались",
+        "zh-CN": "变得易恼火或易急躁",
+        "bg": "Лесно достигане на състояние на яд или раздразнителност",
+        "da": "Haft let ved at blive sur eller irritabel",
+        "sv": "Blivit lätt irriterad eller retlig",
+        "lv": "Viegli kļuvāt aizkaitināms/-a",
+        "ms": "Menjadi mudah naik berang atau lekas marah",
+        "uk": "Вам було легко дошкулити або роздратувати"
     },
     "ui": {
         "inputType": "radio"

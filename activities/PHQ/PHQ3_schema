@@ -1,0 +1,67 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ3_schema",
+    "prefLabel": {
+        "en": "PHQ-3 Assessment",
+        "es": "PHQ-3 Evaluación"
+    },
+    "description": "PHQ-3 assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Questions about anxiety.",
+        "es": "Preguntas acerca de la ansiedad.",
+        "nl": "Vragen over angst.",
+        "fr": "Questions sur l’anxiété.",
+        "pt-BR": "Perguntas sobre ansiedade.",
+        "ko": "불안에관한질문."
+    },
+    "compute": [
+        {
+            "variableName": "phq3_total_score",
+            "jsExpression": "phq3a + phq3b + phq3c + phq3d"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq3a",
+                "variableName": "phq3a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq3b",
+                "variableName": "phq3b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq3c",
+                "variableName": "phq3c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq3d",
+                "variableName": "phq3d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq3_total_score",
+                "variableName": "phq3_total_score",
+                "isVis": false
+            }
+        ],
+        "order": [
+            "items/phq3a",
+            "items/phq3b",
+            "items/phq3c",
+            "items/phq3d"
+        ],
+        "shuffle": false
+    }
+}

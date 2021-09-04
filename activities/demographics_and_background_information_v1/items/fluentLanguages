@@ -1,14 +1,14 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "fluentLanguages",
     "prefLabel": "Fluent languages",
     "description": "schema for fluent languages of participant",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Which languages do you speak fluently?",
-        "es": "¿Qué idiomas habla con fluidez?"
+        "en": "Which languages do you speak fluently similar to a native speaker?",
+        "es": "¿Qué idiomas habla con fluidez similar a un hablante nativo?"
     },
     
     "ui": {

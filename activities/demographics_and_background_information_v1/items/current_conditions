@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "current_conditions",
+    "prefLabel": "current conditions",
+    "description": "schema for current conditions of participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Do you currently have these conditions or currently experience symptoms as a result of having had these conditions or interventions?"
+    },
+
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": false,
+        "minValue": 0,
+        "maxValue": 2,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Yes"
+            },
+            {
+                "value": 0,
+                "name": "No"
+            },
+            {
+                "value": 2,
+                "name": "Only some"
+            }
+        ]
+    }
+}

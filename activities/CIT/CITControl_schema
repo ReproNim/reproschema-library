@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITControl_schema",
+    "prefLabel": {
+        "en": "CIT Control"
+    },
+    "description": "CIT Control schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Control"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_control1",
+                "variableName": "cit_control1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_control2",
+                "variableName": "cit_control2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_control3",
+                "variableName": "cit_control3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_control1",
+            "items/cit_control2",
+            "items/cit_control3"
+        ],
+        "shuffle": false
+    }
+}

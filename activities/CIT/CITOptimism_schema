@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "CITOptimism_schema",
+    "prefLabel": {
+        "en": "CIT Optimism"
+    },
+    "description": "CIT Optimism schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Optimism"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/cit_optimism1",
+                "variableName": "cit_optimism1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_optimism2",
+                "variableName": "cit_optimism2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cit_optimism3",
+                "variableName": "cit_optimism3",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/cit_optimism1",
+            "items/cit_optimism2",
+            "items/cit_optimism3"
+        ],
+        "shuffle": false
+    }
+}

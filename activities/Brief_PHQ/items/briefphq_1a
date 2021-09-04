@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "briefphq_1a",
+    "prefLabel": "BriefPHQ-1a",
+    "description": "Q1a of the derived Brief-PHQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "Little interest or pleasure in doing things",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

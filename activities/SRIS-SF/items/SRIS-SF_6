@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "SRIS-SF_6",
+    "prefLabel": "SRIS-SF 6",
+    "description": "Q6 of the SRIS-SF Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "It is important to me to try to understand what my feelings mean"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../SRIS-SFvalueConstraints"
+}

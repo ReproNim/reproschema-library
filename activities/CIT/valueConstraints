@@ -1,0 +1,31 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 3,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Strongly disagree",
+            "value": 1
+        },
+        {
+            "name": "Disagree",
+            "value": 2
+        },
+        {
+            "name": "Neither agree or disagree",
+            "value": 3
+        },
+        {
+            "name": "Agree",
+            "value": 4
+        },
+        {
+            "name": "Strongly agree",
+            "value": 5
+        }
+    ]
+}

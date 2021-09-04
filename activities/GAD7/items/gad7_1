@@ -8,7 +8,29 @@
     "version": "0.0.1",
     "question": {
         "en": "Feeling nervous, anxious or on edge?",
-        "es": "\u00bfSe ha sentido nervioso(a) o ansioso(a)?"
+        "es": "Sentirse nervioso/a, angustiado/a o muy tenso/a",
+        "ar": " -الشعور بالغضب أو القلق أو الانفعال الشديد",
+        "nl": "U nerveus, angstig of gespannen voelen",
+        "fr": " Un sentiment de nervosité, d’anxiété ou de tension",
+        "it": "Sentirsi nervoso/a, ansioso/a o teso/a",
+        "pt-BR": "Sentir-se nervoso/a, ansioso/a ou muito tenso/a",
+        "fil": "Pakiramdam na ninenerbiyos, nababalisa o tensiyonado",
+        "fi": "Olen tuntenut oloni hermostuneeksi, ahdistuneeksi tai erittäin kireäksi",
+        "kn": "ತಳಮಳ, ಆತಂಕ ಅಥ ಾ ಬಹಳ ΅ಾತರದ ಅನುಭವ",
+        "ko": "초조하거나 불안하거나 조마조마하게 느낀다",
+        "no": "Følt deg nervøs, engstelig eller veldig stresset",
+        "pl": "Czuł(a) się Pan(i) podenerwowany(a),niespokojny(a), mocno spięty(a)",
+        "pt-PT": "Senti-me nervoso/a, ansioso/a ou irritado/a",
+        "ro": "Sentimentul de nervozitate, anxietate sau tensiune",
+        "ru": "Вы нервничали, тревожились или испытывали сильный стресс",
+        "zh-CN": "感觉心神不安、焦虑或高度紧张",
+        "bg": "Нервност, тревожност или чувство, че сте на ръба",
+        "da": "Følt dig nervøs, ængstelig eller anspændt",
+        "sv": "Känt dig nervös, ängslig eller väldigt stressad",
+        "lv": "Jutāt nervozitāti, raizes vai sasprindzinājumu",
+        "ms": "Berasa tidak senang, bimbang atau resah",
+        "uk": "Ви нервували, відчували тривогу або були дуже напружені"
+
     },
     "ui": {
         "inputType": "radio"

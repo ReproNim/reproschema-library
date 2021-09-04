@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "GQ_3",
+    "prefLabel": "GQ 3",
+    "description": "Q3 of the GQ-6 Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "When I look at the world, I don't see much to be thankful for."
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../GQ6valueConstraints"
+}

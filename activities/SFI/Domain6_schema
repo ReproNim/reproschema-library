@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "Domain6_schema",
+    "prefLabel": {
+        "en": "Domain 6"
+    },
+    "description": "Domain 6 schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Domain 6: Financial and Material Stability"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/SFI_11",
+                "variableName": "SFI_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SFI_12",
+                "variableName": "SFI_12",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/SFI_11",
+            "items/SFI_12"
+        ],
+        "shuffle": false
+    }
+}

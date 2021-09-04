@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pc-ptsd5_2",
+    "prefLabel": "PC-PTSD-5-2",
+    "description": "Q2 of the PC-PTSD-5 Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "In the past month, have you… ",
+        "es": ""
+    },
+    "question": {
+        "en": "had nightmares about the event(s) or thought about the event(s) when you did not want to? ",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../pc-ptsd5valueConstraints"
+}

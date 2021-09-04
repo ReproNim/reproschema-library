@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq2c",
+    "prefLabel": "PHQ9a-3",
+    "description": "Q3 of the derived PHQ-9 Assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Trouble falling or staying asleep, or sleeping too much?",
+        "es": "Ha tenido dificultad para quedarse o permanecer dormido(a), o ha dormido demasiado?",
+        "fr": "Difficultés à s’endormir ou à rester endormi(e), ou dormir trop?",
+
+        "ar": "صعوبة في النوم أو نوم متقطع أو النوم أآثر من المعتاد",
+
+        "nl": "Moeilijk inslapen, moeilijk doorslapen of te veel slapen",
+        "pt-BR": "Dificuldade para pegar no sono ou permanecer dormindo, ou dormir mais do que de costume",
+        "ko": "잠이 들거나 계속 잠을 자는 것이 어려움, 또는 잠을 너무 많이 잠",
+        "it": "Problemi ad addormentarsi o a dormire tutta la notte senza svegliarsi, o a dormire troppo",
+        "ja": "寝付きが悪い、途中で目がさめる、または逆に眠り過ぎる",
+        "fi": "Nukahtamis- tai nukkumisvaikeudet tai liiallinen nukkuminen",
+        "fil": "Hirap na makatulog o manatiling tulog, o labis na pagtulog",
+        "no": "Vansker med å sovne eller med å sove natten gjennom uten å våkne – eller med at du sover for mye",
+        "kn": "⁄⁢ರ್ ಬರುವುದು ಅಥ ಾ ⁄⁢ರ್ಯ⁌ಲ್ರುವುದಕೆಕ್ ⁠ೂಂದ⁫, ಅಥ ಾ ಅ⁀ ಾಗಿ ⁄⁢ರ್  ಾಡುವುದು",
+        "ru": "Вам было трудно заснуть, у Вас был прерывистый сон,или Вы слишком много спали",
+        "pl": "Kłopoty z zaśnięciem lub przerywany sen, albo zbyt długi sen",
+        "bg": "Проблеми със съня: трудно заспиване, неспокоен сън или прекалено много сън",
+        "lv": "Grūtības iemigt, caurs/trausls miegs vai pārāk ilga gulēšana",
+        "ms": "Masalah untuk tidur atau tidur nyenyak atau tidur berlebihan",
+        "ro": "Dificultăţi de adormire sau de continuitate a somnului ori somnul prea îndelungat",
+        "zn-CH": "难于入睡；半夜会醒，或相反，睡觉时间过多",
+        "sv": "Svårigheter att somna eller få en sammanhängande sömn, eller sovit för mycket",
+        "uk": "Вам було важко засинати або не прокидатись, або Ви спали надто довго"
+     },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints2"
+}

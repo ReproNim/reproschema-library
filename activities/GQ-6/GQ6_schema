@@ -1,0 +1,62 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "GQ6_schema",
+    "prefLabel": {
+        "en": "GQ-6 Assessment",
+        "es": "GQ-6 Evaluación"
+    },
+    "description": "GQ-6 assessment schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/GQ_1",
+                "variableName": "GQ_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/GQ_2",
+                "variableName": "GQ_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/GQ_3",
+                "variableName": "GQ_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/GQ_4",
+                "variableName": "GQ_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/GQ_5",
+                "variableName": "GQ_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/GQ_6",
+                "variableName": "GQ_6",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/GQ_1",
+            "items/GQ_2",
+            "items/GQ_3",
+            "items/GQ_4",
+            "items/GQ_5",
+            "items/GQ_6"
+        ],
+        "shuffle": false
+    }
+}

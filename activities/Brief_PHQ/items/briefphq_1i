@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "briefphq_1i",
+    "prefLabel": "PHQ9a-9",
+    "description": "schema for Q1i of the Brief PHQ Assessment",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "Thoughts that you would be better off dead or of hurting yourself in some way?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

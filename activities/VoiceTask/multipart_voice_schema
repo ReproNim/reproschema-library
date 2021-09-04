@@ -1,6 +1,6 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
+    "@type": "reproschema:Activity",
     "@id": "multipart_voice_schema",
     "prefLabel": "voice tasks",
     "description": "Voice tasks",
@@ -33,7 +33,6 @@
             "items/read_passage",
             "items/say_numbers"
         ],
-        "inputType": "multipart",
         "shuffle": false,
         "allow": [
             "reproschema:Skipped",

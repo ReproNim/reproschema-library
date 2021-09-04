@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "Domain2_schema",
+    "prefLabel": {
+        "en": "Domain 2"
+    },
+    "description": "Domain 2 schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Domain 2: Mental and Physical Health"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/SFI_3",
+                "variableName": "SFI_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SFI_4",
+                "variableName": "SFI_4",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/SFI_3",
+            "items/SFI_4"
+        ],
+        "shuffle": false
+    }
+}

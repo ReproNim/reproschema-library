@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "Domain4_schema",
+    "prefLabel": {
+        "en": "Domain 4"
+    },
+    "description": "Domain 4 schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Domain 4: Character and Virtue"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/SFI_7",
+                "variableName": "SFI_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/SFI_8",
+                "variableName": "SFI_8",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/SFI_7",
+            "items/SFI_8"
+        ],
+        "shuffle": false
+    }
+}

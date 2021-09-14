@@ -10,7 +10,7 @@
         "en": "I am content with my friendships and relationships."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints1"
 }

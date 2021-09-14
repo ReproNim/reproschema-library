@@ -10,7 +10,7 @@
         "en": "Overall, to what extent do you feel the things you do in your life are worthwhile?"
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints6"
 }

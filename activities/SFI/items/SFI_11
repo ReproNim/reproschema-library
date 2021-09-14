@@ -10,7 +10,7 @@
         "en": "How often do you worry about being able to meet normal monthly living expenses?"
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints7"
 }

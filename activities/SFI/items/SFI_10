@@ -10,7 +10,7 @@
         "en": "My relationships are as satisfying as I would want them to be."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints1"
 }

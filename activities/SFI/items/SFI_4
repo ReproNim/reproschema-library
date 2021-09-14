@@ -10,7 +10,7 @@
         "en": "How would you rate your overall mental health?"
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints2"
 }

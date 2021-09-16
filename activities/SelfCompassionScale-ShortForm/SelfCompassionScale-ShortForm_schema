@@ -1,0 +1,109 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SelfCompassionScale_schema",
+    "prefLabel": {
+        "en": "Self Compassion Assessment",
+        "es": "Self Compassion Evaluación"
+    },
+    "description": "Self Compassion schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "citation": "Raes, F., Pommier, E., Neff, K. D., & Van Gucht, D. (2011). Construction and factorial validation of a short form of the Self-Compassion Scale. Clinical Psychology & Psychotherapy. 18, 250-255",
+    "preamble": {
+        "en": "HOW I TYPICALLY ACT TOWARDS MYSELF IN DIFFICULT TIMES.\n
+
+        Please read each statement carefully before answering. Indicate how often you behave in the stated manner."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/selfcompassion_1",
+                "variableName": "selfcompassion_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_2",
+                "variableName": "selfcompassion_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_3",
+                "variableName": "selfcompassion_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_4",
+                "variableName": "selfcompassion_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_5",
+                "variableName": "selfcompassion_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_6",
+                "variableName": "selfcompassion_6",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_7",
+                "variableName": "selfcompassion_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_8",
+                "variableName": "selfcompassion_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_9",
+                "variableName": "selfcompassion_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_10",
+                "variableName": "selfcompassion_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_11",
+                "variableName": "selfcompassion_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/selfcompassion_12",
+                "variableName": "selfcompassion_12",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/selfcompassion_1",
+            "items/selfcompassion_2",
+            "items/selfcompassion_3",
+            "items/selfcompassion_4",
+            "items/selfcompassion_5",
+            "items/selfcompassion_6",
+            "items/selfcompassion_7",
+            "items/selfcompassion_8",
+            "items/selfcompassion_9",
+            "items/selfcompassion_10",
+            "items/selfcompassion_11",
+            "items/selfcompassion_12"
+            ],
+        "shuffle": false
+    }
+}

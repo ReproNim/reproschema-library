@@ -78,15 +78,27 @@
             },
             {
                 "value": 18,
-                "name": "Romani"
+                "name": "Northern European"
             },
             {
                 "value": 19,
-                "name": "None"
+                "name": "Southern European"
             },
             {
                 "value": 20,
-                "name": "Other"
+                "name": "Romani"
+            },
+            {
+                "value": 21,
+                "name": "None"
+            },
+            {
+                "value": 22,
+                "name": "Prefer not disclose"
+            },
+            {
+                "value": 23,
+                "name": "Other race, ethnicity, or origin"
             }
         ]
     },

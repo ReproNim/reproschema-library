@@ -30,7 +30,7 @@
                 "isAbout": "PHQ10_schema",
                 "variableName": "PHQ10_schema",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq9 === 1"
             }
         ],
         "order": [

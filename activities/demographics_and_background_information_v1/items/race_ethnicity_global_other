@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "respiratory_conditions_specify",
-    "prefLabel": "Respiratory conditions specify",
-    "description": "schema for specifying respiratory conditions of participant",
+    "@id": "race_ethnicity_global_other",
+    "prefLabel": "race_ethnicity_global_other",
+    "description": "schema for specifying race_ethnicity_global_other",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "If yes, Please specify:"
+        "en": "If you chose other, please specify:"
     },
     "ui": {
         "inputType": "text"

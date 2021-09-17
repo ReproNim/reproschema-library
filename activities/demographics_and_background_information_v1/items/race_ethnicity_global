@@ -89,15 +89,15 @@
                 "name": "Romani"
             },
             {
-                "value": 21,
+                "value": 999,
                 "name": "None"
             },
             {
-                "value": 22,
+                "value": 0,
                 "name": "Prefer not disclose"
             },
             {
-                "value": 23,
+                "value": -1,
                 "name": "Other race, ethnicity, or origin"
             }
         ]

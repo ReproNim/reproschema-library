@@ -30,13 +30,13 @@
                 "isAbout": "items/phq6b",
                 "variableName": "phq6b",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq6a === 1"
             },
             {
                 "isAbout": "items/phq6c",
                 "variableName": "phq6c",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq6a === 1"
             },
             {
                 "isAbout": "items/phq6_total_score",
@@ -47,36 +47,36 @@
                 "isAbout": "items/phq7a",
                 "variableName": "phq7a",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq6a === 1"
             },
             {
                 "isAbout": "items/phq7b",
                 "variableName": "phq7b",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq6a === 1"
             },
             {
                 "isAbout": "items/phq7c",
                 "variableName": "phq7c",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq6a === 1"
             },
             {
                 "isAbout": "items/phq7d",
                 "variableName": "phq7d",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq6a === 1"
             },
             {
                 "isAbout": "items/phq7_total_score",
                 "variableName": "phq7_total_score",
-                "isVis": false
+                "isVis": "phq6a === 1"
             },
 	        {
                 "isAbout": "items/phq8",
                 "variableName": "phq8",
                 "valueRequired": true,
-                "isVis": true
+                "isVis": "phq6a === 1"
             }
         ],
         "order": [

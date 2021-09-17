@@ -19,15 +19,15 @@
         "choices": [
             {
                 "name": {
-	                "en": "Woman / cis women",
-	                "es": "Mujer / mujer cis"
+	                "en": "Woman",
+	                "es": "Mujer"
                 },
                 "value": 0
             },
             {
                 "name": {
-	                "en": "Man / cis man",
-	                "es": "Hombre / hombre cis"
+	                "en": "Man",
+	                "es": "Hombre"
                 },
                 "value": 1
             },
@@ -57,14 +57,14 @@
 	                "en": "Prefer not to disclose",
 	                "es": "Prefiero no responder"
                 },
-                "value": 5
+                "value": 0
             },
 	        {
                 "name": {
 	                "en": "Other",
 	                "es": "Otro"
                 },
-                "value": 99
+                "value": -1
             }
 
         ]

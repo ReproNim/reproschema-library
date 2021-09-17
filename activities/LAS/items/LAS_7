@@ -10,7 +10,7 @@
         "en": "Depressed/blue"
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

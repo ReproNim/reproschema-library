@@ -10,7 +10,7 @@
         "en": "Worried/anxious"
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

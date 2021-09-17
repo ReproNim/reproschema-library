@@ -10,7 +10,7 @@
         "en": "Relaxed/calm"
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

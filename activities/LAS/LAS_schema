@@ -11,7 +11,7 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Using the 7-point scale below, please indicate the extent to which you feel this way right now:"
+        "en": "Using the 7-point scale below, please indicate the extent to which you feel this way in the past week (last 7 days):"
     },
     "ui": {
         "addProperties": [

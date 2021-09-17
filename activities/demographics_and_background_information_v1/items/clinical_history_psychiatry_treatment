@@ -1,0 +1,29 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "clinical_history_psychiatry_treatment",
+  "prefLabel": "Current psychiatry conditions",
+  "description": "This is a radio item.",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "question": "Do you currently receive treatment for these conditions?",
+  "ui": {
+    "inputType": "radio"
+  },
+  "responseOptions": {
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 2,
+    "multipleChoice": false,
+    "choices": [
+      {
+        "name": "Yes",
+        "value": 1
+      },
+      {
+        "name": "No",
+        "value": 0
+      }
+    ]
+  }
+}

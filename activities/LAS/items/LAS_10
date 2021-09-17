@@ -10,7 +10,7 @@
         "en": "Angry/hostile"
     },
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
 }

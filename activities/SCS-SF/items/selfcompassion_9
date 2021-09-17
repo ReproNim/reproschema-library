@@ -10,7 +10,7 @@
         "en": "When I'm feeling down, I tend to obsess and fixate on everything that's wrong."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

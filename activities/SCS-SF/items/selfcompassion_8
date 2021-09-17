@@ -10,7 +10,7 @@
         "en": "When I fail at something that’s important to me, I tend to feel alone in my failure."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

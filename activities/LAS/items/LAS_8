@@ -10,7 +10,7 @@
         "en": "Unhappy"
     },
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
 }

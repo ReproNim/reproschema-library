@@ -10,7 +10,7 @@
         "en": "I try to see my failings as part of the human condition."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

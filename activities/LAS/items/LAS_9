@@ -10,7 +10,7 @@
         "en": "Frustrated"
     },
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
 }

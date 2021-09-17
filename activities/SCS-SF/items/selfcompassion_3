@@ -10,7 +10,7 @@
         "en": "When something painful happens I try to take a balanced view of the situation."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

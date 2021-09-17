@@ -9,6 +9,9 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+                        "en": "Use the 10-point scale below to answer the questions:"
+    },
     "ui": {
         "addProperties": [
             {

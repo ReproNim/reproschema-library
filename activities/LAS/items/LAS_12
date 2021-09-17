@@ -10,7 +10,7 @@
         "en": "Dull/bored"
     },
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
 }

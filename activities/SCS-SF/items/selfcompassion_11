@@ -10,7 +10,7 @@
         "en": "I'm disapproving and judgmental about my own flaws and inadequacies."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

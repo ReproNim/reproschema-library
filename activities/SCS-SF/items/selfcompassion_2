@@ -10,7 +10,7 @@
         "en": "I try to be understanding and patient towards those aspects of my personality I don’t like."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

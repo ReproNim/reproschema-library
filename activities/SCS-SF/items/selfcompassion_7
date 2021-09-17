@@ -10,7 +10,7 @@
         "en": "When something upsets me I try to keep my emotions in balance."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

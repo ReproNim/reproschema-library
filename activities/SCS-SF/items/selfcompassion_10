@@ -10,7 +10,7 @@
         "en": "When I feel inadequate in some way, I try to remind myself that feelings of inadequacies are shared by most people."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

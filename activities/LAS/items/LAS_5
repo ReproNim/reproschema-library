@@ -10,7 +10,7 @@
         "en": "Peaceful/Serene"
     },
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
 }

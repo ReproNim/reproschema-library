@@ -10,7 +10,7 @@
         "en": "When I'm feeling down, I tend to feel like most other people are probably happier than I am."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints"
 }

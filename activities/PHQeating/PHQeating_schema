@@ -10,14 +10,6 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
-        "es": "En los últimos 3 meses, ¿ha ocupado a menudo cualquiera de los siguientes métodos para evitar subir de peso?",
-        "nl": "Hebt u in de afgelopen 3 maanden vaakéén of meer van de volgende dingen gedaan om te voorkomen dat u in gewicht aankomt?",
-        "fr": "Au cours des 3 derniers mois, avez-vous souventagi de la manière suivante pour éviter de prendre du poids?",
-        "pt-BR": "Nos últimos 3 meses você fez com freqüência alguma das coisas abaixo para evitar ganhar peso?",
-        "ko": "지난 3개월동안당신은체중이증가하는것을막기위해다음과같은행동을자주했습니까?"
-    },
     "ui": {
         "addProperties": [
 	        {

@@ -67,11 +67,11 @@
                 "name": "Autism Spectrum Disorder"
             },
             {
-                "value": 997,
+                "value": 0,
                 "name": "Prefer not to disclose"
             },
             {
-                "value": 998,
+                "value": -1,
                 "name": "Other"
             },
              {

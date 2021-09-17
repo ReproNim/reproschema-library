@@ -11,7 +11,7 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-            "en": "",
+            "en": " "
     },
     "ui": {
         "addProperties": [

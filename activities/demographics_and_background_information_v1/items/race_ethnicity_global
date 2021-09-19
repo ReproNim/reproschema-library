@@ -6,7 +6,7 @@
     "@id": "race_ethnicity_global",
     "prefLabel": "race ethnicity global",
     "responseOptions": {
-        "valueType": "xsd:string",
+        "valueType": "xsd:anyURI",
         "multipleChoice": true,
         "choices": [
             {

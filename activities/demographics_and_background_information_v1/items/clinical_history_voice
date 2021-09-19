@@ -11,7 +11,6 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
         "multipleChoice": true,
         "choices": [
             {

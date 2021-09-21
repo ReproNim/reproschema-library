@@ -38,33 +38,11 @@
                 "variableName": "phq6_total_score",
                 "isVis": false
             },
+
+
             {
-                "isAbout": "items/phq7a",
-                "variableName": "phq7a",
-                "valueRequired": true,
-                "isVis": "phq6a === 1"
-            },
-            {
-                "isAbout": "items/phq7b",
-                "variableName": "phq7b",
-                "valueRequired": true,
-                "isVis": "phq6a === 1"
-            },
-            {
-                "isAbout": "items/phq7c",
-                "variableName": "phq7c",
-                "valueRequired": true,
-                "isVis": "phq6a === 1"
-            },
-            {
-                "isAbout": "items/phq7d",
-                "variableName": "phq7d",
-                "valueRequired": true,
-                "isVis": "phq6a === 1"
-            },
-            {
-                "isAbout": "items/phq7_total_score",
-                "variableName": "phq7_total_score",
+                "isAbout": "PHQ7_schema",
+                "variableName": "PHQ7_schema",
                 "isVis": "phq6a === 1"
             },
 	        {
@@ -78,10 +56,7 @@
 	        "items/phq6a",
             "items/phq6b",
             "items/phq6c",
-            "items/phq7a",
-            "items/phq7b",
-            "items/phq7c",
-            "items/phq7d",
+            "PHQ7_schema",
 	        "items/phq8"
         ],
         "shuffle": false

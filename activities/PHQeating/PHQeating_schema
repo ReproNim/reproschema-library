@@ -25,7 +25,7 @@
                 "isAbout": "items/phq6b",
                 "variableName": "phq6b",
                 "valueRequired": true,
-                "isVis": "phq6a === 1 & phq6b === 2"
+                "isVis": true
             },
             {
                 "isAbout": "items/phq6c",

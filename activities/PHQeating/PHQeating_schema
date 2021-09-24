@@ -31,7 +31,7 @@
                 "isAbout": "items/phq6c",
                 "variableName": "phq6c",
                 "valueRequired": true,
-                "isVis": "phq6a === 1 && phq6b === 2"
+                "isVis": "phq6a === 1 && phq6b === 1"
             },
             {
                 "isAbout": "items/phq6_total_score",
@@ -43,13 +43,13 @@
             {
                 "isAbout": "PHQ7_schema",
                 "variableName": "PHQ7_schema",
-                "isVis": "phq6a === 1 && phq6b === 2"
+                "isVis": "phq6a === 1 && phq6b === 1"
             },
 	        {
                 "isAbout": "items/phq8",
                 "variableName": "phq8",
                 "valueRequired": true,
-                "isVis": "phq6a === 1 && phq6b === 2"
+                "isVis": "phq6a === 1 && phq6b === 1"
             }
         ],
         "order": [

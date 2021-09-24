@@ -1,0 +1,63 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PHQ10_schema",
+    "prefLabel": {
+        "en": "PHQ-Q10",
+        "es": "PHQ-Q10"
+    },
+    "description": "PHQ Q10 schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "preamble": {
+        "en": "Have any of the following happened to you more than once in the last 6 months?",
+        "es": "¿Alguna de estas situaciones le ha ocurrido más de una vez en los últimos 6 meses?",
+        "nl": "Zijn één of meer van de volgende dingen u in de afgelopen 6 maanden meer dan eensoverkomen?",
+        "fr": "Avez-vous été dans l’une des situations suivantes plus d’une fois au cours des derniers 6 mois?",
+        "pt-BR": "Alguma das situações abaixo aconteceu com você mais de uma vez nos últimos 6 meses?",
+        "ko": "지난 6개월동안다음의일들이한번이상일어났습니까?"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/phq10a",
+                "variableName": "phq10a",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10b",
+                "variableName": "phq10b",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10c",
+                "variableName": "phq10c",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10d",
+                "variableName": "phq10d",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "items/phq10e",
+                "variableName": "phq10e",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/phq10a",
+            "items/phq10b",
+            "items/phq10c",
+            "items/phq10d",
+            "items/phq10e"
+        ],
+        "shuffle": false
+    }
+}

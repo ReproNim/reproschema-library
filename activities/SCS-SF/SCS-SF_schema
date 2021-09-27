@@ -11,7 +11,7 @@
     "version": "0.0.1",
     "citation": "Raes, F., Pommier, E., Neff, K. D., & Van Gucht, D. (2011). Construction and factorial validation of a short form of the Self-Compassion Scale. Clinical Psychology & Psychotherapy. 18, 250-255",
     "preamble": {
-        "en": "Please read each statement carefully before answering. Indicate how often you behave in the stated manner in difficult times."
+        "en": "Please read each statement carefully before answering. Indicate how often you behave in the stated manner IN DIFFICULT TIMES."
     },
     "ui": {
         "addProperties": [

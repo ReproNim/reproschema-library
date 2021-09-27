@@ -8,27 +8,27 @@
     "multipleChoice": false,
     "choices": [
         {
-            "name": "Almost always",
+            "name": "1. Almost always",
             "value": 1
         },
         {
-            "name": "Very frequently",
+            "name": "2. Very frequently",
             "value": 2
         },
         {
-            "name": "Somewhat frequently",
+            "name": "3. Somewhat frequently",
             "value": 3
         },
         {
-            "name": "Somewhat infrequently",
+            "name": "4. Somewhat infrequently",
             "value": 4
         },
         {
-            "name": "Very infrequently",
+            "name": "5. Very infrequently",
             "value": 5
         },
         {
-            "name": "Almost never",
+            "name": "6. Almost never",
             "value": 6
         }
     ]

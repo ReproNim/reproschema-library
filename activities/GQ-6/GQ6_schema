@@ -11,7 +11,7 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Using the scale below as a guide, choose for each statement to indicate how much you agree with it:"
+        "en": "Using the scale below, indicate how much you agree with each statement:"
     },
     "ui": {
         "addProperties": [

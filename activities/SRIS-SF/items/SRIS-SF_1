@@ -10,7 +10,7 @@
         "en": "I frequently examine my feelings"
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../SRIS-SFvalueConstraints"
 }

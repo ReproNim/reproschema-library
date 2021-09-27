@@ -1,0 +1,51 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "education_2",
+    "prefLabel": "Education",
+    "description": "schema for native education of participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Education",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Never attended school or only attended kindergarten"
+            },
+            {
+                "value": 2,
+                "name": "Grades 1-8"
+            },
+            {
+                "value": 3,
+                "name": "Some high school"
+            },
+            {
+                "value": 4,
+                "name": "High school degree or GED"
+            },
+            {
+                "value": 5,
+                "name": "Some college or technical school"
+            },
+            {
+                "value": 6,
+                "name": "College degree"
+            },
+            {
+                "value": 7,
+                "name": "Some postgraduate"
+            },
+            {
+                "value": 8,
+                "name": "Postgraduate degree"
+            }
+        ]
+    }
+}

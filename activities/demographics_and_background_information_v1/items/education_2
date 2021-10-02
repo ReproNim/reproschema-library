@@ -2,8 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "education_2",
-    "prefLabel": "Education",
-    "description": "schema for native education of participant",
+    "prefLabel": "Education 2",
+    "description": "schema for native education of participant 2",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "What is the highest grade or level of education you completed?",
@@ -43,24 +43,20 @@
                 "name": "Bachelor's degree"
             },
             {
-                "value": 7,
+                "value": 8,
                 "name": "Master's degree (in progress or partially completed)"
             },
             {
-                "value": 7,
+                "value": 9,
                 "name": "Master's degree (completed)"
             },
             {
-                "value": 7,
-                "name": "Master's degree (in progress or partially completed)"
+                "value": 10,
+                "name": "Doctorate/professional degree (in progress or partially completed)"
             },
             {
-                "value": 7,
-                "name": "Master's degree (in progress or partially completed)"
-            },
-            {
-                "value": 7,
-                "name": "Some postgraduate"
+                "value": 11,
+                "name": "Doctorate/professional degree (completed)"
             },
             {
                 "value": -1,

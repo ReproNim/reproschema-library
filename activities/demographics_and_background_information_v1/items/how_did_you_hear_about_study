@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "how_did_you_hear_about_study",
+    "prefLabel": "how_did_you_hear_about_study",
+    "description": "schema for how_did_you_hear_about_study",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How did you learn about the study? (Check all that apply)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:anyURI",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": "From someone I know"
+            },
+            {
+                "value": 2,
+                "name": "Reddit"
+            },
+            {
+                "value": 3,
+                "name": "Facebook"
+            },
+            {
+                "value": 4,
+                "name": "Instagram"
+            },
+            {
+                "value": -1,
+                "name": "Other"
+            }
+        ]
+    }
+}

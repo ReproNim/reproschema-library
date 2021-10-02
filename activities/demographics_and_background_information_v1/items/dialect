@@ -11,7 +11,7 @@
 	    "es": "¿En qué ciudad o región hablan parecido a cómo habla usted Español o Castellano (o explique)?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"

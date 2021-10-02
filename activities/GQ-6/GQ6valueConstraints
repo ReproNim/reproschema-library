@@ -8,31 +8,31 @@
     "multipleChoice": false,
     "choices": [
         {
-            "name": "Strongly disagree",
+            "name": "1 = Strongly disagree",
             "value": 1
         },
         {
-            "name": "Disagree",
+            "name": "2 = Disagree",
             "value": 2
         },
         {
-            "name": "Slightly disagree",
+            "name": "3 = Slightly disagree",
             "value": 3
         },
         {
-            "name": "Neutral",
+            "name": "4 = Neutral",
             "value": 4
         },
         {
-            "name": "Slightly agree",
+            "name": "5 = Slightly agree",
             "value": 5
         },
         {
-            "name": "Agree",
+            "name": "6 = Agree",
             "value": 6
         },
         {
-            "name": "Strongly agree",
+            "name": "7 = Strongly agree",
             "value": 7
         }
     ]

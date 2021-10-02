@@ -8,23 +8,23 @@
     "multipleChoice": false,
     "choices": [
         {
-            "name": "Never",
+            "name": "0 = Never",
             "value": 0
         },
         {
-            "name": "Rarely",
+            "name": "1 = Rarely",
             "value": 1
         },
         {
-            "name": "Sometimes",
+            "name": "2 = Sometimes",
             "value": 2
         },
         {
-            "name": "Often",
+            "name": "3 = Often",
             "value": 3
         },
         {
-            "name": "Always",
+            "name": "4 = Always",
             "value": 4
         }
     ]

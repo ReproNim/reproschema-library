@@ -8,31 +8,31 @@
     "multipleChoice": false,
     "choices": [
         {
-            "name": "Not at all",
+            "name": "0 = Not at all",
             "value": 0
         },
         {
-            "name": "Very slightly",
+            "name": "1 = Very slightly",
             "value": 1
         },
         {
-            "name": "Somewhat",
+            "name": "2 = Somewhat",
             "value": 2
         },
         {
-            "name": "Moderately",
+            "name": "3 = Moderately",
             "value": 3
         },
         {
-            "name": "Much",
+            "name": "4 = Much",
             "value": 4
         },
         {
-            "name": "Very much",
+            "name": "5 = Very much",
             "value": 5
         },
         {
-            "name": "Extremely",
+            "name": "6 = Extremely",
             "value": 6
         }
     ]

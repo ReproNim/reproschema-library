@@ -6,7 +6,7 @@
     "description": "schema for native education of participant",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Education",
+    "question": "What is the highest grade or level of education you completed?",
     "ui": {
         "inputType": "radio"
     },
@@ -28,7 +28,7 @@
             },
             {
                 "value": 4,
-                "name": "High school degree or GED"
+                "name": "High school degree or General Educational Development (GED)"
             },
             {
                 "value": 5,
@@ -36,15 +36,35 @@
             },
             {
                 "value": 6,
-                "name": "College degree"
+                "name": "Associate's degree"
+            },
+            {
+                "value": 7,
+                "name": "Bachelor's degree"
+            },
+            {
+                "value": 7,
+                "name": "Master's degree (in progress or partially completed)"
+            },
+            {
+                "value": 7,
+                "name": "Master's degree (completed)"
+            },
+            {
+                "value": 7,
+                "name": "Master's degree (in progress or partially completed)"
+            },
+            {
+                "value": 7,
+                "name": "Master's degree (in progress or partially completed)"
             },
             {
                 "value": 7,
                 "name": "Some postgraduate"
             },
             {
-                "value": 8,
-                "name": "Postgraduate degree"
+                "value": -1,
+                "name": "Other"
             }
         ]
     }

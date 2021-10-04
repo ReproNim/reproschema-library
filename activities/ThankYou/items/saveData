@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Thank you for participating!",
-        "es": "Gracias por participar!"
+        "en": "You've finished today's activity. Thank you for participating!",
+        "es": "Has terminado la actividad de hoy. Gracias por participar!"
     },
     "ui": {
         "inputType": "save",

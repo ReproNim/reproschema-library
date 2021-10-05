@@ -12,7 +12,7 @@
     },
     
     "ui": {
-        "inputType": "textarea"
+        "inputType": "text"
     },
     "responseOptions": {
         "valueType": "xsd:string"

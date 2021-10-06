@@ -12,7 +12,7 @@
         },
     "question": {
         "en": "Tell us how you're feeling, and why you think you feel that way with as much detail as possible. Describe your emotions, bodily sensations and thoughts (click stop when you're done).",
-        "es": "Cuenta cómo te sientes y por qué piensas que te sientes de ese modo con el mayor detalle y profundidad posible. Describa tus emociones, sensaciones corporales y pensamientos (haga click en "Pausar" cuando hayas terminado)."
+        "es": "Cuenta cómo te sientes y por qué piensas que te sientes de ese modo con el mayor detalle y profundidad posible. Describa tus emociones, sensaciones corporales y pensamientos (haga click en Pausar cuando hayas terminado)."
     },
     "ui": {
         "inputType": "audioRecord"

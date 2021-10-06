@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question":
-        {"en": "Before we start, let’s test your microphone. Click on the Start button below and say something out loud like “Testing 1, 2, 3”. Recording will stop automatically after 5 seconds. Click Play to hear your recording. If you hear background noise, please go to a quieter place and try again by selecting Redo recording.  If it sounds good, click Continue and then Next.",
-        "es": "Antes de comenzar, probemos su micrófono. Haga clic en el botón Comenzar y diga algo en voz alta como \"Prueba 1, 2, 3\". La grabación se detendrá automáticamente después de 5 segundos. Haga clic en Reproducir para escuchar su grabación. Si escucha ruido de fondo, vaya a un lugar más silencioso y vuelva a intentarlo seleccionando Rehacer grabación. Si suena bien, haga clic en Continuar y luego Siguiente."
+        {"en": "Before we start, let’s test your microphone. Click on the Start button below and say something out loud like “Testing 1, 2, 3”. Recording will stop automatically after 5 seconds. Click Play to hear your recording. If you hear background noise, please go to a quieter place and try again by selecting Redo recording.  If it sounds good, click Continue below and then Next button above.",
+        "es": "Antes de comenzar, probemos su micrófono. Haga clic en el botón Comenzar y diga algo en voz alta como \"Prueba 1, 2, 3\". La grabación se detendrá automáticamente después de 5 segundos. Haga clic en Reproducir para escuchar su grabación. Si escucha ruido de fondo, vaya a un lugar más silencioso y vuelva a intentarlo seleccionando Rehacer grabación. Si suena bien, haga clic en Continuar abajo y luego Siguiente arriba."
         },
     "ui": {
         "inputType": "audioCheck"

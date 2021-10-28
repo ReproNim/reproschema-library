@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "You've finished today's activity. Thank you for participating! If using a laptop or desktop, you can additionally click the Download button on sidebar to download a personal copy of your data and submit it<a href=%22https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe%22> here </a>to make sure we receive it.",
-        "es": "Has terminado la actividad de hoy. Gracias por participar! Si estas utilizando una laptop o PC de escritorio, adicionalmente puede hacer click en Descargar en el menú para descargar una copia personal de sus datos y subirla<a href=%22https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe%22> aquí </a>para asegurarse de que la recibamos."
+        "en": "You've finished today's activity. Thank you for participating! <br><br>If using a laptop or desktop, you can additionally click the Download button on sidebar to download a personal copy of your data and submit it here to make sure we receive it: https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe",
+        "es": "Has terminado la actividad de hoy. Gracias por participar! Si estas utilizando una laptop o PC de escritorio, adicionalmente puede hacer click en Descargar en el menú para descargar una copia personal de sus datos y subirla aquí para asegurarse de que la recibamos: https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe"
     },
     "ui": {
         "inputType": "save",

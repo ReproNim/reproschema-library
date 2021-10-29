@@ -1,0 +1,101 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "edinburgh_handedness_inventory",
+    "prefLabel": {
+        "en": "Edinburgh handedness inventory",
+        "fr": "Test d'Edinburgh"
+    },
+    "description": "Edinburgh handedness inventory",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "10.1080/1357650X.2013.783045",
+    "preamble": {
+        "en": "Please indicate your preferences in the use of hands in the following activities or objects:",
+        "fr": "Quelle main utilisez-vous de préférence pour :"
+    },
+    "ui": {
+        "order": [
+            "items/writing",
+            "items/drawing",
+            "items/throwing",
+            "items/scissors",
+            "items/toothbrush",
+            "items/knife",
+            "items/spoon",
+            "items/broom",
+            "items/match",            
+            "items/box",              
+            "items/results"
+        ],
+
+        "addProperties": [
+            {
+                "variableName": "broom",
+                "isAbout": "items/broom",
+                "valueRequired": true,
+                "isVis": true
+            },   
+            {
+                "variableName": "match",
+                "isAbout": "items/match",
+                "valueRequired": true,
+                "isVis": true
+            },   
+            {
+                "variableName": "box",
+                "isAbout": "items/box",
+                "valueRequired": true,
+                "isVis": true
+            },   
+            {
+                "variableName": "scissors",
+                "isAbout": "items/scissors",
+                "valueRequired": true,
+                "isVis": true
+            },             
+            {
+                "variableName": "knife",
+                "isAbout": "items/knife",
+                "valueRequired": true,
+                "isVis": true
+            }, 
+            {
+                "variableName": "writing",
+                "isAbout": "items/writing",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "drawing",
+                "isAbout": "items/drawing",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "throwing",
+                "isAbout": "items/throwing",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "spoon",
+                "isAbout": "items/spoon",
+                "valueRequired": true,
+                "isVis": true
+            },                       
+            {
+                "isAbout": "items/results",
+                "variableName": "results",
+                "isVis": true
+            }
+        ],
+        "shuffle": false        
+    },
+    "compute": [
+        {
+            "variableName": "EHI_results",
+            "jsExpression": "( writing + drawing + throwing + scissors + toothbrush + knife + spoon + broom + match + box) / 10"
+        }
+    ]
+}

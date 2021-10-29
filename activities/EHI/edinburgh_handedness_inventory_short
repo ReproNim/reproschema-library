@@ -44,7 +44,7 @@
             },
             {
                 "variableName": "spoon",
-                "isAbout": "items/throwing",
+                "isAbout": "items/spoon",
                 "valueRequired": true,
                 "isVis": true
             },                        
@@ -57,7 +57,7 @@
     },
     "compute": [
         {
-            "variableName": "EHI_results",
+            "variableName": "results",
             "jsExpression": "( writing + throwing + toothbrush + spoon) / 2"
         }
     ]

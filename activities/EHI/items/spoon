@@ -6,7 +6,7 @@
         "en": "spoon",
         "fr": "cuillère"
     },
-    "description": "spoon, item of the EHI",
+    "description": "spoon item of the EHI",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

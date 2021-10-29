@@ -31,6 +31,12 @@
 
         "addProperties": [
             {
+                "variableName": "toothbrush",
+                "isAbout": "items/toothbrush",
+                "valueRequired": true,
+                "isVis": true
+            },               
+            {
                 "variableName": "broom",
                 "isAbout": "items/broom",
                 "valueRequired": true,

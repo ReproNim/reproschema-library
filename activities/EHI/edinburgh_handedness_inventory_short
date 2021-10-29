@@ -20,7 +20,7 @@
             "items/throwing",
             "items/toothbrush",
             "items/spoon",
-            "items/EHI_results"
+            "items/results"
         ],
         "shuffle": false,
         "addProperties": [

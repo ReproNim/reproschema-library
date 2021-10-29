@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "match",
+    "prefLabel": {
+        "en": "match",
+        "fr": "allumette"
+    },
+    "description": "match item of the EHI",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Striking a Match (holds the match)",
+        "fr": "Craquer une allumetter (tient l'allumette)"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

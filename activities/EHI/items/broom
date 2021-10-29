@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "broom",
+    "prefLabel": {
+        "en": "broom",
+        "fr": "balai"
+    },
+    "description": "throwing item of the EHI",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Using a broom (upper hand)",
+        "fr": "Utiliser un balai (main supérieure)"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

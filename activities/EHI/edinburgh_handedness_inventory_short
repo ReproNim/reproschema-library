@@ -1,0 +1,64 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "edinburgh_handedness_inventory_short",
+    "prefLabel": {
+        "en": "Edinburgh handedness inventory - short version",
+        "fr": "Test d'Edinburgh - version abrégée"
+    },
+    "description": "Short version of the Edinburgh handedness inventory",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "10.1080/1357650X.2013.783045",
+    "preamble": {
+        "en": "Please indicate your preferences in the use of hands in the following activities or objects:",
+        "fr": "Quelle main utilisez-vous de préférence pour :"
+    },
+    "ui": {
+        "order": [
+            "items/writing",
+            "items/throwing",
+            "items/toothbrush",
+            "items/spoon",
+            "items/EHI_results"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "writing",
+                "isAbout": "items/writing",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "throwing",
+                "isAbout": "items/throwing",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "toothbrush",
+                "isAbout": "items/toothbrush",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "spoon",
+                "isAbout": "items/throwing",
+                "valueRequired": true,
+                "isVis": true
+            },                        
+            {
+                "isAbout": "items/results",
+                "variableName": "results",
+                "isVis": true
+            }
+        ]
+    },
+    "compute": [
+        {
+            "variableName": "EHI_results",
+            "jsExpression": "( writing + throwing + toothbrush + spoon) / 2"
+        }
+    ]
+}

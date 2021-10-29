@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "foot",
+    "prefLabel": {
+        "en": "foot",
+        "fr": "pied"
+    },
+    "description": "foot item of the EHI",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Which foot do you prefer to kick with ?",
+        "fr": "Quel est le pied avec lequel vous préférez shooter?"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "eye",
+    "prefLabel": {
+        "en": "eye",
+        "fr": "oeil"
+    },
+    "description": "eye item of the EHI",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Which eye do you use when using only one?",
+        "fr": "Quel oeil utilisez vous quand vous ne vous servez que d'un?"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

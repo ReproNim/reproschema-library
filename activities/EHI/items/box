@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "box",
+    "prefLabel": {
+        "en": "box",
+        "fr": "boîte"
+    },
+    "description": "box item of the EHI",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Opening a Box (holding the lid)",
+        "fr": "Ouvrir une boîte (prendre le couvercle)"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

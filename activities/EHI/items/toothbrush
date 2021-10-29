@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "toothbrush",
+    "prefLabel": {
+        "en": "toothbrush",
+        "fr": "brosse à dents"
+    },
+    "description": "toothbrush item of the EHI",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Using a toothbrush",
+        "fr": "Utiliser une brosse à dents"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "You've finished today's activity. Thank you for participating! Click the Upload button to send us your responses and you're all set. <br><br>If using a laptop or desktop, you can also click the Download button on the sidebar to download a personal copy of your responses and submit it here to make sure we receive it:<br><br> https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe",
+        "en": "You've finished today's activity. Thank you for participating! Click the Upload button to send us your responses and you're all set. <br><br>If using a laptop or desktop, you can also click the Download button on the sidebar to download a personal copy of your responses and submit it here to make sure we receive it:<br><br> <a href=\"https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe\">https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe</a>",
         "es": "Has terminado la actividad de hoy. Gracias por participar! Haga click en el botón Enviar para enviarnos sus respuestas y estará todo listo. <br><br>Si estas utilizando una laptop o PC de escritorio, también puede hacer click en Descargar en el menú para descargar una copia personal de sus respuestas y subirla aquí para asegurarse de que las recibamos:<br><br> https://www.dropbox.com/request/c1AKasy6SrS5FQwDdTWe"
     },
     "ui": {

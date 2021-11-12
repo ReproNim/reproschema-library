@@ -58,6 +58,12 @@
                 "isVis": true
             },
             {
+                "isAbout": "items/DAS_8",
+                "variableName": "DAS_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
                 "isAbout": "items/DAS_9",
                 "variableName": "DAS_9",
                 "valueRequired": true,
@@ -138,12 +144,12 @@
             "items/DAS_5",
             "items/DAS_6",
             "items/DAS_7",
+            "items/DAS_8",
             "items/DAS_9",
             "items/DAS_10",
             "items/DAS_11",
             "items/DAS_12",
             "items/DAS_13",
-            "items/DAS_14",
             "items/DAS_14",
             "items/DAS_15",
             "items/DAS_16",

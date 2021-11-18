@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 1,
+    "maxValue": 7,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "1 = Not at all",
+            "value": 1
+        },
+        {
+            "name": "2 = Very slightly",
+            "value": 2
+        },
+        {
+            "name": "3 = Somewhat",
+            "value": 3
+        },
+        {
+            "name": "4 = Moderately",
+            "value": 4
+        },
+        {
+            "name": "5 = Much",
+            "value": 5
+        },
+        {
+            "name": "6 = Very much",
+            "value": 6
+        },
+        {
+            "name": "7 = Extremely",
+            "value": 7
+        }
+    ]
+}

@@ -11,9 +11,7 @@
     "version": "0.0.1",
     "citation": "https://self-compassion.org/wp-content/uploads/publications/scsshort.pdf",
     "preamble": {
-        "en": "HOW I TYPICALLY ACT TOWARDS MYSELF IN DIFFICULT TIMES.\n
-
-        Please read each statement carefully before answering. Indicate how often you behave in the stated manner."
+        "en": "HOW I TYPICALLY ACT TOWARDS MYSELF IN DIFFICULT TIMES. Please read each statement carefully before answering. Indicate how often you behave in the stated manner."
     },
     "ui": {
         "addProperties": [

@@ -42,7 +42,7 @@
                 "isAbout": "items/phq6c",
                 "variableName": "phq6c",
                 "valueRequired": true,
-                "isVis": "isVis": "phq6a === 1 & phq6b === 1"
+                "isVis": "phq6a === 1 & phq6b === 1"
             },
             {
                 "isAbout": "items/phq6_total_score",

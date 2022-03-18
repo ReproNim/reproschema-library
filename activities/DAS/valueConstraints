@@ -3,37 +3,37 @@
     "@id": "valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
-    "minValue": 0,
-    "maxValue": 3,
+    "minValue": 1,
+    "maxValue": 7,
     "multipleChoice": false,
     "choices": [
         {
-            "name": "Not at all",
-            "value": 0
-        },
-        {
-            "name": "Very slightly",
+            "name": "1 = Not at all",
             "value": 1
         },
         {
-            "name": "Somewhat",
+            "name": "2 = Very slightly",
             "value": 2
         },
         {
-            "name": "Moderately",
+            "name": "3 = Somewhat",
             "value": 3
         },
         {
-            "name": "Much",
+            "name": "4 = Moderately",
             "value": 4
         },
         {
-            "name": "Very much",
+            "name": "5 = Much",
             "value": 5
         },
         {
-            "name": "Extremely",
+            "name": "6 = Very much",
             "value": 6
+        },
+        {
+            "name": "7 = Extremely",
+            "value": 7
         }
     ]
 }

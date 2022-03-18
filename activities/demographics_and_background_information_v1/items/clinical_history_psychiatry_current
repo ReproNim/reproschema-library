@@ -6,14 +6,12 @@
   "description": "This is a radio item.",
   "schemaVersion": "1.0.0-rc4",
   "version": "0.0.1",
-  "question": "Do you currently have these conditions?",
+  "question": "Do you currently have these mental health conditions or currently experience symptoms as a result of having had these conditions?",
   "ui": {
     "inputType": "radio"
   },
   "responseOptions": {
     "valueType": "xsd:integer",
-    "minValue": 0,
-    "maxValue": 2,
     "multipleChoice": false,
     "choices": [
       {

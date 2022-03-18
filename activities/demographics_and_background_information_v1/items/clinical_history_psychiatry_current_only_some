@@ -1,0 +1,83 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "clinical_history_psychiatry_current_only_some",
+    "prefLabel": "Clinical history psychiatry",
+    "description": "schema for psychiatric history of participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Which ones do you currently have? (check all that apply)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:anyURI",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Major Depressive Disorder"
+            },
+            {
+                "value": 2,
+                "name": "Generalized Anxiety Disorder"
+            },
+            {
+                "value": 3,
+                "name": "Panic Disorder"
+            },
+            {
+                "value": 4,
+                "name": "Agoraphobia"
+            },
+            {
+                "value": 5,
+                "name": "Social Anxiety Disorder"
+            },
+            {
+                "value": 6,
+                "name": "PTSD"
+            },
+            {
+                "value": 7,
+                "name": "Obsessive-Compulsive Disorder"
+            },
+            {
+                "value": 8,
+                "name": "Substance-use Disorder"
+            },
+            {
+                "value": 9,
+                "name": "Eating Disorder"
+            },
+            {
+                "value": 10,
+                "name": "Bipolar Disorder"
+            },
+            {
+                "value": 11,
+                "name": "Schizophrenia"
+            },
+            {
+                "value": 12,
+                "name": "Borderline Personality Disorder"
+            },
+            {
+                "value": 13,
+                "name": "Autism Spectrum Disorder"
+            },
+            {
+                "value": 0,
+                "name": "Prefer not to disclose"
+            },
+            {
+                "value": -1,
+                "name": "Other"
+            },
+             {
+                "value": 999,
+                "name": "None"
+            }
+        ]
+    }
+}

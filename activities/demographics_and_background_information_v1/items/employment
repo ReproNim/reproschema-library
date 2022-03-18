@@ -11,9 +11,7 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 1,
+        "valueType": "xsd:string",
         "multipleChoice": false,
         "choices": [
             {
@@ -21,8 +19,16 @@
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": "Yes, part time",
                 "value": 1
+            },
+            {
+                "name": "Yes, full time",
+                "value": 2
+            },
+            {
+                "name": "Other",
+                "value": -1
             }
         ]
     }

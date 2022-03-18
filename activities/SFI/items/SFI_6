@@ -10,7 +10,7 @@
         "en": "I understand my purpose in life."
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints1"
 }

@@ -1,0 +1,67 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "education_2",
+    "prefLabel": "Education 2",
+    "description": "schema for native education of participant 2",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What is the highest grade or level of education you completed?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Never attended school or only attended kindergarten"
+            },
+            {
+                "value": 2,
+                "name": "Grades 1-8"
+            },
+            {
+                "value": 3,
+                "name": "Some high school"
+            },
+            {
+                "value": 4,
+                "name": "High school degree or General Educational Development (GED)"
+            },
+            {
+                "value": 5,
+                "name": "Some college or technical school"
+            },
+            {
+                "value": 6,
+                "name": "Associate's degree"
+            },
+            {
+                "value": 7,
+                "name": "Bachelor's degree"
+            },
+            {
+                "value": 8,
+                "name": "Master's degree (in progress or partially completed)"
+            },
+            {
+                "value": 9,
+                "name": "Master's degree (completed)"
+            },
+            {
+                "value": 10,
+                "name": "Doctorate/professional degree (in progress or partially completed)"
+            },
+            {
+                "value": 11,
+                "name": "Doctorate/professional degree (completed)"
+            },
+            {
+                "value": -1,
+                "name": "Other"
+            }
+        ]
+    }
+}

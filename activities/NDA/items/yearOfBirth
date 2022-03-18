@@ -7,14 +7,14 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question":
-        {"en": "Year of birth",
-        "es": "Año de nacimiento"
+        {"en": "Please select your year of birth",
+        "es": "Por favor seleccione su año de nacimiento"
     },
     "ui": {
         "inputType": "year"
     },
     "responseOptions": {
         "valueType": "xsd:date",
-        "maxValue": 2020
+        "maxValue": 2005
     }
 }

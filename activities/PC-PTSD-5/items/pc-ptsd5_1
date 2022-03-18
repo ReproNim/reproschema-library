@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": "<p>Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example: &bull; a serious accident or fire &bull; a physical or sexual assault or abuse &bull; an earthquake or flood &bull; a war &bull; seeing someone be killed or seriously injured &bull; having a loved one die through homicide or suicide.</p>",
+        "en": "<p>Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example: a serious accident or fire, a physical or sexual assault or abuse, an earthquake or flood, a war, seeing someone be killed or seriously injured, having a loved one die through homicide or suicide.</p>",
         "es": ""
     },
     "question": {

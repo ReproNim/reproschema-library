@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "selfcompassion_2",
+    "prefLabel": "Self compassion 2",
+    "description": "Q2 of the Self Compassion Scale",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "I try to be understanding and patient towards those aspects of my personality I don’t like."
+     },
+    "ui": {
+        "inputType": "slider"
+    },
+    "responseOptions": "../valueConstraints"
+}

@@ -11,7 +11,7 @@
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
     "preamble": {
-        "en": "Here are a number of characteristics that may or may not apply to you. For example, do you agree that you are someone who likes to spend time with others? Please rate the following statements to indicate the extent to which you agree with that statement. I am someone who..."
+        "en": "Here are a number of characteristics that may or may not apply to you. Please rate the following statements to indicate the extent to which you agree with that statement. I am someone who..."
     },
     "ui": {
         "addProperties": [

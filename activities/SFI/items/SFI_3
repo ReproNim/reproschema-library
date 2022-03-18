@@ -10,7 +10,7 @@
         "en": "In general, how would you rate your physical health?"
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints2"
 }

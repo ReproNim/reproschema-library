@@ -19,52 +19,52 @@
         "choices": [
             {
                 "name": {
-	                "en": "Woman / cis women",
-	                "es": "Mujer / mujer cis"
+	                "en": "Woman",
+	                "es": "Mujer"
                 },
-                "value": 0
+                "value": 1
             },
             {
                 "name": {
-	                "en": "Man / cis man",
-	                "es": "Hombre / hombre cis"
+	                "en": "Man",
+	                "es": "Hombre"
                 },
-                "value": 1
+                "value": 2
             },
 	        {
                 "name": {
 	                "en": "Trans woman",
 	                "es": "Mujer trans"
                 },
-                "value": 2
+                "value": 3
             },
 	        {
                 "name": {
 	                "en": "Trans man",
 	                "es": "Hombre trans"
                 },
-                "value": 3
+                "value": 4
             },
 	        {
                 "name": {
 	                "en": "Non-binary",
 	                "es": "No binario(e)"
                 },
-                "value": 4
+                "value": 5
             },
 	        {
                 "name": {
 	                "en": "Prefer not to disclose",
 	                "es": "Prefiero no responder"
                 },
-                "value": 5
+                "value": 0
             },
 	        {
                 "name": {
 	                "en": "Other",
 	                "es": "Otro"
                 },
-                "value": 99
+                "value": -1
             }
 
         ]

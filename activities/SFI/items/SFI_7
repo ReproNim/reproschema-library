@@ -10,7 +10,7 @@
         "en": "I always act to promote good in all circumstances, even in difficult and challenging situations."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints5"
 }

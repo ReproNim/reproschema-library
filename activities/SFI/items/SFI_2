@@ -10,7 +10,7 @@
         "en": "In general, how happy or unhappy do you usually feel?"
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints3"
 }

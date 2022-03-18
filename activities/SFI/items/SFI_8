@@ -10,7 +10,7 @@
         "en": "I am always able to give up some happiness now for greater happiness later."
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints5"
 }

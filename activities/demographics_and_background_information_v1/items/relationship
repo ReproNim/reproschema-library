@@ -11,8 +11,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": true,
+        "valueType": "xsd:integer",
+        "multipleChoice": false,
         "choices": [
             {
                 "value": 1,
@@ -39,7 +39,7 @@
                 "name": "Prefer not to disclose"
             },
             {
-                "value": 7,
+                "value": -1,
                 "name": "Other"
             }
         ]

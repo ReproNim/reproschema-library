@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Which languages do you speak fluently similar to a native speaker?",
-        "es": "¿Qué idiomas habla con fluidez similar a un hablante nativo?"
+        "en": "Which languages do you speak fluently similar to a native speaker? For example, 'English, Farsi'",
+        "es": "¿Qué idiomas habla con fluidez similar a un hablante nativo? Por ejemplo, 'español, inglés'"
     },
     
     "ui": {

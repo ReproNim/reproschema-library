@@ -4,8 +4,9 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "@id": "race_ethnicity_global",
-    "prefLabel": "race_ethnicity",
+    "prefLabel": "race ethnicity global",
     "responseOptions": {
+        "valueType": "xsd:anyURI",
         "multipleChoice": true,
         "choices": [
             {
@@ -78,15 +79,27 @@
             },
             {
                 "value": 18,
-                "name": "Romani"
+                "name": "Northern European"
             },
             {
                 "value": 19,
-                "name": "None"
+                "name": "Southern European"
             },
             {
                 "value": 20,
-                "name": "Other"
+                "name": "Romani"
+            },
+            {
+                "value": 999,
+                "name": "None"
+            },
+            {
+                "value": 0,
+                "name": "Prefer not disclose"
+            },
+            {
+                "value": -1,
+                "name": "Other race, ethnicity, or origin"
             }
         ]
     },

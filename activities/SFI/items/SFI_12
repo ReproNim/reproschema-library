@@ -10,7 +10,7 @@
         "en": "How often do you worry about safety, food, or housing?"
      },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "responseOptions": "../valueConstraints7"
 }

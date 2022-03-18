@@ -1,17 +1,17 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "SelfCompassionScale_schema",
+    "@id": "SCS_schema",
     "prefLabel": {
-        "en": "Self Compassion Assessment",
-        "es": "Self Compassion Evaluación"
+        "en": "Self Compassion Scale",
+        "es": "Evaluación de auto compasión"
     },
-    "description": "Self Compassion schema",
+    "description": "SelfCompassionScale schema",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+    "citation": "https://self-compassion.org/wp-content/uploads/publications/scsshort.pdf",
     "preamble": {
-        "en": "Please read each statement carefully before answering."
+        "en": "HOW I TYPICALLY ACT TOWARDS MYSELF IN DIFFICULT TIMES. Please read each statement carefully before answering. Indicate how often you behave in the stated manner."
     },
     "ui": {
         "addProperties": [

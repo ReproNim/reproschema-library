@@ -4,7 +4,9 @@ This repository contains a library of form-based clinical, health, neuropsycholo
 and behavioral assessments. These assessments can be used in your own protocols
 and we welcome contributions from the community to improve these assessments.
 
-You can read more about the ReproSchema [here](TODO).
+You can read more about the ReproSchema [here](https://repronim.org/reproschema).
+
+[A slide deck about ReproSchema](https://docs.google.com/presentation/d/1H4C_cBU9BE9EYFNyK8YBLQObzvq9iDztLWrqRIQTmgc/edit)
 
 ## How you can contribute
 

@@ -1,0 +1,100 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sexual_orientation",
+    "prefLabel": "Sexual orientation",
+    "description": "schema to identify the sexual orientation of the participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Sexual orientation (select all that apply):",
+	    "es": "Orientación sexual (seleccione todas las que correspondan):"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+	    "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+	                "en": "Aromantic",
+	                "es": "Arománticx"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+	                "en": "Asexual",
+	                "es": "Asexual"
+                },
+                "value": 2
+            },
+	        {
+                "name": {
+	                "en": "Bisexual",
+	                "es": "Bisexual"
+                },
+                "value": 3
+            },
+	        {
+                "name": {
+	                "en": "Gay",
+	                "es": "Gay"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Lesbian",
+                    "es": "Lesbiana"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pansexual",
+                    "es": "Pansexual"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Queer",
+                    "es": "Queer"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Questioning or unsure",
+                    "es": "Cuestionándose, explorando"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Straight (heterosexual)",
+                    "es": "Heterosexual"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+	                "en": "Prefer not to disclose",
+	                "es": "Prefiero no responder"
+                },
+                "value": 0
+            },
+	        {
+                "name": {
+	                "en": "Other",
+	                "es": "Otro"
+                },
+                "value": -1
+            }
+
+        ]
+    }
+}

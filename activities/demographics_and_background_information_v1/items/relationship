@@ -5,7 +5,7 @@
     "prefLabel": "Relationship",
     "description": "schema for relationship of participant",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "question": "What is your relationship status?",
     "ui": {
         "inputType": "radio"
@@ -17,10 +17,6 @@
             {
                 "value": 1,
                 "name": "Single"
-            },
-            {
-                "value": 2,
-                "name": "In a relationship"
             },
             {
                 "value": 3,
@@ -37,6 +33,14 @@
             {
                 "value": 6,
                 "name": "Prefer not to disclose"
+            },
+            {
+                "value": 7,
+                "name": "In a relationship, and not living with (a) partner(s)"
+            },
+            {
+                "value": 8,
+                "name": "In a relationship, and living with (a) partner(s)"
             },
             {
                 "value": -1,

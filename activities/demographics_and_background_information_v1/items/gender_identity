@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gender_identity",
     "prefLabel": "Gender",
-    "description": "schema to identify gender of the subject",
-    "schemaVersion": "1.0.0-rc2",
+    "description": "schema to identify the gender identity of the participant",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
 	    "en": "Gender identity (select all that apply):",
@@ -19,15 +19,15 @@
         "choices": [
             {
                 "name": {
-	                "en": "Woman",
-	                "es": "Mujer"
+	                "en": "Cis woman",
+	                "es": "Mujer cis"
                 },
                 "value": 1
             },
             {
                 "name": {
-	                "en": "Man",
-	                "es": "Hombre"
+	                "en": "Cis man",
+	                "es": "Hombre cis"
                 },
                 "value": 2
             },
@@ -70,8 +70,3 @@
         ]
     }
 }
-
-
-
-
-

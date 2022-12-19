@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "raceEthnicity",
+    "@id": "race_ethnicity",
     "prefLabel": "Race or Ethnicity",
     "description": "schema for race or Ethnicity of participant",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Race/Ethnicity",
     "ui": {
@@ -35,11 +35,11 @@
             },
             {
                 "name": "Multi Racial",
-                "value": 4
+                "value": 5
             },
             {
                 "name": "Other",
-                "value": 4
+                "value": -1
             }
         ]
     }

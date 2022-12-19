@@ -1,12 +1,15 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "native_language_multiple",
     "prefLabel": "Native language",
     "description": "schema for native language of participant",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Which languages do you speak fluently similar to a native speaker?",
+    "question": {
+        "en": "Which languages do you speak fluently similar to a native speaker? For example, 'English, Farsi'",
+        "es": "¿Qué idiomas habla con fluidez similar a un hablante nativo? Por ejemplo, 'español, inglés'"
+    },
     "ui": {
         "inputType": "text"
     },

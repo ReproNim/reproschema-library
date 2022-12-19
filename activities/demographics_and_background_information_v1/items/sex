@@ -1,8 +1,8 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.2",
     "@id": "sex",
     "prefLabel": "sex",
     "responseOptions": {
@@ -10,11 +10,31 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Female "
+                "name": {
+                    "en": "Female",
+                    "es": "Femenino"
+                }
             },
             {
                 "value": 2,
-                "name": "Male"
+                "name": {
+                    "en": "Male",
+                    "es": "Masculino"
+                }
+            },
+            {
+                "value": 3,
+                "name": {
+                    "en": "Intersex",
+                    "es": "Intersexual"
+                }
+            },
+            {
+                "name": {
+                    "en": "Prefer not to disclose",
+                    "es": "Prefiero no responder"
+                },
+                "value": 0
             }
         ]
     },
@@ -22,6 +42,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "Sex of Participant:"
+        "en": "Sex of the participant:",
+        "es": "Sexo:"
     }
 }

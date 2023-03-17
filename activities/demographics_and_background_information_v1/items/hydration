@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hydration",
+    "prefLabel": "Hydration",
+    "description": "schema to ask for the number of cups of water the participant had today",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How many 8 oz / 230 ml (small) cups of water have you had today?",
+	    "es": "¿Cuántos vasos (pequeños) de agua de 8 oz / 230 ml ha bebido hoy?"
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "minValue": 0
+    }
+}

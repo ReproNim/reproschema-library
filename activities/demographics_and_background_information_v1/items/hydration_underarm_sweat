@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hydration",
+    "prefLabel": "Hydration - Underarm Sweat",
+    "description": "schema to ask about underarm sweat as an indicator of hydration",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you experience underarm sweat?",
+	    "es": "¿Experimentas sudor en las axilas?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost never",
+                    "es": "Casi nunca"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes",
+                    "es": "A veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often",
+                    "es": "A menudo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Always",
+                    "es": "Siempre"
+                },
+                "value": 3
+            }
+        ]
+    }
+}

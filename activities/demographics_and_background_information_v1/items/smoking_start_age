@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "smoking_start_age",
+    "prefLabel": "Smoking - Starting Age",
+    "description": "once the participant indicates they do/did smoke to the smoking question",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "At what age did you start smoking?",
+        "es": "¿A qué edad empezaste a fumar?"
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "minValue": 0,
+        "maxValue": 123
+    }
+}

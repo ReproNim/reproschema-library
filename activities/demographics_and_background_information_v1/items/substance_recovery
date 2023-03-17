@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "substance_recovery",
+    "prefLabel": "Substance Use Recovery",
+    "description": "schema to ask about substance use recovery",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Are you currently in recovery for substance use?",
+	    "es": "¿Está actualmente en recuperación por uso de sustancias?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+	      "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+	                "en": "Yes",
+	                "es": "Sí"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+	                "en": "No",
+	                "es": "No"
+                },
+                "value": 2
+            }
+        ]
+    }
+}

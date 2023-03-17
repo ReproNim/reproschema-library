@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "caffeine",
+    "prefLabel": "Number of caffeinated drinks",
+    "description": "schema to ask for the number of caffeinated drinks the participant had today",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How many 8 oz / 230 ml (small) cups of coffee OR shots of espresso OR caffeinated teas have you had today?",
+	    "es": "¿Cuántas tazas (pequeñas) de 8 oz / 230 ml de café O tragos de espresso O tés con cafeína ha tomado hoy?"
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "minValue": 0
+    }
+}

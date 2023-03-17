@@ -1,0 +1,85 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "speech_communication",
+    "prefLabel": "Speech and Communication Symptoms",
+    "description": "schema to ask about speech and communication symptoms",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you have any of these speech and communication conditions mentioned below? (check all that apply)",
+	    "es": "¿Tiene alguna de estas condiciones del habla y la comunicación que se mencionan a continuación? (marque todo lo que corresponda)"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+                    "en": "Aphasia",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Apraxia",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Craniofacial abnormalities",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Dysarthria",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hoarseness",
+                    "es": ""
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Lisping",
+                    "es": ""
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Spasmodic Dysphonia",
+                    "es": ""
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Stuttering",
+                    "es": ""
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Vocal Fold Paralysis",
+                    "es": ""
+                },
+                "value": 8
+            }
+        ]
+    }
+}

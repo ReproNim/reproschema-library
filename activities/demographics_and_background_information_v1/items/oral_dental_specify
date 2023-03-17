@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "oral_dental_specify",
+    "prefLabel": "Oral or dental problems - Specify",
+    "description": "schema to ask to specify the existing oral or dental problems affecting speech",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Please specify. Do you currently have any tooth loss, dentures, retainers or braces?",
+	    "es": "Por favor especifica. ¿Actualmente tiene alguna pérdida de dientes, dentaduras postizas, retenedores o aparatos ortopédicos?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

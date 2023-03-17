@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ent_other",
+    "prefLabel": "Other Symptoms",
+    "description": "schema to ask about other related symptoms under ENT",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you have any of these symptoms or conditions mentioned below? (check all that apply)",
+	    "es": "¿Tiene alguno de estos síntomas o condiciones que se mencionan a continuación? (marque todo lo que corresponda)"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+                    "en": "Craniofacial abnormalities",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Cushingoid appearance",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Chest wall deformities (scars, deformities)",
+                    "es": ""
+                },
+                "value": 2
+            }
+        ]
+    }
+}

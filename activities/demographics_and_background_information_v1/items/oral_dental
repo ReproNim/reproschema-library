@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "oral_dental",
+    "prefLabel": "Oral or dental problems",
+    "description": "schema to ask about any oral or dental problems affecting speech",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you have any oral or dental problems that might affect speech?",
+	    "es": "¿Tiene algún problema oral o dental que afecte el habla?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Sí"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 2
+            }
+        ]
+    }
+}

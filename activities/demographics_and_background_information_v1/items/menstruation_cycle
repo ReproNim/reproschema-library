@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "menstruation_cycle",
+    "prefLabel": "Menstruation cycle",
+    "description": "schema to ask about menstruation cycle",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Where in your cycle are you? We ask because this may affect your voice.",
+	    "es": "¿En qué parte de tu ciclo estás? Le preguntamos porque esto puede afectar su voz."
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Menstruating",
+                    "es": "Menstruando"
+                },
+                    "value": 0
+            },
+            {
+                "name": {
+                    "en": "Premenstrual",
+                    "es": "Premenstrual"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Postmenstrual",
+                    "es": "Postmenstrual"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Prefer not to disclose",
+                    "es": "Prefiero no revelar"
+                },
+                "value": 3
+            }
+        ]
+    }
+}

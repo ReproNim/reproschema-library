@@ -1,0 +1,162 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ent_history",
+    "prefLabel": "Ear, Nose, Throat Medical History",
+    "description": "schema to ask about ENT history",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you have any of these voice, communication, or hearing conditions or had any of the interventions mentioned below? (check all that apply)",
+	    "es": "¿Tiene alguna de estas condiciones de voz, comunicación o audición o ha tenido alguna de las intervenciones mencionadas a continuación? (marque todo lo que corresponda)"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+                    "en": "Chronic ear infection",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Chronic rhinosinusitis",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Cochlear implant",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cancer: throat",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Dysphagia (difficulty swallowing)",
+                    "es": ""
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Frequent sinusitis",
+                    "es": ""
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Hearing loss",
+                    "es": ""
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Migraine",
+                    "es": ""
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Pre-cancerous lesion (e.g., laryngeal leukoplakia or keratosis)",
+                    "es": ""
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Radiation around head, neck, or ears",
+                    "es": ""
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Reflux (heartburn)",
+                    "es": ""
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Reinke's edema, polypoid corditis, or smoker's larynx",
+                    "es": ""
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Seasonal allergies",
+                    "es": ""
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Sjogren's syndrome",
+                    "es": ""
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Swallowing disorders (dysphagia)",
+                    "es": ""
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Thyroid disease",
+                    "es": ""
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Velopharyngeal insufficiency",
+                    "es": ""
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Vocal fold polyp, nodule, or cyst",
+                    "es": ""
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Vocal hemorrhage or bleed",
+                    "es": ""
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Voice/throat disorder",
+                    "es": ""
+                },
+                "value": 19
+            }
+        ]
+    }
+}

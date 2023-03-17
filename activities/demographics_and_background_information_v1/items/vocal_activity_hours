@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "vocal_activity_hours",
+    "prefLabel": "Vocal Activity - Hours",
+    "description": "schema to ask about daily number of hours of long term vocal activity",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How many hours per day do you do this activity with a loud voice or in a loud environment that requires elevating your voice (for instance, a noisy bar or a noisy classroom)?",
+	    "es": "¿Cuántas horas al día realiza esta actividad en voz alta o en un entorno ruidoso que requiere elevar la voz (por ejemplo, un bar ruidoso o un salón de clases ruidoso)?"
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "minValue": 0,
+        "maxValue": 24
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "menstruation_menopause",
+    "prefLabel": "Menstruation",
+    "description": "schema to ask about menstruation",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you menstruate?",
+	    "es": "¿Estás menstruando?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Does not apply",
+                    "es": "No se aplica"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Sí"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I have gone through menopause",
+                    "es": "He pasado por la menopausia"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otra"
+                },
+                "value": -1
+            }
+        ]
+    }
+}

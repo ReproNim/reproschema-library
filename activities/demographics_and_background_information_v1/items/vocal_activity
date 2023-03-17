@@ -1,0 +1,71 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "vocal_activity",
+    "prefLabel": "Vocal Activity",
+    "description": "schema to ask about long term vocal activity",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you do one of these jobs or hobbies that requires using your voice for many hours a day (check all that apply):",
+	    "es": "¿Tiene uno de estos trabajos o pasatiempos que requiere el uso de su voz durante muchas horas al día (marque todo lo que corresponda):"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+	      "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+	                "en": "Bartender",
+	                "es": "Camarera/o"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+	                "en": "Waiter, receptionist",
+	                "es": "Mesero, recepcionista"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+	                "en": "Speaking  (secretary, call center, attorney, salesperson)",
+	                "es": "Hablando (secretaria, call center, abogado, vendedor)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+	                "en": "K-12 Teacher",
+	                "es": "Maestro K-12"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+	                "en": "Singer",
+	                "es": "Cantante"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+	                "en": "Cheerleading",
+	                "es": "Animadoras/es"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+	                "en": "Other, please specify",
+	                "es": "Otros, especificar"
+                },
+                "value": -1
+            }
+        ]
+    }
+}

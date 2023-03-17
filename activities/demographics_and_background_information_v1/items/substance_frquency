@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "substance_frequency",
+    "prefLabel": "Substance Use Frequency",
+    "description": "schema to ask about substance use frequency",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "During the past TWO (2) WEEKS, about how often did you use any of the following medicines ON YOUR OWN, that is, without a doctor’s prescription, in greater amounts or longer than prescribed?",
+	    "es": "Durante las últimas DOS (2) SEMANAS, ¿con qué frecuencia usó alguno de los siguientes medicamentos POR SU CUENTA, es decir, sin receta médica, en cantidades mayores o por más tiempo de lo recetado?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Multiple times a day",
+                    "es": "Varias veces al día"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "About once a day",
+                    "es": "Aproximadamente una vez al día"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few times a week",
+                    "es": "Algunas veces a la semana"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once a week",
+                    "es": "Una vez por semana"
+                },
+                "value": 3
+            }
+        ]
+    }
+}

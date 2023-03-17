@@ -1,0 +1,85 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ent_surgical_history",
+    "prefLabel": "Ear, Nose, Throat Surgical History",
+    "description": "schema to ask about ENT surgical history",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Have you undergone any of these surgeries mentioned below? (check all that apply)",
+	    "es": "¿Se ha sometido a alguna de estas cirugías que se mencionan a continuación? (marque todo lo que corresponda)"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+                    "en": "Chronic ear surgery (e.g. mastoid)",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Ear tubes",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Head/Neck cancer (e.g. oropharyngeal cancer)",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sinus surgery",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Septoplasty/Rhinoplasty",
+                    "es": ""
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Sleep surgery",
+                    "es": ""
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Throat surgery",
+                    "es": ""
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Thyroid surgery",
+                    "es": ""
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Tonsillectomy/Adenoidectomy",
+                    "es": ""
+                },
+                "value": 8
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "smoking_regular",
+    "prefLabel": "Smoking - Regular",
+    "description": "regularly smoking past 3 years",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Have you been a regular smoker or not within the last 3 years?",
+        "es": "¿Ha sido fumador habitual o no en los últimos 3 años?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Sí"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            }
+        ]
+    }
+}

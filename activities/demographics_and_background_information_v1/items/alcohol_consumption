@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "alcohol_consumption",
+    "prefLabel": "Alcohol consumption",
+    "description": "schema to ask whether the participant drinks alcohol",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you drink alcohol?",
+	    "es": "¿Bebes alcohol?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+	      "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+	                "en": "Yes",
+	                "es": "Sí"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+	                "en": "No",
+	                "es": "No"
+                },
+                "value": 2
+            }
+        ]
+    }
+}

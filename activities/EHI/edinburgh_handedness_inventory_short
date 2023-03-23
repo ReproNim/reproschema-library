@@ -58,7 +58,7 @@
     "compute": [
         {
             "variableName": "results",
-            "jsExpression": "( writing + throwing + toothbrush + spoon) / 2"
+            "jsExpression": "( writing + throwing + toothbrush + spoon + results) / 5"
         }
     ]
 }

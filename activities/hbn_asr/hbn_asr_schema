@@ -1,0 +1,661 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "hbn_asr",
+    "prefLabel": "HBN Adult Self Report (ASR)",
+    "altLabel": "hbn_asr",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/ASR_01",
+            "items/ASR_02",
+            "items/ASR_03",
+            "items/ASR_04",
+            "items/ASR_05",
+            "items/ASR_06",
+            "items/ASR_07",
+            "items/ASR_08",
+            "items/ASR_09",
+            "items/ASR_10",
+            "items/ASR_11",
+            "items/ASR_12",
+            "items/ASR_13",
+            "items/ASR_14",
+            "items/ASR_15",
+            "items/ASR_16",
+            "items/ASR_17",
+            "items/ASR_18",
+            "items/ASR_19",
+            "items/ASR_20",
+            "items/ASR_21",
+            "items/ASR_22",
+            "items/ASR_23",
+            "items/ASR_24",
+            "items/ASR_25",
+            "items/ASR_26",
+            "items/ASR_27",
+            "items/ASR_28",
+            "items/ASR_29",
+            "items/ASR_30",
+            "items/ASR_31",
+            "items/ASR_32",
+            "items/ASR_33",
+            "items/ASR_34",
+            "items/ASR_35",
+            "items/ASR_36",
+            "items/ASR_37",
+            "items/ASR_38",
+            "items/ASR_39",
+            "items/ASR_40",
+            "items/ASR_41",
+            "items/ASR_42",
+            "items/ASR_43",
+            "items/ASR_44",
+            "items/ASR_45",
+            "items/ASR_46",
+            "items/ASR_47",
+            "items/ASR_48",
+            "items/ASR_49",
+            "items/ASR_50",
+            "items/ASR_51",
+            "items/ASR_52",
+            "items/ASR_53",
+            "items/ASR_54",
+            "items/ASR_55",
+            "items/ASR_56a",
+            "items/ASR_56b",
+            "items/ASR_56c",
+            "items/ASR_56d",
+            "items/ASR_57",
+            "items/ASR_58",
+            "items/ASR_59",
+            "items/ASR_60",
+            "items/ASR_61",
+            "items/ASR_62",
+            "items/ASR_63",
+            "items/ASR_64",
+            "items/ASR_65",
+            "items/ASR_66",
+            "items/ASR_67",
+            "items/ASR_68",
+            "items/ASR_69",
+            "items/ASR_70",
+            "items/ASR_71",
+            "items/ASR_72",
+            "items/ASR_73",
+            "items/ASR_74",
+            "items/ASR_75",
+            "items/ASR_76",
+            "items/ASR_77",
+            "items/ASR_78",
+            "items/ASR_79",
+            "items/ASR_80",
+            "items/ASR_81",
+            "items/ASR_82",
+            "items/ASR_83",
+            "items/ASR_84",
+            "items/ASR_85",
+            "items/ASR_86",
+            "items/ASR_87",
+            "items/ASR_88",
+            "items/ASR_89",
+            "items/ASR_90",
+            "items/ASR_91",
+            "items/ASR_92",
+            "items/ASR_93",
+            "items/ASR_94",
+            "items/ASR_95",
+            "items/ASR_96",
+            "items/ASR_97",
+            "items/ASR_98",
+            "items/ASR_99",
+            "items/ASR_100",
+            "items/ASR_101",
+            "items/ASR_102",
+            "items/ASR_103",
+            "items/ASR_104",
+            "items/ASR_105",
+            "items/ASR_106",
+            "items/ASR_107",
+            "items/ASR_108",
+            "items/ASR_109",
+            "items/ASR_110",
+            "items/ASR_111",
+            "items/ASR_112",
+            "items/ASR_113",
+            "items/ASR_114",
+            "items/ASR_115",
+            "items/ASR_116",
+            "items/ASR_117",
+            "items/ASR_118",
+            "items/ASR_119",
+            "items/ASR_120",
+            "items/ASR_121",
+            "items/ASR_122",
+            "items/ASR_123",
+            "items/ASR_124",
+            "items/ASR_125",
+            "items/ASR_126"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "ASR_01",
+                "isAbout": "items/ASR_01"
+            },
+            {
+                "variableName": "ASR_02",
+                "isAbout": "items/ASR_02"
+            },
+            {
+                "variableName": "ASR_03",
+                "isAbout": "items/ASR_03"
+            },
+            {
+                "variableName": "ASR_04",
+                "isAbout": "items/ASR_04"
+            },
+            {
+                "variableName": "ASR_05",
+                "isAbout": "items/ASR_05"
+            },
+            {
+                "variableName": "ASR_06",
+                "isAbout": "items/ASR_06"
+            },
+            {
+                "variableName": "ASR_07",
+                "isAbout": "items/ASR_07"
+            },
+            {
+                "variableName": "ASR_08",
+                "isAbout": "items/ASR_08"
+            },
+            {
+                "variableName": "ASR_09",
+                "isAbout": "items/ASR_09"
+            },
+            {
+                "variableName": "ASR_10",
+                "isAbout": "items/ASR_10"
+            },
+            {
+                "variableName": "ASR_11",
+                "isAbout": "items/ASR_11"
+            },
+            {
+                "variableName": "ASR_12",
+                "isAbout": "items/ASR_12"
+            },
+            {
+                "variableName": "ASR_13",
+                "isAbout": "items/ASR_13"
+            },
+            {
+                "variableName": "ASR_14",
+                "isAbout": "items/ASR_14"
+            },
+            {
+                "variableName": "ASR_15",
+                "isAbout": "items/ASR_15"
+            },
+            {
+                "variableName": "ASR_16",
+                "isAbout": "items/ASR_16"
+            },
+            {
+                "variableName": "ASR_17",
+                "isAbout": "items/ASR_17"
+            },
+            {
+                "variableName": "ASR_18",
+                "isAbout": "items/ASR_18"
+            },
+            {
+                "variableName": "ASR_19",
+                "isAbout": "items/ASR_19"
+            },
+            {
+                "variableName": "ASR_20",
+                "isAbout": "items/ASR_20"
+            },
+            {
+                "variableName": "ASR_21",
+                "isAbout": "items/ASR_21"
+            },
+            {
+                "variableName": "ASR_22",
+                "isAbout": "items/ASR_22"
+            },
+            {
+                "variableName": "ASR_23",
+                "isAbout": "items/ASR_23"
+            },
+            {
+                "variableName": "ASR_24",
+                "isAbout": "items/ASR_24"
+            },
+            {
+                "variableName": "ASR_25",
+                "isAbout": "items/ASR_25"
+            },
+            {
+                "variableName": "ASR_26",
+                "isAbout": "items/ASR_26"
+            },
+            {
+                "variableName": "ASR_27",
+                "isAbout": "items/ASR_27"
+            },
+            {
+                "variableName": "ASR_28",
+                "isAbout": "items/ASR_28"
+            },
+            {
+                "variableName": "ASR_29",
+                "isAbout": "items/ASR_29"
+            },
+            {
+                "variableName": "ASR_30",
+                "isAbout": "items/ASR_30"
+            },
+            {
+                "variableName": "ASR_31",
+                "isAbout": "items/ASR_31"
+            },
+            {
+                "variableName": "ASR_32",
+                "isAbout": "items/ASR_32"
+            },
+            {
+                "variableName": "ASR_33",
+                "isAbout": "items/ASR_33"
+            },
+            {
+                "variableName": "ASR_34",
+                "isAbout": "items/ASR_34"
+            },
+            {
+                "variableName": "ASR_35",
+                "isAbout": "items/ASR_35"
+            },
+            {
+                "variableName": "ASR_36",
+                "isAbout": "items/ASR_36"
+            },
+            {
+                "variableName": "ASR_37",
+                "isAbout": "items/ASR_37"
+            },
+            {
+                "variableName": "ASR_38",
+                "isAbout": "items/ASR_38"
+            },
+            {
+                "variableName": "ASR_39",
+                "isAbout": "items/ASR_39"
+            },
+            {
+                "variableName": "ASR_40",
+                "isAbout": "items/ASR_40"
+            },
+            {
+                "variableName": "ASR_41",
+                "isAbout": "items/ASR_41"
+            },
+            {
+                "variableName": "ASR_42",
+                "isAbout": "items/ASR_42"
+            },
+            {
+                "variableName": "ASR_43",
+                "isAbout": "items/ASR_43"
+            },
+            {
+                "variableName": "ASR_44",
+                "isAbout": "items/ASR_44"
+            },
+            {
+                "variableName": "ASR_45",
+                "isAbout": "items/ASR_45"
+            },
+            {
+                "variableName": "ASR_46",
+                "isAbout": "items/ASR_46"
+            },
+            {
+                "variableName": "ASR_47",
+                "isAbout": "items/ASR_47"
+            },
+            {
+                "variableName": "ASR_48",
+                "isAbout": "items/ASR_48"
+            },
+            {
+                "variableName": "ASR_49",
+                "isAbout": "items/ASR_49"
+            },
+            {
+                "variableName": "ASR_50",
+                "isAbout": "items/ASR_50"
+            },
+            {
+                "variableName": "ASR_51",
+                "isAbout": "items/ASR_51"
+            },
+            {
+                "variableName": "ASR_52",
+                "isAbout": "items/ASR_52"
+            },
+            {
+                "variableName": "ASR_53",
+                "isAbout": "items/ASR_53"
+            },
+            {
+                "variableName": "ASR_54",
+                "isAbout": "items/ASR_54"
+            },
+            {
+                "variableName": "ASR_55",
+                "isAbout": "items/ASR_55"
+            },
+            {
+                "variableName": "ASR_56a",
+                "isAbout": "items/ASR_56a"
+            },
+            {
+                "variableName": "ASR_56b",
+                "isAbout": "items/ASR_56b"
+            },
+            {
+                "variableName": "ASR_56c",
+                "isAbout": "items/ASR_56c"
+            },
+            {
+                "variableName": "ASR_56d",
+                "isAbout": "items/ASR_56d"
+            },
+            {
+                "variableName": "ASR_57",
+                "isAbout": "items/ASR_57"
+            },
+            {
+                "variableName": "ASR_58",
+                "isAbout": "items/ASR_58"
+            },
+            {
+                "variableName": "ASR_59",
+                "isAbout": "items/ASR_59"
+            },
+            {
+                "variableName": "ASR_60",
+                "isAbout": "items/ASR_60"
+            },
+            {
+                "variableName": "ASR_61",
+                "isAbout": "items/ASR_61"
+            },
+            {
+                "variableName": "ASR_62",
+                "isAbout": "items/ASR_62"
+            },
+            {
+                "variableName": "ASR_63",
+                "isAbout": "items/ASR_63"
+            },
+            {
+                "variableName": "ASR_64",
+                "isAbout": "items/ASR_64"
+            },
+            {
+                "variableName": "ASR_65",
+                "isAbout": "items/ASR_65"
+            },
+            {
+                "variableName": "ASR_66",
+                "isAbout": "items/ASR_66"
+            },
+            {
+                "variableName": "ASR_67",
+                "isAbout": "items/ASR_67"
+            },
+            {
+                "variableName": "ASR_68",
+                "isAbout": "items/ASR_68"
+            },
+            {
+                "variableName": "ASR_69",
+                "isAbout": "items/ASR_69"
+            },
+            {
+                "variableName": "ASR_70",
+                "isAbout": "items/ASR_70"
+            },
+            {
+                "variableName": "ASR_71",
+                "isAbout": "items/ASR_71"
+            },
+            {
+                "variableName": "ASR_72",
+                "isAbout": "items/ASR_72"
+            },
+            {
+                "variableName": "ASR_73",
+                "isAbout": "items/ASR_73"
+            },
+            {
+                "variableName": "ASR_74",
+                "isAbout": "items/ASR_74"
+            },
+            {
+                "variableName": "ASR_75",
+                "isAbout": "items/ASR_75"
+            },
+            {
+                "variableName": "ASR_76",
+                "isAbout": "items/ASR_76"
+            },
+            {
+                "variableName": "ASR_77",
+                "isAbout": "items/ASR_77"
+            },
+            {
+                "variableName": "ASR_78",
+                "isAbout": "items/ASR_78"
+            },
+            {
+                "variableName": "ASR_79",
+                "isAbout": "items/ASR_79"
+            },
+            {
+                "variableName": "ASR_80",
+                "isAbout": "items/ASR_80"
+            },
+            {
+                "variableName": "ASR_81",
+                "isAbout": "items/ASR_81"
+            },
+            {
+                "variableName": "ASR_82",
+                "isAbout": "items/ASR_82"
+            },
+            {
+                "variableName": "ASR_83",
+                "isAbout": "items/ASR_83"
+            },
+            {
+                "variableName": "ASR_84",
+                "isAbout": "items/ASR_84"
+            },
+            {
+                "variableName": "ASR_85",
+                "isAbout": "items/ASR_85"
+            },
+            {
+                "variableName": "ASR_86",
+                "isAbout": "items/ASR_86"
+            },
+            {
+                "variableName": "ASR_87",
+                "isAbout": "items/ASR_87"
+            },
+            {
+                "variableName": "ASR_88",
+                "isAbout": "items/ASR_88"
+            },
+            {
+                "variableName": "ASR_89",
+                "isAbout": "items/ASR_89"
+            },
+            {
+                "variableName": "ASR_90",
+                "isAbout": "items/ASR_90"
+            },
+            {
+                "variableName": "ASR_91",
+                "isAbout": "items/ASR_91"
+            },
+            {
+                "variableName": "ASR_92",
+                "isAbout": "items/ASR_92"
+            },
+            {
+                "variableName": "ASR_93",
+                "isAbout": "items/ASR_93"
+            },
+            {
+                "variableName": "ASR_94",
+                "isAbout": "items/ASR_94"
+            },
+            {
+                "variableName": "ASR_95",
+                "isAbout": "items/ASR_95"
+            },
+            {
+                "variableName": "ASR_96",
+                "isAbout": "items/ASR_96"
+            },
+            {
+                "variableName": "ASR_97",
+                "isAbout": "items/ASR_97"
+            },
+            {
+                "variableName": "ASR_98",
+                "isAbout": "items/ASR_98"
+            },
+            {
+                "variableName": "ASR_99",
+                "isAbout": "items/ASR_99"
+            },
+            {
+                "variableName": "ASR_100",
+                "isAbout": "items/ASR_100"
+            },
+            {
+                "variableName": "ASR_101",
+                "isAbout": "items/ASR_101"
+            },
+            {
+                "variableName": "ASR_102",
+                "isAbout": "items/ASR_102"
+            },
+            {
+                "variableName": "ASR_103",
+                "isAbout": "items/ASR_103"
+            },
+            {
+                "variableName": "ASR_104",
+                "isAbout": "items/ASR_104"
+            },
+            {
+                "variableName": "ASR_105",
+                "isAbout": "items/ASR_105"
+            },
+            {
+                "variableName": "ASR_106",
+                "isAbout": "items/ASR_106"
+            },
+            {
+                "variableName": "ASR_107",
+                "isAbout": "items/ASR_107"
+            },
+            {
+                "variableName": "ASR_108",
+                "isAbout": "items/ASR_108"
+            },
+            {
+                "variableName": "ASR_109",
+                "isAbout": "items/ASR_109"
+            },
+            {
+                "variableName": "ASR_110",
+                "isAbout": "items/ASR_110"
+            },
+            {
+                "variableName": "ASR_111",
+                "isAbout": "items/ASR_111"
+            },
+            {
+                "variableName": "ASR_112",
+                "isAbout": "items/ASR_112"
+            },
+            {
+                "variableName": "ASR_113",
+                "isAbout": "items/ASR_113"
+            },
+            {
+                "variableName": "ASR_114",
+                "isAbout": "items/ASR_114"
+            },
+            {
+                "variableName": "ASR_115",
+                "isAbout": "items/ASR_115"
+            },
+            {
+                "variableName": "ASR_116",
+                "isAbout": "items/ASR_116"
+            },
+            {
+                "variableName": "ASR_117",
+                "isAbout": "items/ASR_117"
+            },
+            {
+                "variableName": "ASR_118",
+                "isAbout": "items/ASR_118"
+            },
+            {
+                "variableName": "ASR_119",
+                "isAbout": "items/ASR_119"
+            },
+            {
+                "variableName": "ASR_120",
+                "isAbout": "items/ASR_120"
+            },
+            {
+                "variableName": "ASR_121",
+                "isAbout": "items/ASR_121"
+            },
+            {
+                "variableName": "ASR_122",
+                "isAbout": "items/ASR_122"
+            },
+            {
+                "variableName": "ASR_123",
+                "isAbout": "items/ASR_123"
+            },
+            {
+                "variableName": "ASR_124",
+                "isAbout": "items/ASR_124"
+            },
+            {
+                "variableName": "ASR_125",
+                "isAbout": "items/ASR_125"
+            },
+            {
+                "variableName": "ASR_126",
+                "isAbout": "items/ASR_126"
+            }
+        ]
+    }
+}

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "93. I talk too much"
+        "en": "I talk too much"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "108. I tend to lose things"
+        "en": "I tend to lose things"
     },
     "ui": {
         "inputType": "radio"

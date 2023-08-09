@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "16. I am mean to others"
+        "en": "I am mean to others"
     },
     "ui": {
         "inputType": "radio"

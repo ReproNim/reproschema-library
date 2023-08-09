@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "53. I have trouble planning for the future"
+        "en": "I have trouble planning for the future"
     },
     "ui": {
         "inputType": "radio"

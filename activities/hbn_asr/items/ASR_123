@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "123. I am a happy person"
+        "en": "I am a happy person"
     },
     "ui": {
         "inputType": "radio"

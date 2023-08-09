@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "101. I stay away from my job even when I'm not sick or not on vacation"
+        "en": "I stay away from my job even when I'm not sick or not on vacation"
     },
     "ui": {
         "inputType": "radio"

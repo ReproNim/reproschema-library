@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "9. I can't get my mind off certain thoughts (describe):"
+        "en": "I can't get my mind off certain thoughts (describe):"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "78. I have trouble making decisions"
+        "en": "I have trouble making decisions"
     },
     "ui": {
         "inputType": "radio"

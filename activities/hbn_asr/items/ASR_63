@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "63. I would rather be with older people than with people of my own age"
+        "en": "I would rather be with older people than with people of my own age"
     },
     "ui": {
         "inputType": "radio"

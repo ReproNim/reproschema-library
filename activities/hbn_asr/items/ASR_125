@@ -7,12 +7,12 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "125. In the past 6 months, on how many days were you drunk?"
+        "en": "In the past 6 months, on how many days were you drunk?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:integer"
     }
 }

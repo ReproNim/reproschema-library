@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "4. I work up to my ability"
+        "en": "I work up to my ability"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "67. I have trouble making or keeping friends"
+        "en": "I have trouble making or keeping friends"
     },
     "ui": {
         "inputType": "radio"

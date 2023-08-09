@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "62. I am poorly coordinated or clumsy"
+        "en": "I am poorly coordinated or clumsy"
     },
     "ui": {
         "inputType": "radio"

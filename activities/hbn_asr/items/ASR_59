@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "59. I fail to finish things I should do"
+        "en": "I fail to finish things I should do"
     },
     "ui": {
         "inputType": "radio"

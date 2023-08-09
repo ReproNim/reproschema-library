@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "55. My moods swing between elation and depression"
+        "en": "My moods swing between elation and depression"
     },
     "ui": {
         "inputType": "radio"

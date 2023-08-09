@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "96. I am passive or lack initiative"
+        "en": "I am passive or lack initiative"
     },
     "ui": {
         "inputType": "radio"

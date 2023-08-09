@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "92. I do things that may cause me trouble with the law"
+        "en": "I do things that may cause me trouble with the law"
     },
     "ui": {
         "inputType": "radio"

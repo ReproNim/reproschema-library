@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "42. I would rather be alone than with others"
+        "en": "I would rather be alone than with others"
     },
     "ui": {
         "inputType": "radio"

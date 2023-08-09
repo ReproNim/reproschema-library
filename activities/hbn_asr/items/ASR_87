@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "87. My moods or feelings change suddenly"
+        "en": "My moods or feelings change suddenly"
     },
     "ui": {
         "inputType": "radio"

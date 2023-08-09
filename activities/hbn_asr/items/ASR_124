@@ -7,12 +7,12 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "124. In the past 6 months, how many times per day did you use tobacco (including smokeless tobacco)"
+        "en": "In the past 6 months, how many times per day did you use tobacco (including smokeless tobacco)"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:integer"
     }
 }

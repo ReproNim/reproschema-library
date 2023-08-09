@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "57. I physically attack people"
+        "en": "I physically attack people"
     },
     "ui": {
         "inputType": "radio"

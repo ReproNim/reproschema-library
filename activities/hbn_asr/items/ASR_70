@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "70. I see things that other people think aren't there (describe)"
+        "en": "I see things that other people think aren't there (describe)"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "71. I am self-conscious or eaily embarassed"
+        "en": "I am self-conscious or eaily embarassed"
     },
     "ui": {
         "inputType": "radio"

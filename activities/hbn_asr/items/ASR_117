@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "117. I have trouble managing money or credit cards"
+        "en": "I have trouble managing money or credit cards"
     },
     "ui": {
         "inputType": "radio"

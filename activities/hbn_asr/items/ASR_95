@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "95. I have a hot temper"
+        "en": "I have a hot temper"
     },
     "ui": {
         "inputType": "radio"

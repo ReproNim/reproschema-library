@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "39. I hang around people who get in trouble"
+        "en": "I hang around people who get in trouble"
     },
     "ui": {
         "inputType": "radio"

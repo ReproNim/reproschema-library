@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "25. I don't get along with other people"
+        "en": "I don't get along with other people"
     },
     "ui": {
         "inputType": "radio"

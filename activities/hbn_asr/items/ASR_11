@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "11. I am too dependent on others"
+        "en": "I am too dependent on others"
     },
     "ui": {
         "inputType": "radio"

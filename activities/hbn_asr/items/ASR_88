@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "88. I enjoy being with people"
+        "en": "I enjoy being with people"
     },
     "ui": {
         "inputType": "radio"

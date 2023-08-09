@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "28. I get along badly with my family"
+        "en": "I get along badly with my family"
     },
     "ui": {
         "inputType": "radio"

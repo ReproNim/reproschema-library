@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "66. I repeat certain acts over and over (describe):"
+        "en": "I repeat certain acts over and over (describe):"
     },
     "ui": {
         "inputType": "radio"

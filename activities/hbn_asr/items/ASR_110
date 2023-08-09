@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "110. I wish I were of the opposite sex"
+        "en": "I wish I were of the opposite sex"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "116. I get upset too easily"
+        "en": "I get upset too easily"
     },
     "ui": {
         "inputType": "radio"

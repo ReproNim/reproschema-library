@@ -7,12 +7,12 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "126. In the past 6 months, on how many days did you use drugs for nonmedical purposes (including marijuana, cocaine, and other drugs, except alcohol and nicotine)?"
+        "en": "In the past 6 months, on how many days did you use drugs for nonmedical purposes (including marijuana, cocaine, and other drugs, except alcohol and nicotine)?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:integer"
     }
 }

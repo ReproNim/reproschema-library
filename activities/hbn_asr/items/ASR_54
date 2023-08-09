@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "54. I feel tired without good reason"
+        "en": "I feel tired without good reason"
     },
     "ui": {
         "inputType": "radio"

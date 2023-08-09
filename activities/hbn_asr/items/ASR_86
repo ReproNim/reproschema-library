@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "86. I am stubborn, sullen, or irritable"
+        "en": "I am stubborn, sullen, or irritable"
     },
     "ui": {
         "inputType": "radio"

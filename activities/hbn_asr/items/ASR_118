@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "118. I am too impatient"
+        "en": "I am too impatient"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "113. I worrk about my relations with the opposite sex"
+        "en": "I worrk about my relations with the opposite sex"
     },
     "ui": {
         "inputType": "radio"

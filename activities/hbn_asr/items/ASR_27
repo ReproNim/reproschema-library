@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "27. I am jealous of others"
+        "en": "I am jealous of others"
     },
     "ui": {
         "inputType": "radio"

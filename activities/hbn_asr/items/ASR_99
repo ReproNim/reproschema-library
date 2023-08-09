@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "99. I dislike staying in one place for very long"
+        "en": "I dislike staying in one place for very long"
     },
     "ui": {
         "inputType": "radio"

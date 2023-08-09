@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "77. I sleep more than most other people during the day and/or night"
+        "en": "I sleep more than most other people during the day and/or night"
     },
     "ui": {
         "inputType": "radio"

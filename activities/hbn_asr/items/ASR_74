@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "74. I show off or clown"
+        "en": "I show off or clown"
     },
     "ui": {
         "inputType": "radio"

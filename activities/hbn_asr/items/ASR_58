@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "58. I pick my skin or other parts of my body (describe):"
+        "en": "I pick my skin or other parts of my body (describe):"
     },
     "ui": {
         "inputType": "radio"

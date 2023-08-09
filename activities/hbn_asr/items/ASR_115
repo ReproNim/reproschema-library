@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "115. I feel restless or fidgety"
+        "en": "I feel restless or fidgety"
     },
     "ui": {
         "inputType": "radio"

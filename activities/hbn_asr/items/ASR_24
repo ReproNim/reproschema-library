@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "24. I don't eat as well as I should"
+        "en": "I don't eat as well as I should"
     },
     "ui": {
         "inputType": "radio"

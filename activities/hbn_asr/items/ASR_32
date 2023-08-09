@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "32. I feel that I have to be perfect"
+        "en": "I feel that I have to be perfect"
     },
     "ui": {
         "inputType": "radio"

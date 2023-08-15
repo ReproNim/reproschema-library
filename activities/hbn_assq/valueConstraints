@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 2,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "0 = No",
+            "value": 0
+        },
+        {
+            "name": "1 = Somewhat",
+            "value": 1
+        },
+        {
+            "name": "2 = Yes",
+            "value": 2
+        }
+    ]
+}

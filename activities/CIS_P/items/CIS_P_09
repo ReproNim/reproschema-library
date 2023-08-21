@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "CIS_P_09",
+    "prefLabel": "CIS_P_09",
+    "description": "Q9 of the The Columbia Impairment Scale-Parent Report Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How much of a problem does your child have getting along with brothers/sisters?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints.json"
+}

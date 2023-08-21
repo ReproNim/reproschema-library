@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "CIS_P_04",
+    "prefLabel": "CIS_P_04",
+    "description": "Q4 of the The Columbia Impairment Scale-Parent Report Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "In general, how much of a problem do you think your child has with feeling unhappy or sad?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints.json"
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "MFQ_SR_15",
+    "prefLabel": "MFQ_SR_15",
+    "description": "Q15 of the Mood and Feelings Questionnaire \u2013 Long Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "I thought there was nothing good for me in the future."
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints.json"
+}

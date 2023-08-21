@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "MFQ_SR_26",
+    "prefLabel": "MFQ_SR_26",
+    "description": "Q26 of the Mood and Feelings Questionnaire \u2013 Long Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "I worried about aches and pains."
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints.json"
+}

@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ACE_09",
-    "prefLabel": "ACE_09",
-    "description": "Q11 of the Adaptive Cognitive Evaluation",
+    "@id": "ACE_06",
+    "prefLabel": "ACE_06",
+    "description": "Q6 of the Adaptive Cognitive Evaluation",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Was a household member depressed or mentally ill, or did a household member attempt suicide?"
+        "en": "Were your parents ever separated or divorced?"
     },
     "ui": {
         "inputType": "radio"

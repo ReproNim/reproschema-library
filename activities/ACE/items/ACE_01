@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ACE_01",
+    "prefLabel": "ACE_01",
+    "description": "Q1 of the Adaptive Cognitive Evaluation",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Did a parent or other adult in the household often or very often\u2026 Swear at you, insult you, put you down, or humiliate you? or Act in a way that made you afraid that you might be physically hurt?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

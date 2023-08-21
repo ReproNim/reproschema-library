@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "ACE_07",
     "prefLabel": "ACE_07",
-    "description": "Q9 of the Adaptive Cognitive Evaluation",
+    "description": "Q7 of the Adaptive Cognitive Evaluation",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

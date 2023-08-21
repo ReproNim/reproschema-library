@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ACE_01",
-    "prefLabel": "ACE_01",
+    "@id": "ACE_03",
+    "prefLabel": "ACE_03",
     "description": "Q3 of the Adaptive Cognitive Evaluation",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Did a parent or other adult in the household often or very often\u2026 Swear at you, insult you, put you down, or humiliate you? or Act in a way that made you afraid that you might be physically hurt?"
+        "en": "Did an adult or person at least 5 years older than you ever\u2026 Touch or fondle you or have you touch their body in a sexual way? or Attempt or actually have oral, anal, or vaginal intercourse with you?"
     },
     "ui": {
         "inputType": "radio"

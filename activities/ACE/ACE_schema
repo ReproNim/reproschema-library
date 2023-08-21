@@ -4,7 +4,7 @@
     "@id": "ACE_schema",
     "prefLabel": "Adverse Childhood Experience (ACE)",
     "altLabel": "ACE",
-    "description": "Mobile cognitive control assessment battery containing standard tests that assess different aspects of cognitive control (attention, working memory, and goal management), modified by incorporating adaptive algorithms, immersive graphics, video tutorials, motivating feedback, and a user-friendly interface.",
+    "description": "Q10 of the Adaptive Cognitive Evaluation",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://neuroscape.ucsf.edu/technology/",

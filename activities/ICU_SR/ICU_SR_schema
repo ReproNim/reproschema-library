@@ -1,0 +1,192 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "ICU_SR_schema",
+    "prefLabel": "ICU_SR",
+    "description": "The Inventory of Callous-Unemotional Traits (ICUT) is a copyright protected 24-item questionnaire designed to provide a comprehensive assessment of callous and unemotional traits.\u00a0 These traits have proven to be important for designating a distinct subgroup group of antisocial and aggressive youth.\u00a0\u00a0 The ICUT has three subscales:\u00a0 Callousness, Uncaring, and Unemotional",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "Essau, C.A., Sasagawa, S., & Frick, P.J. (2006). Callous-unemotional traits in a community sample of adolescents. Assessment, 132,  454-469.",
+    "preamble": null,
+    "compute": [
+        {
+            "variableName": "ICU_SR_total_core",
+            "jsExpression": "ICU_SR_01 + ICU_SR_02 + ICU_SR_03 + ICU_SR_04 + ICU_SR_05 + ICU_SR_06 + ICU_SR_07 + ICU_SR_08 + ICU_SR_09 + ICU_SR_10 + ICU_SR_11 + ICU_SR_12 + ICU_SR_13 + ICU_SR_14 + ICU_SR_15 + ICU_SR_16 + ICU_SR_17 + ICU_SR_18 + ICU_SR_19 + ICU_SR_20 + ICU_SR_21 + ICU_SR_22 + ICU_SR_23 + ICU_SR_24"
+        }
+    ],
+    "ui": {
+        "order": [
+            "items/ICU_SR_01",
+            "items/ICU_SR_02",
+            "items/ICU_SR_03",
+            "items/ICU_SR_04",
+            "items/ICU_SR_05",
+            "items/ICU_SR_06",
+            "items/ICU_SR_07",
+            "items/ICU_SR_08",
+            "items/ICU_SR_09",
+            "items/ICU_SR_10",
+            "items/ICU_SR_11",
+            "items/ICU_SR_12",
+            "items/ICU_SR_13",
+            "items/ICU_SR_14",
+            "items/ICU_SR_15",
+            "items/ICU_SR_16",
+            "items/ICU_SR_17",
+            "items/ICU_SR_18",
+            "items/ICU_SR_19",
+            "items/ICU_SR_20",
+            "items/ICU_SR_21",
+            "items/ICU_SR_22",
+            "items/ICU_SR_23",
+            "items/ICU_SR_24"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "ICU_SR_01",
+                "isAbout": "items/ICU_SR_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_02",
+                "isAbout": "items/ICU_SR_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_03",
+                "isAbout": "items/ICU_SR_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_04",
+                "isAbout": "items/ICU_SR_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_05",
+                "isAbout": "items/ICU_SR_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_06",
+                "isAbout": "items/ICU_SR_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_07",
+                "isAbout": "items/ICU_SR_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_08",
+                "isAbout": "items/ICU_SR_08",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_09",
+                "isAbout": "items/ICU_SR_09",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_10",
+                "isAbout": "items/ICU_SR_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_11",
+                "isAbout": "items/ICU_SR_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_12",
+                "isAbout": "items/ICU_SR_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_13",
+                "isAbout": "items/ICU_SR_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_14",
+                "isAbout": "items/ICU_SR_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_15",
+                "isAbout": "items/ICU_SR_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_16",
+                "isAbout": "items/ICU_SR_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_17",
+                "isAbout": "items/ICU_SR_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_18",
+                "isAbout": "items/ICU_SR_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_19",
+                "isAbout": "items/ICU_SR_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_20",
+                "isAbout": "items/ICU_SR_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_21",
+                "isAbout": "items/ICU_SR_21",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_22",
+                "isAbout": "items/ICU_SR_22",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_23",
+                "isAbout": "items/ICU_SR_23",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_24",
+                "isAbout": "items/ICU_SR_24",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ]
+    }
+}

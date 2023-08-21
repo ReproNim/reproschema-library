@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "IAT_10",
+    "prefLabel": "IAT_10",
+    "description": "Q1600 of the Questionnaire Measures of Substance Use & Addiction",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How often do you block out disturbing thoughts about your life with soothing thoughts of the internet?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

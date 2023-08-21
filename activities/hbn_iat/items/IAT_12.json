@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "IAT_12",
+    "prefLabel": "IAT_12",
+    "description": "Q1602 of the Questionnaire Measures of Substance Use & Addiction",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How often do you fear that life without the Internet would be boring, empty, and joyless?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

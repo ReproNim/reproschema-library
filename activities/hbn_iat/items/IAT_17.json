@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "IAT_17",
+    "prefLabel": "IAT_17",
+    "description": "Q1607 of the Questionnaire Measures of Substance Use & Addiction",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How often do you try to cut down the amount of time you spend on-line and fail?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

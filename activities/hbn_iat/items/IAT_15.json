@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "IAT_15",
+    "prefLabel": "IAT_15",
+    "description": "Q1605 of the Questionnaire Measures of Substance Use & Addiction",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How often do you feel preoccupied with the Internet when off-line, or fantasize about being on-line?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

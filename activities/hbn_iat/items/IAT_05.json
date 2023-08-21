@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "IAT_05",
+    "prefLabel": "IAT_05",
+    "description": "Q1595 of the Questionnaire Measures of Substance Use & Addiction",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How often do others in your life complain to you about the amount of time you spend on-line?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

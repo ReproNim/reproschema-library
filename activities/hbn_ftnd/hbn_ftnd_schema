@@ -1,0 +1,72 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "hbn_ftnd_schema",
+    "prefLabel": "Fagerstrom Test for Nicotine Dependence (FTND)",
+    "altLabel": "hbn_ftnd",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/FTND_01",
+            "items/FTND_02",
+            "items/FTND_03",
+            "items/FTND_04",
+            "items/FTND_05",
+            "items/FTND_06",
+            "items/FTND_07",
+            "items/FTND_08"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "FTND_01",
+                "isAbout": "items/FTND_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "FTND_02",
+                "isAbout": "items/FTND_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "FTND_03",
+                "isAbout": "items/FTND_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "FTND_04",
+                "isAbout": "items/FTND_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "FTND_05",
+                "isAbout": "items/FTND_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "FTND_06",
+                "isAbout": "items/FTND_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "FTND_07",
+                "isAbout": "items/FTND_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "FTND_08",
+                "isAbout": "items/FTND_08",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ]
+    }
+}

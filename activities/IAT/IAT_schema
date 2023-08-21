@@ -1,0 +1,164 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "IAT_schema",
+    "prefLabel": "IAT",
+    "description": "All subjects will be administered a test of academic achievement (WIAT) The Wechsler Individual Achievement Test is a comprehensive yet flexible measurement tool useful for achievement skills assessment, learning disability diagnosis, special education placement, and clinical appraisal for preschool children through adults. Norms allow for assessment of those from ages 4 to 85. This test can be easily administered by any research team member following brief training. Training will be provided by an experienced clinician on the research team.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "Wechsler, D. (2005). Wechsler Individual Achievement Test 2nd Edition (WIAT II). London: The Psychological  Corporation.",
+    "preamble": null,
+    "compute": [
+        {
+            "variableName": "IAT_total_core",
+            "jsExpression": "IAT_01 + IAT_02 + IAT_03 + IAT_04 + IAT_05 + IAT_06 + IAT_07 + IAT_08 + IAT_09 + IAT_10 + IAT_11 + IAT_12 + IAT_13 + IAT_14 + IAT_15 + IAT_16 + IAT_17 + IAT_18 + IAT_19 + IAT_20"
+        }
+    ],
+    "ui": {
+        "order": [
+            "items/IAT_01",
+            "items/IAT_02",
+            "items/IAT_03",
+            "items/IAT_04",
+            "items/IAT_05",
+            "items/IAT_06",
+            "items/IAT_07",
+            "items/IAT_08",
+            "items/IAT_09",
+            "items/IAT_10",
+            "items/IAT_11",
+            "items/IAT_12",
+            "items/IAT_13",
+            "items/IAT_14",
+            "items/IAT_15",
+            "items/IAT_16",
+            "items/IAT_17",
+            "items/IAT_18",
+            "items/IAT_19",
+            "items/IAT_20"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "IAT_01",
+                "isAbout": "items/IAT_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_02",
+                "isAbout": "items/IAT_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_03",
+                "isAbout": "items/IAT_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_04",
+                "isAbout": "items/IAT_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_05",
+                "isAbout": "items/IAT_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_06",
+                "isAbout": "items/IAT_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_07",
+                "isAbout": "items/IAT_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_08",
+                "isAbout": "items/IAT_08",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_09",
+                "isAbout": "items/IAT_09",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_10",
+                "isAbout": "items/IAT_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_11",
+                "isAbout": "items/IAT_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_12",
+                "isAbout": "items/IAT_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_13",
+                "isAbout": "items/IAT_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_14",
+                "isAbout": "items/IAT_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_15",
+                "isAbout": "items/IAT_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_16",
+                "isAbout": "items/IAT_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_17",
+                "isAbout": "items/IAT_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_18",
+                "isAbout": "items/IAT_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_19",
+                "isAbout": "items/IAT_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "IAT_20",
+                "isAbout": "items/IAT_20",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ]
+    }
+}

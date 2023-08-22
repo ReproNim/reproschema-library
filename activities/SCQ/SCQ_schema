@@ -1,0 +1,304 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "SCQ_schema",
+    "prefLabel": "SCQ",
+    "description": "The SCQ consists of  forty yes-or-no questions, which a parent can complete in around ten minutes. It provides valuable information on a child\u2019s body movements, use of language or gestures, and style of interacting. Usually, the SCQ is used as a screening instrument to help identify which children may have an autism spectrum disorder. It is not meant to provide a detailed diagnosis, but to indicate whether a child needs a more careful and in-depth evaluation.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "Chandler, S., Charman, T., Baird, G., et al (2007). Validation of the Social Communication Questionnaire in a population cohort of children with autism spectrum disorders. Journal of the American Academy of Child and Adolescent Psychiatry, 46, 1324 -1332.",
+    "preamble": null,
+    "compute": [
+        {
+            "variableName": "SCQ_total_core",
+            "jsExpression": "SCQ_01 + SCQ_02 + SCQ_03 + SCQ_04 + SCQ_05 + SCQ_06 + SCQ_07 + SCQ_08 + SCQ_09 + SCQ_10 + SCQ_11 + SCQ_12 + SCQ_13 + SCQ_14 + SCQ_15 + SCQ_16 + SCQ_17 + SCQ_18 + SCQ_19 + SCQ_20 + SCQ_21 + SCQ_22 + SCQ_23 + SCQ_24 + SCQ_25 + SCQ_26 + SCQ_27 + SCQ_28 + SCQ_29 + SCQ_30 + SCQ_31 + SCQ_32 + SCQ_33 + SCQ_34 + SCQ_35 + SCQ_36 + SCQ_37 + SCQ_38 + SCQ_39 + SCQ_40"
+        }
+    ],
+    "ui": {
+        "order": [
+            "items/SCQ_01",
+            "items/SCQ_02",
+            "items/SCQ_03",
+            "items/SCQ_04",
+            "items/SCQ_05",
+            "items/SCQ_06",
+            "items/SCQ_07",
+            "items/SCQ_08",
+            "items/SCQ_09",
+            "items/SCQ_10",
+            "items/SCQ_11",
+            "items/SCQ_12",
+            "items/SCQ_13",
+            "items/SCQ_14",
+            "items/SCQ_15",
+            "items/SCQ_16",
+            "items/SCQ_17",
+            "items/SCQ_18",
+            "items/SCQ_19",
+            "items/SCQ_20",
+            "items/SCQ_21",
+            "items/SCQ_22",
+            "items/SCQ_23",
+            "items/SCQ_24",
+            "items/SCQ_25",
+            "items/SCQ_26",
+            "items/SCQ_27",
+            "items/SCQ_28",
+            "items/SCQ_29",
+            "items/SCQ_30",
+            "items/SCQ_31",
+            "items/SCQ_32",
+            "items/SCQ_33",
+            "items/SCQ_34",
+            "items/SCQ_35",
+            "items/SCQ_36",
+            "items/SCQ_37",
+            "items/SCQ_38",
+            "items/SCQ_39",
+            "items/SCQ_40"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "SCQ_01",
+                "isAbout": "items/SCQ_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_02",
+                "isAbout": "items/SCQ_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_03",
+                "isAbout": "items/SCQ_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_04",
+                "isAbout": "items/SCQ_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_05",
+                "isAbout": "items/SCQ_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_06",
+                "isAbout": "items/SCQ_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_07",
+                "isAbout": "items/SCQ_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_08",
+                "isAbout": "items/SCQ_08",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_09",
+                "isAbout": "items/SCQ_09",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_10",
+                "isAbout": "items/SCQ_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_11",
+                "isAbout": "items/SCQ_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_12",
+                "isAbout": "items/SCQ_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_13",
+                "isAbout": "items/SCQ_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_14",
+                "isAbout": "items/SCQ_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_15",
+                "isAbout": "items/SCQ_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_16",
+                "isAbout": "items/SCQ_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_17",
+                "isAbout": "items/SCQ_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_18",
+                "isAbout": "items/SCQ_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_19",
+                "isAbout": "items/SCQ_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_20",
+                "isAbout": "items/SCQ_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_21",
+                "isAbout": "items/SCQ_21",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_22",
+                "isAbout": "items/SCQ_22",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_23",
+                "isAbout": "items/SCQ_23",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_24",
+                "isAbout": "items/SCQ_24",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_25",
+                "isAbout": "items/SCQ_25",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_26",
+                "isAbout": "items/SCQ_26",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_27",
+                "isAbout": "items/SCQ_27",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_28",
+                "isAbout": "items/SCQ_28",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_29",
+                "isAbout": "items/SCQ_29",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_30",
+                "isAbout": "items/SCQ_30",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_31",
+                "isAbout": "items/SCQ_31",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_32",
+                "isAbout": "items/SCQ_32",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_33",
+                "isAbout": "items/SCQ_33",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_34",
+                "isAbout": "items/SCQ_34",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_35",
+                "isAbout": "items/SCQ_35",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_36",
+                "isAbout": "items/SCQ_36",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_37",
+                "isAbout": "items/SCQ_37",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_38",
+                "isAbout": "items/SCQ_38",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_39",
+                "isAbout": "items/SCQ_39",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "SCQ_40",
+                "isAbout": "items/SCQ_40",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ]
+    }
+}

@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "CIS_SR_02",
     "prefLabel": "CIS_SR_02",
-    "description": "Q2 of the The Columbia Impairment Scale-Self Report Version",
+    "description": "Q2 of the Columbia Impairment Scale - Self Report Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

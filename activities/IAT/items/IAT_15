@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "IAT_15",
     "prefLabel": "IAT_15",
-    "description": "Q15 of the Wechsler Individual Achievement Test - III",
+    "description": "Q15 of the Internet Addiction Test",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

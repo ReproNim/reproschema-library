@@ -8,6 +8,8 @@
     "version": "0.0.1",
     "citation": "Wechsler, D. (2005). Wechsler Individual Achievement Test 2nd Edition (WIAT II). London: The Psychological  Corporation.",
     "preamble": null,
+    "isAbout": "Questionnaire_Measures_of_Substance_Use_&_Addiction",
+    "isProprietary": false,
     "compute": [
         {
             "variableName": "IAT_total_core",

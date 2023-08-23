@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "ARI_P_01",
     "prefLabel": "ARI_P_01",
-    "description": "Q1 of the Affective Reactivity Index-Parent",
+    "description": "Q1 of the Affective Reactivity Index - Parent Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

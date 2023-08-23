@@ -8,6 +8,8 @@
     "version": "0.0.1",
     "citation": "Ehlers S., Gillberg C., Wing, L. (1999). A screening questionnaire for Asperger\u00a0syndrome\u00a0and other high-functioning autism spectrum disorders in school age children. Journal of Autism Developmental Disorders 29, 129-41.",
     "preamble": null,
+    "isAbout": "Questionnaire_Measures_of_Emotional_and_Cognitive_Status",
+    "isProprietary": false,
     "compute": [
         {
             "variableName": "ASSQ_total_core",

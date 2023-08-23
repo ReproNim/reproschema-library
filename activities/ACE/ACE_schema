@@ -2,17 +2,18 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "ACE_schema",
-    "prefLabel": "Adverse Childhood Experience (ACE)",
-    "altLabel": "ACE",
-    "description": "Q10 of the Adaptive Cognitive Evaluation",
+    "prefLabel": "ACE",
+    "description": "Mobile cognitive control assessment battery containing standard tests that assess different aspects of cognitive control (attention, working memory, and goal management), modified by incorporating adaptive algorithms, immersive graphics, video tutorials, motivating feedback, and a user-friendly interface.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://neuroscape.ucsf.edu/technology/",
     "preamble": "Prior to your 18th birthday:",
+    "isAbout": null,
+    "isProprietary": false,
     "compute": [
         {
             "variableName": "ACE_total_core",
-            "jsExpression": "ACE_01 + ACE_02 + ACE_03 + ACE_04 + ACE_05 + ACE_06 + ACE_07 + ACE_08 + ACE_09 + ACE_10"
+            "jsExpression": "ACE_01 + ACE_02 + ACE_03 + ACE_04 + ACE_05 + ACE_06 + ACE_07 + ACE_08 + ACE_09 + ACE_10 + ACE_Score"
         }
     ],
     "ui": {
@@ -26,7 +27,8 @@
             "items/ACE_07",
             "items/ACE_08",
             "items/ACE_09",
-            "items/ACE_10"
+            "items/ACE_10",
+            "items/ACE_Score"
         ],
         "shuffle": false,
         "addProperties": [
@@ -87,6 +89,12 @@
             {
                 "variableName": "ACE_10",
                 "isAbout": "items/ACE_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ACE_Score",
+                "isAbout": "items/ACE_Score",
                 "valueRequired": true,
                 "isVis": true
             }

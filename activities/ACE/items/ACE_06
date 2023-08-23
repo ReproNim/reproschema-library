@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "ACE_06",
     "prefLabel": "ACE_06",
-    "description": "Q6 of the Adaptive Cognitive Evaluation",
+    "description": "Q6 of the Adverse Childhood Experiences Scale",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
@@ -12,5 +12,5 @@
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints.json"
 }

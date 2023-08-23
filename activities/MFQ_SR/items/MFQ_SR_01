@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "MFQ_SR_01",
     "prefLabel": "MFQ_SR_01",
-    "description": "Q1 of the Mood and Feelings Questionnaire \u2013 Long Version",
+    "description": "Q1 of the Mood and Feelings Questionnaire - Self Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

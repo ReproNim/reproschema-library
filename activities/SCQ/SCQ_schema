@@ -8,6 +8,8 @@
     "version": "0.0.1",
     "citation": "Chandler, S., Charman, T., Baird, G., et al (2007). Validation of the Social Communication Questionnaire in a population cohort of children with autism spectrum disorders. Journal of the American Academy of Child and Adolescent Psychiatry, 46, 1324 -1332.",
     "preamble": null,
+    "isAbout": "Questionnaire_Measures_of_Emotional_and_Cognitive_Status",
+    "isProprietary": true,
     "compute": [
         {
             "variableName": "SCQ_total_core",

@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "CIS_P_11",
     "prefLabel": "CIS_P_11",
-    "description": "Q11 of the The Columbia Impairment Scale-Parent Report Version",
+    "description": "Q11 of the Columbia Impairment Scale - Parent Report Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

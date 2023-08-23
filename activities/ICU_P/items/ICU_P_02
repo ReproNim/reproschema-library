@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ICU_P_02",
+    "prefLabel": "ICU_P_02",
+    "description": "Q2 of the Inventory of Callous-Unemotional Traits \u2013 Parent Report",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Does not seem to know \u201cright\u201d from \u201cwrong\u201d. "
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints.json"
+}

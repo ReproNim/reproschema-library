@@ -3,11 +3,11 @@
     "@type": "reproschema:Field",
     "@id": "PCIAT_12",
     "prefLabel": "PCIAT_12",
-    "description": "Q12 of the Parent-Child Internet Addiction Test",
+    "description": "Q12 of the Parent Child Internet Addiction Test",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often does your child receive strange phone calls from new \"online\" friends?"
+        "en": "How often does your child receive strange phone calls from new 'online' friends?"
     },
     "ui": {
         "inputType": "radio"

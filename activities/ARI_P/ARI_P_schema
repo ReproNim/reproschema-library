@@ -8,7 +8,6 @@
     "version": "0.0.1",
     "citation": "Stringaris, A., Goodman, R., Ferdinando, S., Razdan, V., Muhrer, E., Leibenluft, E., & Brotman, M. (2012). The Affective Reactivity Index: A concise irritability scale for clinical and research settings. Journal of Child Psychology and Psychiatry. 53(11) pp. 1109-1117.",
     "preamble": null,
-    "isAbout": "Questionnaire_Measures_of_Emotional_and_Cognitive_Status",
     "isProprietary": false,
     "compute": [
         {

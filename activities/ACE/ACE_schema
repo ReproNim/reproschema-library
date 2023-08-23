@@ -8,7 +8,6 @@
     "version": "0.0.1",
     "citation": "https://neuroscape.ucsf.edu/technology/",
     "preamble": "Prior to your 18th birthday:",
-    "isAbout": null,
     "isProprietary": false,
     "compute": [
         {

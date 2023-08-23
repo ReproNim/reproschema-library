@@ -8,7 +8,6 @@
     "version": "0.0.1",
     "citation": "Angold, A., Costello, E. J., Messer, S. C., Pickles, A., Winder, F., & Silver, D. (1995). The development of a short questionnaire for use in epidemiological studies of depression in children and adolescents. International Journal of Methods in Psychiatric Research, 5: 237-249.",
     "preamble": null,
-    "isAbout": "Questionnaire_Measures_of_Emotional_and_Cognitive_Status",
     "isProprietary": false,
     "compute": [
         {

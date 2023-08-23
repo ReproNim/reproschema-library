@@ -8,7 +8,6 @@
     "version": "0.0.1",
     "citation": "Bird, H. R., Shaffer, D., Fisher, P., & Gould, M. S. (1993). The Columbia Impairment Scale (CIS): Pilot findings on a measure of global impairment for children and adolescents.\u00a0International Journal of Methods in Psychiatric Research.",
     "preamble": null,
-    "isAbout": "Questionnaire_Measures_of_Emotional_and_Cognitive_Status",
     "isProprietary": false,
     "compute": [
         {

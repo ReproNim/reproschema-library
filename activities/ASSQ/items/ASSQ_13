@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "makes na\u00efve and embarrassing remarks"
+        "en": "makes naive and embarrassing remarks"
     },
     "ui": {
         "inputType": "radio"

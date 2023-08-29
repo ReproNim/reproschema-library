@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "is regarded as an \u2018eccentric professor\u2019 by the other children"
+        "en": "is regarded as an \"eccentric professor\" by the other children"
     },
     "ui": {
         "inputType": "radio"

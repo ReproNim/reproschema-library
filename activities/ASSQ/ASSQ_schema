@@ -6,8 +6,8 @@
     "description": "The ASSQ is a 27-item checklist for completion by lay informants when assessing symptoms characteristic of Asperger's Syndrome or high-functioning autism spectrum disorders.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "citation": "Ehlers S., Gillberg C., Wing, L. (1999). A screening questionnaire for Asperger\u00a0syndrome\u00a0and other high-functioning autism spectrum disorders in school age children. Journal of Autism Developmental Disorders 29, 129-41.",
-    "preamble": null,
+    "citation": "Ehlers, S., Gillberg, C., & Wing, L. (1999). A screening questionnaire for Asperger syndrome and other high-functioning autism spectrum disorders in school age children. Journal of autism and developmental disorders, 29(2), 129-141.",
+    "preamble": "Please read the statement below and indicate by tapping, No, Somewhat, or Yes if this child stands out as different from other children of his/her age in the following ways:",
     "isProprietary": false,
     "compute": [
         {

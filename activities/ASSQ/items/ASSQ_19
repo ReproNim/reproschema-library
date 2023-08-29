@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "is poor at games; no idea of cooperating in a team, scores \u2018own goals\u2019"
+        "en": "is poor at games; no idea of cooperating in a team, scores \"own goals\""
     },
     "ui": {
         "inputType": "radio"

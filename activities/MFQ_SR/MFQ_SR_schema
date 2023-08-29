@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "Angold, A., Costello, E. J., Messer, S. C., Pickles, A., Winder, F., & Silver, D. (1995) The development of a short questionnaire for use in epidemiological studies of depression in children and adolescents.\u00a0International Journal of Methods in Psychiatric Research, 5, 237 - 249.",
-    "preamble": null,
+    "preamble": "These questions are about how you might have been feeling or acting recently. For each question, please check how you have been feeling or acting in the past two weeks.",
     "isProprietary": false,
     "compute": [
         {

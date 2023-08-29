@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Did a parent or other adult in the household often or very often\u2026 Push, grab, slap, or throw something at you? or Ever hit you so hard that you had marks or were injured?"
+        "en": "Did a parent or other adult in the household often or very often push, grab, slap, or throw something at you? or Ever hit you so hard that you had marks or were injured?"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Did you often or very often feel that \u2026 No one in your family loved you or thought you were important or special? or Your family didn\u2019t look out for each other, feel close to each other, or support each other?"
+        "en": "Did you often or very often feel that no one in your family loved you or thought you were important or special? or Your family didn't look out for each other, feel close to each other, or support each other?"
     },
     "ui": {
         "inputType": "radio"

@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "ICU_P_schema",
     "prefLabel": "ICU_P",
-    "description": "The Inventory of Callous-Unemotional Traits is a copyright protected 24-item questionnaire designed to provide a comprehensive assessment of callous and unemotional traits.\u00a0 These traits have proven to be important for designating a distinct subgroup group of antisocial and aggressive youth",
+    "description": "The Inventory of Callous-Unemotional Traits is a copyright protected 24-item questionnaire designed to provide a comprehensive assessment of callous and unemotional traits. These traits have proven to be important for designating a distinct subgroup group of antisocial and aggressive youth",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "Essau, C.A., Sasagawa, S., & Frick, P.J. (2006). Callous-unemotional traits in a community sample of adolescents. Assessment, 132,  454-469.",

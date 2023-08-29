@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "I do not feel remorseful when I do something wrong. "
+        "en": "I do not feel remorseful when I do something wrong."
     },
     "ui": {
         "inputType": "radio"

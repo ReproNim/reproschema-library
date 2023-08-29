@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "Stringaris, A., Goodman, R., Ferdinando, S., Razdan, V., Muhrer, E., Leibenluft, E., & Brotman, M. (2012). The Affective Reactivity Index: A concise irritability scale for clinical and research settings. Journal of Child Psychology and Psychiatry. 53(11) pp. 1109-1117.",
-    "preamble": null,
+    "preamble": "In the last six months and compared to others of the same age, how well does each of the following statements describe the behavior/feelings of your child?",
     "isProprietary": false,
     "compute": [
         {

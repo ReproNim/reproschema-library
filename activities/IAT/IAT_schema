@@ -6,7 +6,7 @@
     "description": "The Internet Addiction Test (IAT) is a 20-item scale that measures characteristics and behaviors associated with compulsive use of the Internet that include compulsivity, escapism, and dependency. Questions also assess problems related to addictive use in personal, occupational, and social functioning.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "citation": "Wechsler, D. (2005). Wechsler Individual Achievement Test 2nd Edition (WIAT II). London: The Psychological  Corporation.",
+    "citation": "Young, K. S. (1998) Internet addiction: The emergence of a new clinical disorder. CyberPsychology and Behavior, 1(3), 237-244. ",
     "preamble": "This questionnaire consists of 20 statements. After reading each statement carefully, based upon the 5-point Likert scale, please select the response (0, 1, 2, 3, 4 or 5) which best describes you. If two choices seem to apply equally well, choose the one that best represents how you are most of the time during the past month. Be sure to read all the statements carefully before making your choice. The statements refer to offline situations or actions unless otherwise specified.",
     "isProprietary": false,
     "compute": [

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "Essau, C.A., Sasagawa, S., & Frick, P.J. (2006). Callous-unemotional traits in a community sample of adolescents. Assessment, 132,  454-469.",
-    "preamble": null,
+    "preamble": "Please read each statement and decide how well it describes your child.",
     "isProprietary": null,
     "compute": [
         {

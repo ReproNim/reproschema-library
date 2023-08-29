@@ -3,11 +3,11 @@
     "@type": "reproschema:Field",
     "@id": "ICU_P_17",
     "prefLabel": "ICU_P_17",
-    "description": "Q17 of the Inventory of Callous-Unemotional Traits \u2013 Parent Report",
+    "description": "Q17 of the Inventory of Callous-Unemotional Traits - Parent Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Tries not to hurt others\u2019 feelings. "
+        "en": "Tries not to hurt others' feelings. "
     },
     "ui": {
         "inputType": "radio"

@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "ICU_P_21",
     "prefLabel": "ICU_P_21",
-    "description": "Q21 of the Inventory of Callous-Unemotional Traits \u2013 Parent Report",
+    "description": "Q21 of the Inventory of Callous-Unemotional Traits - Parent Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

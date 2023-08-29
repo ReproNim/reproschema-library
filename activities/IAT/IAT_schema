@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "IAT_schema",
     "prefLabel": "IAT",
-    "description": "All subjects will be administered a test of academic achievement (WIAT) The Wechsler Individual Achievement Test is a comprehensive yet flexible measurement tool useful for achievement skills assessment, learning disability diagnosis, special education placement, and clinical appraisal for preschool children through adults. Norms allow for assessment of those from ages 4 to 85. This test can be easily administered by any research team member following brief training. Training will be provided by an experienced clinician on the research team.",
+    "description": "The Internet Addiction Test (IAT) is a 20-item scale that measures characteristics and behaviors associated with compulsive use of the Internet that include compulsivity, escapism, and dependency. Questions also assess problems related to addictive use in personal, occupational, and social functioning.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "Wechsler, D. (2005). Wechsler Individual Achievement Test 2nd Edition (WIAT II). London: The Psychological  Corporation.",

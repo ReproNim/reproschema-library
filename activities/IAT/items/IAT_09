@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you become defensive or secretive when anyone asks you what you do on-line?"
+        "en": "How often do you become defensive or secretive when anyone asks you what you do online?"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you try to cut down the amount of time you spend on-line and fail?"
+        "en": "How often do you try to cut down the amount of time you spend online and fail?"
     },
     "ui": {
         "inputType": "radio"

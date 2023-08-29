@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do your grades of school work suffer because of the amount of time you spend on-line?"
+        "en": "How often do your grades or school work suffer because of the amount of time you spend online?"
     },
     "ui": {
         "inputType": "radio"

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you form new relationships with fellow on-line users?"
+        "en": "How often do you form new relationships with fellow online users?"
     },
     "ui": {
         "inputType": "radio"

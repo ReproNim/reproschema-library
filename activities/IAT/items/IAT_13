@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you snap, yell, or act annoyed if someone bothers you while you are on-line?"
+        "en": "How often do you snap, yell, or act annoyed if someone bothers you while you are online?"
     },
     "ui": {
         "inputType": "radio"

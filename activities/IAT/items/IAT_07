@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you check your e-mail before something else that you need to do?"
+        "en": "How often do you check your email before something else that you need to do?"
     },
     "ui": {
         "inputType": "radio"

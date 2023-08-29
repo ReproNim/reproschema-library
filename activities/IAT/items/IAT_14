@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you lose sleep due to late-night log-ins?"
+        "en": "How often do you lose sleep due to being online?"
     },
     "ui": {
         "inputType": "radio"

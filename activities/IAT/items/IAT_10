@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you block out disturbing thoughts about your life with soothing thoughts of the internet?"
+        "en": "How often do you block out disturbing thoughts about your life with soothing thoughts of the Internet?"
     },
     "ui": {
         "inputType": "radio"

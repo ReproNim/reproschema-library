@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How often do you find that you stay on-line longer than you intended?"
+        "en": "How often do you find that you stay online longer than you intended?"
     },
     "ui": {
         "inputType": "radio"

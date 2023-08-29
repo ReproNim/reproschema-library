@@ -3,11 +3,11 @@
     "@type": "reproschema:Activity",
     "@id": "PCIAT_schema",
     "prefLabel": "PCIAT",
-    "description": "The Internet Addiction Test (IAT) is a 20-item scale that measures characteristics and behaviors associated with compulsive use of the Internet that include compulsivity, escapism, and dependency. Questions also assess problems related to addictive use in personal, occupational, and social functioning.",
+    "description": "This 20-item questionnaire measures mild, moderate, and severe levels of Internet Addiction. The Parent-Child Internet Addiction test will help you determine if you may be dealing with Internet Addiction in your home.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "citation": "Young, K. S. (1998) Internet addiction:  The emergence of a new clinical disorder.   CyberPsychology and Behavior, 1(3), 237-244.",
-    "preamble": null,
+    "citation": "Young, K. S. (1998) Internet addiction: The emergence of a new clinical disorder. CyberPsychology and Behavior, 1(3), 237-244.",
+    "preamble": "To assess your child's level of addiction to the Internet, answer the following questions. Remember, when answering, only consider time your child uses the Internet for non-academic purposes.    ",
     "isProprietary": true,
     "compute": [
         {

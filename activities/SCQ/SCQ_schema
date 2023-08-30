@@ -69,44 +69,37 @@
             {
                 "variableName": "SCQ_02",
                 "isAbout": "items/SCQ_02",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": "SCQ_01 = 1"
             },
             {
                 "variableName": "SCQ_03",
                 "isAbout": "items/SCQ_03",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": "SCQ_01 = 1"
             },
             {
                 "variableName": "SCQ_04",
                 "isAbout": "items/SCQ_04",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": "SCQ_01 = 1"
             },
             {
                 "variableName": "SCQ_05",
                 "isAbout": "items/SCQ_05",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": "SCQ_01 = 1"
             },
             {
                 "variableName": "SCQ_06",
                 "isAbout": "items/SCQ_06",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": "SCQ_01 = 1"
             },
             {
                 "variableName": "SCQ_07",
                 "isAbout": "items/SCQ_07",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": "SCQ_01 = 1"
             },
             {
                 "variableName": "SCQ_08",
                 "isAbout": "items/SCQ_08",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": "SCQ_01 = 0"
             },
             {
                 "variableName": "SCQ_09",
@@ -299,6 +292,11 @@
                 "isAbout": "items/SCQ_40",
                 "valueRequired": true,
                 "isVis": true
+            },
+            {
+                "isAbout": "items/SCQ_total_score",
+                "variableName": "SCQ_total_score",
+                "isVis": false
             }
         ]
     }

@@ -2,8 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "CIS_SR_08",
-    "prefLabel": "CIS_SR_08",
-    "description": "Q8 of the Columbia Impairment Scale - Self Report Version",
+    "prefLabel": "CIS_SR Q8",
+    "description": "Q8 of the Columbia Impairment Scale - Self Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

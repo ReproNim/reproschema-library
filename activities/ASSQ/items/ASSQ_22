@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "ASSQ_22",
-    "prefLabel": "ASSQ_22",
+    "prefLabel": "ASSQ Q22",
     "description": "Q22 of the Autism Spectrum Screening Questionnaire",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",

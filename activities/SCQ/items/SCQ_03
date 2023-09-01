@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "SCQ_03",
-    "prefLabel": "SCQ_03",
+    "prefLabel": "SCQ Q3",
     "description": "Q3 of the Social Communication Questionnaire",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",

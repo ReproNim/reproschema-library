@@ -11,7 +11,7 @@
     "isProprietary": false,
     "compute": [
         {
-            "variableName": "MFQ_SR_total_core",
+            "variableName": "MFQ_SR_total_score",
             "jsExpression": "MFQ_SR_01 + MFQ_SR_02 + MFQ_SR_03 + MFQ_SR_04 + MFQ_SR_05 + MFQ_SR_06 + MFQ_SR_07 + MFQ_SR_08 + MFQ_SR_09 + MFQ_SR_10 + MFQ_SR_11 + MFQ_SR_12 + MFQ_SR_13 + MFQ_SR_14 + MFQ_SR_15 + MFQ_SR_16 + MFQ_SR_17 + MFQ_SR_18 + MFQ_SR_19 + MFQ_SR_20 + MFQ_SR_21 + MFQ_SR_22 + MFQ_SR_23 + MFQ_SR_24 + MFQ_SR_25 + MFQ_SR_26 + MFQ_SR_27 + MFQ_SR_28 + MFQ_SR_29 + MFQ_SR_30 + MFQ_SR_31 + MFQ_SR_32 + MFQ_SR_33"
         }
     ],
@@ -49,7 +49,8 @@
             "items/MFQ_SR_30",
             "items/MFQ_SR_31",
             "items/MFQ_SR_32",
-            "items/MFQ_SR_33"
+            "items/MFQ_SR_33",
+            "items/MFQ_SR_total_score"
         ],
         "shuffle": false,
         "addProperties": [
@@ -250,6 +251,12 @@
                 "isAbout": "items/MFQ_SR_33",
                 "valueRequired": true,
                 "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_total_score",
+                "isAbout": "items/MFQ_SR_total_score",
+                "valueRequired": true,
+                "isVis": false
             }
         ]
     }

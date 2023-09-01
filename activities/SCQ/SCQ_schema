@@ -11,7 +11,7 @@
     "isProprietary": true,
     "compute": [
         {
-            "variableName": "SCQ_total_core",
+            "variableName": "SCQ_total_score",
             "jsExpression": "SCQ_01 + SCQ_02 + SCQ_03 + SCQ_04 + SCQ_05 + SCQ_06 + SCQ_07 + SCQ_08 + SCQ_09 + SCQ_10 + SCQ_11 + SCQ_12 + SCQ_13 + SCQ_14 + SCQ_15 + SCQ_16 + SCQ_17 + SCQ_18 + SCQ_19 + SCQ_20 + SCQ_21 + SCQ_22 + SCQ_23 + SCQ_24 + SCQ_25 + SCQ_26 + SCQ_27 + SCQ_28 + SCQ_29 + SCQ_30 + SCQ_31 + SCQ_32 + SCQ_33 + SCQ_34 + SCQ_35 + SCQ_36 + SCQ_37 + SCQ_38 + SCQ_39 + SCQ_40"
         }
     ],
@@ -296,6 +296,7 @@
             {
                 "isAbout": "items/SCQ_total_score",
                 "variableName": "SCQ_total_score",
+                "valueRequired": true,
                 "isVis": false
             }
         ]

@@ -11,7 +11,7 @@
     "isProprietary": false,
     "compute": [
         {
-            "variableName": "CIS_P_total_core",
+            "variableName": "CIS_P_total_score",
             "jsExpression": "CIS_P_01 + CIS_P_02 + CIS_P_03 + CIS_P_04 + CIS_P_05 + CIS_P_06 + CIS_P_07 + CIS_P_08 + CIS_P_09 + CIS_P_10 + CIS_P_11 + CIS_P_12 + CIS_P_13"
         }
     ],
@@ -29,7 +29,8 @@
             "items/CIS_P_10",
             "items/CIS_P_11",
             "items/CIS_P_12",
-            "items/CIS_P_13"
+            "items/CIS_P_13",
+            "CIS_P_total_score"
         ],
         "shuffle": false,
         "addProperties": [
@@ -110,6 +111,12 @@
                 "isAbout": "items/CIS_P_13",
                 "valueRequired": true,
                 "isVis": true
+            },
+            {
+                "variableName": "CIS_P_total_score",
+                "isAbout": "CIS_P_total_score",
+                "valueRequired": true,
+                "isVis": false
             }
         ]
     }

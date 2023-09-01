@@ -2,8 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "IAT_14",
-    "prefLabel": "IAT_14",
-    "description": "Q14 of the Internet Addiction Test",
+    "prefLabel": "IAT Q14",
+    "description": "Q14 of the Internet Addiction Test - Self Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

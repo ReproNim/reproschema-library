@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "IAT_total_score",
     "prefLabel": "IAT Total Score",
-    "description": "Total Score of the Internet Addiction Test",
+    "description": "Total Score of the Internet Addiction Test - Self Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {

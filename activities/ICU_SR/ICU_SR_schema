@@ -11,7 +11,7 @@
     "isProprietary": null,
     "compute": [
         {
-            "variableName": "ICU_SR_total_core",
+            "variableName": "ICU_SR_total_score",
             "jsExpression": "ICU_SR_01 + ICU_SR_02 + ICU_SR_03 + ICU_SR_04 + ICU_SR_05 + ICU_SR_06 + ICU_SR_07 + ICU_SR_08 + ICU_SR_09 + ICU_SR_10 + ICU_SR_11 + ICU_SR_12 + ICU_SR_13 + ICU_SR_14 + ICU_SR_15 + ICU_SR_16 + ICU_SR_17 + ICU_SR_18 + ICU_SR_19 + ICU_SR_20 + ICU_SR_21 + ICU_SR_22 + ICU_SR_23 + ICU_SR_24"
         }
     ],
@@ -40,7 +40,8 @@
             "items/ICU_SR_21",
             "items/ICU_SR_22",
             "items/ICU_SR_23",
-            "items/ICU_SR_24"
+            "items/ICU_SR_24",
+            "items/ICU_SR_total_score"
         ],
         "shuffle": false,
         "addProperties": [
@@ -187,6 +188,12 @@
                 "isAbout": "items/ICU_SR_24",
                 "valueRequired": true,
                 "isVis": true
+            },
+            {
+                "variableName": "ICU_SR_total_score",
+                "isAbout": "items/ICU_SR_total_score",
+                "valueRequired": true,
+                "isVis": false
             }
         ]
     }

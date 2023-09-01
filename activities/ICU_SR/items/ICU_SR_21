@@ -2,8 +2,8 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "ICU_SR_21",
-    "prefLabel": "ICU_SR_21",
-    "description": "Q21 of the Inventory of Callous-Unemotional Traits",
+    "prefLabel": "ICU_SR Q21",
+    "description": "Q21 of the Inventory of Callous-Unemotional Traits - Self Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "ARI_P_04",
-    "prefLabel": "ARI_P_04",
+    "prefLabel": "ARI_P Q4",
     "description": "Q4 of the Affective Reactivity Index - Parent Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",

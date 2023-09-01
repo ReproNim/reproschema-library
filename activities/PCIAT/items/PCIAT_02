@@ -3,7 +3,7 @@
     "@type": "reproschema:Field",
     "@id": "PCIAT_02",
     "prefLabel": "PCIAT_02",
-    "description": "Q2 of the Parent Child Internet Addiction Test",
+    "description": "Q2 of the Parent-Child Internet Addiction Test",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {

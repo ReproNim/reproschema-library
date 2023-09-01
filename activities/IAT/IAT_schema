@@ -11,7 +11,7 @@
     "isProprietary": false,
     "compute": [
         {
-            "variableName": "IAT_total_core",
+            "variableName": "IAT_total_score",
             "jsExpression": "IAT_01 + IAT_02 + IAT_03 + IAT_04 + IAT_05 + IAT_06 + IAT_07 + IAT_08 + IAT_09 + IAT_10 + IAT_11 + IAT_12 + IAT_13 + IAT_14 + IAT_15 + IAT_16 + IAT_17 + IAT_18 + IAT_19 + IAT_20"
         }
     ],
@@ -36,7 +36,8 @@
             "items/IAT_17",
             "items/IAT_18",
             "items/IAT_19",
-            "items/IAT_20"
+            "items/IAT_20",
+            "items/IAT_total_score"
         ],
         "shuffle": false,
         "addProperties": [
@@ -159,6 +160,12 @@
                 "isAbout": "items/IAT_20",
                 "valueRequired": true,
                 "isVis": true
+            },
+            {
+                "variableName": "IAT_total_score",
+                "isAbout": "items/IAT_total_score",
+                "valueRequired": true,
+                "isVis": false
             }
         ]
     }

@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "PCIAT_schema",
     "prefLabel": "PCIAT",
-    "description": "This 20-item questionnaire measures mild, moderate, and severe levels of Internet Addiction. The Parent-Child Internet Addiction test will help you determine if you may be dealing with Internet Addiction in your home.",
+    "description": "This 20-item questionnaire measures mild, moderate, and severe levels of Internet Addiction. The Parent-Child Internet Addiction Test will help you determine if you may be dealing with Internet Addiction in your home.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "Young, K. S. (1998) Internet addiction: The emergence of a new clinical disorder. CyberPsychology and Behavior, 1(3), 237-244.",
@@ -11,7 +11,7 @@
     "isProprietary": true,
     "compute": [
         {
-            "variableName": "PCIAT_total_core",
+            "variableName": "PCIAT_total_score",
             "jsExpression": "PCIAT_01 + PCIAT_02 + PCIAT_03 + PCIAT_04 + PCIAT_05 + PCIAT_06 + PCIAT_07 + PCIAT_08 + PCIAT_09 + PCIAT_10 + PCIAT_11 + PCIAT_12 + PCIAT_13 + PCIAT_14 + PCIAT_15 + PCIAT_16 + PCIAT_17 + PCIAT_18 + PCIAT_19 + PCIAT_20"
         }
     ],
@@ -36,7 +36,8 @@
             "items/PCIAT_17",
             "items/PCIAT_18",
             "items/PCIAT_19",
-            "items/PCIAT_20"
+            "items/PCIAT_20",
+            "items/PCIAT_total_score"
         ],
         "shuffle": false,
         "addProperties": [
@@ -159,6 +160,12 @@
                 "isAbout": "items/PCIAT_20",
                 "valueRequired": true,
                 "isVis": true
+            },
+            {
+                "variableName": "PCIAT_total_score",
+                "isAbout": "items/PCIAT_total_score",
+                "valueRequired": true,
+                "isVis": false
             }
         ]
     }

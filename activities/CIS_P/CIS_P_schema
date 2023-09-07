@@ -115,7 +115,6 @@
             {
                 "variableName": "CIS_P_total_score",
                 "isAbout": "CIS_P_total_score",
-                "valueRequired": true,
                 "isVis": false
             }
         ]

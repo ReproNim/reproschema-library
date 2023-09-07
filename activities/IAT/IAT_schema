@@ -164,7 +164,6 @@
             {
                 "variableName": "IAT_total_score",
                 "isAbout": "items/IAT_total_score",
-                "valueRequired": true,
                 "isVis": false
             }
         ]

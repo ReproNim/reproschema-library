@@ -296,7 +296,6 @@
             {
                 "isAbout": "items/SCQ_total_score",
                 "variableName": "SCQ_total_score",
-                "valueRequired": true,
                 "isVis": false
             }
         ]

@@ -164,7 +164,6 @@
             {
                 "variableName": "PCIAT_total_score",
                 "isAbout": "items/PCIAT_total_score",
-                "valueRequired": true,
                 "isVis": false
             }
         ]

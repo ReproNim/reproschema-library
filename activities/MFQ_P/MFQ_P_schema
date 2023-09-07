@@ -262,7 +262,6 @@
             {
                 "variableName": "MFQ_P_total_score",
                 "isAbout": "items/MFQ_P_total_score",
-                "valueRequired": true,
                 "isVis": false
             }
         ]

@@ -94,7 +94,6 @@
             {
                 "variableName": "ACE_total_score",
                 "isAbout": "items/ACE_total_score",
-                "valueRequired": true,
                 "isVis": false
             }
         ]

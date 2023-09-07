@@ -255,7 +255,6 @@
             {
                 "variableName": "MFQ_SR_total_score",
                 "isAbout": "items/MFQ_SR_total_score",
-                "valueRequired": true,
                 "isVis": false
             }
         ]

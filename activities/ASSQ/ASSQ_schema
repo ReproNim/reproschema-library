@@ -1,0 +1,220 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "ASSQ_schema",
+    "prefLabel": "ASSQ",
+    "description": "The ASSQ is a 27-item checklist for completion by lay informants when assessing symptoms characteristic of Asperger's Syndrome or high-functioning autism spectrum disorders.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "Ehlers, S., Gillberg, C., & Wing, L. (1999). A screening questionnaire for Asperger syndrome and other high-functioning autism spectrum disorders in school age children. Journal of autism and developmental disorders, 29(2), 129-141.",
+    "preamble": "Please read the statement below and indicate by tapping, No, Somewhat, or Yes if this child stands out as different from other children of his/her age in the following ways:",
+    "isProprietary": false,
+    "compute": [
+        {
+            "variableName": "ASSQ_total_score",
+            "jsExpression": "ASSQ_01 + ASSQ_02 + ASSQ_03 + ASSQ_04 + ASSQ_05 + ASSQ_06 + ASSQ_07 + ASSQ_08 + ASSQ_09 + ASSQ_10 + ASSQ_11 + ASSQ_12 + ASSQ_13 + ASSQ_14 + ASSQ_15 + ASSQ_16 + ASSQ_17 + ASSQ_18 + ASSQ_19 + ASSQ_20 + ASSQ_21 + ASSQ_22 + ASSQ_23 + ASSQ_24 + ASSQ_25 + ASSQ_26 + ASSQ_27"
+        }
+    ],
+    "ui": {
+        "order": [
+            "items/ASSQ_01",
+            "items/ASSQ_02",
+            "items/ASSQ_03",
+            "items/ASSQ_04",
+            "items/ASSQ_05",
+            "items/ASSQ_06",
+            "items/ASSQ_07",
+            "items/ASSQ_08",
+            "items/ASSQ_09",
+            "items/ASSQ_10",
+            "items/ASSQ_11",
+            "items/ASSQ_12",
+            "items/ASSQ_13",
+            "items/ASSQ_14",
+            "items/ASSQ_15",
+            "items/ASSQ_16",
+            "items/ASSQ_17",
+            "items/ASSQ_18",
+            "items/ASSQ_19",
+            "items/ASSQ_20",
+            "items/ASSQ_21",
+            "items/ASSQ_22",
+            "items/ASSQ_23",
+            "items/ASSQ_24",
+            "items/ASSQ_25",
+            "items/ASSQ_26",
+            "items/ASSQ_27",
+            "items/ASSQ_total_score"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "ASSQ_01",
+                "isAbout": "items/ASSQ_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_02",
+                "isAbout": "items/ASSQ_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_03",
+                "isAbout": "items/ASSQ_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_04",
+                "isAbout": "items/ASSQ_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_05",
+                "isAbout": "items/ASSQ_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_06",
+                "isAbout": "items/ASSQ_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_07",
+                "isAbout": "items/ASSQ_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_08",
+                "isAbout": "items/ASSQ_08",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_09",
+                "isAbout": "items/ASSQ_09",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_10",
+                "isAbout": "items/ASSQ_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_11",
+                "isAbout": "items/ASSQ_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_12",
+                "isAbout": "items/ASSQ_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_13",
+                "isAbout": "items/ASSQ_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_14",
+                "isAbout": "items/ASSQ_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_15",
+                "isAbout": "items/ASSQ_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_16",
+                "isAbout": "items/ASSQ_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_17",
+                "isAbout": "items/ASSQ_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_18",
+                "isAbout": "items/ASSQ_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_19",
+                "isAbout": "items/ASSQ_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_20",
+                "isAbout": "items/ASSQ_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_21",
+                "isAbout": "items/ASSQ_21",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_22",
+                "isAbout": "items/ASSQ_22",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_23",
+                "isAbout": "items/ASSQ_23",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_24",
+                "isAbout": "items/ASSQ_24",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_25",
+                "isAbout": "items/ASSQ_25",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_26",
+                "isAbout": "items/ASSQ_26",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_27",
+                "isAbout": "items/ASSQ_27",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "ASSQ_total_score",
+                "isAbout": "items/ASSQ_total_score",
+                "isVis": false
+            }
+        ]
+    }
+}

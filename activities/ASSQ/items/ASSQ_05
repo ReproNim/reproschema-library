@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ASSQ_05",
+    "prefLabel": "ASSQ Q5",
+    "description": "Q5 of the Autism Spectrum Screening Questionnaire",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "has a literal understanding of ambiguous and metaphoric language (i.e. takes things literally; troubles understanding expressions or metaphors)"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

@@ -1,0 +1,171 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "PCIAT_schema",
+    "prefLabel": "PCIAT",
+    "description": "This 20-item questionnaire measures mild, moderate, and severe levels of Internet Addiction. The Parent-Child Internet Addiction Test will help you determine if you may be dealing with Internet Addiction in your home.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "Young, K. S. (1998) Internet addiction: The emergence of a new clinical disorder. CyberPsychology and Behavior, 1(3), 237-244.",
+    "preamble": "To assess your child's level of addiction to the Internet, answer the following questions. Remember, when answering, only consider time your child uses the Internet for non-academic purposes.    ",
+    "isProprietary": true,
+    "compute": [
+        {
+            "variableName": "PCIAT_total_score",
+            "jsExpression": "PCIAT_01 + PCIAT_02 + PCIAT_03 + PCIAT_04 + PCIAT_05 + PCIAT_06 + PCIAT_07 + PCIAT_08 + PCIAT_09 + PCIAT_10 + PCIAT_11 + PCIAT_12 + PCIAT_13 + PCIAT_14 + PCIAT_15 + PCIAT_16 + PCIAT_17 + PCIAT_18 + PCIAT_19 + PCIAT_20"
+        }
+    ],
+    "ui": {
+        "order": [
+            "items/PCIAT_01",
+            "items/PCIAT_02",
+            "items/PCIAT_03",
+            "items/PCIAT_04",
+            "items/PCIAT_05",
+            "items/PCIAT_06",
+            "items/PCIAT_07",
+            "items/PCIAT_08",
+            "items/PCIAT_09",
+            "items/PCIAT_10",
+            "items/PCIAT_11",
+            "items/PCIAT_12",
+            "items/PCIAT_13",
+            "items/PCIAT_14",
+            "items/PCIAT_15",
+            "items/PCIAT_16",
+            "items/PCIAT_17",
+            "items/PCIAT_18",
+            "items/PCIAT_19",
+            "items/PCIAT_20",
+            "items/PCIAT_total_score"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "PCIAT_01",
+                "isAbout": "items/PCIAT_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_02",
+                "isAbout": "items/PCIAT_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_03",
+                "isAbout": "items/PCIAT_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_04",
+                "isAbout": "items/PCIAT_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_05",
+                "isAbout": "items/PCIAT_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_06",
+                "isAbout": "items/PCIAT_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_07",
+                "isAbout": "items/PCIAT_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_08",
+                "isAbout": "items/PCIAT_08",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_09",
+                "isAbout": "items/PCIAT_09",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_10",
+                "isAbout": "items/PCIAT_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_11",
+                "isAbout": "items/PCIAT_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_12",
+                "isAbout": "items/PCIAT_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_13",
+                "isAbout": "items/PCIAT_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_14",
+                "isAbout": "items/PCIAT_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_15",
+                "isAbout": "items/PCIAT_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_16",
+                "isAbout": "items/PCIAT_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_17",
+                "isAbout": "items/PCIAT_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_18",
+                "isAbout": "items/PCIAT_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_19",
+                "isAbout": "items/PCIAT_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_20",
+                "isAbout": "items/PCIAT_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "PCIAT_total_score",
+                "isAbout": "items/PCIAT_total_score",
+                "isVis": false
+            }
+        ]
+    }
+}

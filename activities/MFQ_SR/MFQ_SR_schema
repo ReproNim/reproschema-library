@@ -1,0 +1,262 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "MFQ_SR_schema",
+    "prefLabel": "MFQ_SR",
+    "description": "The MFQ consists of a series of descriptive phrases regarding how the subject has been feeling or acting recently. Codings reflect whether the phrase was descriptive of the subject most of the time, sometimes, or not at all in the past two weeks.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "citation": "Angold, A., Costello, E. J., Messer, S. C., Pickles, A., Winder, F., & Silver, D. (1995) The development of a short questionnaire for use in epidemiological studies of depression in children and adolescents. International Journal of Methods in Psychiatric Research, 5, 237 - 249.",
+    "preamble": "These questions are about how you might have been feeling or acting recently. For each question, please check how you have been feeling or acting in the past two weeks.",
+    "isProprietary": false,
+    "compute": [
+        {
+            "variableName": "MFQ_SR_total_score",
+            "jsExpression": "MFQ_SR_01 + MFQ_SR_02 + MFQ_SR_03 + MFQ_SR_04 + MFQ_SR_05 + MFQ_SR_06 + MFQ_SR_07 + MFQ_SR_08 + MFQ_SR_09 + MFQ_SR_10 + MFQ_SR_11 + MFQ_SR_12 + MFQ_SR_13 + MFQ_SR_14 + MFQ_SR_15 + MFQ_SR_16 + MFQ_SR_17 + MFQ_SR_18 + MFQ_SR_19 + MFQ_SR_20 + MFQ_SR_21 + MFQ_SR_22 + MFQ_SR_23 + MFQ_SR_24 + MFQ_SR_25 + MFQ_SR_26 + MFQ_SR_27 + MFQ_SR_28 + MFQ_SR_29 + MFQ_SR_30 + MFQ_SR_31 + MFQ_SR_32 + MFQ_SR_33"
+        }
+    ],
+    "ui": {
+        "order": [
+            "items/MFQ_SR_01",
+            "items/MFQ_SR_02",
+            "items/MFQ_SR_03",
+            "items/MFQ_SR_04",
+            "items/MFQ_SR_05",
+            "items/MFQ_SR_06",
+            "items/MFQ_SR_07",
+            "items/MFQ_SR_08",
+            "items/MFQ_SR_09",
+            "items/MFQ_SR_10",
+            "items/MFQ_SR_11",
+            "items/MFQ_SR_12",
+            "items/MFQ_SR_13",
+            "items/MFQ_SR_14",
+            "items/MFQ_SR_15",
+            "items/MFQ_SR_16",
+            "items/MFQ_SR_17",
+            "items/MFQ_SR_18",
+            "items/MFQ_SR_19",
+            "items/MFQ_SR_20",
+            "items/MFQ_SR_21",
+            "items/MFQ_SR_22",
+            "items/MFQ_SR_23",
+            "items/MFQ_SR_24",
+            "items/MFQ_SR_25",
+            "items/MFQ_SR_26",
+            "items/MFQ_SR_27",
+            "items/MFQ_SR_28",
+            "items/MFQ_SR_29",
+            "items/MFQ_SR_30",
+            "items/MFQ_SR_31",
+            "items/MFQ_SR_32",
+            "items/MFQ_SR_33",
+            "items/MFQ_SR_total_score"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "MFQ_SR_01",
+                "isAbout": "items/MFQ_SR_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_02",
+                "isAbout": "items/MFQ_SR_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_03",
+                "isAbout": "items/MFQ_SR_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_04",
+                "isAbout": "items/MFQ_SR_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_05",
+                "isAbout": "items/MFQ_SR_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_06",
+                "isAbout": "items/MFQ_SR_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_07",
+                "isAbout": "items/MFQ_SR_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_08",
+                "isAbout": "items/MFQ_SR_08",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_09",
+                "isAbout": "items/MFQ_SR_09",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_10",
+                "isAbout": "items/MFQ_SR_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_11",
+                "isAbout": "items/MFQ_SR_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_12",
+                "isAbout": "items/MFQ_SR_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_13",
+                "isAbout": "items/MFQ_SR_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_14",
+                "isAbout": "items/MFQ_SR_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_15",
+                "isAbout": "items/MFQ_SR_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_16",
+                "isAbout": "items/MFQ_SR_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_17",
+                "isAbout": "items/MFQ_SR_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_18",
+                "isAbout": "items/MFQ_SR_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_19",
+                "isAbout": "items/MFQ_SR_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_20",
+                "isAbout": "items/MFQ_SR_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_21",
+                "isAbout": "items/MFQ_SR_21",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_22",
+                "isAbout": "items/MFQ_SR_22",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_23",
+                "isAbout": "items/MFQ_SR_23",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_24",
+                "isAbout": "items/MFQ_SR_24",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_25",
+                "isAbout": "items/MFQ_SR_25",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_26",
+                "isAbout": "items/MFQ_SR_26",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_27",
+                "isAbout": "items/MFQ_SR_27",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_28",
+                "isAbout": "items/MFQ_SR_28",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_29",
+                "isAbout": "items/MFQ_SR_29",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_30",
+                "isAbout": "items/MFQ_SR_30",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_31",
+                "isAbout": "items/MFQ_SR_31",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_32",
+                "isAbout": "items/MFQ_SR_32",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_33",
+                "isAbout": "items/MFQ_SR_33",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "MFQ_SR_total_score",
+                "isAbout": "items/MFQ_SR_total_score",
+                "isVis": false
+            }
+        ]
+    }
+}

@@ -7,6 +7,81 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": "Below is a list of items that describe children and youths. For each item that describes your child now or within the past 6 months",
+    "compute": [
+        {
+            "variableName": "cbcl_anxious_raw",
+            "jsExpression": "cbcl_q14_p + cbcl_q29_p + cbcl_q30_p + cbcl_q31_p + cbcl_q32_p + cbcl_q33_p + cbcl_q35_p + cbcl_q45_p + cbcl_q50_p + cbcl_q52_p + cbcl_q71_p + cbcl_q91_p + cbcl_q112_p"
+        },
+        {
+            "variableName": "cbcl_withdrawn_raw",
+            "jsExpression": "cbcl_q05_p + cbcl_q42_p + cbcl_q65_p + cbcl_q69_p + cbcl_q75_p + cbcl_q102_p + cbcl_q103_p + cbcl_q111_p"
+        },
+        {
+            "variableName": "cbcl_somatic_c_raw",
+            "jsExpression": "cbcl_q47_p + cbcl_q49_p + cbcl_q51_p + cbcl_q54_p + cbcl_q56a_p + cbcl_q56b_p + cbcl_q56c_p + cbcl_q56d_p + cbcl_q56e_p + cbcl_q56f_p + cbcl_q56g_p"
+        },
+        {
+            "variableName": "cbcl_social_p_raw",
+            "jsExpression": "cbcl_q11_p + cbcl_q12_p + cbcl_q25_p + cbcl_q27_p + cbcl_q34_p + cbcl_q36_p + cbcl_q38_p + cbcl_q48_p + cbcl_q62_p + cbcl_q64_p + cbcl_q79_p"
+        },
+        {
+            "variableName": "cbcl_thought_raw",
+            "jsExpression": "cbcl_q09_p + cbcl_q18_p + cbcl_q40_p + cbcl_q46_p + cbcl_q58_p + cbcl_q59_p + cbcl_q60_p + cbcl_q66_p + cbcl_q70_p + cbcl_q76_p + cbcl_q83_p + cbcl_q84_p + cbcl_q85_p + cbcl_q92_p + cbcl_q100_p"
+        },
+        {
+            "variableName": "cbcl_attention_raw",
+            "jsExpression": "cbcl_q01_p + cbcl_q04_p + cbcl_q08_p + cbcl_q10_p + cbcl_q13_p + cbcl_q17_p + cbcl_q41_p + cbcl_q61_p + cbcl_q78_p + cbcl_q80_p"
+        },
+        {
+            "variableName": "cbcl_rulebreak_raw",
+            "jsExpression": "cbcl_q02_p + cbcl_q26_p + cbcl_q28_p + cbcl_q39_p + cbcl_q43_p + cbcl_q63_p + cbcl_q67_p + cbcl_q72_p + cbcl_q73_p + cbcl_q81_p + cbcl_q82_p + cbcl_q90_p + cbcl_q96_p + cbcl_q99_p + cbcl_q101_p + cbcl_q105_p + cbcl_q106_p"
+        },
+        {
+            "variableName": "cbcl_aggresive_raw",
+            "jsExpression": "cbcl_q03_p + cbcl_q16_p + cbcl_q19_p + cbcl_q20_p + cbcl_q21_p + cbcl_q22_p + cbcl_q23_p + cbcl_q37_p + cbcl_q57_p + cbcl_q68_p + cbcl_q86_p + cbcl_q87_p + cbcl_q88_p + cbcl_q89_p + cbcl_q94_p + cbcl_q95_p + cbcl_q97_p + cbcl_q104_p"
+        },
+        {
+            "variableName": "cbcl_other_raw",
+            "jsExpression": "cbcl_q06_p + cbcl_q07_p + cbcl_q15_p + cbcl_q24_p + cbcl_q44_p + cbcl_q53_p + cbcl_q55_p + cbcl_q56h_p + cbcl_q74_p + cbcl_q77_p + cbcl_q93_p + cbcl_q98_p + cbcl_q107_p + cbcl_q108_p + cbcl_q109_p + cbcl_q110_p + cbcl_q113_p" 
+        },
+        {
+            "variableName": "cbcl_internal_raw",
+            "jsExpression": "cbcl_anxious_raw + cbcl_withdrawn_raw + cbcl_somatic_c_raw"
+        },
+        {
+            "variableName": "cbcl_external_raw",
+            "jsExpression": "cbcl_rulebreak_raw + cbcl_aggresive_raw"
+        },
+        {
+            "variableName": "cbcl_total_raw",
+            "jsExpression": "cbcl_anxious_raw + cbcl_withdrawn_raw + cbcl_somatic_c_raw + cbcl_social_p_raw + cbcl_thought_raw + cbcl_attention_raw + cbcl_rulebreak_raw + cbcl_aggresive_raw + cbcl_other_raw"
+        },
+        {
+            "variableName": "cbcl_depress_raw",
+            "jsExpression": "cbcl_q05_p + cbcl_q14_p + cbcl_q18_p + cbcl_q24_p + cbcl_q35_p + cbcl_q52_p + cbcl_q54_p + cbcl_q76_p + cbcl_q77_p + cbcl_q91_p + cbcl_q100_p + cbcl_q102_p + cbcl_q103_p"
+        },
+        {
+            "variableName": "cbcl_anxiety_raw",
+            "jsExpression": "cbcl_q11_p + cbcl_q29_p + cbcl_q30_p + cbcl_q31_p + cbcl_q45_p + cbcl_q47_p + cbcl_q50_p + cbcl_q71_p + cbcl_q112_p"
+        },
+        {
+            "variableName": "cbcl_somatic_p_raw",
+            "jsExpression": "cbcl_q56a_p + cbcl_q56b_p + cbcl_q56c_p + cbcl_q56d_p + cbcl_q56e_p + cbcl_q56f_p + cbcl_q56g_p"
+        },
+        {
+            "variableName": "cbcl_adhd_raw",
+            "jsExpression": "cbcl_q04_p + cbcl_q08_p + cbcl_q10_p + cbcl_q41_p + cbcl_q78_p + cbcl_q93_p + cbcl_q104_p"
+        },
+        {
+            "variableName": "cbcl_oppositional_raw",
+            "jsExpression":"cbcl_q03_p + cbcl_q22_p + cbcl_q23_p + cbcl_q86_p + cbcl_q95_p"
+        },
+        {
+            "variableName": "cbcl_conduct_raw",
+            "jsExpression":"cbcl_q15_p + cbcl_q16_p + cbcl_q21_p + cbcl_q26_p + cbcl_q28_p + cbcl_q37_p + cbcl_q39_p + cbcl_q43_p + cbcl_q57_p + cbcl_q67_p + cbcl_q72_p + cbcl_q81_p + cbcl_q82_p + cbcl_q90_p + cbcl_q97_p + cbcl_q101_p + cbcl_q106_p"   
+        }
+
+    ],
     "ui": {
         "order": [
             "items/cbcl_q01_p",
@@ -127,485 +202,842 @@
             "items/cbcl_q109_p",
             "items/cbcl_q110_p",
             "items/cbcl_q111_p",
-            "items/cbcl_q112_p"
+            "items/cbcl_q112_p",
+            "items/cbcl_anxious_raw",
+            "items/cbcl_withdrawn_raw",
+            "items/cbcl_somatic_c_raw", 
+            "items/cbcl_social_p_raw", 
+            "items/cbcl_thought_raw", 
+            "items/cbcl_attention_raw", 
+            "items/cbcl_rulebreak_raw", 
+            "items/cbcl_aggresive_raw", 
+            "items/cbcl_other_raw", 
+            "items/cbcl_internal_raw", 
+            "items/cbcl_external_raw", 
+            "items/cbcl_total_raw",
+            "items/cbcl_depress_raw", 
+            "items/cbcl_anxiety_raw", 
+            "items/cbcl_somatic_p_raw", 
+            "items/cbcl_adhd_raw", 
+            "items/cbcl_oppositional_raw", 
+            "items/cbcl_conduct_raw"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "cbcl_q01_p",
-                "isAbout": "items/cbcl_q01_p"
+                "isAbout": "items/cbcl_q01_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q02_p",
-                "isAbout": "items/cbcl_q02_p"
+                "isAbout": "items/cbcl_q02_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q03_p",
-                "isAbout": "items/cbcl_q03_p"
+                "isAbout": "items/cbcl_q03_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q04_p",
-                "isAbout": "items/cbcl_q04_p"
+                "isAbout": "items/cbcl_q04_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q05_p",
-                "isAbout": "items/cbcl_q05_p"
+                "isAbout": "items/cbcl_q05_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q06_p",
-                "isAbout": "items/cbcl_q06_p"
+                "isAbout": "items/cbcl_q06_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q07_p",
-                "isAbout": "items/cbcl_q07_p"
+                "isAbout": "items/cbcl_q07_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q08_p",
-                "isAbout": "items/cbcl_q08_p"
+                "isAbout": "items/cbcl_q08_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q09_p",
-                "isAbout": "items/cbcl_q09_p"
+                "isAbout": "items/cbcl_q09_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q10_p",
-                "isAbout": "items/cbcl_q10_p"
-            },
-            {
-                "variableName": "cbcl_q100_p",
-                "isAbout": "items/cbcl_q100_p"
-            },
-            {
-                "variableName": "cbcl_q101_p",
-                "isAbout": "items/cbcl_q101_p"
-            },
-            {
-                "variableName": "cbcl_q102_p",
-                "isAbout": "items/cbcl_q102_p"
-            },
-            {
-                "variableName": "cbcl_q103_p",
-                "isAbout": "items/cbcl_q103_p"
-            },
-            {
-                "variableName": "cbcl_q104_p",
-                "isAbout": "items/cbcl_q104_p"
-            },
-            {
-                "variableName": "cbcl_q105_p",
-                "isAbout": "items/cbcl_q105_p"
-            },
-            {
-                "variableName": "cbcl_q106_p",
-                "isAbout": "items/cbcl_q106_p"
-            },
-            {
-                "variableName": "cbcl_q107_p",
-                "isAbout": "items/cbcl_q107_p"
-            },
-            {
-                "variableName": "cbcl_q108_p",
-                "isAbout": "items/cbcl_q108_p"
-            },
-            {
-                "variableName": "cbcl_q109_p",
-                "isAbout": "items/cbcl_q109_p"
+                "isAbout": "items/cbcl_q10_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q11_p",
-                "isAbout": "items/cbcl_q11_p"
-            },
-            {
-                "variableName": "cbcl_q110_p",
-                "isAbout": "items/cbcl_q110_p"
-            },
-            {
-                "variableName": "cbcl_q111_p",
-                "isAbout": "items/cbcl_q111_p"
-            },
-            {
-                "variableName": "cbcl_q112_p",
-                "isAbout": "items/cbcl_q112_p"
+                "isAbout": "items/cbcl_q11_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q12_p",
-                "isAbout": "items/cbcl_q12_p"
+                "isAbout": "items/cbcl_q12_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q13_p",
-                "isAbout": "items/cbcl_q13_p"
+                "isAbout": "items/cbcl_q13_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q14_p",
-                "isAbout": "items/cbcl_q14_p"
+                "isAbout": "items/cbcl_q14_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q15_p",
-                "isAbout": "items/cbcl_q15_p"
+                "isAbout": "items/cbcl_q15_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q16_p",
-                "isAbout": "items/cbcl_q16_p"
+                "isAbout": "items/cbcl_q16_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q17_p",
-                "isAbout": "items/cbcl_q17_p"
+                "isAbout": "items/cbcl_q17_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q18_p",
-                "isAbout": "items/cbcl_q18_p"
+                "isAbout": "items/cbcl_q18_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q19_p",
-                "isAbout": "items/cbcl_q19_p"
+                "isAbout": "items/cbcl_q19_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q20_p",
-                "isAbout": "items/cbcl_q20_p"
+                "isAbout": "items/cbcl_q20_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q21_p",
-                "isAbout": "items/cbcl_q21_p"
+                "isAbout": "items/cbcl_q21_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q22_p",
-                "isAbout": "items/cbcl_q22_p"
+                "isAbout": "items/cbcl_q22_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q23_p",
-                "isAbout": "items/cbcl_q23_p"
+                "isAbout": "items/cbcl_q23_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q24_p",
-                "isAbout": "items/cbcl_q24_p"
+                "isAbout": "items/cbcl_q24_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q25_p",
-                "isAbout": "items/cbcl_q25_p"
+                "isAbout": "items/cbcl_q25_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q26_p",
-                "isAbout": "items/cbcl_q26_p"
+                "isAbout": "items/cbcl_q26_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q27_p",
-                "isAbout": "items/cbcl_q27_p"
+                "isAbout": "items/cbcl_q27_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q28_p",
-                "isAbout": "items/cbcl_q28_p"
+                "isAbout": "items/cbcl_q28_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q29_p",
-                "isAbout": "items/cbcl_q29_p"
+                "isAbout": "items/cbcl_q29_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q30_p",
-                "isAbout": "items/cbcl_q30_p"
+                "isAbout": "items/cbcl_q30_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q31_p",
-                "isAbout": "items/cbcl_q31_p"
+                "isAbout": "items/cbcl_q31_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q32_p",
-                "isAbout": "items/cbcl_q32_p"
+                "isAbout": "items/cbcl_q32_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q33_p",
-                "isAbout": "items/cbcl_q33_p"
+                "isAbout": "items/cbcl_q33_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q34_p",
-                "isAbout": "items/cbcl_q34_p"
+                "isAbout": "items/cbcl_q34_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q35_p",
-                "isAbout": "items/cbcl_q35_p"
+                "isAbout": "items/cbcl_q35_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q36_p",
-                "isAbout": "items/cbcl_q36_p"
+                "isAbout": "items/cbcl_q36_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q37_p",
-                "isAbout": "items/cbcl_q37_p"
+                "isAbout": "items/cbcl_q37_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q38_p",
-                "isAbout": "items/cbcl_q38_p"
+                "isAbout": "items/cbcl_q38_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q39_p",
-                "isAbout": "items/cbcl_q39_p"
+                "isAbout": "items/cbcl_q39_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q40_p",
-                "isAbout": "items/cbcl_q40_p"
+                "isAbout": "items/cbcl_q40_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q41_p",
-                "isAbout": "items/cbcl_q41_p"
+                "isAbout": "items/cbcl_q41_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q42_p",
-                "isAbout": "items/cbcl_q42_p"
+                "isAbout": "items/cbcl_q42_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q43_p",
-                "isAbout": "items/cbcl_q43_p"
+                "isAbout": "items/cbcl_q43_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q44_p",
-                "isAbout": "items/cbcl_q44_p"
+                "isAbout": "items/cbcl_q44_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q45_p",
-                "isAbout": "items/cbcl_q45_p"
+                "isAbout": "items/cbcl_q45_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q46_p",
-                "isAbout": "items/cbcl_q46_p"
+                "isAbout": "items/cbcl_q46_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q47_p",
-                "isAbout": "items/cbcl_q47_p"
+                "isAbout": "items/cbcl_q47_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q48_p",
-                "isAbout": "items/cbcl_q48_p"
+                "isAbout": "items/cbcl_q48_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q49_p",
-                "isAbout": "items/cbcl_q49_p"
+                "isAbout": "items/cbcl_q49_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q50_p",
-                "isAbout": "items/cbcl_q50_p"
+                "isAbout": "items/cbcl_q50_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q51_p",
-                "isAbout": "items/cbcl_q51_p"
+                "isAbout": "items/cbcl_q51_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q52_p",
-                "isAbout": "items/cbcl_q52_p"
+                "isAbout": "items/cbcl_q52_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q53_p",
-                "isAbout": "items/cbcl_q53_p"
+                "isAbout": "items/cbcl_q53_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q54_p",
-                "isAbout": "items/cbcl_q54_p"
+                "isAbout": "items/cbcl_q54_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q55_p",
-                "isAbout": "items/cbcl_q55_p"
+                "isAbout": "items/cbcl_q55_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56a_p",
-                "isAbout": "items/cbcl_q56a_p"
+                "isAbout": "items/cbcl_q56a_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56b_p",
-                "isAbout": "items/cbcl_q56b_p"
+                "isAbout": "items/cbcl_q56b_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56c_p",
-                "isAbout": "items/cbcl_q56c_p"
+                "isAbout": "items/cbcl_q56c_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56d_p",
-                "isAbout": "items/cbcl_q56d_p"
+                "isAbout": "items/cbcl_q56d_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56e_p",
-                "isAbout": "items/cbcl_q56e_p"
+                "isAbout": "items/cbcl_q56e_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56f_p",
-                "isAbout": "items/cbcl_q56f_p"
+                "isAbout": "items/cbcl_q56f_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56g_p",
-                "isAbout": "items/cbcl_q56g_p"
+                "isAbout": "items/cbcl_q56g_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q56h_p",
-                "isAbout": "items/cbcl_q56h_p"
+                "isAbout": "items/cbcl_q56h_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q57_p",
-                "isAbout": "items/cbcl_q57_p"
+                "isAbout": "items/cbcl_q57_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q58_p",
-                "isAbout": "items/cbcl_q58_p"
+                "isAbout": "items/cbcl_q58_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q59_p",
-                "isAbout": "items/cbcl_q59_p"
+                "isAbout": "items/cbcl_q59_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q60_p",
-                "isAbout": "items/cbcl_q60_p"
+                "isAbout": "items/cbcl_q60_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q61_p",
-                "isAbout": "items/cbcl_q61_p"
+                "isAbout": "items/cbcl_q61_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q62_p",
-                "isAbout": "items/cbcl_q62_p"
+                "isAbout": "items/cbcl_q62_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q63_p",
-                "isAbout": "items/cbcl_q63_p"
+                "isAbout": "items/cbcl_q63_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q64_p",
-                "isAbout": "items/cbcl_q64_p"
+                "isAbout": "items/cbcl_q64_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q65_p",
-                "isAbout": "items/cbcl_q65_p"
+                "isAbout": "items/cbcl_q65_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q66_p",
-                "isAbout": "items/cbcl_q66_p"
+                "isAbout": "items/cbcl_q66_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q67_p",
-                "isAbout": "items/cbcl_q67_p"
+                "isAbout": "items/cbcl_q67_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q68_p",
-                "isAbout": "items/cbcl_q68_p"
+                "isAbout": "items/cbcl_q68_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q69_p",
-                "isAbout": "items/cbcl_q69_p"
+                "isAbout": "items/cbcl_q69_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q70_p",
-                "isAbout": "items/cbcl_q70_p"
+                "isAbout": "items/cbcl_q70_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q71_p",
-                "isAbout": "items/cbcl_q71_p"
+                "isAbout": "items/cbcl_q71_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q72_p",
-                "isAbout": "items/cbcl_q72_p"
+                "isAbout": "items/cbcl_q72_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q73_p",
-                "isAbout": "items/cbcl_q73_p"
+                "isAbout": "items/cbcl_q73_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q74_p",
-                "isAbout": "items/cbcl_q74_p"
+                "isAbout": "items/cbcl_q74_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q75_p",
-                "isAbout": "items/cbcl_q75_p"
+                "isAbout": "items/cbcl_q75_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q76_p",
-                "isAbout": "items/cbcl_q76_p"
+                "isAbout": "items/cbcl_q76_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q77_p",
-                "isAbout": "items/cbcl_q77_p"
+                "isAbout": "items/cbcl_q77_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q78_p",
-                "isAbout": "items/cbcl_q78_p"
+                "isAbout": "items/cbcl_q78_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q79_p",
-                "isAbout": "items/cbcl_q79_p"
+                "isAbout": "items/cbcl_q79_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q80_p",
-                "isAbout": "items/cbcl_q80_p"
+                "isAbout": "items/cbcl_q80_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q81_p",
-                "isAbout": "items/cbcl_q81_p"
+                "isAbout": "items/cbcl_q81_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q82_p",
-                "isAbout": "items/cbcl_q82_p"
+                "isAbout": "items/cbcl_q82_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q83_p",
-                "isAbout": "items/cbcl_q83_p"
+                "isAbout": "items/cbcl_q83_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q84_p",
-                "isAbout": "items/cbcl_q84_p"
+                "isAbout": "items/cbcl_q84_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q85_p",
-                "isAbout": "items/cbcl_q85_p"
+                "isAbout": "items/cbcl_q85_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q86_p",
-                "isAbout": "items/cbcl_q86_p"
+                "isAbout": "items/cbcl_q86_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q87_p",
-                "isAbout": "items/cbcl_q87_p"
+                "isAbout": "items/cbcl_q87_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q88_p",
-                "isAbout": "items/cbcl_q88_p"
+                "isAbout": "items/cbcl_q88_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q89_p",
-                "isAbout": "items/cbcl_q89_p"
+                "isAbout": "items/cbcl_q89_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q90_p",
-                "isAbout": "items/cbcl_q90_p"
+                "isAbout": "items/cbcl_q90_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q91_p",
-                "isAbout": "items/cbcl_q91_p"
+                "isAbout": "items/cbcl_q91_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q92_p",
-                "isAbout": "items/cbcl_q92_p"
+                "isAbout": "items/cbcl_q92_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q93_p",
-                "isAbout": "items/cbcl_q93_p"
+                "isAbout": "items/cbcl_q93_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q94_p",
-                "isAbout": "items/cbcl_q94_p"
+                "isAbout": "items/cbcl_q94_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q95_p",
-                "isAbout": "items/cbcl_q95_p"
+                "isAbout": "items/cbcl_q95_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q96_p",
-                "isAbout": "items/cbcl_q96_p"
+                "isAbout": "items/cbcl_q96_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q97_p",
-                "isAbout": "items/cbcl_q97_p"
+                "isAbout": "items/cbcl_q97_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q98_p",
-                "isAbout": "items/cbcl_q98_p"
+                "isAbout": "items/cbcl_q98_p",
+                "valueRequired": true,
+                "isVis": true
             },
             {
                 "variableName": "cbcl_q99_p",
-                "isAbout": "items/cbcl_q99_p"
+                "isAbout": "items/cbcl_q99_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q100_p",
+                "isAbout": "items/cbcl_q100_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q101_p",
+                "isAbout": "items/cbcl_q101_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q102_p",
+                "isAbout": "items/cbcl_q102_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q103_p",
+                "isAbout": "items/cbcl_q103_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q104_p",
+                "isAbout": "items/cbcl_q104_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q105_p",
+                "isAbout": "items/cbcl_q105_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q106_p",
+                "isAbout": "items/cbcl_q106_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q107_p",
+                "isAbout": "items/cbcl_q107_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q108_p",
+                "isAbout": "items/cbcl_q108_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q109_p",
+                "isAbout": "items/cbcl_q109_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q11_p",
+                "isAbout": "items/cbcl_q11_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q110_p",
+                "isAbout": "items/cbcl_q110_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q111_p",
+                "isAbout": "items/cbcl_q111_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_q112_p",
+                "isAbout": "items/cbcl_q112_p",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "cbcl_anxious_raw",
+                "isAbout": "items/cbcl_anxious_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_withdrawn_raw",
+                "isAbout": "items/cbcl_withdrawn_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_somatic_c_raw",
+                "isAbout": "items/cbcl_somatic_c_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_social_p_raw",
+                "isAbout": "items/cbcl_social_p_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_thought_raw",
+                "isAbout": "items/cbcl_thought_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_attention_raw",
+                "isAbout": "items/cbcl_attention_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_rulebreak_raw",
+                "isAbout": "items/cbcl_rulebreak_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_aggresive_raw",
+                "isAbout": "items/cbcl_aggresive_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_anxious_raw",
+                "isAbout": "items/cbcl_anxious_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_other_raw",
+                "isAbout": "items/cbcl_other_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_internal_raw",
+                "isAbout": "items/cbcl_internal_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_external_raw",
+                "isAbout": "items/cbcl_external_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_total_raw",
+                "isAbout": "items/cbcl_total_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_depress_raw",
+                "isAbout": "items/cbcl_depress_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_anxiety_raw",
+                "isAbout": "items/cbcl_anxiety_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_somatic_p_raw",
+                "isAbout": "items/cbcl_somatic_p_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_adhd_raw",
+                "isAbout": "items/cbcl_adhd_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_oppositional_raw",
+                "isAbout": "items/cbcl_oppositional_raw",
+                "isVis": false
+            },
+            {
+                "variableName": "cbcl_conduct_raw",
+                "isAbout": "items/cbcl_conduct_raw",
+                "isVis": false
             }
         ]
     }

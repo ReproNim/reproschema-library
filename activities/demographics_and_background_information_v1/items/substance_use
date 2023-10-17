@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "substance_use",
+    "prefLabel": "Substance Use",
+    "description": "schema to ask about substance usage",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How many times in the past year have you used a recreational substance or used a prescription medication for nonmedical reasons? Recreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).",
+	    "es": "¿Cuántas veces en el último año usó una sustancia recreativa o usó un medicamento recetado por razones no médicas? Las sustancias recreativas incluyen metanfetaminas (speed, crystal), cannabis (marihuana, marihuana), inhalantes (diluyente de pintura, aerosol, pegamento), tranquilizantes (Valium), barbitúricos, cocaína, éxtasis, alucinógenos (LSD, hongos) o narcóticos (heroína) ."
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+	      "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+	                "en": "None",
+	                "es": "Nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+	                "en": "1 or more",
+	                "es": "1 o más"
+                },
+                "value": 2
+            }
+        ]
+    }
+}

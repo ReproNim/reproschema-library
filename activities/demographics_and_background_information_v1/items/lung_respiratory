@@ -1,0 +1,57 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "lung_respiratory",
+    "prefLabel": "Lung/Respiratory Symptoms",
+    "description": "schema to ask about lung/respiratory symptoms",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you currently experience any of these lung/respiratory symptoms or conditions mentioned below? (check all that apply)",
+	    "es": "¿Experimenta actualmente alguno de estos síntomas o afecciones pulmonares/respiratorias que se mencionan a continuación? (marque todo lo que corresponda)"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+                    "en": "Asthma",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Chronic Obstructive Pulmonary Disease (COPD)",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Chronic cough",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Noisy breathing",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Shortness of breath",
+                    "es": ""
+                },
+                "value": 4
+            }
+        ]
+    }
+}

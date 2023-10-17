@@ -1,0 +1,64 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "smoking_types",
+    "prefLabel": "Smoking - Types",
+    "description": "once the participant indicates they do/did smoke to the smoking question",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Checklist of different types of smoking (choose all that apply):",
+        "es": "Lista de verificación de diferentes tipos de fumar (elija todas las que correspondan):"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+                    "en": "Tobacco cigarettes",
+                    "es": "Cigarrillos de tabaco"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Cannabis joints, bong, pipe",
+                    "es": "Porros de cannabis, bong, pipa"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en":  "Vapes",
+                    "es": "Vaporizadores"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "e-cigarettes",
+                    "es": "Cigarrillos electronicos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hookah",
+                    "es": "Narguile"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Pipes",
+                    "es": "Tubería"
+                },
+                "value": 5
+            }
+        ]
+    }
+}

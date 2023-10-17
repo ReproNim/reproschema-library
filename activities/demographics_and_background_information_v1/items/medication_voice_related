@@ -1,0 +1,99 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "medication_voice_related",
+    "prefLabel": "Medication - Possibly affecting voice",
+    "description": "schema for medication that possibly affects voice",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Do you currently take or use any of these medications or substances? Please check all that apply",
+        "es": "¿Actualmente toma o usa alguno de estos medicamentos o sustancias? Por favor marque todos los que apliquen"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Antibiotics",
+                    "es": "Antibióticos"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Antihistamines",
+                    "es": "Antihistamínicos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Cocaine use",
+                    "es": "Consumo de cocaína"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Diuretics",
+                    "es": "Diuréticos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hormone use - oral contraceptives",
+                    "es": "Uso de hormonas - anticonceptivos orales"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Inhaled corticosteroids for asthma",
+                    "es": "Corticosteroides inhalados para el asma"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pain medications",
+                    "es": "Medicamentos para el dolor"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Psychotropic medications",
+                    "es": "Medicamentos psicotrópicos"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Tricyclic antidepressants",
+                    "es": "Antidepresivos tricíclicos"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Vitamins",
+                    "es": "Vitaminas"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otra"
+                },
+                "value": -1
+            }
+        ]
+    }
+}

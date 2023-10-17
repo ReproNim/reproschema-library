@@ -1,0 +1,57 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "smoking_frequency",
+    "prefLabel": "Smoking - Frequency",
+    "description": "once the participant indicates they do/did smoke to the smoking question",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How often do/did you smoke?",
+        "es": "¿Con qué frecuencia fuma/fumó?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Multiple times a day",
+                    "es": "Varias veces al día"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "About once a day",
+                    "es": "Aproximadamente una vez al día"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few times a week",
+                    "es": "Algunas veces a la semana"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A few times a month",
+                    "es": "Algunas veces al mes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A few times a year",
+                    "es": "Algunas veces al año"
+                },
+                "value": 4
+            }
+        ]
+    }
+}

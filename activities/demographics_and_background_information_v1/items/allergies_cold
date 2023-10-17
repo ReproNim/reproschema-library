@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "allergies_cold",
+    "prefLabel": "Allergies or cold-like symptoms",
+    "description": "schema to ask about any allergies or cold-like symptoms",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you currently have allergies or cold-like symptoms?",
+	    "es": "¿Actualmente tiene alergias o síntomas parecidos a los de un resfriado?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading_ability",
+    "prefLabel": "Reading Ability",
+    "description": "self rate reading ability in terms of reading out loud",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?",
+        "es": "¿Qué tan bueno cree que es leyendo en voz alta en [inglés/español/francés], es decir, leyendo en voz alta sin cometer errores y entendiendo lo que lee a un ritmo normal?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+                    "en": "Excellent",
+                    "es": "Excelente"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Very good",
+                    "es": "Muy buena"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Good",
+                    "es": "Buena"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fair",
+                    "es": "Sí"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Poor",
+                    "es": "Sí"
+                },
+                "value": 4
+            }
+        ]
+    }
+}

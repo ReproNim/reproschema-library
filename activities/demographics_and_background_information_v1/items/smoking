@@ -6,24 +6,36 @@
     "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you smoke? This includes tobacco, cannabis, vapes or e-cigarettes.",
+    "question": {
+        "en": "Have you ever smoked regularly (more than a few times a month for at least two months)? This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.",
+        "es": "¿Ha fumado alguna vez con regularidad (más de unas pocas veces al mes durante al menos dos meses)? Esto incluye tabaco, cannabis, vaporizadores, cigarrillos electrónicos, narguiles o pipas."
+    },
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "valueType": "xsd:int",
         "multipleChoice": false,
         "choices": [
             {
-                "name": "I've never smoked regularly",
+                "name": {
+                    "en": "I've never smoked regularly",
+                    "es": "Nunca he fumado regularmente"
+                },
                 "value": 0
             },
             {
-                "name": "I used to smoke",
+                "name": {
+                    "en": "I used to smoke",
+                    "es": "Solía fumar"
+                },
                 "value": 1
             },
             {
-                "name": "I currently smoke",
+                "name": {
+                    "en": "I currently smoke",
+                    "es": "Actualmente fumo"
+                },
                 "value": 2
             }
         ]

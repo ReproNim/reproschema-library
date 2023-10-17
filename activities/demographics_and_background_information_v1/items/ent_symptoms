@@ -1,0 +1,120 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ent_symptoms",
+    "prefLabel": "Ear, Nose, Throat Symptoms",
+    "description": "schema to ask about ENT symptoms",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Do you currently experience any of these symptoms mentioned below? (check all that apply)",
+	    "es": "¿Actualmente experimenta alguno de estos síntomas mencionados a continuación? (marque todo lo que corresponda)"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": {
+                    "en": "Dental problem",
+                    "es": ""
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Ear discharge",
+                    "es": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Ear pain",
+                    "es": ""
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Hearing loss",
+                    "es": ""
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nasal congestion/runny nose",
+                    "es": ""
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Nosebleeds",
+                    "es": ""
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pain while talking or singing",
+                    "es": ""
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Post-nasal drip",
+                    "es": ""
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Sinus pressure",
+                    "es": ""
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Sore throat",
+                    "es": ""
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Tinnitus",
+                    "es": ""
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Tremors: vocal tremors",
+                    "es": ""
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Trouble swallowing",
+                    "es": ""
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Voice change",
+                    "es": ""
+                },
+                "value": 13
+            }
+        ]
+    }
+}

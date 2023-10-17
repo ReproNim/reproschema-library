@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sign",
+    "prefLabel": {
+        "en": "sign",
+        "fr": "signer"
+    },
+    "description": "sign item of the EHI",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Sign a document",
+        "fr": "Signer un document"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "braille",
+    "prefLabel": {
+        "en": "braille",
+        "fr": "braille"
+    },
+    "description": "braille item of the EHI to adapt for blind participants",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Read braille",
+        "fr": "Lire le braille"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

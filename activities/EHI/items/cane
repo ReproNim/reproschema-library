@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "cane",
+    "prefLabel": {
+        "en": "cane",
+        "fr": "canne"
+    },
+    "description": "cane item of the EHI to adapt for blind participants",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Which hand do you use to hold your cane?",
+        "fr": "Quel main utilisez vous pour tenir votre canne?"
+    },
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../leftRightValueConstraints"
+}

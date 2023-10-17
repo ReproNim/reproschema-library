@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@id": "leftRightValueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": -100,
+    "maxValue": 100,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": {
+            "en": "Always right",
+            "fr": "Toujours la droite"
+        },
+            "value": 100
+        },
+        {
+            "name": {
+            "en": "Usually right",
+            "fr": "En général la droite"
+        },
+            "value": 50
+        },
+        {
+            "name": {
+            "en": "Both equally",
+            "fr": "Les deux"
+        },
+            "value": 0
+        },
+        {
+            "name": {
+            "en": "Usually left",
+            "fr": "En général la gauche"
+        },
+            "value": -50
+        },
+        {
+            "name": {
+            "en": "Always left",
+            "fr": "Toujours la gauche"
+        },
+            "value": -100
+        }
+    ]
+}

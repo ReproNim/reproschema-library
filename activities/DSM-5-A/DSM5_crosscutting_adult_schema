@@ -1,0 +1,347 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": " DSM5_crosscutting_adult_schema",
+    "prefLabel": " DSM5_crosscutting_adult",
+    "description": "The DSM-5 Level 1 Cross-Cutting Symptom Measure is a self- or informant-rated measure that assesses mental health domains that are important across psychiatric diagnoses. It is intended to help clinicians identify additional areas of inquiry that may have significant impact on the individual’s treatment and prognosis. In addition, the measure may be used to track changes in the individual’s symptom presentation over time. This version asks adults to consider how much (or how often) they have been bothered by specific problems in the past two weeks.",
+    "citation": "https://doi.org/10.1176/appi.books.9780890425596",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?\n\n0=None (Not at all), 1=Slight (Rare, less than a day or two), 2=Mild (Several days), 3=Moderate (More than half the days), 4=Severe (Nearly every day)"
+    },
+    "ui": {
+        "order": [
+            "items/dsm5crossad_1",
+            "items/dsm5crossad_2",
+            "items/dsm5crossad_3",
+            "items/dsm5crossad_4",
+            "items/dsm5crossad_5",
+            "items/dsm5crossad_6",
+            "items/dsm5crossad_7",
+            "items/dsm5crossad_8",
+            "items/dsm5crossad_9",
+            "items/dsm5crossad_10",
+            "items/dsm5crossad_11",
+            "items/dsm5crossad_12",
+            "items/dsm5crossad_13",
+            "items/dsm5crossad_14",
+            "items/dsm5crossad_15",
+            "items/dsm5crossad_16",
+            "items/dsm5crossad_17",
+            "items/dsm5crossad_18",
+            "items/dsm5crossad_19",
+            "items/dsm5crossad_20",
+            "items/dsm5crossad_21",
+            "items/dsm5crossad_22",
+            "items/dsm5crossad_23"
+        ],
+        "addProperties": [
+            {
+                "variableName": "dsm5crossad_1",
+                "isAbout": "items/dsm5crossad_1",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_2",
+                "isAbout": "items/dsm5crossad_2",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_3",
+                "isAbout": "items/dsm5crossad_3",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_4",
+                "isAbout": "items/dsm5crossad_4",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_5",
+                "isAbout": "items/dsm5crossad_5",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_6",
+                "isAbout": "items/dsm5crossad_6",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_7",
+                "isAbout": "items/dsm5crossad_7",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_8",
+                "isAbout": "items/dsm5crossad_8",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_9",
+                "isAbout": "items/dsm5crossad_9",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_10",
+                "isAbout": "items/dsm5crossad_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_11",
+                "isAbout": "items/dsm5crossad_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_12",
+                "isAbout": "items/dsm5crossad_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_13",
+                "isAbout": "items/dsm5crossad_13",
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_14",
+                "isAbout": "items/dsm5crossad_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_15",
+                "isAbout": "items/dsm5crossad_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_16",
+                "isAbout": "items/dsm5crossad_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_17",
+                "isAbout": "items/dsm5crossad_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_18",
+                "isAbout": "items/dsm5crossad_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_19",
+                "isAbout": "items/dsm5crossad_19",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_20",
+                "isAbout": "items/dsm5crossad_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_21",
+                "isAbout": "items/dsm5crossad_21",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_22",
+                "isAbout": "items/dsm5crossad_22",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_23",
+                "isAbout": "items/dsm5crossad_23",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    },
+    "matrixInfo": [
+        {
+            "variableName": "little_interest",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_down",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_more_irritated",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "sleeping_less",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "starting_more_projects",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_nervous",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_panic",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "avoiding_situations",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "unexplained_aches",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "illness_not_taken_serious",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "self_harm",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "hearing_things",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "someone_hear_thoughts",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "sleep_quality",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "memory_issues",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "unpleasant_thoughts",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "repeat_acts",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_detached",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "no_purpose",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "isolated",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "drinking_more",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "smoking_more",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "medication_use",
+            "matrixGroupName": "dsm_5_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_1",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_2",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_3",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_4",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_5",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_6",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_7",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_8",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_9",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "social_phobia_10",
+            "matrixGroupName": "dsm_5_adult_social_phobia1",
+            "matrixRanking": ""
+        }
+    ]
+}

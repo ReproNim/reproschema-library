@@ -1,0 +1,15 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm5crossad_17",
+    "prefLabel": "dsm5crossad_17",
+    "description": "Q17 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "question": {
+        "en": "Feeling driven to perform certain behaviors or mental acts over and over again?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+    
+}

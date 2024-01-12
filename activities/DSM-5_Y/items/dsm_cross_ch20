@@ -12,19 +12,21 @@
     },
     "responseOptions": {
         "valueType": "xsd:integer",
+        "minValue": 1,
+        "maxValue": 2,
         "multipleChoice": false,
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Yes"
+                "name": "Yes",
+                "value": 0
             },
             {
-                "schema:value": 2,
-                "schema:name": "No"
+                "name": "No",
+                "value": 2
             },
             {
-                "schema:value": -9,
-                "schema:name": "Missing"
+                "name": "Missing",
+                "value": -9
             }
         ]
     }

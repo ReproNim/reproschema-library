@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "dsm5crossad_4 ",
+    "@id": "dsm5crossad_4",
     "prefLabel": "dsm5crossad_4",
     "description": "Q4 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {

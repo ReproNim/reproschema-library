@@ -1,0 +1,15 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_cross_ch4",
+    "prefLabel": "dsm_cross_ch4",
+    "description": "Q4 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "question": {
+        "en": "been bothered by not being able to pay attention when you were in class or doing homework or reading a book or playing a game?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+    
+}

@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_cross_ch21",
+    "prefLabel": "dsm_cross_ch21",
+    "description": "Q21 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "question": {
+        "en": "smoked a cigarette, a cigar, or pipe, or used snuff or chewing tobacco?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "No"
+            },
+            {
+                "schema:value": -9,
+                "schema:name": "Missing"
+            }
+        ]
+    }
+    
+}

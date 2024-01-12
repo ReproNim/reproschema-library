@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_cross_ch22",
+    "prefLabel": "dsm_cross_ch22",
+    "description": "Q22 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "question": {
+        "en": "used drugs like marijuana, cocaine or crack, club drugs (like Ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "No"
+            },
+            {
+                "schema:value": -9,
+                "schema:name": "Missing"
+            }
+        ]
+    }
+    
+}

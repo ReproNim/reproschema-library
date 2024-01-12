@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_cross_ch24",
+    "prefLabel": "dsm_cross_ch24",
+    "description": "Q24 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "question": {
+        "en": "thought about killing yourself or committing suicide?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "multipleChoice": false,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "No"
+            },
+            {
+                "schema:value": -9,
+                "schema:name": "Missing"
+            }
+        ]
+    }
+    
+}

@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "tbi_1b_l",
     "@type": "reproschema:Field",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "tbi_1b_l_es"
     },
     "altLabel": "brain_injury_1b_l tbi_1b_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "Was he/she knocked out or did he/she lose consciousness (LOC)? If yes, how long?",

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "kbi_p_grades_in_school_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_grades_in_school_l",
     "altLabel": "kbi_grades_in_school_p_l ksads_back_grades_in_school_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "What kind of grades does your child get on average? \u00bfCu\u00e1l es el promedio de calificaciones de su ni\u00f1o(a)?",
     "ui": {

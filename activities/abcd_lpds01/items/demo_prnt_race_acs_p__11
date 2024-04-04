@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "demo_prnt_race_acs_p__11",
     "@type": "reproschema:Field",
     "prefLabel": "demo_prnt_race_acs_p__11",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "What is your race? Mark (X) one or more boxes (+ race list above)?Cu?l es su raza? Marque (X) en una o m?s casillas (+ translated list of races above) : Black or African American",
     "ui": {

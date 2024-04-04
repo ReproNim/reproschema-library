@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "bpm_14_y",
     "@type": "reproschema:Field",
     "prefLabel": "bpm_14_y",
     "altLabel": "bpm_14 bpmy_14",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "I am inattentive or easily distracted",
     "ui": {

@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "meim_1_p",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "meim_1_p",
         "es": "meim_1_p_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "I have spent time trying to find out more about my ethnic group, such as its history, traditions, and customs.",

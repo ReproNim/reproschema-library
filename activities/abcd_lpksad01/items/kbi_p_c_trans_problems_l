@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "kbi_p_c_trans_problems_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_trans_problems_l",
     "altLabel": "kbi_c_trans_problems_p_l ksads_back_c_trans_prob_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Since we last saw you, has this caused any problems for your child with your family or with kids at school? Desde la \u00faltima vez que nos vimos, \u00bfesto le ha causado a su ni\u00f1o(a) alg\u00fan problema con su familia o con los ni\u00f1os en la escuela?",
     "ui": {

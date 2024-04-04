@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "kbipcregfriend_groupopin_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbipcregfriend_groupopin_l",
     "altLabel": "kbi_c_reg_friend_group_opin_p_l kbi_p_c_reg_friend_group_opin_l ksads_back_c_reg_friend_group_opin_p_l ksads_c_reg_friend_group_opin_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Do you like your child's friends? \u00bfA usted le caen bien los amigos de su ni\u00f1o(a)?",
     "ui": {

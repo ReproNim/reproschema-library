@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "rsfmri_c_ngd_sa_ngd_smh",
     "@type": "reproschema:Field",
     "prefLabel": "rsfmri_c_ngd_sa_ngd_smh",
     "altLabel": "rsfmri_cor_network.gordon_salience_network.gordon_smhand rsfmri_cor_networkgordon_salience_networkgordon_smhand",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Average correlation between salience network and sensorimotor hand network",
     "ui": {

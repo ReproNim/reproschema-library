@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_hcpmq_1",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hcpmq_1",
         "es": "irma_hcpmq_1_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "1. There were aspects of the hurricane that I did not discuss with my child, out of concern that it could unnecessarily frighten him or her.",

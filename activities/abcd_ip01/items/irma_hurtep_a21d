@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_hurtep_a21d",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtep_a21d",
         "es": "irma_hurtep_a21d_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "d. The way things look at home ",

@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "kbi_p_c_det_reason_l___999",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_det_reason_l___999",
     "altLabel": "kbi_c_det_reason_p_l___999 ksads_back_c_det_reason_p_l___999",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "For what? Click all that apply: \u00bfPor qu\u00e9 motivo?  Seleccione todas las opciones que correspondan o apliquen: (999, Don't know No s\u00e9)",
     "ui": {

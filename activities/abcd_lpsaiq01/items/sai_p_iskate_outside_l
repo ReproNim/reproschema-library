@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "sai_p_iskate_outside_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_iskate_outside_l",
     "altLabel": "sai_iskate_outside_p_l sports_activity_iskate_outside_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Ice or Inline Skating Patinaje sobre hielo o sobre ruedas Was any of this activity part of an organized team, group, band, orchestra, chorus, or program outside of school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado fuera de la escuela?",
     "ui": {

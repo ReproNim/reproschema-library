@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_dsm5_cs5",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_dsm5_cs5",
         "es": "irma_dsm5_cs5_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "CS5. Do these reactions, thoughts, and feelings make it harder for you to do well in school? CS5.",

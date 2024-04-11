@@ -5,7 +5,7 @@
     "prefLabel": "dsm5crossad_5",
     "description": "Q5 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
-        "en": "Starting lots more projects than usual or doing more risky things than usual? "
+        "en": "Starting lots more projects than usual or doing more risky things than usual?"
     },
     "ui": {
         "inputType": "radio"

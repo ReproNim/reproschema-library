@@ -5,7 +5,7 @@
     "prefLabel": "dsm5crossad_22",
     "description": "Q22 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
-        "en": "Smoking any cigarettes, a cigar, or pipe, or using snuff or chewing tobacco?"
+        "en": "Smoking any cigarettes, a cigar, or pipe or using snuff or chewing tobacco?"
     },
     "ui": {
         "inputType": "radio"

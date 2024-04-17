@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "dsm5crossad_22",
-    "prefLabel": "dsm5crossad_22",
+    "prefLabel": "DSM5 Crosscutting Adult Question 22",
     "description": "Q22 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
         "en": "Smoking any cigarettes, a cigar, or pipe or using snuff or chewing tobacco?"
@@ -11,5 +11,4 @@
         "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
-    
 }

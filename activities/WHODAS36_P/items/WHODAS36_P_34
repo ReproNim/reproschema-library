@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS36_P_34",
+    "prefLabel": "WHODAS 2.0 Proxy Question 34",
+    "description": "Q34 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How much has his or her health been a drain on his or her financial resources or the financial resources of other relatives?\n",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

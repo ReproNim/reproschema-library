@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS36_P_30",
+    "prefLabel": "WHODAS 2.0 Proxy Question 30",
+    "description": "Q30 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How much of a problem did your relative have because of barriers or hindrances around him or her?\n",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Learning a new task, for example, learning how to get to a new place?\n",
+        "en": "Learning a new task, for example, learning how to get to a new place?",
         "es": ""
     },
     "ui": {

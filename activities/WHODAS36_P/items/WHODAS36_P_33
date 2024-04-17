@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How much has your relative been emotionally affected by his or her health condition?\n",
+        "en": "How much has your relative been emotionally affected by his or her health condition?",
         "es": ""
     },
     "ui": {

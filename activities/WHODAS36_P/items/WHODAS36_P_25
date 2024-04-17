@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "His or her day-to-day work/school?\n",
+        "en": "His or her day-to-day work/school?",
         "es": ""
     },
     "ui": {

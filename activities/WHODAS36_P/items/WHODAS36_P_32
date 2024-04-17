@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How much time did your relative spend on his or her health condition or its consequences?\n",
+        "en": "How much time did your relative spend on his or her health condition or its consequences?",
         "es": ""
     },
     "ui": {

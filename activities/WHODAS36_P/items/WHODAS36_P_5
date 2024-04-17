@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Generally understanding what people say?\n",
+        "en": "Generally understanding what people say?",
         "es": ""
     },
     "ui": {

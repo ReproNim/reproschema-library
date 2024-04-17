@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Walking a long distance, such as a kilometer (or equivalent)?\n",
+        "en": "Walking a long distance, such as a kilometer (or equivalent)?",
         "es": ""
     },
     "ui": {

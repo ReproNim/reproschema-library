@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Getting all the household work done that is needed?\n",
+        "en": "Getting all the household work done that is needed?",
         "es": ""
     },
     "ui": {

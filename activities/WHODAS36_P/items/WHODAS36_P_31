@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How much of a problem did your relative have living with dignity because of the attitudes and actions of others?\n",
+        "en": "How much of a problem did your relative have living with dignity because of the attitudes and actions of others?",
         "es": ""
     },
     "ui": {

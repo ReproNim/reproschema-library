@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Staying by himself or herself for a few days?\n",
+        "en": "Staying by himself or herself for a few days?",
         "es": ""
     },
     "ui": {

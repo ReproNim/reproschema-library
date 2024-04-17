@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How much of a problem did you or the rest of his or her family have because of his or her health problems?\n",
+        "en": "How much of a problem did you or the rest of his or her family have because of his or her health problems?",
         "es": ""
     },
     "ui": {

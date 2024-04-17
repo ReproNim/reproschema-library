@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_35",
-    "prefLabel": "WHODAS 2.0 Proxy Question 35",
-    "description": "Q35 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "@id": "WHODAS36_S_35",
+    "prefLabel": "WHODAS 2.0 Self Question 35",
+    "description": "Q35 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How much of a problem did you or the rest of his or her family have because of his or her health problems?",
+        "en": "How much of a problem did your family have because of your health problems?",
         "es": ""
     },
     "ui": {

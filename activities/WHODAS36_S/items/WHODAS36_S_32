@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_32",
-    "prefLabel": "WHODAS 2.0 Proxy Question 32",
-    "description": "Q32 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "@id": "WHODAS36_S_32",
+    "prefLabel": "WHODAS 2.0 Self Question 32",
+    "description": "Q32 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How much time did your relative spend on his or her health condition or its consequences?",
+        "en": "How much time did you spend on your health condition or its consequences?",
         "es": ""
     },
     "ui": {

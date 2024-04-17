@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_18",
-    "prefLabel": "WHODAS 2.0 Proxy Question 18",
-    "description": "Q18 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "@id": "WHODAS36_S_18",
+    "prefLabel": "WHODAS 2.0 Self Question 18",
+    "description": "Q18 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Getting along with people who are close to him or her?",
+        "en": "Getting along with people who are close to you?",
         "es": ""
     },
     "ui": {

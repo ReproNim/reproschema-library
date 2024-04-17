@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_33",
-    "prefLabel": "WHODAS 2.0 Proxy Question 33",
-    "description": "Q33 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "@id": "WHODAS36_S_33",
+    "prefLabel": "WHODAS 2.0 Self Question 33",
+    "description": "Q33 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "How much has your relative been emotionally affected by his or her health condition?",
+        "en": "How much have you been emotionally affected by your health condition?",
         "es": ""
     },
     "ui": {

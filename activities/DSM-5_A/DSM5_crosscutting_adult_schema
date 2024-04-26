@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "DSM5_crosscutting_adult_schema",
     "prefLabel": "DSM5_crosscutting_adult",
-    "description": "The DSM-5 Level 1 Cross-Cutting Symptom Measure is a self- or informant-rated measure that assesses mental health domains that are important across psychiatric diagnoses. It is intended to help clinicians identify additional areas of inquiry that may have significant impact on the individual\u2019s treatment and prognosis. In addition, the measure may be used to track changes in the individual\u2019s symptom presentation over time. This version asks adults to consider how much (or how often) they have been bothered by specific problems in the past two weeks.",
+    "description": "The DSM-5 Level 1 Cross-Cutting Symptom Measure is a self- or informant-rated measure that assesses mental health domains that are important across psychiatric diagnoses. It is intended to help clinicians identify additional areas of inquiry that may have significant impact on the individual's treatment and prognosis. In addition, the measure may be used to track changes in the individual's symptom presentation over time. This version asks adults to consider how much (or how often) they have been bothered by specific problems in the past two weeks.",
     "citation": "https://doi.org/10.1176/appi.books.9780890425596",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",

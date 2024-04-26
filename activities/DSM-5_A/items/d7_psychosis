@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "phq9_total_score",
-    "prefLabel": "PHQ-9 Score",
-    "description": "schema for total score of the PHQ-9 Assessment",
+    "@id": "dsm5crossad_d7",
+    "prefLabel": "DSM5 Crosscutting Adult Domain 7 (Psychosis) Score",
+    "description": "Domain 7 (Psychosis) score of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
@@ -13,6 +13,6 @@
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 27
+        "maxValue": 4
     }
 }

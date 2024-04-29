@@ -227,6 +227,84 @@
                 "isAbout": "items/dsm5crossad_23",
                 "valueRequired": true,
                 "isVis": true
+            },
+            {
+                "variableName": "dsm5crossad_d_1",
+                "isAbout": "items/dsm5crossad_d_1",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_2",
+                "isAbout": "items/dsm5crossad_d_2",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_3",
+                "isAbout": "items/dsm5crossad_d_3",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_4",
+                "isAbout": "items/dsm5crossad_d_4",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_5",
+                "isAbout": "items/dsm5crossad_d_5",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_6",
+                "isAbout": "items/dsm5crossad_d_6",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_7",
+                "isAbout": "items/dsm5crossad_d_7",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_8",
+                "isAbout": "items/dsm5crossad_d_8",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_9",
+                "isAbout": "items/dsm5crossad_d_9",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_10",
+                "isAbout": "items/dsm5crossad_d_10",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_11",
+                "isAbout": "items/dsm5crossad_d_11",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_12",
+                "isAbout": "items/dsm5crossad_d_12",
+                "valueRequired": true,
+                "isVis": false
+            },
+            {
+                "variableName": "dsm5crossad_d_13",
+                "isAbout": "items/dsm5crossad_d_13",
+                "valueRequired": true,
+                "isVis": false
             }
         ],
         "shuffle": false

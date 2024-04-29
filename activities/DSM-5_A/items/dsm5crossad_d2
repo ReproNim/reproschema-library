@@ -10,9 +10,5 @@
         "inputType": "number",
         "readonlyValue": true
     },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 4
-    }
+    "responseOptions": "../valueConstraints"
 }

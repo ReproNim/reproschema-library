@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "dsm5crossad_d12",
-    "prefLabel": "DSM5 Crosscutting Adult Domain 12 (Personality Functioning) Score",
-    "description": "Domain 12 (Personality Functioning) score of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "@id": "dsm5crossad_d_6",
+    "prefLabel": "DSM5 Crosscutting Adult Domain 6 (Suicidal Ideation) Score",
+    "description": "Domain 6 (Suicidal Ideation) score of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {

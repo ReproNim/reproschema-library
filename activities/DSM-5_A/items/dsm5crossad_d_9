@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "dsm5crossad_d4",
-    "prefLabel": "DSM5 Crosscutting Adult Domain 4 (Anxiety) Score",
-    "description": "Domain 4 (Anxiety) score of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "@id": "dsm5crossad_d_9",
+    "prefLabel": "DSM5 Crosscutting Adult Domain 9 (Memory) Score",
+    "description": "Domain 9 (Memory) score of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {

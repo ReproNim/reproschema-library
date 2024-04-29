@@ -12,55 +12,55 @@
     },
     "compute": [
         {
-            "variableName": "dsm5crossad_d1",
+            "variableName": "dsm5crossad_d_1",
             "jsExpression": "Math.max(dsm5crossad_1, dsm5crossad_2)"
         },
         {
-            "variableName": "dsm5crossad_d2",
+            "variableName": "dsm5crossad_d_2",
             "jsExpression": "Math.max(dsm5crossad_3)"
         },
         {
-            "variableName": "dsm5crossad_d3",
+            "variableName": "dsm5crossad_d_3",
             "jsExpression": "Math.max(dsm5crossad_4, dsm5crossad_5)"
         },
         {
-            "variableName": "dsm5crossad_d4",
+            "variableName": "dsm5crossad_d_4",
             "jsExpression": "Math.max(dsm5crossad_6, dsm5crossad_7, dsm5crossad_8)"
         },
         {
-            "variableName": "dsm5crossad_d5",
+            "variableName": "dsm5crossad_d_5",
             "jsExpression": "Math.max(dsm5crossad_9, dsm5crossad_10)"
         },
         {
-            "variableName": "dsm5crossad_d6",
+            "variableName": "dsm5crossad_d_6",
             "jsExpression": "Math.max(dsm5crossad_11)"
         },
         {
-            "variableName": "dsm5crossad_d7",
+            "variableName": "dsm5crossad_d_7",
             "jsExpression": "Math.max(dsm5crossad_12, dsm5crossad_13)"
         },
         {
-            "variableName": "dsm5crossad_d8",
+            "variableName": "dsm5crossad_d_8",
             "jsExpression": "Math.max(dsm5crossad_14)"
         },
         {
-            "variableName": "dsm5crossad_d9",
+            "variableName": "dsm5crossad_d_9",
             "jsExpression": "Math.max(dsm5crossad_15)"
         },
         {
-            "variableName": "dsm5crossad_d10",
+            "variableName": "dsm5crossad_d_10",
             "jsExpression": "Math.max(dsm5crossad_16, dsm5crossad_17)"
         },
         {
-            "variableName": "dsm5crossad_d11",
+            "variableName": "dsm5crossad_d_11",
             "jsExpression": "Math.max(dsm5crossad_18)"
         },
         {
-            "variableName": "dsm5crossad_d12",
+            "variableName": "dsm5crossad_d_12",
             "jsExpression": "Math.max(dsm5crossad_19, dsm5crossad_20)"
         },
         {
-            "variableName": "dsm5crossad_d13",
+            "variableName": "dsm5crossad_d_13",
             "jsExpression": "Math.max(dsm5crossad_21, dsm5crossad_22, dsm5crossad_23)"
         }
     ],

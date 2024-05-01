@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_S_26",
-    "prefLabel": "WHODAS 2.0 Self Q26",
-    "description": "Question 26 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
+    "@id": "WHODAS36_S_04",
+    "prefLabel": "WHODAS 2.0 Self Q4",
+    "description": "Question 4 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
@@ -11,5 +11,5 @@
         "readonlyValue": true
     },
     "responseOptions": "../valueConstraints",
-    "question": "Doing your most important work/school tasks well?"
+    "question": "Learning a new task, for example, learning how to get to a new place?"
 }

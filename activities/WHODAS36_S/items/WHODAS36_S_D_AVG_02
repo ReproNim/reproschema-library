@@ -1,15 +1,14 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_S_14",
-    "prefLabel": "WHODAS 2.0 Self Q14",
-    "description": "Question 14 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
+    "@id": "WHODAS36_S_D_AVG_02",
+    "prefLabel": "WHODAS 2.0 Self D2",
+    "description": "Domain 2 (Getting around) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
         "inputType": "number",
         "readonlyValue": true
     },
-    "responseOptions": "../valueConstraints",
-    "question": "Eating?"
+    "responseOptions": "../valueConstraints"
 }

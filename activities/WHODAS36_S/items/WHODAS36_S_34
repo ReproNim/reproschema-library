@@ -2,16 +2,14 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "WHODAS36_S_34",
-    "prefLabel": "WHODAS 2.0 Self Question 34",
-    "description": "Q34 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
+    "prefLabel": "WHODAS 2.0 Self Q34",
+    "description": "Question 34 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": {
-        "en": "How much has your health been a drain on the financial resources of you or your family?",
-        "es": ""
-    },
     "ui": {
-        "inputType": "radio"
+        "inputType": "number",
+        "readonlyValue": true
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "question": "How much has your health been a drain on the financial resources of you or your family?"
 }

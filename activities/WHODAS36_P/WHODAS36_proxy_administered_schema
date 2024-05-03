@@ -13,15 +13,189 @@
     },
     "compute": [
         {
-            "variableName": "WHODAS12_total_score",
-            "jsExpression": "WHODAS12_1 + WHODAS12_2 + WHODAS12_3 + WHODAS12_4 + WHODAS12_5 + WHODAS12_6 + WHODAS12_7 + WHODAS12_8 + WHODAS12_9 + WHODAS12_10 + WHODAS12_11 + WHODAS12_12"
+            "variableName": "WHODAS36_P_D_AVG_01",
+            "jsExpression": "(WHODAS36_P_1 + WHODAS36_P_2 + WHODAS36_P_3 + WHODAS36_P_4 + WHODAS36_P_5 + WHODAS36_P_6)/6"
+        },
+        {
+            "variableName": "WHODAS36_P_D_AVG_02",
+            "jsExpression": "(WHODAS36_P_7 + WHODAS36_P_8 + WHODAS36_P_9 + WHODAS36_P_10 + WHODAS36_P_11)/5"
+        },
+        {
+            "variableName": "WHODAS36_P_D_AVG_03",
+            "jsExpression": "(WHODAS36_P_12 + WHODAS36_P_13 + WHODAS36_P_14 + WHODAS36_P_15)/4"
+        },
+        {
+            "variableName": "WHODAS36_P_D_AVG_04",
+            "jsExpression": "(WHODAS36_P_16 + WHODAS36_P_17 + WHODAS36_P_18 + WHODAS36_P_19 + WHODAS36_P_20)/5"
+        },
+        {
+            "variableName": "WHODAS36_P_D_AVG_05",
+            "jsExpression": "(WHODAS36_P_21 + WHODAS36_P_22 + WHODAS36_P_23 + WHODAS36_P_24)/4"
+        },
+        {
+            "variableName": "WHODAS36_P_D_AVG_06",
+            "jsExpression": "(WHODAS36_P_25 + WHODAS36_P_26 + WHODAS36_P_27 + WHODAS36_P_28)/4"
+        },
+        {
+            "variableName": "WHODAS36_P_D_AVG_07",
+            "jsExpression": "(WHODAS36_P_29 + WHODAS36_P_30 + WHODAS36_P_31 + WHODAS36_P_32 + WHODAS36_P_33 + WHODAS36_P_34 + WHODAS36_P_35 + WHODAS36_P_36)/8"
+        },
+        {
+            "variableName": "WHODAS36_P_D_SUM_01",
+            "jsExpression": "WHODAS36_P_1 + WHODAS36_P_2 + WHODAS36_P_3 + WHODAS36_P_4 + WHODAS36_P_5 + WHODAS36_P_6"
+        },
+        {
+            "variableName": "WHODAS36_P_D_SUM_02",
+            "jsExpression": "WHODAS36_P_7 + WHODAS36_P_8 + WHODAS36_P_9 + WHODAS36_P_10 + WHODAS36_P_11"
+        },
+        {
+            "variableName": "WHODAS36_P_D_SUM_03",
+            "jsExpression": "WHODAS36_P_12 + WHODAS36_P_13 + WHODAS36_P_14 + WHODAS36_P_15"
+        },
+        {
+            "variableName": "WHODAS36_P_D_SUM_04",
+            "jsExpression": "WHODAS36_P_16 + WHODAS36_P_17 + WHODAS36_P_18 + WHODAS36_P_19 + WHODAS36_P_20"
+        },
+        {
+            "variableName": "WHODAS36_P_D_SUM_05",
+            "jsExpression": "WHODAS36_P_21 + WHODAS36_P_22 + WHODAS36_P_23 + WHODAS36_P_24"
+        },
+        {
+            "variableName": "WHODAS36_P_D_SUM_06",
+            "jsExpression": "WHODAS36_P_25 + WHODAS36_P_26 + WHODAS36_P_27 + WHODAS36_P_28"
+        },
+        {
+            "variableName": "WHODAS36_P_D_SUM_07",
+            "jsExpression": "WHODAS36_P_29 + WHODAS36_P_30 + WHODAS36_P_31 + WHODAS36_P_32 + WHODAS36_P_33 + WHODAS36_P_34 + WHODAS36_P_35 + WHODAS36_P_36"
+        },
+        {
+            "variableName": "WHODAS36_P_average_score",
+            "jsExpression": "WHODAS36_P_total_score/36"
+        },
+        {
+            "variableName": "WHODAS36_P_total_score",
+            "jsExpression": "WHODAS36_P_D_SUM_01 + WHODAS36_P_D_SUM_02 + WHODAS36_P_D_SUM_03 + WHODAS36_P_D_SUM_04 + WHODAS36_P_D_SUM_05 + WHODAS36_P_D_SUM_06 + WHODAS36_P_D_SUM_07"
         }
     ],
     "ui": {
         "addProperties": [
             {
+                "variableName": "WHODAS36_P_01",
+                "isAbout": "items/WHODAS36_P_01",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_02",
+                "isAbout": "items/WHODAS36_P_02",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_03",
+                "isAbout": "items/WHODAS36_P_03",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_04",
+                "isAbout": "items/WHODAS36_P_04",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_05",
+                "isAbout": "items/WHODAS36_P_05",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_06",
+                "isAbout": "items/WHODAS36_P_06",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_07",
+                "isAbout": "items/WHODAS36_P_07",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_08",
+                "isAbout": "items/WHODAS36_P_08",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_09",
+                "isAbout": "items/WHODAS36_P_09",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
                 "isAbout": "items/WHODAS36_P_1",
                 "variableName": "WHODAS36_P_1",
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_10",
+                "isAbout": "items/WHODAS36_P_10",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_11",
+                "isAbout": "items/WHODAS36_P_11",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_12",
+                "isAbout": "items/WHODAS36_P_12",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_13",
+                "isAbout": "items/WHODAS36_P_13",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_14",
+                "isAbout": "items/WHODAS36_P_14",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_15",
+                "isAbout": "items/WHODAS36_P_15",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_16",
+                "isAbout": "items/WHODAS36_P_16",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_17",
+                "isAbout": "items/WHODAS36_P_17",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_18",
+                "isAbout": "items/WHODAS36_P_18",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_19",
+                "isAbout": "items/WHODAS36_P_19",
+                "valueRequired": true,
                 "isVis": true
             },
             {
@@ -30,8 +204,110 @@
                 "isVis": true
             },
             {
+                "variableName": "WHODAS36_P_20",
+                "isAbout": "items/WHODAS36_P_20",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_21",
+                "isAbout": "items/WHODAS36_P_21",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_22",
+                "isAbout": "items/WHODAS36_P_22",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_23",
+                "isAbout": "items/WHODAS36_P_23",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_24",
+                "isAbout": "items/WHODAS36_P_24",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_25",
+                "isAbout": "items/WHODAS36_P_25",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_26",
+                "isAbout": "items/WHODAS36_P_26",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_27",
+                "isAbout": "items/WHODAS36_P_27",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_28",
+                "isAbout": "items/WHODAS36_P_28",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_29",
+                "isAbout": "items/WHODAS36_P_29",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
                 "isAbout": "items/WHODAS36_P_3",
                 "variableName": "WHODAS36_P_3",
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_30",
+                "isAbout": "items/WHODAS36_P_30",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_31",
+                "isAbout": "items/WHODAS36_P_31",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_32",
+                "isAbout": "items/WHODAS36_P_32",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_33",
+                "isAbout": "items/WHODAS36_P_33",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_34",
+                "isAbout": "items/WHODAS36_P_34",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_35",
+                "isAbout": "items/WHODAS36_P_35",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "WHODAS36_P_36",
+                "isAbout": "items/WHODAS36_P_36",
+                "valueRequired": true,
                 "isVis": true
             },
             {
@@ -65,151 +341,101 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/WHODAS36_P_10",
-                "variableName": "WHODAS36_P_10",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_AVG_01",
+                "isAbout": "items/WHODAS36_P_D_AVG_01",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_11",
-                "variableName": "WHODAS36_P_11",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_AVG_02",
+                "isAbout": "items/WHODAS36_P_D_AVG_02",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_12",
-                "variableName": "WHODAS36_P_12",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_AVG_03",
+                "isAbout": "items/WHODAS36_P_D_AVG_03",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_13",
-                "variableName": "WHODAS36_P_13",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_AVG_04",
+                "isAbout": "items/WHODAS36_P_D_AVG_04",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_14",
-                "variableName": "WHODAS36_P_14",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_AVG_05",
+                "isAbout": "items/WHODAS36_P_D_AVG_05",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_15",
-                "variableName": "WHODAS36_P_15",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_AVG_06",
+                "isAbout": "items/WHODAS36_P_D_AVG_06",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_16",
-                "variableName": "WHODAS36_P_16",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_AVG_07",
+                "isAbout": "items/WHODAS36_P_D_AVG_07",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_17",
-                "variableName": "WHODAS36_P_17",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_SUM_01",
+                "isAbout": "items/WHODAS36_P_D_SUM_01",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_18",
-                "variableName": "WHODAS36_P_18",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_SUM_02",
+                "isAbout": "items/WHODAS36_P_D_SUM_02",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_19",
-                "variableName": "WHODAS36_P_19",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_SUM_03",
+                "isAbout": "items/WHODAS36_P_D_SUM_03",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_20",
-                "variableName": "WHODAS36_P_20",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_SUM_04",
+                "isAbout": "items/WHODAS36_P_D_SUM_04",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_21",
-                "variableName": "WHODAS36_P_21",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_SUM_05",
+                "isAbout": "items/WHODAS36_P_D_SUM_05",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_22",
-                "variableName": "WHODAS36_P_22",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_SUM_06",
+                "isAbout": "items/WHODAS36_P_D_SUM_06",
+                "valueRequired": true,
+                "isVis": false
             },
             {
-                "isAbout": "items/WHODAS36_P_23",
-                "variableName": "WHODAS36_P_23",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_24",
-                "variableName": "WHODAS36_P_24",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_25",
-                "variableName": "WHODAS36_P_25",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_26",
-                "variableName": "WHODAS36_P_26",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_27",
-                "variableName": "WHODAS36_P_27",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_28",
-                "variableName": "WHODAS36_P_28",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_29",
-                "variableName": "WHODAS36_P_29",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_30",
-                "variableName": "WHODAS36_P_30",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_31",
-                "variableName": "WHODAS36_P_31",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_32",
-                "variableName": "WHODAS36_P_32",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_33",
-                "variableName": "WHODAS36_P_33",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_34",
-                "variableName": "WHODAS36_P_34",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_35",
-                "variableName": "WHODAS36_P_35",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/WHODAS36_P_36",
-                "variableName": "WHODAS36_P_36",
-                "isVis": true
+                "variableName": "WHODAS36_P_D_SUM_07",
+                "isAbout": "items/WHODAS36_P_D_SUM_07",
+                "valueRequired": true,
+                "isVis": false
             }
         ],
+        "shuffle": false,
         "order": [
-            "items/WHODAS36_P_1",
-            "items/WHODAS36_P_2",
-            "items/WHODAS36_P_3",
-            "items/WHODAS36_P_4",
-            "items/WHODAS36_P_5",
-            "items/WHODAS36_P_6",
-            "items/WHODAS36_P_7",
-            "items/WHODAS36_P_8",
-            "items/WHODAS36_P_9",
+            "items/WHODAS36_P_01",
+            "items/WHODAS36_P_02",
+            "items/WHODAS36_P_03",
+            "items/WHODAS36_P_04",
+            "items/WHODAS36_P_05",
+            "items/WHODAS36_P_06",
+            "items/WHODAS36_P_07",
+            "items/WHODAS36_P_08",
+            "items/WHODAS36_P_09",
             "items/WHODAS36_P_10",
             "items/WHODAS36_P_11",
             "items/WHODAS36_P_12",
@@ -237,7 +463,6 @@
             "items/WHODAS36_P_34",
             "items/WHODAS36_P_35",
             "items/WHODAS36_P_36"
-        ],
-        "shuffle": false
+        ]
     }
 }

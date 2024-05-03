@@ -10,5 +10,8 @@
         "inputType": "number",
         "readonlyValue": true
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": {
+        "minValue":0,
+        "maxValue":16
+    }
 }

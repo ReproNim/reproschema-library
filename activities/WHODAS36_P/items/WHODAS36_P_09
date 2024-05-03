@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_20",
-    "prefLabel": "WHODAS 2.0 Proxy Q20",
-    "description": "Question 20 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "@id": "WHODAS36_P_09",
+    "prefLabel": "WHODAS 2.0 Proxy Q9",
+    "description": "Question 9 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
@@ -14,5 +14,5 @@
         "minValue": 0,
         "maxValue": 32
     },
-    "question": "Sexual activities?"
+    "question": "Moving around inside their home?"
 }

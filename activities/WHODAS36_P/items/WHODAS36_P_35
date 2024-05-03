@@ -2,16 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "WHODAS36_P_35",
-    "prefLabel": "WHODAS 2.0 Proxy Question 35",
-    "description": "Q35 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "prefLabel": "WHODAS 2.0 Proxy Q35",
+    "description": "Question 35 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": {
-        "en": "How much of a problem did you or the rest of his or her family have because of his or her health problems?",
-        "es": ""
-    },
     "ui": {
-        "inputType": "radio"
+        "inputType": "number",
+        "readonlyValue": true
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": {
+        "minValue": 0,
+        "maxValue": 32
+    },
+    "question": "How much of a problem did you or the rest of his or her family have because of his or her health problems?"
 }

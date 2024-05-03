@@ -2,16 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "WHODAS36_P_17",
-    "prefLabel": "WHODAS 2.0 Proxy Question 17",
-    "description": "Q17 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "prefLabel": "WHODAS 2.0 Proxy Q17",
+    "description": "Question 17 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": {
-        "en": "Maintaining a friendship?",
-        "es": ""
-    },
     "ui": {
-        "inputType": "radio"
+        "inputType": "number",
+        "readonlyValue": true
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": {
+        "minValue": 0,
+        "maxValue": 32
+    },
+    "question": "Maintaining a friendship?"
 }

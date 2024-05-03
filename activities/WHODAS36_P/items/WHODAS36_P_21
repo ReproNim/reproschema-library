@@ -2,16 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "WHODAS36_P_21",
-    "prefLabel": "WHODAS 2.0 Proxy Question 21",
-    "description": "Q21 of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "prefLabel": "WHODAS 2.0 Proxy Q21",
+    "description": "Question 21 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": {
-        "en": "Taking care of his or her household responsibilities?",
-        "es": ""
-    },
     "ui": {
-        "inputType": "radio"
+        "inputType": "number",
+        "readonlyValue": true
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": {
+        "minValue": 0,
+        "maxValue": 32
+    },
+    "question": "Taking care of his or her household responsibilities?"
 }

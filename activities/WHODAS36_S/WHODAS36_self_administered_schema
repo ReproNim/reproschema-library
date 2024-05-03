@@ -13,64 +13,68 @@
     },
     "compute": [
         {
-            "variableName": "WHODAS12_total_score",
-            "jsExpression": "WHODAS12_1 + WHODAS12_2 + WHODAS12_3 + WHODAS12_4 + WHODAS12_5 + WHODAS12_6 + WHODAS12_7 + WHODAS12_8 + WHODAS12_9 + WHODAS12_10 + WHODAS12_11 + WHODAS12_12"
+            "variableName": "WHODAS36_S_total_score",
+            "jsExpression": "WHODAS36_S_D_SUM_01 + WHODAS36_S_D_SUM_02 + WHODAS36_S_D_SUM_03 + WHODAS36_S_D_SUM_04 + WHODAS36_S_D_SUM_05 + WHODAS36_S_D_SUM_06 + WHODAS36_S_D_SUM_07"
+        },
+        {
+            "variableName": "WHODAS36_S_average_score",
+            "jsExpression": "WHODAS36_S_total_score/36"
         },
         {
             "variableName": "WHODAS36_S_D_AVG_01",
-            "jsExpression": ""
+            "jsExpression": "(WHODAS36_S_1 + WHODAS36_S_2 + WHODAS36_S_3 + WHODAS36_S_4 + WHODAS36_S_5 + WHODAS36_S_6)/6"
         },
         {
             "variableName": "WHODAS36_S_D_AVG_02",
-            "jsExpression": ""
+            "jsExpression": "(WHODAS36_S_7 + WHODAS36_S_8 + WHODAS36_S_9 + WHODAS36_S_10 + WHODAS36_S_11)/5"
         },
         {
             "variableName": "WHODAS36_S_D_AVG_03",
-            "jsExpression": ""
+            "jsExpression": "(WHODAS36_S_12 + WHODAS36_S_13 + WHODAS36_S_14 + WHODAS36_S_15)/4"
         },
         {
             "variableName": "WHODAS36_S_D_AVG_04",
-            "jsExpression": ""
+            "jsExpression": "(WHODAS36_S_16 + WHODAS36_S_17 + WHODAS36_S_18 + WHODAS36_S_19 + WHODAS36_S_20)/5"
         },
         {
             "variableName": "WHODAS36_S_D_AVG_05",
-            "jsExpression": ""
+            "jsExpression": "(WHODAS36_S_21 + WHODAS36_S_22 + WHODAS36_S_23 + WHODAS36_S_24)/4"
         },
         {
             "variableName": "WHODAS36_S_D_AVG_06",
-            "jsExpression": ""
+            "jsExpression": "(WHODAS36_S_25 + WHODAS36_S_26 + WHODAS36_S_27 + WHODAS36_S_28)/4"
         },
         {
             "variableName": "WHODAS36_S_D_AVG_07",
-            "jsExpression": ""
+            "jsExpression": "(WHODAS36_S_29 + WHODAS36_S_30 + WHODAS36_S_31 + WHODAS36_S_32 + WHODAS36_S_33 + WHODAS36_S_34 + WHODAS36_S_35 + WHODAS36_S_36)/8"
         },
         {
             "variableName": "WHODAS36_S_D_SUM_01",
-            "jsExpression": ""
+            "jsExpression": "WHODAS36_S_1 + WHODAS36_S_2 + WHODAS36_S_3 + WHODAS36_S_4 + WHODAS36_S_5 + WHODAS36_S_6"
         },
         {
             "variableName": "WHODAS36_S_D_SUM_02",
-            "jsExpression": ""
+            "jsExpression": "WHODAS36_S_7 + WHODAS36_S_8 + WHODAS36_S_9 + WHODAS36_S_10 + WHODAS36_S_11"
         },
         {
             "variableName": "WHODAS36_S_D_SUM_03",
-            "jsExpression": ""
+            "jsExpression": "WHODAS36_S_12 + WHODAS36_S_13 + WHODAS36_S_14 + WHODAS36_S_15"
         },
         {
             "variableName": "WHODAS36_S_D_SUM_04",
-            "jsExpression": ""
+            "jsExpression": "WHODAS36_S_16 + WHODAS36_S_17 + WHODAS36_S_18 + WHODAS36_S_19 + WHODAS36_S_20"
         },
         {
             "variableName": "WHODAS36_S_D_SUM_05",
-            "jsExpression": ""
+            "jsExpression": "WHODAS36_S_21 + WHODAS36_S_22 + WHODAS36_S_23 + WHODAS36_S_24"
         },
         {
             "variableName": "WHODAS36_S_D_SUM_06",
-            "jsExpression": ""
+            "jsExpression": "WHODAS36_S_25 + WHODAS36_S_26 + WHODAS36_S_27 + WHODAS36_S_28"
         },
         {
             "variableName": "WHODAS36_S_D_SUM_07",
-            "jsExpression": ""
+            "jsExpression": "WHODAS36_S_29 + WHODAS36_S_30 + WHODAS36_S_31 + WHODAS36_S_32 + WHODAS36_S_33 + WHODAS36_S_34 + WHODAS36_S_35 + WHODAS36_S_36"
         }
     ],
     "ui": {

@@ -111,7 +111,8 @@
             "items/phq9_5",
             "items/phq9_6",
             "items/phq9_7",
-            "items/phq9_8"
+            "items/phq9_8",
+            "items/phq9_9"
         ],
         "shuffle": false
     }

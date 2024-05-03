@@ -6,13 +6,9 @@
     "description": "Question 4 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
+    "question": "Learning a new task, for example, learning how to get to a new place?",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": {
-        "minValue": 0,
-        "maxValue": 32
-    },
-    "question": "Learning a new task, for example, learning how to get to a new place?"
+    "responseOptions": "../valueConstraints"
 }

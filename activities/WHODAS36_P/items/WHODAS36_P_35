@@ -6,13 +6,9 @@
     "description": "Question 35 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
+    "question": "How much of a problem did you or the rest of his or her family have because of his or her health problems?",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": {
-        "minValue": 0,
-        "maxValue": 32
-    },
-    "question": "How much of a problem did you or the rest of his or her family have because of his or her health problems?"
+    "responseOptions": "../valueConstraints"
 }

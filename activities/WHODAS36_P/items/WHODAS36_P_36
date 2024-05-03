@@ -6,13 +6,9 @@
     "description": "Question 36 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
+    "question": "How much of a problem did your relative have in doing things by himself or herself for relaxation or pleasure?",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": {
-        "minValue": 0,
-        "maxValue": 32
-    },
-    "question": "How much of a problem did your relative have in doing things by himself or herself for relaxation or pleasure?"
+    "responseOptions": "../valueConstraints"
 }

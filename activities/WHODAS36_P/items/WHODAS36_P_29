@@ -6,13 +6,9 @@
     "description": "Question 29 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
+    "question": "How much of a problem did your relative have in joining in community activities (for example, festivities, religious, or other activities) in the same way as anyone else can?",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": {
-        "minValue": 0,
-        "maxValue": 32
-    },
-    "question": "How much of a problem did your relative have in joining in community activities (for example, festivities, religious, or other activities) in the same way as anyone else can?"
+    "responseOptions": "../valueConstraints"
 }

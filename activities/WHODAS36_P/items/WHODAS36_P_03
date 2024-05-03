@@ -6,13 +6,9 @@
     "description": "Question 3 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
+    "question": "Analyzing and finding solutions to problems in day-to-day life?",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": {
-        "minValue": 0,
-        "maxValue": 32
-    },
-    "question": "Analyzing and finding solutions to problems in day-to-day life?"
+    "responseOptions": "../valueConstraints"
 }

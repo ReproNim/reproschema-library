@@ -11,7 +11,7 @@
         "readonlyValue": true
     },
     "responseOptions": {
-        "minValue":0,
-        "maxValue":16
+        "minValue": 0,
+        "maxValue": 16
     }
 }

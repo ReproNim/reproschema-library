@@ -7,9 +7,8 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints",
-    "question": "Taking care of your household responsibilities?"
+    "question": "Taking care of your household responsibilities?",
+    "responseOptions": "../valueConstraints"
 }

@@ -7,9 +7,8 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints",
-    "question": "How much has your health been a drain on the financial resources of you or your family?"
+    "question": "How much has your health been a drain on the financial resources of you or your family?",
+    "responseOptions": "../valueConstraints"
 }

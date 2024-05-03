@@ -7,9 +7,8 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints",
-    "question": "Joining in community activities (for example, festivities, religious, or other activities) in the same way as anyone else can?"
+    "question": "Joining in community activities (for example, festivities, religious, or other activities) in the same way as anyone else can?",
+    "responseOptions": "../valueConstraints"
 }

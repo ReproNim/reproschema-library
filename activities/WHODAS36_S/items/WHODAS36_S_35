@@ -7,9 +7,8 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints",
-    "question": "How much of a problem did your family have because of your health problems?"
+    "question": "How much of a problem did your family have because of your health problems?",
+    "responseOptions": "../valueConstraints"
 }

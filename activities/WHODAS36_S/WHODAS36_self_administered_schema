@@ -13,14 +13,6 @@
     },
     "compute": [
         {
-            "variableName": "WHODAS36_S_total_score",
-            "jsExpression": "WHODAS36_S_D_SUM_01 + WHODAS36_S_D_SUM_02 + WHODAS36_S_D_SUM_03 + WHODAS36_S_D_SUM_04 + WHODAS36_S_D_SUM_05 + WHODAS36_S_D_SUM_06 + WHODAS36_S_D_SUM_07"
-        },
-        {
-            "variableName": "WHODAS36_S_average_score",
-            "jsExpression": "WHODAS36_S_total_score/36"
-        },
-        {
             "variableName": "WHODAS36_S_D_AVG_01",
             "jsExpression": "(WHODAS36_S_1 + WHODAS36_S_2 + WHODAS36_S_3 + WHODAS36_S_4 + WHODAS36_S_5 + WHODAS36_S_6)/6"
         },
@@ -75,6 +67,14 @@
         {
             "variableName": "WHODAS36_S_D_SUM_07",
             "jsExpression": "WHODAS36_S_29 + WHODAS36_S_30 + WHODAS36_S_31 + WHODAS36_S_32 + WHODAS36_S_33 + WHODAS36_S_34 + WHODAS36_S_35 + WHODAS36_S_36"
+        },
+        {
+            "variableName": "WHODAS36_S_average_score",
+            "jsExpression": "WHODAS36_S_total_score/36"
+        },
+        {
+            "variableName": "WHODAS36_S_total_score",
+            "jsExpression": "WHODAS36_S_D_SUM_01 + WHODAS36_S_D_SUM_02 + WHODAS36_S_D_SUM_03 + WHODAS36_S_D_SUM_04 + WHODAS36_S_D_SUM_05 + WHODAS36_S_D_SUM_06 + WHODAS36_S_D_SUM_07"
         }
     ],
     "ui": {

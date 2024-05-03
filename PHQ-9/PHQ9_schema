@@ -98,11 +98,6 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/phq9_10",
-                "variableName": "phq9_10",
-                "isVis": "phq9_1 > 0 ||  phq9_2 > 0 || phq9_3 > 0 || phq9_4 > 0 || phq9_5 > 0 || phq9_6 > 0 || phq9_7 > 0 || phq9_8 > 0 || phq9_9 > 0"
-            },
-            {
                 "isAbout": "items/phq9_total_score",
                 "variableName": "phq9_total_score",
                 "isVis": false
@@ -116,9 +111,7 @@
             "items/phq9_5",
             "items/phq9_6",
             "items/phq9_7",
-            "items/phq9_8",
-            "items/phq9_9",
-            "items/phq9_10"
+            "items/phq9_8"
         ],
         "shuffle": false
     }

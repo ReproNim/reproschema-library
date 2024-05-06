@@ -231,47 +231,51 @@
     "compute": [
         {
             "variableName": "somatic_score",
-            "jsExpression": "max( dsm_5_i_1 , dsm_5_i_2 )"
+            "jsExpression": "Math.max( dsm_5_i_1 , dsm_5_i_2 )"
         },
         {
             "variableName": "sleep_score",
-            "jsExpression": "( dsm_5_ii_3 )"
+            "jsExpression": "Math.max( dsm_5_ii_3 )"
         },
         {
             "variableName": "attention_score",
-            "jsExpression": "max( dsm_5_iii_4 )"
+            "jsExpression": "Math.max( dsm_5_iii_4 )"
         },
         {
             "variableName": "depression_score",
-            "jsExpression": "max( dsm_5_iv_5 , dsm_5_iv_6 )"
+            "jsExpression": "Math.max( dsm_5_iv_5 , dsm_5_iv_6 )"
         },
         {
             "variableName": "irritability_score",
-            "jsExpression": "max( dsm_5_v_7 )"
+            "jsExpression": "Math.max( dsm_5_v_7 , dsm_5_vi_8)"
         },
         {
             "variableName": "anger_score",
-            "jsExpression": " dsm_5_vi_8 "
+            "jsExpression": "Math.max( dsm_5_v_7 , dsm_5_vi_8)"
         },
         {
             "variableName": "mania_score",
-            "jsExpression": "max( dsm_5_vi_9 , dsm_5_vi_10 )"
+            "jsExpression": "Math.max( dsm_5_vi_9 , dsm_5_vi_10 )"
         },
         {
             "variableName": "anxiety_score",
-            "jsExpression": "max( dsm_5_vi_11 , dsm_5_vi_12 , dsm_5_vi_13 )"
+            "jsExpression": "Math.max( dsm_5_vi_11 , dsm_5_vi_12 , dsm_5_vi_13 )"
         },
         {
             "variableName": "psychosis_score",
-            "jsExpression": "max( dsm_5_ix_14 , dsm_5_ix_15 )"
+            "jsExpression": "Math.max( dsm_5_ix_14 , dsm_5_ix_15 )"
         },
         {
             "variableName": "repitition_score",
-            "jsExpression": "max( dsm_5_x_16 , dsm_5_x_17 , dsm_5_x_18 , dsm_5_x_19 )"
+            "jsExpression": "Math.max( dsm_5_x_16 , dsm_5_x_17 , dsm_5_x_18 , dsm_5_x_19 )"
         },
         {
             "variableName": "substance_abuse_score",
-            "jsExpression": "max( dsm_5_xi_20 , dsm_5_xi_21 , dsm_5_xi_22 , dsm_5_xi_23 )"
+            "jsExpression": "Math.max( dsm_5_xi_20 , dsm_5_xi_21 , dsm_5_xi_22 , dsm_5_xi_23 )"
+        },
+        {
+            "variableName": "suicidality_score",
+            "jsExpression": "Math.max( dsm_5_xii_24 , dsm_5_xii_25 )"
         }
     ]
 }

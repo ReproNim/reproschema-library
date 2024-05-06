@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/dsm_5_relationship",
+            "items/dsm_5_instructions",
             "items/dsm_5_i_1",
             "items/dsm_5_i_2",
             "items/dsm_5_ii_3",

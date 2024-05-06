@@ -39,5 +39,8 @@
     },
     "question": {
         "en": "Said he/she felt nervous, anxious, or scared?"
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) has your child..."
     }
 }

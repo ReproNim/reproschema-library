@@ -38,6 +38,9 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "Said he/she couldn\u2019t do things he/she wanted to or should have done, because they made him/her feel nervous?"
+        "en": "Said he/she couldn’t do things he/she wanted to or should have done, because they made him/her feel nervous?"
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) has your child..."
     }
 }

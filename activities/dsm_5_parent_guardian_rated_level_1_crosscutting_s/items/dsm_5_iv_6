@@ -39,5 +39,8 @@
     },
     "question": {
         "en": "Seemed sad or depressed for several hours?"
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) has your child..."
     }
 }

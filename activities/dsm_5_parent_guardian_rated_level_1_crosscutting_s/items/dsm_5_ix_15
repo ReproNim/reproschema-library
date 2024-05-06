@@ -38,6 +38,9 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "Said that he/she had a vision when he/she was completely awake\u2014that is, saw something or someone that no one else could see?"
+        "en": "Said that he/she had a vision when he/she was completely awake—that is, saw something or someone that no one else could see?"
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) has your child..."
     }
 }

@@ -5,23 +5,7 @@
     "version": "0.0.1",
     "@id": "dsm_5_xi_22",
     "prefLabel": "dsm_5_xi_22",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 1,
-                "name": "Yes "
-            },
-            {
-                "value": 0,
-                "name": "No "
-            },
-            {
-                "value": 9999,
-                "name": "Don't Know"
-            }
-        ]
-    },
+    "responseOptions": "../valueConstraints20to25",
     "ui": {
         "inputType": "radio"
     },

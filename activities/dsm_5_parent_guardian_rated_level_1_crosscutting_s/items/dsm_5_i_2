@@ -5,35 +5,7 @@
     "version": "0.0.1",
     "@id": "dsm_5_i_2",
     "prefLabel": "dsm_5_i_2",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 0,
-                "name": "None",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/not at all .png"
-            },
-            {
-                "value": 1,
-                "name": "Slight"
-            },
-            {
-                "value": 2,
-                "name": "Mild",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/several days .png"
-            },
-            {
-                "value": 3,
-                "name": "Moderate",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/more than half the days .png"
-            },
-            {
-                "value": 4,
-                "name": "Severe",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png"
-            }
-        ]
-    },
+    "responseOptions": "../valueConstraintsFirst19",
     "ui": {
         "inputType": "radio"
     },

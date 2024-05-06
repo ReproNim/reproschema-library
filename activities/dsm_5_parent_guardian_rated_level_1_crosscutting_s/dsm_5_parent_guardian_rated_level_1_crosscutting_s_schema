@@ -42,11 +42,6 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_relationship",
-                "isAbout": "items/dsm_5_relationship",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_instructions",
                 "isAbout": "items/dsm_5_instructions",
                 "isVis": true
@@ -57,23 +52,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_i_1",
-                "isAbout": "items/dsm_5_i_1",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_i_2",
                 "isAbout": "items/dsm_5_i_2",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_i_2",
-                "isAbout": "items/dsm_5_i_2",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_ii_3",
-                "isAbout": "items/dsm_5_ii_3",
                 "isVis": true
             },
             {
@@ -87,23 +67,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_iii_4",
-                "isAbout": "items/dsm_5_iii_4",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_iv_5",
                 "isAbout": "items/dsm_5_iv_5",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_iv_5",
-                "isAbout": "items/dsm_5_iv_5",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_iv_6",
-                "isAbout": "items/dsm_5_iv_6",
                 "isVis": true
             },
             {
@@ -117,23 +82,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_v_7",
-                "isAbout": "items/dsm_5_v_7",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_vi_8",
                 "isAbout": "items/dsm_5_vi_8",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_vi_8",
-                "isAbout": "items/dsm_5_vi_8",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_vi_9",
-                "isAbout": "items/dsm_5_vi_9",
                 "isVis": true
             },
             {
@@ -147,23 +97,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_vi_10",
-                "isAbout": "items/dsm_5_vi_10",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_vi_11",
                 "isAbout": "items/dsm_5_vi_11",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_vi_11",
-                "isAbout": "items/dsm_5_vi_11",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_vi_12",
-                "isAbout": "items/dsm_5_vi_12",
                 "isVis": true
             },
             {
@@ -177,23 +112,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_vi_13",
-                "isAbout": "items/dsm_5_vi_13",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_ix_14",
                 "isAbout": "items/dsm_5_ix_14",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_ix_14",
-                "isAbout": "items/dsm_5_ix_14",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_ix_15",
-                "isAbout": "items/dsm_5_ix_15",
                 "isVis": true
             },
             {
@@ -207,23 +127,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_x_16",
-                "isAbout": "items/dsm_5_x_16",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_x_17",
                 "isAbout": "items/dsm_5_x_17",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_x_17",
-                "isAbout": "items/dsm_5_x_17",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_x_18",
-                "isAbout": "items/dsm_5_x_18",
                 "isVis": true
             },
             {
@@ -237,23 +142,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_x_19",
-                "isAbout": "items/dsm_5_x_19",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_xi_20",
                 "isAbout": "items/dsm_5_xi_20",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_xi_20",
-                "isAbout": "items/dsm_5_xi_20",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_xi_21",
-                "isAbout": "items/dsm_5_xi_21",
                 "isVis": true
             },
             {
@@ -267,23 +157,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_xi_22",
-                "isAbout": "items/dsm_5_xi_22",
-                "isVis": true
-            },
-            {
                 "variableName": "dsm_5_xi_23",
                 "isAbout": "items/dsm_5_xi_23",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_xi_23",
-                "isAbout": "items/dsm_5_xi_23",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_5_xii_24",
-                "isAbout": "items/dsm_5_xii_24",
                 "isVis": true
             },
             {
@@ -297,23 +172,8 @@
                 "isVis": true
             },
             {
-                "variableName": "dsm_5_xii_25",
-                "isAbout": "items/dsm_5_xii_25",
-                "isVis": true
-            },
-            {
                 "variableName": "somatic_score",
                 "isAbout": "items/somatic_score",
-                "isVis": false
-            },
-            {
-                "variableName": "somatic_score",
-                "isAbout": "items/somatic_score",
-                "isVis": false
-            },
-            {
-                "variableName": "sleep_score",
-                "isAbout": "items/sleep_score",
                 "isVis": false
             },
             {
@@ -327,23 +187,8 @@
                 "isVis": false
             },
             {
-                "variableName": "attention_score",
-                "isAbout": "items/attention_score",
-                "isVis": false
-            },
-            {
                 "variableName": "depression_score",
                 "isAbout": "items/depression_score",
-                "isVis": false
-            },
-            {
-                "variableName": "depression_score",
-                "isAbout": "items/depression_score",
-                "isVis": false
-            },
-            {
-                "variableName": "irritability_score",
-                "isAbout": "items/irritability_score",
                 "isVis": false
             },
             {
@@ -357,23 +202,8 @@
                 "isVis": false
             },
             {
-                "variableName": "anger_score",
-                "isAbout": "items/anger_score",
-                "isVis": false
-            },
-            {
                 "variableName": "mania_score",
                 "isAbout": "items/mania_score",
-                "isVis": false
-            },
-            {
-                "variableName": "mania_score",
-                "isAbout": "items/mania_score",
-                "isVis": false
-            },
-            {
-                "variableName": "anxiety_score",
-                "isAbout": "items/anxiety_score",
                 "isVis": false
             },
             {
@@ -387,23 +217,8 @@
                 "isVis": false
             },
             {
-                "variableName": "psychosis_score",
-                "isAbout": "items/psychosis_score",
-                "isVis": false
-            },
-            {
                 "variableName": "repitition_score",
                 "isAbout": "items/repitition_score",
-                "isVis": false
-            },
-            {
-                "variableName": "repitition_score",
-                "isAbout": "items/repitition_score",
-                "isVis": false
-            },
-            {
-                "variableName": "substance_abuse_score",
-                "isAbout": "items/substance_abuse_score",
                 "isVis": false
             },
             {

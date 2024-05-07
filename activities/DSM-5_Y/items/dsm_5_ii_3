@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "dsm_5_ii_3",
+    "prefLabel": "dsm_5_ii_3",
+    "responseOptions": "../valueConstraintsFirst19",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Had problems sleeping—that is, trouble falling asleep, staying asleep, or waking up too early?"
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) has your child..."
+    }
+}

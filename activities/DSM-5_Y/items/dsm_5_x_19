@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "dsm_5_x_19",
+    "prefLabel": "dsm_5_x_19",
+    "responseOptions": "../valueConstraintsFirst19",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Said that he/she had to do things in a certain way, like counting or saying special things out loud, in order to keep something bad from happening?"
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) has your child..."
+    }
+}

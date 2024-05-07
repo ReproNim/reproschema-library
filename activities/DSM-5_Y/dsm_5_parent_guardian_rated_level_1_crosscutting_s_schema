@@ -1,0 +1,320 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "dsm_5_parent_guardian_rated_level_1_crosscutting_s_schema",
+    "prefLabel": "dsm_5_parent_guardian",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/dsm_5_relationship",
+            "items/dsm_5_instructions",
+            "items/dsm_5_i_1",
+            "items/dsm_5_i_2",
+            "items/dsm_5_ii_3",
+            "items/dsm_5_iii_4",
+            "items/dsm_5_iv_5",
+            "items/dsm_5_iv_6",
+            "items/dsm_5_v_7",
+            "items/dsm_5_vi_8",
+            "items/dsm_5_vi_9",
+            "items/dsm_5_vi_10",
+            "items/dsm_5_vi_11",
+            "items/dsm_5_vi_12",
+            "items/dsm_5_vi_13",
+            "items/dsm_5_ix_14",
+            "items/dsm_5_ix_15",
+            "items/dsm_5_x_16",
+            "items/dsm_5_x_17",
+            "items/dsm_5_x_18",
+            "items/dsm_5_x_19",
+            "items/dsm_5_xi_20",
+            "items/dsm_5_xi_21",
+            "items/dsm_5_xi_22",
+            "items/dsm_5_xi_23",
+            "items/dsm_5_xii_24",
+            "items/dsm_5_xii_25"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "dsm_5_relationship",
+                "isAbout": "items/dsm_5_relationship",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_instructions",
+                "isAbout": "items/dsm_5_instructions",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_i_1",
+                "isAbout": "items/dsm_5_i_1",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_i_2",
+                "isAbout": "items/dsm_5_i_2",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_ii_3",
+                "isAbout": "items/dsm_5_ii_3",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_iii_4",
+                "isAbout": "items/dsm_5_iii_4",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_iv_5",
+                "isAbout": "items/dsm_5_iv_5",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_iv_6",
+                "isAbout": "items/dsm_5_iv_6",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_v_7",
+                "isAbout": "items/dsm_5_v_7",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_vi_8",
+                "isAbout": "items/dsm_5_vi_8",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_vi_9",
+                "isAbout": "items/dsm_5_vi_9",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_vi_10",
+                "isAbout": "items/dsm_5_vi_10",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_vi_11",
+                "isAbout": "items/dsm_5_vi_11",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_vi_12",
+                "isAbout": "items/dsm_5_vi_12",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_vi_13",
+                "isAbout": "items/dsm_5_vi_13",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_ix_14",
+                "isAbout": "items/dsm_5_ix_14",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_ix_15",
+                "isAbout": "items/dsm_5_ix_15",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_x_16",
+                "isAbout": "items/dsm_5_x_16",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_x_17",
+                "isAbout": "items/dsm_5_x_17",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_x_18",
+                "isAbout": "items/dsm_5_x_18",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_x_19",
+                "isAbout": "items/dsm_5_x_19",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_xi_20",
+                "isAbout": "items/dsm_5_xi_20",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_xi_21",
+                "isAbout": "items/dsm_5_xi_21",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_xi_22",
+                "isAbout": "items/dsm_5_xi_22",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_xi_23",
+                "isAbout": "items/dsm_5_xi_23",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_xii_24",
+                "isAbout": "items/dsm_5_xii_24",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "dsm_5_xii_25",
+                "isAbout": "items/dsm_5_xii_25",
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "variableName": "somatic_score",
+                "isAbout": "items/somatic_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "sleep_score",
+                "isAbout": "items/sleep_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "attention_score",
+                "isAbout": "items/attention_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "depression_score",
+                "isAbout": "items/depression_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "irritability_score",
+                "isAbout": "items/irritability_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "anger_score",
+                "isAbout": "items/anger_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "mania_score",
+                "isAbout": "items/mania_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "anxiety_score",
+                "isAbout": "items/anxiety_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "psychosis_score",
+                "isAbout": "items/psychosis_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "repitition_score",
+                "isAbout": "items/repitition_score",
+                "isVis": false,
+                "valueRequired": true
+            },
+            {
+                "variableName": "substance_abuse_score",
+                "isAbout": "items/substance_abuse_score",
+                "isVis": false,
+                "valueRequired": true
+            }
+        ]
+    },
+    "compute": [
+        {
+            "variableName": "somatic_score",
+            "jsExpression": "Math.max( dsm_5_i_1 , dsm_5_i_2 )"
+        },
+        {
+            "variableName": "sleep_score",
+            "jsExpression": "Math.max( dsm_5_ii_3 )"
+        },
+        {
+            "variableName": "attention_score",
+            "jsExpression": "Math.max( dsm_5_iii_4 )"
+        },
+        {
+            "variableName": "depression_score",
+            "jsExpression": "Math.max( dsm_5_iv_5 , dsm_5_iv_6 )"
+        },
+        {
+            "variableName": "irritability_score",
+            "jsExpression": "Math.max( dsm_5_v_7 , dsm_5_vi_8)"
+        },
+        {
+            "variableName": "anger_score",
+            "jsExpression": "Math.max( dsm_5_v_7 , dsm_5_vi_8)"
+        },
+        {
+            "variableName": "mania_score",
+            "jsExpression": "Math.max( dsm_5_vi_9 , dsm_5_vi_10 )"
+        },
+        {
+            "variableName": "anxiety_score",
+            "jsExpression": "Math.max( dsm_5_vi_11 , dsm_5_vi_12 , dsm_5_vi_13 )"
+        },
+        {
+            "variableName": "psychosis_score",
+            "jsExpression": "Math.max( dsm_5_ix_14 , dsm_5_ix_15 )"
+        },
+        {
+            "variableName": "repitition_score",
+            "jsExpression": "Math.max( dsm_5_x_16 , dsm_5_x_17 , dsm_5_x_18 , dsm_5_x_19 )"
+        },
+        {
+            "variableName": "substance_abuse_score",
+            "jsExpression": "Math.max( dsm_5_xi_20 , dsm_5_xi_21 , dsm_5_xi_22 , dsm_5_xi_23 )"
+        },
+        {
+            "variableName": "suicidality_score",
+            "jsExpression": "Math.max( dsm_5_xii_24 , dsm_5_xii_25 )"
+        }
+    ]
+}

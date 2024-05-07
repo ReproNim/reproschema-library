@@ -1,0 +1,15 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "dsm_5_xii_25",
+    "prefLabel": "dsm_5_xii_25",
+    "responseOptions": "../valueConstraints20to25",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Has he/she EVER tried to kill himself/herself?"
+    }
+}

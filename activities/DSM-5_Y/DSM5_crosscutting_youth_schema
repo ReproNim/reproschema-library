@@ -1,13 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "dsm_5_parent_guardian_rated_level_1_crosscutting_s_schema",
-    "prefLabel": "dsm_5_parent_guardian",
+    "@id": "DSM5_crosscutting_youth_schema",
+    "prefLabel": "DSM5_crosscutting_youth_schema",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
         "order": [
-            "items/dsm_5_relationship",
             "items/dsm_5_instructions",
             "items/dsm_5_i_1",
             "items/dsm_5_i_2",
@@ -37,12 +36,6 @@
         ],
         "shuffle": false,
         "addProperties": [
-            {
-                "variableName": "dsm_5_relationship",
-                "isAbout": "items/dsm_5_relationship",
-                "isVis": true,
-                "valueRequired": true
-            },
             {
                 "variableName": "dsm_5_instructions",
                 "isAbout": "items/dsm_5_instructions",

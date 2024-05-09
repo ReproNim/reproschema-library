@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "citation": "https://www.childfirst.ucla.edu/resources/",
     "preamble": {
-        "en": "Tell us how often these things happen to you.",
+        "en": "Please put a circle around the word that shows how often each of these things happens to you. There are no right or wrong answers.",
         "es": ""
     },
     "compute": [

@@ -6,7 +6,7 @@
     "description": "GAD7 assessment schema",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
+    "citation": "https://pubmed.ncbi.nlm.nih.gov/16717171/",
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by the following problems?",
         "es": "Durante las \u00faltimas 2 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas",

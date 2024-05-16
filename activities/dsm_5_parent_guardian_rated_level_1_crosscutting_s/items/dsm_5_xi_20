@@ -9,9 +9,6 @@
     "ui": {
         "inputType": "radio"
     },
-    "preamble": {
-        "en": "In the past TWO (2) WEEKS, has your child …"
-    },
     "question": {
         "en": "Had an alcoholic beverage (beer, wine, liquor, etc.)?"
     }

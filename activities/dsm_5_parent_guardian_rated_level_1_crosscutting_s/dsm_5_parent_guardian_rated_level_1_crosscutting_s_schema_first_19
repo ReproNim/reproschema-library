@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "dsm_5_parent_guardian_rated_level_1_crosscutting_s_schema",
+    "@id": "dsm_5_parent_guardian_rated_level_1_crosscutting_s_schema_first_19",
     "prefLabel": "dsm_5_parent_guardian",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",

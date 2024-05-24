@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Thoughts that you would be better off dead or of hurting yourself in some way?",
+        "en": "Thoughts that you would be better off dead or of hurting yourself in some way",
         "es": "¿Pensamientos de que sería mejor estar muerto o lastimarse de alguna manera?",
         "nl": "Dacht je dat je beter af zou zijn als je dood bent of jezelf op de een of andere manier pijn doet?",
         "fr": "Vous pensez que vous feriez mieux de mourir ou de vous blesser d'une manière ou d'une autre?",

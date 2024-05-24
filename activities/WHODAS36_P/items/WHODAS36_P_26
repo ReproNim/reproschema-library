@@ -1,15 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS12_11",
-    "prefLabel": "WHODAS12_11",
-    "description": "Q11 of the WHODAS12",
+    "@id": "WHODAS36_P_26",
+    "prefLabel": "WHODAS 2.0 Proxy Q26",
+    "description": "Question 26 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": {
-        "en": "Maintaining a friendship?",
-        "es": ""
-    },
+    "question": "Doing his or her most important work/school tasks well?",
     "ui": {
         "inputType": "radio"
     },

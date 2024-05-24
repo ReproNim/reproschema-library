@@ -1,17 +1,14 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS12_8",
-    "prefLabel": "WHODAS12_8",
-    "description": "Q8 of the WHODAS12",
+    "@id": "WHODAS36_S_07",
+    "prefLabel": "WHODAS 2.0 Self Q7",
+    "description": "Question 7 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": {
-        "en": "Washing your whole body?",
-        "es": ""
-    },
     "ui": {
         "inputType": "radio"
     },
+    "question": "Standing for long periods, such as 30 minutes?",
     "responseOptions": "../valueConstraints"
 }

@@ -1,17 +1,14 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS12_1",
-    "prefLabel": "WHODAS12_1",
-    "description": "Q1 of the WHODAS12",
+    "@id": "WHODAS36_S_05",
+    "prefLabel": "WHODAS 2.0 Self Q5",
+    "description": "Question 5 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": {
-        "en": "Standing for long periods such as 30 minutes?",
-        "es": ""
-    },
     "ui": {
         "inputType": "radio"
     },
+    "question": "Generally understanding what people say?",
     "responseOptions": "../valueConstraints"
 }

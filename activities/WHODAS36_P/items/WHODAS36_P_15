@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS36_P_15",
+    "prefLabel": "WHODAS 2.0 Proxy Q15",
+    "description": "Question 15 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Staying by himself or herself for a few days?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

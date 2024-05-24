@@ -13,6 +13,6 @@
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 27
+        "maxValue": 21
     }
 }

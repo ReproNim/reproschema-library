@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "dsm_5_xi_20",
+    "prefLabel": "dsm_5_xi_20",
+    "responseOptions": "../valueConstraints20to25",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "In the past TWO (2) WEEKS, have you…"
+    },
+    "question": {
+        "en": "Had an alcoholic beverage (beer, wine, liquor, etc.)?"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "RCADS25_12",
+    "prefLabel": "RCADS-25 Youth Assessment Q12",
+    "description": "Question 12 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Youth-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "I have to do some things over and over again (like washing my hands, cleaning or putting things in a certain order)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

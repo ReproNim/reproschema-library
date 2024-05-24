@@ -5,27 +5,11 @@
     "version": "0.0.1",
     "@id": "dsm_5_xii_25",
     "prefLabel": "dsm_5_xii_25",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 1,
-                "name": "Yes "
-            },
-            {
-                "value": 0,
-                "name": "No "
-            },
-            {
-                "value": 9999,
-                "name": "Don't Know"
-            }
-        ]
-    },
+    "responseOptions": "../valueConstraints20to25",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "XII.Has he/she EVER tried to kill himself/herself?"
+        "en": "Has he/she EVER tried to kill himself/herself?"
     }
 }

@@ -5,30 +5,11 @@
     "version": "0.0.1",
     "@id": "dsm_5_xi_20",
     "prefLabel": "dsm_5_xi_20",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 1,
-                "name": "Yes "
-            },
-            {
-                "value": 0,
-                "name": "No "
-            },
-            {
-                "value": 9999,
-                "name": "Don't Know"
-            }
-        ]
-    },
+    "responseOptions": "../valueConstraints20to25",
     "ui": {
         "inputType": "radio"
     },
-    "preamble": {
-        "en": "In the past TWO (2) WEEKS, has your child ..."
-    },
     "question": {
-        "en": "XI.20. Had an alcoholic beverage (beer, wine, liquor, etc.)?"
+        "en": "Had an alcoholic beverage (beer, wine, liquor, etc.)?"
     }
 }

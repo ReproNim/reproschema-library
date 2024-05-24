@@ -36,12 +36,6 @@
                 "en": "Nearly every day"
             },
             "value": 4
-        },
-        {
-            "name": {
-                "en": "Missing"
-            },
-            "value": -9
         }
     ]
 }

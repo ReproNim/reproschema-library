@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "dsm5crossad_3",
-    "prefLabel": "dsm5crossad_3",
+    "prefLabel": "DSM5 Crosscutting Adult Question 3",
     "description": "Q3 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
         "en": "Feeling more irritated, grouchy, or angry than usual?"
@@ -11,5 +11,4 @@
         "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
-    
 }

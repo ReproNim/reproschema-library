@@ -2,14 +2,13 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "dsm5crossad_4",
-    "prefLabel": "dsm5crossad_4",
+    "prefLabel": "DSM5 Crosscutting Adult Question 4",
     "description": "Q4 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
-        "en": "Sleeping less than usual, but still have a lot of energy?"
+        "en": "Sleeping less than usual, but still have lots of energy?"
     },
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
-    
 }

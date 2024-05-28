@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "meim_schema",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "meim_es"
     },
     "description": "An assessment to measure cultural affiliation",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
         "en": "In this country, people come from many different countries and cultures, and there are many different words to describe the different backgrounds or ethnic groups that people come from. Some examples of the names of ethnic groups are Hispanic or Latino, Black or African American, Asian American, Chinese, Filipino, American Indian, Mexican American, Caucasian or White, Italian American, and many others. These questions are about your ethnicity or your ethnic group and how you feel about it or react to it.",

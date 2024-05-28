@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "demo_med_insur_f_p",
     "@type": "reproschema:Field",
     "prefLabel": "demo_med_insur_f_p",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "f. VA (including those who have ever used or enrolled for VA health care)f. VA (incluidos aquellos que alguna vez utilizaron o se inscribieron para la atenci?n m?dica de VA)",
     "ui": {

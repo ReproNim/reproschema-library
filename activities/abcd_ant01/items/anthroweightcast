@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "anthroweightcast",
     "@type": "reproschema:Field",
     "prefLabel": "anthroweightcast",
     "altLabel": "anthro_weight_cast",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Participant Wearing a Cast or Medical Prosthesis?",
     "ui": {

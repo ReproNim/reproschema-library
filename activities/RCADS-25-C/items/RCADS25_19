@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "RCADS25_19",
+    "prefLabel": "RCADS-25 Caregiver Assessment Q19",
+    "description": "Question 19 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Caregiver-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "My child feels like he/she doesn’t want to move",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

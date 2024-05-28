@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS36_P_10",
+    "prefLabel": "WHODAS 2.0 Proxy Q10",
+    "description": "Question 10 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Getting out of their home?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

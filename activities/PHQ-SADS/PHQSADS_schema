@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "PHQSADS_schema",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "PHQ-8 Evaluación"
     },
     "description": "PHQ-8 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"

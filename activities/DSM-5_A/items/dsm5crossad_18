@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "dsm5crossad_18",
-    "prefLabel": "dsm5crossad_18",
+    "prefLabel": "DSM5 Crosscutting Adult Question 18",
     "description": "Q18 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
         "en": "Feeling detached or distant from yourself, your body, your physical surroundings, or your memories?"
@@ -11,5 +11,4 @@
         "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
-    
 }

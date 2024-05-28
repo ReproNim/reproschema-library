@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "sai_p_surf_nmonth_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_surf_nmonth_l",
     "altLabel": "sai_surf_nmonth_p_l sports_activity_surf_nmonth_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Surfing Surfear Since we last saw you, about how many months did your child participate in this activity? Desde la \u00faltima vez que nos vimos, \u00bfaproximadamente cu\u00e1ntos meses al a\u00f1o participA su ni\u00f1o(a) en esta actividad?",
     "ui": {

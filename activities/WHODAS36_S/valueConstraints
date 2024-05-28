@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 4,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": {
+                "en": "No Difficulty",
+                "es": "Para nada"
+            },
+            "value": 0
+        },
+        {
+            "name": {
+                "en": "Mild Difficulty",
+                "es": "Varios d\u00edas"
+            },
+            "value": 1
+        },
+        {
+            "name": {
+                "en": "Moderate Difficulty",
+                "es": "M\u00e1s de la mitad de los d\u00edas"
+            },
+            "value": 2
+        },
+        {
+            "name": {
+                "en": "Severe Difficulty",
+                "es": "Casi todos los d\u00edas"
+            },
+            "value": 3
+        },
+        {
+            "name": {
+                "en": "Extreme Difficulty or Cannot Do",
+                "es": "Casi todos los d\u00edas"
+            },
+            "value": 4
+        }
+    ]
+}

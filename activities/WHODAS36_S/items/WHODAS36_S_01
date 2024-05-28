@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS36_S_01",
+    "prefLabel": "WHODAS 2.0 Self Q1",
+    "description": "Question 1 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": "Concentrating on doing something for ten minutes?",
+    "responseOptions": "../valueConstraints"
+}

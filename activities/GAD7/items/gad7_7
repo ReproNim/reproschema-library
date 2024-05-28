@@ -1,13 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gad7_7",
     "prefLabel": "GAD7-7",
     "description": "schema for Q7 of the GAD7 Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Feeling afraid as if something awful might happen?",
+        "en": "Feeling afraid as if something awful might happen",
         "es": "Sentir miedo de que algo terrible pueda ocurrir",
         "ar": "الشّعور بالخوف آما لو أن شيئا فضيعا قد يحدث.",
         "nl": "Bang zijn dat er iets vreselijks zou kunnen gebeuren",

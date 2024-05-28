@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "say_ng",
     "prefLabel": "Sustained nasal ng",
     "description": "say n for 10 seconds",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "Say /sung/ and hold the /ng/ for as long as you can, in a relaxed way and at a normal volume, without interrupting. When you are done, hit the Stop button to end recording. Take a deep breath and click to start.",

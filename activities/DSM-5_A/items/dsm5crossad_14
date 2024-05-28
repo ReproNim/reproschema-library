@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "dsm5crossad_14",
-    "prefLabel": "dsm5crossad_14",
+    "prefLabel": "DSM5 Crosscutting Adult Question 14",
     "description": "Q14 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
         "en": "Problems with sleep that affected your sleep quality over all?"
@@ -11,5 +11,4 @@
         "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
-    
 }

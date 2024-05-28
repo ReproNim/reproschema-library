@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "saveData",
     "prefLabel": "Save data",
     "description": "save data to server",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "You've finished today's activity. Thank you for participating! <br><br>(1) To send us your responses, click the Upload button below. <br><br>(2) OPTIONAL: If you are using a laptop or desktop, you can also click the Download button on the sidebar to download a personal copy of your responses.",

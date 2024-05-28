@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "abcd_crpf01_schema",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "abcd_crpf01_es"
     },
     "altLabel": "abcd_crpf01",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
         "en": "Now I am going to ask you about how easy it is to get certain substances.",

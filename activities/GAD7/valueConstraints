@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "valueConstraints",
     "@type": "reproschema:ResponseOption",
     "valueType": "xsd:integer",
@@ -93,7 +93,7 @@
         },
         {
             "name": {
-                "en": "Nearly everyday",
+                "en": "Nearly every day",
                 "es": "Casi todos los d\u00edas",
                 "ar": "كل يوم تقريبا",
                 "fr": "Presque tous les jours",

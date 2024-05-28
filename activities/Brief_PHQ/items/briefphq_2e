@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "briefphq_2e",
     "prefLabel": "radio item",
     "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "During your last bad anxiety attack, did you have symptoms like shortness of breath, sweating, your heart racing or pounding, dizziness or faintness, tingling or numbness, or nausea or upset stomach?",
     "ui": {

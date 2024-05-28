@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_hcpmq_12",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hcpmq_12",
         "es": "irma_hcpmq_12_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "12. My child was sometimes in the room while I watched hurricane-related news",

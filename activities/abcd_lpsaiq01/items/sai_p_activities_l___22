@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "sai_p_activities_l___22",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_activities_l___22",
     "altLabel": "sports_activity_activities_p_l___22",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "(22, Yoga,  Tai Chi Yoga / tai chi)",
     "ui": {

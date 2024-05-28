@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "caterpillar_fast",
     "prefLabel": "Caterpillar Passage (Fast version)",
     "description": "Caterpillar passage task read as fast as possible",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble":
         {"en": "Click the Record button, take a deep breath and read as fast and as much as you can in one breath. When you are done, click the Stop button to end recording.",

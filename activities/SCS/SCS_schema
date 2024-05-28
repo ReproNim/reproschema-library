@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "SCS_schema",
     "prefLabel": {
@@ -7,7 +7,7 @@
         "es": "Evaluación de auto compasión"
     },
     "description": "SelfCompassionScale schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://self-compassion.org/wp-content/uploads/publications/scsshort.pdf",
     "preamble": {

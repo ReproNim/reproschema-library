@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "q3",
     "prefLabel": "Quiz Q3",
     "altLabel": "quiz_q3",
     "description": "Quiz Question 3",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "I decided to share my data broadly with qualified researchers and now I want to stop. What happens to the data I have already shared?",
     "ui": {

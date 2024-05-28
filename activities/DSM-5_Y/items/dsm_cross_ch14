@@ -1,0 +1,15 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_cross_ch14",
+    "prefLabel": "dsm_cross_ch14",
+    "description": "Q14 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "question": {
+        "en": "heard voices - when there was no one there - speaking about you or telling you what to do or saying bad things to you?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+    
+}

@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_cross_ch23",
+    "prefLabel": "dsm_cross_ch23",
+    "description": "Q23 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "question": {
+        "en": "used any medicine without a doctor's prescription to get high or change the way you feel (e.g., painkillers [like Vicodin], stimulants [like Ritalin or Adderall], sedatives or tranquilizers [like sleeping pills or Valium], or steroids)?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 1,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 0
+            },
+            {
+                "name": "No",
+                "value": 2
+            },
+            {
+                "name": "Missing",
+                "value": -9
+            }
+        ]
+    }
+}

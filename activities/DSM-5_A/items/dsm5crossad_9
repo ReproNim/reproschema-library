@@ -1,0 +1,15 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm5crossad_9",
+    "prefLabel": "dsm5crossad_9",
+    "description": "Q9 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "question": {
+        "en": " Unexplained aches and pains (e.g., head, back, joints, abdomen, legs)?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+    
+}

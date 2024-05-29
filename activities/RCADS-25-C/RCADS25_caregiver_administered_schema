@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "RCADS-25_schema",
-    "prefLabel": "RCADS-25",
-    "description": "RCADS-25 assessment schema",
+    "@id": "RCADS25_caregiver_administered_schema",
+    "prefLabel": "RCADS25_caregiver_administered_schema",
+    "description": "RCADS-25 caregiver administered assessment schema",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.childfirst.ucla.edu/resources/",

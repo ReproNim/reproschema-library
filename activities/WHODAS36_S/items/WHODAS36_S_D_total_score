@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "WHODAS36_S_D_SUM_07",
+    "@id": "WHODAS36_S_D_total_score",
     "prefLabel": "WHODAS 2.0 Self Average Score",
     "description": "Average score of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
     "schemaVersion": "1.0.0-rc4",

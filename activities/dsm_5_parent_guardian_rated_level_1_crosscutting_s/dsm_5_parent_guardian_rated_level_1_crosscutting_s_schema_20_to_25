@@ -247,6 +247,12 @@
                 "isAbout": "items/substance_abuse_score",
                 "isVis": false,
                 "valueRequired": true
+            },
+            {
+                "variableName": "suicidality_score",
+                "isAbout": "items/suicidality_score",
+                "isVis": false,
+                "valueRequired": true
             }
         ]
     },

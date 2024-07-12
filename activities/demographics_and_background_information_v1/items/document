@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "document",
-    "prefLabel": "Proof of city of birth",
-    "description": "schema for proof of birth place of participant",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "document",
+    "category": "Field",
+    "description": {
+        "en": "schema for proof of birth place of participant"
+    },
+    "question": {
+        "en": "Upload copy of birth certificate"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Upload copy of birth certificate",
     "ui": {
         "inputType": "documentUpload"
     },
     "responseOptions": {
-        "valueType": "DigitalDocument"
+        "valueType": [
+            "DigitalDocument"
+        ]
+    },
+    "prefLabel": {
+        "en": "Proof of city of birth"
     }
 }

@@ -1,11 +1,116 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "ksads_section11_schema",
-    "prefLabel": "abcd_ksad01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_section11_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_11_331_p",
+                "variableName": "ksads_11_331_p"
+            },
+            {
+                "isAbout": "items/ksads_11_332_p",
+                "variableName": "ksads_11_332_p"
+            },
+            {
+                "isAbout": "items/ksads_11_333_p",
+                "variableName": "ksads_11_333_p"
+            },
+            {
+                "isAbout": "items/ksads_11_334_p",
+                "variableName": "ksads_11_334_p"
+            },
+            {
+                "isAbout": "items/ksads_11_335_p",
+                "variableName": "ksads_11_335_p"
+            },
+            {
+                "isAbout": "items/ksads_11_336_p",
+                "variableName": "ksads_11_336_p"
+            },
+            {
+                "isAbout": "items/ksads_11_337_p",
+                "variableName": "ksads_11_337_p"
+            },
+            {
+                "isAbout": "items/ksads_11_338_p",
+                "variableName": "ksads_11_338_p"
+            },
+            {
+                "isAbout": "items/ksads_11_339_p",
+                "variableName": "ksads_11_339_p"
+            },
+            {
+                "isAbout": "items/ksads_11_340_p",
+                "variableName": "ksads_11_340_p"
+            },
+            {
+                "isAbout": "items/ksads_11_341_p",
+                "variableName": "ksads_11_341_p"
+            },
+            {
+                "isAbout": "items/ksads_11_342_p",
+                "variableName": "ksads_11_342_p"
+            },
+            {
+                "isAbout": "items/ksads_11_343_p",
+                "variableName": "ksads_11_343_p"
+            },
+            {
+                "isAbout": "items/ksads_11_344_p",
+                "variableName": "ksads_11_344_p"
+            },
+            {
+                "isAbout": "items/ksads_11_345_p",
+                "variableName": "ksads_11_345_p"
+            },
+            {
+                "isAbout": "items/ksads_11_346_p",
+                "variableName": "ksads_11_346_p"
+            },
+            {
+                "isAbout": "items/ksads_11_347_p",
+                "variableName": "ksads_11_347_p"
+            },
+            {
+                "isAbout": "items/ksads_11_348_p",
+                "variableName": "ksads_11_348_p"
+            },
+            {
+                "isAbout": "items/ksads_11_48_p",
+                "variableName": "ksads_11_48_p"
+            },
+            {
+                "isAbout": "items/ksads_11_49_p",
+                "variableName": "ksads_11_49_p"
+            },
+            {
+                "isAbout": "items/ksads_11_50_p",
+                "variableName": "ksads_11_50_p"
+            },
+            {
+                "isAbout": "items/ksads_11_51_p",
+                "variableName": "ksads_11_51_p"
+            },
+            {
+                "isAbout": "items/ksads_11_917_p",
+                "variableName": "ksads_11_917_p"
+            },
+            {
+                "isAbout": "items/ksads_11_918_p",
+                "variableName": "ksads_11_918_p"
+            },
+            {
+                "isAbout": "items/ksads_11_919_p",
+                "variableName": "ksads_11_919_p"
+            },
+            {
+                "isAbout": "items/ksads_11_920_p",
+                "variableName": "ksads_11_920_p"
+            }
+        ],
         "order": [
             "items/ksads_11_331_p",
             "items/ksads_11_332_p",
@@ -34,112 +139,9 @@
             "items/ksads_11_919_p",
             "items/ksads_11_920_p"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "ksads_11_331_p",
-                "isAbout": "items/ksads_11_331_p"
-            },
-            {
-                "variableName": "ksads_11_332_p",
-                "isAbout": "items/ksads_11_332_p"
-            },
-            {
-                "variableName": "ksads_11_333_p",
-                "isAbout": "items/ksads_11_333_p"
-            },
-            {
-                "variableName": "ksads_11_334_p",
-                "isAbout": "items/ksads_11_334_p"
-            },
-            {
-                "variableName": "ksads_11_335_p",
-                "isAbout": "items/ksads_11_335_p"
-            },
-            {
-                "variableName": "ksads_11_336_p",
-                "isAbout": "items/ksads_11_336_p"
-            },
-            {
-                "variableName": "ksads_11_337_p",
-                "isAbout": "items/ksads_11_337_p"
-            },
-            {
-                "variableName": "ksads_11_338_p",
-                "isAbout": "items/ksads_11_338_p"
-            },
-            {
-                "variableName": "ksads_11_339_p",
-                "isAbout": "items/ksads_11_339_p"
-            },
-            {
-                "variableName": "ksads_11_340_p",
-                "isAbout": "items/ksads_11_340_p"
-            },
-            {
-                "variableName": "ksads_11_341_p",
-                "isAbout": "items/ksads_11_341_p"
-            },
-            {
-                "variableName": "ksads_11_342_p",
-                "isAbout": "items/ksads_11_342_p"
-            },
-            {
-                "variableName": "ksads_11_343_p",
-                "isAbout": "items/ksads_11_343_p"
-            },
-            {
-                "variableName": "ksads_11_344_p",
-                "isAbout": "items/ksads_11_344_p"
-            },
-            {
-                "variableName": "ksads_11_345_p",
-                "isAbout": "items/ksads_11_345_p"
-            },
-            {
-                "variableName": "ksads_11_346_p",
-                "isAbout": "items/ksads_11_346_p"
-            },
-            {
-                "variableName": "ksads_11_347_p",
-                "isAbout": "items/ksads_11_347_p"
-            },
-            {
-                "variableName": "ksads_11_348_p",
-                "isAbout": "items/ksads_11_348_p"
-            },
-            {
-                "variableName": "ksads_11_48_p",
-                "isAbout": "items/ksads_11_48_p"
-            },
-            {
-                "variableName": "ksads_11_49_p",
-                "isAbout": "items/ksads_11_49_p"
-            },
-            {
-                "variableName": "ksads_11_50_p",
-                "isAbout": "items/ksads_11_50_p"
-            },
-            {
-                "variableName": "ksads_11_51_p",
-                "isAbout": "items/ksads_11_51_p"
-            },
-            {
-                "variableName": "ksads_11_917_p",
-                "isAbout": "items/ksads_11_917_p"
-            },
-            {
-                "variableName": "ksads_11_918_p",
-                "isAbout": "items/ksads_11_918_p"
-            },
-            {
-                "variableName": "ksads_11_919_p",
-                "isAbout": "items/ksads_11_919_p"
-            },
-            {
-                "variableName": "ksads_11_920_p",
-                "isAbout": "items/ksads_11_920_p"
-            }
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "abcd_ksad01"
     }
 }

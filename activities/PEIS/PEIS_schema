@@ -1,108 +1,101 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PEIS_schema",
-    "prefLabel": "PEIS",
-    "description": "PEIS assessment schema",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "citation": "http://pandemicimpactreport.com/",
-    "preamble": {
-        "en": "How much has your wellbeing and functioning been different in the following ways in the past 4 weeks, compared to the way it was before the beginning of the COVID-19 pandemic in the U.S.?",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PEIS_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "http://pandemicimpactreport.com/"
     },
-    "compute": [
-        {
-            "variableName": "PEIS_total_score",
-            "jsExpression": "PEIS_1 + PEIS_2 + PEIS_3 + PEIS_4 + PEIS_5 + PEIS_6 + PEIS_7 + PEIS_8 + PEIS_9 + PEIS_10 + PEIS_11 + PEIS_12 + PEIS_13 + PEIS_14 + PEIS_15 + PEIS_16"
-        }
-    ],
+    "description": {
+        "en": "PEIS assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/PEIS_1",
-                "variableName": "PEIS_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_1"
             },
             {
                 "isAbout": "items/PEIS_2",
-                "variableName": "PEIS_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_2"
             },
             {
                 "isAbout": "items/PEIS_3",
-                "variableName": "PEIS_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_3"
             },
             {
                 "isAbout": "items/PEIS_4",
-                "variableName": "PEIS_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_4"
             },
             {
                 "isAbout": "items/PEIS_5",
-                "variableName": "PEIS_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_5"
             },
             {
                 "isAbout": "items/PEIS_6",
-                "variableName": "PEIS_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_6"
             },
             {
                 "isAbout": "items/PEIS_7",
-                "variableName": "PEIS_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_7"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_8",
-                "variableName": "PEIS_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_8"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_9",
-                "variableName": "PEIS_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_9"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_10",
-                "variableName": "PEIS_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_10"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_11",
-                "variableName": "PEIS_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_11"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_12",
-                "variableName": "PEIS_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_12"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_13",
-                "variableName": "PEIS_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_13"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_14",
-                "variableName": "PEIS_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_14"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_15",
-                "variableName": "PEIS_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_15"
             },
-                        {
+            {
                 "isAbout": "items/PEIS_16",
-                "variableName": "PEIS_16",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PEIS_16"
             },
             {
                 "isAbout": "items/PEIS_total_score",
-                "variableName": "PEIS_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "PEIS_total_score"
             }
         ],
         "order": [
@@ -124,5 +117,18 @@
             "items/PEIS_16"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "PEIS_1 + PEIS_2 + PEIS_3 + PEIS_4 + PEIS_5 + PEIS_6 + PEIS_7 + PEIS_8 + PEIS_9 + PEIS_10 + PEIS_11 + PEIS_12 + PEIS_13 + PEIS_14 + PEIS_15 + PEIS_16",
+            "variableName": "PEIS_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "How much has your wellbeing and functioning been different in the following ways in the past 4 weeks, compared to the way it was before the beginning of the COVID-19 pandemic in the U.S.?",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "PEIS"
     }
 }

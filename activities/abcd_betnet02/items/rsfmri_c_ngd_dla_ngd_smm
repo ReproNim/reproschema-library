@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "rsfmri_c_ngd_dla_ngd_smm",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_dla_ngd_smm",
-    "altLabel": "rsfmri_cor_network.gordon_dorsalattn_network.gordon_smmouth rsfmri_cor_networkgordon_dorsalattn_networkgordon_smmouth",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_dla_ngd_smm",
+    "category": "Field",
+    "question": {
+        "en": "Average correlation between dorsal attention network and sensorimotor mouth network"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Average correlation between dorsal attention network and sensorimotor mouth network",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_dorsalattn_network.gordon_smmouth rsfmri_cor_networkgordon_dorsalattn_networkgordon_smmouth"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_dla_ngd_smm"
     }
 }

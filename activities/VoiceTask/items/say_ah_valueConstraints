@@ -1,8 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@id": "say_ah_valueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "schema:AudioObject",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "say_ah_valueConstraints",
+    "category": "ResponseOption",
+    "maxValue": 60000,
     "minValue": 0,
-    "maxValue": 60000
+    "valueType": [
+        "schema:AudioObject"
+    ],
+    "schemaVersion": "1.0.0"
 }

@@ -1,18 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "RCADS-25_total_score",
-    "prefLabel": "RCADS-25 Score",
-    "description": "schema for total score of the RCADS-25 Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "xsd:int",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "RCADS-25_total_score",
+    "category": "Field",
+    "description": {
+        "en": "schema for total score of the RCADS-25 Assessment"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "xsd:int"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 27,
         "minValue": 0,
-        "maxValue": 27
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "RCADS-25 Score"
     }
 }

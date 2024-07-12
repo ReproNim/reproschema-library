@@ -1,20 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "@id": "substance_abuse_score",
-    "prefLabel": "substance_abuse_score",
-    "ui": {
-        "inputType": "static"
-    },
-    "responseOptions": {
-        "valueType": "float"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "substance_abuse_score",
+    "category": "Field",
+    "description": {
+        "en": "@HIDDEN"
     },
     "question": {
         "en": "Substance Abuse Rating DSM 5"
     },
-    "description": {
-        "en": "@HIDDEN"
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": [
+            "float"
+        ]
+    },
+    "prefLabel": {
+        "en": "substance_abuse_score"
     }
 }

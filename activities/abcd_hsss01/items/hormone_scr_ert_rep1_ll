@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "hormone_scr_ert_rep1_ll",
-    "@type": "reproschema:Field",
-    "prefLabel": "hormone_scr_ert_rep1_ll",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "hormone_scr_ert_rep1_ll",
+    "category": "Field",
+    "question": {
+        "en": "Salimetrics hormone test testosterone (ERT) below lower limit of sensitivity (repetition 1)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Salimetrics hormone test testosterone (ERT) below lower limit of sensitivity (repetition 1)",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "hormone_scr_ert_rep1_ll"
     }
 }

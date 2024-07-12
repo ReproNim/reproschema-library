@@ -1,67 +1,71 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_hurtec_b18",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtec_b18",
-        "es": "irma_hurtec_b18_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtec_b18",
+    "category": "Field",
     "question": {
-        "en": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate? Si se pronostica que otro huracán golpea donde usted vive,",
-        "es": "¿preferiría quedarse en su casa o evacuar?"
+        "en": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate? Si se pronostica que otro hurac\u00e1n golpea donde usted vive,",
+        "es": "\u00bfpreferir\u00eda quedarse en su casa o evacuar?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Definitely Stay at Home  Definitivamente quedarme en casa; 2 = Probably Stay at Home  Probablemente quedarme en casa; 3 = Unsure  Inseguro; 4 = Probably Leave (evacuate)  Probablemente salir (evacuar); 5 = Definitely Leave (evacuate) Definitivamente salir (evacuar)"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 5,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Definitely Stay at Home ",
                     "es": "Definitivamente quedarme en casa"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Probably Stay at Home ",
                     "es": "Probablemente quedarme en casa"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Unsure ",
                     "es": "Inseguro"
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Probably Leave (evacuate) ",
                     "es": "Probablemente salir (evacuar)"
-                }
+                },
+                "value": 4
             },
             {
-                "value": 5,
                 "name": {
                     "en": "Definitely Leave (evacuate)",
                     "es": "Definitivamente salir (evacuar)"
-                }
+                },
+                "value": 5
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Definitely Stay at Home  Definitivamente quedarme en casa; 2 = Probably Stay at Home  Probablemente quedarme en casa; 3 = Unsure  Inseguro; 4 = Probably Leave (evacuate)  Probablemente salir (evacuar); 5 = Definitely Leave (evacuate) Definitivamente salir (evacuar)"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtec_b18",
+        "es": "irma_hurtec_b18_es"
+    }
 }

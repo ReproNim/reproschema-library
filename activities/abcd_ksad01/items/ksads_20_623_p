@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_20_623_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_20_623_p",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_20_623_p",
+    "category": "Field",
+    "question": {
+        "en": "Symptom - Unsuccessful efforts to reduce substance use (Hallucinogen) Present"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Unsuccessful efforts to reduce substance use (Hallucinogen) Present",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_20_623_p"
     }
 }

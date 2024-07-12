@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "tbi_ss_agefirst_nm_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "tbi_ss_agefirst_nm_l",
-    "altLabel": "brain_injury_ss_agefirst_nm__p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_ss_agefirst_nm_l",
+    "category": "Field",
+    "question": {
+        "en": "Age at first TBI-LOC: Number missing"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Age at first TBI-LOC: Number missing",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "altLabel": {
+        "en": "brain_injury_ss_agefirst_nm__p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_ss_agefirst_nm_l"
     }
 }

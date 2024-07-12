@@ -1,46 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_hurtec_b17",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtec_b17",
-        "es": "irma_hurtec_b17_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtec_b17",
+    "category": "Field",
     "question": {
         "en": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home?",
-        "es": "En cualquier momento antes del huracán, ¿pensA que el huracán podría causar un daño mayor a su hogar, o que podría perder su hogar?"
+        "es": "En cualquier momento antes del hurac\u00e1n, \u00bfpensA que el hurac\u00e1n podr\u00eda causar un da\u00f1o mayor a su hogar, o que podr\u00eda perder su hogar?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Yes  Si; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes  Si; 0 = No No"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtec_b17",
+        "es": "irma_hurtec_b17_es"
+    }
 }

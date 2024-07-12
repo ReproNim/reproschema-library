@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "swed_1",
-    "prefLabel": "SWED-1",
-    "description": "Q1 of the SWED Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "swed_1",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the SWED Assessment"
+    },
     "question": {
         "en": "How much more or less do you feel you worry about your weight and body shape than other people your age?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 4,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -54,6 +53,13 @@
                 },
                 "value": 4
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "SWED-1"
     }
 }

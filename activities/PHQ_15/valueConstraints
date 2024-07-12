@@ -1,23 +1,32 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "valueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 0,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "valueConstraints",
+    "category": "ResponseOption",
     "maxValue": 3,
-    "multipleChoice": false,
+    "minValue": 0,
     "choices": [
         {
-            "name": "Not bothered at all",
+            "name": {
+                "en": "Not bothered at all"
+            },
             "value": 0
         },
         {
-            "name": "Bothered a little",
+            "name": {
+                "en": "Bothered a little"
+            },
             "value": 1
         },
         {
-            "name": "Bothered a lot",
+            "name": {
+                "en": "Bothered a lot"
+            },
             "value": 2
         }
-    ]
+    ],
+    "multipleChoice": false,
+    "valueType": [
+        "xsd:integer"
+    ],
+    "schemaVersion": "1.0.0"
 }

@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "kbi_p_conflict_causes_l___2",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_conflict_causes_l___2",
-    "altLabel": "kbi_conflict_causes_p_l___2 ksads_back_conflict_causes_p_l___2",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_conflict_causes_l___2",
+    "category": "Field",
+    "question": {
+        "en": "Click the things that cause conflict between you and your child: A continuaci\u00f3n, seleccione aquello que causa conflicto entre usted y su ni\u00f1o(a): (2, Messy Room Habitaci\u00f3n desordenada)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Click the things that cause conflict between you and your child: A continuaci\u00f3n, seleccione aquello que causa conflicto entre usted y su ni\u00f1o(a): (2, Messy Room Habitaci\u00f3n desordenada)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "0 = No; 1 = Yes"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_conflict_causes_p_l___2 ksads_back_conflict_causes_p_l___2"
+    },
+    "prefLabel": {
+        "en": "kbi_p_conflict_causes_l___2"
+    }
 }

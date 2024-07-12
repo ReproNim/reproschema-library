@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq9a_9",
-    "prefLabel": "PHQ9a-9",
-    "description": "schema for Q9 of the derived PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq9a_9",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q9 of the derived PHQ-9 Assessment"
+    },
+    "question": {
+        "en": "Thoughts that you would be better off dead or of hurting yourself in some way?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Thoughts that you would be better off dead or of hurting yourself in some way?",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ9a-9"
+    }
 }

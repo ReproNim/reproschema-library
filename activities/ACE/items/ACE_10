@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ACE_10",
-    "prefLabel": "ACE Q10",
-    "description": "Q10 of the Adverse Childhood Experiences Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ACE_10",
+    "category": "Field",
+    "description": {
+        "en": "Q10 of the Adverse Childhood Experiences Scale"
+    },
     "question": {
         "en": "Did a household member go to prison?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ACE Q10"
+    }
 }

@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "anthroweightcast",
-    "@type": "reproschema:Field",
-    "prefLabel": "anthroweightcast",
-    "altLabel": "anthro_weight_cast",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "anthroweightcast",
+    "category": "Field",
+    "question": {
+        "en": "Participant Wearing a Cast or Medical Prosthesis?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Participant Wearing a Cast or Medical Prosthesis?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Yes; 0 = No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             },
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes; 0 = No"
-        }
-    ]
+    "altLabel": {
+        "en": "anthro_weight_cast"
+    },
+    "prefLabel": {
+        "en": "anthroweightcast"
+    }
 }

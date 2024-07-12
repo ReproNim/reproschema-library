@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "epds_8",
-    "prefLabel": "EPDS-8",
-    "description": "schema for Q8 of the EPDS Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "epds_8",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q8 of the EPDS Assessment"
+    },
     "question": {
         "en": "I have felt sad or miserable",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 3,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -47,6 +46,13 @@
                 },
                 "value": 3
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "EPDS-8"
     }
 }

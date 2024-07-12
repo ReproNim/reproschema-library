@@ -1,15 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm5crossad_4",
-    "prefLabel": "dsm5crossad_4",
-    "description": "Q4 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm5crossad_4",
+    "category": "Field",
+    "description": {
+        "en": "Q4 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report"
+    },
     "question": {
         "en": "Sleeping less than usual, but still have a lot of energy?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
-    
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "dsm5crossad_4"
+    },
+    "schemaVersion": "1.0.0"
 }

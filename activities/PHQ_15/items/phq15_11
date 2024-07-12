@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq15_11",
-    "prefLabel": "phq15_11",
-    "description": "schema for Q1g of the derived Brief PHQ Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq15_11",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q1g of the derived Brief PHQ Assessment"
+    },
+    "question": {
+        "en": "Pain or problems during sexual intercourse"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Pain or problems during sexual intercourse",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "phq15_11"
+    }
 }

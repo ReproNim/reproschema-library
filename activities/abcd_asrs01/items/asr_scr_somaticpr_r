@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "asr_scr_somaticpr_r",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_somaticpr_r",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_somaticpr_r",
+    "category": "Field",
+    "question": {
+        "en": "Somatic Problems ASR DSM-5-Oriented Scale (raw score)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Somatic Problems ASR DSM-5-Oriented Scale (raw score)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 18,
         "minValue": 0,
-        "maxValue": 18
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "asr_scr_somaticpr_r"
     }
 }

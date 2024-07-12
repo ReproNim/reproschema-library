@@ -1,77 +1,63 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ5_schema",
-    "prefLabel": {
-        "en": "PHQ-5 Assessment",
-        "es": "PHQ-5 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ5_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-5 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ-5 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
-        "es": "Durante las últimas 4 semanas, ¿qué tan seguido ha tenido molestias debido a los siguientes problemas?",
-        "nl": "Hoe vaak hebt u in de afgelopen 4 wekenlast gehad van één of meer van de volgende problemen?",
-        "fr": "Au cours des 4 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
-        "pt-BR": "Durante as últimas 4 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
-        "ko": "지난 4주일동안당신은다음의문제들로인해서얼마나자주방해를받았습니까?"
-    },
-    "compute": [
-        {
-            "variableName": "phq5_total_score",
-            "jsExpression": "phq5a + phq5b + phq5c + phq5d + phq5e + phq5f + phq5g"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq5a",
-                "variableName": "phq5a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq5a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq5b",
-                "variableName": "phq5b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq5b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq5c",
-                "variableName": "phq5c",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq5c"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq5d",
-                "variableName": "phq5d",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq5d"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq5e",
-                "variableName": "phq5e",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq5e"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq5f",
-                "variableName": "phq5f",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq5f"
             },
             {
-                "isAbout": "items/phq5g",
-                "variableName": "phq5g",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq5g",
+                "isVis": true,
+                "variableName": "phq5g"
             },
             {
                 "isAbout": "items/phq5_total_score",
-                "variableName": "phq5_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq5_total_score"
             }
         ],
         "order": [
@@ -84,5 +70,23 @@
             "items/phq5g"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq5a + phq5b + phq5c + phq5d + phq5e + phq5f + phq5g",
+            "variableName": "phq5_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las \u00faltimas 4 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "fr": "Au cours des 4 derni\u00e8res semaines, selon quelle fr\u00e9quence avez-vous \u00e9t\u00e9 g\u00ean\u00e9(e) par les probl\u00e8mes suivants?",
+        "ko": "\uc9c0\ub09c 4\uc8fc\uc77c\ub3d9\uc548\ub2f9\uc2e0\uc740\ub2e4\uc74c\uc758\ubb38\uc81c\ub4e4\ub85c\uc778\ud574\uc11c\uc5bc\ub9c8\ub098\uc790\uc8fc\ubc29\ud574\ub97c\ubc1b\uc558\uc2b5\ub2c8\uae4c?",
+        "nl": "Hoe vaak hebt u in de afgelopen 4 wekenlast gehad van \u00e9\u00e9n of meer van de volgende problemen?",
+        "pt-br": "Durante as \u00faltimas 4 semanas, com que freq\u00fc\u00eancia voc\u00ea foi incomodado/a por qualquer um dos problemas abaixo?"
+    },
+    "prefLabel": {
+        "en": "PHQ-5 Assessment",
+        "es": "PHQ-5 Evaluaci\u00f3n"
     }
 }

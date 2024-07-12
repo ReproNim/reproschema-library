@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASSQ_10",
-    "prefLabel": "ASSQ Q10",
-    "description": "Q10 of the Autism Spectrum Screening Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASSQ_10",
+    "category": "Field",
+    "description": {
+        "en": "Q10 of the Autism Spectrum Screening Questionnaire"
+    },
     "question": {
         "en": "is surprisingly good at some things and surprisingly poor at others"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASSQ Q10"
+    }
 }

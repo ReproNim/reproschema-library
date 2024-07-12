@@ -1,60 +1,64 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_hurtec_a21a",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtec_a21a",
-        "es": "irma_hurtec_a21a_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtec_a21a",
+    "category": "Field",
     "question": {
         "en": "a. The way things look in your neighborhood ",
         "es": "a. La forma en que se ven las cosas en tu vecindario"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "0 = Not at all  De ningun modo; 1 = A little  Un poco; 2 = A lot  Mucho; 3 = A whole lot Muchisimo"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 3,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "Not at all ",
                     "es": "De ningun modo"
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "A little ",
                     "es": "Un poco"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "A lot ",
                     "es": "Mucho"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "A whole lot",
                     "es": "Muchisimo"
-                }
+                },
+                "value": 3
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = Not at all  De ningun modo; 1 = A little  Un poco; 2 = A lot  Mucho; 3 = A whole lot Muchisimo"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtec_a21a",
+        "es": "irma_hurtec_a21a_es"
+    }
 }

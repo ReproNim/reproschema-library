@@ -1,31 +1,37 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "tbi_5d_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_5d_l",
-        "es": "tbi_5d_l_es"
-    },
-    "altLabel": "brain_injury_5d_l tbi_5d_p_l",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_5d_l",
+    "category": "Field",
     "question": {
         "en": "How old was he/she?",
-        "es": "¿Qué edad tenía?"
+        "es": "\u00bfQu\u00e9 edad ten\u00eda?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "./"
+            }
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 20,
         "minValue": 0,
-        "maxValue": 20
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": ""
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_5d_l tbi_5d_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_5d_l",
+        "es": "tbi_5d_l_es"
+    }
 }

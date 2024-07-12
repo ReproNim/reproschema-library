@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_21_366_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_21_366_p",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_21_366_p",
+    "category": "Field",
+    "question": {
+        "en": "Symptom - Persistent negative emotional states Past"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Persistent negative emotional states Past",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_21_366_p"
     }
 }

@@ -1,39 +1,55 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "kbipcregfriend_groupopin_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbipcregfriend_groupopin_l",
-    "altLabel": "kbi_c_reg_friend_group_opin_p_l kbi_p_c_reg_friend_group_opin_l ksads_back_c_reg_friend_group_opin_p_l ksads_c_reg_friend_group_opin_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbipcregfriend_groupopin_l",
+    "category": "Field",
+    "question": {
+        "en": "Do you like your child's friends? \u00bfA usted le caen bien los amigos de su ni\u00f1o(a)?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Do you like your child's friends? \u00bfA usted le caen bien los amigos de su ni\u00f1o(a)?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Yes S\u00ed; 2 = Some Algo; 3 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 3,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "Some Algo",
+                "name": {
+                    "en": "Some Algo"
+                },
                 "value": 2
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 3
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 2 = Some Algo; 3 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_reg_friend_group_opin_p_l kbi_p_c_reg_friend_group_opin_l ksads_back_c_reg_friend_group_opin_p_l ksads_c_reg_friend_group_opin_p_l"
+    },
+    "prefLabel": {
+        "en": "kbipcregfriend_groupopin_l"
+    }
 }

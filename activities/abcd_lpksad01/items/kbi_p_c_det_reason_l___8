@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "kbi_p_c_det_reason_l___8",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_det_reason_l___8",
-    "altLabel": "kbi_c_det_reason_p_l___8 ksads_back_c_det_reason_p_l___8",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_det_reason_l___8",
+    "category": "Field",
+    "question": {
+        "en": "For what? Click all that apply: \u00bfPor qu\u00e9 motivo?  Seleccione todas las opciones que correspondan o apliquen: (8, Other Otra)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "For what? Click all that apply: \u00bfPor qu\u00e9 motivo?  Seleccione todas las opciones que correspondan o apliquen: (8, Other Otra)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "0 = No; 1 = Yes"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_det_reason_p_l___8 ksads_back_c_det_reason_p_l___8"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_det_reason_l___8"
+    }
 }

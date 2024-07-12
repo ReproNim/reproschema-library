@@ -1,9 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm_cross_ch20",
-    "prefLabel": "dsm_cross_ch20",
-    "description": "Q20 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_cross_ch20",
+    "category": "Field",
+    "description": {
+        "en": "Q20 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report"
+    },
     "question": {
         "en": "had an alcoholic beverage (beer, wine, liquor, etc.)?"
     },
@@ -11,23 +12,35 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 1,
         "maxValue": 2,
-        "multipleChoice": false,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 0
             },
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 2
             },
             {
-                "name": "Missing",
+                "name": {
+                    "en": "Missing"
+                },
                 "value": -9
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
-    }
+    },
+    "prefLabel": {
+        "en": "dsm_cross_ch20"
+    },
+    "schemaVersion": "1.0.0"
 }

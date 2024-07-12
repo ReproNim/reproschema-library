@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_15",
-    "prefLabel": "Self compassion 15",
-    "description": "Q15 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_15",
+    "category": "Field",
+    "description": {
+        "en": "Q15 of the Self Compassion Scale"
+    },
     "question": {
         "en": "I try to see my failings as part of the human condition."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 15"
+    }
 }

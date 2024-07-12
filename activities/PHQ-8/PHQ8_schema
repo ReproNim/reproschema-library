@@ -1,99 +1,66 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ8_schema",
-    "prefLabel": {
-        "en": "PHQ-8 Assessment",
-        "es": "PHQ-8 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ8_schema",
+    "category": "Activity",
+    "description": {
+        "en": "PHQ-8 assessment schema"
     },
-    "description": "PHQ-8 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
-        "es": "Durante las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le han molestado los siguintes problemas?",
-        "it": "Nelle ultime 2 settimane, con quale frequenza le ha dato fastidio ciascuno dei seguenti problemi?",
-        "fr": "Au cours des 2 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
-        "ko": "지난 2 주일 동안 당신은 다음의 문제들로 인해서 얼마나 자주 방해를 받았습니까?",
-        "ar": "خلال الأسبوعين الماضيين، آم مرة عانيت من أي من المشاآل التالية؟",
-        "pt-BR": "Durante as últimas 2 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
-        "nl": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van één of meer van de volgende problemen?",
-        "ja": "この 2 週間、次のような問題にどのくらい頻繁に 悩まされていますか?",
-        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
-        "fil": "Nitong nakaraang 14 na araw, gaano ka kadalas binagabag ng alinman sa mga sumusunod na mga problema?",
-        "no": "Hvor ofte har du vært plaget av ett eller flere av de følgende problemene i løpet av de siste 2 ukene,?",
-        "kn": "ಕ⁭ದ 2  ಾರಗಳ⁌ಲ್, ⁄ೕವು ಪ⁢ೕ ಪ⁢ೕ ಈ ಕೆಳಗಿನ  ಾವು´ಾದರೂ ಸಮⁱಯ್ಗ⁍ಂದ ಎಷುಟ್ ‷ಂ⁀ತ ಾಗಿ⁂ದ್⁋?",
-        "ru": "Как часто за последние 2 недели Вас беспокоили следующие проблемы?",
-        "pl": "Jak często w ciągu ostatnich 2 tygodni dokuczały Panu/Pani następujące problemy?",
-        "bg": "Колко често през изминалите две седмици, сте бил (а) обезпокоен (а) от следните проблеми?",
-        "lv": "Cik bieži pēdējo 2 nedēļu laikā Jūs ir apgrūtinājušas kādas no šādām problēmām?",
-        "ms": "Dalam tempoh 2 minggu yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
-        "pt-PT": "Durante os últimos 14 dias, em quantos foi afectado/a por algum dos seguintes problemas?",
-        "ro": "În ultimele 2 săptămâni, cât de des v-a deranjat oricare dintre următoarele probleme?",
-        "zh-CN": "在过去两周，您经常受到以下问题的困扰吗?",
-        "sv": "Under de senaste 2 veckorna, hur ofta har du besvärats av något/några av följande problem?",
-        "uk": "Як часто за останні 2 тижні Вас турбували будь-які з наступних проблем?"
-    },
-    "compute": [
-        {
-            "variableName": "phq8_total_score",
-            "jsExpression": "phq8_1 + phq8_2 + phq8_3 + phq8_4 + phq8_5 + phq8_6 + phq8_7 + phq8_8"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq9_1",
-                "variableName": "phq8_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq8_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq9_2",
-                "variableName": "phq8_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq8_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq9_3",
-                "variableName": "phq8_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq8_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq9_4",
-                "variableName": "phq8_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq8_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq9_5",
-                "variableName": "phq8_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq8_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq9_6",
-                "variableName": "phq8_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq8_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq9_7",
-                "variableName": "phq8_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq8_7"
             },
             {
-                "isAbout": "items/phq9_8",
-                "variableName": "phq8_8",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq9_8",
+                "isVis": true,
+                "variableName": "phq8_8"
             },
             {
                 "isAbout": "items/phq8_total_score",
-                "variableName": "phq8_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq8_total_score"
             }
         ],
         "order": [
@@ -107,5 +74,40 @@
             "items/phq8_8"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq8_1 + phq8_2 + phq8_3 + phq8_4 + phq8_5 + phq8_6 + phq8_7 + phq8_8",
+            "variableName": "phq8_total_score"
+        }
+    ],
+    "preamble": {
+        "ar": "\u062e\u0644\u0627\u0644 \u0627\u0644\u0623\u0633\u0628\u0648\u0639\u064a\u0646 \u0627\u0644\u0645\u0627\u0636\u064a\u064a\u0646\u060c \u0622\u0645 \u0645\u0631\u0629 \u0639\u0627\u0646\u064a\u062a \u0645\u0646 \u0623\u064a \u0645\u0646 \u0627\u0644\u0645\u0634\u0627\u0622\u0644 \u0627\u0644\u062a\u0627\u0644\u064a\u0629\u061f",
+        "bg": "\u041a\u043e\u043b\u043a\u043e \u0447\u0435\u0441\u0442\u043e \u043f\u0440\u0435\u0437 \u0438\u0437\u043c\u0438\u043d\u0430\u043b\u0438\u0442\u0435 \u0434\u0432\u0435 \u0441\u0435\u0434\u043c\u0438\u0446\u0438, \u0441\u0442\u0435 \u0431\u0438\u043b (\u0430) \u043e\u0431\u0435\u0437\u043f\u043e\u043a\u043e\u0435\u043d (\u0430) \u043e\u0442 \u0441\u043b\u0435\u0434\u043d\u0438\u0442\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0438?",
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le han molestado los siguintes problemas?",
+        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teit\u00e4 viimeisten 2 viikon aikana?",
+        "fil": "Nitong nakaraang 14 na araw, gaano ka kadalas binagabag ng alinman sa mga sumusunod na mga problema?",
+        "fr": "Au cours des 2 derni\u00e8res semaines, selon quelle fr\u00e9quence avez-vous \u00e9t\u00e9 g\u00ean\u00e9(e) par les probl\u00e8mes suivants?",
+        "it": "Nelle ultime 2 settimane, con quale frequenza le ha dato fastidio ciascuno dei seguenti problemi?",
+        "ja": "\u3053\u306e 2 \u9031\u9593\u3001\u6b21\u306e\u3088\u3046\u306a\u554f\u984c\u306b\u3069\u306e\u304f\u3089\u3044\u983b\u7e41\u306b \u60a9\u307e\u3055\u308c\u3066\u3044\u307e\u3059\u304b?",
+        "kn": "\u0c95\u206d\u0ca6 2 \u2009\u0cbe\u0cb0\u0c97\u0cb3\u204c\u0cb2\u0ccd, \u2044\u0cd5\u0cb5\u0cc1 \u0caa\u2062\u0cd5 \u0caa\u2062\u0cd5 \u0c88 \u0c95\u0cc6\u0cb3\u0c97\u0cbf\u0ca8 \u2005\u0cbe\u0cb5\u0cc1\u1ffd\u0cbe\u0ca6\u0cb0\u0cc2 \u0cb8\u0cae\u2071\u0caf\u0ccd\u0c97\u204d\u0c82\u0ca6 \u0c8e\u0cb7\u0cc1\u0c9f\u0ccd \u2037\u0c82\u2040\u0ca4\u2006\u0cbe\u0c97\u0cbf\u2042\u0ca6\u0ccd\u204b?",
+        "ko": "\uc9c0\ub09c 2 \uc8fc\uc77c \ub3d9\uc548 \ub2f9\uc2e0\uc740 \ub2e4\uc74c\uc758 \ubb38\uc81c\ub4e4\ub85c \uc778\ud574\uc11c \uc5bc\ub9c8\ub098 \uc790\uc8fc \ubc29\ud574\ub97c \ubc1b\uc558\uc2b5\ub2c8\uae4c?",
+        "lv": "Cik bie\u017ei p\u0113d\u0113jo 2 ned\u0113\u013cu laik\u0101 J\u016bs ir apgr\u016btin\u0101ju\u0161as k\u0101das no \u0161\u0101d\u0101m probl\u0113m\u0101m?",
+        "ms": "Dalam tempoh 2 minggu yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
+        "nl": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van \u00e9\u00e9n of meer van de volgende problemen?",
+        "no": "Hvor ofte har du v\u00e6rt plaget av ett eller flere av de f\u00f8lgende problemene i l\u00f8pet av de siste 2 ukene,?",
+        "pl": "Jak cz\u0119sto w ci\u0105gu ostatnich 2 tygodni dokucza\u0142y Panu/Pani nast\u0119puj\u0105ce problemy?",
+        "pt-br": "Durante as \u00faltimas 2 semanas, com que freq\u00fc\u00eancia voc\u00ea foi incomodado/a por qualquer um dos problemas abaixo?",
+        "pt-pt": "Durante os \u00faltimos 14 dias, em quantos foi afectado/a por algum dos seguintes problemas?",
+        "ro": "\u00cen ultimele 2 s\u0103pt\u0103m\u00e2ni, c\u00e2t de des v-a deranjat oricare dintre urm\u0103toarele probleme?",
+        "ru": "\u041a\u0430\u043a \u0447\u0430\u0441\u0442\u043e \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 2 \u043d\u0435\u0434\u0435\u043b\u0438 \u0412\u0430\u0441 \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0438\u043b\u0438 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b?",
+        "sv": "Under de senaste 2 veckorna, hur ofta har du besv\u00e4rats av n\u00e5got/n\u00e5gra av f\u00f6ljande problem?",
+        "uk": "\u042f\u043a \u0447\u0430\u0441\u0442\u043e \u0437\u0430 \u043e\u0441\u0442\u0430\u043d\u043d\u0456 2 \u0442\u0438\u0436\u043d\u0456 \u0412\u0430\u0441 \u0442\u0443\u0440\u0431\u0443\u0432\u0430\u043b\u0438 \u0431\u0443\u0434\u044c-\u044f\u043a\u0456 \u0437 \u043d\u0430\u0441\u0442\u0443\u043f\u043d\u0438\u0445 \u043f\u0440\u043e\u0431\u043b\u0435\u043c?",
+        "zh-cn": "\u5728\u8fc7\u53bb\u4e24\u5468\uff0c\u60a8\u7ecf\u5e38\u53d7\u5230\u4ee5\u4e0b\u95ee\u9898\u7684\u56f0\u6270\u5417?"
+    },
+    "prefLabel": {
+        "en": "PHQ-8 Assessment",
+        "es": "PHQ-8 Evaluaci\u00f3n"
     }
 }

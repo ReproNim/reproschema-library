@@ -1,21 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pc-ptsd5_4",
-    "prefLabel": "PC-PTSD-5-4",
-    "description": "Q4 of the PC-PTSD-5 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "In the past month, have you… ",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pc-ptsd5_4",
+    "category": "Field",
+    "description": {
+        "en": "Q4 of the PC-PTSD-5 Assessment"
     },
     "question": {
         "en": "been constantly on guard, watchful, or easily startled? ",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pc-ptsd5valueConstraints"
+    "preamble": {
+        "en": "In the past month, have you\u2026 ",
+        "es": ""
+    },
+    "responseOptions": "../pc-ptsd5valueConstraints",
+    "prefLabel": {
+        "en": "PC-PTSD-5-4"
+    }
 }

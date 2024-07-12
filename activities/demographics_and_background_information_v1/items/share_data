@@ -1,29 +1,41 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "share_data",
-    "prefLabel": "Share data",
-    "description": "Request sharing of data from participant",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "share_data",
+    "category": "Field",
+    "description": {
+        "en": "Request sharing of data from participant"
+    },
+    "question": {
+        "en": "Please tell us if are willing to share the data"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Please tell us if are willing to share the data",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             },
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Share data"
     }
 }

@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "describe_image",
-    "prefLabel": "Describe image",
-    "description": "describe image question for voice task",
-    "schemaVersion": "1.0.0-rc2",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "describe_image",
+    "category": "Field",
+    "description": {
+        "en": "describe image question for voice task"
+    },
     "image": "https://picsum.photos/500/400",
-    "question": "Describe the image shown below for a minute",
+    "question": {
+        "en": "Describe the image shown below for a minute"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioImageRecord"
     },
-    "responseOptions": "describe_image_valueConstraints"
+    "responseOptions": "describe_image_valueConstraints",
+    "prefLabel": {
+        "en": "Describe image"
+    }
 }

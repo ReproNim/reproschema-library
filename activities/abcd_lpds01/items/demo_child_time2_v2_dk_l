@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "demo_child_time2_v2_dk_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_child_time2_v2_dk_l",
-    "altLabel": "demo_child_time2_dk_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_child_time2_v2_dk_l",
+    "category": "Field",
+    "question": {
+        "en": "Don't know/Refuse to answer No lo s\u00e9/Prefiere no contestar"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Don't know/Refuse to answer No lo s\u00e9/Prefiere no contestar",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "999 = Don't know No lo s\u00e9; 777 = Refuse to answer Prefiere no contestar"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 999,
         "maxValue": 777,
+        "minValue": 999,
         "choices": [
             {
-                "name": "Don't know No lo s\u00e9",
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
                 "value": 999
             },
             {
-                "name": "Refuse to answer Prefiere no contestar",
+                "name": {
+                    "en": "Refuse to answer Prefiere no contestar"
+                },
                 "value": 777
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "999 = Don't know No lo s\u00e9; 777 = Refuse to answer Prefiere no contestar"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_child_time2_dk_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_child_time2_v2_dk_l"
+    }
 }

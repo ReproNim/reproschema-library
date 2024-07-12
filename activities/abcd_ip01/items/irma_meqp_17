@@ -1,81 +1,85 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_meqp_17",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_meqp_17",
-        "es": "irma_meqp_17_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_meqp_17",
+    "category": "Field",
     "question": {
         "en": "17. Which Social Media platform did you use the most when checking for news related to the hurricane? 17.",
-        "es": "¿Qué plataforma de medios sociales usA más al buscar noticias relacionadas con el huracán?"
+        "es": "\u00bfQu\u00e9 plataforma de medios sociales usA m\u00e1s al buscar noticias relacionadas con el hurac\u00e1n?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Facebook  Facebook; 2 = Twitter  Twitter; 3 = Instagram  Instagram; 4 = Snapchat  Snapchat; 5 = YouTube  YouTube; 6 = Other  Otro; 7 = I did not check any social media platforms for news related to Hurricane Irma No revis\u00c3\u00a9 ninguna plataforma de redes sociales para noticias relacionadas con el hurac\u00c3\u00a1n Irma"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 7,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Facebook ",
                     "es": "Facebook"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Twitter",
                     "es": "Twitter"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Instagram ",
                     "es": "Instagram"
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Snapchat ",
                     "es": "Snapchat"
-                }
+                },
+                "value": 4
             },
             {
-                "value": 5,
                 "name": {
                     "en": "YouTube ",
                     "es": "YouTube"
-                }
+                },
+                "value": 5
             },
             {
-                "value": 6,
                 "name": {
                     "en": "Other ",
                     "es": "Otro"
-                }
+                },
+                "value": 6
             },
             {
-                "value": 7,
                 "name": {
                     "en": "I did not check any social media platforms for news related to Hurricane",
-                    "es": "Irma No revisé ninguna plataforma de redes sociales para noticias relacionadas con el huracán Irma"
-                }
+                    "es": "Irma No revis\u00e9 ninguna plataforma de redes sociales para noticias relacionadas con el hurac\u00e1n Irma"
+                },
+                "value": 7
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Facebook  Facebook; 2 = Twitter  Twitter; 3 = Instagram  Instagram; 4 = Snapchat  Snapchat; 5 = YouTube  YouTube; 6 = Other  Otro; 7 = I did not check any social media platforms for news related to Hurricane Irma No revisÃ© ninguna plataforma de redes sociales para noticias relacionadas con el huracÃ¡n Irma"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_meqp_17",
+        "es": "irma_meqp_17_es"
+    }
 }

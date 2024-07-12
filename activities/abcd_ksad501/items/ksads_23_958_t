@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_23_958_t",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_23_958_t",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_23_958_t",
+    "category": "Field",
+    "question": {
+        "en": "Diagnosis - SuicidalideationActivenonspecificPast"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Diagnosis - SuicidalideationActivenonspecificPast",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_23_958_t"
     }
 }

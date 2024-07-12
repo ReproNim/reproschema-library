@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "tbi_ss_worst5_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "tbi_ss_worst5_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_ss_worst5_l",
+    "category": "Field",
+    "question": {
+        "en": "Worst Injury5 = Severe TBI\n(TBI w/ LOC \u2265 24 h)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Worst Injury5 = Severe TBI\n(TBI w/ LOC \u2265 24 h)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "tbi_ss_worst5_l"
     }
 }

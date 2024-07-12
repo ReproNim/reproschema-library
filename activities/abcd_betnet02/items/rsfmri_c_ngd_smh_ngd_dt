@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "rsfmri_c_ngd_smh_ngd_dt",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_smh_ngd_dt",
-    "altLabel": "rsfmri_cor_network.gordon_smhand_network.gordon_default rsfmri_cor_networkgordon_smhand_networkgordon_default",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_smh_ngd_dt",
+    "category": "Field",
+    "question": {
+        "en": "Average correlation between sensorimotor hand network and default network"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Average correlation between sensorimotor hand network and default network",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_smhand_network.gordon_default rsfmri_cor_networkgordon_smhand_networkgordon_default"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_smh_ngd_dt"
     }
 }

@@ -1,19 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "audio_eligibility",
-    "prefLabel": "Audio check result",
-    "description": "audio check result",
-    "schemaVersion": "1.0.0-rc2",
-    "version": "0.0.1",
-    "question": "Result",
-    "ui": {
-        "inputType": "static",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "audio_eligibility",
+    "category": "Field",
+    "description": {
+        "en": "audio check result"
     },
+    "question": {
+        "en": "Result"
+    },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "static"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "valueType": "xsd:boolean",
+        "maxValue": 1,
         "minValue": 0,
-        "maxValue": 1
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "prefLabel": {
+        "en": "Audio check result"
     }
 }

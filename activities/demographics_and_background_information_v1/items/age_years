@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "@id": "age_years",
-    "prefLabel": "age_years",
-    "ui": {
-        "inputType": "number"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "age_years",
+    "category": "Field",
     "question": {
         "en": "Age (Years Old)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "number"
+    },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "age_years"
     }
 }

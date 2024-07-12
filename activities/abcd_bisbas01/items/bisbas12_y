@@ -1,43 +1,61 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "bisbas12_y",
-    "@type": "reproschema:Field",
-    "prefLabel": "bisbas12_y",
-    "altLabel": "bisbas_12",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bisbas12_y",
+    "category": "Field",
+    "question": {
+        "en": "I get really excited when I see an opportunity to get something I like."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I get really excited when I see an opportunity to get something I like.",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "0 = Not true; 1 = Somewhat true; 2 = True; 3 = Very true"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 3,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Not true",
+                "name": {
+                    "en": "Not true"
+                },
                 "value": 0
             },
             {
-                "name": "Somewhat true",
+                "name": {
+                    "en": "Somewhat true"
+                },
                 "value": 1
             },
             {
-                "name": "True",
+                "name": {
+                    "en": "True"
+                },
                 "value": 2
             },
             {
-                "name": "Very true",
+                "name": {
+                    "en": "Very true"
+                },
                 "value": 3
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = Not true; 1 = Somewhat true; 2 = True; 3 = Very true"
-        }
-    ]
+    "altLabel": {
+        "en": "bisbas_12"
+    },
+    "prefLabel": {
+        "en": "bisbas12_y"
+    }
 }

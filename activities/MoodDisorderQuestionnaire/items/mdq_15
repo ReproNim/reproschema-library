@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "mdq_15",
-    "prefLabel": "MDQ-15",
-    "description": "schema for Q15 of the MDQ Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "mdq_15",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q15 of the MDQ Assessment"
+    },
     "question": {
-        "en": "How much of a problem did any of these cause you — like being able to work; having family, money, or legal troubles; getting into arguments or fights? Please check 1 response only",
+        "en": "How much of a problem did any of these cause you \u2014 like being able to work; having family, money, or legal troubles; getting into arguments or fights? Please check 1 response only",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -47,6 +46,13 @@
                 },
                 "value": 3
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "MDQ-15"
     }
 }

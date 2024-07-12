@@ -1,14 +1,168 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "isc01_section1_schema",
-    "prefLabel": {
-        "en": "isc01_section1",
-        "es": "isc01_section1_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "isc01_section1_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/irma_dsm5_1",
+                "variableName": "irma_dsm5_1"
+            },
+            {
+                "isAbout": "items/irma_dsm5_10",
+                "variableName": "irma_dsm5_10"
+            },
+            {
+                "isAbout": "items/irma_dsm5_11",
+                "variableName": "irma_dsm5_11"
+            },
+            {
+                "isAbout": "items/irma_dsm5_12",
+                "variableName": "irma_dsm5_12"
+            },
+            {
+                "isAbout": "items/irma_dsm5_13",
+                "variableName": "irma_dsm5_13"
+            },
+            {
+                "isAbout": "items/irma_dsm5_14",
+                "variableName": "irma_dsm5_14"
+            },
+            {
+                "isAbout": "items/irma_dsm5_15",
+                "variableName": "irma_dsm5_15"
+            },
+            {
+                "isAbout": "items/irma_dsm5_16",
+                "variableName": "irma_dsm5_16"
+            },
+            {
+                "isAbout": "items/irma_dsm5_17",
+                "variableName": "irma_dsm5_17"
+            },
+            {
+                "isAbout": "items/irma_dsm5_18",
+                "variableName": "irma_dsm5_18"
+            },
+            {
+                "isAbout": "items/irma_dsm5_19",
+                "variableName": "irma_dsm5_19"
+            },
+            {
+                "isAbout": "items/irma_dsm5_2",
+                "variableName": "irma_dsm5_2"
+            },
+            {
+                "isAbout": "items/irma_dsm5_20",
+                "variableName": "irma_dsm5_20"
+            },
+            {
+                "isAbout": "items/irma_dsm5_21",
+                "variableName": "irma_dsm5_21"
+            },
+            {
+                "isAbout": "items/irma_dsm5_22",
+                "variableName": "irma_dsm5_22"
+            },
+            {
+                "isAbout": "items/irma_dsm5_23",
+                "variableName": "irma_dsm5_23"
+            },
+            {
+                "isAbout": "items/irma_dsm5_24",
+                "variableName": "irma_dsm5_24"
+            },
+            {
+                "isAbout": "items/irma_dsm5_25",
+                "variableName": "irma_dsm5_25"
+            },
+            {
+                "isAbout": "items/irma_dsm5_26",
+                "variableName": "irma_dsm5_26"
+            },
+            {
+                "isAbout": "items/irma_dsm5_27",
+                "variableName": "irma_dsm5_27"
+            },
+            {
+                "isAbout": "items/irma_dsm5_28",
+                "variableName": "irma_dsm5_28"
+            },
+            {
+                "isAbout": "items/irma_dsm5_29",
+                "variableName": "irma_dsm5_29"
+            },
+            {
+                "isAbout": "items/irma_dsm5_3",
+                "variableName": "irma_dsm5_3"
+            },
+            {
+                "isAbout": "items/irma_dsm5_30",
+                "variableName": "irma_dsm5_30"
+            },
+            {
+                "isAbout": "items/irma_dsm5_31",
+                "variableName": "irma_dsm5_31"
+            },
+            {
+                "isAbout": "items/irma_dsm5_4",
+                "variableName": "irma_dsm5_4"
+            },
+            {
+                "isAbout": "items/irma_dsm5_5",
+                "variableName": "irma_dsm5_5"
+            },
+            {
+                "isAbout": "items/irma_dsm5_6",
+                "variableName": "irma_dsm5_6"
+            },
+            {
+                "isAbout": "items/irma_dsm5_7",
+                "variableName": "irma_dsm5_7"
+            },
+            {
+                "isAbout": "items/irma_dsm5_8",
+                "variableName": "irma_dsm5_8"
+            },
+            {
+                "isAbout": "items/irma_dsm5_9",
+                "variableName": "irma_dsm5_9"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs1",
+                "variableName": "irma_dsm5_cs1"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs2",
+                "variableName": "irma_dsm5_cs2"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs3",
+                "variableName": "irma_dsm5_cs3"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs4",
+                "variableName": "irma_dsm5_cs4"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs5",
+                "variableName": "irma_dsm5_cs5"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs6",
+                "variableName": "irma_dsm5_cs6"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs7",
+                "variableName": "irma_dsm5_cs7"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs8",
+                "variableName": "irma_dsm5_cs8"
+            }
+        ],
         "order": [
             "items/irma_dsm5_1",
             "items/irma_dsm5_2",
@@ -50,164 +204,10 @@
             "items/irma_dsm5_cs7",
             "items/irma_dsm5_cs8"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "irma_dsm5_1",
-                "isAbout": "items/irma_dsm5_1"
-            },
-            {
-                "variableName": "irma_dsm5_10",
-                "isAbout": "items/irma_dsm5_10"
-            },
-            {
-                "variableName": "irma_dsm5_11",
-                "isAbout": "items/irma_dsm5_11"
-            },
-            {
-                "variableName": "irma_dsm5_12",
-                "isAbout": "items/irma_dsm5_12"
-            },
-            {
-                "variableName": "irma_dsm5_13",
-                "isAbout": "items/irma_dsm5_13"
-            },
-            {
-                "variableName": "irma_dsm5_14",
-                "isAbout": "items/irma_dsm5_14"
-            },
-            {
-                "variableName": "irma_dsm5_15",
-                "isAbout": "items/irma_dsm5_15"
-            },
-            {
-                "variableName": "irma_dsm5_16",
-                "isAbout": "items/irma_dsm5_16"
-            },
-            {
-                "variableName": "irma_dsm5_17",
-                "isAbout": "items/irma_dsm5_17"
-            },
-            {
-                "variableName": "irma_dsm5_18",
-                "isAbout": "items/irma_dsm5_18"
-            },
-            {
-                "variableName": "irma_dsm5_19",
-                "isAbout": "items/irma_dsm5_19"
-            },
-            {
-                "variableName": "irma_dsm5_2",
-                "isAbout": "items/irma_dsm5_2"
-            },
-            {
-                "variableName": "irma_dsm5_20",
-                "isAbout": "items/irma_dsm5_20"
-            },
-            {
-                "variableName": "irma_dsm5_21",
-                "isAbout": "items/irma_dsm5_21"
-            },
-            {
-                "variableName": "irma_dsm5_22",
-                "isAbout": "items/irma_dsm5_22"
-            },
-            {
-                "variableName": "irma_dsm5_23",
-                "isAbout": "items/irma_dsm5_23"
-            },
-            {
-                "variableName": "irma_dsm5_24",
-                "isAbout": "items/irma_dsm5_24"
-            },
-            {
-                "variableName": "irma_dsm5_25",
-                "isAbout": "items/irma_dsm5_25"
-            },
-            {
-                "variableName": "irma_dsm5_26",
-                "isAbout": "items/irma_dsm5_26"
-            },
-            {
-                "variableName": "irma_dsm5_27",
-                "isAbout": "items/irma_dsm5_27"
-            },
-            {
-                "variableName": "irma_dsm5_28",
-                "isAbout": "items/irma_dsm5_28"
-            },
-            {
-                "variableName": "irma_dsm5_29",
-                "isAbout": "items/irma_dsm5_29"
-            },
-            {
-                "variableName": "irma_dsm5_3",
-                "isAbout": "items/irma_dsm5_3"
-            },
-            {
-                "variableName": "irma_dsm5_30",
-                "isAbout": "items/irma_dsm5_30"
-            },
-            {
-                "variableName": "irma_dsm5_31",
-                "isAbout": "items/irma_dsm5_31"
-            },
-            {
-                "variableName": "irma_dsm5_4",
-                "isAbout": "items/irma_dsm5_4"
-            },
-            {
-                "variableName": "irma_dsm5_5",
-                "isAbout": "items/irma_dsm5_5"
-            },
-            {
-                "variableName": "irma_dsm5_6",
-                "isAbout": "items/irma_dsm5_6"
-            },
-            {
-                "variableName": "irma_dsm5_7",
-                "isAbout": "items/irma_dsm5_7"
-            },
-            {
-                "variableName": "irma_dsm5_8",
-                "isAbout": "items/irma_dsm5_8"
-            },
-            {
-                "variableName": "irma_dsm5_9",
-                "isAbout": "items/irma_dsm5_9"
-            },
-            {
-                "variableName": "irma_dsm5_cs1",
-                "isAbout": "items/irma_dsm5_cs1"
-            },
-            {
-                "variableName": "irma_dsm5_cs2",
-                "isAbout": "items/irma_dsm5_cs2"
-            },
-            {
-                "variableName": "irma_dsm5_cs3",
-                "isAbout": "items/irma_dsm5_cs3"
-            },
-            {
-                "variableName": "irma_dsm5_cs4",
-                "isAbout": "items/irma_dsm5_cs4"
-            },
-            {
-                "variableName": "irma_dsm5_cs5",
-                "isAbout": "items/irma_dsm5_cs5"
-            },
-            {
-                "variableName": "irma_dsm5_cs6",
-                "isAbout": "items/irma_dsm5_cs6"
-            },
-            {
-                "variableName": "irma_dsm5_cs7",
-                "isAbout": "items/irma_dsm5_cs7"
-            },
-            {
-                "variableName": "irma_dsm5_cs8",
-                "isAbout": "items/irma_dsm5_cs8"
-            }
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "isc01_section1",
+        "es": "isc01_section1_es"
     }
 }

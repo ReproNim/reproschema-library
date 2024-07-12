@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_17",
-    "prefLabel": "PQ-B-17",
-    "description": "schema for Q17 of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_17",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q17 of the PQ-B Assessment"
+    },
     "question": {
         "en": "Are your thoughts sometimes so strong that you can almost hear them?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pqb_valueConstraints"
+    "responseOptions": "../pqb_valueConstraints",
+    "prefLabel": {
+        "en": "PQ-B-17"
+    }
 }

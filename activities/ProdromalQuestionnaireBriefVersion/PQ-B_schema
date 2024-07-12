@@ -1,230 +1,226 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PQ-B_schema",
-    "prefLabel": {
-        "en": "Psychosis",
-        "es": "Psicosis"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PQ-B_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/"
     },
-    "description": "PQ-B assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "description": {
+        "en": "PQ-B assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
-    "preamble": {
-        "en": "Please indicate whether you have had the following thoughts, feelings and experiences in the past month by checking “yes” or “no” for each item. Do not include experiences that occur only while under the influence of alcohol, drugs or medications that were not prescribed to you. If you answer “YES” to an item, also indicate how distressing that experience has been for you. ",
-        "es": ""
-    },
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/pqb_1",
-                "variableName": "pqb_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_1"
             },
             {
                 "isAbout": "items/pqb_1a",
-                "variableName": "pqb_1a",
-                "isVis": "pqb_1 === 1"
+                "isVis": "pqb_1 === 1",
+                "variableName": "pqb_1a"
             },
             {
                 "isAbout": "items/pqb_2",
-                "variableName": "pqb_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_2"
             },
             {
                 "isAbout": "items/pqb_2a",
-                "variableName": "pqb_2a",
-                "isVis": "pqb_2 === 1"
+                "isVis": "pqb_2 === 1",
+                "variableName": "pqb_2a"
             },
             {
                 "isAbout": "items/pqb_3",
-                "variableName": "pqb_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_3"
             },
             {
                 "isAbout": "items/pqb_3a",
-                "variableName": "pqb_3a",
-                "isVis": "pqb_3 === 1"
+                "isVis": "pqb_3 === 1",
+                "variableName": "pqb_3a"
             },
             {
                 "isAbout": "items/pqb_4",
-                "variableName": "pqb_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_4"
             },
             {
                 "isAbout": "items/pqb_4a",
-                "variableName": "pqb_4a",
-                "isVis": "pqb_4 === 1"
+                "isVis": "pqb_4 === 1",
+                "variableName": "pqb_4a"
             },
             {
                 "isAbout": "items/pqb_5",
-                "variableName": "pqb_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_5"
             },
             {
                 "isAbout": "items/pqb_5a",
-                "variableName": "pqb_5a",
-                "isVis": "pqb_5 === 1"
+                "isVis": "pqb_5 === 1",
+                "variableName": "pqb_5a"
             },
             {
                 "isAbout": "items/pqb_6",
-                "variableName": "pqb_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_6"
             },
             {
                 "isAbout": "items/pqb_6a",
-                "variableName": "pqb_6a",
-                "isVis": "pqb_6 === 1"
+                "isVis": "pqb_6 === 1",
+                "variableName": "pqb_6a"
             },
             {
                 "isAbout": "items/pqb_7",
-                "variableName": "pqb_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_7"
             },
             {
                 "isAbout": "items/pqb_7a",
-                "variableName": "pqb_7a",
-                "isVis": "pqb_7 === 1"
+                "isVis": "pqb_7 === 1",
+                "variableName": "pqb_7a"
             },
             {
                 "isAbout": "items/pqb_8",
-                "variableName": "pqb_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_8"
             },
             {
                 "isAbout": "items/pqb_8a",
-                "variableName": "pqb_8a",
-                "isVis": "pqb_8 === 1"
+                "isVis": "pqb_8 === 1",
+                "variableName": "pqb_8a"
             },
             {
                 "isAbout": "items/pqb_9",
-                "variableName": "pqb_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_9"
             },
             {
                 "isAbout": "items/pqb_9a",
-                "variableName": "pqb_9a",
-                "isVis": "pqb_9 === 1"
+                "isVis": "pqb_9 === 1",
+                "variableName": "pqb_9a"
             },
             {
                 "isAbout": "items/pqb_10",
-                "variableName": "pqb_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_10"
             },
             {
                 "isAbout": "items/pqb_10a",
-                "variableName": "pqb_10a",
-                "isVis": "pqb_10 === 1"
+                "isVis": "pqb_10 === 1",
+                "variableName": "pqb_10a"
             },
             {
                 "isAbout": "items/pqb_11",
-                "variableName": "pqb_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_11"
             },
             {
                 "isAbout": "items/pqb_11a",
-                "variableName": "pqb_11a",
-                "isVis": "pqb_11 === 1"
+                "isVis": "pqb_11 === 1",
+                "variableName": "pqb_11a"
             },
             {
                 "isAbout": "items/pqb_12",
-                "variableName": "pqb_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_12"
             },
             {
                 "isAbout": "items/pqb_12a",
-                "variableName": "pqb_12a",
-                "isVis": "pqb_12 === 1"
+                "isVis": "pqb_12 === 1",
+                "variableName": "pqb_12a"
             },
             {
                 "isAbout": "items/pqb_13",
-                "variableName": "pqb_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_13"
             },
             {
                 "isAbout": "items/pqb_13a",
-                "variableName": "pqb_13a",
-                "isVis": "pqb_13 === 1"
+                "isVis": "pqb_13 === 1",
+                "variableName": "pqb_13a"
             },
             {
                 "isAbout": "items/pqb_14",
-                "variableName": "pqb_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_14"
             },
             {
                 "isAbout": "items/pqb_14a",
-                "variableName": "pqb_14a",
-                "isVis": "pqb_14 === 1"
+                "isVis": "pqb_14 === 1",
+                "variableName": "pqb_14a"
             },
             {
                 "isAbout": "items/pqb_15",
-                "variableName": "pqb_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_15"
             },
             {
                 "isAbout": "items/pqb_15a",
-                "variableName": "pqb_15a",
-                "isVis": "pqb_15 === 1"
+                "isVis": "pqb_15 === 1",
+                "variableName": "pqb_15a"
             },
             {
                 "isAbout": "items/pqb_16",
-                "variableName": "pqb_16",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_16"
             },
             {
                 "isAbout": "items/pqb_16a",
-                "variableName": "pqb_16a",
-                "isVis": "pqb_16 === 1"
+                "isVis": "pqb_16 === 1",
+                "variableName": "pqb_16a"
             },
             {
                 "isAbout": "items/pqb_17",
-                "variableName": "pqb_17",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_17"
             },
             {
                 "isAbout": "items/pqb_17a",
-                "variableName": "pqb_17a",
-                "isVis": "pqb_17 === 1"
+                "isVis": "pqb_17 === 1",
+                "variableName": "pqb_17a"
             },
             {
                 "isAbout": "items/pqb_18",
-                "variableName": "pqb_18",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_18"
             },
             {
                 "isAbout": "items/pqb_18a",
-                "variableName": "pqb_18a",
-                "isVis": "pqb_18 === 1"
+                "isVis": "pqb_18 === 1",
+                "variableName": "pqb_18a"
             },
             {
                 "isAbout": "items/pqb_19",
-                "variableName": "pqb_19",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_19"
             },
             {
                 "isAbout": "items/pqb_19a",
-                "variableName": "pqb_19a",
-                "isVis": "pqb_19 === 1"
+                "isVis": "pqb_19 === 1",
+                "variableName": "pqb_19a"
             },
             {
                 "isAbout": "items/pqb_20",
-                "variableName": "pqb_20",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_20"
             },
             {
                 "isAbout": "items/pqb_20a",
-                "variableName": "pqb_20a",
-                "isVis": "pqb_20 === 1"
+                "isVis": "pqb_20 === 1",
+                "variableName": "pqb_20a"
             },
             {
                 "isAbout": "items/pqb_21",
-                "variableName": "pqb_21",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pqb_21"
             },
             {
                 "isAbout": "items/pqb_21a",
-                "variableName": "pqb_21a",
-                "isVis": "pqb_21 === 1"
+                "isVis": "pqb_21 === 1",
+                "variableName": "pqb_21a"
             }
         ],
         "order": [
@@ -272,5 +268,13 @@
             "items/pqb_21a"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Please indicate whether you have had the following thoughts, feelings and experiences in the past month by checking \u201cyes\u201d or \u201cno\u201d for each item. Do not include experiences that occur only while under the influence of alcohol, drugs or medications that were not prescribed to you. If you answer \u201cYES\u201d to an item, also indicate how distressing that experience has been for you. ",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "Psychosis",
+        "es": "Psicosis"
     }
 }

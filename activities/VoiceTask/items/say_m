@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "say_m",
-    "prefLabel": "Sustained nasal m",
-    "description": "say m for 10 seconds",
-    "schemaVersion": "1.0.0-rc2",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "say_m",
+    "category": "Field",
+    "description": {
+        "en": "say m for 10 seconds"
+    },
     "question": {
         "en": "Say \"sum\" and hold the \"m\" until you run completely out of air.",
         "es": "Diga \"zoom\" y sostenga la \"m\" hasta que usted se quede completamente sin aire."
-        },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "say_ah_valueConstraints"
+    "responseOptions": "say_ah_valueConstraints",
+    "prefLabel": {
+        "en": "Sustained nasal m"
+    }
 }

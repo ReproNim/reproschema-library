@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_10",
-    "prefLabel": "Self compassion 10",
-    "description": "Q10 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_10",
+    "category": "Field",
+    "description": {
+        "en": "Q10 of the Self Compassion Scale"
+    },
     "question": {
         "en": "When I feel inadequate in some way, I try to remind myself that feelings of inadequacies are shared by most people."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 10"
+    }
 }

@@ -1,25 +1,31 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "rainbow_passage_short",
-    "prefLabel": "rainbow passage short",
-    "description": "rainbow short task",
-    "schemaVersion": "1.0.0-rc2",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "Take a deep breath and read as much as you can in one breath using your normal voice (and stop when you run out of air):",
-        "es": "Respire hondo y lea todo lo que pueda con un solo aliento usando su voz normal (y deténgase cuando se quede sin aire):"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rainbow_passage_short",
+    "category": "Field",
+    "description": {
+        "en": "rainbow short task"
     },
     "question": {
         "en": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. There is, according to legend, a boiling pot of gold at one end.",
-        "es": "Cuando la luz del sol golpea las gotas de lluvia en el aire, actúan como un prisma y forman un arco iris. El arco iris es una división de la luz blanca en muchos colores hermosos. Estos toman la forma de un largo arco de medio punto, con su recorrido muy en lo alto y sus dos extremos más allá del horizonte. Hay, según la leyenda, una olla de oro hirviendo en un extremo."
+        "es": "Cuando la luz del sol golpea las gotas de lluvia en el aire, act\u00faan como un prisma y forman un arco iris. El arco iris es una divisi\u00f3n de la luz blanca en muchos colores hermosos. Estos toman la forma de un largo arco de medio punto, con su recorrido muy en lo alto y sus dos extremos m\u00e1s all\u00e1 del horizonte. Hay, seg\u00fan la leyenda, una olla de oro hirviendo en un extremo."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioPassageRecord"
     },
+    "preamble": {
+        "en": "Take a deep breath and read as much as you can in one breath using your normal voice (and stop when you run out of air):",
+        "es": "Respire hondo y lea todo lo que pueda con un solo aliento usando su voz normal (y det\u00e9ngase cuando se quede sin aire):"
+    },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 150000,
         "minValue": 0,
-        "maxValue": 150000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "rainbow passage short"
     }
 }

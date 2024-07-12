@@ -1,11 +1,84 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "ksads_section12_schema",
-    "prefLabel": "abcd_ksad01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_section12_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_12_52_p",
+                "variableName": "ksads_12_52_p"
+            },
+            {
+                "isAbout": "items/ksads_12_53_p",
+                "variableName": "ksads_12_53_p"
+            },
+            {
+                "isAbout": "items/ksads_12_54_p",
+                "variableName": "ksads_12_54_p"
+            },
+            {
+                "isAbout": "items/ksads_12_55_p",
+                "variableName": "ksads_12_55_p"
+            },
+            {
+                "isAbout": "items/ksads_12_56_p",
+                "variableName": "ksads_12_56_p"
+            },
+            {
+                "isAbout": "items/ksads_12_57_p",
+                "variableName": "ksads_12_57_p"
+            },
+            {
+                "isAbout": "items/ksads_12_58_p",
+                "variableName": "ksads_12_58_p"
+            },
+            {
+                "isAbout": "items/ksads_12_59_p",
+                "variableName": "ksads_12_59_p"
+            },
+            {
+                "isAbout": "items/ksads_12_60_p",
+                "variableName": "ksads_12_60_p"
+            },
+            {
+                "isAbout": "items/ksads_12_61_p",
+                "variableName": "ksads_12_61_p"
+            },
+            {
+                "isAbout": "items/ksads_12_62_p",
+                "variableName": "ksads_12_62_p"
+            },
+            {
+                "isAbout": "items/ksads_12_63_p",
+                "variableName": "ksads_12_63_p"
+            },
+            {
+                "isAbout": "items/ksads_12_64_p",
+                "variableName": "ksads_12_64_p"
+            },
+            {
+                "isAbout": "items/ksads_12_65_p",
+                "variableName": "ksads_12_65_p"
+            },
+            {
+                "isAbout": "items/ksads_12_925_p",
+                "variableName": "ksads_12_925_p"
+            },
+            {
+                "isAbout": "items/ksads_12_926_p",
+                "variableName": "ksads_12_926_p"
+            },
+            {
+                "isAbout": "items/ksads_12_927_p",
+                "variableName": "ksads_12_927_p"
+            },
+            {
+                "isAbout": "items/ksads_12_928_p",
+                "variableName": "ksads_12_928_p"
+            }
+        ],
         "order": [
             "items/ksads_12_52_p",
             "items/ksads_12_53_p",
@@ -26,80 +99,9 @@
             "items/ksads_12_927_p",
             "items/ksads_12_928_p"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "ksads_12_52_p",
-                "isAbout": "items/ksads_12_52_p"
-            },
-            {
-                "variableName": "ksads_12_53_p",
-                "isAbout": "items/ksads_12_53_p"
-            },
-            {
-                "variableName": "ksads_12_54_p",
-                "isAbout": "items/ksads_12_54_p"
-            },
-            {
-                "variableName": "ksads_12_55_p",
-                "isAbout": "items/ksads_12_55_p"
-            },
-            {
-                "variableName": "ksads_12_56_p",
-                "isAbout": "items/ksads_12_56_p"
-            },
-            {
-                "variableName": "ksads_12_57_p",
-                "isAbout": "items/ksads_12_57_p"
-            },
-            {
-                "variableName": "ksads_12_58_p",
-                "isAbout": "items/ksads_12_58_p"
-            },
-            {
-                "variableName": "ksads_12_59_p",
-                "isAbout": "items/ksads_12_59_p"
-            },
-            {
-                "variableName": "ksads_12_60_p",
-                "isAbout": "items/ksads_12_60_p"
-            },
-            {
-                "variableName": "ksads_12_61_p",
-                "isAbout": "items/ksads_12_61_p"
-            },
-            {
-                "variableName": "ksads_12_62_p",
-                "isAbout": "items/ksads_12_62_p"
-            },
-            {
-                "variableName": "ksads_12_63_p",
-                "isAbout": "items/ksads_12_63_p"
-            },
-            {
-                "variableName": "ksads_12_64_p",
-                "isAbout": "items/ksads_12_64_p"
-            },
-            {
-                "variableName": "ksads_12_65_p",
-                "isAbout": "items/ksads_12_65_p"
-            },
-            {
-                "variableName": "ksads_12_925_p",
-                "isAbout": "items/ksads_12_925_p"
-            },
-            {
-                "variableName": "ksads_12_926_p",
-                "isAbout": "items/ksads_12_926_p"
-            },
-            {
-                "variableName": "ksads_12_927_p",
-                "isAbout": "items/ksads_12_927_p"
-            },
-            {
-                "variableName": "ksads_12_928_p",
-                "isAbout": "items/ksads_12_928_p"
-            }
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "abcd_ksad01"
     }
 }

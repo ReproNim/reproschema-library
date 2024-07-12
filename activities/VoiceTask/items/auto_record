@@ -1,19 +1,29 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "auto_record",
-    "prefLabel": "Auto Record",
-    "altLabel": "auto_record",
-    "description": "auto record for microphone test",
-    "schemaVersion": "1.0.0-rc2",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "auto_record",
+    "category": "Field",
+    "description": {
+        "en": "auto record for microphone test"
+    },
+    "question": {
+        "en": "Going to test your microphone. Click on the start button and then say something audibly."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Going to test your microphone. Click on the start button and then say something audibly.",
     "ui": {
         "inputType": "audioAutoRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 4000,
         "minValue": 0,
-        "maxValue": 4000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "altLabel": {
+        "en": "auto_record"
+    },
+    "prefLabel": {
+        "en": "Auto Record"
     }
 }

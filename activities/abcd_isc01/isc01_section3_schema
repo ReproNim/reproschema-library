@@ -1,14 +1,184 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "isc01_section3_schema",
-    "prefLabel": {
-        "en": "isc01_section3",
-        "es": "isc01_section3_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "isc01_section3_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/irma_hurtec_a15",
+                "variableName": "irma_hurtec_a15"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a16",
+                "variableName": "irma_hurtec_a16"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a17",
+                "variableName": "irma_hurtec_a17"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a18",
+                "variableName": "irma_hurtec_a18"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a19",
+                "variableName": "irma_hurtec_a19"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a20",
+                "variableName": "irma_hurtec_a20"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21a",
+                "variableName": "irma_hurtec_a21a"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21b",
+                "variableName": "irma_hurtec_a21b"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21c",
+                "variableName": "irma_hurtec_a21c"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21d",
+                "variableName": "irma_hurtec_a21d"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21e",
+                "variableName": "irma_hurtec_a21e"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b10",
+                "variableName": "irma_hurtec_b10"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b11",
+                "variableName": "irma_hurtec_b11"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b12",
+                "variableName": "irma_hurtec_b12"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b13",
+                "variableName": "irma_hurtec_b13"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b14",
+                "variableName": "irma_hurtec_b14"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b15",
+                "variableName": "irma_hurtec_b15"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b16",
+                "variableName": "irma_hurtec_b16"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b17",
+                "variableName": "irma_hurtec_b17"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b18",
+                "variableName": "irma_hurtec_b18"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7_1",
+                "variableName": "irma_hurtec_b7_1"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7_2",
+                "variableName": "irma_hurtec_b7_2"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7_3",
+                "variableName": "irma_hurtec_b7_3"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7_4",
+                "variableName": "irma_hurtec_b7_4"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7_5",
+                "variableName": "irma_hurtec_b7_5"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7_6",
+                "variableName": "irma_hurtec_b7_6"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b8",
+                "variableName": "irma_hurtec_b8"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b9",
+                "variableName": "irma_hurtec_b9"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c1",
+                "variableName": "irma_hurtec_c1"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c2",
+                "variableName": "irma_hurtec_c2"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c3",
+                "variableName": "irma_hurtec_c3"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c4",
+                "variableName": "irma_hurtec_c4"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d11",
+                "variableName": "irma_hurtec_d11"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d12",
+                "variableName": "irma_hurtec_d12"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d13",
+                "variableName": "irma_hurtec_d13"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d14",
+                "variableName": "irma_hurtec_d14"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d15",
+                "variableName": "irma_hurtec_d15"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d16",
+                "variableName": "irma_hurtec_d16"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d17",
+                "variableName": "irma_hurtec_d17"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d18",
+                "variableName": "irma_hurtec_d18"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d19",
+                "variableName": "irma_hurtec_d19"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d20",
+                "variableName": "irma_hurtec_d20"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d5",
+                "variableName": "irma_hurtec_d5"
+            }
+        ],
         "order": [
             "items/irma_hurtec_a15",
             "items/irma_hurtec_a16",
@@ -54,180 +224,10 @@
             "items/irma_hurtec_d20",
             "items/irma_hurtec_d5"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "irma_hurtec_a15",
-                "isAbout": "items/irma_hurtec_a15"
-            },
-            {
-                "variableName": "irma_hurtec_a16",
-                "isAbout": "items/irma_hurtec_a16"
-            },
-            {
-                "variableName": "irma_hurtec_a17",
-                "isAbout": "items/irma_hurtec_a17"
-            },
-            {
-                "variableName": "irma_hurtec_a18",
-                "isAbout": "items/irma_hurtec_a18"
-            },
-            {
-                "variableName": "irma_hurtec_a19",
-                "isAbout": "items/irma_hurtec_a19"
-            },
-            {
-                "variableName": "irma_hurtec_a20",
-                "isAbout": "items/irma_hurtec_a20"
-            },
-            {
-                "variableName": "irma_hurtec_a21a",
-                "isAbout": "items/irma_hurtec_a21a"
-            },
-            {
-                "variableName": "irma_hurtec_a21b",
-                "isAbout": "items/irma_hurtec_a21b"
-            },
-            {
-                "variableName": "irma_hurtec_a21c",
-                "isAbout": "items/irma_hurtec_a21c"
-            },
-            {
-                "variableName": "irma_hurtec_a21d",
-                "isAbout": "items/irma_hurtec_a21d"
-            },
-            {
-                "variableName": "irma_hurtec_a21e",
-                "isAbout": "items/irma_hurtec_a21e"
-            },
-            {
-                "variableName": "irma_hurtec_b10",
-                "isAbout": "items/irma_hurtec_b10"
-            },
-            {
-                "variableName": "irma_hurtec_b11",
-                "isAbout": "items/irma_hurtec_b11"
-            },
-            {
-                "variableName": "irma_hurtec_b12",
-                "isAbout": "items/irma_hurtec_b12"
-            },
-            {
-                "variableName": "irma_hurtec_b13",
-                "isAbout": "items/irma_hurtec_b13"
-            },
-            {
-                "variableName": "irma_hurtec_b14",
-                "isAbout": "items/irma_hurtec_b14"
-            },
-            {
-                "variableName": "irma_hurtec_b15",
-                "isAbout": "items/irma_hurtec_b15"
-            },
-            {
-                "variableName": "irma_hurtec_b16",
-                "isAbout": "items/irma_hurtec_b16"
-            },
-            {
-                "variableName": "irma_hurtec_b17",
-                "isAbout": "items/irma_hurtec_b17"
-            },
-            {
-                "variableName": "irma_hurtec_b18",
-                "isAbout": "items/irma_hurtec_b18"
-            },
-            {
-                "variableName": "irma_hurtec_b7_1",
-                "isAbout": "items/irma_hurtec_b7_1"
-            },
-            {
-                "variableName": "irma_hurtec_b7_2",
-                "isAbout": "items/irma_hurtec_b7_2"
-            },
-            {
-                "variableName": "irma_hurtec_b7_3",
-                "isAbout": "items/irma_hurtec_b7_3"
-            },
-            {
-                "variableName": "irma_hurtec_b7_4",
-                "isAbout": "items/irma_hurtec_b7_4"
-            },
-            {
-                "variableName": "irma_hurtec_b7_5",
-                "isAbout": "items/irma_hurtec_b7_5"
-            },
-            {
-                "variableName": "irma_hurtec_b7_6",
-                "isAbout": "items/irma_hurtec_b7_6"
-            },
-            {
-                "variableName": "irma_hurtec_b8",
-                "isAbout": "items/irma_hurtec_b8"
-            },
-            {
-                "variableName": "irma_hurtec_b9",
-                "isAbout": "items/irma_hurtec_b9"
-            },
-            {
-                "variableName": "irma_hurtec_c1",
-                "isAbout": "items/irma_hurtec_c1"
-            },
-            {
-                "variableName": "irma_hurtec_c2",
-                "isAbout": "items/irma_hurtec_c2"
-            },
-            {
-                "variableName": "irma_hurtec_c3",
-                "isAbout": "items/irma_hurtec_c3"
-            },
-            {
-                "variableName": "irma_hurtec_c4",
-                "isAbout": "items/irma_hurtec_c4"
-            },
-            {
-                "variableName": "irma_hurtec_d11",
-                "isAbout": "items/irma_hurtec_d11"
-            },
-            {
-                "variableName": "irma_hurtec_d12",
-                "isAbout": "items/irma_hurtec_d12"
-            },
-            {
-                "variableName": "irma_hurtec_d13",
-                "isAbout": "items/irma_hurtec_d13"
-            },
-            {
-                "variableName": "irma_hurtec_d14",
-                "isAbout": "items/irma_hurtec_d14"
-            },
-            {
-                "variableName": "irma_hurtec_d15",
-                "isAbout": "items/irma_hurtec_d15"
-            },
-            {
-                "variableName": "irma_hurtec_d16",
-                "isAbout": "items/irma_hurtec_d16"
-            },
-            {
-                "variableName": "irma_hurtec_d17",
-                "isAbout": "items/irma_hurtec_d17"
-            },
-            {
-                "variableName": "irma_hurtec_d18",
-                "isAbout": "items/irma_hurtec_d18"
-            },
-            {
-                "variableName": "irma_hurtec_d19",
-                "isAbout": "items/irma_hurtec_d19"
-            },
-            {
-                "variableName": "irma_hurtec_d20",
-                "isAbout": "items/irma_hurtec_d20"
-            },
-            {
-                "variableName": "irma_hurtec_d5",
-                "isAbout": "items/irma_hurtec_d5"
-            }
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "isc01_section3",
+        "es": "isc01_section3_es"
     }
 }

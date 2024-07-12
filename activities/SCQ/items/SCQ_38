@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SCQ_38",
-    "prefLabel": "SCQ Q38",
-    "description": "Q38 of the Social Communication Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SCQ_38",
+    "category": "Field",
+    "description": {
+        "en": "Q38 of the Social Communication Questionnaire"
+    },
     "question": {
         "en": "If you come into a room and start talkking to her/him without calling her/his name, does she/he usually look up and pay attention to you?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "SCQ Q38"
+    }
 }

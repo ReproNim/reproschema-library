@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "sai_p_read_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "sai_p_read_l",
-    "altLabel": "sai_read_p_l sports_activity_read_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sai_p_read_l",
+    "category": "Field",
+    "question": {
+        "en": "Since we last saw you on [asnt_timestamp_c], has your child read for pleasure? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfsu ni\u00f1o(a) ha le\u00eddo por placer?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Since we last saw you on [asnt_timestamp_c], has your child read for pleasure? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfsu ni\u00f1o(a) ha le\u00eddo por placer?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Yes S\u00ed; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "sai_read_p_l sports_activity_read_p_l"
+    },
+    "prefLabel": {
+        "en": "sai_p_read_l"
+    }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_6",
-    "prefLabel": "Self compassion 6",
-    "description": "Q6 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_6",
+    "category": "Field",
+    "description": {
+        "en": "Q6 of the Self Compassion Scale"
+    },
     "question": {
         "en": "When I'm going through a very hard time, I give myself the caring and tenderness I need."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 6"
+    }
 }

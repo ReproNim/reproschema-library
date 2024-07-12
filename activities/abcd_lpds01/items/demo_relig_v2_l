@@ -1,103 +1,151 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "demo_relig_v2_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_relig_v2_l",
-    "altLabel": "demo_relig_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_relig_v2_l",
+    "category": "Field",
+    "question": {
+        "en": "What is the child's religious preference? \u00bfCu\u00e1l es la preferencia religiosa del nino / de la nin-a?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "What is the child's religious preference? \u00bfCu\u00e1l es la preferencia religiosa del nino / de la nin-a?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Mainline Protestant (e.g.; 2 = Evangelical Protestant (e.g.; 3 = Historically Black Church (e.g.; 4 = Roman Catholic (Catholic) Catolica romana (catolicismo) ; 5 = Jewish (Judaism) Jud\u00eda (juda\u00edsmo) ; 6 = Mormon (Church of Jesus Christ of Latter Day Saints/LDS) Mormona (Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas) ; 7 = Jehovah's Witness Testigo de Jehov\u00e1 ; 8 = Muslim (Islam) Musulmana (Islam) ; 9 = Buddhist Budista ; 10 = Hindu Hind\u00fa ; 11 = Orthodox Christian (Greek; 12 = Unitarian (Universalist)  Unitaria (universalista) ; 13 = Other Christian Otra religion cristiana ; 14 = Atheist (do not believe in God) Ate\u00edsmo (no cree en Dios) ; 15 = Agnostic (not sure if there is a God) Agnosticismo (no est\u00e1 seguro(a) de la existencia de un dios) ; 16 = Something else (Specify)  Otra (Especifique) ; 17 = Nothing in Particular Ninguna en particular ; 777 = Refused to answer Prefiero no responder ; 999 = Don't know No lo s\u00e9"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 999,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Mainline Protestant (e.g.",
+                "name": {
+                    "en": "Mainline Protestant (e.g."
+                },
                 "value": 1
             },
             {
-                "name": "Evangelical Protestant (e.g.",
+                "name": {
+                    "en": "Evangelical Protestant (e.g."
+                },
                 "value": 2
             },
             {
-                "name": "Historically Black Church (e.g.",
+                "name": {
+                    "en": "Historically Black Church (e.g."
+                },
                 "value": 3
             },
             {
-                "name": "Roman Catholic (Catholic) Catolica romana (catolicismo) ",
+                "name": {
+                    "en": "Roman Catholic (Catholic) Catolica romana (catolicismo) "
+                },
                 "value": 4
             },
             {
-                "name": "Jewish (Judaism) Jud\u00eda (juda\u00edsmo) ",
+                "name": {
+                    "en": "Jewish (Judaism) Jud\u00eda (juda\u00edsmo) "
+                },
                 "value": 5
             },
             {
-                "name": "Mormon (Church of Jesus Christ of Latter Day Saints/LDS) Mormona (Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas) ",
+                "name": {
+                    "en": "Mormon (Church of Jesus Christ of Latter Day Saints/LDS) Mormona (Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas) "
+                },
                 "value": 6
             },
             {
-                "name": "Jehovah's Witness Testigo de Jehov\u00e1 ",
+                "name": {
+                    "en": "Jehovah's Witness Testigo de Jehov\u00e1 "
+                },
                 "value": 7
             },
             {
-                "name": "Muslim (Islam) Musulmana (Islam) ",
+                "name": {
+                    "en": "Muslim (Islam) Musulmana (Islam) "
+                },
                 "value": 8
             },
             {
-                "name": "Buddhist Budista ",
+                "name": {
+                    "en": "Buddhist Budista "
+                },
                 "value": 9
             },
             {
-                "name": "Hindu Hind\u00fa ",
+                "name": {
+                    "en": "Hindu Hind\u00fa "
+                },
                 "value": 10
             },
             {
-                "name": "Orthodox Christian (Greek",
+                "name": {
+                    "en": "Orthodox Christian (Greek"
+                },
                 "value": 11
             },
             {
-                "name": "Unitarian (Universalist)  Unitaria (universalista) ",
+                "name": {
+                    "en": "Unitarian (Universalist)  Unitaria (universalista) "
+                },
                 "value": 12
             },
             {
-                "name": "Other Christian Otra religion cristiana ",
+                "name": {
+                    "en": "Other Christian Otra religion cristiana "
+                },
                 "value": 13
             },
             {
-                "name": "Atheist (do not believe in God) Ate\u00edsmo (no cree en Dios) ",
+                "name": {
+                    "en": "Atheist (do not believe in God) Ate\u00edsmo (no cree en Dios) "
+                },
                 "value": 14
             },
             {
-                "name": "Agnostic (not sure if there is a God) Agnosticismo (no est\u00e1 seguro(a) de la existencia de un dios) ",
+                "name": {
+                    "en": "Agnostic (not sure if there is a God) Agnosticismo (no est\u00e1 seguro(a) de la existencia de un dios) "
+                },
                 "value": 15
             },
             {
-                "name": "Something else (Specify)  Otra (Especifique) ",
+                "name": {
+                    "en": "Something else (Specify)  Otra (Especifique) "
+                },
                 "value": 16
             },
             {
-                "name": "Nothing in Particular Ninguna en particular ",
+                "name": {
+                    "en": "Nothing in Particular Ninguna en particular "
+                },
                 "value": 17
             },
             {
-                "name": "Refused to answer Prefiero no responder ",
+                "name": {
+                    "en": "Refused to answer Prefiero no responder "
+                },
                 "value": 777
             },
             {
-                "name": "Don't know No lo s\u00e9",
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
                 "value": 999
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Mainline Protestant (e.g.; 2 = Evangelical Protestant (e.g.; 3 = Historically Black Church (e.g.; 4 = Roman Catholic (Catholic) Catolica romana (catolicismo) ; 5 = Jewish (Judaism) Jud\u00eda (juda\u00edsmo) ; 6 = Mormon (Church of Jesus Christ of Latter Day Saints/LDS) Mormona (Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas) ; 7 = Jehovah's Witness Testigo de Jehov\u00e1 ; 8 = Muslim (Islam) Musulmana (Islam) ; 9 = Buddhist Budista ; 10 = Hindu Hind\u00fa ; 11 = Orthodox Christian (Greek; 12 = Unitarian (Universalist)  Unitaria (universalista) ; 13 = Other Christian Otra religion cristiana ; 14 = Atheist (do not believe in God) Ate\u00edsmo (no cree en Dios) ; 15 = Agnostic (not sure if there is a God) Agnosticismo (no est\u00e1 seguro(a) de la existencia de un dios) ; 16 = Something else (Specify)  Otra (Especifique) ; 17 = Nothing in Particular Ninguna en particular ; 777 = Refused to answer Prefiero no responder ; 999 = Don't know No lo s\u00e9"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_relig_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_relig_v2_l"
+    }
 }

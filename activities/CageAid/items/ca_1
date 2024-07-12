@@ -1,28 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ca_1",
-    "prefLabel": "CAGE-AID-1",
-    "description": "Q1 of the CAGE-AID Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ca_1",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the CAGE-AID Assessment"
+    },
+    "question": {
+        "en": "Have you ever felt that you ought to cut down on your drinking or drug use? "
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Have you ever felt that you ought to cut down on your drinking or drug use? ",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             },
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "CAGE-AID-1"
     }
 }

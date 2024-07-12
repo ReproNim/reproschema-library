@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS12_1",
-    "prefLabel": "WHODAS12_1",
-    "description": "Q1 of the WHODAS12",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS12_1",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the WHODAS12"
+    },
     "question": {
         "en": "Standing for long periods such as 30 minutes?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "WHODAS12_1"
+    }
 }

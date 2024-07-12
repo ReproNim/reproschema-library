@@ -1,47 +1,67 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "kbi_p_how_well_c_school_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_how_well_c_school_l",
-    "altLabel": "kbi_how_well_c_school_p_l ksads_back_c_how_well_school_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_how_well_c_school_l",
+    "category": "Field",
+    "question": {
+        "en": "In general, how does your child do in school? En general, \u00bfc\u00f3mo le va a su ni\u00f1o(a) en la escuela?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "In general, how does your child do in school? En general, \u00bfc\u00f3mo le va a su ni\u00f1o(a) en la escuela?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Very well Muy bien; 2 = Average Promedio; 3 = Below Average Por debajo del promedio; 4 = Failing Est\u00e1 reprobando o repitiendo un grado; -1 = Not applicable No aplica"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": -1,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Very well Muy bien",
+                "name": {
+                    "en": "Very well Muy bien"
+                },
                 "value": 1
             },
             {
-                "name": "Average Promedio",
+                "name": {
+                    "en": "Average Promedio"
+                },
                 "value": 2
             },
             {
-                "name": "Below Average Por debajo del promedio",
+                "name": {
+                    "en": "Below Average Por debajo del promedio"
+                },
                 "value": 3
             },
             {
-                "name": "Failing Est\u00e1 reprobando o repitiendo un grado",
+                "name": {
+                    "en": "Failing Est\u00e1 reprobando o repitiendo un grado"
+                },
                 "value": 4
             },
             {
-                "name": "Not applicable No aplica",
+                "name": {
+                    "en": "Not applicable No aplica"
+                },
                 "value": -1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Very well Muy bien; 2 = Average Promedio; 3 = Below Average Por debajo del promedio; 4 = Failing Est\u00e1 reprobando o repitiendo un grado; -1 = Not applicable No aplica"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_how_well_c_school_p_l ksads_back_c_how_well_school_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_p_how_well_c_school_l"
+    }
 }

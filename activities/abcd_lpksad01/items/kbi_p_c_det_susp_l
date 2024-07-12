@@ -1,43 +1,61 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "kbi_p_c_det_susp_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_det_susp_l",
-    "altLabel": "kbi_c_det_susp_p_l ksads_back_c_det_susp_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_det_susp_l",
+    "category": "Field",
+    "question": {
+        "en": "In the past year, has your child had any detentions or suspensions? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha tenido alguna detenci\u00f3n o suspensi\u00f3n en la escuela?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "In the past year, has your child had any detentions or suspensions? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha tenido alguna detenci\u00f3n o suspensi\u00f3n en la escuela?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Yes S\u00ed; 2 = No No; 3 = Not sure No estoy seguro(a); 888 = Decline to answer Niego contestar"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 888,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 2
             },
             {
-                "name": "Not sure No estoy seguro(a)",
+                "name": {
+                    "en": "Not sure No estoy seguro(a)"
+                },
                 "value": 3
             },
             {
-                "name": "Decline to answer Niego contestar",
+                "name": {
+                    "en": "Decline to answer Niego contestar"
+                },
                 "value": 888
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 2 = No No; 3 = Not sure No estoy seguro(a); 888 = Decline to answer Niego contestar"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_det_susp_p_l ksads_back_c_det_susp_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_det_susp_l"
+    }
 }

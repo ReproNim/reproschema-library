@@ -1,43 +1,61 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "kbi_p_c_trans_problems_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_trans_problems_l",
-    "altLabel": "kbi_c_trans_problems_p_l ksads_back_c_trans_prob_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_trans_problems_l",
+    "category": "Field",
+    "question": {
+        "en": "Since we last saw you, has this caused any problems for your child with your family or with kids at school? Desde la \u00faltima vez que nos vimos, \u00bfesto le ha causado a su ni\u00f1o(a) alg\u00fan problema con su familia o con los ni\u00f1os en la escuela?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Since we last saw you, has this caused any problems for your child with your family or with kids at school? Desde la \u00faltima vez que nos vimos, \u00bfesto le ha causado a su ni\u00f1o(a) alg\u00fan problema con su familia o con los ni\u00f1os en la escuela?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Not at all Para nada; 2 = Some Algo; 3 = A lot Mucho; 4 = Decline to answer Niego contestar"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 4,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Not at all Para nada",
+                "name": {
+                    "en": "Not at all Para nada"
+                },
                 "value": 1
             },
             {
-                "name": "Some Algo",
+                "name": {
+                    "en": "Some Algo"
+                },
                 "value": 2
             },
             {
-                "name": "A lot Mucho",
+                "name": {
+                    "en": "A lot Mucho"
+                },
                 "value": 3
             },
             {
-                "name": "Decline to answer Niego contestar",
+                "name": {
+                    "en": "Decline to answer Niego contestar"
+                },
                 "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Not at all Para nada; 2 = Some Algo; 3 = A lot Mucho; 4 = Decline to answer Niego contestar"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_trans_problems_p_l ksads_back_c_trans_prob_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_trans_problems_l"
+    }
 }

@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_6",
-    "prefLabel": "PQ-B-6",
-    "description": "schema for Q6 of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_6",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q6 of the PQ-B Assessment"
+    },
     "question": {
         "en": "Do you have difficulty getting your point across, because you ramble or go off the track a lot when you talk?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pqb_valueConstraints"
+    "responseOptions": "../pqb_valueConstraints",
+    "prefLabel": {
+        "en": "PQ-B-6"
+    }
 }

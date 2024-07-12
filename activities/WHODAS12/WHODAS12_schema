@@ -1,108 +1,101 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "WHODAS12_schema",
-    "prefLabel": "WHODAS12",
-    "description": "WHODAS12 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
-    "preamble": {
-        "en": "This questionnaire asks about difficulties due to health conditions. Health conditions include diseases or illnesses, other health problems that may be short or long lasting, injuries, mental or emotional problems, and problems with alcohol or drugs. Think back over the past 30 days and answer these questions, thinking about how much difficulty you had doing the following activities.",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS12_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/"
     },
-    "compute": [
-        {
-            "variableName": "WHODAS12_total_score",
-            "jsExpression": "WHODAS12_1 + WHODAS12_2 + WHODAS12_3 + WHODAS12_4 + WHODAS12_5 + WHODAS12_6 + WHODAS12_7 + WHODAS12_8 + WHODAS12_9 + WHODAS12_10 + WHODAS12_11 + WHODAS12_12"
-        }
-    ],
+    "description": {
+        "en": "WHODAS12 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/WHODAS12_1",
-                "variableName": "WHODAS12_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_1"
             },
             {
                 "isAbout": "items/WHODAS12_2",
-                "variableName": "WHODAS12_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_2"
             },
             {
                 "isAbout": "items/WHODAS12_3",
-                "variableName": "WHODAS12_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_3"
             },
             {
                 "isAbout": "items/WHODAS12_4",
-                "variableName": "WHODAS12_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_4"
             },
             {
                 "isAbout": "items/WHODAS12_5",
-                "variableName": "WHODAS12_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_5"
             },
             {
                 "isAbout": "items/WHODAS12_6",
-                "variableName": "WHODAS12_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_6"
             },
             {
                 "isAbout": "items/WHODAS12_7",
-                "variableName": "WHODAS12_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_7"
             },
             {
                 "isAbout": "items/WHODAS12_7",
-                "variableName": "WHODAS12_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_7"
             },
-                        {
+            {
                 "isAbout": "items/WHODAS12_8",
-                "variableName": "WHODAS12_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_8"
             },
-                        {
+            {
                 "isAbout": "items/WHODAS12_9",
-                "variableName": "WHODAS12_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_9"
             },
-                        {
+            {
                 "isAbout": "items/WHODAS12_10",
-                "variableName": "WHODAS12_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_10"
             },
-                        {
+            {
                 "isAbout": "items/WHODAS12_11",
-                "variableName": "WHODAS12_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_11"
             },
-                        {
+            {
                 "isAbout": "items/WHODAS12_12",
-                "variableName": "WHODAS12_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_12"
             },
             {
                 "isAbout": "items/WHODAS12_days_1",
-                "variableName": "WHODAS12_days_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_days_1"
             },
-                        {
+            {
                 "isAbout": "items/WHODAS12_days_2",
-                "variableName": "WHODAS12_days_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_days_2"
             },
-                                    {
+            {
                 "isAbout": "items/WHODAS12_days_3",
-                "variableName": "WHODAS12_days_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS12_days_3"
             },
             {
                 "isAbout": "items/WHODAS12_total_score",
-                "variableName": "WHODAS12_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS12_total_score"
             }
         ],
         "order": [
@@ -123,5 +116,18 @@
             "items/WHODAS12_days_3"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "WHODAS12_1 + WHODAS12_2 + WHODAS12_3 + WHODAS12_4 + WHODAS12_5 + WHODAS12_6 + WHODAS12_7 + WHODAS12_8 + WHODAS12_9 + WHODAS12_10 + WHODAS12_11 + WHODAS12_12",
+            "variableName": "WHODAS12_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "This questionnaire asks about difficulties due to health conditions. Health conditions include diseases or illnesses, other health problems that may be short or long lasting, injuries, mental or emotional problems, and problems with alcohol or drugs. Think back over the past 30 days and answer these questions, thinking about how much difficulty you had doing the following activities.",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "WHODAS12"
     }
 }

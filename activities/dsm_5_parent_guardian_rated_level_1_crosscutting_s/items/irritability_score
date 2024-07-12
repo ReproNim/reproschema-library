@@ -1,20 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "@id": "irritability_score",
-    "prefLabel": "irritability_score",
-    "ui": {
-        "inputType": "static"
-    },
-    "responseOptions": {
-        "valueType": "float"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irritability_score",
+    "category": "Field",
+    "description": {
+        "en": "@HIDDEN"
     },
     "question": {
         "en": "Irritability Rating DSM 5"
     },
-    "description": {
-        "en": "@HIDDEN"
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": [
+            "float"
+        ]
+    },
+    "prefLabel": {
+        "en": "irritability_score"
     }
 }

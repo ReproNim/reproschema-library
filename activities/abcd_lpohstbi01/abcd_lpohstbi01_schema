@@ -1,15 +1,132 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_lpohstbi01_schema",
-    "prefLabel": {
-        "en": "ABCD Longitudinal Parent Ohio State Traumatic Brain Injury Screen-Short Modified (OTBI)",
-        "es": "abcd_lpohstbi01_es"
-    },
-    "altLabel": "abcd_lpohstbi01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_lpohstbi01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/tbi_1_l",
+                "variableName": "tbi_1_l"
+            },
+            {
+                "isAbout": "items/tbi_1b_l",
+                "variableName": "tbi_1b_l"
+            },
+            {
+                "isAbout": "items/tbi_1c_l",
+                "variableName": "tbi_1c_l"
+            },
+            {
+                "isAbout": "items/tbi_1d_l",
+                "variableName": "tbi_1d_l"
+            },
+            {
+                "isAbout": "items/tbi_2_l",
+                "variableName": "tbi_2_l"
+            },
+            {
+                "isAbout": "items/tbi_2b_l",
+                "variableName": "tbi_2b_l"
+            },
+            {
+                "isAbout": "items/tbi_2c_l",
+                "variableName": "tbi_2c_l"
+            },
+            {
+                "isAbout": "items/tbi_2d_l",
+                "variableName": "tbi_2d_l"
+            },
+            {
+                "isAbout": "items/tbi_3_l",
+                "variableName": "tbi_3_l"
+            },
+            {
+                "isAbout": "items/tbi_3b_l",
+                "variableName": "tbi_3b_l"
+            },
+            {
+                "isAbout": "items/tbi_3c_l",
+                "variableName": "tbi_3c_l"
+            },
+            {
+                "isAbout": "items/tbi_3d_l",
+                "variableName": "tbi_3d_l"
+            },
+            {
+                "isAbout": "items/tbi_4_l",
+                "variableName": "tbi_4_l"
+            },
+            {
+                "isAbout": "items/tbi_4b_l",
+                "variableName": "tbi_4b_l"
+            },
+            {
+                "isAbout": "items/tbi_4c_l",
+                "variableName": "tbi_4c_l"
+            },
+            {
+                "isAbout": "items/tbi_4d_l",
+                "variableName": "tbi_4d_l"
+            },
+            {
+                "isAbout": "items/tbi_5_l",
+                "variableName": "tbi_5_l"
+            },
+            {
+                "isAbout": "items/tbi_5b_l",
+                "variableName": "tbi_5b_l"
+            },
+            {
+                "isAbout": "items/tbi_5c_l",
+                "variableName": "tbi_5c_l"
+            },
+            {
+                "isAbout": "items/tbi_5d_l",
+                "variableName": "tbi_5d_l"
+            },
+            {
+                "isAbout": "items/tbi_6o_l",
+                "variableName": "tbi_6o_l"
+            },
+            {
+                "isAbout": "items/tbi_6p_l",
+                "variableName": "tbi_6p_l"
+            },
+            {
+                "isAbout": "items/tbi_6q_l",
+                "variableName": "tbi_6q_l"
+            },
+            {
+                "isAbout": "items/tbi_6r_l",
+                "variableName": "tbi_6r_l"
+            },
+            {
+                "isAbout": "items/tbi_6s_l",
+                "variableName": "tbi_6s_l"
+            },
+            {
+                "isAbout": "items/tbi_7a_l",
+                "variableName": "tbi_7a_l"
+            },
+            {
+                "isAbout": "items/tbi_7c1_l",
+                "variableName": "tbi_7c1_l"
+            },
+            {
+                "isAbout": "items/tbi_7e_l",
+                "variableName": "tbi_7e_l"
+            },
+            {
+                "isAbout": "items/tbi_7f_l",
+                "variableName": "tbi_7f_l"
+            },
+            {
+                "isAbout": "items/tbl_7c2_l",
+                "variableName": "tbl_7c2_l"
+            }
+        ],
         "order": [
             "items/tbi_1_l",
             "items/tbi_1b_l",
@@ -42,128 +159,13 @@
             "items/tbi_7f_l",
             "items/tbl_7c2_l"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "tbi_1_l",
-                "isAbout": "items/tbi_1_l"
-            },
-            {
-                "variableName": "tbi_1b_l",
-                "isAbout": "items/tbi_1b_l"
-            },
-            {
-                "variableName": "tbi_1c_l",
-                "isAbout": "items/tbi_1c_l"
-            },
-            {
-                "variableName": "tbi_1d_l",
-                "isAbout": "items/tbi_1d_l"
-            },
-            {
-                "variableName": "tbi_2_l",
-                "isAbout": "items/tbi_2_l"
-            },
-            {
-                "variableName": "tbi_2b_l",
-                "isAbout": "items/tbi_2b_l"
-            },
-            {
-                "variableName": "tbi_2c_l",
-                "isAbout": "items/tbi_2c_l"
-            },
-            {
-                "variableName": "tbi_2d_l",
-                "isAbout": "items/tbi_2d_l"
-            },
-            {
-                "variableName": "tbi_3_l",
-                "isAbout": "items/tbi_3_l"
-            },
-            {
-                "variableName": "tbi_3b_l",
-                "isAbout": "items/tbi_3b_l"
-            },
-            {
-                "variableName": "tbi_3c_l",
-                "isAbout": "items/tbi_3c_l"
-            },
-            {
-                "variableName": "tbi_3d_l",
-                "isAbout": "items/tbi_3d_l"
-            },
-            {
-                "variableName": "tbi_4_l",
-                "isAbout": "items/tbi_4_l"
-            },
-            {
-                "variableName": "tbi_4b_l",
-                "isAbout": "items/tbi_4b_l"
-            },
-            {
-                "variableName": "tbi_4c_l",
-                "isAbout": "items/tbi_4c_l"
-            },
-            {
-                "variableName": "tbi_4d_l",
-                "isAbout": "items/tbi_4d_l"
-            },
-            {
-                "variableName": "tbi_5_l",
-                "isAbout": "items/tbi_5_l"
-            },
-            {
-                "variableName": "tbi_5b_l",
-                "isAbout": "items/tbi_5b_l"
-            },
-            {
-                "variableName": "tbi_5c_l",
-                "isAbout": "items/tbi_5c_l"
-            },
-            {
-                "variableName": "tbi_5d_l",
-                "isAbout": "items/tbi_5d_l"
-            },
-            {
-                "variableName": "tbi_6o_l",
-                "isAbout": "items/tbi_6o_l"
-            },
-            {
-                "variableName": "tbi_6p_l",
-                "isAbout": "items/tbi_6p_l"
-            },
-            {
-                "variableName": "tbi_6q_l",
-                "isAbout": "items/tbi_6q_l"
-            },
-            {
-                "variableName": "tbi_6r_l",
-                "isAbout": "items/tbi_6r_l"
-            },
-            {
-                "variableName": "tbi_6s_l",
-                "isAbout": "items/tbi_6s_l"
-            },
-            {
-                "variableName": "tbi_7a_l",
-                "isAbout": "items/tbi_7a_l"
-            },
-            {
-                "variableName": "tbi_7c1_l",
-                "isAbout": "items/tbi_7c1_l"
-            },
-            {
-                "variableName": "tbi_7e_l",
-                "isAbout": "items/tbi_7e_l"
-            },
-            {
-                "variableName": "tbi_7f_l",
-                "isAbout": "items/tbi_7f_l"
-            },
-            {
-                "variableName": "tbl_7c2_l",
-                "isAbout": "items/tbl_7c2_l"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_lpohstbi01"
+    },
+    "prefLabel": {
+        "en": "ABCD Longitudinal Parent Ohio State Traumatic Brain Injury Screen-Short Modified (OTBI)",
+        "es": "abcd_lpohstbi01_es"
     }
 }

@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_21_358_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_21_358_p",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_21_358_p",
+    "category": "Field",
+    "question": {
+        "en": "Symptom - Inability to \u03berecall aspects of trauma Past"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Inability to \u03berecall aspects of trauma Past",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_21_358_p"
     }
 }

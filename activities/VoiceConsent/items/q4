@@ -1,34 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "q4",
-    "prefLabel": "Quiz Q4",
-    "altLabel": "quiz_q4",
-    "description": "Quiz Question 4",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "q4",
+    "category": "Field",
+    "description": {
+        "en": "Quiz Question 4"
+    },
+    "question": {
+        "en": "Are there risks of participating in this study?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Are there risks of participating in this study?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "There is no risk of participating in this research study",
+                "name": {
+                    "en": "There is no risk of participating in this research study"
+                },
                 "value": 0
             },
             {
-                "name": "There is a risk that my regular doctor won\u2019t be allowed to care for me any longer",
+                "name": {
+                    "en": "There is a risk that my regular doctor won\u2019t be allowed to care for me any longer"
+                },
                 "value": 0
             },
             {
-                "name": "Some activities may be tiring and seeing my data may be stressful",
+                "name": {
+                    "en": "Some activities may be tiring and seeing my data may be stressful"
+                },
                 "value": 1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "altLabel": {
+        "en": "quiz_q4"
+    },
+    "prefLabel": {
+        "en": "Quiz Q4"
     }
 }

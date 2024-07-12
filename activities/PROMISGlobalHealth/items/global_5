@@ -1,39 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "global_5",
-    "prefLabel": "PROMIS-GH-5",
-    "description": "Q5 of the PROMIS Global Health survey",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "global_5",
+    "category": "Field",
+    "description": {
+        "en": "Q5 of the PROMIS Global Health survey"
+    },
+    "question": {
+        "en": "In general, how would you rate your satisfaction with your social activities and relationships?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "In general, how would you rate your satisfaction with your social activities and relationships?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": false,
         "choices": [
             {
-                "name": "Excellent",
+                "name": {
+                    "en": "Excellent"
+                },
                 "value": 5
             },
             {
-                "name": "Very Good",
+                "name": {
+                    "en": "Very Good"
+                },
                 "value": 4
             },
             {
-                "name": "Good",
+                "name": {
+                    "en": "Good"
+                },
                 "value": 3
             },
             {
-                "name": "Fair",
+                "name": {
+                    "en": "Fair"
+                },
                 "value": 2
             },
             {
-                "name": "Poor",
+                "name": {
+                    "en": "Poor"
+                },
                 "value": 1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "PROMIS-GH-5"
     }
 }

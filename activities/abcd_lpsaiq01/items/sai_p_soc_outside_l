@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "sai_p_soc_outside_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "sai_p_soc_outside_l",
-    "altLabel": "sai_soc_outside_p_l sports_activity_soc_outside_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sai_p_soc_outside_l",
+    "category": "Field",
+    "question": {
+        "en": "Soccer F\u00fatbol soccer Was any of this activity part of an organized team, group, band, orchestra, chorus, or program outside of school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado fuera de la escuela?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Soccer F\u00fatbol soccer Was any of this activity part of an organized team, group, band, orchestra, chorus, or program outside of school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado fuera de la escuela?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Yes S\u00ed; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "sai_soc_outside_p_l sports_activity_soc_outside_p_l"
+    },
+    "prefLabel": {
+        "en": "sai_p_soc_outside_l"
+    }
 }

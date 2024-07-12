@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_2_838_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_2_838_p",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_2_838_p",
+    "category": "Field",
+    "question": {
+        "en": "Diagnosis - Unspecified Bipolar and Related Disorder current \u03be(F31.9)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Diagnosis - Unspecified Bipolar and Related Disorder current \u03be(F31.9)",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_2_838_p"
     }
 }

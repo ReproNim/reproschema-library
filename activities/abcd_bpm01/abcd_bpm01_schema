@@ -1,12 +1,88 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_bpm01_schema",
-    "prefLabel": "ABCD Youth Brief Problem Monitor",
-    "altLabel": "abcd_bpm01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_bpm01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/bpm_1_y",
+                "variableName": "bpm_1_y"
+            },
+            {
+                "isAbout": "items/bpm_10_y",
+                "variableName": "bpm_10_y"
+            },
+            {
+                "isAbout": "items/bpm_11_y",
+                "variableName": "bpm_11_y"
+            },
+            {
+                "isAbout": "items/bpm_12_y",
+                "variableName": "bpm_12_y"
+            },
+            {
+                "isAbout": "items/bpm_13_y",
+                "variableName": "bpm_13_y"
+            },
+            {
+                "isAbout": "items/bpm_14_y",
+                "variableName": "bpm_14_y"
+            },
+            {
+                "isAbout": "items/bpm_15_y",
+                "variableName": "bpm_15_y"
+            },
+            {
+                "isAbout": "items/bpm_16_y",
+                "variableName": "bpm_16_y"
+            },
+            {
+                "isAbout": "items/bpm_17_y",
+                "variableName": "bpm_17_y"
+            },
+            {
+                "isAbout": "items/bpm_18_y",
+                "variableName": "bpm_18_y"
+            },
+            {
+                "isAbout": "items/bpm_19_y",
+                "variableName": "bpm_19_y"
+            },
+            {
+                "isAbout": "items/bpm_2_y",
+                "variableName": "bpm_2_y"
+            },
+            {
+                "isAbout": "items/bpm_3_y",
+                "variableName": "bpm_3_y"
+            },
+            {
+                "isAbout": "items/bpm_4_y",
+                "variableName": "bpm_4_y"
+            },
+            {
+                "isAbout": "items/bpm_5_y",
+                "variableName": "bpm_5_y"
+            },
+            {
+                "isAbout": "items/bpm_6_y",
+                "variableName": "bpm_6_y"
+            },
+            {
+                "isAbout": "items/bpm_7_y",
+                "variableName": "bpm_7_y"
+            },
+            {
+                "isAbout": "items/bpm_8_y",
+                "variableName": "bpm_8_y"
+            },
+            {
+                "isAbout": "items/bpm_9_y",
+                "variableName": "bpm_9_y"
+            }
+        ],
         "order": [
             "items/bpm_1_y",
             "items/bpm_2_y",
@@ -28,84 +104,12 @@
             "items/bpm_18_y",
             "items/bpm_19_y"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "bpm_1_y",
-                "isAbout": "items/bpm_1_y"
-            },
-            {
-                "variableName": "bpm_10_y",
-                "isAbout": "items/bpm_10_y"
-            },
-            {
-                "variableName": "bpm_11_y",
-                "isAbout": "items/bpm_11_y"
-            },
-            {
-                "variableName": "bpm_12_y",
-                "isAbout": "items/bpm_12_y"
-            },
-            {
-                "variableName": "bpm_13_y",
-                "isAbout": "items/bpm_13_y"
-            },
-            {
-                "variableName": "bpm_14_y",
-                "isAbout": "items/bpm_14_y"
-            },
-            {
-                "variableName": "bpm_15_y",
-                "isAbout": "items/bpm_15_y"
-            },
-            {
-                "variableName": "bpm_16_y",
-                "isAbout": "items/bpm_16_y"
-            },
-            {
-                "variableName": "bpm_17_y",
-                "isAbout": "items/bpm_17_y"
-            },
-            {
-                "variableName": "bpm_18_y",
-                "isAbout": "items/bpm_18_y"
-            },
-            {
-                "variableName": "bpm_19_y",
-                "isAbout": "items/bpm_19_y"
-            },
-            {
-                "variableName": "bpm_2_y",
-                "isAbout": "items/bpm_2_y"
-            },
-            {
-                "variableName": "bpm_3_y",
-                "isAbout": "items/bpm_3_y"
-            },
-            {
-                "variableName": "bpm_4_y",
-                "isAbout": "items/bpm_4_y"
-            },
-            {
-                "variableName": "bpm_5_y",
-                "isAbout": "items/bpm_5_y"
-            },
-            {
-                "variableName": "bpm_6_y",
-                "isAbout": "items/bpm_6_y"
-            },
-            {
-                "variableName": "bpm_7_y",
-                "isAbout": "items/bpm_7_y"
-            },
-            {
-                "variableName": "bpm_8_y",
-                "isAbout": "items/bpm_8_y"
-            },
-            {
-                "variableName": "bpm_9_y",
-                "isAbout": "items/bpm_9_y"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_bpm01"
+    },
+    "prefLabel": {
+        "en": "ABCD Youth Brief Problem Monitor"
     }
 }

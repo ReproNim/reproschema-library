@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "tbi_ss_worst1b_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "tbi_ss_worst1b_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_ss_worst1b_l",
+    "category": "Field",
+    "question": {
+        "en": "Worst injury1b = improbable TBI complex\n (TBI w/o LOC or memory loss)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Worst injury1b = improbable TBI complex\n (TBI w/o LOC or memory loss)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "tbi_ss_worst1b_l"
     }
 }

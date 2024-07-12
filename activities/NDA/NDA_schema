@@ -1,43 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "NDA_schema",
-    "prefLabel": "NDA guid",
-    "description": "schema describing terms needed to generate NDA guid",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "NDA_schema",
+    "category": "Activity",
+    "description": {
+        "en": "schema describing terms needed to generate NDA guid"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/gender",
-                "variableName": "gender",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gender"
             },
             {
                 "isAbout": "items/first_name",
-                "variableName": "first_name",
-                "isVis": true
+                "isVis": true,
+                "variableName": "first_name"
             },
             {
                 "isAbout": "items/middle_name",
-                "variableName": "middle_name",
-                "isVis": true
+                "isVis": true,
+                "variableName": "middle_name"
             },
             {
                 "isAbout": "items/last_name",
-                "variableName": "last_name",
-                "isVis": true
+                "isVis": true,
+                "variableName": "last_name"
             },
             {
                 "isAbout": "items/yearOfBirth",
-                "variableName": "yearOfBirth",
-                "isVis": true
+                "isVis": true,
+                "variableName": "yearOfBirth"
             },
             {
                 "isAbout": "items/city_of_birth",
-                "variableName": "city_of_birth",
-                "isVis": true
+                "isVis": true,
+                "variableName": "city_of_birth"
             }
+        ],
+        "allow": [
+            "reproschema:AllowSkip"
         ],
         "order": [
             "items/gender",
@@ -47,9 +51,9 @@
             "items/yearOfBirth",
             "items/city_of_birth"
         ],
-        "shuffle": false,
-        "allow": [
-            "reproschema:Skipped"
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "NDA guid"
     }
 }

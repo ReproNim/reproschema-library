@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "TEQ_15",
-    "prefLabel": "TEQ 15",
-    "description": "Q15 of the Toronto Empathy Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "TEQ_15",
+    "category": "Field",
+    "description": {
+        "en": "Q15 of the Toronto Empathy Questionnaire"
+    },
     "question": {
         "en": "I find it silly for people to cry out of happiness"
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "TEQ 15"
+    }
 }

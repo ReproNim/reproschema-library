@@ -1,31 +1,43 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "demo_prtnr_indust_refuse_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_prtnr_indust_refuse_l",
-    "altLabel": "demo_prtnr_indust_refuse_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_prtnr_indust_refuse_l",
+    "category": "Field",
+    "question": {
+        "en": "Refuse to answer Niego contestar"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Refuse to answer Niego contestar",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "777 = Refuse to answer Niego contestar"
+            }
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "minValue": 777,
         "maxValue": 777,
+        "minValue": 777,
         "choices": [
             {
-                "name": "Refuse to answer Niego contestar",
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
                 "value": 777
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "777 = Refuse to answer Niego contestar"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_prtnr_indust_refuse_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_prtnr_indust_refuse_l"
+    }
 }

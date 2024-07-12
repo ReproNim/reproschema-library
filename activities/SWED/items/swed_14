@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "swed_14",
-    "prefLabel": "SWED-14",
-    "description": "Q14 of the SWED Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "swed_14",
+    "category": "Field",
+    "description": {
+        "en": "Q14 of the SWED Assessment"
+    },
     "question": {
         "en": "Do you avoid certain or many foods because of fear of experiencing negative consequences like choking or vomiting, or have other people suggested this may be the case for you?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../swed_valueConstraints"
+    "responseOptions": "../swed_valueConstraints",
+    "prefLabel": {
+        "en": "SWED-14"
+    }
 }

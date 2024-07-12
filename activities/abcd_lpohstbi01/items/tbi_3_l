@@ -1,47 +1,53 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "tbi_3_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_3_l",
-        "es": "tbi_3_l_es"
-    },
-    "altLabel": "brain_injury_3_l tbi_3_p_l",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_3_l",
+    "category": "Field",
     "question": {
         "en": "Since we last saw you on [asnt_timestamp_c], has your child injured his/her head or neck in a fall or from being hit by something? (For example, falling from a bike or horse, rollerblading, falling on ice, being hit by a rock). In the past year, has your child injured his/her head or neck playing sports or on the playground?\n\n",
-        "es": "Desde la última vez que nos vimos en [baseline_year_1_arm_1][asnt_timestamp], ¿su niño/a se ha lesionado la cabeza o el cuello debido a una caída o porque algo le haya caído algo en la cabeza (p. ej., al caerse de una bicicleta o un caballo, al andar en patines, al caerse en el hielo o que le haya caído una roca)? En el último año, ¿su niño(a) se ha lastimado la cabeza o el cuello haciendo deporte o jugando en un parque?"
+        "es": "Desde la \u00faltima vez que nos vimos en [baseline_year_1_arm_1][asnt_timestamp], \u00bfsu ni\u00f1o/a se ha lesionado la cabeza o el cuello debido a una ca\u00edda o porque algo le haya ca\u00eddo algo en la cabeza (p. ej., al caerse de una bicicleta o un caballo, al andar en patines, al caerse en el hielo o que le haya ca\u00eddo una roca)? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) se ha lastimado la cabeza o el cuello haciendo deporte o jugando en un parque?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Yes Si; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes Si; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_3_l tbi_3_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_3_l",
+        "es": "tbi_3_l_es"
+    }
 }

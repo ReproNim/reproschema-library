@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq15_4",
-    "prefLabel": "PHQ q4",
-    "description": "Q4 of the PHQ 15 Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq15_4",
+    "category": "Field",
+    "description": {
+        "en": "Q4 of the PHQ 15 Assessment"
+    },
+    "question": {
+        "en": "Menstrual cramps or other problems with your periods"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Menstrual cramps or other problems with your periods",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ q4"
+    }
 }

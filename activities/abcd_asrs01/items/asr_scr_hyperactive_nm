@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "asr_scr_hyperactive_nm",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_hyperactive_nm",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_hyperactive_nm",
+    "category": "Field",
+    "question": {
+        "en": "Hyperactivity-Impulsivity ASR DSM-5-Oriented Scale (number of dependent raw scores missing)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Hyperactivity-Impulsivity ASR DSM-5-Oriented Scale (number of dependent raw scores missing)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 6,
         "minValue": 0,
-        "maxValue": 6
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "asr_scr_hyperactive_nm"
     }
 }

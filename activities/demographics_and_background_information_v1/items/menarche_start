@@ -1,19 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "menarche_start",
+    "category": "Field",
+    "question": {
+        "en": "At what age did your child have her first menstrual period?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "menarche_start",
-    "prefLabel": "menarche_start",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:int",
+        "maxValue": 25,
         "minValue": 8,
-        "maxValue": 25
+        "valueType": [
+            "xsd:int"
+        ]
     },
-    "question": {
-        "en": "At what age did your child have her first menstrual period?"
+    "prefLabel": {
+        "en": "menarche_start"
     }
 }

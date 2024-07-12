@@ -1,51 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "@id": "person2_occ_lvl",
-    "prefLabel": "person2_occ_lvl",
-    "ui": {
-        "inputType": "select"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "person2_occ_lvl",
+    "category": "Field",
     "question": {
         "en": "Highest Occupational Level for Person 2"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
     },
     "responseOptions": {
         "choices": [
             {
-                "value": 1,
-                "name": "No paid employment "
+                "name": {
+                    "en": "No paid employment "
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "Unskilled employee "
+                "name": {
+                    "en": "Unskilled employee "
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "Machine operator",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/semi-skilled employee .png"
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/semi-skilled employee .png",
+                "name": {
+                    "en": "Machine operator"
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "Skilled manual employee "
+                "name": {
+                    "en": "Skilled manual employee "
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "Clerical or sales worker"
+                "name": {
+                    "en": "Clerical or sales worker"
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "Administrative personnel"
+                "name": {
+                    "en": "Administrative personnel"
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "Business manager of large concern"
+                "name": {
+                    "en": "Business manager of large concern"
+                },
+                "value": 7
             },
             {
-                "value": 8,
-                "name": "Higher executive"
+                "name": {
+                    "en": "Higher executive"
+                },
+                "value": 8
             }
         ]
+    },
+    "prefLabel": {
+        "en": "person2_occ_lvl"
     }
 }

@@ -1,18 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "@id": "particpant_grade_level",
-    "prefLabel": "particpant_grade_level",
-    "ui": {
-        "inputType": ""
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "particpant_grade_level",
+    "category": "Field",
     "question": {
         "en": "Youth participant's grade level"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": ""
+    },
     "responseOptions": {
-        "minValue": 1,
-        "maxValue": 12
+        "maxValue": 12,
+        "minValue": 1
+    },
+    "prefLabel": {
+        "en": "particpant_grade_level"
     }
 }

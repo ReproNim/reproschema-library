@@ -1,15 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm_cross_ch3",
-    "prefLabel": "dsm_cross_ch3",
-    "description": "Q3 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_cross_ch3",
+    "category": "Field",
+    "description": {
+        "en": "Q3 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Youth Self Report"
+    },
     "question": {
         "en": "been bothered by not being able to fall asleep or stay asleep, or by waking up too early?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
-    
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "dsm_cross_ch3"
+    },
+    "schemaVersion": "1.0.0"
 }

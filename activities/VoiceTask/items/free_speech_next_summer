@@ -1,22 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "free_speech_next_summer",
-    "prefLabel": "Free speech summer",
-    "description": "free speech item for voice task",
-    "schemaVersion": "1.0.0-rc2",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "free_speech_next_summer",
+    "category": "Field",
+    "description": {
+        "en": "free speech item for voice task"
+    },
     "question": {
         "en": "How do you imagine your next summer? Describe it with as much detail as possible.",
-        "es": "Cómo se imagina que podría ser su próximo verano? Cuente con el mayor detalle posible."
+        "es": "C\u00f3mo se imagina que podr\u00eda ser su pr\u00f3ximo verano? Cuente con el mayor detalle posible."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
-        "minValue": 0,
         "maxValue": 180000,
-        "multipleChoice": false
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Free speech summer"
     }
 }

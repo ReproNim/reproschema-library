@@ -1,25 +1,31 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "kmart_inhale",
-    "prefLabel": "Kmart sentences (Inhale version)",
-    "description": "K-mart sentences read after inhaling and then within one exhale .",
-    "schemaVersion": "1.0.0-rc2",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kmart_inhale",
+    "category": "Field",
+    "description": {
+        "en": "K-mart sentences read after inhaling and then within one exhale ."
+    },
+    "question": {
+        "en": "The girl was thirsty and drank some juice, followed by a Coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
+        "es": "La ni\u00f1a ten\u00eda sed y bebi\u00f3 un poco de jugo, seguido de una Coca Cola. Tus pantalones buenos se ven geniales, sin embargo, tus pantalones rotos parecen una versi\u00f3n barata de la selecci\u00f3n de descuentos de Walmart. \u00bfEst\u00e1n manchados de aceite?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble":
-        {"en": "Hit record. Inhale and in one exhalation, read the sentences.",
-        "es": "Haga click en Grabar. Inhale y en una exhalación, lea las oraciones."
-        },
-    "question":
-        {"en": "The girl was thirsty and drank some juice, followed by a Coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
-        "es": "La niña tenía sed y bebió un poco de jugo, seguido de una Coca Cola. Tus pantalones buenos se ven geniales, sin embargo, tus pantalones rotos parecen una versión barata de la selección de descuentos de Walmart. ¿Están manchados de aceite?"
-        },
     "ui": {
         "inputType": "audioPassageRecord"
     },
+    "preamble": {
+        "en": "Hit record. Inhale and in one exhalation, read the sentences.",
+        "es": "Haga click en Grabar. Inhale y en una exhalaci\u00f3n, lea las oraciones."
+    },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 30000,
         "minValue": 0,
-        "maxValue": 30000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Kmart sentences (Inhale version)"
     }
 }

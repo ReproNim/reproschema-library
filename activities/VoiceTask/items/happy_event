@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "happy_event",
-    "prefLabel": "Happy Event",
-    "description": "q1 for voice tasks",
-    "schemaVersion": "1.0.0-rc2",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "happy_event",
+    "category": "Field",
+    "description": {
+        "en": "q1 for voice tasks"
+    },
+    "question": {
+        "en": "Tell me a happy event from your past. Please hit record, and then start speaking. When you are done, hit the Stop button to end recording"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Tell me a happy event from your past. Please hit record, and then start speaking. When you are done, hit the Stop button to end recording",
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "say_ah_valueConstraints"
+    "responseOptions": "say_ah_valueConstraints",
+    "prefLabel": {
+        "en": "Happy Event"
+    }
 }

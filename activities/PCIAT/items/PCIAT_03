@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "PCIAT_03",
-    "prefLabel": "PCIAT_03",
-    "description": "Q3 of the Parent-Child Internet Addiction Test",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PCIAT_03",
+    "category": "Field",
+    "description": {
+        "en": "Q3 of the Parent-Child Internet Addiction Test"
+    },
     "question": {
         "en": "How often does your child prefer to spend time online rather than with the rest of your family?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PCIAT_03"
+    }
 }

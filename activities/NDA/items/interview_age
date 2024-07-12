@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "interview_age",
-    "prefLabel": "Interview Age",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "interview_age",
+    "category": "Field",
+    "question": {
+        "en": "Age in months at the time of the interview/test/sampling/imaging."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Age in months at the time of the interview/test/sampling/imaging.",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 1260,
         "minValue": 0,
-        "maxValue": 1260
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "Interview Age"
     }
 }

@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "asr_scr_internal_r",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_internal_r",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_internal_r",
+    "category": "Field",
+    "question": {
+        "en": "Interalizing Problems ASR Syndrome Scale (raw score)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Interalizing Problems ASR Syndrome Scale (raw score)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 78,
         "minValue": 0,
-        "maxValue": 78
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "asr_scr_internal_r"
     }
 }

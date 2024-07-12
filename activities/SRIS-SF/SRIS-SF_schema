@@ -1,91 +1,88 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "SRIS-SF_schema",
-    "prefLabel": {
-        "en": "SRIS-SF Assessment",
-        "es": "SRIS-SF Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SRIS-SF_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "SRIS-SF assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "SRIS-SF assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-                        "en": "Rate your level of agreement with each statement"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_1",
-                "variableName": "SRIS-SF_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_2",
-                "variableName": "SRIS-SF_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_3",
-                "variableName": "SRIS-SF_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_4",
-                "variableName": "SRIS-SF_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_5",
-                "variableName": "SRIS-SF_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_6",
-                "variableName": "SRIS-SF_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_7",
-                "variableName": "SRIS-SF_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_7"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_8",
-                "variableName": "SRIS-SF_8",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_8"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_9",
-                "variableName": "SRIS-SF_9",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_9"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_10",
-                "variableName": "SRIS-SF_10",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_10"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SRIS-SF_11",
-                "variableName": "SRIS-SF_11",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SRIS-SF_11"
             },
             {
-                "isAbout": "items/SRIS-SF_12",
-                "variableName": "SRIS-SF_12",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SRIS-SF_12",
+                "isVis": true,
+                "variableName": "SRIS-SF_12"
             }
         ],
         "order": [
@@ -103,5 +100,12 @@
             "items/SRIS-SF_12"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Rate your level of agreement with each statement"
+    },
+    "prefLabel": {
+        "en": "SRIS-SF Assessment",
+        "es": "SRIS-SF Evaluaci\u00f3n"
     }
 }

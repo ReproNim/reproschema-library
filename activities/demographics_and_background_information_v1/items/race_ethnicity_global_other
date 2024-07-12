@@ -1,18 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "race_ethnicity_global_other",
-    "prefLabel": "race_ethnicity_global_other",
-    "description": "schema for specifying race_ethnicity_global_other",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "race_ethnicity_global_other",
+    "category": "Field",
+    "description": {
+        "en": "schema for specifying race_ethnicity_global_other"
+    },
     "question": {
         "en": "If you chose other race, ethnicity, or origin, please specify:"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "race_ethnicity_global_other"
     }
 }

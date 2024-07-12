@@ -1,55 +1,52 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "GQ6_schema",
-    "prefLabel": {
-        "en": "GQ-6 Assessment",
-        "es": "GQ-6 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "GQ6_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "GQ-6 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "GQ-6 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Using the scale below, indicate how much you agree with each statement:"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/GQ_1",
-                "variableName": "GQ_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "GQ_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/GQ_2",
-                "variableName": "GQ_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "GQ_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/GQ_3",
-                "variableName": "GQ_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "GQ_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/GQ_4",
-                "variableName": "GQ_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "GQ_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/GQ_5",
-                "variableName": "GQ_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "GQ_5"
             },
             {
-                "isAbout": "items/GQ_6",
-                "variableName": "GQ_6",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/GQ_6",
+                "isVis": true,
+                "variableName": "GQ_6"
             }
         ],
         "order": [
@@ -61,5 +58,12 @@
             "items/GQ_6"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Using the scale below, indicate how much you agree with each statement:"
+    },
+    "prefLabel": {
+        "en": "GQ-6 Assessment",
+        "es": "GQ-6 Evaluaci\u00f3n"
     }
 }

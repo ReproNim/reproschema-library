@@ -1,27 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "briefphq_3",
-    "prefLabel": "PHQ9-10",
-    "description": "schema for Q10 of the PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_3",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q10 of the PHQ-9 Assessment"
+    },
     "question": {
         "en": "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 3,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
                     "en": "Not difficult at all"
-
                 },
                 "value": 0
             },
@@ -43,6 +41,13 @@
                 },
                 "value": 3
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "PHQ9-10"
     }
 }

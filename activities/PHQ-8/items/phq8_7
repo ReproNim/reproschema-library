@@ -1,38 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq8_7",
-    "prefLabel": "PHQ8-7",
-    "description": "Q7 of the PHQ-8 Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq8_7",
+    "category": "Field",
+    "description": {
+        "en": "Q7 of the PHQ-8 Assessment"
+    },
     "question": {
+        "ar": "\u0635\u0639\u0648\u0628\u0629 \u0641\u064a \u0627\u0644\u062a\u0631\u0622\u064a\u0632 \u0645\u062b\u0644\u0627\u064b \u0623\u062b\u0646\u0627\u0621 \u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u0635\u062d\u064a\u0641\u0629 \u0623\u0648 \u0645\u0634\u0627\u0647\u062f\u0629 \u0627\u0644\u062a\u0644\u0641\u0632\u064a\u0648\u0646",
+        "bg": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u0438 \u0441 \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0446\u0438\u044f\u0442\u0430 \u043f\u0440\u0438 \u0438\u0437\u0432\u044a\u0440\u0448\u0432\u0430\u043d\u0435\u0442\u043e \u043d\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u0434\u0435\u0439\u043d\u043e\u0441\u0442\u0438, \u043a\u0430\u0442\u043e \u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440 \u0447\u0435\u0442\u0435\u043d\u0435 \u043d\u0430 \u0432\u0435\u0441\u0442\u043d\u0438\u0446\u0438 \u0438\u043b\u0438 \u0433\u043b\u0435\u0434\u0430\u043d\u0435 \u043d\u0430 \u0442\u0435\u043b\u0435\u0432\u0438\u0437\u0438\u044f",
         "en": "Trouble concentrating on things, such as reading the newspaper or watching television?",
         "es": "\u00bfHa tenido dificultad para concentrarse en ciertas actividades, tales como leer el peridico o ver la televisin?",
-        "nl": "Problemen om u te concentreren, bijvoorbeeld om de krant te lezen of om tv te kijken",
-        "fr": "Avoir du mal à se concentrer, par exemple, pour lire le journal ou regarder la télévision",
-        "ar": "صعوبة في الترآيز مثلاً أثناء قراءة الصحيفة أو مشاهدة التلفزيون",
-        "pt-BR": "Dificuldade para se concentrar nas coisas, como ler o jornal ou ver televisão",
-        "ko": "신문을 읽거나 텔레비전 보는 것과 같은 일에 집중하는 것이 어려움",
-        "it": "Difficoltà a concentrarsi su qualcosa, per esempio leggere il giornale o guardare la televisione",
-        "ja": "新聞を読む、またはテレビを見ることなどに集中することが 難しい",
-        "fi": "Vaikeus keskittyä asioihin, kuten lehden lukemiseen tai television katseluun",
+        "fi": "Vaikeus keskitty\u00e4 asioihin, kuten lehden lukemiseen tai television katseluun",
         "fil": "Hirap magtuon ng pansin sa mga bagay, tulad ng pagbabasa ng dyaryo or panonood ng telebisyon",
-        "no": "Vansker med å konsentrere deg om ting, slik som å lese avisen eller se på TV",
-        "kn": "ಪ⁀ರ್ಕೆಯನುನ್ ಓದಲು ಅಥ ಾ ⁛⁌⁎ಜನ್ ⁤ೂೕಡುವುದು ಇΏಾಯ್⁂ ⁎ಷಯಗಳ⁌ಲ್ ಗಮನ ಕೇಂ⁂ರ್ೕಕ⁋ಸಲು ⁠ೂಂದ⁫",
-        "ru": "Вам было трудно сосредоточиться (например, на чтении газеты или на просмотре телепередач)",
-        "pl": "Problemy ze skupieniem się na przykład przy czytaniu gazety lub oglądaniu telewizji",
-        "bg": "Проблеми с концентрацията при извършването на различни дейности, като например четене на вестници или гледане на телевизия",
-        "lv": "Grūtības koncentrēties, piemēram, lasīt avīzi vai skatīties TV",
+        "fr": "Avoir du mal \u00e0 se concentrer, par exemple, pour lire le journal ou regarder la t\u00e9l\u00e9vision",
+        "it": "Difficolt\u00e0 a concentrarsi su qualcosa, per esempio leggere il giornale o guardare la televisione",
+        "ja": "\u65b0\u805e\u3092\u8aad\u3080\u3001\u307e\u305f\u306f\u30c6\u30ec\u30d3\u3092\u898b\u308b\u3053\u3068\u306a\u3069\u306b\u96c6\u4e2d\u3059\u308b\u3053\u3068\u304c \u96e3\u3057\u3044",
+        "kn": "\u0caa\u2040\u0cb0\u0ccd\u0c95\u0cc6\u0caf\u0ca8\u0cc1\u0ca8\u0ccd \u0c93\u0ca6\u0cb2\u0cc1 \u0c85\u0ca5\u2009\u0cbe \u205b\u204c\u204e\u0c9c\u0ca8\u0ccd \u2064\u0cc2\u0cd5\u0ca1\u0cc1\u0cb5\u0cc1\u0ca6\u0cc1 \u0c87\u1ffb\u0cbe\u0caf\u0ccd\u2042 \u204e\u0cb7\u0caf\u0c97\u0cb3\u204c\u0cb2\u0ccd \u0c97\u0cae\u0ca8 \u0c95\u0cc6\u0cd5\u0c82\u2042\u0cb0\u0ccd\u0cd5\u0c95\u204b\u0cb8\u0cb2\u0cc1 \u2060\u0cc2\u0c82\u0ca6\u206b",
+        "ko": "\uc2e0\ubb38\uc744 \uc77d\uac70\ub098 \ud154\ub808\ube44\uc804 \ubcf4\ub294 \uac83\uacfc \uac19\uc740 \uc77c\uc5d0 \uc9d1\uc911\ud558\ub294 \uac83\uc774 \uc5b4\ub824\uc6c0",
+        "lv": "Gr\u016bt\u012bbas koncentr\u0113ties, piem\u0113ram, las\u012bt av\u012bzi vai skat\u012bties TV",
         "ms": "Masalah untuk menumpukan perhatian ke atas sesuatu perkara seperti membaca surat khabar atau menonton televisyen",
-        "pt-PT": "Tive dificuldade em concentrar-me nas coisas, como ao ler o jornal ou ver televisão",
-        "ro": "Dificultăţi de concentrare asupra unor lucruri precum cititul ziarului sau uitatul la televizor",
-        "zh-CN": "难于集中精神做事，例如看报纸或看电视",
-        "sv": "Svårigheter att koncentrera dig på saker, till exempel att läsa tidningen eller att titta på TV",
-        "uk": "Вам було важко зосередитись, наприклад, на читанні газети або перегляді телепередач"
+        "nl": "Problemen om u te concentreren, bijvoorbeeld om de krant te lezen of om tv te kijken",
+        "no": "Vansker med \u00e5 konsentrere deg om ting, slik som \u00e5 lese avisen eller se p\u00e5 TV",
+        "pl": "Problemy ze skupieniem si\u0119 na przyk\u0142ad przy czytaniu gazety lub ogl\u0105daniu telewizji",
+        "pt-br": "Dificuldade para se concentrar nas coisas, como ler o jornal ou ver televis\u00e3o",
+        "pt-pt": "Tive dificuldade em concentrar-me nas coisas, como ao ler o jornal ou ver televis\u00e3o",
+        "ro": "Dificult\u0103\u0163i de concentrare asupra unor lucruri precum cititul ziarului sau uitatul la televizor",
+        "ru": "\u0412\u0430\u043c \u0431\u044b\u043b\u043e \u0442\u0440\u0443\u0434\u043d\u043e \u0441\u043e\u0441\u0440\u0435\u0434\u043e\u0442\u043e\u0447\u0438\u0442\u044c\u0441\u044f (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u043d\u0430 \u0447\u0442\u0435\u043d\u0438\u0438 \u0433\u0430\u0437\u0435\u0442\u044b \u0438\u043b\u0438 \u043d\u0430 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435 \u0442\u0435\u043b\u0435\u043f\u0435\u0440\u0435\u0434\u0430\u0447)",
+        "sv": "Sv\u00e5righeter att koncentrera dig p\u00e5 saker, till exempel att l\u00e4sa tidningen eller att titta p\u00e5 TV",
+        "uk": "\u0412\u0430\u043c \u0431\u0443\u043b\u043e \u0432\u0430\u0436\u043a\u043e \u0437\u043e\u0441\u0435\u0440\u0435\u0434\u0438\u0442\u0438\u0441\u044c, \u043d\u0430\u043f\u0440\u0438\u043a\u043b\u0430\u0434, \u043d\u0430 \u0447\u0438\u0442\u0430\u043d\u043d\u0456 \u0433\u0430\u0437\u0435\u0442\u0438 \u0430\u0431\u043e \u043f\u0435\u0440\u0435\u0433\u043b\u044f\u0434\u0456 \u0442\u0435\u043b\u0435\u043f\u0435\u0440\u0435\u0434\u0430\u0447",
+        "zh-cn": "\u96be\u4e8e\u96c6\u4e2d\u7cbe\u795e\u505a\u4e8b\uff0c\u4f8b\u5982\u770b\u62a5\u7eb8\u6216\u770b\u7535\u89c6"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ8-7"
+    }
 }

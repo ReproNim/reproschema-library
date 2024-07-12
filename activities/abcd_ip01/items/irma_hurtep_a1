@@ -1,46 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_hurtep_a1",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_a1",
-        "es": "irma_hurtep_a1_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_a1",
+    "category": "Field",
     "question": {
         "en": "Was your home damaged badly or destroyed by the hurricane?",
-        "es": "¿Su hogar sufrió daños graves o fue destruido por el huracán?"
+        "es": "\u00bfSu hogar sufri\u00f3 da\u00f1os graves o fue destruido por el hurac\u00e1n?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Yes  Si; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes  Si; 0 = No No"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_a1",
+        "es": "irma_hurtep_a1_es"
+    }
 }

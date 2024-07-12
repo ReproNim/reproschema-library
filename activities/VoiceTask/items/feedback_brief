@@ -1,17 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "feedback_brief",
-    "prefLabel": "Brief Feedback",
-    "description": "schema for feedback on voice tasks described in brief",
-    "schemaVersion": "1.0.0-rc2",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "feedback_brief",
+    "category": "Field",
+    "description": {
+        "en": "schema for feedback on voice tasks described in brief"
+    },
+    "question": {
+        "en": "Please tell us what specific aspect of the task did you like?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Please tell us what specific aspect of the task did you like?",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 500
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Brief Feedback"
     }
 }

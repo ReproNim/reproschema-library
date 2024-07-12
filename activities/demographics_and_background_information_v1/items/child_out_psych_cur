@@ -1,27 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "child_out_psych_cur",
+    "category": "Field",
+    "question": {
+        "en": "Is your child who will be participating in the study currently involved in outpatient psychiatric/psychological treatment?   "
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "child_out_psych_cur",
-    "prefLabel": "child_out_psych_cur",
     "ui": {
         "inputType": ""
     },
     "preamble": {
         "en": "Psychiatric/Psychological/Psychosocial Treatment"
     },
-    "question": {
-        "en": "Is your child who will be participating in the study currently involved in outpatient psychiatric/psychological treatment?   "
-    },
     "responseOptions": {
         "choices": [
             {
-                "name": "Yes"
+                "name": {
+                    "en": "Yes"
+                }
             },
             {
-                "name": "No"
+                "name": {
+                    "en": "No"
+                }
             }
         ]
+    },
+    "prefLabel": {
+        "en": "child_out_psych_cur"
     }
 }

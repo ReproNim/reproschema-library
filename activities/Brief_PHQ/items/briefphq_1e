@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "briefphq_1e",
-    "@type": "reproschema:Field",
-    "prefLabel": "Brief PHQ 1e",
-    "description": "schema for Q1e of the derived Brief PHQ Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_1e",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q1e of the derived Brief PHQ Assessment"
+    },
+    "question": {
+        "en": "Poor appetite or overeating?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Poor appetite or overeating?",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Brief PHQ 1e"
+    }
 }

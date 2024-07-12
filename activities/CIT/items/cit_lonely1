@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "cit_lonely1",
-    "prefLabel": "Loneliness 1",
-    "description": "Q13 of the CIT Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "cit_lonely1",
+    "category": "Field",
+    "description": {
+        "en": "Q13 of the CIT Assessment"
+    },
     "question": {
         "en": "I feel lonely."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Loneliness 1"
+    }
 }

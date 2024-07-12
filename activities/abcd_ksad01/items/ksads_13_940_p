@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_13_940_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_13_940_p",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_13_940_p",
+    "category": "Field",
+    "question": {
+        "en": "Diagnosis - Binge-Eating Disorder (F50.8) PAST"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Diagnosis - Binge-Eating Disorder (F50.8) PAST",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_13_940_p"
     }
 }

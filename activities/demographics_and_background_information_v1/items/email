@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "email",
-    "prefLabel": "Email address",
-    "description": "Capture email of participant",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "email",
+    "category": "Field",
+    "description": {
+        "en": "Capture email of participant"
+    },
+    "question": {
+        "en": "Please provide your email address"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Please provide your email address",
     "ui": {
         "inputType": "email"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Email address"
     }
 }

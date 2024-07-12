@@ -1,34 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "q3",
-    "prefLabel": "Quiz Q3",
-    "altLabel": "quiz_q3",
-    "description": "Quiz Question 3",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "q3",
+    "category": "Field",
+    "description": {
+        "en": "Quiz Question 3"
+    },
+    "question": {
+        "en": "I decided to share my data broadly with qualified researchers and now I want to stop. What happens to the data I have already shared?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I decided to share my data broadly with qualified researchers and now I want to stop. What happens to the data I have already shared?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "My account and all my data will be deleted",
+                "name": {
+                    "en": "My account and all my data will be deleted"
+                },
                 "value": 0
             },
             {
-                "name": "The data I already shared will continue to be used in research",
+                "name": {
+                    "en": "The data I already shared will continue to be used in research"
+                },
                 "value": 1
             },
             {
-                "name": "My data will be sent to my regular healthcare provider",
+                "name": {
+                    "en": "My data will be sent to my regular healthcare provider"
+                },
                 "value": 0
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "altLabel": {
+        "en": "quiz_q3"
+    },
+    "prefLabel": {
+        "en": "Quiz Q3"
     }
 }

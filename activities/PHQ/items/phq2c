@@ -1,39 +1,41 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq2c",
-    "prefLabel": "PHQ9a-3",
-    "description": "Q3 of the derived PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq2c",
+    "category": "Field",
+    "description": {
+        "en": "Q3 of the derived PHQ-9 Assessment"
+    },
     "question": {
+        "ar": "\u0635\u0639\u0648\u0628\u0629 \u0641\u064a \u0627\u0644\u0646\u0648\u0645 \u0623\u0648 \u0646\u0648\u0645 \u0645\u062a\u0642\u0637\u0639 \u0623\u0648 \u0627\u0644\u0646\u0648\u0645 \u0623\u0622\u062b\u0631 \u0645\u0646 \u0627\u0644\u0645\u0639\u062a\u0627\u062f",
+        "bg": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u0438 \u0441\u044a\u0441 \u0441\u044a\u043d\u044f: \u0442\u0440\u0443\u0434\u043d\u043e \u0437\u0430\u0441\u043f\u0438\u0432\u0430\u043d\u0435, \u043d\u0435\u0441\u043f\u043e\u043a\u043e\u0435\u043d \u0441\u044a\u043d \u0438\u043b\u0438 \u043f\u0440\u0435\u043a\u0430\u043b\u0435\u043d\u043e \u043c\u043d\u043e\u0433\u043e \u0441\u044a\u043d",
         "en": "Trouble falling or staying asleep, or sleeping too much?",
         "es": "Ha tenido dificultad para quedarse o permanecer dormido(a), o ha dormido demasiado?",
-        "fr": "Difficultés à s’endormir ou à rester endormi(e), ou dormir trop?",
-
-        "ar": "صعوبة في النوم أو نوم متقطع أو النوم أآثر من المعتاد",
-
-        "nl": "Moeilijk inslapen, moeilijk doorslapen of te veel slapen",
-        "pt-BR": "Dificuldade para pegar no sono ou permanecer dormindo, ou dormir mais do que de costume",
-        "ko": "잠이 들거나 계속 잠을 자는 것이 어려움, 또는 잠을 너무 많이 잠",
-        "it": "Problemi ad addormentarsi o a dormire tutta la notte senza svegliarsi, o a dormire troppo",
-        "ja": "寝付きが悪い、途中で目がさめる、または逆に眠り過ぎる",
         "fi": "Nukahtamis- tai nukkumisvaikeudet tai liiallinen nukkuminen",
         "fil": "Hirap na makatulog o manatiling tulog, o labis na pagtulog",
-        "no": "Vansker med å sovne eller med å sove natten gjennom uten å våkne – eller med at du sover for mye",
-        "kn": "⁄⁢ರ್ ಬರುವುದು ಅಥ ಾ ⁄⁢ರ್ಯ⁌ಲ್ರುವುದಕೆಕ್ ⁠ೂಂದ⁫, ಅಥ ಾ ಅ⁀ ಾಗಿ ⁄⁢ರ್  ಾಡುವುದು",
-        "ru": "Вам было трудно заснуть, у Вас был прерывистый сон,или Вы слишком много спали",
-        "pl": "Kłopoty z zaśnięciem lub przerywany sen, albo zbyt długi sen",
-        "bg": "Проблеми със съня: трудно заспиване, неспокоен сън или прекалено много сън",
-        "lv": "Grūtības iemigt, caurs/trausls miegs vai pārāk ilga gulēšana",
+        "fr": "Difficult\u00e9s \u00e0 s\u2019endormir ou \u00e0 rester endormi(e), ou dormir trop?",
+        "it": "Problemi ad addormentarsi o a dormire tutta la notte senza svegliarsi, o a dormire troppo",
+        "ja": "\u5bdd\u4ed8\u304d\u304c\u60aa\u3044\u3001\u9014\u4e2d\u3067\u76ee\u304c\u3055\u3081\u308b\u3001\u307e\u305f\u306f\u9006\u306b\u7720\u308a\u904e\u304e\u308b",
+        "kn": "\u2044\u2062\u0cb0\u0ccd \u0cac\u0cb0\u0cc1\u0cb5\u0cc1\u0ca6\u0cc1 \u0c85\u0ca5\u2009\u0cbe \u2044\u2062\u0cb0\u0ccd\u0caf\u204c\u0cb2\u0ccd\u0cb0\u0cc1\u0cb5\u0cc1\u0ca6\u0c95\u0cc6\u0c95\u0ccd \u2060\u0cc2\u0c82\u0ca6\u206b, \u0c85\u0ca5\u2009\u0cbe \u0c85\u2040\u2005\u0cbe\u0c97\u0cbf \u2044\u2062\u0cb0\u0ccd \u2004\u0cbe\u0ca1\u0cc1\u0cb5\u0cc1\u0ca6\u0cc1",
+        "ko": "\uc7a0\uc774 \ub4e4\uac70\ub098 \uacc4\uc18d \uc7a0\uc744 \uc790\ub294 \uac83\uc774 \uc5b4\ub824\uc6c0, \ub610\ub294 \uc7a0\uc744 \ub108\ubb34 \ub9ce\uc774 \uc7a0",
+        "lv": "Gr\u016bt\u012bbas iemigt, caurs/trausls miegs vai p\u0101r\u0101k ilga gul\u0113\u0161ana",
         "ms": "Masalah untuk tidur atau tidur nyenyak atau tidur berlebihan",
-        "ro": "Dificultăţi de adormire sau de continuitate a somnului ori somnul prea îndelungat",
-        "zn-CH": "难于入睡；半夜会醒，或相反，睡觉时间过多",
-        "sv": "Svårigheter att somna eller få en sammanhängande sömn, eller sovit för mycket",
-        "uk": "Вам було важко засинати або не прокидатись, або Ви спали надто довго"
-     },
+        "nl": "Moeilijk inslapen, moeilijk doorslapen of te veel slapen",
+        "no": "Vansker med \u00e5 sovne eller med \u00e5 sove natten gjennom uten \u00e5 v\u00e5kne \u2013 eller med at du sover for mye",
+        "pl": "K\u0142opoty z za\u015bni\u0119ciem lub przerywany sen, albo zbyt d\u0142ugi sen",
+        "pt-br": "Dificuldade para pegar no sono ou permanecer dormindo, ou dormir mais do que de costume",
+        "ro": "Dificult\u0103\u0163i de adormire sau de continuitate a somnului ori somnul prea \u00eendelungat",
+        "ru": "\u0412\u0430\u043c \u0431\u044b\u043b\u043e \u0442\u0440\u0443\u0434\u043d\u043e \u0437\u0430\u0441\u043d\u0443\u0442\u044c, \u0443 \u0412\u0430\u0441 \u0431\u044b\u043b \u043f\u0440\u0435\u0440\u044b\u0432\u0438\u0441\u0442\u044b\u0439 \u0441\u043e\u043d,\u0438\u043b\u0438 \u0412\u044b \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043c\u043d\u043e\u0433\u043e \u0441\u043f\u0430\u043b\u0438",
+        "sv": "Sv\u00e5righeter att somna eller f\u00e5 en sammanh\u00e4ngande s\u00f6mn, eller sovit f\u00f6r mycket",
+        "uk": "\u0412\u0430\u043c \u0431\u0443\u043b\u043e \u0432\u0430\u0436\u043a\u043e \u0437\u0430\u0441\u0438\u043d\u0430\u0442\u0438 \u0430\u0431\u043e \u043d\u0435 \u043f\u0440\u043e\u043a\u0438\u0434\u0430\u0442\u0438\u0441\u044c, \u0430\u0431\u043e \u0412\u0438 \u0441\u043f\u0430\u043b\u0438 \u043d\u0430\u0434\u0442\u043e \u0434\u043e\u0432\u0433\u043e",
+        "zn-ch": "\u96be\u4e8e\u5165\u7761\uff1b\u534a\u591c\u4f1a\u9192\uff0c\u6216\u76f8\u53cd\uff0c\u7761\u89c9\u65f6\u95f4\u8fc7\u591a"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints2"
+    "responseOptions": "../valueConstraints2",
+    "prefLabel": {
+        "en": "PHQ9a-3"
+    }
 }

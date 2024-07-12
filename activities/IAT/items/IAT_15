@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "IAT_15",
-    "prefLabel": "IAT Q15",
-    "description": "Q15 of the Internet Addiction Test - Self Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "IAT_15",
+    "category": "Field",
+    "description": {
+        "en": "Q15 of the Internet Addiction Test - Self Report"
+    },
     "question": {
         "en": "How often do you feel preoccupied with the Internet when off-line, or fantasize about being online?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "IAT Q15"
+    }
 }

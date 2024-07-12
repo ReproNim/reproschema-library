@@ -1,119 +1,175 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "demo_prnt_ed_v2_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_prnt_ed_v2_l",
-    "altLabel": "demo_prnt_ed_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_prnt_ed_v2_l",
+    "category": "Field",
+    "question": {
+        "en": "What is the highest grade or level of school you have completed or the highest degree you have received? \u00bfCu\u00e1l es su m\u00e1ximo nivel de estudios completados o el m\u00e1ximo t\u00edtulo que ha recibido?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "What is the highest grade or level of school you have completed or the highest degree you have received? \u00bfCu\u00e1l es su m\u00e1ximo nivel de estudios completados o el m\u00e1ximo t\u00edtulo que ha recibido?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "0 = Never attended/Kindergarten only Nunca asist\u00ed/Kinder solamente ; 1 = 1st grade 1.er grado ; 2 = 2nd grade 2.\u00ba grado ; 3 = 3rd grade 3.er grado ; 4 = 4th grade 4.\u00ba grado ; 5 = 5th grade 5.\u00ba grado ; 6 = 6th grade 6.\u00ba grado ; 7 = 7th grade 7.\u00ba grado ; 8 = 8th grade 8.\u00ba grado ; 9 = 9th grade 9.\u00ba grado ; 10 = 10th grade 10.\u00ba grado ; 11 = 11th grade 11.\u00ba grado ; 12 = 12th grade; 13 = High school graduate Preparatoria terminada ; 14 = GED or equivalent Diploma General de Equivalencia (GED) o equivalente ; 15 = Some college; 16 = Associate degree: Occupational; 17 = Associate degree: Academic Program T\u00edtulo de asociado: programa acad\u00e9mico ; 18 = Bachelor's degree (ex. BA; 19 = Master's degree (ex. MA; 20 = Professional School degree (ex. MD; 21 = Doctoral degree (ex. PhD; 777 = Refused to answer Prefiero no responder"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 21,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Never attended/Kindergarten only Nunca asist\u00ed/Kinder solamente ",
+                "name": {
+                    "en": "Never attended/Kindergarten only Nunca asist\u00ed/Kinder solamente "
+                },
                 "value": 0
             },
             {
-                "name": "1st grade 1.er grado ",
+                "name": {
+                    "en": "1st grade 1.er grado "
+                },
                 "value": 1
             },
             {
-                "name": "2nd grade 2.\u00ba grado ",
+                "name": {
+                    "en": "2nd grade 2.\u00ba grado "
+                },
                 "value": 2
             },
             {
-                "name": "3rd grade 3.er grado ",
+                "name": {
+                    "en": "3rd grade 3.er grado "
+                },
                 "value": 3
             },
             {
-                "name": "4th grade 4.\u00ba grado ",
+                "name": {
+                    "en": "4th grade 4.\u00ba grado "
+                },
                 "value": 4
             },
             {
-                "name": "5th grade 5.\u00ba grado ",
+                "name": {
+                    "en": "5th grade 5.\u00ba grado "
+                },
                 "value": 5
             },
             {
-                "name": "6th grade 6.\u00ba grado ",
+                "name": {
+                    "en": "6th grade 6.\u00ba grado "
+                },
                 "value": 6
             },
             {
-                "name": "7th grade 7.\u00ba grado ",
+                "name": {
+                    "en": "7th grade 7.\u00ba grado "
+                },
                 "value": 7
             },
             {
-                "name": "8th grade 8.\u00ba grado ",
+                "name": {
+                    "en": "8th grade 8.\u00ba grado "
+                },
                 "value": 8
             },
             {
-                "name": "9th grade 9.\u00ba grado ",
+                "name": {
+                    "en": "9th grade 9.\u00ba grado "
+                },
                 "value": 9
             },
             {
-                "name": "10th grade 10.\u00ba grado ",
+                "name": {
+                    "en": "10th grade 10.\u00ba grado "
+                },
                 "value": 10
             },
             {
-                "name": "11th grade 11.\u00ba grado ",
+                "name": {
+                    "en": "11th grade 11.\u00ba grado "
+                },
                 "value": 11
             },
             {
-                "name": "12th grade",
+                "name": {
+                    "en": "12th grade"
+                },
                 "value": 12
             },
             {
-                "name": "High school graduate Preparatoria terminada ",
+                "name": {
+                    "en": "High school graduate Preparatoria terminada "
+                },
                 "value": 13
             },
             {
-                "name": "GED or equivalent Diploma General de Equivalencia (GED) o equivalente ",
+                "name": {
+                    "en": "GED or equivalent Diploma General de Equivalencia (GED) o equivalente "
+                },
                 "value": 14
             },
             {
-                "name": "Some college",
+                "name": {
+                    "en": "Some college"
+                },
                 "value": 15
             },
             {
-                "name": "Associate degree: Occupational",
+                "name": {
+                    "en": "Associate degree: Occupational"
+                },
                 "value": 16
             },
             {
-                "name": "Associate degree: Academic Program T\u00edtulo de asociado: programa acad\u00e9mico ",
+                "name": {
+                    "en": "Associate degree: Academic Program T\u00edtulo de asociado: programa acad\u00e9mico "
+                },
                 "value": 17
             },
             {
-                "name": "Bachelor's degree (ex. BA",
+                "name": {
+                    "en": "Bachelor's degree (ex. BA"
+                },
                 "value": 18
             },
             {
-                "name": "Master's degree (ex. MA",
+                "name": {
+                    "en": "Master's degree (ex. MA"
+                },
                 "value": 19
             },
             {
-                "name": "Professional School degree (ex. MD",
+                "name": {
+                    "en": "Professional School degree (ex. MD"
+                },
                 "value": 20
             },
             {
-                "name": "Doctoral degree (ex. PhD",
+                "name": {
+                    "en": "Doctoral degree (ex. PhD"
+                },
                 "value": 21
             },
             {
-                "name": "Refused to answer Prefiero no responder",
+                "name": {
+                    "en": "Refused to answer Prefiero no responder"
+                },
                 "value": 777
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = Never attended/Kindergarten only Nunca asist\u00ed/Kinder solamente ; 1 = 1st grade 1.er grado ; 2 = 2nd grade 2.\u00ba grado ; 3 = 3rd grade 3.er grado ; 4 = 4th grade 4.\u00ba grado ; 5 = 5th grade 5.\u00ba grado ; 6 = 6th grade 6.\u00ba grado ; 7 = 7th grade 7.\u00ba grado ; 8 = 8th grade 8.\u00ba grado ; 9 = 9th grade 9.\u00ba grado ; 10 = 10th grade 10.\u00ba grado ; 11 = 11th grade 11.\u00ba grado ; 12 = 12th grade; 13 = High school graduate Preparatoria terminada ; 14 = GED or equivalent Diploma General de Equivalencia (GED) o equivalente ; 15 = Some college; 16 = Associate degree: Occupational; 17 = Associate degree: Academic Program T\u00edtulo de asociado: programa acad\u00e9mico ; 18 = Bachelor's degree (ex. BA; 19 = Master's degree (ex. MA; 20 = Professional School degree (ex. MD; 21 = Doctoral degree (ex. PhD; 777 = Refused to answer Prefiero no responder"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_prnt_ed_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_prnt_ed_v2_l"
+    }
 }

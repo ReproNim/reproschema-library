@@ -1,19 +1,29 @@
 {
-  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-  "@type": "reproschema:Field",
-  "@id": "open_response_what_went_well",
-  "prefLabel": "What went well",
-  "description": "What went well",
-  "schemaVersion": "1.0.0-rc4",
-  "version": "0.0.1",
-  "preamble": "Please respond to the following prompt with as much detail as possible.",
-  "question": "What went well today (big or small)? Give as much detail as possible about where you were, who was there, what was said, and how you felt",
-  "ui": {
-    "inputType": "audioPassageRecord"
-  },
-  "responseOptions": {
-    "valueType": "schema:AudioObject",
-    "minValue": 0,
-    "maxValue": 30000
-  }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "open_response_what_went_well",
+    "category": "Field",
+    "description": {
+        "en": "What went well"
+    },
+    "question": {
+        "en": "What went well today (big or small)? Give as much detail as possible about where you were, who was there, what was said, and how you felt"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "preamble": {
+        "en": "Please respond to the following prompt with as much detail as possible."
+    },
+    "responseOptions": {
+        "maxValue": 30000,
+        "minValue": 0,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "What went well"
+    }
 }

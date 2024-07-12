@@ -1,84 +1,56 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "GAD7_schema",
-    "prefLabel": "GAD7",
-    "description": "GAD7 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
-    "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by the following problems?",
-        "es": "Durante las \u00faltimas 2 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?",
-        "ar": "خلال الأسبوعين الماضيين، آم مرّة أقلقتك المشاآل التّالية؟ ضع علامة “9 “للإشارة لجوابك)",
-        "it": "Nelle ultime 2 settimane, con quale frequenza le ha dato fastidio ciascuno dei seguenti problemi?",
-        "nl": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van één of meer van de volgende problemen?",
-        "fr": "Au cours des 2 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
-        "pt-BR": "Durante as últimas 2 semanas, com que freqüência você foi incomodado/a pelos problemas abaixo?",
-        "fil": "Nitong mga nakaraang 14 na araw, gaano ka kadalas binagabag ng mga sumusunod na problema?",
-        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teitä viimeisten 2 viikon aikana?",
-        "kn": "ಕ⁭ದ ಎರಡು  ಾರಗಳ⁌ῤ, ಈ ⁓ಳ‵ನ ಸಮⁱῡಗ⁍ಂದ ⁄ೕವ⁳ ಆ῰ಾಗ ಎಷುῒ ⁠ೂಂದ⁫⁕ೂಳ῰ಾ‵⁂Ῑೕ⁋?",
-        "ko": "지난 2 주 동안 당신은 다음의 문제들로 인해서 얼마나 자주 방해를 받았습니까?",
-        "no": "Hvor ofte har du vært plaget av de følgende problemene i løpet av de siste 14 dagene?",
-        "pl": "Jak często w ciągu ostatnich 2 tygodni dokuczały Panu(i) następujące problemy?",
-        "pt-PT": "Durante os últimos 14 dias, em quantos foi afectado/a pelos seguintes problemas?",
-        "ro": "În ultimele 2 săptămâni, cât de des v-au deranjat următoarele probleme?",
-        "ru": "Как часто Вас за последние 14 дней беспокоили следующие проблемы?",
-        "zh-CN": "在过去两周，您经常受到以下问题的困扰吗",
-        "bg": "Колко често през изминалите две седмици, сте бил (а) обезпокоен (а) от следните проблеми?",
-        "da": "Hvor ofte i de sidste 14 dage har du været generet af følgende problemer?",
-        "sv": "Under de senaste 14 dagarna, hur ofta har du du besvärats av följande problem?",
-        "lv": "Cik bieži pēdējo 2 nedēļu laikā Jūs saskārāties ar kādu no zemāk minētajām problēmām?",
-        "ms": "Dalam tempoh 14 hari yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
-        "uk": "Як часто за останні 2 тижні Вас турбували наступні проблеми?"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "GAD7_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/"
     },
-    "compute": [
-        {
-            "variableName": "gad7_total_score",
-            "jsExpression": "gad7_1 + gad7_2 + gad7_3 + gad7_4 + gad7_5 + gad7_6 + gad7_7"
-        }
-    ],
+    "description": {
+        "en": "GAD7 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/gad7_1",
-                "variableName": "gad7_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gad7_1"
             },
             {
                 "isAbout": "items/gad7_2",
-                "variableName": "gad7_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gad7_2"
             },
             {
                 "isAbout": "items/gad7_3",
-                "variableName": "gad7_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gad7_3"
             },
             {
                 "isAbout": "items/gad7_4",
-                "variableName": "gad7_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gad7_4"
             },
             {
                 "isAbout": "items/gad7_5",
-                "variableName": "gad7_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gad7_5"
             },
             {
                 "isAbout": "items/gad7_6",
-                "variableName": "gad7_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gad7_6"
             },
             {
                 "isAbout": "items/gad7_7",
-                "variableName": "gad7_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "gad7_7"
             },
             {
                 "isAbout": "items/gad7_total_score",
-                "variableName": "gad7_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "gad7_total_score"
             }
         ],
         "order": [
@@ -91,5 +63,39 @@
             "items/gad7_7"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "gad7_1 + gad7_2 + gad7_3 + gad7_4 + gad7_5 + gad7_6 + gad7_7",
+            "variableName": "gad7_total_score"
+        }
+    ],
+    "preamble": {
+        "ar": "\u062e\u0644\u0627\u0644 \u0627\u0644\u0623\u0633\u0628\u0648\u0639\u064a\u0646 \u0627\u0644\u0645\u0627\u0636\u064a\u064a\u0646\u060c \u0622\u0645 \u0645\u0631\u0651\u0629 \u0623\u0642\u0644\u0642\u062a\u0643 \u0627\u0644\u0645\u0634\u0627\u0622\u0644 \u0627\u0644\u062a\u0651\u0627\u0644\u064a\u0629\u061f \u0636\u0639 \u0639\u0644\u0627\u0645\u0629 \u201c9 \u201c\u0644\u0644\u0625\u0634\u0627\u0631\u0629 \u0644\u062c\u0648\u0627\u0628\u0643)",
+        "bg": "\u041a\u043e\u043b\u043a\u043e \u0447\u0435\u0441\u0442\u043e \u043f\u0440\u0435\u0437 \u0438\u0437\u043c\u0438\u043d\u0430\u043b\u0438\u0442\u0435 \u0434\u0432\u0435 \u0441\u0435\u0434\u043c\u0438\u0446\u0438, \u0441\u0442\u0435 \u0431\u0438\u043b (\u0430) \u043e\u0431\u0435\u0437\u043f\u043e\u043a\u043e\u0435\u043d (\u0430) \u043e\u0442 \u0441\u043b\u0435\u0434\u043d\u0438\u0442\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0438?",
+        "da": "Hvor ofte i de sidste 14 dage har du v\u00e6ret generet af f\u00f8lgende problemer?",
+        "en": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+        "es": "Durante las \u00faltimas 2 semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "fi": "Kuinka usein seuraavat ongelmat ovat vaivanneet teit\u00e4 viimeisten 2 viikon aikana?",
+        "fil": "Nitong mga nakaraang 14 na araw, gaano ka kadalas binagabag ng mga sumusunod na problema?",
+        "fr": "Au cours des 2 derni\u00e8res semaines, selon quelle fr\u00e9quence avez-vous \u00e9t\u00e9 g\u00ean\u00e9(e) par les probl\u00e8mes suivants?",
+        "it": "Nelle ultime 2 settimane, con quale frequenza le ha dato fastidio ciascuno dei seguenti problemi?",
+        "kn": "\u0c95\u206d\u0ca6 \u0c8e\u0cb0\u0ca1\u0cc1 \u2009\u0cbe\u0cb0\u0c97\u0cb3\u204c\u1fe4, \u0c88 \u2053\u0cb3\u2035\u0ca8 \u0cb8\u0cae\u2071\u1fe1\u0c97\u204d\u0c82\u0ca6 \u2044\u0cd5\u0cb5\u2073 \u0c86\u1ff0\u0cbe\u0c97 \u0c8e\u0cb7\u0cc1\u1fd2 \u2060\u0cc2\u0c82\u0ca6\u206b\u2055\u0cc2\u0cb3\u1ff0\u0cbe\u2035\u2042\u1fd9\u0cd5\u204b?",
+        "ko": "\uc9c0\ub09c 2 \uc8fc \ub3d9\uc548 \ub2f9\uc2e0\uc740 \ub2e4\uc74c\uc758 \ubb38\uc81c\ub4e4\ub85c \uc778\ud574\uc11c \uc5bc\ub9c8\ub098 \uc790\uc8fc \ubc29\ud574\ub97c \ubc1b\uc558\uc2b5\ub2c8\uae4c?",
+        "lv": "Cik bie\u017ei p\u0113d\u0113jo 2 ned\u0113\u013cu laik\u0101 J\u016bs sask\u0101r\u0101ties ar k\u0101du no zem\u0101k min\u0113taj\u0101m probl\u0113m\u0101m?",
+        "ms": "Dalam tempoh 14 hari yang lalu, berapa kerapkah anda telah terganggu oleh sebarang masalah yang berikut?",
+        "nl": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van \u00e9\u00e9n of meer van de volgende problemen?",
+        "no": "Hvor ofte har du v\u00e6rt plaget av de f\u00f8lgende problemene i l\u00f8pet av de siste 14 dagene?",
+        "pl": "Jak cz\u0119sto w ci\u0105gu ostatnich 2 tygodni dokucza\u0142y Panu(i) nast\u0119puj\u0105ce problemy?",
+        "pt-br": "Durante as \u00faltimas 2 semanas, com que freq\u00fc\u00eancia voc\u00ea foi incomodado/a pelos problemas abaixo?",
+        "pt-pt": "Durante os \u00faltimos 14 dias, em quantos foi afectado/a pelos seguintes problemas?",
+        "ro": "\u00cen ultimele 2 s\u0103pt\u0103m\u00e2ni, c\u00e2t de des v-au deranjat urm\u0103toarele probleme?",
+        "ru": "\u041a\u0430\u043a \u0447\u0430\u0441\u0442\u043e \u0412\u0430\u0441 \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 14 \u0434\u043d\u0435\u0439 \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0438\u043b\u0438 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b?",
+        "sv": "Under de senaste 14 dagarna, hur ofta har du du besv\u00e4rats av f\u00f6ljande problem?",
+        "uk": "\u042f\u043a \u0447\u0430\u0441\u0442\u043e \u0437\u0430 \u043e\u0441\u0442\u0430\u043d\u043d\u0456 2 \u0442\u0438\u0436\u043d\u0456 \u0412\u0430\u0441 \u0442\u0443\u0440\u0431\u0443\u0432\u0430\u043b\u0438 \u043d\u0430\u0441\u0442\u0443\u043f\u043d\u0456 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0438?",
+        "zh-cn": "\u5728\u8fc7\u53bb\u4e24\u5468\uff0c\u60a8\u7ecf\u5e38\u53d7\u5230\u4ee5\u4e0b\u95ee\u9898\u7684\u56f0\u6270\u5417"
+    },
+    "prefLabel": {
+        "en": "GAD7"
     }
 }

@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "demo_yrs_2_no_display_l___1",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_yrs_2_no_display_l___1",
-    "altLabel": "demo_yrs_2_no_display_p_l___1",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_yrs_2_no_display_l___1",
+    "category": "Field",
+    "question": {
+        "en": "Prior to 2/28/18, demo_yrs_2a_l and demo_yrs_2b_l only opened if \"less than once a month\" or \"More than once a week\" were chosen,\nDid not display when \"Never,\" \"One to three times a month,\" \"About once a week,\" \"Don't know\" or \"Declined\" were chosen. Those pGUIDs associated with the items that should have displayed are marked as yes. (1, yes)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Prior to 2/28/18, demo_yrs_2a_l and demo_yrs_2b_l only opened if \"less than once a month\" or \"More than once a week\" were chosen,\nDid not display when \"Never,\" \"One to three times a month,\" \"About once a week,\" \"Don't know\" or \"Declined\" were chosen. Those pGUIDs associated with the items that should have displayed are marked as yes. (1, yes)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "0 = No; 1 = Yes"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_yrs_2_no_display_p_l___1"
+    },
+    "prefLabel": {
+        "en": "demo_yrs_2_no_display_l___1"
+    }
 }

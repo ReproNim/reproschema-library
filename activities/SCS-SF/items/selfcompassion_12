@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_12",
-    "prefLabel": "Self compassion 12",
-    "description": "Q12 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_12",
+    "category": "Field",
+    "description": {
+        "en": "Q12 of the Self Compassion Scale"
+    },
     "question": {
         "en": "I'm intolerant and impatient towards those aspects of my personality I don't like."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 12"
+    }
 }

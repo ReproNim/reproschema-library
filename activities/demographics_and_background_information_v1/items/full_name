@@ -1,17 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "full_name",
-    "prefLabel": "Full name",
-    "description": "schema for full name of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "full_name",
+    "category": "Field",
+    "description": {
+        "en": "schema for full name of participant"
+    },
+    "question": {
+        "en": "Full name"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Full name",
     "ui": {
         "inputType": "multitext"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 150
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Full name"
     }
 }

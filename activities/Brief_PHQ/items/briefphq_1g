@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "briefphq_1g",
-    "prefLabel": "Brief PHQ q1g",
-    "description": "schema for Q1g of the derived Brief PHQ Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_1g",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q1g of the derived Brief PHQ Assessment"
+    },
+    "question": {
+        "en": "Trouble concentrating on things, such as reading the newspaper or watching television?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Trouble concentrating on things, such as reading the newspaper or watching television?",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Brief PHQ q1g"
+    }
 }

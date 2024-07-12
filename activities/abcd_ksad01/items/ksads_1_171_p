@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_1_171_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_1_171_p",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_1_171_p",
+    "category": "Field",
+    "question": {
+        "en": "Symptom - Weight Gain Present"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Weight Gain Present",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_1_171_p"
     }
 }

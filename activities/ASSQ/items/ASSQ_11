@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASSQ_11",
-    "prefLabel": "ASSQ Q11",
-    "description": "Q11 of the Autism Spectrum Screening Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASSQ_11",
+    "category": "Field",
+    "description": {
+        "en": "Q11 of the Autism Spectrum Screening Questionnaire"
+    },
     "question": {
         "en": "uses language freely but fails to make adjustments to fit social contexts or the needs of different listeners"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASSQ Q11"
+    }
 }

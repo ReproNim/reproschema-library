@@ -1,92 +1,84 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQq4_schema",
-    "prefLabel": "PHQ4-4",
-    "description": "PHQ-4 Q4",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQq4_schema",
+    "category": "Activity",
+    "description": {
+        "en": "PHQ-4 Q4"
     },
-    "compute": [
-        {
-            "variableName": "phqq4_total_score",
-            "jsExpression": "phq4a + phq4b + phq4c + phq4d + phq4e + phq4f + phq4g + phq4h + phq4i + phq4j + phq4k"
-        }
-    ],
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4a",
-                "variableName": "phq4a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4b",
-                "variableName": "phq4b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4c",
-                "variableName": "phq4c",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4c"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4d",
-                "variableName": "phq4d",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4d"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4e",
-                "variableName": "phq4e",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4e"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4f",
-                "variableName": "phq4f",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4f"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4g",
-                "variableName": "phq4g",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4g"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4h",
-                "variableName": "phq4h",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4h"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4i",
-                "variableName": "phq4i",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4i"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4j",
-                "variableName": "phq4j",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4j"
             },
             {
-                "isAbout": "items/phq4k",
-                "variableName": "phq4k",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq4k",
+                "isVis": true,
+                "variableName": "phq4k"
             },
             {
                 "isAbout": "items/phq4_total_score",
-                "variableName": "phq4_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq4_total_score"
             }
         ],
         "order": [
@@ -103,5 +95,17 @@
             "items/phq4k"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq4a + phq4b + phq4c + phq4d + phq4e + phq4f + phq4g + phq4h + phq4i + phq4j + phq4k",
+            "variableName": "phqq4_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "prefLabel": {
+        "en": "PHQ4-4"
     }
 }

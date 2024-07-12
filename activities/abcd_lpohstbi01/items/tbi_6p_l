@@ -1,31 +1,35 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "tbi_6p_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_6p_l",
-        "es": "tbi_6p_l_es"
-    },
-    "altLabel": "brain_injury_6p_l tbi_6p_p_l",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_6p_l",
+    "category": "Field",
     "question": {
         "en": "If yes, how many more?",
-        "es": "¿Si la respuesta fue sí, cuantas más?"
+        "es": "\u00bfSi la respuesta fue s\u00ed, cuantas m\u00e1s?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "./"
+            }
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
-        "minValue": null,
-        "maxValue": null
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": ""
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_6p_l tbi_6p_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_6p_l",
+        "es": "tbi_6p_l_es"
+    }
 }

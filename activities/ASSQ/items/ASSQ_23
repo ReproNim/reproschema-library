@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASSQ_23",
-    "prefLabel": "ASSQ Q23",
-    "description": "Q23 of the Autism Spectrum Screening Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASSQ_23",
+    "category": "Field",
+    "description": {
+        "en": "Q23 of the Autism Spectrum Screening Questionnaire"
+    },
     "question": {
         "en": "has special routines; insists on no change (i.e. may need to have exactly the same change; troubles with even the slightest change in his/her environment, or routines or activities)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASSQ Q23"
+    }
 }

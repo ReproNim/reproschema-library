@@ -1,46 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_dsm5_cs6",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_dsm5_cs6",
-        "es": "irma_dsm5_cs6_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_dsm5_cs6",
+    "category": "Field",
     "question": {
         "en": "CS6. Do these reactions, thoughts, and feelings cause other problems at school? CS6.",
-        "es": "¿Estas reacciones, pensamientos y sentimientos causan otros problemas en la escuela?"
+        "es": "\u00bfEstas reacciones, pensamientos y sentimientos causan otros problemas en la escuela?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Yes  Si; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes  Si; 0 = No No"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_dsm5_cs6",
+        "es": "irma_dsm5_cs6_es"
+    }
 }

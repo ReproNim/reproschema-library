@@ -1,12 +1,112 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_ksad01_schema",
-    "prefLabel": "ABCD Parent Diagnostic Interview for DSM-5 Full (KSADS-5)",
-    "altLabel": "abcd_ksad01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_ksad01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "ksads_section1_schema",
+                "variableName": "ksads_section1_schema"
+            },
+            {
+                "isAbout": "ksads_section2_schema",
+                "variableName": "ksads_section2_schema"
+            },
+            {
+                "isAbout": "ksads_section3_schema",
+                "variableName": "ksads_section3_schema"
+            },
+            {
+                "isAbout": "ksads_section4_schema",
+                "variableName": "ksads_section4_schema"
+            },
+            {
+                "isAbout": "ksads_section5_schema",
+                "variableName": "ksads_section5_schema"
+            },
+            {
+                "isAbout": "ksads_section6_schema",
+                "variableName": "ksads_section6_schema"
+            },
+            {
+                "isAbout": "ksads_section7_schema",
+                "variableName": "ksads_section7_schema"
+            },
+            {
+                "isAbout": "ksads_section8_schema",
+                "variableName": "ksads_section8_schema"
+            },
+            {
+                "isAbout": "ksads_section9_schema",
+                "variableName": "ksads_section9_schema"
+            },
+            {
+                "isAbout": "ksads_section10_schema",
+                "variableName": "ksads_section10_schema"
+            },
+            {
+                "isAbout": "ksads_section11_schema",
+                "variableName": "ksads_section11_schema"
+            },
+            {
+                "isAbout": "ksads_section12_schema",
+                "variableName": "ksads_section12_schema"
+            },
+            {
+                "isAbout": "ksads_section13_schema",
+                "variableName": "ksads_section13_schema"
+            },
+            {
+                "isAbout": "ksads_section14_schema",
+                "variableName": "ksads_section14_schema"
+            },
+            {
+                "isAbout": "ksads_section15_schema",
+                "variableName": "ksads_section15_schema"
+            },
+            {
+                "isAbout": "ksads_section16_schema",
+                "variableName": "ksads_section16_schema"
+            },
+            {
+                "isAbout": "ksads_section17_schema",
+                "variableName": "ksads_section17_schema"
+            },
+            {
+                "isAbout": "ksads_section18_schema",
+                "variableName": "ksads_section18_schema"
+            },
+            {
+                "isAbout": "ksads_section19_schema",
+                "variableName": "ksads_section19_schema"
+            },
+            {
+                "isAbout": "ksads_section20_schema",
+                "variableName": "ksads_section20_schema"
+            },
+            {
+                "isAbout": "ksads_section21_schema",
+                "variableName": "ksads_section21_schema"
+            },
+            {
+                "isAbout": "ksads_section22_schema",
+                "variableName": "ksads_section22_schema"
+            },
+            {
+                "isAbout": "ksads_section23_schema",
+                "variableName": "ksads_section23_schema"
+            },
+            {
+                "isAbout": "ksads_section24_schema",
+                "variableName": "ksads_section24_schema"
+            },
+            {
+                "isAbout": "ksads_section25_schema",
+                "variableName": "ksads_section25_schema"
+            }
+        ],
         "order": [
             "ksads_section1_schema",
             "ksads_section2_schema",
@@ -34,108 +134,12 @@
             "ksads_section24_schema",
             "ksads_section25_schema"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "ksads_section1_schema",
-                "isAbout": "ksads_section1_schema"
-            },
-            {
-                "variableName": "ksads_section2_schema",
-                "isAbout": "ksads_section2_schema"
-            },
-            {
-                "variableName": "ksads_section3_schema",
-                "isAbout": "ksads_section3_schema"
-            },
-            {
-                "variableName": "ksads_section4_schema",
-                "isAbout": "ksads_section4_schema"
-            },
-            {
-                "variableName": "ksads_section5_schema",
-                "isAbout": "ksads_section5_schema"
-            },
-            {
-                "variableName": "ksads_section6_schema",
-                "isAbout": "ksads_section6_schema"
-            },
-            {
-                "variableName": "ksads_section7_schema",
-                "isAbout": "ksads_section7_schema"
-            },
-            {
-                "variableName": "ksads_section8_schema",
-                "isAbout": "ksads_section8_schema"
-            },
-            {
-                "variableName": "ksads_section9_schema",
-                "isAbout": "ksads_section9_schema"
-            },
-            {
-                "variableName": "ksads_section10_schema",
-                "isAbout": "ksads_section10_schema"
-            },
-            {
-                "variableName": "ksads_section11_schema",
-                "isAbout": "ksads_section11_schema"
-            },
-            {
-                "variableName": "ksads_section12_schema",
-                "isAbout": "ksads_section12_schema"
-            },
-            {
-                "variableName": "ksads_section13_schema",
-                "isAbout": "ksads_section13_schema"
-            },
-            {
-                "variableName": "ksads_section14_schema",
-                "isAbout": "ksads_section14_schema"
-            },
-            {
-                "variableName": "ksads_section15_schema",
-                "isAbout": "ksads_section15_schema"
-            },
-            {
-                "variableName": "ksads_section16_schema",
-                "isAbout": "ksads_section16_schema"
-            },
-            {
-                "variableName": "ksads_section17_schema",
-                "isAbout": "ksads_section17_schema"
-            },
-            {
-                "variableName": "ksads_section18_schema",
-                "isAbout": "ksads_section18_schema"
-            },
-            {
-                "variableName": "ksads_section19_schema",
-                "isAbout": "ksads_section19_schema"
-            },
-            {
-                "variableName": "ksads_section20_schema",
-                "isAbout": "ksads_section20_schema"
-            },
-            {
-                "variableName": "ksads_section21_schema",
-                "isAbout": "ksads_section21_schema"
-            },
-            {
-                "variableName": "ksads_section22_schema",
-                "isAbout": "ksads_section22_schema"
-            },
-            {
-                "variableName": "ksads_section23_schema",
-                "isAbout": "ksads_section23_schema"
-            },
-            {
-                "variableName": "ksads_section24_schema",
-                "isAbout": "ksads_section24_schema"
-            },
-            {
-                "variableName": "ksads_section25_schema",
-                "isAbout": "ksads_section25_schema"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_ksad01"
+    },
+    "prefLabel": {
+        "en": "ABCD Parent Diagnostic Interview for DSM-5 Full (KSADS-5)"
     }
 }

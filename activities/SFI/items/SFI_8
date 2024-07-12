@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SFI_8",
-    "prefLabel": "SFI 8",
-    "description": "Q8 of the Secure Flourish Index",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SFI_8",
+    "category": "Field",
+    "description": {
+        "en": "Q8 of the Secure Flourish Index"
+    },
     "question": {
         "en": "I am always able to give up some happiness now for greater happiness later."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints5"
+    "responseOptions": "../valueConstraints5",
+    "prefLabel": {
+        "en": "SFI 8"
+    }
 }

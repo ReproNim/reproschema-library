@@ -1,25 +1,35 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "medhx_ss_6f_times_p_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "medhx_ss_6f_times_p_l",
-    "altLabel": "medhx_ss_6f_falls_times_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "medhx_ss_6f_times_p_l",
+    "category": "Field",
+    "question": {
+        "en": "Falls\nHow many times?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Falls\nHow many times?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "If yes is endorsed,  parent is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [medhx_6f_notes_l]."
+            }
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 30,
         "minValue": 0,
-        "maxValue": 30
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "If yes is endorsed,  parent is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [medhx_6f_notes_l]."
-        }
-    ]
+    "altLabel": {
+        "en": "medhx_ss_6f_falls_times_p_l"
+    },
+    "prefLabel": {
+        "en": "medhx_ss_6f_times_p_l"
+    }
 }

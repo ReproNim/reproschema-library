@@ -1,11 +1,36 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "ksads_section17_schema",
-    "prefLabel": "abcd_ksad01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_section17_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_17_108_p",
+                "variableName": "ksads_17_108_p"
+            },
+            {
+                "isAbout": "items/ksads_17_109_p",
+                "variableName": "ksads_17_109_p"
+            },
+            {
+                "isAbout": "items/ksads_17_110_p",
+                "variableName": "ksads_17_110_p"
+            },
+            {
+                "isAbout": "items/ksads_17_111_p",
+                "variableName": "ksads_17_111_p"
+            },
+            {
+                "isAbout": "items/ksads_17_904_p",
+                "variableName": "ksads_17_904_p"
+            },
+            {
+                "isAbout": "items/ksads_17_905_p",
+                "variableName": "ksads_17_905_p"
+            }
+        ],
         "order": [
             "items/ksads_17_108_p",
             "items/ksads_17_109_p",
@@ -14,32 +39,9 @@
             "items/ksads_17_904_p",
             "items/ksads_17_905_p"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "ksads_17_108_p",
-                "isAbout": "items/ksads_17_108_p"
-            },
-            {
-                "variableName": "ksads_17_109_p",
-                "isAbout": "items/ksads_17_109_p"
-            },
-            {
-                "variableName": "ksads_17_110_p",
-                "isAbout": "items/ksads_17_110_p"
-            },
-            {
-                "variableName": "ksads_17_111_p",
-                "isAbout": "items/ksads_17_111_p"
-            },
-            {
-                "variableName": "ksads_17_904_p",
-                "isAbout": "items/ksads_17_904_p"
-            },
-            {
-                "variableName": "ksads_17_905_p",
-                "isAbout": "items/ksads_17_905_p"
-            }
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "abcd_ksad01"
     }
 }

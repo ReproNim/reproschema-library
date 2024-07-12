@@ -1,35 +1,38 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CageAid_schema",
-    "prefLabel": "CAGE AID",
-    "description": "schema describing cage aid assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CageAid_schema",
+    "category": "Activity",
+    "description": {
+        "en": "schema describing cage aid assessment"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble": "When thinking about drug use, include illegal drug use and the use of prescription drug use other than prescribed.",
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/ca_1",
-                "variableName": "ca_1",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/ca_1",
+                "isVis": true,
+                "variableName": "ca_1"
             },
             {
                 "isAbout": "items/ca_2",
-                "variableName": "ca_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ca_2"
             },
             {
                 "isAbout": "items/ca_3",
-                "variableName": "ca_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ca_3"
             },
             {
                 "isAbout": "items/ca_4",
-                "variableName": "ca_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ca_4"
             }
+        ],
+        "allow": [
+            "reproschema:AllowSkip"
         ],
         "order": [
             "items/ca_1",
@@ -37,9 +40,12 @@
             "items/ca_3",
             "items/ca_4"
         ],
-        "shuffle": false,
-        "allow": [
-            "reproschema:Skipped"
-        ]
+        "shuffle": false
+    },
+    "preamble": {
+        "en": "When thinking about drug use, include illegal drug use and the use of prescription drug use other than prescribed."
+    },
+    "prefLabel": {
+        "en": "CAGE AID"
     }
 }

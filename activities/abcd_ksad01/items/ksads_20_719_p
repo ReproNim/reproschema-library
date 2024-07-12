@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_20_719_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_20_719_p",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_20_719_p",
+    "category": "Field",
+    "question": {
+        "en": "Symptom - Negative impact interpersonal problems drug use (Cocaine) Past"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Negative impact interpersonal problems drug use (Cocaine) Past",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_20_719_p"
     }
 }

@@ -1,46 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_hurtep_b7___6",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_b7___6",
-        "es": "irma_hurtep_b7___6_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_b7___6",
+    "category": "Field",
     "question": {
         "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
-        "es": "¿Cómo obtuvo noticias de información sobre el huracán? Marque todo lo que corresponda. (6, I did not get news or information about Hurricane Irma No recibí noticias o información sobre el huracán Irma)"
+        "es": "\u00bfC\u00f3mo obtuvo noticias de informaci\u00f3n sobre el hurac\u00e1n? Marque todo lo que corresponda. (6, I did not get news or information about Hurricane Irma No recib\u00ed noticias o informaci\u00f3n sobre el hurac\u00e1n Irma)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "0 = No; 1 = Yes"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "Yes",
                     "es": "Si"
-                }
+                },
+                "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_b7___6",
+        "es": "irma_hurtep_b7___6_es"
+    }
 }

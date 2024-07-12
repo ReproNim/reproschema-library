@@ -1,21 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pc-ptsd5_1",
-    "prefLabel": "PC-PTSD-5-1",
-    "description": "Q1 of the PC-PTSD-5 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "<p>Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example: a serious accident or fire, a physical or sexual assault or abuse, an earthquake or flood, a war, seeing someone be killed or seriously injured, having a loved one die through homicide or suicide.</p>",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pc-ptsd5_1",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the PC-PTSD-5 Assessment"
     },
     "question": {
         "en": "Have you ever experienced this kind of event? ",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pc-ptsd5valueConstraints"
+    "preamble": {
+        "en": "<p>Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example: a serious accident or fire, a physical or sexual assault or abuse, an earthquake or flood, a war, seeing someone be killed or seriously injured, having a loved one die through homicide or suicide.</p>",
+        "es": ""
+    },
+    "responseOptions": "../pc-ptsd5valueConstraints",
+    "prefLabel": {
+        "en": "PC-PTSD-5-1"
+    }
 }

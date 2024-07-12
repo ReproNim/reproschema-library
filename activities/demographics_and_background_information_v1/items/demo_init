@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_init",
+    "category": "Field",
+    "question": {
+        "en": "Initials of study personnel collecting data"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "demo_init",
-    "prefLabel": "demo_init",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
     },
-    "question": {
-        "en": "Initials of study personnel collecting data"
+    "prefLabel": {
+        "en": "demo_init"
     }
 }

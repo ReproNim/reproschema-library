@@ -1,39 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "global_8r",
-    "prefLabel": "PROMIS-GH-8r",
-    "description": "Q8r of the PROMIS Global Health survey",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "global_8r",
+    "category": "Field",
+    "description": {
+        "en": "Q8r of the PROMIS Global Health survey"
+    },
+    "question": {
+        "en": "In the past 7 days, how would you rate your fatigue on average?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "In the past 7 days, how would you rate your fatigue on average?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": false,
         "choices": [
             {
-                "name": "None",
+                "name": {
+                    "en": "None"
+                },
                 "value": 5
             },
             {
-                "name": "Mild",
+                "name": {
+                    "en": "Mild"
+                },
                 "value": 4
             },
             {
-                "name": "Moderate",
+                "name": {
+                    "en": "Moderate"
+                },
                 "value": 3
             },
             {
-                "name": "Severe",
+                "name": {
+                    "en": "Severe"
+                },
                 "value": 2
             },
             {
-                "name": "Very severe",
+                "name": {
+                    "en": "Very severe"
+                },
                 "value": 1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "PROMIS-GH-8r"
     }
 }

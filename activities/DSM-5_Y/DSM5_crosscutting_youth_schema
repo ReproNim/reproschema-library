@@ -1,16 +1,167 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "DSM5_crosscutting_youth_schema",
-    "prefLabel": "DSM5_crosscutting_youth",
-    "description": "The DSM-5 Level 1 Cross-Cutting Symptom Measure is a self- or informant-rated measure that assesses mental health domains that are important across psychiatric diagnoses. It is intended to help clinicians identify additional areas of inquiry that may have significant impact on the individual’s treatment and prognosis. In addition, the measure may be used to track changes in the individual’s symptom presentation over time. This version asks adults to consider how much (or how often) they have been bothered by specific problems in the past two weeks.",
-    "citation": "https://doi.org/10.1176/appi.books.9780890425596",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "During the past TWO (2) WEEKS, how much (or how often) have you"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "DSM5_crosscutting_youth_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://doi.org/10.1176/appi.books.9780890425596"
     },
+    "description": {
+        "en": "The DSM-5 Level 1 Cross-Cutting Symptom Measure is a self- or informant-rated measure that assesses mental health domains that are important across psychiatric diagnoses. It is intended to help clinicians identify additional areas of inquiry that may have significant impact on the individual\u2019s treatment and prognosis. In addition, the measure may be used to track changes in the individual\u2019s symptom presentation over time. This version asks adults to consider how much (or how often) they have been bothered by specific problems in the past two weeks."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch1",
+                "isVis": true,
+                "variableName": "dsm_cross_ch1"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch2",
+                "isVis": true,
+                "variableName": "dsm_cross_ch2"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch3",
+                "isVis": true,
+                "variableName": "dsm_cross_ch3"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch4",
+                "isVis": true,
+                "variableName": "dsm_cross_ch4"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch5",
+                "isVis": true,
+                "variableName": "dsm_cross_ch5"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch6",
+                "isVis": true,
+                "variableName": "dsm_cross_ch6"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch7",
+                "isVis": true,
+                "variableName": "dsm_cross_ch7"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch8",
+                "isVis": true,
+                "variableName": "dsm_cross_ch8"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch9",
+                "isVis": true,
+                "variableName": "dsm_cross_ch9"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch10",
+                "isVis": true,
+                "variableName": "dsm_cross_ch10"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch11",
+                "isVis": true,
+                "variableName": "dsm_cross_ch11"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch12",
+                "isVis": true,
+                "variableName": "dsm_cross_ch12"
+            },
+            {
+                "isAbout": "items/dsm_cross_ch13",
+                "isVis": true,
+                "variableName": "dsm_cross_ch13"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch14",
+                "isVis": true,
+                "variableName": "dsm_cross_ch14"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch15",
+                "isVis": true,
+                "variableName": "dsm_cross_ch15"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch16",
+                "isVis": true,
+                "variableName": "dsm_cross_ch16"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch17",
+                "isVis": true,
+                "variableName": "dsm_cross_ch17"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch18",
+                "isVis": true,
+                "variableName": "dsm_cross_ch18"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch19",
+                "isVis": true,
+                "variableName": "dsm_cross_ch19"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch20",
+                "isVis": true,
+                "variableName": "dsm_cross_ch20"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch21",
+                "isVis": true,
+                "variableName": "dsm_cross_ch21"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch22",
+                "isVis": true,
+                "variableName": "dsm_cross_ch22"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch23",
+                "isVis": true,
+                "variableName": "dsm_cross_ch23"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch24",
+                "isVis": true,
+                "variableName": "dsm_cross_ch24"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/dsm_cross_ch25",
+                "isVis": true,
+                "variableName": "dsm_cross_ch25"
+            }
+        ],
         "order": [
             "items/dsm_cross_ch1",
             "items/dsm_cross_ch2",
@@ -38,157 +189,12 @@
             "items/dsm_cross_ch24",
             "items/dsm_cross_ch25"
         ],
-        "addProperties": [
-            {
-                "variableName": "dsm_cross_ch1",
-                "isAbout": "items/dsm_cross_ch1",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch2",
-                "isAbout": "items/dsm_cross_ch2",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch3",
-                "isAbout": "items/dsm_cross_ch3",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch4",
-                "isAbout": "items/dsm_cross_ch4",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch5",
-                "isAbout": "items/dsm_cross_ch5",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch6",
-                "isAbout": "items/dsm_cross_ch6",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch7",
-                "isAbout": "items/dsm_cross_ch7",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch8",
-                "isAbout": "items/dsm_cross_ch8",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch9",
-                "isAbout": "items/dsm_cross_ch9",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch10",
-                "isAbout": "items/dsm_cross_ch10",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch11",
-                "isAbout": "items/dsm_cross_ch11",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch12",
-                "isAbout": "items/dsm_cross_ch12",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch13",
-                "isAbout": "items/dsm_cross_ch13",
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch14",
-                "isAbout": "items/dsm_cross_ch14",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch15",
-                "isAbout": "items/dsm_cross_ch15",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch16",
-                "isAbout": "items/dsm_cross_ch16",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch17",
-                "isAbout": "items/dsm_cross_ch17",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch18",
-                "isAbout": "items/dsm_cross_ch18",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch19",
-                "isAbout": "items/dsm_cross_ch19",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch20",
-                "isAbout": "items/dsm_cross_ch20",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch21",
-                "isAbout": "items/dsm_cross_ch21",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch22",
-                "isAbout": "items/dsm_cross_ch22",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch23",
-                "isAbout": "items/dsm_cross_ch23",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch24",
-                "isAbout": "items/dsm_cross_ch24",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "dsm_cross_ch25",
-                "isAbout": "items/dsm_cross_ch25",
-                "valueRequired": true,
-                "isVis": true
-            }
-        ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, how much (or how often) have you"
+    },
+    "prefLabel": {
+        "en": "DSM5_crosscutting_youth"
     }
 }

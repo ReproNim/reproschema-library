@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "rsfmri_c_ngd_tr",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_tr",
-    "altLabel": "rsfmri_cor_network.gordon_tr rsfmri_cor_networkgordon_tr",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_tr",
+    "category": "Field",
+    "question": {
+        "en": "Pulse repetition time in seconds"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Pulse repetition time in seconds",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_tr rsfmri_cor_networkgordon_tr"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_tr"
     }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASSQ_14",
-    "prefLabel": "ASSQ Q14",
-    "description": "Q14 of the Autism Spectrum Screening Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASSQ_14",
+    "category": "Field",
+    "description": {
+        "en": "Q14 of the Autism Spectrum Screening Questionnaire"
+    },
     "question": {
         "en": "has a deviant style of gaze (e.g. may range from not looking people in the eye, to the other extreme of staring directly at people to the point it makes them uncomfortable)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASSQ Q14"
+    }
 }

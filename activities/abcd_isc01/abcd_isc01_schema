@@ -1,15 +1,32 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_isc01_schema",
-    "prefLabel": {
-        "en": "ABCD Irma Substudy Child",
-        "es": "abcd_isc01_es"
-    },
-    "altLabel": "abcd_isc01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_isc01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "isc01_section1_schema",
+                "variableName": "isc01_section1_schema"
+            },
+            {
+                "isAbout": "isc01_section2_schema",
+                "variableName": "isc01_section2_schema"
+            },
+            {
+                "isAbout": "isc01_section3_schema",
+                "variableName": "isc01_section3_schema"
+            },
+            {
+                "isAbout": "isc01_section4_schema",
+                "variableName": "isc01_section4_schema"
+            },
+            {
+                "isAbout": "isc01_section5_schema",
+                "variableName": "isc01_section5_schema"
+            }
+        ],
         "order": [
             "isc01_section1_schema",
             "isc01_section2_schema",
@@ -17,28 +34,13 @@
             "isc01_section4_schema",
             "isc01_section5_schema"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "isc01_section1_schema",
-                "isAbout": "isc01_section1_schema"
-            },
-            {
-                "variableName": "isc01_section2_schema",
-                "isAbout": "isc01_section2_schema"
-            },
-            {
-                "variableName": "isc01_section3_schema",
-                "isAbout": "isc01_section3_schema"
-            },
-            {
-                "variableName": "isc01_section4_schema",
-                "isAbout": "isc01_section4_schema"
-            },
-            {
-                "variableName": "isc01_section5_schema",
-                "isAbout": "isc01_section5_schema"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_isc01"
+    },
+    "prefLabel": {
+        "en": "ABCD Irma Substudy Child",
+        "es": "abcd_isc01_es"
     }
 }

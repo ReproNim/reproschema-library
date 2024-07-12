@@ -1,15 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm5crossad_1",
-    "prefLabel": "dsm5crossad_1",
-    "description": "Q1 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm5crossad_1",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report"
+    },
     "question": {
         "en": "Little interest or pleasure in doing things?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
-    
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "dsm5crossad_1"
+    },
+    "schemaVersion": "1.0.0"
 }

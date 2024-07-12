@@ -1,56 +1,46 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PC-PTSD-5_schema",
-    "prefLabel": {
-        "en": "PC-PTSD-5",
-        "es": "PTSD_es"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PC-PTSD-5_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/"
     },
-    "description": "PC-PTSD-5 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PC-PTSD-5 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
-    "preamble": {
-        "en": "Please answer each question as best you can.",
-        "es": ""
-    },
-    "compute": [
-        {
-            "variableName": "ptsd_total_score",
-            "jsExpression": "ptsd_2 + ptsd_3 + ptsd_4 + ptsd_5 + ptsd_6"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/pc-ptsd5_1",
-                "variableName": "ptsd_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ptsd_1"
             },
             {
                 "isAbout": "items/pc-ptsd5_2",
-                "variableName": "ptsd_2",
-                "isVis": "ptsd_1 === 1"
+                "isVis": "ptsd_1 === 1",
+                "variableName": "ptsd_2"
             },
             {
                 "isAbout": "items/pc-ptsd5_3",
-                "variableName": "ptsd_3",
-                "isVis": "ptsd_1 === 1"
+                "isVis": "ptsd_1 === 1",
+                "variableName": "ptsd_3"
             },
             {
                 "isAbout": "items/pc-ptsd5_4",
-                "variableName": "ptsd_4",
-                "isVis": "ptsd_1 === 1"
+                "isVis": "ptsd_1 === 1",
+                "variableName": "ptsd_4"
             },
             {
                 "isAbout": "items/pc-ptsd5_5",
-                "variableName": "ptsd_5",
-                "isVis": "ptsd_1 === 1"
+                "isVis": "ptsd_1 === 1",
+                "variableName": "ptsd_5"
             },
             {
                 "isAbout": "items/pc-ptsd5_6",
-                "variableName": "ptsd_6",
-                "isVis": "ptsd_1 === 1"
+                "isVis": "ptsd_1 === 1",
+                "variableName": "ptsd_6"
             }
         ],
         "order": [
@@ -62,5 +52,19 @@
             "items/pc-ptsd5_6"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "ptsd_2 + ptsd_3 + ptsd_4 + ptsd_5 + ptsd_6",
+            "variableName": "ptsd_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer each question as best you can.",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "PC-PTSD-5",
+        "es": "PTSD_es"
     }
 }

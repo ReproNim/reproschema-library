@@ -1,39 +1,55 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "demo_prnt_prtnr_v2_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_prnt_prtnr_v2_l",
-    "altLabel": "demo_prnt_prtnr_l demo_prnt_prtnr_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_prnt_prtnr_v2_l",
+    "category": "Field",
+    "question": {
+        "en": "Do you have a partner? \u00bfUsted tiene una pareja?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Do you have a partner? \u00bfUsted tiene una pareja?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Yes S\u00ed; 2 = No No;  777 = Refuse to answer Niego contestar"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 777,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 2
             },
             {
-                "name": "Refuse to answer Niego contestar",
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
                 "value": 777
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 2 = No No;  777 = Refuse to answer Niego contestar"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_prnt_prtnr_l demo_prnt_prtnr_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_prnt_prtnr_v2_l"
+    }
 }

@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "ksads_14_856_t",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_14_856_t",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_14_856_t",
+    "category": "Field",
+    "question": {
+        "en": "Diagnosis - Unspecified Attention-Deficit/Hyperactivity Disorder (F90.9)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Diagnosis - Unspecified Attention-Deficit/Hyperactivity Disorder (F90.9)",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_14_856_t"
     }
 }

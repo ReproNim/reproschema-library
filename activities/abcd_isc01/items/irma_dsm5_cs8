@@ -1,46 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_dsm5_cs8",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_dsm5_cs8",
-        "es": "irma_dsm5_cs8_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_dsm5_cs8",
+    "category": "Field",
     "question": {
         "en": "CS8. Do these reactions, thoughts, and feelings make it harder for you to do important things that other kids your age are doing? CS8.",
-        "es": "¿Estas reacciones, pensamientos y sentimientos hace más difícil para usted hacer cosas importantes que otros niños de su edad están haciendo?"
+        "es": "\u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted hacer cosas importantes que otros ni\u00f1os de su edad est\u00e1n haciendo?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Yes  Si; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes  Si; 0 = No No"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_dsm5_cs8",
+        "es": "irma_dsm5_cs8_es"
+    }
 }

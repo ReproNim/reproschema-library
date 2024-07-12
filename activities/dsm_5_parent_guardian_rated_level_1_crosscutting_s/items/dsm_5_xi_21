@@ -1,31 +1,39 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "@id": "dsm_5_xi_21",
-    "prefLabel": "dsm_5_xi_21",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 1,
-                "name": "Yes "
-            },
-            {
-                "value": 0,
-                "name": "No "
-            },
-            {
-                "value": 9999,
-                "name": "Don't Know"
-            }
-        ]
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_xi_21",
+    "category": "Field",
+    "question": {
+        "en": "XI.21. Smoked a cigarette, a cigar, or pipe, or used snuff or chewing tobacco?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "XI.21. Smoked a cigarette, a cigar, or pipe, or used snuff or chewing tobacco?"
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 9999
+            }
+        ],
+        "multipleChoice": false
+    },
+    "prefLabel": {
+        "en": "dsm_5_xi_21"
     }
 }

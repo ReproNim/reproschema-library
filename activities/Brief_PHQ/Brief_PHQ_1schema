@@ -1,84 +1,75 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "Brief_PHQ_1schema",
-    "prefLabel": {
-        "en": "Brief PHQ Assessment",
-        "es": "Breve PHQ Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "Brief_PHQ_1schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-9 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "description": {
+        "en": "PHQ-9 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
-    },
-    "compute": [
-        {
-            "variableName": "briefphq1_total_score",
-            "jsExpression": "briefphq_1a + briefphq_1b + briefphq_1c + briefphq_1d + briefphq_1e + briefphq_1f + briefphq_1g + briefphq_1h + briefphq_1i"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1a",
-                "variableName": "briefphq_1a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1b",
-                "variableName": "briefphq_1b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1c",
-                "variableName": "briefphq_1c",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1c"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1d",
-                "variableName": "briefphq_1d",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1d"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1e",
-                "variableName": "briefphq_1e",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1e"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1f",
-                "variableName": "briefphq_1f",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1f"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1g",
-                "variableName": "briefphq_1g",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1g"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_1h",
-                "variableName": "briefphq_1h",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1h"
             },
             {
-                "isAbout": "items/briefphq_1i",
-                "variableName": "briefphq_1i",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/briefphq_1i",
+                "isVis": true,
+                "variableName": "briefphq_1i"
             },
             {
                 "isAbout": "items/briefphq1_total_score",
-                "variableName": "briefphq1_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "briefphq1_total_score"
             }
         ],
         "order": [
@@ -93,5 +84,18 @@
             "items/briefphq_1i"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "briefphq_1a + briefphq_1b + briefphq_1c + briefphq_1d + briefphq_1e + briefphq_1f + briefphq_1g + briefphq_1h + briefphq_1i",
+            "variableName": "briefphq1_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "prefLabel": {
+        "en": "Brief PHQ Assessment",
+        "es": "Breve PHQ Evaluaci\u00f3n"
     }
 }

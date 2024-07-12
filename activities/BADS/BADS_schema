@@ -1,80 +1,80 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "BADS_schema",
-    "prefLabel": "BADS Assessment",
-    "description": "BADS assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "BADS_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5619563/"
+    },
+    "description": {
+        "en": "BADS assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5619563/",
-    "preamble": "Please read each statement carefully and then select the number which best describes how much the statement was true for you DURING THE PAST WEEK, INCLUDING TODAY",
-    "compute": [
-        {
-            "variableName": "bads_total_score",
-            "jsExpression": "bads_1 + bads_2 + bads_3 + bads_4 + bads_5 + bads_6 + bads_7 + bads_8 + bads_9"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_1",
-                "variableName": "bads_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_2",
-                "variableName": "bads_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_3",
-                "variableName": "bads_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_4",
-                "variableName": "bads_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_5",
-                "variableName": "bads_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_6",
-                "variableName": "bads_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_7",
-                "variableName": "bads_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_7"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/bads_8",
-                "variableName": "bads_8",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "bads_8"
             },
             {
-                "isAbout": "items/bads_9",
-                "variableName": "bads_9",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/bads_9",
+                "isVis": true,
+                "variableName": "bads_9"
             },
             {
                 "isAbout": "items/bads_total_score",
-                "variableName": "bads_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "bads_total_score"
             }
+        ],
+        "allow": [
+            "reproschema:AllowSkip",
+            "reproschema:AllowAltResponse"
         ],
         "order": [
             "items/bads_1",
@@ -87,10 +87,18 @@
             "items/bads_8",
             "items/bads_9"
         ],
-        "shuffle": false,
-        "allow": [
-            "reproschema:Skipped",
-            "reproschema:DontKnow"
-        ]
+        "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "bads_1 + bads_2 + bads_3 + bads_4 + bads_5 + bads_6 + bads_7 + bads_8 + bads_9",
+            "variableName": "bads_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Please read each statement carefully and then select the number which best describes how much the statement was true for you DURING THE PAST WEEK, INCLUDING TODAY"
+    },
+    "prefLabel": {
+        "en": "BADS Assessment"
     }
 }

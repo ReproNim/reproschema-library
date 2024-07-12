@@ -1,112 +1,111 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "SWED_schema",
-    "prefLabel": "Eating Disorder",
-    "description": "SWED assessment schema",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6320726/",
-    "preamble": {
-        "en": "Please check the answer that comes closest to how you have felt IN THE PAST 7 DAYS, not just how you feel today. ",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SWED_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6320726/"
     },
+    "description": {
+        "en": "SWED assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/swed_1",
-                "variableName": "swed_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_1"
             },
             {
                 "isAbout": "items/swed_2",
-                "variableName": "swed_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_2"
             },
             {
                 "isAbout": "items/swed_3",
-                "variableName": "swed_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_3"
             },
             {
                 "isAbout": "items/swed_4",
-                "variableName": "swed_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_4"
             },
             {
                 "isAbout": "items/swed_5",
-                "variableName": "swed_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_5"
             },
             {
                 "isAbout": "items/swed_6",
-                "variableName": "swed_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_6"
             },
             {
                 "isAbout": "items/swed_7",
-                "variableName": "swed_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_7"
             },
             {
                 "isAbout": "items/swed_8",
-                "variableName": "swed_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_8"
             },
             {
                 "isAbout": "items/swed_9",
-                "variableName": "swed_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_9"
             },
             {
                 "isAbout": "items/swed_10",
-                "variableName": "swed_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_10"
             },
             {
                 "isAbout": "items/swed_11",
-                "variableName": "swed_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_11"
             },
             {
                 "isAbout": "items/swed_12",
-                "variableName": "swed_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_12"
             },
             {
                 "isAbout": "items/swed_13",
-                "variableName": "swed_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_13"
             },
             {
                 "isAbout": "items/swed_14",
-                "variableName": "swed_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_14"
             },
             {
                 "isAbout": "items/swed_15",
-                "variableName": "swed_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_15"
             },
             {
                 "isAbout": "items/swed_16",
-                "variableName": "swed_16",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_16"
             },
             {
                 "isAbout": "items/swed_17",
-                "variableName": "swed_17",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_17"
             },
             {
                 "isAbout": "items/swed_18",
-                "variableName": "swed_18",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_18"
             },
             {
                 "isAbout": "items/swed_19",
-                "variableName": "swed_19",
-                "isVis": true
+                "isVis": true,
+                "variableName": "swed_19"
             }
         ],
         "order": [
@@ -131,5 +130,12 @@
             "items/swed_19"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Please check the answer that comes closest to how you have felt IN THE PAST 7 DAYS, not just how you feel today. ",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "Eating Disorder"
     }
 }

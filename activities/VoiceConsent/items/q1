@@ -1,34 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "q1",
-    "prefLabel": "Quiz Q1",
-    "altLabel": "quiz_q1",
-    "description": "Quiz Question 1",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "q1",
+    "category": "Field",
+    "description": {
+        "en": "Quiz Question 1"
+    },
+    "question": {
+        "en": "What is the purpose of this study?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "What is the purpose of this study?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Understand the changes in Parkinson\u2019s disease symptoms",
+                "name": {
+                    "en": "Understand the changes in Parkinson\u2019s disease symptoms"
+                },
                 "value": 1
             },
             {
-                "name": "Give medical and treatment advice to people with Parkinson\u2019s disease",
+                "name": {
+                    "en": "Give medical and treatment advice to people with Parkinson\u2019s disease"
+                },
                 "value": 0
             },
             {
-                "name": "Diagnose people with Parkinson\u2019s disease",
+                "name": {
+                    "en": "Diagnose people with Parkinson\u2019s disease"
+                },
                 "value": 0
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "altLabel": {
+        "en": "quiz_q1"
+    },
+    "prefLabel": {
+        "en": "Quiz Q1"
     }
 }

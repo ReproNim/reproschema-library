@@ -1,43 +1,61 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "hair_status_y",
-    "@type": "reproschema:Field",
-    "prefLabel": "hair_status_y",
-    "altLabel": "biospec_hair_status",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "hair_status_y",
+    "category": "Field",
+    "question": {
+        "en": "Hair Sample Collection:"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Hair Sample Collection:",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "2 = Collected; 4 = Participant refused; 5 = Not collected; 3 = Not collected (other)"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 2,
         "maxValue": 2,
+        "minValue": 2,
         "choices": [
             {
-                "name": "Collected",
+                "name": {
+                    "en": "Collected"
+                },
                 "value": 2
             },
             {
-                "name": "Participant refused",
+                "name": {
+                    "en": "Participant refused"
+                },
                 "value": 4
             },
             {
-                "name": "Not collected",
+                "name": {
+                    "en": "Not collected"
+                },
                 "value": 5
             },
             {
-                "name": "Not collected (other)",
+                "name": {
+                    "en": "Not collected (other)"
+                },
                 "value": 3
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "2 = Collected; 4 = Participant refused; 5 = Not collected; 3 = Not collected (other)"
-        }
-    ]
+    "altLabel": {
+        "en": "biospec_hair_status"
+    },
+    "prefLabel": {
+        "en": "hair_status_y"
+    }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_26",
-    "prefLabel": "Self compassion 26",
-    "description": "Q26 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_26",
+    "category": "Field",
+    "description": {
+        "en": "Q26 of the Self Compassion Scale"
+    },
     "question": {
         "en": "I try to be understanding and patient towards those aspects of my personality I don't like."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 26"
+    }
 }

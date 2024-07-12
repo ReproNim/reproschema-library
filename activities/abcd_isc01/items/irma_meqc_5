@@ -1,67 +1,71 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_meqc_5",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_meqc_5",
-        "es": "irma_meqc_5_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_meqc_5",
+    "category": "Field",
     "question": {
         "en": "5. Media coverage of other storms (e.g., Hurricane Jose, Hurricane Maria) after Irma",
-        "es": "5. Cobertura mediática de otras tormentas (por ejemplo, Huracán José, Huracán María) después de Irma"
+        "es": "5. Cobertura medi\u00e1tica de otras tormentas (por ejemplo, Hurac\u00e1n Jos\u00e9, Hurac\u00e1n Mar\u00eda) despu\u00e9s de Irma"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "0 = Not at all (did not view news related to hurricane)0  De ningun modo (no vio noticias relacionadas con el hurac\u00e1n)0; 1 = A little (less than 1 hour per day)1  Un poco (menos de 1 hora por dia)1; 2 = Somewhat (about an hour per day)2  Alg\u00fan tanto (alrededor de una hora por d\u00eda)2; 3 = A lot (1 to 2 hours per day)3  Mucho (1 a 2 horas por dia)3; 4 = A whole lot (more than 2 hours per day)4 Muchisimo (mas de 2 horas por dia)4"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "Not at all (did not view news related to hurricane) ",
-                    "es": "De ningun modo (no vio noticias relacionadas con el huracán) "
-                }
+                    "es": "De ningun modo (no vio noticias relacionadas con el hurac\u00e1n) "
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "A little (less than 1 hour per day) ",
                     "es": "Un poco (menos de 1 hora por dia) "
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Somewhat (about an hour per day) ",
-                    "es": "Algún tanto (alrededor de una hora por día) "
-                }
+                    "es": "Alg\u00fan tanto (alrededor de una hora por d\u00eda) "
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "A lot (1 to 2 hours per day) ",
                     "es": "Mucho (1 a 2 horas por dia) "
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "A whole lot (more than 2 hours per day)",
                     "es": "Muchisimo (mas de 2 horas por dia)"
-                }
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = Not at all (did not view news related to hurricane)0  De ningun modo (no vio noticias relacionadas con el huracán)0; 1 = A little (less than 1 hour per day)1  Un poco (menos de 1 hora por dia)1; 2 = Somewhat (about an hour per day)2  Algún tanto (alrededor de una hora por día)2; 3 = A lot (1 to 2 hours per day)3  Mucho (1 a 2 horas por dia)3; 4 = A whole lot (more than 2 hours per day)4 Muchisimo (mas de 2 horas por dia)4"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_meqc_5",
+        "es": "irma_meqc_5_es"
+    }
 }

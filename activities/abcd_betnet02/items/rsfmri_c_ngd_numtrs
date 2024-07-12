@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "rsfmri_c_ngd_numtrs",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_numtrs",
-    "altLabel": "rsfmri_cor_network.gordon_numtrs rsfmri_cor_networkgordon_numtrs",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_numtrs",
+    "category": "Field",
+    "question": {
+        "en": "Number of frames in acquisition"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Number of frames in acquisition",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_numtrs rsfmri_cor_networkgordon_numtrs"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_numtrs"
     }
 }

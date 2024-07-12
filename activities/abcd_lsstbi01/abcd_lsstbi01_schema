@@ -1,12 +1,76 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_lsstbi01_schema",
-    "prefLabel": "ABCD Longitudinal Summary Scores Traumatic Brain Injury",
-    "altLabel": "abcd_lsstbi01",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_lsstbi01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/tbi_ss_agefirst_l",
+                "variableName": "tbi_ss_agefirst_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_agefirst_nm_l",
+                "variableName": "tbi_ss_agefirst_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_before15_nm_l",
+                "variableName": "tbi_ss_before15_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_nmrpi_l",
+                "variableName": "tbi_ss_nmrpi_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_nmrpi_nm_l",
+                "variableName": "tbi_ss_nmrpi_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_ntbiloc_l",
+                "variableName": "tbi_ss_ntbiloc_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_ntbiloc_nm_l",
+                "variableName": "tbi_ss_ntbiloc_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_ntbiloc30_l",
+                "variableName": "tbi_ss_ntbiloc30_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_ntbiloc30_nm_l",
+                "variableName": "tbi_ss_ntbiloc30_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst_overall_l",
+                "variableName": "tbi_ss_worst_overall_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst1_l",
+                "variableName": "tbi_ss_worst1_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst1b_l",
+                "variableName": "tbi_ss_worst1b_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst2_l",
+                "variableName": "tbi_ss_worst2_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst3_l",
+                "variableName": "tbi_ss_worst3_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst4_l",
+                "variableName": "tbi_ss_worst4_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst5_l",
+                "variableName": "tbi_ss_worst5_l"
+            }
+        ],
         "order": [
             "items/tbi_ss_agefirst_l",
             "items/tbi_ss_agefirst_nm_l",
@@ -25,72 +89,12 @@
             "items/tbi_ss_worst4_l",
             "items/tbi_ss_worst5_l"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "tbi_ss_agefirst_l",
-                "isAbout": "items/tbi_ss_agefirst_l"
-            },
-            {
-                "variableName": "tbi_ss_agefirst_nm_l",
-                "isAbout": "items/tbi_ss_agefirst_nm_l"
-            },
-            {
-                "variableName": "tbi_ss_before15_nm_l",
-                "isAbout": "items/tbi_ss_before15_nm_l"
-            },
-            {
-                "variableName": "tbi_ss_nmrpi_l",
-                "isAbout": "items/tbi_ss_nmrpi_l"
-            },
-            {
-                "variableName": "tbi_ss_nmrpi_nm_l",
-                "isAbout": "items/tbi_ss_nmrpi_nm_l"
-            },
-            {
-                "variableName": "tbi_ss_ntbiloc_l",
-                "isAbout": "items/tbi_ss_ntbiloc_l"
-            },
-            {
-                "variableName": "tbi_ss_ntbiloc_nm_l",
-                "isAbout": "items/tbi_ss_ntbiloc_nm_l"
-            },
-            {
-                "variableName": "tbi_ss_ntbiloc30_l",
-                "isAbout": "items/tbi_ss_ntbiloc30_l"
-            },
-            {
-                "variableName": "tbi_ss_ntbiloc30_nm_l",
-                "isAbout": "items/tbi_ss_ntbiloc30_nm_l"
-            },
-            {
-                "variableName": "tbi_ss_worst_overall_l",
-                "isAbout": "items/tbi_ss_worst_overall_l"
-            },
-            {
-                "variableName": "tbi_ss_worst1_l",
-                "isAbout": "items/tbi_ss_worst1_l"
-            },
-            {
-                "variableName": "tbi_ss_worst1b_l",
-                "isAbout": "items/tbi_ss_worst1b_l"
-            },
-            {
-                "variableName": "tbi_ss_worst2_l",
-                "isAbout": "items/tbi_ss_worst2_l"
-            },
-            {
-                "variableName": "tbi_ss_worst3_l",
-                "isAbout": "items/tbi_ss_worst3_l"
-            },
-            {
-                "variableName": "tbi_ss_worst4_l",
-                "isAbout": "items/tbi_ss_worst4_l"
-            },
-            {
-                "variableName": "tbi_ss_worst5_l",
-                "isAbout": "items/tbi_ss_worst5_l"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_lsstbi01"
+    },
+    "prefLabel": {
+        "en": "ABCD Longitudinal Summary Scores Traumatic Brain Injury"
     }
 }

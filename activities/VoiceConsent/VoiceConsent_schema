@@ -1,64 +1,64 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "VoiceConsent_schema",
-    "prefLabel": "Voice Consent",
-    "description": "Consent for voice study",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "VoiceConsent_schema",
+    "category": "Activity",
+    "description": {
+        "en": "Consent for voice study"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble": "Learn about the study, risks and benefits of joining by going through the consent. Once you have accepted it, take a short quiz to check what you have learned from the consent document.",
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/consent_overview",
-                "variableName": "consent_overview",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/consent_overview",
+                "isVis": true,
+                "variableName": "consent_overview"
             },
             {
                 "isAbout": "items/sign",
-                "variableName": "sign",
-                "isVis": "q1 + q2 + q3 + q4 + q5 === 5"
+                "isVis": "q1 + q2 + q3 + q4 + q5 === 5",
+                "variableName": "sign"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/q1",
-                "variableName": "q1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "q1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/q2",
-                "variableName": "q2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "q2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/q3",
-                "variableName": "q3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "q3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/q4",
-                "variableName": "q4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "q4"
             },
             {
-                "isAbout": "items/q5",
-                "variableName": "q5",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/q5",
+                "isVis": true,
+                "variableName": "q5"
             },
             {
                 "isAbout": "items/quiz_score",
-                "variableName": "quiz_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "quiz_score"
             },
             {
                 "isAbout": "items/retake_quiz",
-                "variableName": "retake_quiz",
-                "isVis": "q1 + q2 + q3 + q4 + q5 !== 5"
+                "isVis": "q1 + q2 + q3 + q4 + q5 !== 5",
+                "variableName": "retake_quiz"
             }
         ],
         "order": [
@@ -72,5 +72,11 @@
             "items/retake_quiz"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Learn about the study, risks and benefits of joining by going through the consent. Once you have accepted it, take a short quiz to check what you have learned from the consent document."
+    },
+    "prefLabel": {
+        "en": "Voice Consent"
     }
 }

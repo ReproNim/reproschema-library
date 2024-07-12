@@ -1,19 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "inpatient_treat_age",
+    "category": "Field",
+    "question": {
+        "en": "What was the age of first inpatient treatment? "
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "inpatient_treat_age",
-    "prefLabel": "inpatient_treat_age",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:int",
+        "maxValue": 18,
         "minValue": 1,
-        "maxValue": 18
+        "valueType": [
+            "xsd:int"
+        ]
     },
-    "question": {
-        "en": "What was the age of first inpatient treatment? "
+    "prefLabel": {
+        "en": "inpatient_treat_age"
     }
 }

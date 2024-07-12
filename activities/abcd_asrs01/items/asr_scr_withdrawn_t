@@ -1,24 +1,32 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "asr_scr_withdrawn_t",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_withdrawn_t",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_withdrawn_t",
+    "category": "Field",
+    "question": {
+        "en": "Withdrawn ASR Syndrome Scale (t-score)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Withdrawn ASR Syndrome Scale (t-score)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": " T-scores in relation to norms for each gender at ages 18-35 and 36-59, based on national probability samples."
+            }
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 100,
         "minValue": 50,
-        "maxValue": 100
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": " T-scores in relation to norms for each gender at ages 18-35 and 36-59, based on national probability samples."
-        }
-    ]
+    "prefLabel": {
+        "en": "asr_scr_withdrawn_t"
+    }
 }

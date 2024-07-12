@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SITBI_7",
-    "prefLabel": "SITBI_7",
-    "description": "This is a text item.",
-    "schemaVersion": "1.0.0-rc2",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SITBI_7",
+    "category": "Field",
+    "description": {
+        "en": "This is a text item."
+    },
+    "question": {
+        "en": "How many separate times in the past week?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "How many separate times in the past week?",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "SITBI_7"
     }
 }

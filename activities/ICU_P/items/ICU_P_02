@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ICU_P_02",
-    "prefLabel": "ICU_P Q2",
-    "description": "Q2 of the Inventory of Callous-Unemotional Traits - Parent Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ICU_P_02",
+    "category": "Field",
+    "description": {
+        "en": "Q2 of the Inventory of Callous-Unemotional Traits - Parent Report"
+    },
     "question": {
         "en": "Does not seem to know \"right\" from \"wrong\". "
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ICU_P Q2"
+    }
 }

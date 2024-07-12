@@ -1,15 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm_cross_ch6",
-    "prefLabel": "dsm_cross_ch6",
-    "description": "Q6 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_cross_ch6",
+    "category": "Field",
+    "description": {
+        "en": "Q6 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report"
+    },
     "question": {
         "en": "felt sad or depressed for several hours?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
-    
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "dsm_cross_ch6"
+    },
+    "schemaVersion": "1.0.0"
 }

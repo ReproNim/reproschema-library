@@ -1,17 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "middle_name",
-    "prefLabel": "Middle name",
-    "description": "schema for middle name of participant",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "middle_name",
+    "category": "Field",
+    "description": {
+        "en": "schema for middle name of participant"
+    },
+    "question": {
+        "en": "Middle name"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Middle name",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 50
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Middle name"
     }
 }

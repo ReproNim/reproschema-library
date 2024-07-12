@@ -1,67 +1,71 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "meim_6_p",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "meim_6_p",
-        "es": "meim_6_p_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "meim_6_p",
+    "category": "Field",
     "question": {
         "en": "I feel a strong attachment towards my own ethnic group.",
-        "es": "Siento una fuerte conexión hacia mi propio grupo étnico."
+        "es": "Siento una fuerte conexi\u00f3n hacia mi propio grupo \u00e9tnico."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Strongly Agree Estoy totalmente de acuerdo; 2 = Agree Estoy  de acuerdo; 3 = Neutral Ni uno ni lo otro; 4 = Disagree No estoy de acuerdo; 5 = Strongly Disagree No estoy totalmente de acuerdo; In this country, people come from many different countries and cultures, and there are many different words to describe the different backgrounds or ethnic groups that people come from. Some examples of the names of ethnic groups are Hispanic or Latino, Black or African American, Asian American, Chinese, Filipino, American Indian, Mexican American, Caucasian or White, Italian American, and many others. These questions are about your ethnicity or your ethnic group and how you feel about it or react to it. En Estados Unidos, la gente viene de muchos pa\u00c3\u0083\u00c2\u00adses y culturas diferentes y existen muchas palabras diferentes para describir los distintos or\u00c3\u0083\u00c2\u00adgenes o grupos \u00c3\u0083\u00c2\u00a9tnicos de los que vienen las personas. Algunos ejemplos de nombres de grupos \u00c3\u0083\u00c2\u00a9tnicos son hispano o latino, negro o africano americano, asi\u00c3\u0083\u00c2\u00a1tico americano, chino, filipino, indio americano, mexicano americano, c\u00c3\u0083\u00c2\u00a1sico o blanco, italiano americano, y muchos otros. Estas preguntas se relacionan con su etnia o su grupo \u00c3\u0083\u00c2\u00a9tnico y con la forma en que usted se siente o reacciona a ello."
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 5,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Strongly Agree ",
                     "es": "Estoy totalmente de acuerdo"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Agree ",
                     "es": "Estoy  de acuerdo"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Neutral ",
                     "es": "Ni uno ni lo otro"
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Disagree ",
                     "es": "No estoy de acuerdo"
-                }
+                },
+                "value": 4
             },
             {
-                "value": 5,
                 "name": {
                     "en": "Strongly Disagree ",
                     "es": "No estoy totalmente de acuerdo"
-                }
+                },
+                "value": 5
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Strongly Agree Estoy totalmente de acuerdo; 2 = Agree Estoy  de acuerdo; 3 = Neutral Ni uno ni lo otro; 4 = Disagree No estoy de acuerdo; 5 = Strongly Disagree No estoy totalmente de acuerdo; In this country, people come from many different countries and cultures, and there are many different words to describe the different backgrounds or ethnic groups that people come from. Some examples of the names of ethnic groups are Hispanic or Latino, Black or African American, Asian American, Chinese, Filipino, American Indian, Mexican American, Caucasian or White, Italian American, and many others. These questions are about your ethnicity or your ethnic group and how you feel about it or react to it. En Estados Unidos, la gente viene de muchos paÃÂ­ses y culturas diferentes y existen muchas palabras diferentes para describir los distintos orÃÂ­genes o grupos ÃÂ©tnicos de los que vienen las personas. Algunos ejemplos de nombres de grupos ÃÂ©tnicos son hispano o latino, negro o africano americano, asiÃÂ¡tico americano, chino, filipino, indio americano, mexicano americano, cÃÂ¡sico o blanco, italiano americano, y muchos otros. Estas preguntas se relacionan con su etnia o su grupo ÃÂ©tnico y con la forma en que usted se siente o reacciona a ello."
-        }
-    ]
+    "prefLabel": {
+        "en": "meim_6_p",
+        "es": "meim_6_p_es"
+    }
 }

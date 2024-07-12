@@ -1,71 +1,103 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "sai_p_dance_tspent_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "sai_p_dance_tspent_l",
-    "altLabel": "sai_dance_tspent_p_l sports_activity_dance_tspent_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sai_p_dance_tspent_l",
+    "category": "Field",
+    "question": {
+        "en": "Ballet, Dance  Ballet, Baile About how many minutes per session? \u00bfAproximadamente cu\u00e1ntos minutos por sesiAn?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Ballet, Dance  Ballet, Baile About how many minutes per session? \u00bfAproximadamente cu\u00e1ntos minutos por sesiAn?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "999 = Don't know No lo s\u00e9 ; 0 = 0; 1 = less than 30 minutes menos de 30 minutos ; 2 = 30; 3 = 45; 4 = 60 (1 hr) 60 (1 hora) ; 5 = 90 (1.5 hrs) 90 (1.5 horas) ; 6 = 120 (2 hrs) 20 (2 horas) ; 7 = 150 (2.5 hrs) 150 (2.5 horas) ; 8 = 180 (3 hrs) 180 (3 horas) ; 9 = greater than 3 hours Mas de 3 horas  | (minutes) (minutos)"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 999,
         "maxValue": 9,
+        "minValue": 999,
         "choices": [
             {
-                "name": "Don't know No lo s\u00e9 ",
+                "name": {
+                    "en": "Don't know No lo s\u00e9 "
+                },
                 "value": 999
             },
             {
-                "name": "0",
+                "name": {
+                    "en": "0"
+                },
                 "value": 0
             },
             {
-                "name": "less than 30 minutes menos de 30 minutos ",
+                "name": {
+                    "en": "less than 30 minutes menos de 30 minutos "
+                },
                 "value": 1
             },
             {
-                "name": "30",
+                "name": {
+                    "en": "30"
+                },
                 "value": 2
             },
             {
-                "name": "45",
+                "name": {
+                    "en": "45"
+                },
                 "value": 3
             },
             {
-                "name": "60 (1 hr) 60 (1 hora) ",
+                "name": {
+                    "en": "60 (1 hr) 60 (1 hora) "
+                },
                 "value": 4
             },
             {
-                "name": "90 (1.5 hrs) 90 (1.5 horas) ",
+                "name": {
+                    "en": "90 (1.5 hrs) 90 (1.5 horas) "
+                },
                 "value": 5
             },
             {
-                "name": "120 (2 hrs) 20 (2 horas) ",
+                "name": {
+                    "en": "120 (2 hrs) 20 (2 horas) "
+                },
                 "value": 6
             },
             {
-                "name": "150 (2.5 hrs) 150 (2.5 horas) ",
+                "name": {
+                    "en": "150 (2.5 hrs) 150 (2.5 horas) "
+                },
                 "value": 7
             },
             {
-                "name": "180 (3 hrs) 180 (3 horas) ",
+                "name": {
+                    "en": "180 (3 hrs) 180 (3 horas) "
+                },
                 "value": 8
             },
             {
-                "name": "greater than 3 hours Mas de 3 horas  ",
+                "name": {
+                    "en": "greater than 3 hours Mas de 3 horas  "
+                },
                 "value": 9
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "999 = Don't know No lo s\u00e9 ; 0 = 0; 1 = less than 30 minutes menos de 30 minutos ; 2 = 30; 3 = 45; 4 = 60 (1 hr) 60 (1 hora) ; 5 = 90 (1.5 hrs) 90 (1.5 horas) ; 6 = 120 (2 hrs) 20 (2 horas) ; 7 = 150 (2.5 hrs) 150 (2.5 horas) ; 8 = 180 (3 hrs) 180 (3 horas) ; 9 = greater than 3 hours Mas de 3 horas  | (minutes) (minutos)"
-        }
-    ]
+    "altLabel": {
+        "en": "sai_dance_tspent_p_l sports_activity_dance_tspent_p_l"
+    },
+    "prefLabel": {
+        "en": "sai_p_dance_tspent_l"
+    }
 }

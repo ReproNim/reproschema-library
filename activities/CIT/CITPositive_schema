@@ -1,36 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CITPositive_schema",
-    "prefLabel": {
-        "en": "CIT Positive"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CITPositive_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "CIT Positive schema",
-    "schemaVersion": "1.0.0-rc1",
+    "description": {
+        "en": "CIT Positive schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Positive Feelings"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_positive1",
-                "variableName": "cit_positive1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_positive1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_positive2",
-                "variableName": "cit_positive2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_positive2"
             },
             {
-                "isAbout": "items/cit_positive3",
-                "variableName": "cit_positive3",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/cit_positive3",
+                "isVis": true,
+                "variableName": "cit_positive3"
             }
         ],
         "order": [
@@ -39,5 +37,11 @@
             "items/cit_positive3"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Positive Feelings"
+    },
+    "prefLabel": {
+        "en": "CIT Positive"
     }
 }

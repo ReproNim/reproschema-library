@@ -1,30 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "sex",
-    "prefLabel": "Sex",
-    "altLabel": "gender",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sex",
+    "category": "Field",
+    "question": {
+        "en": "Sex of the subject"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Sex of the subject",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": [ "xsd:anyURI", "xsd:string" ],
         "choices": [
             {
-                "name": "Female",
-                "value": "http://schema.org/Female"
+                "name": {
+                    "en": "Female"
+                },
+                "value": {
+                    "id": "schema:Female"
+                }
             },
             {
-                "name": "Male",
-                "value": "http://schema.org/Male"
+                "name": {
+                    "en": "Male"
+                },
+                "value": {
+                    "id": "schema:Male"
+                }
             },
             {
-                "name": "Other",
-                "value": "O"
+                "name": {
+                    "en": "Other"
+                },
+                "value": {
+                    "id": "O"
+                }
             }
+        ],
+        "valueType": [
+            "xsd:anyURI",
+            "xsd:string"
         ]
+    },
+    "altLabel": {
+        "en": "gender"
+    },
+    "prefLabel": {
+        "en": "Sex"
     }
 }

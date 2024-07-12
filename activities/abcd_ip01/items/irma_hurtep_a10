@@ -1,46 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "irma_hurtep_a10",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_a10",
-        "es": "irma_hurtep_a10_es"
-    },
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_a10",
+    "category": "Field",
     "question": {
         "en": "Did you have to live away from close family members for a week or more because of the hurricane?",
-        "es": "¿Tuvo que vivir alejado de familiares cercanos durante una semana o más debido al huracán?"
+        "es": "\u00bfTuvo que vivir alejado de familiares cercanos durante una semana o m\u00e1s debido al hurac\u00e1n?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Yes  Si; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes  Si; 0 = No No"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_a10",
+        "es": "irma_hurtep_a10_es"
+    }
 }

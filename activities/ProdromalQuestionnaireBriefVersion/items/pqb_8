@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_8",
-    "prefLabel": "PQ-B-8",
-    "description": "schema for Q8 of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_8",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q8 of the PQ-B Assessment"
+    },
     "question": {
         "en": "Do you feel that other people are watching you or talking about you?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pqb_valueConstraints"
+    "responseOptions": "../pqb_valueConstraints",
+    "prefLabel": {
+        "en": "PQ-B-8"
+    }
 }

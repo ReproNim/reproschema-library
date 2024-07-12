@@ -1,21 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "audio_check",
-    "prefLabel": "Audio Check",
-    "description": "microphone test for participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "audio_check",
+    "category": "Field",
+    "description": {
+        "en": "microphone test for participant"
+    },
+    "question": {
+        "en": "Before we start, let\u2019s test your microphone. Click on the Start button below and say something out loud like \u201cTesting 1, 2, 3\u201d. Recording will stop automatically after 5 seconds. Click Play to hear your recording. If you hear background noise, please go to a quieter place and try again by selecting Redo Recording.\u00a0 If it sounds good, click the Next button above.",
+        "es": "Antes de comenzar, probemos su micr\u00f3fono. Haga clic en el bot\u00f3n Comenzar y diga algo en voz alta como \"Prueba 1, 2, 3\". La grabaci\u00f3n se detendr\u00e1 autom\u00e1ticamente despu\u00e9s de 5 segundos. Haga clic en Reproducir para escuchar su grabaci\u00f3n. Si escucha ruido de fondo, vaya a un lugar m\u00e1s silencioso y vuelva a intentarlo seleccionando Rehacer grabaci\u00f3n. Si suena bien, haga clic en el bot\u00f3n Siguiente arriba."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question":
-        {"en": "Before we start, let’s test your microphone. Click on the Start button below and say something out loud like “Testing 1, 2, 3”. Recording will stop automatically after 5 seconds. Click Play to hear your recording. If you hear background noise, please go to a quieter place and try again by selecting Redo Recording.  If it sounds good, click the Next button above.",
-        "es": "Antes de comenzar, probemos su micrófono. Haga clic en el botón Comenzar y diga algo en voz alta como \"Prueba 1, 2, 3\". La grabación se detendrá automáticamente después de 5 segundos. Haga clic en Reproducir para escuchar su grabación. Si escucha ruido de fondo, vaya a un lugar más silencioso y vuelva a intentarlo seleccionando Rehacer grabación. Si suena bien, haga clic en el botón Siguiente arriba."
-        },
     "ui": {
         "inputType": "audioCheck"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 4000,
         "minValue": 0,
-        "maxValue": 4000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Audio Check"
     }
 }

@@ -1,35 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "demo_prtnr_empl_time_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_prtnr_empl_time_l",
-    "altLabel": "demo_prtnr_empl_time_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_prtnr_empl_time_l",
+    "category": "Field",
+    "question": {
+        "en": "Work Full time or Part time? \u00bfTrabaja de tiempo completo o medio tiempo?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Work Full time or Part time? \u00bfTrabaja de tiempo completo o medio tiempo?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = Full time Tiempo Completo; 2 = Part time Medio Tiempo"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 2,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Full time Tiempo Completo",
+                "name": {
+                    "en": "Full time Tiempo Completo"
+                },
                 "value": 1
             },
             {
-                "name": "Part time Medio Tiempo",
+                "name": {
+                    "en": "Part time Medio Tiempo"
+                },
                 "value": 2
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Full time Tiempo Completo; 2 = Part time Medio Tiempo"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_prtnr_empl_time_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_prtnr_empl_time_l"
+    }
 }

@@ -1,55 +1,79 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "kbi_p_grades_in_school_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_grades_in_school_l",
-    "altLabel": "kbi_grades_in_school_p_l ksads_back_grades_in_school_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_grades_in_school_l",
+    "category": "Field",
+    "question": {
+        "en": "What kind of grades does your child get on average? \u00bfCu\u00e1l es el promedio de calificaciones de su ni\u00f1o(a)?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "What kind of grades does your child get on average? \u00bfCu\u00e1l es el promedio de calificaciones de su ni\u00f1o(a)?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": {
+                "id": "1 = A's / Excellent A / Excelente; 2 = B's / Good B / Bien; 3 = C's / Average C / Promedio; 4 = D's / Below Average D / Por debajo del promedio; 5 = F's / Struggling a lot F / Tiene mucha dificultad; 6 = ungraded No se le califica; -1 = Not applicable No aplica"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": -1,
+        "minValue": 1,
         "choices": [
             {
-                "name": "A's / Excellent A / Excelente",
+                "name": {
+                    "en": "A's / Excellent A / Excelente"
+                },
                 "value": 1
             },
             {
-                "name": "B's / Good B / Bien",
+                "name": {
+                    "en": "B's / Good B / Bien"
+                },
                 "value": 2
             },
             {
-                "name": "C's / Average C / Promedio",
+                "name": {
+                    "en": "C's / Average C / Promedio"
+                },
                 "value": 3
             },
             {
-                "name": "D's / Below Average D / Por debajo del promedio",
+                "name": {
+                    "en": "D's / Below Average D / Por debajo del promedio"
+                },
                 "value": 4
             },
             {
-                "name": "F's / Struggling a lot F / Tiene mucha dificultad",
+                "name": {
+                    "en": "F's / Struggling a lot F / Tiene mucha dificultad"
+                },
                 "value": 5
             },
             {
-                "name": "ungraded No se le califica",
+                "name": {
+                    "en": "ungraded No se le califica"
+                },
                 "value": 6
             },
             {
-                "name": "Not applicable No aplica",
+                "name": {
+                    "en": "Not applicable No aplica"
+                },
                 "value": -1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = A's / Excellent A / Excelente; 2 = B's / Good B / Bien; 3 = C's / Average C / Promedio; 4 = D's / Below Average D / Por debajo del promedio; 5 = F's / Struggling a lot F / Tiene mucha dificultad; 6 = ungraded No se le califica; -1 = Not applicable No aplica"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_grades_in_school_p_l ksads_back_grades_in_school_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_p_grades_in_school_l"
+    }
 }

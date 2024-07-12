@@ -1,43 +1,55 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
-    "@id": "dsm_5_ii_3",
-    "prefLabel": "dsm_5_ii_3",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 0,
-                "name": "None",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/not at all .png"
-            },
-            {
-                "value": 1,
-                "name": "Slight"
-            },
-            {
-                "value": 2,
-                "name": "Mild",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/several days .png"
-            },
-            {
-                "value": 3,
-                "name": "Moderate",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/more than half the days .png"
-            },
-            {
-                "value": 4,
-                "name": "Severe",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png"
-            }
-        ]
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_ii_3",
+    "category": "Field",
+    "question": {
+        "en": "II. 3. Had problems sleeping-that is, trouble falling asleep, staying asleep, or waking up too early?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "II. 3. Had problems sleeping-that is, trouble falling asleep, staying asleep, or waking up too early?"
+    "responseOptions": {
+        "choices": [
+            {
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/not at all .png",
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Slight"
+                },
+                "value": 1
+            },
+            {
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/several days .png",
+                "name": {
+                    "en": "Mild"
+                },
+                "value": 2
+            },
+            {
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/more than half the days .png",
+                "name": {
+                    "en": "Moderate"
+                },
+                "value": 3
+            },
+            {
+                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png",
+                "name": {
+                    "en": "Severe"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": false
+    },
+    "prefLabel": {
+        "en": "dsm_5_ii_3"
     }
 }

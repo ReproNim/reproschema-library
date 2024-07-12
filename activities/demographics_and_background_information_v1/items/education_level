@@ -1,29 +1,41 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "education_level",
-    "prefLabel": "Education level",
-    "description": "schema for education level of participant",
-    "schemaVersion": "1.0.0-rc1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "education_level",
+    "category": "Field",
+    "description": {
+        "en": "schema for education level of participant"
+    },
+    "question": {
+        "en": "US High School Graduate"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "US High School Graduate",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             },
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Education level"
     }
 }

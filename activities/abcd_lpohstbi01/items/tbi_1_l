@@ -1,47 +1,53 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "tbi_1_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_1_l",
-        "es": "tbi_1_l_es"
-    },
-    "altLabel": "brain_injury_1_l tbi_1_p_l",
-    "schemaVersion": "1.0.0-rc1",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_1_l",
+    "category": "Field",
     "question": {
         "en": "Since we last saw you on [asnt_timestamp_c], has your child been hospitalized or treated in an emergency room following an injury to his/her head or neck?",
-        "es": "Desde la última vez que nos vimos en [asnt_timestamp_c], ¿han hospitalizado a su niño/a o le han tratado en una sala de emergencias después de sufrir una lesión en la cabeza o en el cuello?"
+        "es": "Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfhan hospitalizado a su ni\u00f1o/a o le han tratado en una sala de emergencias despu\u00e9s de sufrir una lesi\u00f3n en la cabeza o en el cuello?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": {
+                "id": "1 = Yes Si; 0 = No No"
+            }
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes Si; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_1_l tbi_1_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_1_l",
+        "es": "tbi_1_l_es"
+    }
 }

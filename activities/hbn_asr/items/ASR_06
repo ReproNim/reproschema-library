@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ASR_06",
+    "prefLabel": "ASR_06",
+    "description": "Q6 of the Questionnaire Measures of Emotional and Cognitive Status",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "I use drugs (other than alcohol and nicotine) for nonmedical purposes (describe):"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": "../valueConstraints"
+}

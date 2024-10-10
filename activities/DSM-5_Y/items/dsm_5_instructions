@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "dsm_5_instructions",
+    "prefLabel": "dsm_5_instructions",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions":{
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 0,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 0,
+                "name": "Next"
+            }
+        ]
+    },
+    "question": {
+        "en": "The questions below ask about things that might have bothered you. For each question, circle the number that best describes how much (or how often) you have been bothered by each problem during the past TWO (2) WEEKS." 
+    }
+}

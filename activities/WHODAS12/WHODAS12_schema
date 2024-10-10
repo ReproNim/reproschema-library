@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "WHODAS12_schema",
     "prefLabel": "WHODAS12",
     "description": "WHODAS12 assessment schema",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
     "preamble": {
@@ -14,24 +14,24 @@
     "compute": [
         {
             "variableName": "WHODAS12_total_score",
-            "jsExpression": "WHODAS12_1 + WHODAS12_2 + WHODAS12_3 + WHODAS12_4 + WHODAS12_5 + WHODAS12_6 + WHODAS12_7 + WHODAS12_8 + WHODAS12_9 + WHODAS12_10 + WHODAS12_11 + WHODAS12_12"
+            "jsExpression": "WHODAS36_S_07 + WHODAS36_S_21 + WHODAS36_S_04 + WHODAS12_4 + WHODAS12_5 + WHODAS36_S_01 + WHODAS12_7 + WHODAS36_S_12 + WHODAS36_S_13 + WHODAS36_S_070 + WHODAS36_S_071 + WHODAS36_S_072"
         }
     ],
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/WHODAS12_1",
-                "variableName": "WHODAS12_1",
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_07",
+                "variableName": "WHODAS36_S_07",
                 "isVis": true
             },
             {
-                "isAbout": "items/WHODAS12_2",
-                "variableName": "WHODAS12_2",
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_21",
+                "variableName": "WHODAS36_S_21",
                 "isVis": true
             },
             {
-                "isAbout": "items/WHODAS12_3",
-                "variableName": "WHODAS12_3",
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_04",
+                "variableName": "WHODAS36_S_04",
                 "isVis": true
             },
             {
@@ -45,8 +45,8 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/WHODAS12_6",
-                "variableName": "WHODAS12_6",
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_01",
+                "variableName": "WHODAS36_S_01",
                 "isVis": true
             },
             {
@@ -59,29 +59,29 @@
                 "variableName": "WHODAS12_7",
                 "isVis": true
             },
-                        {
-                "isAbout": "items/WHODAS12_8",
-                "variableName": "WHODAS12_8",
+            {
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_12",
+                "variableName": "WHODAS36_S_12",
                 "isVis": true
             },
-                        {
-                "isAbout": "items/WHODAS12_9",
-                "variableName": "WHODAS12_9",
+            {
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_13",
+                "variableName": "WHODAS36_S_13",
                 "isVis": true
             },
-                        {
-                "isAbout": "items/WHODAS12_10",
-                "variableName": "WHODAS12_10",
+            {
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_16",
+                "variableName": "WHODAS36_S_16",
                 "isVis": true
             },
-                        {
-                "isAbout": "items/WHODAS12_11",
-                "variableName": "WHODAS12_11",
+            {
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_17",
+                "variableName": "WHODAS36_S_17",
                 "isVis": true
             },
-                        {
-                "isAbout": "items/WHODAS12_12",
-                "variableName": "WHODAS12_12",
+            {
+                "isAbout": "../WHODAS36_S/items/WHODAS36_S_25",
+                "variableName": "WHODAS36_S_25",
                 "isVis": true
             },
             {
@@ -89,12 +89,12 @@
                 "variableName": "WHODAS12_days_1",
                 "isVis": true
             },
-                        {
+            {
                 "isAbout": "items/WHODAS12_days_2",
                 "variableName": "WHODAS12_days_2",
                 "isVis": true
             },
-                                    {
+            {
                 "isAbout": "items/WHODAS12_days_3",
                 "variableName": "WHODAS12_days_3",
                 "isVis": true
@@ -106,18 +106,18 @@
             }
         ],
         "order": [
-            "items/WHODAS12_1",
-            "items/WHODAS12_2",
-            "items/WHODAS12_3",
+            "../WHODAS36_S/items/WHODAS36_S_07",
+            "../WHODAS36_S/items/WHODAS36_S_21",
+            "../WHODAS36_S/items/WHODAS36_S_04",
             "items/WHODAS12_4",
             "items/WHODAS12_5",
-            "items/WHODAS12_6",
+            "../WHODAS36_S/items/WHODAS36_S_01",
             "items/WHODAS12_7",
-            "items/WHODAS12_8",
-            "items/WHODAS12_9",
-            "items/WHODAS12_10",
-            "items/WHODAS12_11",
-            "items/WHODAS12_12",
+            "../WHODAS36_S/items/WHODAS36_S_12",
+            "../WHODAS36_S/items/WHODAS36_S_13",
+            "../WHODAS36_S/items/WHODAS36_S_16",
+            "../WHODAS36_S/items/WHODAS36_S_17",
+            "../WHODAS36_S/items/WHODAS36_S_25",
             "items/WHODAS12_days_1",
             "items/WHODAS12_days_2",
             "items/WHODAS12_days_3"

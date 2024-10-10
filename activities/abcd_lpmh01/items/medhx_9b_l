@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "medhx_9b_l",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_9b_l",
     "altLabel": "medhx_9b_anesthesia_times_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "General Anesthesia or Sedation: How many times? \u00bfCu\u00e1ntas veces?",
     "ui": {

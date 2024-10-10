@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "kmart_exhale",
     "prefLabel": "Kmart sentences (Exhale version)",
     "description": "K-mart sentences read after exhaling.",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble":
         {"en": "Click the Record button. Exhale and then read as much as you can at the end of exhalation. When you are done, click the Stop button to end recording.",

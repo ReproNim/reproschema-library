@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "sai_p_run_perwk_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_p_run_perwk_l",
     "altLabel": "sai_run_perwk_p_l sports_activity_run_perwk_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Track, Running, Cross-country Atletismo en pista / correr / correr a campo traviesa About how many days per week? \u00bfAproximadamente cu\u00e1ntos d\u00edas a la semana?",
     "ui": {

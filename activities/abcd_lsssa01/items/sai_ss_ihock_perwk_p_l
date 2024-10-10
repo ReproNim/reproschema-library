@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "sai_ss_ihock_perwk_p_l",
     "@type": "reproschema:Field",
     "prefLabel": "sai_ss_ihock_perwk_p_l",
     "altLabel": "sports_activity_ss_ihock_perwk_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Ice Hockey \nAbout how many days per week?",
     "ui": {

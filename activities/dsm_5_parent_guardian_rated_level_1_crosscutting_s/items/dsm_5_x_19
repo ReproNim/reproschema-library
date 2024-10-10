@@ -1,43 +1,15 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "@id": "dsm_5_x_19",
     "prefLabel": "dsm_5_x_19",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 0,
-                "name": "None",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/not at all .png"
-            },
-            {
-                "value": 1,
-                "name": "Slight"
-            },
-            {
-                "value": 2,
-                "name": "Mild",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/several days .png"
-            },
-            {
-                "value": 3,
-                "name": "Moderate",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/more than half the days .png"
-            },
-            {
-                "value": 4,
-                "name": "Severe",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/nearly every day.png"
-            }
-        ]
-    },
+    "responseOptions": "../valueConstraintsFirst19",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "X.19. Said that he/she had to do things in a certain way, like counting or saying special things out loud, in order to keep something bad from happening?"
+        "en": "Said that he/she had to do things in a certain way, like counting or saying special things out loud, in order to keep something bad from happening?"
     }
 }

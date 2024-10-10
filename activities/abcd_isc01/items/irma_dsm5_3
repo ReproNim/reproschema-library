@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_dsm5_3",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_dsm5_3",
         "es": "irma_dsm5_3_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "3. I try to stay away from people, places, or things that remind me about Hurricane Irma or my experiences with the storm.",

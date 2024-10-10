@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "demo_med_insur_b_p",
     "@type": "reproschema:Field",
     "prefLabel": "demo_med_insur_b_p",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "b. Insurance purchased directly from an insurance company (by this person or another family member)b. Seguro comprado directamente de una compa??a de seguros (por esta persona u otro miembro de la familia)",
     "ui": {

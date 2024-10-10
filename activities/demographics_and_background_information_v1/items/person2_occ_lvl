@@ -1,7 +1,7 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "@id": "person2_occ_lvl",
     "prefLabel": "person2_occ_lvl",
@@ -15,20 +15,19 @@
         "choices": [
             {
                 "value": 1,
-                "name": "No paid employment "
+                "name": "No paid employment"
             },
             {
                 "value": 2,
-                "name": "Unskilled employee "
+                "name": "Unskilled employee"
             },
             {
                 "value": 3,
-                "name": "Machine operator",
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/semi-skilled employee .png"
+                "name": "Machine operator"
             },
             {
                 "value": 4,
-                "name": "Skilled manual employee "
+                "name": "Skilled manual employee"
             },
             {
                 "value": 5,

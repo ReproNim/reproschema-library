@@ -1,13 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gad7_5",
     "prefLabel": "GAD7-5",
     "description": "schema for Q5 of the GAD7 Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Being so restless that it is hard to sit still?",
+        "en": "Being so restless that it is hard to sit still",
         "es": "Estar tan inquieto/a que le resulta difícil permanecer sentado/a",
         "ar": "شدة الاضطراب لدرجة صعوبة البقاء في هدوء.",
         "nl": "Zo rusteloos zijn dat het moeilijk is om stil te zitten",

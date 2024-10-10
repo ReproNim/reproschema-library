@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "medhx_ss_6b_times_p",
     "@type": "reproschema:Field",
     "prefLabel": "medhx_ss_6b_times_p",
     "altLabel": "medhx_ss_6b_sprains_times_p",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Sprains\r: How many times?",
     "ui": {

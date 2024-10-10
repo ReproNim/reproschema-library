@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "dsm5crossad_13",
-    "prefLabel": "dsm5crossad_13",
+    "prefLabel": "DSM5 Crosscutting Adult Question 13",
     "description": "Q13 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
     "question": {
         "en": "Feeling that someone could hear your thoughts, or that you could hear what another person was thinking?"
@@ -11,5 +11,4 @@
         "inputType": "radio"
     },
     "responseOptions": "../valueConstraints"
-    
 }

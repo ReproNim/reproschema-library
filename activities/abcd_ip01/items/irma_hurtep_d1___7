@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_hurtep_d1___7",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtep_d1___7",
         "es": "irma_hurtep_d1___7_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el huracÃ¡n? (puedes verificar mÃ¡s de uno) (7, other",

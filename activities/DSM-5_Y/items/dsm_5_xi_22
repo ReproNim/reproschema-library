@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "@id": "dsm_5_xi_22",
+    "prefLabel": "dsm_5_xi_22",
+    "responseOptions": "../valueConstraints20to25",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Used drugs like marijuana, cocaine or crack, club drugs (like Ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)?"
+    },
+    "preamble": {
+        "en": "In the past TWO (2) WEEKS, have you…"
+    }
+}

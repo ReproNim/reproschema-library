@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_dsm5_cs4",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_dsm5_cs4",
         "es": "irma_dsm5_cs4_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "CS4. Do these reactions, thoughts, and feelings cause some other problem at home? CS4.",

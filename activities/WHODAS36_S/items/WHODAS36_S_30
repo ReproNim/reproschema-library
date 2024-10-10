@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS36_S_30",
+    "prefLabel": "WHODAS 2.0 Self Q30",
+    "description": "Question 30 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": "How much of a problem did you have because of barriers or hindrances around you?",
+    "responseOptions": "../valueConstraints"
+}

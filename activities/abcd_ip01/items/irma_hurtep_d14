@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "irma_hurtep_d14",
     "@type": "reproschema:Field",
     "prefLabel": {
         "en": "irma_hurtep_d14",
         "es": "irma_hurtep_d14_es"
     },
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
         "en": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el hurracan,",

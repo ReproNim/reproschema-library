@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "WHODAS36_S_23",
+    "prefLabel": "WHODAS 2.0 Self Q23",
+    "description": "Question 23 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": "Getting all of the household work done that you needed to do?",
+    "responseOptions": "../valueConstraints"
+}

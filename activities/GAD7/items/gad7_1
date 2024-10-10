@@ -1,13 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "gad7_1",
     "prefLabel": "GAD7-1",
     "description": "Q1 of the GAD7 Assessment",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-        "en": "Feeling nervous, anxious or on edge?",
+        "en": "Feeling nervous, anxious or on edge",
         "es": "Sentirse nervioso/a, angustiado/a o muy tenso/a",
         "ar": " -الشعور بالغضب أو القلق أو الانفعال الشديد",
         "nl": "U nerveus, angstig of gespannen voelen",

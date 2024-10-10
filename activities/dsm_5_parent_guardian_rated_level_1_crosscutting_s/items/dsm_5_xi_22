@@ -1,31 +1,15 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "@id": "dsm_5_xi_22",
     "prefLabel": "dsm_5_xi_22",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 1,
-                "name": "Yes "
-            },
-            {
-                "value": 0,
-                "name": "No "
-            },
-            {
-                "value": 9999,
-                "name": "Don't Know"
-            }
-        ]
-    },
+    "responseOptions": "../valueConstraints20to25",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "XI.22. Used drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)?"
+        "en": "Used drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)?"
     }
 }

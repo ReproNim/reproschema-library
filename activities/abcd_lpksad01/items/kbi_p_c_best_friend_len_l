@@ -1,10 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@id": "kbi_p_c_best_friend_len_l",
     "@type": "reproschema:Field",
     "prefLabel": "kbi_p_c_best_friend_len_l",
     "altLabel": "kbi_c_best_friend_p_len_p_l ksads_back_c_best_friend_len_p_l",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "How long has your child been friends with this best friend? \u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) es amigo(a) de este mejor amigo o amiga?",
     "ui": {

@@ -3,7 +3,7 @@
     "@type": "reproschema:Activity",
     "@id": "RCADS25_caregiver_administered_schema",
     "prefLabel": "RCADS25_caregiver_administered_schema",
-    "description": "RCADS-25 caregiver administered assessment schema",
+    "description": "RCADS25 caregiver administered assessment schema",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "citation": "https://www.childfirst.ucla.edu/resources/",
@@ -14,7 +14,7 @@
     "compute": [
         {
             "variableName": "RCADS25_total_score",
-            "jsExpression": "RCADS-25_1 + RCADS-25_2 + RCADS-25_3 + RCADS-25_4 + RCADS-25_5 + RCADS-25_6 + RCADS-25_7 + RCADS-25_8 + RCADS-25_9 + RCADS-25_10 + RCADS-25_11 + RCADS-25_12 + RCADS-25_13 + RCADS-25_14 + RCADS-25_15 + RCADS-25_16 + RCADS-25_17 + RCADS-25_18 + RCADS-25_19 + RCADS-25_20 + RCADS-25_21 + RCADS-25_22 + RCADS-25_23 + RCADS-25_24 + RCADS-25_25"
+            "jsExpression": "RCADS25_01 + RCADS25_02 + RCADS25_03 + RCADS25_04 + RCADS25_05 + RCADS25_06 + RCADS25_07 + RCADS25_08 + RCADS25_09 + RCADS25_10 + RCADS25_11 + RCADS25_12 + RCADS25_13 + RCADS25_14 + RCADS25_15 + RCADS25_16 + RCADS25_17 + RCADS25_18 + RCADS25_19 + RCADS25_20 + RCADS25_21 + RCADS25_22 + RCADS25_23 + RCADS25_24 + RCADS25_25"
         }
     ],
     "ui": {

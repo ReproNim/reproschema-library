@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "total_score",
+    "@id": "RCADS25_total_score",
     "prefLabel": "RCADS-25 Youth Score",
     "description": "schema for total score of the RCADS-2 Youth Assessment",
     "schemaVersion": "1.0.0-rc4",

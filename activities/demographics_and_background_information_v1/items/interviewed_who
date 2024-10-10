@@ -24,8 +24,7 @@
                 "value": 2,
                 "name": {
                     "en": "Participant and informant (e.g., parent)"
-                },
-                "image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/parent.png"
+                }
             }
         ]
     }

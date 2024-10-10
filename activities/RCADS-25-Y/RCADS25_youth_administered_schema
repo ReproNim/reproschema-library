@@ -13,7 +13,7 @@
     },
     "compute": [
         {
-            "variableName": "RCADS-25_total_score",
+            "variableName": "RCADS25_total_score",
             "jsExpression": "RCADS-25_1 + RCADS-25_2 + RCADS-25_3 + RCADS-25_4 + RCADS-25_5 + RCADS-25_6 + RCADS-25_7 + RCADS-25_8 + RCADS-25_9 + RCADS-25_10 + RCADS-25_11 + RCADS-25_12 + RCADS-25_13 + RCADS-25_14 + RCADS-25_15 + RCADS-25_16 + RCADS-25_17 + RCADS-25_18 + RCADS-25_19 + RCADS-25_20 + RCADS-25_21 + RCADS-25_22 + RCADS-25_23 + RCADS-25_24 + RCADS-25_25"
         }
     ],
@@ -170,8 +170,8 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/RCADS-25_total_score",
-                "variableName": "RCADS-25_total_score",
+                "isAbout": "items/RCADS25_total_score",
+                "variableName": "RCADS25_total_score",
                 "isVis": false
             } 
         ],

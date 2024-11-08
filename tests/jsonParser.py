@@ -9,8 +9,14 @@ for root, dirs, files in os.walk('activities', topdown=True):
             try:
                 tested +=1
                 data = json.load(fp)
-                if data["@id"] and data["@id"] != name:
-                    raise ValueError(f"{root}/{name} does not have matching @id")
+                if "@id" in data:
+                    str_id = "@id"
+                elif "id" in data:
+                    str_id = "id"
+                else:
+                    raise ValueError(f"{root}/{name} does not have @id")
+                if data[str_id] != name:
+                    raise ValueError(f"{root}/{name} does not have matching @id to name")
             except json.decoder.JSONDecodeError:
                 print(f"{root}/{name} could not be loaded")
                 raise

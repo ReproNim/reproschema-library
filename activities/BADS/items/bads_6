@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "bads_6",
-    "prefLabel": "BADS-6",
-    "description": "schema for Q6 of the BADS Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bads_6",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q6 of the BADS Assessment"
+    },
+    "question": {
+        "en": "Most of what I did was to escape from or avoid something unpleasant"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Most of what I did was to escape from or avoid something unpleasant",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "BADS-6"
+    }
 }

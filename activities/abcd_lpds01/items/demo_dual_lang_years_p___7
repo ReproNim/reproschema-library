@@ -1,34 +1,44 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "demo_dual_lang_years_p___7",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_dual_lang_years_p___7",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_dual_lang_years_p___7",
+    "category": "Field",
+    "question": {
+        "en": "Which Years (check all that apply)? \u00bfQue anos (marque todo lo que corresponda)? (7, 4th 4to grado)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Which Years (check all that apply)? \u00bfQue anos (marque todo lo que corresponda)? (7, 4th 4to grado)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "prefLabel": {
+        "en": "demo_dual_lang_years_p___7"
+    }
 }

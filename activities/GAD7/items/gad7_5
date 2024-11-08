@@ -1,38 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "gad7_5",
-    "prefLabel": "GAD7-5",
-    "description": "schema for Q5 of the GAD7 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question": {
-        "en": "Being so restless that it is hard to sit still",
-        "es": "Estar tan inquieto/a que le resulta difícil permanecer sentado/a",
-        "ar": "شدة الاضطراب لدرجة صعوبة البقاء في هدوء.",
-        "nl": "Zo rusteloos zijn dat het moeilijk is om stil te zitten",
-        "fr": "Une agitation telle qu’il est difficile à tenir en place",
-        "it": "Essere talmente irrequieto/a da far fatica a stare seduto/a fermo/a",
-        "pt-BR": "Ficar tão agitado/a que se torna difícil permanecer sentado/a",
-        "fil": "Labis na hindi mapakali kaya nahihirapang manatili sa kinatatayuan",
-        "fi": "Olen ollut niin levoton, että minun on ollut vaikea pysyä aloillani",
-        "kn": "ಒಂದು ಕ⁝ ⁑Ῐರ ಾ‵ ಕು⁍ತು⁓ೂಳῥಲೂ ಆಗದಷುῒ ಚಡಪ‽ಸುವ⁳ದು",
-        "ko": "너무 안절부절못해서 가만히 있기가 힘들다",
-        "no": "Vært så rastløs at det har vært vanskelig å sitte stille",
-        "pl": "Był(a) Pan(i) tak niespokojny(a), że nie mógł(a) usiedzieć na miejscu",
-        "pt-PT": "Estive tão inquieto/a que era difícil ficar sossegado/a",
-        "ro": "O nelinişte excesivă, din cauza căreia v-a fost-a fost dificil să staţi liniştit",
-        "ru": "Вы были настолько суетливы, что Вам было тяжело усидеть на месте",
-        "zh-CN": "非常不安静以至于难以坐定",
-        "bg": "Чувство за безпокойство, което трудно позволява да стоите на едно място",
-        "da": "Været så rastløs, at du har haft svært ved at sidde stille",
-        "sv": "Varit så rastlös att du har haft svårt att sitta still",
-        "lv": "Bijāt tik nemierīgs, ka nespējāt nosēdēt uz vietas",
-        "ms": "Menjadi terlalu gelisah sehinggakan payah untuk duduk diam",
-        "uk": "Ви були настільки неспокійні, що Вам було важко всидіти на одному місці"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "gad7_5",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q5 of the GAD7 Assessment"
     },
+    "question": {
+        "ar": "\u0634\u062f\u0629 \u0627\u0644\u0627\u0636\u0637\u0631\u0627\u0628 \u0644\u062f\u0631\u062c\u0629 \u0635\u0639\u0648\u0628\u0629 \u0627\u0644\u0628\u0642\u0627\u0621 \u0641\u064a \u0647\u062f\u0648\u0621.",
+        "bg": "\u0427\u0443\u0432\u0441\u0442\u0432\u043e \u0437\u0430 \u0431\u0435\u0437\u043f\u043e\u043a\u043e\u0439\u0441\u0442\u0432\u043e, \u043a\u043e\u0435\u0442\u043e \u0442\u0440\u0443\u0434\u043d\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0432\u0430 \u0434\u0430 \u0441\u0442\u043e\u0438\u0442\u0435 \u043d\u0430 \u0435\u0434\u043d\u043e \u043c\u044f\u0441\u0442\u043e",
+        "da": "V\u00e6ret s\u00e5 rastl\u00f8s, at du har haft sv\u00e6rt ved at sidde stille",
+        "en": "Being so restless that it is hard to sit still",
+        "es": "Estar tan inquieto/a que le resulta dif\u00edcil permanecer sentado/a",
+        "fi": "Olen ollut niin levoton, ett\u00e4 minun on ollut vaikea pysy\u00e4 aloillani",
+        "fil": "Labis na hindi mapakali kaya nahihirapang manatili sa kinatatayuan",
+        "fr": "Une agitation telle qu\u2019il est difficile \u00e0 tenir en place",
+        "it": "Essere talmente irrequieto/a da far fatica a stare seduto/a fermo/a",
+        "kn": "\u0c92\u0c82\u0ca6\u0cc1 \u0c95\u205d \u2051\u1fd8\u0cb0\u2009\u0cbe\u2035 \u0c95\u0cc1\u204d\u0ca4\u0cc1\u2053\u0cc2\u0cb3\u1fe5\u0cb2\u0cc2 \u0c86\u0c97\u0ca6\u0cb7\u0cc1\u1fd2 \u0c9a\u0ca1\u0caa\u203d\u0cb8\u0cc1\u0cb5\u2073\u0ca6\u0cc1",
+        "ko": "\ub108\ubb34 \uc548\uc808\ubd80\uc808\ubabb\ud574\uc11c \uac00\ub9cc\ud788 \uc788\uae30\uac00 \ud798\ub4e4\ub2e4",
+        "lv": "Bij\u0101t tik nemier\u012bgs, ka nesp\u0113j\u0101t nos\u0113d\u0113t uz vietas",
+        "ms": "Menjadi terlalu gelisah sehinggakan payah untuk duduk diam",
+        "nl": "Zo rusteloos zijn dat het moeilijk is om stil te zitten",
+        "no": "V\u00e6rt s\u00e5 rastl\u00f8s at det har v\u00e6rt vanskelig \u00e5 sitte stille",
+        "pl": "By\u0142(a) Pan(i) tak niespokojny(a), \u017ce nie m\u00f3g\u0142(a) usiedzie\u0107 na miejscu",
+        "pt-br": "Ficar t\u00e3o agitado/a que se torna dif\u00edcil permanecer sentado/a",
+        "pt-pt": "Estive t\u00e3o inquieto/a que era dif\u00edcil ficar sossegado/a",
+        "ro": "O nelini\u015fte excesiv\u0103, din cauza c\u0103reia v-a fost-a fost dificil s\u0103 sta\u0163i lini\u015ftit",
+        "ru": "\u0412\u044b \u0431\u044b\u043b\u0438 \u043d\u0430\u0441\u0442\u043e\u043b\u044c\u043a\u043e \u0441\u0443\u0435\u0442\u043b\u0438\u0432\u044b, \u0447\u0442\u043e \u0412\u0430\u043c \u0431\u044b\u043b\u043e \u0442\u044f\u0436\u0435\u043b\u043e \u0443\u0441\u0438\u0434\u0435\u0442\u044c \u043d\u0430 \u043c\u0435\u0441\u0442\u0435",
+        "sv": "Varit s\u00e5 rastl\u00f6s att du har haft sv\u00e5rt att sitta still",
+        "uk": "\u0412\u0438 \u0431\u0443\u043b\u0438 \u043d\u0430\u0441\u0442\u0456\u043b\u044c\u043a\u0438 \u043d\u0435\u0441\u043f\u043e\u043a\u0456\u0439\u043d\u0456, \u0449\u043e \u0412\u0430\u043c \u0431\u0443\u043b\u043e \u0432\u0430\u0436\u043a\u043e \u0432\u0441\u0438\u0434\u0456\u0442\u0438 \u043d\u0430 \u043e\u0434\u043d\u043e\u043c\u0443 \u043c\u0456\u0441\u0446\u0456",
+        "zh-cn": "\u975e\u5e38\u4e0d\u5b89\u9759\u4ee5\u81f3\u4e8e\u96be\u4ee5\u5750\u5b9a"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "GAD7-5"
+    }
 }

@@ -1,33 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "briefphq_4i",
-    "prefLabel": "radio item",
-    "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_4i",
+    "category": "Field",
+    "description": {
+        "en": "This is a radio item."
+    },
+    "question": {
+        "en": "Something bad that happened recently"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Something bad that happened recently",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 2,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Not bothered",
+                "name": {
+                    "en": "Not bothered"
+                },
                 "value": 0
             },
             {
-                "name": "Bothered a little",
+                "name": {
+                    "en": "Bothered a little"
+                },
                 "value": 1
             },
             {
-                "name": "Bothered a lot",
+                "name": {
+                    "en": "Bothered a lot"
+                },
                 "value": 2
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "radio item"
     }
 }

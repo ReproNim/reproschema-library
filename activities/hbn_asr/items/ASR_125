@@ -1,18 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASR_125",
-    "prefLabel": "ASR_125",
-    "description": "Q128 of the Questionnaire Measures of Emotional and Cognitive Status",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASR_125",
+    "category": "Field",
+    "description": {
+        "en": "Q128 of the Questionnaire Measures of Emotional and Cognitive Status"
+    },
     "question": {
         "en": "In the past 6 months, on how many days were you drunk?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "ASR_125"
     }
 }

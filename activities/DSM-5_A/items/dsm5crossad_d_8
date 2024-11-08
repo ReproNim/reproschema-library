@@ -1,14 +1,18 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm5crossad_d_8",
-    "prefLabel": "DSM5 Crosscutting Adult Domain 8 (Sleep Problems) Score",
-    "description": "Domain 8 (Sleep Problems) score of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm5crossad_d_8",
+    "category": "Field",
+    "description": {
+        "en": "Domain 8 (Sleep Problems) score of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report"
     },
-    "responseOptions": "../valueConstraints"
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "number"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "DSM5 Crosscutting Adult Domain 8 (Sleep Problems) Score"
+    }
 }

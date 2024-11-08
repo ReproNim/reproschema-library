@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASSQ_22",
-    "prefLabel": "ASSQ Q22",
-    "description": "Q22 of the Autism Spectrum Screening Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASSQ_22",
+    "category": "Field",
+    "description": {
+        "en": "Q22 of the Autism Spectrum Screening Questionnaire"
+    },
     "question": {
         "en": "has difficulties in completing simple daily activities because of compulsory repetition of certain actions or thoughts (i.e. any habits that s/he just has to do?)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASSQ Q22"
+    }
 }

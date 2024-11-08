@@ -1,11 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "ksads_section18_schema",
-    "prefLabel": "abcd_ksad01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_section18_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_18_112_p",
+                "variableName": "ksads_18_112_p"
+            },
+            {
+                "isAbout": "items/ksads_18_113_p",
+                "variableName": "ksads_18_113_p"
+            },
+            {
+                "isAbout": "items/ksads_18_114_p",
+                "variableName": "ksads_18_114_p"
+            },
+            {
+                "isAbout": "items/ksads_18_115_p",
+                "variableName": "ksads_18_115_p"
+            },
+            {
+                "isAbout": "items/ksads_18_116_p",
+                "variableName": "ksads_18_116_p"
+            },
+            {
+                "isAbout": "items/ksads_18_117_p",
+                "variableName": "ksads_18_117_p"
+            },
+            {
+                "isAbout": "items/ksads_18_903_p",
+                "variableName": "ksads_18_903_p"
+            }
+        ],
         "order": [
             "items/ksads_18_112_p",
             "items/ksads_18_113_p",
@@ -15,36 +44,9 @@
             "items/ksads_18_117_p",
             "items/ksads_18_903_p"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "ksads_18_112_p",
-                "isAbout": "items/ksads_18_112_p"
-            },
-            {
-                "variableName": "ksads_18_113_p",
-                "isAbout": "items/ksads_18_113_p"
-            },
-            {
-                "variableName": "ksads_18_114_p",
-                "isAbout": "items/ksads_18_114_p"
-            },
-            {
-                "variableName": "ksads_18_115_p",
-                "isAbout": "items/ksads_18_115_p"
-            },
-            {
-                "variableName": "ksads_18_116_p",
-                "isAbout": "items/ksads_18_116_p"
-            },
-            {
-                "variableName": "ksads_18_117_p",
-                "isAbout": "items/ksads_18_117_p"
-            },
-            {
-                "variableName": "ksads_18_903_p",
-                "isAbout": "items/ksads_18_903_p"
-            }
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "abcd_ksad01"
     }
 }

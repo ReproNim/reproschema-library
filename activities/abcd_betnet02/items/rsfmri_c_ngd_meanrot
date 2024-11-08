@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_meanrot",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_meanrot",
-    "altLabel": "rsfmri_cor_network.gordon_mean.rot rsfmri_cor_networkgordon_meanrot",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_meanrot",
+    "category": "Field",
+    "question": {
+        "en": "Average framewise rotation in radians"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Average framewise rotation in radians",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_mean.rot rsfmri_cor_networkgordon_meanrot"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_meanrot"
     }
 }

@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq15_14",
-    "prefLabel": "PHQ 15 q14",
-    "description": "schema for Q1g of the derived Brief PHQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq15_14",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q1g of the derived Brief PHQ Assessment"
+    },
+    "question": {
+        "en": "Nausea, gas, or indigestion"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Nausea, gas, or indigestion",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ 15 q14"
+    }
 }

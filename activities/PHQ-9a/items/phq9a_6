@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq9a_6",
-    "prefLabel": "PHQ9a-6",
-    "description": "schema for Q6 of the derived PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq9a_6",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q6 of the derived PHQ-9 Assessment"
+    },
+    "question": {
+        "en": "Feeling bad about yourself or that you are a failure or have let yourself or your family down?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Feeling bad about yourself or that you are a failure or have let yourself or your family down?",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ9a-6"
+    }
 }

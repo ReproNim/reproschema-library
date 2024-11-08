@@ -1,21 +1,65 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "ARI_P_schema",
-    "prefLabel": "ARI_P",
-    "description": "The Affective Reactivity Index- Self Report is a concise scale for the dimensional assessment of irritability.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ARI_P_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "Stringaris, A., Goodman, R., Ferdinando, S., Razdan, V., Muhrer, E., Leibenluft, E., & Brotman, M. (2012). The Affective Reactivity Index: A concise irritability scale for clinical and research settings. Journal of Child Psychology and Psychiatry. 53(11) pp. 1109-1117."
+    },
+    "description": {
+        "en": "The Affective Reactivity Index- Self Report is a concise scale for the dimensional assessment of irritability."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "Stringaris, A., Goodman, R., Ferdinando, S., Razdan, V., Muhrer, E., Leibenluft, E., & Brotman, M. (2012). The Affective Reactivity Index: A concise irritability scale for clinical and research settings. Journal of Child Psychology and Psychiatry. 53(11) pp. 1109-1117.",
-    "preamble": "In the last six months and compared to others of the same age, how well does each of the following statements describe the behavior/feelings of your child?",
-    "isProprietary": false,
-    "compute": [
-        {
-            "variableName": "ARI_P_total_score",
-            "jsExpression": "ARI_P_01 + ARI_P_02 + ARI_P_03 + ARI_P_04 + ARI_P_05 + ARI_P_06 + ARI_P_07"
-        }
-    ],
     "ui": {
+        "addProperties": [
+            {
+                "valueRequired": true,
+                "isAbout": "items/ARI_P_01",
+                "isVis": true,
+                "variableName": "ARI_P_01"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ARI_P_02",
+                "isVis": true,
+                "variableName": "ARI_P_02"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ARI_P_03",
+                "isVis": true,
+                "variableName": "ARI_P_03"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ARI_P_04",
+                "isVis": true,
+                "variableName": "ARI_P_04"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ARI_P_05",
+                "isVis": true,
+                "variableName": "ARI_P_05"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ARI_P_06",
+                "isVis": true,
+                "variableName": "ARI_P_06"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ARI_P_07",
+                "isVis": true,
+                "variableName": "ARI_P_07"
+            },
+            {
+                "isAbout": "items/ARI_P_total_score",
+                "isVis": false,
+                "variableName": "ARI_P_total_score"
+            }
+        ],
         "order": [
             "items/ARI_P_01",
             "items/ARI_P_02",
@@ -26,55 +70,18 @@
             "items/ARI_P_07",
             "items/ARI_P_total_score"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "ARI_P_01",
-                "isAbout": "items/ARI_P_01",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ARI_P_02",
-                "isAbout": "items/ARI_P_02",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ARI_P_03",
-                "isAbout": "items/ARI_P_03",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ARI_P_04",
-                "isAbout": "items/ARI_P_04",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ARI_P_05",
-                "isAbout": "items/ARI_P_05",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ARI_P_06",
-                "isAbout": "items/ARI_P_06",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ARI_P_07",
-                "isAbout": "items/ARI_P_07",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ARI_P_total_score",
-                "isAbout": "items/ARI_P_total_score",
-                "isVis": false
-            }
-        ]
+        "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "ARI_P_01 + ARI_P_02 + ARI_P_03 + ARI_P_04 + ARI_P_05 + ARI_P_06 + ARI_P_07",
+            "variableName": "ARI_P_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "In the last six months and compared to others of the same age, how well does each of the following statements describe the behavior/feelings of your child?"
+    },
+    "prefLabel": {
+        "en": "ARI_P"
     }
 }

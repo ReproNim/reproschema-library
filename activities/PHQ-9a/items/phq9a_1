@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq9a_1",
-    "prefLabel": "PHQ9a-1",
-    "description": "Q1 of the derived PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq9a_1",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the derived PHQ-9 Assessment"
+    },
+    "question": {
+        "en": "Little interest or pleasure in doing things"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Little interest or pleasure in doing things",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ9a-1"
+    }
 }

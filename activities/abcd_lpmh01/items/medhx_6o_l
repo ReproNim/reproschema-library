@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "medhx_6o_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "medhx_6o_l",
-    "altLabel": "medhx_6o_overdose_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "medhx_6o_l",
+    "category": "Field",
+    "question": {
+        "en": "Since we last saw you, has she/he been to a doctor for any of these things? Overdose Sobredosis"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Since we last saw you, has she/he been to a doctor for any of these things? Overdose Sobredosis",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Yes S\u00ed; 0 = No No //Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No //Now I'd like to ask you about your child's use of health services since we last saw you on_____. ",
+                "name": {
+                    "en": "No No //Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 0 = No No //Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
-        }
-    ]
+    "altLabel": {
+        "en": "medhx_6o_overdose_p_l"
+    },
+    "prefLabel": {
+        "en": "medhx_6o_l"
+    }
 }

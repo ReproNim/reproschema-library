@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASSQ_06",
-    "prefLabel": "ASSQ Q6",
-    "description": "Q6 of the Autism Spectrum Screening Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASSQ_06",
+    "category": "Field",
+    "description": {
+        "en": "Q6 of the Autism Spectrum Screening Questionnaire"
+    },
     "question": {
         "en": "has a deviant style of communication with a formal, fussy, \"old-fashioned\" or \"robotlike\" language (i.e. talks differently than other children, in a formal or stilted way)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASSQ Q6"
+    }
 }

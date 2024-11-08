@@ -1,28 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "isc01_section2_schema",
-    "prefLabel": {
-        "en": "isc01_section2",
-        "es": "isc01_section2_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "isc01_section2_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/irma_gatea_c",
+                "variableName": "irma_gatea_c"
+            },
+            {
+                "isAbout": "items/irma_gateb_c",
+                "variableName": "irma_gateb_c"
+            }
+        ],
         "order": [
             "items/irma_gatea_c",
             "items/irma_gateb_c"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "irma_gatea_c",
-                "isAbout": "items/irma_gatea_c"
-            },
-            {
-                "variableName": "irma_gateb_c",
-                "isAbout": "items/irma_gateb_c"
-            }
-        ]
+        "shuffle": false
+    },
+    "prefLabel": {
+        "en": "isc01_section2",
+        "es": "isc01_section2_es"
     }
 }

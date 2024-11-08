@@ -1,25 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "medhx_ss_6p_times_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "medhx_ss_6p_times_p",
-    "altLabel": "medhx_ss_6p_seizure_times_p",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "medhx_ss_6p_times_p",
+    "category": "Field",
+    "question": {
+        "en": "Seizure\r: How many times?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Seizure\r: How many times?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "If yes is endorsed,  parent is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [medhx_6p_notes]."
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 100,
         "minValue": 0,
-        "maxValue": 100
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "If yes is endorsed,  parent is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [medhx_6p_notes]."
-        }
-    ]
+    "altLabel": {
+        "en": "medhx_ss_6p_seizure_times_p"
+    },
+    "prefLabel": {
+        "en": "medhx_ss_6p_times_p"
+    }
 }

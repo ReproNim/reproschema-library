@@ -1,116 +1,107 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "phq15_schema",
-    "prefLabel": {
-        "en": "PHQ-15 Assessment",
-        "es": "PHQ-15 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq15_schema",
+    "category": "Activity",
+    "description": {
+        "en": "PHQ-9a assessment schema"
     },
-    "description": "PHQ-9a assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble": "Over the last 1 week, how often have you been bothered by any of the following problems?",
-    "compute": [
-        {
-            "variableName": "phq15_total_score",
-            "jsExpression": "phq15_1 + phq15_2 + phq15_3 + phq15_4 + phq15_5 + phq15_6 + phq15_7 + phq15_8 + phq15_9 + phq15_10 + phq15_11 + phq15_12 + phq15_13 + phq15_14 + phq15_15"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_1",
-                "variableName": "phq15_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_2",
-                "variableName": "phq15_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_3",
-                "variableName": "phq15_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_4",
-                "variableName": "phq15_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_5",
-                "variableName": "phq15_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_6",
-                "variableName": "phq15_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_7",
-                "variableName": "phq15_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_7"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq15_8",
-                "variableName": "phq15_8",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_8"
             },
             {
-                "isAbout": "items/phq15_9",
-                "variableName": "phq15_9",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq15_9",
+                "isVis": true,
+                "variableName": "phq15_9"
             },
             {
                 "isAbout": "items/phq15_10",
-                "variableName": "phq15_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_10"
             },
             {
                 "isAbout": "items/phq15_11",
-                "variableName": "phq15_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_11"
             },
             {
                 "isAbout": "items/phq15_12",
-                "variableName": "phq15_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_12"
             },
             {
                 "isAbout": "items/phq15_13",
-                "variableName": "phq15_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_13"
             },
             {
                 "isAbout": "items/phq15_14",
-                "variableName": "phq15_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_14"
             },
             {
                 "isAbout": "items/phq15_15",
-                "variableName": "phq15_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_15"
             },
             {
                 "isAbout": "items/phq15_16",
-                "variableName": "phq15_16",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq15_16"
             },
             {
                 "isAbout": "items/phq15_total_score",
-                "variableName": "phq15_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq15_total_score"
             }
         ],
         "order": [
@@ -132,5 +123,18 @@
             "items/phq15_16"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq15_1 + phq15_2 + phq15_3 + phq15_4 + phq15_5 + phq15_6 + phq15_7 + phq15_8 + phq15_9 + phq15_10 + phq15_11 + phq15_12 + phq15_13 + phq15_14 + phq15_15",
+            "variableName": "phq15_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 1 week, how often have you been bothered by any of the following problems?"
+    },
+    "prefLabel": {
+        "en": "PHQ-15 Assessment",
+        "es": "PHQ-15 Evaluaci\u00f3n"
     }
 }

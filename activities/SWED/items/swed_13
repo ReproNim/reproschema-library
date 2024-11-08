@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "swed_13",
-    "prefLabel": "SWED-13",
-    "description": "Q13 of the SWED Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "swed_13",
+    "category": "Field",
+    "description": {
+        "en": "Q13 of the SWED Assessment"
+    },
     "question": {
         "en": "Do you avoid certain or many foods because of such features as texture, consistency, temperature, or smell, or have other people suggested this may be the case for you?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../swed_valueConstraints"
+    "responseOptions": "../swed_valueConstraints",
+    "prefLabel": {
+        "en": "SWED-13"
+    }
 }

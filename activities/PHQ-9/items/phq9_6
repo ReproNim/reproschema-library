@@ -1,38 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq9_6",
-    "prefLabel": "PHQ9-6",
-    "description": "schema for Q6 of the PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question": {
-        "en": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
-        "es": "\u00bfSe ha sentido mal con usted mismo(a)  o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia",
-        "nl": "Een slecht gevoel hebben over uzelf — of het gevoel hebben dat u een mislukkeling bent of het gevoel dat u zichzelf of uw familie teleurgesteld hebt",
-        "fr": "Avoir une mauvaise opinion de soi-même, ou avoir le sentiment d’être nul(le), ou d’avoir déçu sa famille ou s’êtredéçu(e) soi-même",
-        "ar": "لشعور بعدم الرضا عن النفس أو الشعور بأنك قد أخذلت نفسك أو عائلتك",
-        "pt-BR": "Se sentir mal consigo mesmo/a — ou achar que você é um fracasso ou que decepcionou sua família ou você mesmo/a",
-        "ko": "자신을 부정적으로 봄 - 혹은 자신이 실패자라고 느끼거나 자신 또는 가족을 실망시킴",
-        "it": "Avere una scarsa opinione di sé, o sentirsi un/una fallito/a o aver deluso se stesso/a o i propri familiari",
-        "ja": "自分はダメな人間だ、人生の敗北者だと気に病む、または自分自身あるいは家族に申し訳がないと感じる",
-        "fi": "Tyytymättömyys omaan itseen – tai tunne, että olette epäonnistuneet tai laiminlyöneet itsenne tai perheenne",
-        "fil": "Pagkaramdam ng masama tungkol sa iyong sarili — o na bigo ka o nabigo mo ang iyong sarili o ang iyong pamilya",
-        "no": "Vært misfornøyd med deg selv eller følt deg mislykket - eller følt at du har sviktet deg selv eller familien din",
-        "kn": "⁄ಮಮ್ ಬಗೆಗ್ ⁄ಮಗೇ ಕೆಟಟ್  ಾವ⁤ — ಅಥ ಾ ⁄ೕವು ⁎ಫಲರು ಅಥ ಾ ⁄ೕವು ⁄ಮಮ್ ‍ಾಗೊ ಕುಟುಂಬದವರ ⁄⁋ೕ₃ಗಿಂತ ಕೆಳಮಟಟ್ದ⁌ಲ್⁂ದ್ೕ⁋ ಎಂಬ  ಾವ⁤",
-        "ru": "Вы плохо о себе думали: считали себя неудачником(неудачницей), или были в себе разочарованы, или считали, что подвели свою семью",
-        "pl": "Poczucie niezadowolenia z siebie — lub uczucie, że jest się do niczego, albo że zawiódł/zawiodła Pan/Pani siebie lub rodzinę",
-        "bg": "Отрицателно мнение за себе си или чувство, че сте неудачник, че сте разочаровали себе си или семейството си",
-        "lv": "Neapmierinātība ar sevi – sajūta, ka esat neveiksminieks/-ce vai arī esat pievīlis/-usi savas vai ģimenes cerības",
-        "ms": "Rasa buruk mengenai diri anda — atau anda seorang yang gagal atau anda telah menyebabkan diri anda atau keluarga anda kecewa",
-        "pt-PT": "Senti que não gosto de mim próprio/a — ou que sou um(a) falhado/a ou me desiludi a mim próprio/a ou à minha família",
-        "ro": "Sentimente negative la adresa dvs. — sau că sunteţi un (o) ratat(ă) sau că v-aţi dezamăgit, pe dvs. sau familia dvs.",
-        "zh-CN": "不喜欢自己──觉得自己做得不好、对自己失望或有负家人 期望",
-        "sv": "Tycker illa om dig själv – eller att du känt dig misslyckad eller att du svikit dig själv eller din familj",
-        "uk": "Ви погано про себе думали — або Ви почувалися невдахою, або ж розчаровувались у собі, або думали, що підвели родину"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq9_6",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q6 of the PHQ-9 Assessment"
     },
+    "question": {
+        "ar": "\u0644\u0634\u0639\u0648\u0631 \u0628\u0639\u062f\u0645 \u0627\u0644\u0631\u0636\u0627 \u0639\u0646 \u0627\u0644\u0646\u0641\u0633 \u0623\u0648 \u0627\u0644\u0634\u0639\u0648\u0631 \u0628\u0623\u0646\u0643 \u0642\u062f \u0623\u062e\u0630\u0644\u062a \u0646\u0641\u0633\u0643 \u0623\u0648 \u0639\u0627\u0626\u0644\u062a\u0643",
+        "bg": "\u041e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u043d\u043e \u043c\u043d\u0435\u043d\u0438\u0435 \u0437\u0430 \u0441\u0435\u0431\u0435 \u0441\u0438 \u0438\u043b\u0438 \u0447\u0443\u0432\u0441\u0442\u0432\u043e, \u0447\u0435 \u0441\u0442\u0435 \u043d\u0435\u0443\u0434\u0430\u0447\u043d\u0438\u043a, \u0447\u0435 \u0441\u0442\u0435 \u0440\u0430\u0437\u043e\u0447\u0430\u0440\u043e\u0432\u0430\u043b\u0438 \u0441\u0435\u0431\u0435 \u0441\u0438 \u0438\u043b\u0438 \u0441\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u043e\u0442\u043e \u0441\u0438",
+        "en": "Feeling bad about yourself \u2014 or that you are a failure or have let yourself or your family down",
+        "es": "\u00bfSe ha sentido mal con usted mismo(a)  o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia",
+        "fi": "Tyytym\u00e4tt\u00f6myys omaan itseen \u2013 tai tunne, ett\u00e4 olette ep\u00e4onnistuneet tai laiminly\u00f6neet itsenne tai perheenne",
+        "fil": "Pagkaramdam ng masama tungkol sa iyong sarili \u2014 o na bigo ka o nabigo mo ang iyong sarili o ang iyong pamilya",
+        "fr": "Avoir une mauvaise opinion de soi-m\u00eame, ou avoir le sentiment d\u2019\u00eatre nul(le), ou d\u2019avoir d\u00e9\u00e7u sa famille ou s\u2019\u00eatred\u00e9\u00e7u(e) soi-m\u00eame",
+        "it": "Avere una scarsa opinione di s\u00e9, o sentirsi un/una fallito/a o aver deluso se stesso/a o i propri familiari",
+        "ja": "\u81ea\u5206\u306f\u30c0\u30e1\u306a\u4eba\u9593\u3060\u3001\u4eba\u751f\u306e\u6557\u5317\u8005\u3060\u3068\u6c17\u306b\u75c5\u3080\u3001\u307e\u305f\u306f\u81ea\u5206\u81ea\u8eab\u3042\u308b\u3044\u306f\u5bb6\u65cf\u306b\u7533\u3057\u8a33\u304c\u306a\u3044\u3068\u611f\u3058\u308b",
+        "kn": "\u2044\u0cae\u0cae\u0ccd \u0cac\u0c97\u0cc6\u0c97\u0ccd \u2044\u0cae\u0c97\u0cc6\u0cd5 \u0c95\u0cc6\u0c9f\u0c9f\u0ccd \u2003\u0cbe\u0cb5\u2064 \u2014 \u0c85\u0ca5\u2009\u0cbe \u2044\u0cd5\u0cb5\u0cc1 \u204e\u0cab\u0cb2\u0cb0\u0cc1 \u0c85\u0ca5\u2009\u0cbe \u2044\u0cd5\u0cb5\u0cc1 \u2044\u0cae\u0cae\u0ccd \u200d\u0cbe\u0c97\u0cc6\u0cc2 \u0c95\u0cc1\u0c9f\u0cc1\u0c82\u0cac\u0ca6\u0cb5\u0cb0 \u2044\u204b\u0cd5\u2083\u0c97\u0cbf\u0c82\u0ca4 \u0c95\u0cc6\u0cb3\u0cae\u0c9f\u0c9f\u0ccd\u0ca6\u204c\u0cb2\u0ccd\u2042\u0ca6\u0ccd\u0cd5\u204b \u0c8e\u0c82\u0cac \u2003\u0cbe\u0cb5\u2064",
+        "ko": "\uc790\uc2e0\uc744 \ubd80\uc815\uc801\uc73c\ub85c \ubd04 - \ud639\uc740 \uc790\uc2e0\uc774 \uc2e4\ud328\uc790\ub77c\uace0 \ub290\ub07c\uac70\ub098 \uc790\uc2e0 \ub610\ub294 \uac00\uc871\uc744 \uc2e4\ub9dd\uc2dc\ud0b4",
+        "lv": "Neapmierin\u0101t\u012bba ar sevi \u2013 saj\u016bta, ka esat neveiksminieks/-ce vai ar\u012b esat piev\u012blis/-usi savas vai \u0123imenes cer\u012bbas",
+        "ms": "Rasa buruk mengenai diri anda \u2014 atau anda seorang yang gagal atau anda telah menyebabkan diri anda atau keluarga anda kecewa",
+        "nl": "Een slecht gevoel hebben over uzelf \u2014 of het gevoel hebben dat u een mislukkeling bent of het gevoel dat u zichzelf of uw familie teleurgesteld hebt",
+        "no": "V\u00e6rt misforn\u00f8yd med deg selv eller f\u00f8lt deg mislykket - eller f\u00f8lt at du har sviktet deg selv eller familien din",
+        "pl": "Poczucie niezadowolenia z siebie \u2014 lub uczucie, \u017ce jest si\u0119 do niczego, albo \u017ce zawi\u00f3d\u0142/zawiod\u0142a Pan/Pani siebie lub rodzin\u0119",
+        "pt-br": "Se sentir mal consigo mesmo/a \u2014 ou achar que voc\u00ea \u00e9 um fracasso ou que decepcionou sua fam\u00edlia ou voc\u00ea mesmo/a",
+        "pt-pt": "Senti que n\u00e3o gosto de mim pr\u00f3prio/a \u2014 ou que sou um(a) falhado/a ou me desiludi a mim pr\u00f3prio/a ou \u00e0 minha fam\u00edlia",
+        "ro": "Sentimente negative la adresa dvs. \u2014 sau c\u0103 sunte\u0163i un (o) ratat(\u0103) sau c\u0103 v-a\u0163i dezam\u0103git, pe dvs. sau familia dvs.",
+        "ru": "\u0412\u044b \u043f\u043b\u043e\u0445\u043e \u043e \u0441\u0435\u0431\u0435 \u0434\u0443\u043c\u0430\u043b\u0438: \u0441\u0447\u0438\u0442\u0430\u043b\u0438 \u0441\u0435\u0431\u044f \u043d\u0435\u0443\u0434\u0430\u0447\u043d\u0438\u043a\u043e\u043c(\u043d\u0435\u0443\u0434\u0430\u0447\u043d\u0438\u0446\u0435\u0439), \u0438\u043b\u0438 \u0431\u044b\u043b\u0438 \u0432 \u0441\u0435\u0431\u0435 \u0440\u0430\u0437\u043e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u044b, \u0438\u043b\u0438 \u0441\u0447\u0438\u0442\u0430\u043b\u0438, \u0447\u0442\u043e \u043f\u043e\u0434\u0432\u0435\u043b\u0438 \u0441\u0432\u043e\u044e \u0441\u0435\u043c\u044c\u044e",
+        "sv": "Tycker illa om dig sj\u00e4lv \u2013 eller att du k\u00e4nt dig misslyckad eller att du svikit dig sj\u00e4lv eller din familj",
+        "uk": "\u0412\u0438 \u043f\u043e\u0433\u0430\u043d\u043e \u043f\u0440\u043e \u0441\u0435\u0431\u0435 \u0434\u0443\u043c\u0430\u043b\u0438 \u2014 \u0430\u0431\u043e \u0412\u0438 \u043f\u043e\u0447\u0443\u0432\u0430\u043b\u0438\u0441\u044f \u043d\u0435\u0432\u0434\u0430\u0445\u043e\u044e, \u0430\u0431\u043e \u0436 \u0440\u043e\u0437\u0447\u0430\u0440\u043e\u0432\u0443\u0432\u0430\u043b\u0438\u0441\u044c \u0443 \u0441\u043e\u0431\u0456, \u0430\u0431\u043e \u0434\u0443\u043c\u0430\u043b\u0438, \u0449\u043e \u043f\u0456\u0434\u0432\u0435\u043b\u0438 \u0440\u043e\u0434\u0438\u043d\u0443",
+        "zh-cn": "\u4e0d\u559c\u6b22\u81ea\u5df1\u2500\u2500\u89c9\u5f97\u81ea\u5df1\u505a\u5f97\u4e0d\u597d\u3001\u5bf9\u81ea\u5df1\u5931\u671b\u6216\u6709\u8d1f\u5bb6\u4eba \u671f\u671b"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ9-6"
+    }
 }

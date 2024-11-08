@@ -1,12 +1,96 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_bisbas01_schema",
-    "prefLabel": "ABCD Youth Behavioral Inhibition/Behavioral Approach System Scales Modified from PhenX (BIS/BAS)",
-    "altLabel": "abcd_bisbas01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_bisbas01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/bisbas1_y",
+                "variableName": "bisbas1_y"
+            },
+            {
+                "isAbout": "items/bisbas10_y",
+                "variableName": "bisbas10_y"
+            },
+            {
+                "isAbout": "items/bisbas11_y",
+                "variableName": "bisbas11_y"
+            },
+            {
+                "isAbout": "items/bisbas12_y",
+                "variableName": "bisbas12_y"
+            },
+            {
+                "isAbout": "items/bisbas13_y",
+                "variableName": "bisbas13_y"
+            },
+            {
+                "isAbout": "items/bisbas14_y",
+                "variableName": "bisbas14_y"
+            },
+            {
+                "isAbout": "items/bisbas15_y",
+                "variableName": "bisbas15_y"
+            },
+            {
+                "isAbout": "items/bisbas16_y",
+                "variableName": "bisbas16_y"
+            },
+            {
+                "isAbout": "items/bisbas17_y",
+                "variableName": "bisbas17_y"
+            },
+            {
+                "isAbout": "items/bisbas18_y",
+                "variableName": "bisbas18_y"
+            },
+            {
+                "isAbout": "items/bisbas19_y",
+                "variableName": "bisbas19_y"
+            },
+            {
+                "isAbout": "items/bisbas2_y",
+                "variableName": "bisbas2_y"
+            },
+            {
+                "isAbout": "items/bisbas20_y",
+                "variableName": "bisbas20_y"
+            },
+            {
+                "isAbout": "items/bisbas3_y",
+                "variableName": "bisbas3_y"
+            },
+            {
+                "isAbout": "items/bisbas4_y",
+                "variableName": "bisbas4_y"
+            },
+            {
+                "isAbout": "items/bisbas5_y",
+                "variableName": "bisbas5_y"
+            },
+            {
+                "isAbout": "items/bisbas5r_y",
+                "variableName": "bisbas5r_y"
+            },
+            {
+                "isAbout": "items/bisbas6_y",
+                "variableName": "bisbas6_y"
+            },
+            {
+                "isAbout": "items/bisbas7_y",
+                "variableName": "bisbas7_y"
+            },
+            {
+                "isAbout": "items/bisbas8_y",
+                "variableName": "bisbas8_y"
+            },
+            {
+                "isAbout": "items/bisbas9_y",
+                "variableName": "bisbas9_y"
+            }
+        ],
         "order": [
             "items/bisbas1_y",
             "items/bisbas2_y",
@@ -30,92 +114,12 @@
             "items/bisbas19_y",
             "items/bisbas20_y"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "bisbas1_y",
-                "isAbout": "items/bisbas1_y"
-            },
-            {
-                "variableName": "bisbas10_y",
-                "isAbout": "items/bisbas10_y"
-            },
-            {
-                "variableName": "bisbas11_y",
-                "isAbout": "items/bisbas11_y"
-            },
-            {
-                "variableName": "bisbas12_y",
-                "isAbout": "items/bisbas12_y"
-            },
-            {
-                "variableName": "bisbas13_y",
-                "isAbout": "items/bisbas13_y"
-            },
-            {
-                "variableName": "bisbas14_y",
-                "isAbout": "items/bisbas14_y"
-            },
-            {
-                "variableName": "bisbas15_y",
-                "isAbout": "items/bisbas15_y"
-            },
-            {
-                "variableName": "bisbas16_y",
-                "isAbout": "items/bisbas16_y"
-            },
-            {
-                "variableName": "bisbas17_y",
-                "isAbout": "items/bisbas17_y"
-            },
-            {
-                "variableName": "bisbas18_y",
-                "isAbout": "items/bisbas18_y"
-            },
-            {
-                "variableName": "bisbas19_y",
-                "isAbout": "items/bisbas19_y"
-            },
-            {
-                "variableName": "bisbas2_y",
-                "isAbout": "items/bisbas2_y"
-            },
-            {
-                "variableName": "bisbas20_y",
-                "isAbout": "items/bisbas20_y"
-            },
-            {
-                "variableName": "bisbas3_y",
-                "isAbout": "items/bisbas3_y"
-            },
-            {
-                "variableName": "bisbas4_y",
-                "isAbout": "items/bisbas4_y"
-            },
-            {
-                "variableName": "bisbas5_y",
-                "isAbout": "items/bisbas5_y"
-            },
-            {
-                "variableName": "bisbas5r_y",
-                "isAbout": "items/bisbas5r_y"
-            },
-            {
-                "variableName": "bisbas6_y",
-                "isAbout": "items/bisbas6_y"
-            },
-            {
-                "variableName": "bisbas7_y",
-                "isAbout": "items/bisbas7_y"
-            },
-            {
-                "variableName": "bisbas8_y",
-                "isAbout": "items/bisbas8_y"
-            },
-            {
-                "variableName": "bisbas9_y",
-                "isAbout": "items/bisbas9_y"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_bisbas01"
+    },
+    "prefLabel": {
+        "en": "ABCD Youth Behavioral Inhibition/Behavioral Approach System Scales Modified from PhenX (BIS/BAS)"
     }
 }

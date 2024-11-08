@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "MAAS_3",
-    "prefLabel": "MAAS 3",
-    "description": "Q3 of the Mindful Attention Awareness Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "MAAS_3",
+    "category": "Field",
+    "description": {
+        "en": "Q3 of the Mindful Attention Awareness Scale"
+    },
     "question": {
         "en": "I find it difficult to stay focused on what's happening in the present."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "MAAS 3"
+    }
 }

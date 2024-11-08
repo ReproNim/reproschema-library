@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_fo_ngd_dla",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_fo_ngd_dla",
-    "altLabel": "rsfmri_cor_network.gordon_frontoparietal_network.gordon_dorsalattn rsfmri_cor_networkgordon_frontoparietal_networkgordon_dorsalattn",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_fo_ngd_dla",
+    "category": "Field",
+    "question": {
+        "en": "Average correlation between fronto-parietal network and dorsal attention network"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Average correlation between fronto-parietal network and dorsal attention network",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_frontoparietal_network.gordon_dorsalattn rsfmri_cor_networkgordon_frontoparietal_networkgordon_dorsalattn"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_fo_ngd_dla"
     }
 }

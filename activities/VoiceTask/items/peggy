@@ -1,18 +1,26 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "peggy",
-    "prefLabel": "peggy_babcock",
-    "description": "peggy babcock task",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "peggy",
+    "category": "Field",
+    "description": {
+        "en": "peggy babcock task"
+    },
+    "question": {
+        "en": "It was the first day of school.  It was a tough day for all the kids.  One girl had a really hard time because nobody could say her name. Her name was Peggy Babcock. Go ahead. Try and say it three times quickly.  \"Peggy Babcock Peggy Babcock Peggy Babcock.\" Not easy going, right? She was afraid to say hello to any of the other kids on the playground.  One boy walked up to her and asked what her name was. She said \"When you hear my name it sounds simple but no one can say it. It is Peggy Babcock.\"  He laughed and said \"Your name is tricky but mine is better. It sounds simple but no one can remember it. It is Jonas Norvin Sven Arthur Schwinn Bart Winston Ulysses M.\"  Peggy laughed and said \"Easy. Your name sounds like 'Joan is nervous when others win. But you win some, you lose some.' How do you like my version?\" Jonas was so happy that he said \"Let\u2019s be friends.  I will call you PB.\" The pair of them stuck so close to each other that everyone at school called them \"PB and J."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "It was the first day of school.  It was a tough day for all the kids.  One girl had a really hard time because nobody could say her name. Her name was Peggy Babcock. Go ahead. Try and say it three times quickly.  \"Peggy Babcock Peggy Babcock Peggy Babcock.\" Not easy going, right? She was afraid to say hello to any of the other kids on the playground.  One boy walked up to her and asked what her name was. She said \"When you hear my name it sounds simple but no one can say it. It is Peggy Babcock.\"  He laughed and said \"Your name is tricky but mine is better. It sounds simple but no one can remember it. It is Jonas Norvin Sven Arthur Schwinn Bart Winston Ulysses M.\"  Peggy laughed and said \"Easy. Your name sounds like 'Joan is nervous when others win. But you win some, you lose some.' How do you like my version?\" Jonas was so happy that he said \"Let\u2019s be friends.  I will call you PB.\" The pair of them stuck so close to each other that everyone at school called them \"PB and J.",
     "ui": {
         "inputType": "audioPassageRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 170000,
         "minValue": 0,
-        "maxValue": 170000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "peggy_babcock"
     }
 }

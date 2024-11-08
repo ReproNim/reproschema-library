@@ -1,47 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_3c_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_3c_l",
-        "es": "tbi_3c_l_es"
-    },
-    "altLabel": "brain_injury_3c_l tbi_3c_p_l",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_3c_l",
+    "category": "Field",
     "question": {
         "en": "Was he/she dazed or did he/she have a gap in his/her memory from the injury?",
-        "es": "¿Se sintió él/ella aturdido, o tuvo lapsos de memoria por causa de la lesión?"
+        "es": "\u00bfSe sinti\u00f3 \u00e9l/ella aturdido, o tuvo lapsos de memoria por causa de la lesi\u00f3n?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "1 = Yes Si; 0 = No No"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes Si; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_3c_l tbi_3c_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_3c_l",
+        "es": "tbi_3c_l_es"
+    }
 }

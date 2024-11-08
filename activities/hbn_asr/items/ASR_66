@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASR_66",
-    "prefLabel": "ASR_66",
-    "description": "Q69 of the Questionnaire Measures of Emotional and Cognitive Status",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASR_66",
+    "category": "Field",
+    "description": {
+        "en": "Q69 of the Questionnaire Measures of Emotional and Cognitive Status"
+    },
     "question": {
         "en": "I repeat certain acts over and over (describe):"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASR_66"
+    }
 }

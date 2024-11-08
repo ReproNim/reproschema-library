@@ -1,26 +1,32 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "free_speech_general_mood",
-    "prefLabel": "Free speech general",
-    "description": "free speech item for voice task",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble":
-        {"en": "Hit record and respond to the questions",
-        "es": "Haga click en Grabar y responda las siguientes preguntas"
-        },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "free_speech_general_mood",
+    "category": "Field",
+    "description": {
+        "en": "free speech item for voice task"
+    },
     "question": {
         "en": "Tell us how you're feeling, and why you think you feel that way with as much detail as possible. Describe your emotions, bodily sensations and thoughts (click stop when you're done).",
-        "es": "Cuenta cómo te sientes y por qué piensas que te sientes de ese modo con el mayor detalle y profundidad posible. Describa tus emociones, sensaciones corporales y pensamientos (haga click en Pausar cuando hayas terminado)."
+        "es": "Cuenta c\u00f3mo te sientes y por qu\u00e9 piensas que te sientes de ese modo con el mayor detalle y profundidad posible. Describa tus emociones, sensaciones corporales y pensamientos (haga click en Pausar cuando hayas terminado)."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
+    "preamble": {
+        "en": "Hit record and respond to the questions",
+        "es": "Haga click en Grabar y responda las siguientes preguntas"
+    },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
-        "minValue": 0,
         "maxValue": 180000,
-        "multipleChoice": false
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Free speech general"
     }
 }

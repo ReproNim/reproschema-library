@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "asr_scr_perstr_r",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_perstr_r",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_perstr_r",
+    "category": "Field",
+    "question": {
+        "en": "Personal Strength ASR Adaptive Functioning Scale (raw score)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Personal Strength ASR Adaptive Functioning Scale (raw score)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 22,
         "minValue": 0,
-        "maxValue": 22
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "asr_scr_perstr_r"
     }
 }

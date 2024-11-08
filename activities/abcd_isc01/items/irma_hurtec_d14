@@ -1,46 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hurtec_d14",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtec_d14",
-        "es": "irma_hurtec_d14_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtec_d14",
+    "category": "Field",
     "question": {
-        "en": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el huracán,",
-        "es": "¿ usted penso que el huracán estaba causando un daño grave a tu casa, o que podrías perder tu casa?"
+        "en": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el hurac\u00e1n,",
+        "es": "\u00bf usted penso que el hurac\u00e1n estaba causando un da\u00f1o grave a tu casa, o que podr\u00edas perder tu casa?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "1 = Yes  Si; 0 = No No"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes  Si; 0 = No No"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtec_d14",
+        "es": "irma_hurtec_d14_es"
+    }
 }

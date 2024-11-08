@@ -1,15 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_xi_22",
+    "category": "Field",
+    "question": {
+        "en": "Used drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "dsm_5_xi_22",
-    "prefLabel": "dsm_5_xi_22",
-    "responseOptions": "../valueConstraints20to25",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Used drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)?"
+    "responseOptions": "../valueConstraints20to25",
+    "prefLabel": {
+        "en": "dsm_5_xi_22"
     }
 }

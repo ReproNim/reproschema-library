@@ -1,36 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CITSatisfaction_schema",
-    "prefLabel": {
-        "en": "CIT Satisfaction"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CITSatisfaction_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "CIT Satisfaction schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "CIT Satisfaction schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Life Satisfaction"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_life1",
-                "variableName": "cit_life1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_life1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_life2",
-                "variableName": "cit_life2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_life2"
             },
             {
-                "isAbout": "items/cit_life3",
-                "variableName": "cit_life3",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/cit_life3",
+                "isVis": true,
+                "variableName": "cit_life3"
             }
         ],
         "order": [
@@ -39,5 +37,11 @@
             "items/cit_life3"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Life Satisfaction"
+    },
+    "prefLabel": {
+        "en": "CIT Satisfaction"
     }
 }

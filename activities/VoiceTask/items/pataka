@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pataka",
-    "prefLabel": "Say pataka",
-    "description": "pataka task",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question":
-    {"en": "Click the Record button, take a deep breath and repeat the phrase “pa-ta-ka” as fast as you can <b>in one breath</b>.",
-    "es": "Haga clic en el botón Grabar, respire profundamente y repita la frase “pa-ta-ka” lo más rápido que pueda en <b>una sola respiración</b>."
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pataka",
+    "category": "Field",
+    "description": {
+        "en": "pataka task"
     },
+    "question": {
+        "en": "Click the Record button, take a deep breath and repeat the phrase \u201cpa-ta-ka\u201d as fast as you can <b>in one breath</b>.",
+        "es": "Haga clic en el bot\u00f3n Grabar, respire profundamente y repita la frase \u201cpa-ta-ka\u201d lo m\u00e1s r\u00e1pido que pueda en <b>una sola respiraci\u00f3n</b>."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "pataka_valueConstraints"
+    "responseOptions": "pataka_valueConstraints",
+    "prefLabel": {
+        "en": "Say pataka"
+    }
 }

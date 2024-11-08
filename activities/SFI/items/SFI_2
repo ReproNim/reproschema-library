@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SFI_2",
-    "prefLabel": "SFI 2",
-    "description": "Q2 of the Secure Flourish Index",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SFI_2",
+    "category": "Field",
+    "description": {
+        "en": "Q2 of the Secure Flourish Index"
+    },
     "question": {
         "en": "In general, how happy or unhappy do you usually feel?"
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints3"
+    "responseOptions": "../valueConstraints3",
+    "prefLabel": {
+        "en": "SFI 2"
+    }
 }

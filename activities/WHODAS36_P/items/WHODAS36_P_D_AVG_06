@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_D_AVG_06",
-    "prefLabel": "WHODAS 2.0 Proxy D6",
-    "description": "Domain 6 (Life Activities—School/Work) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS36_P_D_AVG_06",
+    "category": "Field",
+    "description": {
+        "en": "Domain 6 (Life Activities\u2014School/Work) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "number"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "minValue": 0,
-        "maxValue": 4
+        "maxValue": 4,
+        "minValue": 0
+    },
+    "prefLabel": {
+        "en": "WHODAS 2.0 Proxy D6"
     }
 }

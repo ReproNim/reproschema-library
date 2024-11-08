@@ -1,26 +1,31 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "free_speech_food",
-    "prefLabel": "Free response about favorite food",
-    "description": "7.\tFree speech in response to a few questions about food",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "free_speech_food",
+    "category": "Field",
+    "description": {
+        "en": "7.\tFree speech in response to a few questions about food"
+    },
+    "question": {
+        "en": "Describe your favorite food. What ingredients are in it? Why do you like it? What memories do you associate with it?",
+        "es": "Describe tu comida favorita. \u00bfQu\u00e9 ingredientes tiene? \u00bfPor qu\u00e9 te gusta? \u00bfQu\u00e9 recuerdos asocias con esta comida?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble":
-        {"en": "Hit record and respond to the questions",
-        "es": "Haga click en Grabar y responda las siguientes preguntas"
-        },
-    "question":
-        {"en": "Describe your favorite food. What ingredients are in it? Why do you like it? What memories do you associate with it?",
-        "es": "Describe tu comida favorita. ¿Qué ingredientes tiene? ¿Por qué te gusta? ¿Qué recuerdos asocias con esta comida?"
-        },
     "ui": {
         "inputType": "audioPassageRecord"
     },
+    "preamble": {
+        "en": "Hit record and respond to the questions",
+        "es": "Haga click en Grabar y responda las siguientes preguntas"
+    },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 120000,
         "minValue": 0,
-        "maxValue": 120000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Free response about favorite food"
     }
 }
-

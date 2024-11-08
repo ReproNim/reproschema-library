@@ -1,25 +1,31 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "kmart_exhale",
-    "prefLabel": "Kmart sentences (Exhale version)",
-    "description": "K-mart sentences read after exhaling.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kmart_exhale",
+    "category": "Field",
+    "description": {
+        "en": "K-mart sentences read after exhaling."
+    },
+    "question": {
+        "en": "The girl was thirsty and drank some juice, followed by a Coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
+        "es": "La ni\u00f1a ten\u00eda sed y bebi\u00f3 un poco de jugo, seguido de una Coca Cola. Tus pantalones buenos se ven geniales, sin embargo, tus pantalones rotos parecen una versi\u00f3n barata de la selecci\u00f3n de descuentos de Walmart. \u00bfEst\u00e1n manchados de aceite?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble":
-        {"en": "Click the Record button. Exhale and then read as much as you can at the end of exhalation. When you are done, click the Stop button to end recording.",
-        "es": "Haga clic en el botón Grabar. Exhala y luego lee todo lo que puedas al final de la exhalación. Cuando haya terminado, haga clic en el botón Detener para finalizar la grabación."
-        },
-    "question":
-        {"en": "The girl was thirsty and drank some juice, followed by a Coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
-        "es": "La niña tenía sed y bebió un poco de jugo, seguido de una Coca Cola. Tus pantalones buenos se ven geniales, sin embargo, tus pantalones rotos parecen una versión barata de la selección de descuentos de Walmart. ¿Están manchados de aceite?"
-        },
     "ui": {
         "inputType": "audioPassageRecord"
     },
+    "preamble": {
+        "en": "Click the Record button. Exhale and then read as much as you can at the end of exhalation. When you are done, click the Stop button to end recording.",
+        "es": "Haga clic en el bot\u00f3n Grabar. Exhala y luego lee todo lo que puedas al final de la exhalaci\u00f3n. Cuando haya terminado, haga clic en el bot\u00f3n Detener para finalizar la grabaci\u00f3n."
+    },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 30000,
         "minValue": 0,
-        "maxValue": 30000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Kmart sentences (Exhale version)"
     }
 }

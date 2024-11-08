@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "ksads_14_395_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_14_395_p",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_14_395_p",
+    "category": "Field",
+    "question": {
+        "en": "Symptom - Often doesn\u008a\u0097\u00c8t seem to listen when spoken to Present"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Often doesn\u008a\u0097\u00c8t seem to listen when spoken to Present",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_14_395_p"
     }
 }

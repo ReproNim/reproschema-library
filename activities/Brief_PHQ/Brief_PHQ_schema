@@ -1,78 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "Brief_PHQ_schema",
-    "prefLabel": {
-        "en": "Brief PHQ Assessment",
-        "es": "Breve PHQ Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "Brief_PHQ_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-9 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ-9 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
-    },
-    "compute": [
-        {
-            "variableName": "briefphq_total_score",
-            "jsExpression": " + briefphq1_total_score + briefphq2_total_score + briefphq_3 + briefphq4_total_score + briefphq_5 + briefphq_6 + briefphq_7 + briefphq8_total_score"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/Brief_PHQ_1schema",
-                "variableName": "Brief_PHQ_1schema",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "Brief_PHQ_1schema"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/Brief_PHQ_q2schema",
-                "variableName": "briefphq_1b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_1b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_3",
-                "variableName": "briefphq_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/Brief_PHQ_q4schema",
-                "variableName": "Brief_PHQ_q4schema",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "Brief_PHQ_q4schema"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_5",
-                "variableName": "briefphq_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_6",
-                "variableName": "briefphq_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/briefphq_7",
-                "variableName": "briefphq_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "briefphq_7"
             },
             {
-                "isAbout": "items/Brief_PHQ_q8schema",
-                "variableName": "Brief_PHQ_q8schema",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/Brief_PHQ_q8schema",
+                "isVis": true,
+                "variableName": "Brief_PHQ_q8schema"
             },
             {
                 "isAbout": "items/briefphq_total_score",
-                "variableName": "briefphq_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "briefphq_total_score"
             }
         ],
         "order": [
@@ -86,5 +77,18 @@
             "items/Brief_PHQ_q8schema"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": " + briefphq1_total_score + briefphq2_total_score + briefphq_3 + briefphq4_total_score + briefphq_5 + briefphq_6 + briefphq_7 + briefphq8_total_score",
+            "variableName": "briefphq_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "prefLabel": {
+        "en": "Brief PHQ Assessment",
+        "es": "Breve PHQ Evaluaci\u00f3n"
     }
 }

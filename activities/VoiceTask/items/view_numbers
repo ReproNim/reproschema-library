@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "view_numbers",
-    "prefLabel": "View numbers",
-    "description": "record yourself as you say these numbers out loud",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "view_numbers",
+    "category": "Field",
+    "description": {
+        "en": "record yourself as you say these numbers out loud"
+    },
+    "question": {
+        "en": "Record yourself as you say these numbers out loud, and memorize them."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Record yourself as you say these numbers out loud, and memorize them.",
     "ui": {
         "inputType": "audioRecordNumberTask"
     },
-    "responseOptions": "say_ah_valueConstraints"
+    "responseOptions": "say_ah_valueConstraints",
+    "prefLabel": {
+        "en": "View numbers"
+    }
 }

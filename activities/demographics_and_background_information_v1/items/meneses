@@ -1,24 +1,30 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "meneses",
-    "prefLabel": "meneses",
-    "ui": {
-        "inputType": "radio"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "meneses",
+    "category": "Field",
     "question": {
         "en": "Has your child  had her first period (menses)?"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
     },
     "responseOptions": {
         "choices": [
             {
-                "name": "Yes"
+                "name": {
+                    "en": "Yes"
+                }
             },
             {
-                "name": "No"
+                "name": {
+                    "en": "No"
+                }
             }
         ]
+    },
+    "prefLabel": {
+        "en": "meneses"
     }
 }

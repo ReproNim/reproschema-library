@@ -1,30 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "Domain5_schema",
-    "prefLabel": {
-        "en": "Domain 5"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "Domain5_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "Domain 5 schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "Domain 5 schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Domain 5: Close Social Relationships"
-    },
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/SFI_9",
-                "variableName": "SFI_9",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SFI_9",
+                "isVis": true,
+                "variableName": "SFI_9"
             },
             {
-                "isAbout": "items/SFI_10",
-                "variableName": "SFI_10",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SFI_10",
+                "isVis": true,
+                "variableName": "SFI_10"
             }
         ],
         "order": [
@@ -32,5 +30,11 @@
             "items/SFI_10"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Domain 5: Close Social Relationships"
+    },
+    "prefLabel": {
+        "en": "Domain 5"
     }
 }

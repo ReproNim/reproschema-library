@@ -1,37 +1,41 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq2i",
-    "prefLabel": "PHQ9a-9",
-    "description": "schema for Q9 of the derived PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq2i",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q9 of the derived PHQ-9 Assessment"
+    },
     "question": {
+        "ar": "\u0631\u0627\u0648\u062f\u062a\u0643 \u0623\u0641\u0643\u0627\u0631 \u0628\u0623\u0646\u0647 \u0645\u0646 \u0627\u0644\u0623\u0641\u0636\u0644 \u0644\u0648 \u0622\u0646\u062a \u0645\u064a\u062a\u0627 \u0623\u0648 \u0623\u0641\u0643\u0627\u0631 \u0628\u0623\u0646 \u062a\u0642\u0648\u0645 \u0628\u0625\u064a\u0630\u0627\u0621 \u0627\u0644\u0646\u0641\u0633",
+        "bg": "\u041c\u0438\u0441\u043b\u0438, \u0447\u0435 \u0435 \u043f\u043e-\u0434\u043e\u0431\u0440\u0435 \u0434\u0430 \u043d\u0435 \u0441\u0442\u0435 \u0436\u0438\u0432 (\u0430) \u0438\u043b\u0438 \u0436\u0435\u043b\u0430\u043d\u0438\u0435 \u0434\u0430 \u0441\u0435 \u043d\u0430\u0440\u0430\u043d\u0438\u0442\u0435 \u043f\u043e \u043d\u044f\u043a\u0430\u043a\u044a\u0432 \u043d\u0430\u0447\u0438\u043d",
         "en": "Thoughts that you would be better off dead or of hurting yourself in some way?",
-        "es": "¿Pensamientos de que sería mejor estar muerto o lastimarse de alguna manera?",
-        "nl": "Dacht je dat je beter af zou zijn als je dood bent of jezelf op de een of andere manier pijn doet?",
-        "fr": "Vous pensez que vous feriez mieux de mourir ou de vous blesser d'une manière ou d'une autre?",
-        "ar": "راودتك أفكار بأنه من الأفضل لو آنت ميتا أو أفكار بأن تقوم بإيذاء النفس",
-        "pt-BR": "Pensar em se ferir de alguma maneira ou que seria melhor estar morto/a",
-        "ko": "자신이 죽는 것이 더 낫다고 생각하거나 어떤 식으로든 자신을 해칠 것이라고 생각함",
-        "it": "Pensare che sarebbe meglio morire o farsi del male in un modo o nell’altro",
-        "ja": "死んだほうがましだ、あるいは自分を何らかの方法で傷つけようと 思ったことがある",
-        "fi": " Ajatukset, että voisi olla yhtä hyvin kuollut tai, että voisi vahingoittaa itseään jollakin tavalla",
+        "es": "\u00bfPensamientos de que ser\u00eda mejor estar muerto o lastimarse de alguna manera?",
+        "fi": " Ajatukset, ett\u00e4 voisi olla yht\u00e4 hyvin kuollut tai, ett\u00e4 voisi vahingoittaa itse\u00e4\u00e4n jollakin tavalla",
         "fil": "Nag-iisip na mas mabuting mamatay ka na lang o saktan mo ang iyong sarili sa ilang paraan",
-        "no": "Tanker om at du like gjerne kunne vært død eller på annen måte ville skade deg selv",
-        "kn": "⁄ೕವು ಸತತ್⁫ ⁗῿ಾನ್ಗಿರುತತ್⁢ ಎಂಬ ಅಥ ಾ  ಾವು´ಾದರೂ ⁋ೕ⁀ಯ⁌ಲ್ ⁄ಮಮ್ನುನ್ ‍ಾ⁄ಪ‽⁑ಕೊಳುಳ್ವ ⁶ೕಚ⁤ಗಳು",
-        "ru": "Вас посещали мысли о том, что Вам лучше было бы умереть, или о том, чтобы причинить себе какой-нибудь вред",
-        "pl": "Myśli, że lepiej byłoby umrzeć, albo chęć zrobienia sobie jakiejś krzywdy",
-        "bg": "Мисли, че е по-добре да не сте жив (а) или желание да се нараните по някакъв начин",
-        "lv": "Domas, ka labāk būtu nomirt vai kaut kā nodarīt sev pāri",
+        "fr": "Vous pensez que vous feriez mieux de mourir ou de vous blesser d'une mani\u00e8re ou d'une autre?",
+        "it": "Pensare che sarebbe meglio morire o farsi del male in un modo o nell\u2019altro",
+        "ja": "\u6b7b\u3093\u3060\u307b\u3046\u304c\u307e\u3057\u3060\u3001\u3042\u308b\u3044\u306f\u81ea\u5206\u3092\u4f55\u3089\u304b\u306e\u65b9\u6cd5\u3067\u50b7\u3064\u3051\u3088\u3046\u3068 \u601d\u3063\u305f\u3053\u3068\u304c\u3042\u308b",
+        "kn": "\u2044\u0cd5\u0cb5\u0cc1 \u0cb8\u0ca4\u0ca4\u0ccd\u206b \u2057\u1fff\u0cbe\u0ca8\u0ccd\u0c97\u0cbf\u0cb0\u0cc1\u0ca4\u0ca4\u0ccd\u2062 \u0c8e\u0c82\u0cac \u0c85\u0ca5\u2009\u0cbe \u2005\u0cbe\u0cb5\u0cc1\u1ffd\u0cbe\u0ca6\u0cb0\u0cc2 \u204b\u0cd5\u2040\u0caf\u204c\u0cb2\u0ccd \u2044\u0cae\u0cae\u0ccd\u0ca8\u0cc1\u0ca8\u0ccd \u200d\u0cbe\u2044\u0caa\u203d\u2051\u0c95\u0cc6\u0cc2\u0cb3\u0cc1\u0cb3\u0ccd\u0cb5 \u2076\u0cd5\u0c9a\u2064\u0c97\u0cb3\u0cc1",
+        "ko": "\uc790\uc2e0\uc774 \uc8fd\ub294 \uac83\uc774 \ub354 \ub0ab\ub2e4\uace0 \uc0dd\uac01\ud558\uac70\ub098 \uc5b4\ub5a4 \uc2dd\uc73c\ub85c\ub4e0 \uc790\uc2e0\uc744 \ud574\uce60 \uac83\uc774\ub77c\uace0 \uc0dd\uac01\ud568",
+        "lv": "Domas, ka lab\u0101k b\u016btu nomirt vai kaut k\u0101 nodar\u012bt sev p\u0101ri",
         "ms": "Memikirkan adalah lebih baik saja jika anda mati atau mencederakan diri sendiri dalam beberapa cara",
-        "ro": "Gânduri că v-ar fi mai bine mort sau gândul de a vă face vreun rău",
-        "zh-CN": "想到自己最好去死或者自残",
-        "sv": "Tankar att det skulle vara bättre om du var död eller att du skulle skada dig på något sätt",
-        "uk": "У Вас були думки, що Вам краще б померти, або Ви думали про те, щоб заподіяти собі яку-небудь шкоду"
-     },
+        "nl": "Dacht je dat je beter af zou zijn als je dood bent of jezelf op de een of andere manier pijn doet?",
+        "no": "Tanker om at du like gjerne kunne v\u00e6rt d\u00f8d eller p\u00e5 annen m\u00e5te ville skade deg selv",
+        "pl": "My\u015bli, \u017ce lepiej by\u0142oby umrze\u0107, albo ch\u0119\u0107 zrobienia sobie jakiej\u015b krzywdy",
+        "pt-br": "Pensar em se ferir de alguma maneira ou que seria melhor estar morto/a",
+        "ro": "G\u00e2nduri c\u0103 v-ar fi mai bine mort sau g\u00e2ndul de a v\u0103 face vreun r\u0103u",
+        "ru": "\u0412\u0430\u0441 \u043f\u043e\u0441\u0435\u0449\u0430\u043b\u0438 \u043c\u044b\u0441\u043b\u0438 \u043e \u0442\u043e\u043c, \u0447\u0442\u043e \u0412\u0430\u043c \u043b\u0443\u0447\u0448\u0435 \u0431\u044b\u043b\u043e \u0431\u044b \u0443\u043c\u0435\u0440\u0435\u0442\u044c, \u0438\u043b\u0438 \u043e \u0442\u043e\u043c, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u0438\u0447\u0438\u043d\u0438\u0442\u044c \u0441\u0435\u0431\u0435 \u043a\u0430\u043a\u043e\u0439-\u043d\u0438\u0431\u0443\u0434\u044c \u0432\u0440\u0435\u0434",
+        "sv": "Tankar att det skulle vara b\u00e4ttre om du var d\u00f6d eller att du skulle skada dig p\u00e5 n\u00e5got s\u00e4tt",
+        "uk": "\u0423 \u0412\u0430\u0441 \u0431\u0443\u043b\u0438 \u0434\u0443\u043c\u043a\u0438, \u0449\u043e \u0412\u0430\u043c \u043a\u0440\u0430\u0449\u0435 \u0431 \u043f\u043e\u043c\u0435\u0440\u0442\u0438, \u0430\u0431\u043e \u0412\u0438 \u0434\u0443\u043c\u0430\u043b\u0438 \u043f\u0440\u043e \u0442\u0435, \u0449\u043e\u0431 \u0437\u0430\u043f\u043e\u0434\u0456\u044f\u0442\u0438 \u0441\u043e\u0431\u0456 \u044f\u043a\u0443-\u043d\u0435\u0431\u0443\u0434\u044c \u0448\u043a\u043e\u0434\u0443",
+        "zh-cn": "\u60f3\u5230\u81ea\u5df1\u6700\u597d\u53bb\u6b7b\u6216\u8005\u81ea\u6b8b"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints2"
+    "responseOptions": "../valueConstraints2",
+    "prefLabel": {
+        "en": "PHQ9a-9"
+    }
 }

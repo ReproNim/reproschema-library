@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_1",
-    "prefLabel": "Self compassion 1",
-    "description": "Q1 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_1",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the Self Compassion Scale"
+    },
     "question": {
         "en": "I'm disapproving and judgemental about my own flaws and inadequacies."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 1"
+    }
 }

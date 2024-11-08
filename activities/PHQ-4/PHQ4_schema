@@ -1,54 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ4_schema",
-    "prefLabel": {
-        "en": "PHQ-4 Assessment",
-        "es": "PHQ-4 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ4_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-4 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ-4 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
-    },
-    "compute": [
-        {
-            "variableName": "phq4_total_score",
-            "jsExpression": "phq4_1 + phq4_2 + phq4_3 + phq4_4"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4_1",
-                "variableName": "phq4_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4_2",
-                "variableName": "phq4_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq4_3",
-                "variableName": "phq4_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq4_3"
             },
             {
-                "isAbout": "items/phq4_4",
-                "variableName": "phq4_4",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq4_4",
+                "isVis": true,
+                "variableName": "phq4_4"
             },
             {
                 "isAbout": "items/phq4_total_score",
-                "variableName": "phq4_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq4_total_score"
             }
         ],
         "order": [
@@ -58,5 +49,18 @@
             "items/phq4_4"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq4_1 + phq4_2 + phq4_3 + phq4_4",
+            "variableName": "phq4_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "prefLabel": {
+        "en": "PHQ-4 Assessment",
+        "es": "PHQ-4 Evaluaci\u00f3n"
     }
 }

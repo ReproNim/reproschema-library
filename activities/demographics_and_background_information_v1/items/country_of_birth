@@ -1,18 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "country_of_birth",
-    "prefLabel": "Country of birth",
-    "description": "schema for Country of birth of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "country_of_birth",
+    "category": "Field",
+    "description": {
+        "en": "schema for Country of birth of participant"
+    },
+    "question": {
+        "en": "Country of birth (as in birth certificate)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Country of birth (as in birth certificate)",
     "ui": {
         "inputType": "selectCountry"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 50,
-        "choices": "https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-name.json"
+        "choices": [
+            "https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-name.json"
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Country of birth"
     }
 }

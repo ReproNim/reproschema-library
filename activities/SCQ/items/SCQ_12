@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SCQ_12",
-    "prefLabel": "SCQ Q12",
-    "description": "Q12 of the Social Communication Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SCQ_12",
+    "category": "Field",
+    "description": {
+        "en": "Q12 of the Social Communication Questionnaire"
+    },
     "question": {
         "en": "Does she/he ever seem to be more interested in parts of a toy or an object (e.g., spinning the wheels of a car), rather than in using the object as it was intended?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "SCQ Q12"
+    }
 }

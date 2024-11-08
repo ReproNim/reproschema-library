@@ -1,31 +1,35 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_7e_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_7e_l",
-        "es": "tbi_7e_l_es"
-    },
-    "altLabel": "brain_injury_7e_l tbi_7e_p_l",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_7e_l",
+    "category": "Field",
     "question": {
         "en": "At what age did these effects begin?",
-        "es": "¿A qué edad comenzaron estos efectos?"
+        "es": "\u00bfA qu\u00e9 edad comenzaron estos efectos?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": ""
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 20,
         "minValue": 7,
-        "maxValue": 20
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": ""
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_7e_l tbi_7e_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_7e_l",
+        "es": "tbi_7e_l_es"
+    }
 }

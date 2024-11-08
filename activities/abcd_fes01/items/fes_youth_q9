@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "fes_youth_q9",
-    "@type": "reproschema:Field",
-    "prefLabel": "fes_youth_q9",
-    "altLabel": "fes_q9",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "fes_youth_q9",
+    "category": "Field",
+    "question": {
+        "en": "In our family, we believe you don't ever get anywhere by raising your voice."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "In our family, we believe you don't ever get anywhere by raising your voice.",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = True; 1 = False"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "True",
+                "name": {
+                    "en": "True"
+                },
                 "value": 0
             },
             {
-                "name": "False",
+                "name": {
+                    "en": "False"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = True; 1 = False"
-        }
-    ]
+    "altLabel": {
+        "en": "fes_q9"
+    },
+    "prefLabel": {
+        "en": "fes_youth_q9"
+    }
 }

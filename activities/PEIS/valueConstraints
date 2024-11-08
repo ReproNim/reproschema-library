@@ -1,11 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "valueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 0,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "valueConstraints",
+    "category": "ResponseOption",
     "maxValue": 4,
-    "multipleChoice": false,
+    "minValue": 0,
     "choices": [
         {
             "name": {
@@ -35,12 +33,17 @@
             },
             "value": 3
         },
-                {
+        {
             "name": {
                 "en": "Extremely",
                 "es": ""
             },
             "value": 4
         }
-    ]
+    ],
+    "multipleChoice": false,
+    "valueType": [
+        "xsd:integer"
+    ],
+    "schemaVersion": "1.0.0"
 }

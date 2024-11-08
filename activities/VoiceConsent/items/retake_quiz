@@ -1,14 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "retake_quiz",
-    "prefLabel": "Consent Retake Quiz",
-    "altLabel": "consent_retake_quiz",
-    "description": "retake quiz for voice study",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "retake_quiz",
+    "category": "Field",
+    "description": {
+        "en": "retake quiz for voice study"
+    },
+    "question": {
+        "en": "<h3>You\u2019re almost there!</h3>\n          <p>You answered one or more questions incorrectly. We want to make sure that you understand what this study is about and what is involved before you proceed. Please review the sections and correct the answer(s). </p>"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "<h3>You\u2019re almost there!</h3>\n          <p>You answered one or more questions incorrectly. We want to make sure that you understand what this study is about and what is involved before you proceed. Please review the sections and correct the answer(s). </p>",
     "ui": {
         "inputType": "static"
+    },
+    "altLabel": {
+        "en": "consent_retake_quiz"
+    },
+    "prefLabel": {
+        "en": "Consent Retake Quiz"
     }
 }

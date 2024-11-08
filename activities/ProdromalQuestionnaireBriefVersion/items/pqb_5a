@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_5a",
-    "prefLabel": "PQ-B-5a",
-    "description": "Q5a of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_5a",
+    "category": "Field",
+    "description": {
+        "en": "Q5a of the PQ-B Assessment"
+    },
     "question": {
         "en": "When this happens, I feel frightened, concerned, or it causes problems for me:",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pqb_Xa_valueConstraints"
+    "responseOptions": "../pqb_Xa_valueConstraints",
+    "prefLabel": {
+        "en": "PQ-B-5a"
+    }
 }

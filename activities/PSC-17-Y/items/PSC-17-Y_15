@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "PSC-17-Y_15",
-    "prefLabel": "PSC-17-Y_15",
-    "description": "schema for Q15 of the PSC-17-Y Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PSC-17-Y_15",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q15 of the PSC-17-Y Assessment"
+    },
     "question": {
         "en": "Worry a lot",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PSC-17-Y_15"
+    }
 }

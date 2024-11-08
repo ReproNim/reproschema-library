@@ -1,27 +1,31 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "nasal_pinched",
-    "prefLabel": "Sentences with high frequency of nasals spoken with a nasal pinch",
-    "description": "Sentences with high frequency of nasals, spoken while pinching the nose",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble":
-        {
-        "en": "Click Record and read the following two sentences while pinching your nose. Click the Stop button when finished.",
-        "es": "Haga clic en Grabar y lea las dos oraciones siguientes mientras se pellizca la nariz. Haga clic en el botón Detener cuando haya terminado."
-        },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "nasal_pinched",
+    "category": "Field",
+    "description": {
+        "en": "Sentences with high frequency of nasals, spoken while pinching the nose"
+    },
     "question": {
         "en": "Let me sing by the moon with novel phonemes. There is nothing in my spoon to use as a sling.",
-        "es": "Déjame cantar junto a la luna con nuevos fonemas. No tengo una cuchara para usar como honda."
+        "es": "D\u00e9jame cantar junto a la luna con nuevos fonemas. No tengo una cuchara para usar como honda."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioPassageRecord"
     },
+    "preamble": {
+        "en": "Click Record and read the following two sentences while pinching your nose. Click the Stop button when finished.",
+        "es": "Haga clic en Grabar y lea las dos oraciones siguientes mientras se pellizca la nariz. Haga clic en el bot\u00f3n Detener cuando haya terminado."
+    },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 20000,
         "minValue": 0,
-        "maxValue": 20000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Sentences with high frequency of nasals spoken with a nasal pinch"
     }
 }
-

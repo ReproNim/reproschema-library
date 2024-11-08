@@ -1,25 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "medhx_ss_9b_p_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "medhx_ss_9b_p_l",
-    "altLabel": "medhx_ss_9b_anesthesia_times_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "medhx_ss_9b_p_l",
+    "category": "Field",
+    "question": {
+        "en": "Has he/she ever had general anesthesia or sedation for any surgery or procedure?\nHow many times?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Has he/she ever had general anesthesia or sedation for any surgery or procedure?\nHow many times?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "If yes is endorsed,  parent is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [medhx_9b_l]."
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 15,
         "minValue": 0,
-        "maxValue": 15
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "If yes is endorsed,  parent is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [medhx_9b_l]."
-        }
-    ]
+    "altLabel": {
+        "en": "medhx_ss_9b_anesthesia_times_p_l"
+    },
+    "prefLabel": {
+        "en": "medhx_ss_9b_p_l"
+    }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "LAS_8",
-    "prefLabel": "LAS 8",
-    "description": "Q8 of the Lyubomirsky Affect Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "LAS_8",
+    "category": "Field",
+    "description": {
+        "en": "Q8 of the Lyubomirsky Affect Scale"
+    },
     "question": {
         "en": "Unhappy"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "LAS 8"
+    }
 }

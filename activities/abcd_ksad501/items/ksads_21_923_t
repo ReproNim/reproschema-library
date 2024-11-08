@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "ksads_21_923_t",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_21_923_t",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_21_923_t",
+    "category": "Field",
+    "question": {
+        "en": "Diagnosis - Other Specified Trauma-and Stressor-Related Disorder, present (PTSD, impairment, does not meet full criteria (F43.8)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Diagnosis - Other Specified Trauma-and Stressor-Related Disorder, present (PTSD, impairment, does not meet full criteria (F43.8)",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_21_923_t"
     }
 }

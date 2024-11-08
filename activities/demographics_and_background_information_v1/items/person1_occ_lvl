@@ -1,67 +1,71 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "person1_occ_lvl",
-    "prefLabel": "person1_occ_lvl",
-    "ui": {
-        "inputType": "select"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "person1_occ_lvl",
+    "category": "Field",
     "question": {
         "en": "Highest Occupational Level for Person 1"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
+    },
     "responseOptions": {
-        "valueType": "xsd:integer",
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "No paid employment"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Unskilled employee"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Machine operator"
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Skilled manual employee"
-                }
+                },
+                "value": 4
             },
             {
-                "value": 5,
                 "name": {
                     "en": "Clerical or sales worker"
-                }
+                },
+                "value": 5
             },
             {
-                "value": 6,
                 "name": {
                     "en": "Administrative personnel"
-                }
+                },
+                "value": 6
             },
             {
-                "value": 7,
                 "name": {
                     "en": "Business manager of large concern"
-                }
+                },
+                "value": 7
             },
             {
-                "value": 8,
                 "name": {
                     "en": "Higher executive"
-                }
+                },
+                "value": 8
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "person1_occ_lvl"
     }
 }

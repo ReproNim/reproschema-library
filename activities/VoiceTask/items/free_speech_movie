@@ -1,22 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "free_speech_movie",
-    "prefLabel": "Free speech movie",
-    "description": "free speech item for voice task",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "free_speech_movie",
+    "category": "Field",
+    "description": {
+        "en": "free speech item for voice task"
+    },
     "question": {
         "en": "Please state the name of the last movie or television show that you were really \"struck by\". Describe three things that made it memorable.",
-        "es": "Por favor diga el nombre de la última película o serie que realmente te cautivó. Describa tres cosas que la hicieron memorable."
+        "es": "Por favor diga el nombre de la \u00faltima pel\u00edcula o serie que realmente te cautiv\u00f3. Describa tres cosas que la hicieron memorable."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
-        "minValue": 0,
         "maxValue": 120000,
-        "multipleChoice": false
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Free speech movie"
     }
 }

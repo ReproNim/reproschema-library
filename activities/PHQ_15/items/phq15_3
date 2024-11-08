@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq15_3",
-    "prefLabel": "PHQ 15 q3",
-    "description": "Q3 of the PHQ 15 Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq15_3",
+    "category": "Field",
+    "description": {
+        "en": "Q3 of the PHQ 15 Assessment"
+    },
+    "question": {
+        "en": "Pain in your arms, legs, or joints (knees, hips, etc.)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Pain in your arms, legs, or joints (knees, hips, etc.)",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ 15 q3"
+    }
 }

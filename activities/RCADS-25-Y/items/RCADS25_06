@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "RCADS25_06",
-    "prefLabel": "RCADS-25 Youth Assessment Q6",
-    "description": "Question 6 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Youth-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "RCADS25_06",
+    "category": "Field",
+    "description": {
+        "en": "Question 6 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Youth-Administered Version"
+    },
+    "question": {
+        "en": "I am afraid of being in crowded places (like shopping centers, the movies, buses, busy playgrounds)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I am afraid of being in crowded places (like shopping centers, the movies, buses, busy playgrounds)",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "RCADS-25 Youth Assessment Q6"
+    }
 }

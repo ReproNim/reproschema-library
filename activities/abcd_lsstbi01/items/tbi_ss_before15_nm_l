@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_ss_before15_nm_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "tbi_ss_before15_nm_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_ss_before15_nm_l",
+    "category": "Field",
+    "question": {
+        "en": "TBI-LOC before age 15\nnumber missing"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "TBI-LOC before age 15\nnumber missing",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "tbi_ss_before15_nm_l"
     }
 }

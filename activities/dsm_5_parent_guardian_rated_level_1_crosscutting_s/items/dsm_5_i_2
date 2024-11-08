@@ -1,15 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_i_2",
+    "category": "Field",
+    "question": {
+        "en": "Said he/she was worried about his/her health or about getting sick?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "dsm_5_i_2",
-    "prefLabel": "dsm_5_i_2",
-    "responseOptions": "../valueConstraintsFirst19",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Said he/she was worried about his/her health or about getting sick?"
+    "responseOptions": "../valueConstraintsFirst19",
+    "prefLabel": {
+        "en": "dsm_5_i_2"
     }
 }

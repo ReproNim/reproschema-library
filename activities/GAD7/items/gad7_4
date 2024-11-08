@@ -1,38 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "gad7_4",
-    "prefLabel": "GAD7-4",
-    "description": "Q4 of the GAD7 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "gad7_4",
+    "category": "Field",
+    "description": {
+        "en": "Q4 of the GAD7 Assessment"
+    },
     "question": {
+        "ar": ".\u0627\u0644\u0627\u0633\u062a\u0631\u062e\u0627\u0621 \u0641\u064a \u0627\u0644\u0635\u0639\u0648\u0628\u0629",
+        "bg": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u0438 \u0441 \u043e\u0442\u043f\u0443\u0441\u043a\u0430\u043d\u0435\u0442\u043e",
+        "da": "Haft sv\u00e6rt ved at slappe af",
         "en": "Trouble relaxing",
         "es": "Tener problemas para relajarse",
-        "ar": ".الاسترخاء في الصعوبة",
-        "nl": "Moeite hebben u te ontspannen",
-        "fr": "Des difficultés à se détendre",
-        "it": "Avere difficoltà a rilassars",
-        "pt-BR": "Dificuldade para relaxar",
-        "fil": "Hirap na makapag-relax",
         "fi": "Minun on ollut vaikea rentoutua",
-        "kn": "⁄ ಾಳ ಾ‵ರಲು ⁠ೂಂದ⁫",
-        "ko": "편하게 있기가 어렵다",
-        "no": "Vansker med å slappe av",
-        "pl": "Miał(a) Pan(i) trudności z relaksowaniem się",
-        "pt-PT": "Tive dificuldade em relaxar",
-        "ro": "Dificultăţi de relaxare",
-        "ru": "Вам было трудно расслабиться",
-        "zh-CN": "难以放松",
-        "bg": "Проблеми с отпускането",
-        "da": "Haft svært ved at slappe af",
-        "lv": "Grūtības atslābināties",
-        "sv": "Haft svårt att slappna av",
+        "fil": "Hirap na makapag-relax",
+        "fr": "Des difficult\u00e9s \u00e0 se d\u00e9tendre",
+        "it": "Avere difficolt\u00e0 a rilassars",
+        "kn": "\u2044\u2006\u0cbe\u0cb3\u2009\u0cbe\u2035\u0cb0\u0cb2\u0cc1 \u2060\u0cc2\u0c82\u0ca6\u206b",
+        "ko": "\ud3b8\ud558\uac8c \uc788\uae30\uac00 \uc5b4\ub835\ub2e4",
+        "lv": "Gr\u016bt\u012bbas atsl\u0101bin\u0101ties",
         "ms": "Sukar untuk relaks",
-        "uk": "Вам було важко розслабитись"
+        "nl": "Moeite hebben u te ontspannen",
+        "no": "Vansker med \u00e5 slappe av",
+        "pl": "Mia\u0142(a) Pan(i) trudno\u015bci z relaksowaniem si\u0119",
+        "pt-br": "Dificuldade para relaxar",
+        "pt-pt": "Tive dificuldade em relaxar",
+        "ro": "Dificult\u0103\u0163i de relaxare",
+        "ru": "\u0412\u0430\u043c \u0431\u044b\u043b\u043e \u0442\u0440\u0443\u0434\u043d\u043e \u0440\u0430\u0441\u0441\u043b\u0430\u0431\u0438\u0442\u044c\u0441\u044f",
+        "sv": "Haft sv\u00e5rt att slappna av",
+        "uk": "\u0412\u0430\u043c \u0431\u0443\u043b\u043e \u0432\u0430\u0436\u043a\u043e \u0440\u043e\u0437\u0441\u043b\u0430\u0431\u0438\u0442\u0438\u0441\u044c",
+        "zh-cn": "\u96be\u4ee5\u653e\u677e"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "GAD7-4"
+    }
 }

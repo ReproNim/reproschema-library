@@ -1,67 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_dsm5_7",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_dsm5_7",
-        "es": "irma_dsm5_7_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_dsm5_7",
+    "category": "Field",
     "question": {
         "en": "7. I don't feel like doing things with my family or friends or other things that I liked to do.",
         "es": "7. No tengo ganas de hacer cosas con mi familia o amigos u otras cosas que me gusta hacer."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = None (Never)0  De ningun modo (Nunca)0; 1 = Little (2 days over the past month)1  Un poco (2 dias durante el ultimo mes)1; 2 = Some (1-2 days a week)2  A veces (1-2 dias a la semana)2; 3 = Much (2-3 days a week)3  Mucho (2-3 dias a la semana)3; 4 = Most (Almost every day)4 Munchisimo (Casi todos los dias)4"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "None (Never) ",
                     "es": "De ningun modo (Nunca) "
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "Little (2 days over the past month) ",
                     "es": "Un poco (2 dias durante el ultimo mes) "
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Some (1-2 days a week) ",
                     "es": "A veces (1-2 dias a la semana) "
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Much (2-3 days a week) ",
                     "es": "Mucho (2-3 dias a la semana) "
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Most (Almost every day)",
                     "es": "Munchisimo (Casi todos los dias)"
-                }
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = None (Never)0  De ningun modo (Nunca)0; 1 = Little (2 days over the past month)1  Un poco (2 dias durante el ultimo mes)1; 2 = Some (1-2 days a week)2  A veces (1-2 dias a la semana)2; 3 = Much (2-3 days a week)3  Mucho (2-3 dias a la semana)3; 4 = Most (Almost every day)4 Munchisimo (Casi todos los dias)4"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_dsm5_7",
+        "es": "irma_dsm5_7_es"
+    }
 }

@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "eventname",
-    "prefLabel": "Eventname",
-    "description": "schema for eventname",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "eventname",
+    "category": "Field",
+    "description": {
+        "en": "schema for eventname"
+    },
+    "question": {
+        "en": "The event name for which the data was collected"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "The event name for which the data was collected",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Eventname"
     }
 }

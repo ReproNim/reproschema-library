@@ -1,20 +1,26 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "cbcl_q33_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "cbcl_q33_p",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "cbcl_q33_p",
+    "category": "Field",
     "question": {
         "en": "Feels or complains that no one loves him/her ",
         "es": "Siente o se queja de que nadie lo/la quiere"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = Not True /No es cierto (que sepa usted); 1 = Somewhat/Sometimes True  /En cierta manera; 2 = Very True/Often True/ Muy cierto o cierto con frecuencia// Below is a list of items that describe children and youths. For each item that describes your child now or within the past 6 months"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 2,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -33,18 +39,16 @@
             {
                 "name": {
                     "en": "Very True/Often True",
-                     "es": "Muy cierto o cierto con frecuencia"
+                    "es": "Muy cierto o cierto con frecuencia"
                 },
                 "value": 2
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = Not True /No es cierto (que sepa usted); 1 = Somewhat/Sometimes True  /En cierta manera; 2 = Very True/Often True/ Muy cierto o cierto con frecuencia// Below is a list of items that describe children and youths. For each item that describes your child now or within the past 6 months"
-        }
-    ]
+    "prefLabel": {
+        "en": "cbcl_q33_p"
+    }
 }

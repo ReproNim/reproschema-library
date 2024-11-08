@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "bads_4",
-    "prefLabel": "BADS-4",
-    "description": "Q4 of the BADS Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bads_4",
+    "category": "Field",
+    "description": {
+        "en": "Q4 of the BADS Assessment"
+    },
+    "question": {
+        "en": "I made good decisions about what type of activities and/or situations I put myself in"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I made good decisions about what type of activities and/or situations I put myself in",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "BADS-4"
+    }
 }

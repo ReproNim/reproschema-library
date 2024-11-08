@@ -1,46 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hurtep_b7___2",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_b7___2",
-        "es": "irma_hurtep_b7___2_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_b7___2",
+    "category": "Field",
     "question": {
         "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
-        "es": "¿Cómo obtuvo noticias de información sobre el huracán? Marque todo lo que corresponda. (2, Internet (e.g., online news) Internet (e.g., noticias del internet))"
+        "es": "\u00bfC\u00f3mo obtuvo noticias de informaci\u00f3n sobre el hurac\u00e1n? Marque todo lo que corresponda. (2, Internet (e.g., online news) Internet (e.g., noticias del internet))"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "Yes",
                     "es": "Si"
-                }
+                },
+                "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_b7___2",
+        "es": "irma_hurtep_b7___2_es"
+    }
 }

@@ -1,46 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hurtep_d1___7",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_d1___7",
-        "es": "irma_hurtep_d1___7_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_d1___7",
+    "category": "Field",
     "question": {
-        "en": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el huracÃ¡n? (puedes verificar mÃ¡s de uno) (7, other",
+        "en": "Where was your child during the Hurricane? (you can check more than one) Donde estaba su hijo(a) durante el hurac\u00c3\u00a1n? (puedes verificar m\u00c3\u00a1s de uno) (7, other",
         "es": "Otro)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "Yes",
                     "es": "Si"
-                }
+                },
+                "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_d1___7",
+        "es": "irma_hurtep_d1___7_es"
+    }
 }

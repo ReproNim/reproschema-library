@@ -1,14 +1,16 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "other_persons_instructions",
+    "category": "Field",
+    "question": {
+        "en": "Using the scale above, rate the Education and Occupation information for up to two additional individuals who significantly contribute to the participant's current living expenses. Identify the person you are inquiring about"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "other_persons_instructions",
-    "prefLabel": "other_persons_instructions",
     "ui": {
         "inputType": "static"
     },
-    "question": {
-        "en": "Using the scale above, rate the Education and Occupation information for up to two additional individuals who significantly contribute to the participant's current living expenses. Identify the person you are inquiring about"
+    "prefLabel": {
+        "en": "other_persons_instructions"
     }
 }

@@ -1,15 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_vi_8",
+    "category": "Field",
+    "question": {
+        "en": "Seemed angry or lost his/her temper?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "dsm_5_vi_8",
-    "prefLabel": "dsm_5_vi_8",
-    "responseOptions": "../valueConstraintsFirst19",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Seemed angry or lost his/her temper?"
+    "responseOptions": "../valueConstraintsFirst19",
+    "prefLabel": {
+        "en": "dsm_5_vi_8"
     }
 }

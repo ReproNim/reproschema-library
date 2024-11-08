@@ -1,19 +1,29 @@
 {
-  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-  "@type": "reproschema:Field",
-  "@id": "open_response_rest_of_your_day",
-  "prefLabel": "Rest of your day",
-  "description": "Rest of your day",
-  "schemaVersion": "1.0.0-rc4",
-  "version": "0.0.1",
-  "preamble": "Please respond to the following prompt with as much detail as possible.",
-  "question": "How can the rest of your day be a bit better?",
-  "ui": {
-    "inputType": "audioPassageRecord"
-  },
-  "responseOptions": {
-    "valueType": "schema:AudioObject",
-    "minValue": 0,
-    "maxValue": 30000
-  }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "open_response_rest_of_your_day",
+    "category": "Field",
+    "description": {
+        "en": "Rest of your day"
+    },
+    "question": {
+        "en": "How can the rest of your day be a bit better?"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "preamble": {
+        "en": "Please respond to the following prompt with as much detail as possible."
+    },
+    "responseOptions": {
+        "maxValue": 30000,
+        "minValue": 0,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Rest of your day"
+    }
 }

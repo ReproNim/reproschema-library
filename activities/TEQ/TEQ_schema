@@ -1,114 +1,112 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "TEQ_schema",
-    "prefLabel": {
-        "en": "Toronto Empathy Questionnaire Assessment"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "TEQ_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "Self Compassion schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "Self Compassion schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Please read each statement below carefully and rate how frequently you feel or act in the manner described. There are no right or wrong answers or trick questions. Please answer each question as honestly as you can."
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_1",
-                "variableName": "TEQ_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_2",
-                "variableName": "TEQ_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_3",
-                "variableName": "TEQ_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_4",
-                "variableName": "TEQ_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_5",
-                "variableName": "TEQ_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_6",
-                "variableName": "TEQ_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_7",
-                "variableName": "TEQ_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_7"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_8",
-                "variableName": "TEQ_8",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_8"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_9",
-                "variableName": "TEQ_9",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_9"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_10",
-                "variableName": "TEQ_10",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_10"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_11",
-                "variableName": "TEQ_11",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_11"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_12",
-                "variableName": "TEQ_12",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_12"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_13",
-                "variableName": "TEQ_13",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_13"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_14",
-                "variableName": "TEQ_14",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_14"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/TEQ_15",
-                "variableName": "TEQ_15",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "TEQ_15"
             },
             {
-                "isAbout": "items/TEQ_16",
-                "variableName": "TEQ_16",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/TEQ_16",
+                "isVis": true,
+                "variableName": "TEQ_16"
             }
         ],
         "order": [
@@ -130,5 +128,11 @@
             "items/TEQ_16"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Please read each statement below carefully and rate how frequently you feel or act in the manner described. There are no right or wrong answers or trick questions. Please answer each question as honestly as you can."
+    },
+    "prefLabel": {
+        "en": "Toronto Empathy Questionnaire Assessment"
     }
 }

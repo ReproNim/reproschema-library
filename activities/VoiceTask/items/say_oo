@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "say_oo",
-    "prefLabel": "Say Oo",
-    "description": "say ah for 10 seconds",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "say_oo",
+    "category": "Field",
+    "description": {
+        "en": "say ah for 10 seconds"
+    },
     "question": {
         "en": "Using your normal voice, take a deep breath and say \"oo\" as in \"moon\" until you run completely out of air.",
         "es": "Usando su voz normal, respire hondo y diga \"uuu\" como en \"luna\" hasta que usted se quede completamente sin aire."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "say_ah_valueConstraints"
+    "responseOptions": "say_ah_valueConstraints",
+    "prefLabel": {
+        "en": "Say Oo"
+    }
 }

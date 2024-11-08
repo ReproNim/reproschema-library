@@ -1,20 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "mania_score",
-    "prefLabel": "mania_score",
-    "ui": {
-        "inputType": "static"
-    },
-    "responseOptions": {
-        "valueType": "float"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "mania_score",
+    "category": "Field",
+    "description": {
+        "en": "@HIDDEN"
     },
     "question": {
         "en": "Mania Rating DSM 5"
     },
-    "description": {
-        "en": "@HIDDEN"
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": [
+            "float"
+        ]
+    },
+    "prefLabel": {
+        "en": "mania_score"
     }
 }

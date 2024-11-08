@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SCQ_21",
-    "prefLabel": "SCQ Q21",
-    "description": "Q21 of the Social Communication Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SCQ_21",
+    "category": "Field",
+    "description": {
+        "en": "Q21 of the Social Communication Questionnaire"
+    },
     "question": {
         "en": "Does she/he ever spontaneously copy you (or other people) or what you are doing (such as vacuuming, gardening, or mending things)?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "SCQ Q21"
+    }
 }

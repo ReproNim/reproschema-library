@@ -1,46 +1,62 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "person1_education",
-    "prefLabel": "person1_education",
-    "ui": {
-        "inputType": "select"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "person1_education",
+    "category": "Field",
     "question": {
         "en": "Person 1 Education Level"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
     },
     "responseOptions": {
         "choices": [
             {
-                "value": 1,
-                "name": "Under 7 years of Schooling (Specify Grade Below) "
+                "name": {
+                    "en": "Under 7 years of Schooling (Specify Grade Below) "
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "Junior High School (6-8th Grade) (Specify Grade Below) "
+                "name": {
+                    "en": "Junior High School (6-8th Grade) (Specify Grade Below) "
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "Partial High School (9-12th Grade) (Specify Grade Below) "
+                "name": {
+                    "en": "Partial High School (9-12th Grade) (Specify Grade Below) "
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "High School Graduate "
+                "name": {
+                    "en": "High School Graduate "
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "Partial College Training "
+                "name": {
+                    "en": "Partial College Training "
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "Standard College University Graduate "
+                "name": {
+                    "en": "Standard College University Graduate "
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "Completed Graduate Professional Training"
+                "name": {
+                    "en": "Completed Graduate Professional Training"
+                },
+                "value": 7
             }
         ]
+    },
+    "prefLabel": {
+        "en": "person1_education"
     }
 }

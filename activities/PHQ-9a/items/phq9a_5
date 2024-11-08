@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "phq9a_5",
-    "@type": "reproschema:Field",
-    "prefLabel": "PHQ9a-5",
-    "description": "schema for Q5 of the derived PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq9a_5",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q5 of the derived PHQ-9 Assessment"
+    },
+    "question": {
+        "en": "Poor appetite or overeating?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Poor appetite or overeating?",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ9a-5"
+    }
 }

@@ -1,67 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_pssp_2",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_pssp_2",
-        "es": "irma_pssp_2_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_pssp_2",
+    "category": "Field",
     "question": {
         "en": "2. In the last month, how often have you felt that you were unable to control the important things in your life? 2.",
-        "es": "En el último mes, ¿con qué frecuencia sintió que no podía controlar las cosas importantes en su vida?"
+        "es": "En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia sinti\u00f3 que no pod\u00eda controlar las cosas importantes en su vida?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = Never0  Nunca0; 1 = Almost Never1  Casi nunca1; 2 = Sometimes2  A veces2; 3 = Fairly Often3  Bastante a menudo3; 4 = Very Often4 Muchisimo a menudo4"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "Never",
                     "es": "Nunca"
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "Almost Never ",
                     "es": "Casi nunca "
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Sometimes ",
                     "es": "A veces "
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Fairly Often ",
                     "es": "Bastante a menudo "
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Very Often",
                     "es": "Muchisimo a menudo"
-                }
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = Never0  Nunca0; 1 = Almost Never1  Casi nunca1; 2 = Sometimes2  A veces2; 3 = Fairly Often3  Bastante a menudo3; 4 = Very Often4 Muchisimo a menudo4"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_pssp_2",
+        "es": "irma_pssp_2_es"
+    }
 }

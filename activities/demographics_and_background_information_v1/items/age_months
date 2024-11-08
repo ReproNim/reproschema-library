@@ -1,23 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "age_months",
+    "category": "Field",
+    "question": {
+        "en": "Additional Months old"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "age_months",
-    "prefLabel": "age_months",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:int"
+        "valueType": [
+            "xsd:int"
+        ]
     },
-    "question": {
-        "en": "Additional Months old"
-    },
-    "identifiable": [
-        {
-            "legalStandard": "unknown",
-            "isIdentifier": true
-        }
-    ]
+    "prefLabel": {
+        "en": "age_months"
+    }
 }

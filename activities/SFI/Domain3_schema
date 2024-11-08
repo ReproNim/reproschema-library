@@ -1,30 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "Domain3_schema",
-    "prefLabel": {
-        "en": "Domain 3"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "Domain3_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "Domain 3 schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "Domain 3 schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Domain 3: Meaning and Purpose"
-    },
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/SFI_5",
-                "variableName": "SFI_5",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SFI_5",
+                "isVis": true,
+                "variableName": "SFI_5"
             },
             {
-                "isAbout": "items/SFI_6",
-                "variableName": "SFI_6",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SFI_6",
+                "isVis": true,
+                "variableName": "SFI_6"
             }
         ],
         "order": [
@@ -32,5 +30,11 @@
             "items/SFI_6"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Domain 3: Meaning and Purpose"
+    },
+    "prefLabel": {
+        "en": "Domain 3"
     }
 }

@@ -1,15 +1,544 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_ip01_schema",
-    "prefLabel": {
-        "en": "ABCD Irma Substudy Parent",
-        "es": "abcd_ip01_es"
-    },
-    "altLabel": "abcd_ip01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_ip01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/irma_gatea_p",
+                "variableName": "irma_gatea_p"
+            },
+            {
+                "isAbout": "items/irma_gateb_p",
+                "variableName": "irma_gateb_p"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_1",
+                "variableName": "irma_hcpmq_1"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_10",
+                "variableName": "irma_hcpmq_10"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_11",
+                "variableName": "irma_hcpmq_11"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_12",
+                "variableName": "irma_hcpmq_12"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_13",
+                "variableName": "irma_hcpmq_13"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_14",
+                "variableName": "irma_hcpmq_14"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_15",
+                "variableName": "irma_hcpmq_15"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_16",
+                "variableName": "irma_hcpmq_16"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_2",
+                "variableName": "irma_hcpmq_2"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_3",
+                "variableName": "irma_hcpmq_3"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_4",
+                "variableName": "irma_hcpmq_4"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_5",
+                "variableName": "irma_hcpmq_5"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_6",
+                "variableName": "irma_hcpmq_6"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_7",
+                "variableName": "irma_hcpmq_7"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_8",
+                "variableName": "irma_hcpmq_8"
+            },
+            {
+                "isAbout": "items/irma_hcpmq_9",
+                "variableName": "irma_hcpmq_9"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a1",
+                "variableName": "irma_hurtep_a1"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a10",
+                "variableName": "irma_hurtep_a10"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a11",
+                "variableName": "irma_hurtep_a11"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a12",
+                "variableName": "irma_hurtep_a12"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a13",
+                "variableName": "irma_hurtep_a13"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a14",
+                "variableName": "irma_hurtep_a14"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a15",
+                "variableName": "irma_hurtep_a15"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a16",
+                "variableName": "irma_hurtep_a16"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a17",
+                "variableName": "irma_hurtep_a17"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a18",
+                "variableName": "irma_hurtep_a18"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a19",
+                "variableName": "irma_hurtep_a19"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a2",
+                "variableName": "irma_hurtep_a2"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a20",
+                "variableName": "irma_hurtep_a20"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a21a",
+                "variableName": "irma_hurtep_a21a"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a21b",
+                "variableName": "irma_hurtep_a21b"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a21c",
+                "variableName": "irma_hurtep_a21c"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a21d",
+                "variableName": "irma_hurtep_a21d"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a21e",
+                "variableName": "irma_hurtep_a21e"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a3",
+                "variableName": "irma_hurtep_a3"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a4",
+                "variableName": "irma_hurtep_a4"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a5",
+                "variableName": "irma_hurtep_a5"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a6",
+                "variableName": "irma_hurtep_a6"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a7",
+                "variableName": "irma_hurtep_a7"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a8",
+                "variableName": "irma_hurtep_a8"
+            },
+            {
+                "isAbout": "items/irma_hurtep_a9",
+                "variableName": "irma_hurtep_a9"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b10",
+                "variableName": "irma_hurtep_b10"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b11",
+                "variableName": "irma_hurtep_b11"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b12",
+                "variableName": "irma_hurtep_b12"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b13",
+                "variableName": "irma_hurtep_b13"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b14",
+                "variableName": "irma_hurtep_b14"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b15",
+                "variableName": "irma_hurtep_b15"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b16",
+                "variableName": "irma_hurtep_b16"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b17",
+                "variableName": "irma_hurtep_b17"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b18",
+                "variableName": "irma_hurtep_b18"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b1a",
+                "variableName": "irma_hurtep_b1a"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b1b",
+                "variableName": "irma_hurtep_b1b"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b1c",
+                "variableName": "irma_hurtep_b1c"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b2",
+                "variableName": "irma_hurtep_b2"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b3",
+                "variableName": "irma_hurtep_b3"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b4",
+                "variableName": "irma_hurtep_b4"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b5",
+                "variableName": "irma_hurtep_b5"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b6",
+                "variableName": "irma_hurtep_b6"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b7___1",
+                "variableName": "irma_hurtep_b7___1"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b7___2",
+                "variableName": "irma_hurtep_b7___2"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b7___3",
+                "variableName": "irma_hurtep_b7___3"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b7___4",
+                "variableName": "irma_hurtep_b7___4"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b7___5",
+                "variableName": "irma_hurtep_b7___5"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b7___6",
+                "variableName": "irma_hurtep_b7___6"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b8",
+                "variableName": "irma_hurtep_b8"
+            },
+            {
+                "isAbout": "items/irma_hurtep_b9",
+                "variableName": "irma_hurtep_b9"
+            },
+            {
+                "isAbout": "items/irma_hurtep_c1",
+                "variableName": "irma_hurtep_c1"
+            },
+            {
+                "isAbout": "items/irma_hurtep_c2",
+                "variableName": "irma_hurtep_c2"
+            },
+            {
+                "isAbout": "items/irma_hurtep_c3",
+                "variableName": "irma_hurtep_c3"
+            },
+            {
+                "isAbout": "items/irma_hurtep_c4",
+                "variableName": "irma_hurtep_c4"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d1___1",
+                "variableName": "irma_hurtep_d1___1"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d1___2",
+                "variableName": "irma_hurtep_d1___2"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d1___3",
+                "variableName": "irma_hurtep_d1___3"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d1___4",
+                "variableName": "irma_hurtep_d1___4"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d1___5",
+                "variableName": "irma_hurtep_d1___5"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d1___6",
+                "variableName": "irma_hurtep_d1___6"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d1___7",
+                "variableName": "irma_hurtep_d1___7"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d10",
+                "variableName": "irma_hurtep_d10"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d11",
+                "variableName": "irma_hurtep_d11"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d12",
+                "variableName": "irma_hurtep_d12"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d13",
+                "variableName": "irma_hurtep_d13"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d14",
+                "variableName": "irma_hurtep_d14"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d15",
+                "variableName": "irma_hurtep_d15"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d16",
+                "variableName": "irma_hurtep_d16"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d17",
+                "variableName": "irma_hurtep_d17"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d18",
+                "variableName": "irma_hurtep_d18"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d19",
+                "variableName": "irma_hurtep_d19"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d2",
+                "variableName": "irma_hurtep_d2"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d20",
+                "variableName": "irma_hurtep_d20"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d3",
+                "variableName": "irma_hurtep_d3"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d4",
+                "variableName": "irma_hurtep_d4"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d5",
+                "variableName": "irma_hurtep_d5"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d6",
+                "variableName": "irma_hurtep_d6"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d7",
+                "variableName": "irma_hurtep_d7"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d8",
+                "variableName": "irma_hurtep_d8"
+            },
+            {
+                "isAbout": "items/irma_hurtep_d9",
+                "variableName": "irma_hurtep_d9"
+            },
+            {
+                "isAbout": "items/irma_meqp_1",
+                "variableName": "irma_meqp_1"
+            },
+            {
+                "isAbout": "items/irma_meqp_10",
+                "variableName": "irma_meqp_10"
+            },
+            {
+                "isAbout": "items/irma_meqp_11",
+                "variableName": "irma_meqp_11"
+            },
+            {
+                "isAbout": "items/irma_meqp_12",
+                "variableName": "irma_meqp_12"
+            },
+            {
+                "isAbout": "items/irma_meqp_13",
+                "variableName": "irma_meqp_13"
+            },
+            {
+                "isAbout": "items/irma_meqp_14",
+                "variableName": "irma_meqp_14"
+            },
+            {
+                "isAbout": "items/irma_meqp_15",
+                "variableName": "irma_meqp_15"
+            },
+            {
+                "isAbout": "items/irma_meqp_16",
+                "variableName": "irma_meqp_16"
+            },
+            {
+                "isAbout": "items/irma_meqp_17",
+                "variableName": "irma_meqp_17"
+            },
+            {
+                "isAbout": "items/irma_meqp_2",
+                "variableName": "irma_meqp_2"
+            },
+            {
+                "isAbout": "items/irma_meqp_3",
+                "variableName": "irma_meqp_3"
+            },
+            {
+                "isAbout": "items/irma_meqp_4",
+                "variableName": "irma_meqp_4"
+            },
+            {
+                "isAbout": "items/irma_meqp_5",
+                "variableName": "irma_meqp_5"
+            },
+            {
+                "isAbout": "items/irma_meqp_6",
+                "variableName": "irma_meqp_6"
+            },
+            {
+                "isAbout": "items/irma_meqp_7",
+                "variableName": "irma_meqp_7"
+            },
+            {
+                "isAbout": "items/irma_meqp_8",
+                "variableName": "irma_meqp_8"
+            },
+            {
+                "isAbout": "items/irma_meqp_9",
+                "variableName": "irma_meqp_9"
+            },
+            {
+                "isAbout": "items/irma_pssp_1",
+                "variableName": "irma_pssp_1"
+            },
+            {
+                "isAbout": "items/irma_pssp_10",
+                "variableName": "irma_pssp_10"
+            },
+            {
+                "isAbout": "items/irma_pssp_2",
+                "variableName": "irma_pssp_2"
+            },
+            {
+                "isAbout": "items/irma_pssp_3",
+                "variableName": "irma_pssp_3"
+            },
+            {
+                "isAbout": "items/irma_pssp_4",
+                "variableName": "irma_pssp_4"
+            },
+            {
+                "isAbout": "items/irma_pssp_5",
+                "variableName": "irma_pssp_5"
+            },
+            {
+                "isAbout": "items/irma_pssp_6",
+                "variableName": "irma_pssp_6"
+            },
+            {
+                "isAbout": "items/irma_pssp_7",
+                "variableName": "irma_pssp_7"
+            },
+            {
+                "isAbout": "items/irma_pssp_8",
+                "variableName": "irma_pssp_8"
+            },
+            {
+                "isAbout": "items/irma_pssp_9",
+                "variableName": "irma_pssp_9"
+            },
+            {
+                "isAbout": "items/irmasubirmap2_select_lg_1",
+                "variableName": "irmasubirmap2_select_lg_1"
+            },
+            {
+                "isAbout": "items/irmasubirmap3_select_lg_1",
+                "variableName": "irmasubirmap3_select_lg_1"
+            },
+            {
+                "isAbout": "items/irmasubirmap4_select_lg_1",
+                "variableName": "irmasubirmap4_select_lg_1"
+            },
+            {
+                "isAbout": "items/irmasubirmap5_select_lg_1",
+                "variableName": "irmasubirmap5_select_lg_1"
+            },
+            {
+                "isAbout": "items/irmasubirmap6_select_lg_1",
+                "variableName": "irmasubirmap6_select_lg_1"
+            },
+            {
+                "isAbout": "items/irmasubirmap7_select_lg_1",
+                "variableName": "irmasubirmap7_select_lg_1"
+            },
+            {
+                "isAbout": "items/irmasubirmap8_select_lg_1",
+                "variableName": "irmasubirmap8_select_lg_1"
+            },
+            {
+                "isAbout": "items/irmasubirmaparent_select_lg_1",
+                "variableName": "irmasubirmaparent_select_lg_1"
+            }
+        ],
         "order": [
             "items/irma_gatea_p",
             "items/irma_gateb_p",
@@ -145,540 +674,13 @@
             "items/irmasubirmap8_select_lg_1",
             "items/irmasubirmaparent_select_lg_1"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "irma_gatea_p",
-                "isAbout": "items/irma_gatea_p"
-            },
-            {
-                "variableName": "irma_gateb_p",
-                "isAbout": "items/irma_gateb_p"
-            },
-            {
-                "variableName": "irma_hcpmq_1",
-                "isAbout": "items/irma_hcpmq_1"
-            },
-            {
-                "variableName": "irma_hcpmq_10",
-                "isAbout": "items/irma_hcpmq_10"
-            },
-            {
-                "variableName": "irma_hcpmq_11",
-                "isAbout": "items/irma_hcpmq_11"
-            },
-            {
-                "variableName": "irma_hcpmq_12",
-                "isAbout": "items/irma_hcpmq_12"
-            },
-            {
-                "variableName": "irma_hcpmq_13",
-                "isAbout": "items/irma_hcpmq_13"
-            },
-            {
-                "variableName": "irma_hcpmq_14",
-                "isAbout": "items/irma_hcpmq_14"
-            },
-            {
-                "variableName": "irma_hcpmq_15",
-                "isAbout": "items/irma_hcpmq_15"
-            },
-            {
-                "variableName": "irma_hcpmq_16",
-                "isAbout": "items/irma_hcpmq_16"
-            },
-            {
-                "variableName": "irma_hcpmq_2",
-                "isAbout": "items/irma_hcpmq_2"
-            },
-            {
-                "variableName": "irma_hcpmq_3",
-                "isAbout": "items/irma_hcpmq_3"
-            },
-            {
-                "variableName": "irma_hcpmq_4",
-                "isAbout": "items/irma_hcpmq_4"
-            },
-            {
-                "variableName": "irma_hcpmq_5",
-                "isAbout": "items/irma_hcpmq_5"
-            },
-            {
-                "variableName": "irma_hcpmq_6",
-                "isAbout": "items/irma_hcpmq_6"
-            },
-            {
-                "variableName": "irma_hcpmq_7",
-                "isAbout": "items/irma_hcpmq_7"
-            },
-            {
-                "variableName": "irma_hcpmq_8",
-                "isAbout": "items/irma_hcpmq_8"
-            },
-            {
-                "variableName": "irma_hcpmq_9",
-                "isAbout": "items/irma_hcpmq_9"
-            },
-            {
-                "variableName": "irma_hurtep_a1",
-                "isAbout": "items/irma_hurtep_a1"
-            },
-            {
-                "variableName": "irma_hurtep_a10",
-                "isAbout": "items/irma_hurtep_a10"
-            },
-            {
-                "variableName": "irma_hurtep_a11",
-                "isAbout": "items/irma_hurtep_a11"
-            },
-            {
-                "variableName": "irma_hurtep_a12",
-                "isAbout": "items/irma_hurtep_a12"
-            },
-            {
-                "variableName": "irma_hurtep_a13",
-                "isAbout": "items/irma_hurtep_a13"
-            },
-            {
-                "variableName": "irma_hurtep_a14",
-                "isAbout": "items/irma_hurtep_a14"
-            },
-            {
-                "variableName": "irma_hurtep_a15",
-                "isAbout": "items/irma_hurtep_a15"
-            },
-            {
-                "variableName": "irma_hurtep_a16",
-                "isAbout": "items/irma_hurtep_a16"
-            },
-            {
-                "variableName": "irma_hurtep_a17",
-                "isAbout": "items/irma_hurtep_a17"
-            },
-            {
-                "variableName": "irma_hurtep_a18",
-                "isAbout": "items/irma_hurtep_a18"
-            },
-            {
-                "variableName": "irma_hurtep_a19",
-                "isAbout": "items/irma_hurtep_a19"
-            },
-            {
-                "variableName": "irma_hurtep_a2",
-                "isAbout": "items/irma_hurtep_a2"
-            },
-            {
-                "variableName": "irma_hurtep_a20",
-                "isAbout": "items/irma_hurtep_a20"
-            },
-            {
-                "variableName": "irma_hurtep_a21a",
-                "isAbout": "items/irma_hurtep_a21a"
-            },
-            {
-                "variableName": "irma_hurtep_a21b",
-                "isAbout": "items/irma_hurtep_a21b"
-            },
-            {
-                "variableName": "irma_hurtep_a21c",
-                "isAbout": "items/irma_hurtep_a21c"
-            },
-            {
-                "variableName": "irma_hurtep_a21d",
-                "isAbout": "items/irma_hurtep_a21d"
-            },
-            {
-                "variableName": "irma_hurtep_a21e",
-                "isAbout": "items/irma_hurtep_a21e"
-            },
-            {
-                "variableName": "irma_hurtep_a3",
-                "isAbout": "items/irma_hurtep_a3"
-            },
-            {
-                "variableName": "irma_hurtep_a4",
-                "isAbout": "items/irma_hurtep_a4"
-            },
-            {
-                "variableName": "irma_hurtep_a5",
-                "isAbout": "items/irma_hurtep_a5"
-            },
-            {
-                "variableName": "irma_hurtep_a6",
-                "isAbout": "items/irma_hurtep_a6"
-            },
-            {
-                "variableName": "irma_hurtep_a7",
-                "isAbout": "items/irma_hurtep_a7"
-            },
-            {
-                "variableName": "irma_hurtep_a8",
-                "isAbout": "items/irma_hurtep_a8"
-            },
-            {
-                "variableName": "irma_hurtep_a9",
-                "isAbout": "items/irma_hurtep_a9"
-            },
-            {
-                "variableName": "irma_hurtep_b10",
-                "isAbout": "items/irma_hurtep_b10"
-            },
-            {
-                "variableName": "irma_hurtep_b11",
-                "isAbout": "items/irma_hurtep_b11"
-            },
-            {
-                "variableName": "irma_hurtep_b12",
-                "isAbout": "items/irma_hurtep_b12"
-            },
-            {
-                "variableName": "irma_hurtep_b13",
-                "isAbout": "items/irma_hurtep_b13"
-            },
-            {
-                "variableName": "irma_hurtep_b14",
-                "isAbout": "items/irma_hurtep_b14"
-            },
-            {
-                "variableName": "irma_hurtep_b15",
-                "isAbout": "items/irma_hurtep_b15"
-            },
-            {
-                "variableName": "irma_hurtep_b16",
-                "isAbout": "items/irma_hurtep_b16"
-            },
-            {
-                "variableName": "irma_hurtep_b17",
-                "isAbout": "items/irma_hurtep_b17"
-            },
-            {
-                "variableName": "irma_hurtep_b18",
-                "isAbout": "items/irma_hurtep_b18"
-            },
-            {
-                "variableName": "irma_hurtep_b1a",
-                "isAbout": "items/irma_hurtep_b1a"
-            },
-            {
-                "variableName": "irma_hurtep_b1b",
-                "isAbout": "items/irma_hurtep_b1b"
-            },
-            {
-                "variableName": "irma_hurtep_b1c",
-                "isAbout": "items/irma_hurtep_b1c"
-            },
-            {
-                "variableName": "irma_hurtep_b2",
-                "isAbout": "items/irma_hurtep_b2"
-            },
-            {
-                "variableName": "irma_hurtep_b3",
-                "isAbout": "items/irma_hurtep_b3"
-            },
-            {
-                "variableName": "irma_hurtep_b4",
-                "isAbout": "items/irma_hurtep_b4"
-            },
-            {
-                "variableName": "irma_hurtep_b5",
-                "isAbout": "items/irma_hurtep_b5"
-            },
-            {
-                "variableName": "irma_hurtep_b6",
-                "isAbout": "items/irma_hurtep_b6"
-            },
-            {
-                "variableName": "irma_hurtep_b7___1",
-                "isAbout": "items/irma_hurtep_b7___1"
-            },
-            {
-                "variableName": "irma_hurtep_b7___2",
-                "isAbout": "items/irma_hurtep_b7___2"
-            },
-            {
-                "variableName": "irma_hurtep_b7___3",
-                "isAbout": "items/irma_hurtep_b7___3"
-            },
-            {
-                "variableName": "irma_hurtep_b7___4",
-                "isAbout": "items/irma_hurtep_b7___4"
-            },
-            {
-                "variableName": "irma_hurtep_b7___5",
-                "isAbout": "items/irma_hurtep_b7___5"
-            },
-            {
-                "variableName": "irma_hurtep_b7___6",
-                "isAbout": "items/irma_hurtep_b7___6"
-            },
-            {
-                "variableName": "irma_hurtep_b8",
-                "isAbout": "items/irma_hurtep_b8"
-            },
-            {
-                "variableName": "irma_hurtep_b9",
-                "isAbout": "items/irma_hurtep_b9"
-            },
-            {
-                "variableName": "irma_hurtep_c1",
-                "isAbout": "items/irma_hurtep_c1"
-            },
-            {
-                "variableName": "irma_hurtep_c2",
-                "isAbout": "items/irma_hurtep_c2"
-            },
-            {
-                "variableName": "irma_hurtep_c3",
-                "isAbout": "items/irma_hurtep_c3"
-            },
-            {
-                "variableName": "irma_hurtep_c4",
-                "isAbout": "items/irma_hurtep_c4"
-            },
-            {
-                "variableName": "irma_hurtep_d1___1",
-                "isAbout": "items/irma_hurtep_d1___1"
-            },
-            {
-                "variableName": "irma_hurtep_d1___2",
-                "isAbout": "items/irma_hurtep_d1___2"
-            },
-            {
-                "variableName": "irma_hurtep_d1___3",
-                "isAbout": "items/irma_hurtep_d1___3"
-            },
-            {
-                "variableName": "irma_hurtep_d1___4",
-                "isAbout": "items/irma_hurtep_d1___4"
-            },
-            {
-                "variableName": "irma_hurtep_d1___5",
-                "isAbout": "items/irma_hurtep_d1___5"
-            },
-            {
-                "variableName": "irma_hurtep_d1___6",
-                "isAbout": "items/irma_hurtep_d1___6"
-            },
-            {
-                "variableName": "irma_hurtep_d1___7",
-                "isAbout": "items/irma_hurtep_d1___7"
-            },
-            {
-                "variableName": "irma_hurtep_d10",
-                "isAbout": "items/irma_hurtep_d10"
-            },
-            {
-                "variableName": "irma_hurtep_d11",
-                "isAbout": "items/irma_hurtep_d11"
-            },
-            {
-                "variableName": "irma_hurtep_d12",
-                "isAbout": "items/irma_hurtep_d12"
-            },
-            {
-                "variableName": "irma_hurtep_d13",
-                "isAbout": "items/irma_hurtep_d13"
-            },
-            {
-                "variableName": "irma_hurtep_d14",
-                "isAbout": "items/irma_hurtep_d14"
-            },
-            {
-                "variableName": "irma_hurtep_d15",
-                "isAbout": "items/irma_hurtep_d15"
-            },
-            {
-                "variableName": "irma_hurtep_d16",
-                "isAbout": "items/irma_hurtep_d16"
-            },
-            {
-                "variableName": "irma_hurtep_d17",
-                "isAbout": "items/irma_hurtep_d17"
-            },
-            {
-                "variableName": "irma_hurtep_d18",
-                "isAbout": "items/irma_hurtep_d18"
-            },
-            {
-                "variableName": "irma_hurtep_d19",
-                "isAbout": "items/irma_hurtep_d19"
-            },
-            {
-                "variableName": "irma_hurtep_d2",
-                "isAbout": "items/irma_hurtep_d2"
-            },
-            {
-                "variableName": "irma_hurtep_d20",
-                "isAbout": "items/irma_hurtep_d20"
-            },
-            {
-                "variableName": "irma_hurtep_d3",
-                "isAbout": "items/irma_hurtep_d3"
-            },
-            {
-                "variableName": "irma_hurtep_d4",
-                "isAbout": "items/irma_hurtep_d4"
-            },
-            {
-                "variableName": "irma_hurtep_d5",
-                "isAbout": "items/irma_hurtep_d5"
-            },
-            {
-                "variableName": "irma_hurtep_d6",
-                "isAbout": "items/irma_hurtep_d6"
-            },
-            {
-                "variableName": "irma_hurtep_d7",
-                "isAbout": "items/irma_hurtep_d7"
-            },
-            {
-                "variableName": "irma_hurtep_d8",
-                "isAbout": "items/irma_hurtep_d8"
-            },
-            {
-                "variableName": "irma_hurtep_d9",
-                "isAbout": "items/irma_hurtep_d9"
-            },
-            {
-                "variableName": "irma_meqp_1",
-                "isAbout": "items/irma_meqp_1"
-            },
-            {
-                "variableName": "irma_meqp_10",
-                "isAbout": "items/irma_meqp_10"
-            },
-            {
-                "variableName": "irma_meqp_11",
-                "isAbout": "items/irma_meqp_11"
-            },
-            {
-                "variableName": "irma_meqp_12",
-                "isAbout": "items/irma_meqp_12"
-            },
-            {
-                "variableName": "irma_meqp_13",
-                "isAbout": "items/irma_meqp_13"
-            },
-            {
-                "variableName": "irma_meqp_14",
-                "isAbout": "items/irma_meqp_14"
-            },
-            {
-                "variableName": "irma_meqp_15",
-                "isAbout": "items/irma_meqp_15"
-            },
-            {
-                "variableName": "irma_meqp_16",
-                "isAbout": "items/irma_meqp_16"
-            },
-            {
-                "variableName": "irma_meqp_17",
-                "isAbout": "items/irma_meqp_17"
-            },
-            {
-                "variableName": "irma_meqp_2",
-                "isAbout": "items/irma_meqp_2"
-            },
-            {
-                "variableName": "irma_meqp_3",
-                "isAbout": "items/irma_meqp_3"
-            },
-            {
-                "variableName": "irma_meqp_4",
-                "isAbout": "items/irma_meqp_4"
-            },
-            {
-                "variableName": "irma_meqp_5",
-                "isAbout": "items/irma_meqp_5"
-            },
-            {
-                "variableName": "irma_meqp_6",
-                "isAbout": "items/irma_meqp_6"
-            },
-            {
-                "variableName": "irma_meqp_7",
-                "isAbout": "items/irma_meqp_7"
-            },
-            {
-                "variableName": "irma_meqp_8",
-                "isAbout": "items/irma_meqp_8"
-            },
-            {
-                "variableName": "irma_meqp_9",
-                "isAbout": "items/irma_meqp_9"
-            },
-            {
-                "variableName": "irma_pssp_1",
-                "isAbout": "items/irma_pssp_1"
-            },
-            {
-                "variableName": "irma_pssp_10",
-                "isAbout": "items/irma_pssp_10"
-            },
-            {
-                "variableName": "irma_pssp_2",
-                "isAbout": "items/irma_pssp_2"
-            },
-            {
-                "variableName": "irma_pssp_3",
-                "isAbout": "items/irma_pssp_3"
-            },
-            {
-                "variableName": "irma_pssp_4",
-                "isAbout": "items/irma_pssp_4"
-            },
-            {
-                "variableName": "irma_pssp_5",
-                "isAbout": "items/irma_pssp_5"
-            },
-            {
-                "variableName": "irma_pssp_6",
-                "isAbout": "items/irma_pssp_6"
-            },
-            {
-                "variableName": "irma_pssp_7",
-                "isAbout": "items/irma_pssp_7"
-            },
-            {
-                "variableName": "irma_pssp_8",
-                "isAbout": "items/irma_pssp_8"
-            },
-            {
-                "variableName": "irma_pssp_9",
-                "isAbout": "items/irma_pssp_9"
-            },
-            {
-                "variableName": "irmasubirmap2_select_lg_1",
-                "isAbout": "items/irmasubirmap2_select_lg_1"
-            },
-            {
-                "variableName": "irmasubirmap3_select_lg_1",
-                "isAbout": "items/irmasubirmap3_select_lg_1"
-            },
-            {
-                "variableName": "irmasubirmap4_select_lg_1",
-                "isAbout": "items/irmasubirmap4_select_lg_1"
-            },
-            {
-                "variableName": "irmasubirmap5_select_lg_1",
-                "isAbout": "items/irmasubirmap5_select_lg_1"
-            },
-            {
-                "variableName": "irmasubirmap6_select_lg_1",
-                "isAbout": "items/irmasubirmap6_select_lg_1"
-            },
-            {
-                "variableName": "irmasubirmap7_select_lg_1",
-                "isAbout": "items/irmasubirmap7_select_lg_1"
-            },
-            {
-                "variableName": "irmasubirmap8_select_lg_1",
-                "isAbout": "items/irmasubirmap8_select_lg_1"
-            },
-            {
-                "variableName": "irmasubirmaparent_select_lg_1",
-                "isAbout": "items/irmasubirmaparent_select_lg_1"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_ip01"
+    },
+    "prefLabel": {
+        "en": "ABCD Irma Substudy Parent",
+        "es": "abcd_ip01_es"
     }
 }

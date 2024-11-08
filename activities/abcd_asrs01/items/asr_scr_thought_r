@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "asr_scr_thought_r",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_thought_r",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_thought_r",
+    "category": "Field",
+    "question": {
+        "en": "Thought Problems ASR Syndrome Scale (raw score)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Thought Problems ASR Syndrome Scale (raw score)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 20,
         "minValue": 0,
-        "maxValue": 20
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "asr_scr_thought_r"
     }
 }

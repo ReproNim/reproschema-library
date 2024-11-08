@@ -1,30 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "Domain1_schema",
-    "prefLabel": {
-        "en": "Domain 1"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "Domain1_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "Domain 1 schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "Domain 1 schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Domain 1: Happiness and Life Satisfaction"
-    },
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/SFI_1",
-                "variableName": "SFI_1",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SFI_1",
+                "isVis": true,
+                "variableName": "SFI_1"
             },
             {
-                "isAbout": "items/SFI_2",
-                "variableName": "SFI_2",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SFI_2",
+                "isVis": true,
+                "variableName": "SFI_2"
             }
         ],
         "order": [
@@ -32,5 +30,11 @@
             "items/SFI_2"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Domain 1: Happiness and Life Satisfaction"
+    },
+    "prefLabel": {
+        "en": "Domain 1"
     }
 }

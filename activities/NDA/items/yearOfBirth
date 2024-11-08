@@ -1,20 +1,26 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "yearOfBirth",
-    "prefLabel": "year of birth",
-    "description": "schema for Year of birth YYYY",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question":
-        {"en": "Please select your year of birth",
-        "es": "Por favor seleccione su año de nacimiento"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "yearOfBirth",
+    "category": "Field",
+    "description": {
+        "en": "schema for Year of birth YYYY"
     },
+    "question": {
+        "en": "Please select your year of birth",
+        "es": "Por favor seleccione su a\u00f1o de nacimiento"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "year"
     },
     "responseOptions": {
-        "valueType": "xsd:date",
-        "maxValue": 2005
+        "maxValue": 2005,
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "prefLabel": {
+        "en": "year of birth"
     }
 }

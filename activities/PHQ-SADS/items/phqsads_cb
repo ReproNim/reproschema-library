@@ -1,29 +1,41 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phqsads_cb",
-    "prefLabel": "radio item",
-    "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phqsads_cb",
+    "category": "Field",
+    "description": {
+        "en": "This is a radio item."
+    },
+    "question": {
+        "en": "Has this ever happened before?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Has this ever happened before?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 2,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "radio item"
     }
 }

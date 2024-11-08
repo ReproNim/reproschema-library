@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "asr_scr_adhd_total",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_adhd_total",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_adhd_total",
+    "category": "Field",
+    "question": {
+        "en": "AD/H Problems ASR DSM-5-Oriented Scale (number of dependent raw scores)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "AD/H Problems ASR DSM-5-Oriented Scale (number of dependent raw scores)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 13,
         "minValue": 0,
-        "maxValue": 13
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "asr_scr_adhd_total"
     }
 }

@@ -1,17 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "briefphq_6",
-    "prefLabel": "text item",
-    "description": "This is a text item.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_6",
+    "category": "Field",
+    "description": {
+        "en": "This is a text item."
+    },
+    "question": {
+        "en": " What is the most stressful thing in your life right now?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": " What is the most stressful thing in your life right now?",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "text item"
     }
 }

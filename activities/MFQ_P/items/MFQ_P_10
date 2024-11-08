@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "MFQ_P_10",
-    "prefLabel": "MFQ_P_10",
-    "description": "Q10 of the Mood and Feelings Questionnaire - Parent Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "MFQ_P_10",
+    "category": "Field",
+    "description": {
+        "en": "Q10 of the Mood and Feelings Questionnaire - Parent Report"
+    },
     "question": {
         "en": "It was hard for him/her to make up his/her mind."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "MFQ_P_10"
+    }
 }

@@ -1,36 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CITNegative_schema",
-    "prefLabel": {
-        "en": "CIT Negative"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CITNegative_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "CIT Negative schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "CIT Negative schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Negative feelings"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_negativefeeling1",
-                "variableName": "cit_negativefeeling1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_negativefeeling1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_negativefeeling2",
-                "variableName": "cit_negativefeeling2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_negativefeeling2"
             },
             {
-                "isAbout": "items/cit_negativefeeling3",
-                "variableName": "cit_negativefeeling3",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/cit_negativefeeling3",
+                "isVis": true,
+                "variableName": "cit_negativefeeling3"
             }
         ],
         "order": [
@@ -39,5 +37,11 @@
             "items/cit_negativefeeling3"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Negative feelings"
+    },
+    "prefLabel": {
+        "en": "CIT Negative"
     }
 }

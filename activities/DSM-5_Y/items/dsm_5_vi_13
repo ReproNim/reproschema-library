@@ -1,18 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "dsm_5_vi_13",
-    "prefLabel": "dsm_5_vi_13",
-    "responseOptions": "../valueConstraintsFirst19",
-    "ui": {
-        "inputType": "radio"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_vi_13",
+    "category": "Field",
     "question": {
         "en": "Not been able to do things you wanted to or should have done, because they made you feel nervous?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
     "preamble": {
-        "en": "During the past TWO (2) WEEKS, how much (or how often) have you…"
+        "en": "During the past TWO (2) WEEKS, how much (or how often) have you\u2026"
+    },
+    "responseOptions": "../valueConstraintsFirst19",
+    "prefLabel": {
+        "en": "dsm_5_vi_13"
     }
 }

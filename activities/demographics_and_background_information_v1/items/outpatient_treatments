@@ -1,19 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "outpatient_treatments",
+    "category": "Field",
+    "question": {
+        "en": "If yes, how many times? "
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "outpatient_treatments",
-    "prefLabel": "outpatient_treatments",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:int",
+        "maxValue": 365,
         "minValue": 1,
-        "maxValue": 365
+        "valueType": [
+            "xsd:int"
+        ]
     },
-    "question": {
-        "en": "If yes, how many times? "
+    "prefLabel": {
+        "en": "outpatient_treatments"
     }
 }

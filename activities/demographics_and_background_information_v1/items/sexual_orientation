@@ -1,47 +1,46 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "sexual_orientation",
-    "prefLabel": "Sexual orientation",
-    "description": "schema to identify the sexual orientation of the participant",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question": {
-	    "en": "Sexual orientation (select all that apply):",
-	    "es": "Orientación sexual (seleccione todas las que correspondan):"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sexual_orientation",
+    "category": "Field",
+    "description": {
+        "en": "schema to identify the sexual orientation of the participant"
     },
+    "question": {
+        "en": "Sexual orientation (select all that apply):",
+        "es": "Orientaci\u00f3n sexual (seleccione todas las que correspondan):"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-	    "multipleChoice": true,
         "choices": [
             {
                 "name": {
-	                "en": "Aromantic",
-	                "es": "Arománticx"
+                    "en": "Aromantic",
+                    "es": "Arom\u00e1nticx"
                 },
                 "value": 1
             },
             {
                 "name": {
-	                "en": "Asexual",
-	                "es": "Asexual"
+                    "en": "Asexual",
+                    "es": "Asexual"
                 },
                 "value": 2
             },
-	        {
+            {
                 "name": {
-	                "en": "Bisexual",
-	                "es": "Bisexual"
+                    "en": "Bisexual",
+                    "es": "Bisexual"
                 },
                 "value": 3
             },
-	        {
+            {
                 "name": {
-	                "en": "Gay",
-	                "es": "Gay"
+                    "en": "Gay",
+                    "es": "Gay"
                 },
                 "value": 4
             },
@@ -69,7 +68,7 @@
             {
                 "name": {
                     "en": "Questioning or unsure",
-                    "es": "Cuestionándose, explorando"
+                    "es": "Cuestion\u00e1ndose, explorando"
                 },
                 "value": 8
             },
@@ -82,19 +81,25 @@
             },
             {
                 "name": {
-	                "en": "Prefer not to disclose",
-	                "es": "Prefiero no responder"
+                    "en": "Prefer not to disclose",
+                    "es": "Prefiero no responder"
                 },
                 "value": 0
             },
-	        {
+            {
                 "name": {
-	                "en": "Other",
-	                "es": "Otro"
+                    "en": "Other",
+                    "es": "Otro"
                 },
                 "value": -1
             }
-
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Sexual orientation"
     }
 }

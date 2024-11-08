@@ -1,15 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_x_18",
+    "category": "Field",
+    "question": {
+        "en": "Seemed to worry a lot about things he/she touched being dirty or having germs or being poisoned?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "dsm_5_x_18",
-    "prefLabel": "dsm_5_x_18",
-    "responseOptions": "../valueConstraintsFirst19",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Seemed to worry a lot about things he/she touched being dirty or having germs or being poisoned?"
+    "responseOptions": "../valueConstraintsFirst19",
+    "prefLabel": {
+        "en": "dsm_5_x_18"
     }
 }

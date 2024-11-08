@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_maxmotion",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_maxmotion",
-    "altLabel": "rsfmri_cor_network.gordon_max.motion rsfmri_cor_networkgordon_maxmotion",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_maxmotion",
+    "category": "Field",
+    "question": {
+        "en": "Maximum framewise displacement in mm"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Maximum framewise displacement in mm",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_max.motion rsfmri_cor_networkgordon_maxmotion"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_maxmotion"
     }
 }

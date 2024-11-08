@@ -1,20 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "native_language_multiple",
-    "prefLabel": "Native language",
-    "description": "schema for native language of participant",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "native_language_multiple",
+    "category": "Field",
+    "description": {
+        "en": "schema for native language of participant"
+    },
     "question": {
         "en": "Which languages do you speak fluently similar to a native speaker? For example, 'English, Farsi'",
-        "es": "¿Qué idiomas habla con fluidez similar a un hablante nativo? Por ejemplo, 'español, inglés'"
+        "es": "\u00bfQu\u00e9 idiomas habla con fluidez similar a un hablante nativo? Por ejemplo, 'espa\u00f1ol, ingl\u00e9s'"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 200
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Native language"
     }
 }

@@ -1,33 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "q_2a",
-    "prefLabel": "q_2a",
-    "description": "Q2a of the Other Questions Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "q_2a",
+    "category": "Field",
+    "description": {
+        "en": "Q2a of the Other Questions Assessment"
+    },
+    "question": {
+        "en": "Specify the health condition:"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Specify the health condition:",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 1,
         "maxValue": 3,
-        "multipleChoice": false,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Parkinson/ALS/Motor speech disorders",
+                "name": {
+                    "en": "Parkinson/ALS/Motor speech disorders"
+                },
                 "value": 1
             },
             {
-                "name": "Dyslexia",
+                "name": {
+                    "en": "Dyslexia"
+                },
                 "value": 2
             },
             {
-                "name": "Other",
+                "name": {
+                    "en": "Other"
+                },
                 "value": 3
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "q_2a"
     }
 }

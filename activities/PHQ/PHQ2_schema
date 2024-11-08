@@ -1,90 +1,75 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ2_schema",
-    "prefLabel": {
-        "en": "PHQ-2 Assessment",
-        "es": "PHQ-2 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ2_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-1 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ-1 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
-        "es": "Durante las 2 últimas semanas, ¿qué tan seguido ha tenido molestias debido a los siguientes problemas?",
-        "nl": "Hoe vaak hebt u in de afgelopen 2 wekenlast gehad van één of meer van de volgende problemen?",
-        "fr": "Au cours des 2 dernières semaines, selon quelle fréquence avez-vous été gêné(e) par les problèmes suivants?",
-        "pt-BR": "Durante as últimas 2 semanas, com que freqüência você foi incomodado/a por qualquer um dos problemas abaixo?",
-        "ko": "지난 2주일동안당신은다음의문제들로인해서얼마나자주방해를받았습니까?"
-    },
-    "compute": [
-        {
-            "variableName": "phq2_total_score",
-            "jsExpression": "phq2a + phq2b + phq2c + phq2d + phq2e + phq2f + phq2g + phq2h + phq2i"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq2a",
-                "variableName": "phq2a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq2b",
-                "variableName": "phq2b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq2c",
-                "variableName": "phq2c",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2c"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq2d",
-                "variableName": "phq2d",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2d"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq2e",
-                "variableName": "phq2e",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2e"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq2f",
-                "variableName": "phq2f",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2f"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq2g",
-                "variableName": "phq2g",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2g"
             },
-             {
+            {
+                "valueRequired": true,
                 "isAbout": "items/phq2h",
-                "variableName": "phq2h",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq2h"
             },
-             {
-                "isAbout": "items/phq2i",
-                "variableName": "phq2i",
+            {
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq2i",
+                "isVis": true,
+                "variableName": "phq2i"
             },
             {
                 "isAbout": "items/phq2_total_score",
-                "variableName": "phq2_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq2_total_score"
             }
         ],
         "order": [
@@ -99,5 +84,23 @@
             "items/phq2i"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq2a + phq2b + phq2c + phq2d + phq2e + phq2f + phq2g + phq2h + phq2i",
+            "variableName": "phq2_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las 2 \u00faltimas semanas, \u00bfqu\u00e9 tan seguido ha tenido molestias debido a los siguientes problemas?",
+        "fr": "Au cours des 2 derni\u00e8res semaines, selon quelle fr\u00e9quence avez-vous \u00e9t\u00e9 g\u00ean\u00e9(e) par les probl\u00e8mes suivants?",
+        "ko": "\uc9c0\ub09c 2\uc8fc\uc77c\ub3d9\uc548\ub2f9\uc2e0\uc740\ub2e4\uc74c\uc758\ubb38\uc81c\ub4e4\ub85c\uc778\ud574\uc11c\uc5bc\ub9c8\ub098\uc790\uc8fc\ubc29\ud574\ub97c\ubc1b\uc558\uc2b5\ub2c8\uae4c?",
+        "nl": "Hoe vaak hebt u in de afgelopen 2 wekenlast gehad van \u00e9\u00e9n of meer van de volgende problemen?",
+        "pt-br": "Durante as \u00faltimas 2 semanas, com que freq\u00fc\u00eancia voc\u00ea foi incomodado/a por qualquer um dos problemas abaixo?"
+    },
+    "prefLabel": {
+        "en": "PHQ-2 Assessment",
+        "es": "PHQ-2 Evaluaci\u00f3n"
     }
 }

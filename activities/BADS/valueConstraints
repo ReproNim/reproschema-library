@@ -1,13 +1,14 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "valueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 0,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "valueConstraints",
+    "category": "ResponseOption",
     "maxValue": 6,
+    "minValue": 0,
     "choices": [
         {
-            "name": "Not at all",
+            "name": {
+                "en": "Not at all"
+            },
             "value": 0
         },
         {
@@ -26,8 +27,14 @@
             "value": 5
         },
         {
-            "name": "Completely",
+            "name": {
+                "en": "Completely"
+            },
             "value": 6
         }
-    ]
+    ],
+    "valueType": [
+        "xsd:integer"
+    ],
+    "schemaVersion": "1.0.0"
 }

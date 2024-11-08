@@ -1,15 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_iii_4",
+    "category": "Field",
+    "question": {
+        "en": "Had problems paying attention when he/she was in class or doing his/her homework or reading a book or playing a game?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "dsm_5_iii_4",
-    "prefLabel": "dsm_5_iii_4",
-    "responseOptions": "../valueConstraintsFirst19",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Had problems paying attention when he/she was in class or doing his/her homework or reading a book or playing a game?"
+    "responseOptions": "../valueConstraintsFirst19",
+    "prefLabel": {
+        "en": "dsm_5_iii_4"
     }
 }

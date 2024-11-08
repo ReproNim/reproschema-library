@@ -1,25 +1,29 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "TokenActivity_schema",
-    "prefLabel": "TokenActivity Assessment",
-    "description": "TokenActivity assessment schema",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "Instructions goes here .."
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "TokenActivity_schema",
+    "category": "Activity",
+    "description": {
+        "en": "TokenActivity assessment schema"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/token_screen",
-                "variableName": "token_screen",
-                "isVis": true
+                "isVis": true,
+                "variableName": "token_screen"
             }
         ],
         "order": [
             "items/token_screen"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Instructions goes here .."
+    },
+    "prefLabel": {
+        "en": "TokenActivity Assessment"
     }
 }

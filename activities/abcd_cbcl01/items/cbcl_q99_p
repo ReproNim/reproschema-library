@@ -1,20 +1,26 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "cbcl_q99_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "cbcl_q99_p",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "cbcl_q99_p",
+    "category": "Field",
     "question": {
         "en": "Smokes, chews, or sniffs tobacco ",
         "es": "Fuma, masca o inhala tabaco"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = Not True No es cierto (que sepa usted); 1 = Somewhat/Sometimes True  En cierta manera; 2 = Very True/Often True Muy cierto o cierto con frecuencia"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 2,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -35,13 +41,11 @@
                 "value": 2
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = Not True No es cierto (que sepa usted); 1 = Somewhat/Sometimes True  En cierta manera; 2 = Very True/Often True Muy cierto o cierto con frecuencia"
-        }
-    ]
+    "prefLabel": {
+        "en": "cbcl_q99_p"
+    }
 }

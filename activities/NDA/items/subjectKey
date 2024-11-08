@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "subjectKey",
-    "prefLabel": "Subject key",
-    "description": "schema for subject key",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "subjectKey",
+    "category": "Field",
+    "description": {
+        "en": "schema for subject key"
+    },
+    "question": {
+        "en": "The NDAR Global Unique Identifier (GUID) for research subject"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "The NDAR Global Unique Identifier (GUID) for research subject",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Subject key"
     }
 }

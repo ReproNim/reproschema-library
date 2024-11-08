@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "sai_p_activities_l___28",
-    "@type": "reproschema:Field",
-    "prefLabel": "sai_p_activities_l___28",
-    "altLabel": "sports_activity_activities_p_l___28",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sai_p_activities_l___28",
+    "category": "Field",
+    "question": {
+        "en": "(28, Hobbies like collecting stamps or coins Pasatiempos como coleccionar estampillas o monedas)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "(28, Hobbies like collecting stamps or coins Pasatiempos como coleccionar estampillas o monedas)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "sports_activity_activities_p_l___28"
+    },
+    "prefLabel": {
+        "en": "sai_p_activities_l___28"
+    }
 }

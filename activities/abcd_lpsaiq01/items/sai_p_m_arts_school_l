@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "sai_p_m_arts_school_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "sai_p_m_arts_school_l",
-    "altLabel": "sai_m_arts_school_p_l sports_activity_m_arts_school_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sai_p_m_arts_school_l",
+    "category": "Field",
+    "question": {
+        "en": "Martial Arts Artes marciales Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Martial Arts Artes marciales Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Yes S\u00ed; 0 = No No"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "sai_m_arts_school_p_l sports_activity_m_arts_school_p_l"
+    },
+    "prefLabel": {
+        "en": "sai_p_m_arts_school_l"
+    }
 }

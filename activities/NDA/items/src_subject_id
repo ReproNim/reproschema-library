@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "src_subject_id",
-    "prefLabel": "src subject ID",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "src_subject_id",
+    "category": "Field",
+    "question": {
+        "en": "Subject ID how it's defined in lab/project"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Subject ID how it's defined in lab/project",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "src subject ID"
     }
 }

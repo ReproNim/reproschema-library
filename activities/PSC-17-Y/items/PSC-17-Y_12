@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "PSC-17-Y_12",
-    "prefLabel": "PSC-17-Y_12",
-    "description": "schema for Q12 of the PSC-17-Y Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PSC-17-Y_12",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q12 of the PSC-17-Y Assessment"
+    },
     "question": {
         "en": "Do not listen to rules",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PSC-17-Y_12"
+    }
 }

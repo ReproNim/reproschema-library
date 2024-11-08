@@ -1,64 +1,81 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQSADS_schema",
-    "prefLabel": {
-        "en": "PHQ-8 Assessment",
-        "es": "PHQ-8 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQSADS_schema",
+    "category": "Activity",
+    "description": {
+        "en": "PHQ-8 assessment schema"
     },
-    "description": "PHQ-8 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble": {
-        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
-    },
-    "compute": [
-        {
-            "variableName": "phqsads_total_score",
-            "jsExpression": "phq15_total_score + gad7_total_score + phqsads_ca + phqsads_cb + phqsads_cc + phqsads_cd + phq + phq8_total_score"
-        }
-    ],
     "ui": {
         "addProperties": [
-	        {"isAbout": "../activities/PHQ_15/phq15_schema",
-            "variableName": "phq15_schema",
-            "prefLabel": {"en": "A"}
+            {
+                "isAbout": "../activities/PHQ_15/phq15_schema",
+                "variableName": "phq15_schema",
+                "prefLabel": {
+                    "en": "A"
+                }
             },
-            {"isAbout": "../activities/GAD7/GAD7_schema",
-            "variableName": "GAD7_schema",
-            "prefLabel": {"en": "B"}
+            {
+                "isAbout": "../activities/GAD7/GAD7_schema",
+                "variableName": "GAD7_schema",
+                "prefLabel": {
+                    "en": "B"
+                }
             },
-            {"isAbout": "items/phqsads_ca",
-            "variableName": "phqsads_ca",
-            "prefLabel": {"en": "ca"},
-            "isVis": true
+            {
+                "isAbout": "items/phqsads_ca",
+                "isVis": true,
+                "variableName": "phqsads_ca",
+                "prefLabel": {
+                    "en": "ca"
+                }
             },
-            {"isAbout": "items/phqsads_cb",
-            "variableName": "phqsads_cb",
-            "prefLabel": {"en": "cb"},
-            "isVis": true
+            {
+                "isAbout": "items/phqsads_cb",
+                "isVis": true,
+                "variableName": "phqsads_cb",
+                "prefLabel": {
+                    "en": "cb"
+                }
             },
-            {"isAbout": "items/phqsads_cc",
-            "variableName": "phqsads_cc",
-            "prefLabel": {"en": "cc"},
-            "isVis": true
+            {
+                "isAbout": "items/phqsads_cc",
+                "isVis": true,
+                "variableName": "phqsads_cc",
+                "prefLabel": {
+                    "en": "cc"
+                }
             },
-            {"isAbout": "items/phqsads_cd",
-            "variableName": "phqsads_cd",
-            "prefLabel": {"en": "cd"},
-            "isVis": true
+            {
+                "isAbout": "items/phqsads_cd",
+                "isVis": true,
+                "variableName": "phqsads_cd",
+                "prefLabel": {
+                    "en": "cd"
+                }
             },
-            {"isAbout": "items/phqsads_ce",
-            "variableName": "phqsads_ce",
-            "prefLabel": {"en": "ce"},
-            "isVis": true
+            {
+                "isAbout": "items/phqsads_ce",
+                "isVis": true,
+                "variableName": "phqsads_ce",
+                "prefLabel": {
+                    "en": "ce"
+                }
             },
-            {"isAbout": "../activities/PHQ-8/PHQ8_schema",
-            "variableName": "PHQ8_schema",
-            "prefLabel": {"en": "D"}
+            {
+                "isAbout": "../activities/PHQ-8/PHQ8_schema",
+                "variableName": "PHQ8_schema",
+                "prefLabel": {
+                    "en": "D"
+                }
             }
         ],
-    "order": [
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ],
+        "order": [
             "../activities/PHQ_15/phq15_schema",
             "../activities/GAD7/GAD7_schema",
             "items/phqsads_ca",
@@ -68,10 +85,19 @@
             "items/phqsads_ce",
             "../activities/PHQ-8/PHQ8_schema"
         ],
-        "shuffle": false,
-        "allow": [
-            "reproschema:AutoAdvance",
-            "reproschema:AllowExport"
-        ]
+        "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq15_total_score + gad7_total_score + phqsads_ca + phqsads_cb + phqsads_cc + phqsads_cd + phq + phq8_total_score",
+            "variableName": "phqsads_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
+    "prefLabel": {
+        "en": "PHQ-8 Assessment",
+        "es": "PHQ-8 Evaluaci\u00f3n"
     }
 }

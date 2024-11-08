@@ -1,39 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "global_10r",
-    "prefLabel": "PROMIS-GH-10r",
-    "description": "Q10r of the PROMIS Global Health survey",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "global_10r",
+    "category": "Field",
+    "description": {
+        "en": "Q10r of the PROMIS Global Health survey"
+    },
+    "question": {
+        "en": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": false,
         "choices": [
             {
-                "name": "Never",
+                "name": {
+                    "en": "Never"
+                },
                 "value": 5
             },
             {
-                "name": "Rarely",
+                "name": {
+                    "en": "Rarely"
+                },
                 "value": 4
             },
             {
-                "name": "Sometimes",
+                "name": {
+                    "en": "Sometimes"
+                },
                 "value": 3
             },
             {
-                "name": "Often",
+                "name": {
+                    "en": "Often"
+                },
                 "value": 2
             },
             {
-                "name": "Always",
+                "name": {
+                    "en": "Always"
+                },
                 "value": 1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "PROMIS-GH-10r"
     }
 }

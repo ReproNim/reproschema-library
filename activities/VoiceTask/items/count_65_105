@@ -1,21 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "count_65_105",
-    "prefLabel": "Count 65-105",
-    "description": "count_65_105 task",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question":
-    {"en": "Using your normal voice, count upwards from 65 to 105 <b>as fast as you can</b>.",
-    "es": "Usando su voz normal, cuente desde 65 hasta 105 <b>lo más rápido que pueda</b>."
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "count_65_105",
+    "category": "Field",
+    "description": {
+        "en": "count_65_105 task"
     },
+    "question": {
+        "en": "Using your normal voice, count upwards from 65 to 105 <b>as fast as you can</b>.",
+        "es": "Usando su voz normal, cuente desde 65 hasta 105 <b>lo m\u00e1s r\u00e1pido que pueda</b>."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 100000,
         "minValue": 0,
-        "maxValue": 100000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Count 65-105"
     }
 }

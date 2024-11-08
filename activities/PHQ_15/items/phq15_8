@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq15_8",
-    "prefLabel": "PHQ 15 q8",
-    "description": "Q8 of the PHQ 15 Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq15_8",
+    "category": "Field",
+    "description": {
+        "en": "Q8 of the PHQ 15 Assessment"
+    },
+    "question": {
+        "en": "Feeling your heart pound or race"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Feeling your heart pound or race",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ 15 q8"
+    }
 }

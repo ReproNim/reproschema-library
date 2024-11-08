@@ -1,27 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "ethnic_category",
-    "prefLabel": "ethnic_category",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 0,
-                "name": "Hispanic or Latino "
-            },
-            {
-                "value": 1,
-                "name": "Not Hispanic or Latino"
-            }
-        ]
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ethnic_category",
+    "category": "Field",
+    "question": {
+        "en": "Ethnic Categories:"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Ethnic Categories:"
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hispanic or Latino "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Not Hispanic or Latino"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": false
+    },
+    "prefLabel": {
+        "en": "ethnic_category"
     }
 }

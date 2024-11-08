@@ -1,15 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_xii_25",
+    "category": "Field",
+    "question": {
+        "en": "Has he/she EVER tried to kill himself/herself?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "dsm_5_xii_25",
-    "prefLabel": "dsm_5_xii_25",
-    "responseOptions": "../valueConstraints20to25",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Has he/she EVER tried to kill himself/herself?"
+    "responseOptions": "../valueConstraints20to25",
+    "prefLabel": {
+        "en": "dsm_5_xii_25"
     }
 }

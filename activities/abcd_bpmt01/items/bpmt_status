@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "bpmt_status",
-    "@type": "reproschema:Field",
-    "prefLabel": "bpmt_status",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bpmt_status",
+    "category": "Field",
+    "question": {
+        "en": "Status"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Status",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "bpmt_status"
     }
 }

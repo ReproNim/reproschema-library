@@ -1,22 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "token_screen",
-    "prefLabel": "token_screen",
-    "description": "Q1 of the TokenActivity Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "token_screen",
+    "category": "Field",
+    "description": {
+        "en": "Q1 of the TokenActivity Assessment"
+    },
     "question": {
         "en": "Token Screen"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 5,
-        "multipleChoice": true,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -54,6 +53,13 @@
                 },
                 "value": 5
             }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "token_screen"
     }
 }

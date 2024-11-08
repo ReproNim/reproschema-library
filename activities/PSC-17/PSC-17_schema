@@ -1,113 +1,106 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PSC-17_schema",
-    "prefLabel": "PSC-17",
-    "description": "PSC-17 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "citation": "https://www.massgeneral.org/psychiatry/treatments-and-services/pediatric-symptom-checklist",
-    "preamble": {
-        "en": "Please mark under the heading that best describes your child:",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PSC-17_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.massgeneral.org/psychiatry/treatments-and-services/pediatric-symptom-checklist"
     },
-    "compute": [
-        {
-            "variableName": "PSC-17_total_score",
-            "jsExpression": "PSC-17_1 + PSC-17_2 + PSC-17_3 + PSC-17_4 + PSC-17_5 + PSC-17_6 + PSC-17_7 + PSC-17_8 + PSC-17_9 + PSC-17_10 + PSC-17_11 + PSC-17_12 + PSC-17_13 + PSC-17_14 + PSC-17_15 + PSC-17_16 + PSC-17_17"
-        }
-    ],
+    "description": {
+        "en": "PSC-17 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/PSC-17_1",
-                "variableName": "PSC-17_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_1"
             },
             {
                 "isAbout": "items/PSC-17_2",
-                "variableName": "PSC-17_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_2"
             },
             {
                 "isAbout": "items/PSC-17_3",
-                "variableName": "PSC-17_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_3"
             },
             {
                 "isAbout": "items/PSC-17_4",
-                "variableName": "PSC-17_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_4"
             },
             {
                 "isAbout": "items/PSC-17_5",
-                "variableName": "PSC-17_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_5"
             },
             {
                 "isAbout": "items/PSC-17_6",
-                "variableName": "PSC-17_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_6"
             },
             {
                 "isAbout": "items/PSC-17_7",
-                "variableName": "PSC-17_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_7"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_8",
-                "variableName": "PSC-17_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_8"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_9",
-                "variableName": "PSC-17_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_9"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_10",
-                "variableName": "PSC-17_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_10"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_11",
-                "variableName": "PSC-17_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_11"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_12",
-                "variableName": "PSC-17_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_12"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_13",
-                "variableName": "PSC-17_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_13"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_14",
-                "variableName": "PSC-17_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_14"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_15",
-                "variableName": "PSC-17_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_15"
             },
-                        {
+            {
                 "isAbout": "items/PSC-17_16",
-                "variableName": "PSC-17_16",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_16"
             },
-                                    {
+            {
                 "isAbout": "items/PSC-17_17",
-                "variableName": "PSC-17_17",
-                "isVis": true
+                "isVis": true,
+                "variableName": "PSC-17_17"
             },
             {
                 "isAbout": "items/PSC-17_total_score",
-                "variableName": "PSC-17_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "PSC-17_total_score"
             }
         ],
         "order": [
@@ -130,5 +123,18 @@
             "items/PSC-17_17"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "PSC-17_1 + PSC-17_2 + PSC-17_3 + PSC-17_4 + PSC-17_5 + PSC-17_6 + PSC-17_7 + PSC-17_8 + PSC-17_9 + PSC-17_10 + PSC-17_11 + PSC-17_12 + PSC-17_13 + PSC-17_14 + PSC-17_15 + PSC-17_16 + PSC-17_17",
+            "variableName": "PSC-17_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Please mark under the heading that best describes your child:",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "PSC-17"
     }
 }

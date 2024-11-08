@@ -1,47 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "employment",
-    "prefLabel": "Employment",
-    "description": "collect the participant's employment status",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "employment",
+    "category": "Field",
+    "description": {
+        "en": "collect the participant's employment status"
+    },
+    "question": {
+        "en": "What is your employment status?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.2",
-    "question": "What is your employment status?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": false,
         "choices": [
             {
-                "name": "Unemployed",
+                "name": {
+                    "en": "Unemployed"
+                },
                 "value": 0
             },
             {
-                "name": "Employed part time",
+                "name": {
+                    "en": "Employed part time"
+                },
                 "value": 1
             },
             {
-                "name": "Employed full time",
+                "name": {
+                    "en": "Employed full time"
+                },
                 "value": 2
             },
             {
-                "name": "Student",
+                "name": {
+                    "en": "Student"
+                },
                 "value": 3
             },
             {
-                "name": "Freelancer",
+                "name": {
+                    "en": "Freelancer"
+                },
                 "value": 4
             },
             {
-                "name": "Self-employed",
+                "name": {
+                    "en": "Self-employed"
+                },
                 "value": 5
             },
             {
-                "name": "Other",
+                "name": {
+                    "en": "Other"
+                },
                 "value": -1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Employment"
     }
 }

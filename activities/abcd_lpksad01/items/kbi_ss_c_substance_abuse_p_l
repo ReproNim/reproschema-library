@@ -1,23 +1,31 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "kbi_ss_c_substance_abuse_p_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_ss_c_substance_abuse_p_l",
-    "altLabel": "ksads_back_ss_c_substance_abuse_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_ss_c_substance_abuse_p_l",
+    "category": "Field",
+    "question": {
+        "en": "Since we last saw you, how many times has your child been in the hospital for substance abuse problems?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Since we last saw you, how many times has your child been in the hospital for substance abuse problems?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "When \"inpatient for substance abuse\" is not endorsed in \"kbi_p_c_services_checklist,\" values for kbi_p_c_substance abuse_l are missing. Here, these missing values have been replaced with \"0.\""
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "When \"inpatient for substance abuse\" is not endorsed in \"kbi_p_c_services_checklist,\" values for kbi_p_c_substance abuse_l are missing. Here, these missing values have been replaced with \"0.\""
-        }
-    ]
+    "altLabel": {
+        "en": "ksads_back_ss_c_substance_abuse_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_ss_c_substance_abuse_p_l"
+    }
 }

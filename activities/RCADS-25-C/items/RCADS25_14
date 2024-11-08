@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "RCADS25_14",
-    "prefLabel": "RCADS-25 Caregiver Assessment Q14",
-    "description": "Question 14 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Caregiver-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "RCADS25_14",
+    "category": "Field",
+    "description": {
+        "en": "Question 14 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Caregiver-Administered Version"
+    },
+    "question": {
+        "en": "My child suddenly starts to tremble or shake when there is no reason for this"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "My child suddenly starts to tremble or shake when there is no reason for this",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "RCADS-25 Caregiver Assessment Q14"
+    }
 }

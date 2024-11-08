@@ -1,17 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "cbcl_scr_syn_anxdep_r",
-    "@type": "reproschema:Field",
-    "prefLabel": "cbcl_scr_syn_anxdep_r",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "cbcl_scr_syn_anxdep_r",
+    "category": "Field",
+    "question": {
+        "en": "AnxDep CBCL Syndrome Scale (raw score)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "AnxDep CBCL Syndrome Scale (raw score)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0= Image artifacts prevent radiology read; \n1= No abnormal findings\n; 2 =Normal anatomical variant of no clinical significance; \n3 =Consider clinical referral; \n4-=Consider immediate clinical referral"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
                 "value": 0
@@ -29,13 +37,11 @@
                 "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0= Image artifacts prevent radiology read; \n1= No abnormal findings\n; 2 =Normal anatomical variant of no clinical significance; \n3 =Consider clinical referral; \n4-=Consider immediate clinical referral"
-        }
-    ]
+    "prefLabel": {
+        "en": "cbcl_scr_syn_anxdep_r"
+    }
 }

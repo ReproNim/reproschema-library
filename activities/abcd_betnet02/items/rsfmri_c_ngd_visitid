@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_visitid",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_visitid",
-    "altLabel": "rsfmri_cor_network.gordon_visitid rsfmri_cor_networkgordon_visitid",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_visitid",
+    "category": "Field",
+    "question": {
+        "en": "Visit name"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Visit name",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_visitid rsfmri_cor_networkgordon_visitid"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_visitid"
     }
 }

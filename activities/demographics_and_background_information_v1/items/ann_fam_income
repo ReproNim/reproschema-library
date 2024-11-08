@@ -1,94 +1,134 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "ann_fam_income",
-    "prefLabel": "ann_fam_income",
-    "ui": {
-        "inputType": "select"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ann_fam_income",
+    "category": "Field",
     "question": {
         "en": "Annual Family Income\nWhat is the family's estimated gross income for the past year, all sources combined, before taxes? (Income is based on the participant and any wage earners who significantly contribute.)"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
     },
     "responseOptions": {
         "choices": [
             {
-                "value": 1,
-                "name": "Less than $2,000 "
+                "name": {
+                    "en": "Less than $2,000 "
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "$2,000-2,999 "
+                "name": {
+                    "en": "$2,000-2,999 "
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "$3,000-3,999 "
+                "name": {
+                    "en": "$3,000-3,999 "
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "$4,000-4,999 "
+                "name": {
+                    "en": "$4,000-4,999 "
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "$5,000-5,999 "
+                "name": {
+                    "en": "$5,000-5,999 "
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "$6,000-6,999 "
+                "name": {
+                    "en": "$6,000-6,999 "
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "$7,000-7,999 "
+                "name": {
+                    "en": "$7,000-7,999 "
+                },
+                "value": 7
             },
             {
-                "value": 8,
-                "name": "$8,000-8,999 "
+                "name": {
+                    "en": "$8,000-8,999 "
+                },
+                "value": 8
             },
             {
-                "value": 9,
-                "name": "$9,000-9,999 "
+                "name": {
+                    "en": "$9,000-9,999 "
+                },
+                "value": 9
             },
             {
-                "value": 10,
-                "name": "$10,000-12,499 "
+                "name": {
+                    "en": "$10,000-12,499 "
+                },
+                "value": 10
             },
             {
-                "value": 11,
-                "name": "$12,500-14,999 "
+                "name": {
+                    "en": "$12,500-14,999 "
+                },
+                "value": 11
             },
             {
-                "value": 12,
-                "name": "$15,000-17,499 "
+                "name": {
+                    "en": "$15,000-17,499 "
+                },
+                "value": 12
             },
             {
-                "value": 13,
-                "name": "$17,500-19,999 "
+                "name": {
+                    "en": "$17,500-19,999 "
+                },
+                "value": 13
             },
             {
-                "value": 14,
-                "name": "$20,000-24,999 "
+                "name": {
+                    "en": "$20,000-24,999 "
+                },
+                "value": 14
             },
             {
-                "value": 15,
-                "name": "$25,000-34,999 "
+                "name": {
+                    "en": "$25,000-34,999 "
+                },
+                "value": 15
             },
             {
-                "value": 16,
-                "name": "$35,000-49,999 "
+                "name": {
+                    "en": "$35,000-49,999 "
+                },
+                "value": 16
             },
             {
-                "value": 17,
-                "name": "$50,000-69,999 "
+                "name": {
+                    "en": "$50,000-69,999 "
+                },
+                "value": 17
             },
             {
-                "value": 18,
-                "name": "$70,000-99,999 "
+                "name": {
+                    "en": "$70,000-99,999 "
+                },
+                "value": 18
             },
             {
-                "value": 19,
-                "name": "$100,000-and over"
+                "name": {
+                    "en": "$100,000-and over"
+                },
+                "value": 19
             }
         ]
+    },
+    "prefLabel": {
+        "en": "ann_fam_income"
     }
 }

@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "bads_9",
-    "prefLabel": "BADS-9",
-    "description": "schema for Q9 of the BADS Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bads_9",
+    "category": "Field",
+    "description": {
+        "en": "schema for Q9 of the BADS Assessment"
+    },
+    "question": {
+        "en": "I did things that were enjoyable"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I did things that were enjoyable",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "BADS-9"
+    }
 }

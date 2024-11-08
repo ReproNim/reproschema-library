@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "say_ng",
-    "prefLabel": "Sustained nasal ng",
-    "description": "say n for 10 seconds",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "say_ng",
+    "category": "Field",
+    "description": {
+        "en": "say n for 10 seconds"
+    },
     "question": {
         "en": "Say /sung/ and hold the /ng/ for as long as you can, in a relaxed way and at a normal volume, without interrupting. When you are done, hit the Stop button to end recording. Take a deep breath and click to start.",
-        "es": "Diga /ung/ como en /húngaro/ manteniendo la /ng/ por el mayor tiempo que puedas, de forma relajada y en volumen normal, con un solo aliento, sin cortar. Cuando te quedes sin aire, haz click de nuevo para cortar la grabación. Toma un aliento profundo, haz click y empieza."
-        },
+        "es": "Diga /ung/ como en /h\u00fangaro/ manteniendo la /ng/ por el mayor tiempo que puedas, de forma relajada y en volumen normal, con un solo aliento, sin cortar. Cuando te quedes sin aire, haz click de nuevo para cortar la grabaci\u00f3n. Toma un aliento profundo, haz click y empieza."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "say_ah_valueConstraints"
+    "responseOptions": "say_ah_valueConstraints",
+    "prefLabel": {
+        "en": "Sustained nasal ng"
+    }
 }

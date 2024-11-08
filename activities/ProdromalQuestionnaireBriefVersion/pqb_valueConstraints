@@ -1,11 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "pqb_valueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 0,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_valueConstraints",
+    "category": "ResponseOption",
     "maxValue": 1,
-    "multipleChoice": false,
+    "minValue": 0,
     "choices": [
         {
             "name": {
@@ -21,5 +19,10 @@
             },
             "value": 0
         }
-    ]
+    ],
+    "multipleChoice": false,
+    "valueType": [
+        "xsd:integer"
+    ],
+    "schemaVersion": "1.0.0"
 }

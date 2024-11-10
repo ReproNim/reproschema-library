@@ -6,6 +6,5 @@
     "minValue": 0,
     "valueType": [
         "schema:AudioObject"
-    ],
-    "schemaVersion": "1.0.0"
+    ]
 }

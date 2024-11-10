@@ -45,6 +45,5 @@
     "multipleChoice": false,
     "valueType": [
         "xsd:integer"
-    ],
-    "schemaVersion": "1.0.0"
+    ]
 }

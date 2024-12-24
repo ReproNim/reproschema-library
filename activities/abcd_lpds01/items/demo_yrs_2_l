@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_yrs_2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "In general, how important are your child's religious and spiritual beliefs in his/her daily life? \u00bfEn general,  cu\u00e1n importantes son las creencias religiosas y espirituales en la vida diaria de su nin-o(a)?"
     },

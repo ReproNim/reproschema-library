@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "person2_other_id",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "If Person 2 has other identity, please specify"
     },

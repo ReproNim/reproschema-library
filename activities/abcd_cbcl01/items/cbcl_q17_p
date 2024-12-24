@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q17_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Daydreams or gets lost in his/her thoughts ",
         "es": "Sue\u00f1a despierto(a), se pierde en sus propios pensamientos"

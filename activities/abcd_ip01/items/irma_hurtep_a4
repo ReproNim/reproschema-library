@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a4",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you or a close family member lose a job because of the hurricane?",
         "es": "\u00bfPerdi\u00f3 usted o un miembro de su familia su trabajo debido al hurac\u00e1n?"

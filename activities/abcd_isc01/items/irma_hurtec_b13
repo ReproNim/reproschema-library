@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_b13",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Overall, how safe did you feel before the hurricane?",
         "es": "En general, \u00bfqu\u00e9 tan seguro usted sintiA antes del hurac\u00e1n?"

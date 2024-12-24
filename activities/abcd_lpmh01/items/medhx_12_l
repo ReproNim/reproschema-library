@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_12_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How about the difference between blue and yellow? \u00bfQu\u00e9 tal la diferencia entre el azul y el amarillo?"
     },

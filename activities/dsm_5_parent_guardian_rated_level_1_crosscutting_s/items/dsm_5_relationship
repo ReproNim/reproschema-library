@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_relationship",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Relationship with the child: "
     },

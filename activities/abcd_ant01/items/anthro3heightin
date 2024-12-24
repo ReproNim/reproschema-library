@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "anthro3heightin",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "STANDING HEIGHT #3 (in inches)"
     },

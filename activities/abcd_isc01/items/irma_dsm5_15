@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_15",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "15. I am mad with someone for making Hurricane Irma happen, not doing more to stop it, or to help after.",
         "es": "15. Estoy enojado con alguien por hacer que ocurra el hurac\u00e1n Irma, sin hacer m\u00e1s para detenerlo, o para ayudar despu\u00e9s."

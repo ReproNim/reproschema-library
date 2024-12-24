@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "su_risk_p_11",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "If you wanted to get prescription pain relievers (such as Vicodin, hydrocodone, or Oxycontin; not over the counter drugs like Tylenol) (that were not prescribed to you by a doctor), how easy would it be for you to get some?"
     },

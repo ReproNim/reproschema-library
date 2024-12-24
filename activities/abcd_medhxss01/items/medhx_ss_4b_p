@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_ss_4b_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How many times has he/she been to the emergency room in that past year?"
     },

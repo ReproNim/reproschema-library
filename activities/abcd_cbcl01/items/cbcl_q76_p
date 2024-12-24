@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q76_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Sleeps less than most kids ",
         "es": "Duerme menos que la mayor\u00eda de los/las ni\u00f1os(as)/j\u00f3venes"

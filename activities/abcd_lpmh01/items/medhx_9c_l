@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_9c_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "At what age for the most recent time (years)? \u00bfA qu\u00e9 edad durante el tiempo m\u00e1s reciente?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "meim_4_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I have often done things that will help me understand my ethnic background better.",
         "es": "Muchas veces he hecho cosas que me ayudar\u00e1n a comprender mejor a mi grupo \u00e9tnico."

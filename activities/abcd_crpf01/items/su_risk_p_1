@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "su_risk_p_1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "If your child wanted to get some beer, wine, or hard liquor (for example vodka, whiskey, or gin), how easy would it be for her/him to get some? ",
         "es": "Si su ni\u00f1o(a) quisiera conseguir cerveza, vino o licor fuerte (por ejemplo, vodka, whisky o ginebra), \u00bfqu\u00e9 tan f\u00e1cil le ser\u00eda?"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_28",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "28. I feel like I am seeing myself or what I am doing from outside my body (like watching myself in a movie).",
         "es": "28. Siento que me veo o que estoy hacienda cosas desde fuera de mi cuerpo (como si yo estaba en una pel\u00edcula)."

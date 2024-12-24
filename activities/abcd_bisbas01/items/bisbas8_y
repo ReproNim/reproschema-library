@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas8_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I feel excited and full of energy when I get something that I want."
     },

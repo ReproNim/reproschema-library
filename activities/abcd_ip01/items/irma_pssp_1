@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_pssp_1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "1. In the last month, how often have you been upset because of something that happened unexpectedly? 1.",
         "es": "En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia se ha sentido molestado(a) por algo inesperado?"

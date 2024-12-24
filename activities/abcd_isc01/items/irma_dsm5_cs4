@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_cs4",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "CS4. Do these reactions, thoughts, and feelings cause some other problem at home? CS4.",
         "es": "\u00bfEstas reacciones, pensamientos y sentimientos causan alg\u00fan otro problema en casa?"

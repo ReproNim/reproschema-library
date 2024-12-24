@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_ss_c_mental_health_p_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you, how many times has your child been in the hospital for mental health problems?"
     },

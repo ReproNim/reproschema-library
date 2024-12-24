@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_pssp_10",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them? 10.",
         "es": "En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia sinti\u00f3 que las dificultades se acumulaban tanto que no pod\u00eda superarlas?"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a6",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you or your family have trouble getting enough food and water after the hurricane?",
         "es": "\u00bfUsted o su familia tuvieron problemas para obtener suficiente comida y agua despu\u00e9s del hurac\u00e1n"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_14_90_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Impulsivity for more than one school year, Past"
     },

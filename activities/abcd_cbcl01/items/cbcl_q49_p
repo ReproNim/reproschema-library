@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q49_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Constipated, doesn't move bowels ",
         "es": "Padece de estre\u00f1imiento"

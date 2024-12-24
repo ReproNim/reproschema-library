@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_20_652_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Persistent desire to reduce substance use (Solvent), Present"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_7a_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you on [asnt_timestamp_c], did your child experience a period of time when he/she experienced multiple, repeated impacts to the head? (e.g., abused, contact sports)?",
         "es": "Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfha su ni\u00f1o/a ha recibido golpes o impactos m\u00faltiples y repetidos en la cabeza (p. ej., abuso infantil, deportes de contacto)?"

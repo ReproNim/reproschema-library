@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "2. I have thoughts like \"I am bad.\"",
         "es": "2. Tengo pensamientos como \"Soy malo.\""

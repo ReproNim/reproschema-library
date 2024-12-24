@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_chess_tspent_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Competitive Games like Chess, Cards, or Darts Juegos competitivos, como ajedrez, cartas o dardos About how many minutes per session? \u00bfAproximadamente cu\u00e1ntos minutos por sesiAn?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "last_period",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What is the date of your child's last period? "
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_3_848_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Disruptive Mood Dysregulation Disorder (DMDD) Current (F34.8)"
     },

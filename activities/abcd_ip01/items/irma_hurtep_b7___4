@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b7___4",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
         "es": "\u00bfC\u00f3mo obtuvo noticias de informaci\u00f3n sobre el hurac\u00e1n? Marque todo lo que corresponda. (4, From family and friends De familia y amigos)"

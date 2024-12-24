@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_ii_3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Been bothered by not being able to fall asleep or stay asleep, or by waking up too early?"
     },

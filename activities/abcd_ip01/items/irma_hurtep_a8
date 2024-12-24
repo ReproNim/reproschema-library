@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a8",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did your pet run away or have to be given away because of the hurricane?",
         "es": "\u00bfSe escapA su mascota o tuvo que ser entregada debido al hurac\u00e1n?"

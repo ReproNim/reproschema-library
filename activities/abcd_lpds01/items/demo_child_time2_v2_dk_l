@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_child_time2_v2_dk_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Don't know/Refuse to answer No lo s\u00e9/Prefiere no contestar"
     },

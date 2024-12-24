@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas19_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I am always willing to try something new, when I think it will be fun."
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_meqc_5",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "5. Media coverage of other storms (e.g., Hurricane Jose, Hurricane Maria) after Irma",
         "es": "5. Cobertura medi\u00e1tica de otras tormentas (por ejemplo, Hurac\u00e1n Jos\u00e9, Hurac\u00e1n Mar\u00eda) despu\u00e9s de Irma"

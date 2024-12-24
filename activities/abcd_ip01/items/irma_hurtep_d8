@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d8",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did a pet your child liked get hurt or die during the hurricane?",
         "es": "\u00bfSe lastim\u00f3 o muri\u00f3 una mascota que le gustaba a su hijo(a) durante el hurac\u00e1n?"

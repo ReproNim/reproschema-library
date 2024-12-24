@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sexual_orientation",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema to identify the sexual orientation of the participant"
     },

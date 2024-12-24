@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_reg_friend_group_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Does your child have a regular group of kids he or she hangs out with at school or in your neighborhood? \u00bfSu ni\u00f1o(a) tiene un grupo de ni\u00f1os con quienes convive o se junta en la escuela o en su vecindario?"
     },

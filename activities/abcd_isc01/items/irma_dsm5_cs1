@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_cs1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "CS1. Do these reactions, thoughts, and feelings bother or upset you a lot? CS1.",
         "es": "\u00bfEstas reacciones, pensamientos y sentimientos te molesta o te altera mucho?"

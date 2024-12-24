@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b6",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How many hours in total did your child spend traveling to get back home after the hurricane?",
         "es": "\u00bfCu\u00e1ntas horas en total paso tu hijo(a) viajando para regresar a su casa despu\u00e9s del hurac\u00e1n?"

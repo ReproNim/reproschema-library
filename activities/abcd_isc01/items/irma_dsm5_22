@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_22",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "22. I feel ashamed or guilty about some part of what happened during Hurricane Irma.",
         "es": "22. Me siento avergonzado o culpable por parte de lo que sucediA durante el hurac\u00e1n Irma."

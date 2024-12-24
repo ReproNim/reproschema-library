@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_ss_worst2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Worst Injury2 = possible mild TBI\n (TBI w/o LOC but memory loss)"
     },

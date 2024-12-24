@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_ss_9b_p_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Has he/she ever had general anesthesia or sedation for any surgery or procedure?\nHow many times?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_vi_9",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Started lots more projects than usual or done more risky things than usual?"
     },

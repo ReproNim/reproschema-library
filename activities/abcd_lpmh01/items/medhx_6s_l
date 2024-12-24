@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_6s_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you, has she/he been to a doctor for any of these things? Wound from knife or any other weapon Herida por cuchillo o cualquier otra arma"
     },

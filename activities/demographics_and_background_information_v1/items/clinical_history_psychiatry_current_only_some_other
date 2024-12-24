@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "clinical_history_psychiatry_current_only_some_other",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Other psychiatric conditions only some"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_m_arts_perwk_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Martial Arts Artes marciales About how many days per week? \u00bfAproximadamente cu\u00e1ntos d\u00edas a la semana?"
     },

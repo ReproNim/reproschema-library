@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "inpatient_treat_dur",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What was the total duration of treatment in weeks? (the sum of all inpatient treatment combined)\n"
     },

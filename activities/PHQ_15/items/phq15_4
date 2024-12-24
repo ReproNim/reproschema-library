@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "phq15_4",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q4 of the PHQ 15 Assessment"
     },

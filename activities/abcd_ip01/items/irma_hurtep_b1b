@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b1b",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you leave (evacuate) your home for the hurricane?",
         "es": "\u00bfUsted dejo (evacuo) su hogar por el hurac\u00e1n?"

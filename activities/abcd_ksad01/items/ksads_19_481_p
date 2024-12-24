@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_19_481_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Drinks More than Planned Present"
     },

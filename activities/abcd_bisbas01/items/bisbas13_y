@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas13_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "When I want something, I usually go all the way to get it."
     },

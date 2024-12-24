@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q36_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Gets hurt a lot, accident prone ",
         "es": "Se lastima accidentalmente con mucha frecuencia, propenso(a) a accidentes"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "hormone_scr_ert_rep1_nd",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Salimetrics hormone test testosterone (ERT) none detected (repetition 1)"
     },

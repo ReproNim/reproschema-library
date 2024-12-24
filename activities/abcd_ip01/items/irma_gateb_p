@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_gateb_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Were you and your child living in South Carolina at the time that Hurricane Irma hit the United States (September 2017)?",
         "es": "\u00bfEstaban usted y su hijo(a) viviendo en la Carolina del Sur en el momento en que el hurac\u00e1n Irma llegA a los Estados Unidos (Septiembre de 2017)?"

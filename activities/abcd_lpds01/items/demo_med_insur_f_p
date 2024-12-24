@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_med_insur_f_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "f. VA (including those who have ever used or enrolled for VA health care)f. VA (incluidos aquellos que alguna vez utilizaron o se inscribieron para la atenci?n m?dica de VA)"
     },

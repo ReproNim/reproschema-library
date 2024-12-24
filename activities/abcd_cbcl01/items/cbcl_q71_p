@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q71_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "",
         "es": "Self-conscious or easily embarrassed Se coh\u00edbe y se averg\u221a\u00baenza con facilidad"

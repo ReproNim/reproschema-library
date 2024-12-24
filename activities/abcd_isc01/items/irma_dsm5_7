@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_7",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "7. I don't feel like doing things with my family or friends or other things that I liked to do.",
         "es": "7. No tengo ganas de hacer cosas con mi familia o amigos u otras cosas que me gusta hacer."

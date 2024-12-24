@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "global_7r",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q7r of the PROMIS Global Health survey"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_substance_abuse_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you, how many times has your child been in the hospital for substance abuse problems?Desde la \u00faltima vez que nos vimos, \u00bfcu\u00e1ntas veces ha estado su ni\u00f1o(a) en el hospital por problemas de abuso de sustancias?"
     },

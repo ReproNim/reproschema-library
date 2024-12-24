@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_fam_exp3_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Didn't pay the full amount of the rent or mortgage because you could not afford it? \u00bfNo pagaron el monto total de la renta o hipoteca porque no les alcanzaba el dinero?"
     },

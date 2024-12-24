@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_dual_lang_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Does your child attend a dual-language or language immersion program at their school? In other words, are several of their classes taught in a language other than English? \u00bfSu nino(a) asiste a un programa biling\u00fce o de inmersion ling\u00fc\u00edstica en su escuela? En otras palabras, \u00bfa su nino(a) le ense-an algunas de sus clases en otro idioma que no es el ingl\u00e9s?"
     },

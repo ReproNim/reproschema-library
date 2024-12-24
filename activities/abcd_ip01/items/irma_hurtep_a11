@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a11",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Were you without power or water for a week or more?",
         "es": "\u00bfEstabas sin energ\u00eda o agua durante una semana o m\u00e1s?"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_2_830_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Bipolar I Disorder, current episode manic (F31.1x)"
     },

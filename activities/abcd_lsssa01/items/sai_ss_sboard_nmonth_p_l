@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_ss_sboard_nmonth_p_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Skiing, Snowboarding\r. Since we last saw you, about how many months per year did your child participate?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q18_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Deliberately harms self or attempts suicide ",
         "es": "Se hace da\u00f1o a s\u00ed mismo(a) deliberadamente o ha intentado suicidarse"

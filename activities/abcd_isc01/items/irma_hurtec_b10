@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_b10",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Overall, how scared or upset do you think your parent(s) was before the hurricane?",
         "es": "En general, \u00bfqu\u00e9 tan asustados o molestos piensan que eran tus padres antes del hurac\u00e1n? \""

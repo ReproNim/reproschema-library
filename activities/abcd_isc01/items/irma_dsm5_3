@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "3. I try to stay away from people, places, or things that remind me about Hurricane Irma or my experiences with the storm.",
         "es": "3. Intento alejarme de personas, lugares o cosas que me recuerdan el hurac\u00e1n Irma o mis experiencias con la tormenta."

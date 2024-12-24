@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_pssp_3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "3. In the last month, how often have you felt nervous and stressed? 3.",
         "es": "En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia se sinti\u00f3 nervioso(a) y estresado(a)?"

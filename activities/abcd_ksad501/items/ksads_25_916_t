@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_25_916_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Other Specified Anxiety Disorder (Selective Mutism, does not meet minimum duration), PAST ,F41.8"
     },

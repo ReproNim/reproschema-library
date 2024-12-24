@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "su_risk_p_12",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "If you wanted to get prescription anxiolytics or tranquilizers (such as Xanax and Ativan) (that were not prescribed to you by a doctor), how easy would it be for you to get some?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_13_478_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Compensatory behaviors occurred at least 1x/week for 3 months Past"
     },

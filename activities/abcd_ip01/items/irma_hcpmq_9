@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_9",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "9. I encouraged my child to focus on other, more pleasant, topics.",
         "es": "9. Apoye a mi hijo a enfocarse en otros temas m\u00e1s agradables."

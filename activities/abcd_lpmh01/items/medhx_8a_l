@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_8a_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you on [asnt_timestamp_c], has he/she been in the hospital overnight or longer? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bf\u00e9l/ella ha pasado una noche o m\u00e1s  en el hospital?"
     },

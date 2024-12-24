@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "1. I am on the lookout for danger or things that I am afraid of (like looking over my shoulder even when nothing is there).",
         "es": "1. Estoy atento al peligro o cosas que temo (como mirar por encima del hombre incluso cuando no hay nada)."

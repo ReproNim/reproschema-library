@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_ix_15",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Had visions when you were completely awake\u2014that is, seen something or someone that no one else could see?"
     },

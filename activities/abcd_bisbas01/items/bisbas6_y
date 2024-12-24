@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas6_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I feel worried when I have done poorly at something."
     },

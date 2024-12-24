@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_5",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "5. I feel like I am back in Hurricane Irma, like it's happening all over again.",
         "es": "5. Siento que estoy de vuelta en el hurac\u00e1n Irma, como si estuviera sucediendo de nuevo."

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "phq5d",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q5d of the derived PHQ Assessment"
     },

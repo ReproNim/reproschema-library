@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_1_847_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Unspecified Depressive Disorder PAST (F32.9)"
     },

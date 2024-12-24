@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "asr_scr_perstr_r",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Personal Strength ASR Adaptive Functioning Scale (raw score)"
     },

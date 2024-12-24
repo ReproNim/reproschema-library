@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "WHODAS36_S_D_AVG_05",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Domain 5 (Life activities\u2014Household) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version"
     },

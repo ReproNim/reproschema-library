@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q102_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Underactive, slow moving, or lacks energy ",
         "es": "Poco activo(a), lento(a), o le falta energ\u00eda"

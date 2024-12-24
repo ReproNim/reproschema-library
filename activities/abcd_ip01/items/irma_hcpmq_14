@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_14",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "14. I monitored how much hurricane-related news and media my child was exposed to.",
         "es": "14. Supervis\u00e9 la cantidad de noticias y medios relacionados con los huracanes a los que mi hijo estuvo expuesto."

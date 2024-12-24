@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_21",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "21. I have trouble going to sleep, wake up often, or have trouble getting back to sleep.",
         "es": "21. Tengo problemas para dormir, me levanto a menudo o tengo problemas para volver a dormir."

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_12_62_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Encopresis at least once a month for \u03be3 months Present"
     },

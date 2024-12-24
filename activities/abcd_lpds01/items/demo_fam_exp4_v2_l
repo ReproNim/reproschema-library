@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_fam_exp4_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Were evicted from your home for not paying the rent or mortgage? \u00bfLos desalojaron de su casa por no pagar la renta o hipoteca?"
     },

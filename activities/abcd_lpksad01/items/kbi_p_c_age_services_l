@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_age_services_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How old was your child when they first received mental health or substance abuse services? \u00bfQu\u00e9 edad ten\u00eda su ni\u00f1o(a) cuando recibi\u00f3 por primera vez servicios de salud mental o para el abuso de sustancias?  An\u00f3tela en el espacio en blanco"
     },

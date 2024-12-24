@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d10",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "",
         "es": "Was a close family member with your child during the hurricane? "

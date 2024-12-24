@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d7",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did your child have to go outside during the hurricane because the building you were in was damaged?",
         "es": "\u00bfTu hijo(a) tuvo que salir afuera durante el hurac\u00e1n porque el edificio donde estabas fue da\u00f1ado?"

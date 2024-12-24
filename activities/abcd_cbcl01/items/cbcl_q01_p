@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q01_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Acts too young for his/her age ",
         "es": "Act\u00faa como si fuera mucho menor que su edad"

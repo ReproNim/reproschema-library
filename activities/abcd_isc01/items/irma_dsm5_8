@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_8",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "8. I have trouble concentrating or paying attention.",
         "es": "8. Tengo problemas para concentrarme o prestar atenciAn."

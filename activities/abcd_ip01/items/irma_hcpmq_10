@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_10",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "10. I monitored conversations that my child was exposed to, and was sure to end them if topics came up that I thought could frighten my child.",
         "es": "10. Supervis\u00e9 las conversaciones a las que mi hijo estuvo expuesto, y estaba seguro de finalizarlas si surg\u00edan temas que pens\u00e9 que podr\u00edan asustar a mi hijo."

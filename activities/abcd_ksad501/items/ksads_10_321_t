@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_10_321_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Excessive worries across breadth of domains, Past"
     },

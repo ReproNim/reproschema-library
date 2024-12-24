@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q90_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Swearing or obscene language ",
         "es": "Dice groser\u00edas, usa lenguaje obsceno"

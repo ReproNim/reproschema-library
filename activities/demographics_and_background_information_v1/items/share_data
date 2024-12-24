@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "share_data",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Request sharing of data from participant"
     },

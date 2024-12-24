@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "phq5_total_score",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "total score of section 6 for the PHQ Assessment"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_run_private_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Track, Running, Cross-country Atletismo en pista / correr / correr a campo traviesa Did your child receive individual private instruction? \u00bfSu ni\u00f1o(a) recibiA instrucciAn privada individual?"
     },

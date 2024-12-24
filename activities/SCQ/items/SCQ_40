@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "SCQ_40",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q40 of the Social Communication Questionnaire"
     },

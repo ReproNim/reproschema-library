@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a21d",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "d. The way things look at home ",
         "es": "d. La forma en que las cosas se ven en casa"

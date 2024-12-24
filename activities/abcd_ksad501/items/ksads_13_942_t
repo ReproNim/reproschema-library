@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_13_942_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Other Specified Feeding or Eating Disorder, Bulimia Nervosa, current, does not meet full criteria (F50.8)"
     },

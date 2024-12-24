@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_11_920_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Other Specified Obsessive-Compulsive and Related Disorder past does not meet full criteria (F42)"
     },

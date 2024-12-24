@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_med_insur_e_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "e. TRICARE or other military health caree. TRICARE u otra asistencia m?dica militar"
     },

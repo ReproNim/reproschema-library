@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_13",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "13. I did not let my child watch any hurricane-related news and media.",
         "es": "13. No dej\u00e9 que mi hijo mirara noticias y medios relacionados con huracanes."

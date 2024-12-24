@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q08_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Can't concentrate, can't pay attention for long ",
         "es": "No puede concentrarse o prestar atenci\u00f3n por mucho tiempo"

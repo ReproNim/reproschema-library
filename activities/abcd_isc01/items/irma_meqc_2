@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_meqc_2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "2. Media coverage of Hurricane Irma before the storm",
         "es": "2. Cobertura medi\u00e1tica del Hurac\u00e1n Irma antes de la tormenta"

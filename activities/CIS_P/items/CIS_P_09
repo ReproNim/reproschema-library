@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "CIS_P_09",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q9 of the Columbia Impairment Scale - Parent Report"
     },

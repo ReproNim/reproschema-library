@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "meim_5_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I have often talked to other people in order to learn more about my ethnic group.",
         "es": "Con frecuencia he hablado con otras personas para aprender m\u00e1s sobre mi grupo \u00e9tnico."

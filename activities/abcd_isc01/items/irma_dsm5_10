@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_10",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "10. I have bad dreams about Hurricane Irma, or other bad dreams.",
         "es": "10. Tengo malos sue\u00f1os sobre el hurac\u00e1n Irma u otros malos sue\u00f1os."

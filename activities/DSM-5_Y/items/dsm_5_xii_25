@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_xii_25",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Have you EVER tried to kill yourself?"
     },

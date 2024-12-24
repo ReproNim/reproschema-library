@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_gatea_c",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Do you live in the state of Florida?",
         "es": "\u00bfVives en el estado de la Florida?"

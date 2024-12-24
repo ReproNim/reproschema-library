@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_6",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "6. I feel like what happened during Hurricane Irma was sickening or gross.",
         "es": "6. Siento que lo que sucediA durante el hurac\u00e1n Irma fue repugnante o asqueroso."

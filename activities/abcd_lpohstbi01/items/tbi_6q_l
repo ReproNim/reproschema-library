@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_6q_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How many minutes was the longest knock out?",
         "es": "\u00bfCu\u00e1ntos minutos dur\u00f3 el tiempo m\u00e1s largo que estuvo inconsciente?"

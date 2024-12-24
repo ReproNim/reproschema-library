@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_mh_sa_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you, has your child received mental health or substance abuse services? Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) ha recibido servicios de salud mental o para el abuso de sustancias?"
     },

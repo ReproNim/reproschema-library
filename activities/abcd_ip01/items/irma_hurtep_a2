@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you have any changes at work or school because of the hurricane?",
         "es": "\u00bfTuvo alg\u00fan cambio en el trabajo o la escuela debido al hurac\u00e1n?"

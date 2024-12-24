@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "gender_identity",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema to identify the gender identity of the participant"
     },

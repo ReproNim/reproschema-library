@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "When your child evacuated your home, where did he or she go?",
         "es": "\u00bfCuando tu hijo(a) evacu\u00f3 de su casa, a d\u00f3nde fue?"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_marital_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Are you now married, widowed, divorced, separated, never married or living with a partner? \u00bfUsted actualmente est\u00e1 casado(a), viudo(a), divorciado(a), separado(a), nunca se ha casado(a) o vive con una pareja?"
     },

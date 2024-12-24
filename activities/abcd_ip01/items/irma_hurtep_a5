@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a5",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Has it been hard to see your friends since the hurricane?",
         "es": "\u00bfHa sido dif\u00edcil ver a tus amigos o familiares desde el hurac\u00e1n?"

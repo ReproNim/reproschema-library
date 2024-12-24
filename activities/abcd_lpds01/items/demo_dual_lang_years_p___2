@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_dual_lang_years_p___2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Which Years (check all that apply)? \u00bfQue anos (marque todo lo que corresponda)? (2, Pre-K Pre-Kinder)"
     },

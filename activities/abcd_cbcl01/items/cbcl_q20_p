@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q20_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Destroys his/her own things ",
         "es": "Destruye sus propias cosas"

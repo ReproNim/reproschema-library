@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_16",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "16. I have thoughts like \"I will never be able to trust other people.\" 16. Tengo pensamientos como:",
         "es": "\"Nunca podr\u00e9 confiar en otras personas.\""

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "asr_scr_aggressive_total",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Aggressive Behavior ASR Syndrome Scale (number of dependent raw scores)"
     },

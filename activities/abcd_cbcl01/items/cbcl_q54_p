@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q54_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Overtired without good reason ",
         "es": "Se siente demasiado cansado(a) sin raz\u00f3n para estarlo"

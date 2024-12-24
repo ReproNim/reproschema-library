@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q77_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Sleeps more than most kids during day and/or night ",
         "es": "Duerme m\u00e1s que la mayor\u00eda de los/las ni\u00f1os(as)/j\u00f3venes durante el d\u00eda y/o la noche"

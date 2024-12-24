@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b17",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home",
         "es": "En cualquier momento antes del hurac\u00e1n, \u00bfpensA que el hurac\u00e1n podr\u00eda causar un da\u00f1o mayor a su hogar, o que podr\u00eda perder su hogar?"

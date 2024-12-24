@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_x_16",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Had thoughts that kept coming into your mind that you would do something bad or that something bad would happen to you or to someone else?"
     },

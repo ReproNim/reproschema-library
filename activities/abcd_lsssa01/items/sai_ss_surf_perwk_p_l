@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_ss_surf_perwk_p_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Surfing\nAbout how many days per week?"
     },

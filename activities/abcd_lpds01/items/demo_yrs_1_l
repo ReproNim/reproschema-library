@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_yrs_1_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How often does your child attend religious services? \u00bfCon qu\u00e9 frecuencia asiste su nin-o(a) a servicios religiosos?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_nat_lang_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What is your native language? In other words, what was the first language most spoken to you by your parents or guardians after birth? [you can only pick one]    \u00bfCu\u00e1l es su idioma nativo? En otras palabras \u00bfcual fue el primer idioma que mas le hablaron sus padres o guardi\u00e1n la mayor parte del tiempo despu\u00e9s que usted nacio. [ puede seleccionar solamente uno]"
     },

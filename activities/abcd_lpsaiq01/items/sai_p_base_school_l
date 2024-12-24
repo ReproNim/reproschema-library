@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_base_school_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Baseball, Softball  B\u00e9isbol, Softbol Was any of this activity part of an organized team, group, band, orchestra, chorus, or program at school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado en la escuela?"
     },

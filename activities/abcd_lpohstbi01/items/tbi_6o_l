@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_6o_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Do you want to report any more injuries with loss of consciousness since we last saw you on [asnt_timestamp_c]?",
         "es": "Desde la \u00faltima vez que nos vimos en [baseline_year_1_arm_1][asnt_timestamp] \u00bfquisiera reportar otras lesiones que hayan resultado en la p\u00e9rdida de conocimiento ?"

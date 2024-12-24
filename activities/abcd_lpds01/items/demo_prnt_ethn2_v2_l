@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_ethn2_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Please choose the group that best represents your Hispanic origin or ancestry. Elija el grupo que mejor represente su origen o ascendencia hispana."
     },

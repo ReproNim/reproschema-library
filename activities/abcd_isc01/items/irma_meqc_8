@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_meqc_8",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "8. Internet media coverage of Hurricane Irma during the storm",
         "es": "8. Cobertura de los medios de Internet del Hurac\u00e1n Irma durante la tormenta"

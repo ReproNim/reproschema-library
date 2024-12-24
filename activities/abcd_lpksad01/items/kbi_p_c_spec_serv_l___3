@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_spec_serv_l___3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Does your child receive special services at school? Click all that apply: \u00bfSu ni\u00f1o(a) recibe servicios especiales en la escuela?   Seleccione todas las opciones que correspondan o apliquen: (3, Full-time Aide Auxiliar durante el d\u00eda escolar completo)"
     },

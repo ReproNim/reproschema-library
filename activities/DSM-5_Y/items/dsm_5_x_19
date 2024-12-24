@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_x_19",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Felt you had to do things in a certain way, like counting or saying special things, to keep something bad from happening?"
     },

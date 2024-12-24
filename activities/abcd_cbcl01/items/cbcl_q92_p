@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q92_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Talks or walks in sleep ",
         "es": "Habla o camina cuando est\u00e1 dormido(a)"

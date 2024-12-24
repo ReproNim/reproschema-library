@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q56h_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Other (physical problems without known physical cause) ",
         "es": "Otros (problemas f\u00edsicos sin causa m\u00e9dica conocida)"

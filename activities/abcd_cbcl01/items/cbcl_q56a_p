@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q56a_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Aches or pains (not stomach or headaches) ",
         "es": "Dolores o molestias (sin que sean del est\u00f3mago o dolores de cabeza)"

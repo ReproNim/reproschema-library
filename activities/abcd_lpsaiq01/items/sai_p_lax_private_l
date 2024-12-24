@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_lax_private_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Lacrosse Lacrosse Did your child receive individual private instruction? \u00bfSu ni\u00f1o(a) recibiA instrucciAn privada individual?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_7_861_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Separation Anxiety Disorder (F93.00) PRESENT"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_pssc_6",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "6. In the last month, how often have you found that you could not cope with all the things that you had to do? 6.",
         "es": "En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia descubriA que no pod\u00eda enfrentarse a todas las cosas que ten\u00eda que hacer?"

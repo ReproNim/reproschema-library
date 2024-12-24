@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_13_936_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Bulimia Nervosa (F50.2) PAST"
     },

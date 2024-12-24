@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b15",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "At any time before the hurricane, did you think you might die?",
         "es": "En cualquier momento antes del hurac\u00e1n, \u00bfcrees que podr\u00edas morir?"

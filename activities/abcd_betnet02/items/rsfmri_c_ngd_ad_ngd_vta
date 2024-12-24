@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "rsfmri_c_ngd_ad_ngd_vta",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Average correlation between auditory network and ventral attention network"
     },

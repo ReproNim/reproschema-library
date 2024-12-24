@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_fhock_self_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Field Hockey Hockey sobre c\u00e9sped Did your child learn this activity without formal instruction? \u00bfSu ni\u00f1o(a) aprendiA esta actividad sin instrucciAn formal?"
     },

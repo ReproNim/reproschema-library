@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "meim_6_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I feel a strong attachment towards my own ethnic group.",
         "es": "Siento una fuerte conexi\u00f3n hacia mi propio grupo \u00e9tnico."

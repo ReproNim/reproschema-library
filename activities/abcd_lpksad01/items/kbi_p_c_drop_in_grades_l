@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_drop_in_grades_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "In the past year or past several months, has there been a drop in your child's grades? \u00bfLas calificaciones de su ni\u00f1o(a) han bajado en el \u00faltimo a\u00f1o o en los \u00faltimos meses?"
     },

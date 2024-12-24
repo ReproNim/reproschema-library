@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a9",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Has anyone stolen anything from your home since the hurricane?",
         "es": "\u00bfAlguien ha robado algo de su casa desde el hurac\u00e1n?"

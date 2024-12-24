@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q46_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Nervous movements or twitching ",
         "es": "Movimientos involuntarios o tics"

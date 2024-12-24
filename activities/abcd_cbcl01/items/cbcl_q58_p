@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q58_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Picks nose, skin, or other parts of body ",
         "es": "Mete el dedo en la nariz, se ara\u00f1a la piel u otras partes del cuerpo"

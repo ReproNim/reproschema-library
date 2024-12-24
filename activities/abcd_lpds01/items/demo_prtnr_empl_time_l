@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prtnr_empl_time_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Work Full time or Part time? \u00bfTrabaja de tiempo completo o medio tiempo?"
     },

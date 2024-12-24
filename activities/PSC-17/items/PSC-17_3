@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "PSC-17_3",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q3 of the PSC-17 Assessment"
     },

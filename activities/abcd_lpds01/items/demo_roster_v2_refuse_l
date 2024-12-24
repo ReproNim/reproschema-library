@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_roster_v2_refuse_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Not applicable  No aplica; Refuse to answer Prefiero no contestar"
     },

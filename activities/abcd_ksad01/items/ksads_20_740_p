@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_20_740_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Craving or strong desire to use substance (Opioid) Past"
     },

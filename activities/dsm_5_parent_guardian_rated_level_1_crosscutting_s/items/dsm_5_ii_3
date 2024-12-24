@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_ii_3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Had problems sleeping\u2014that is, trouble falling asleep, staying asleep, or waking up too early?"
     },

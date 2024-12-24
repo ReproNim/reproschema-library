@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q111_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Withdrawn, doesn't get involved with others ",
         "es": "Se a\u00edsla, no se relaciona con los dem\u00e1s"

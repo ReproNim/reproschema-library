@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_23",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "23. I have trouble remembering important parts of Hurricane Irma.",
         "es": "23. Tengo problemas para recordar partes importantes del hurac\u00e1n Irma."

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q39_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Hangs around with others who get in trouble ",
         "es": "Se junta con ni\u00f1os(as)/j\u00f3venes que se meten en problemas"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_child_time2_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "About how much time does the child spend at this other household? Approximately how many hours per week \u00bfAproximadamente cu\u00e1nto tiempo pasa su nin-o(a) en ese otro hogar? \u00bfAproximadamente cu\u00e1ntas horas por semana?"
     },

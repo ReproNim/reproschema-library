@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_ss_worst1b_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Worst injury1b = improbable TBI complex\n (TBI w/o LOC or memory loss)"
     },

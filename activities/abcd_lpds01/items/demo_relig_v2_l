@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_relig_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What is the child's religious preference? \u00bfCu\u00e1l es la preferencia religiosa del nino / de la nin-a?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_24",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "24. I feel jumpy or startle easily, like when I hear a loud noise or when something surprises me.",
         "es": "24. Siento nervioso o sobresalto con facilidad, como cuando escucho un ruido fuerte o cuando algo me sorprende."

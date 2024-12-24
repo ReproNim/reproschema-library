@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_12",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "12. I have trouble feeling happiness or love.",
         "es": "12. Tengo problemas para sentir felicidad o amor."

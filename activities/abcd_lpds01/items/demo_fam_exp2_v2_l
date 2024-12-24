@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_fam_exp2_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Were without telephone service because you could not afford it? \u00bfEstuvieron sin servicio telefonico porque no les alcanzaba el dinero?"
     },

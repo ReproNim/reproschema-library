@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_11_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Is he/she able to see the difference between blue and green? \u00bfEs su ni\u00f1o(a) capaz de ver la diferencia entre el azul y el verde?"
     },

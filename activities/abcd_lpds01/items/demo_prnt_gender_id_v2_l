@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_gender_id_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What is your current gender identity? \u00bfCu\u00e1l es su identidad de g\u00e9nero actual?"
     },

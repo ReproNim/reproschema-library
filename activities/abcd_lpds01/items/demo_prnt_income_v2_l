@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_income_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How much did you earn, before taxes and other deductions, during the past 12 months? \u00bfCu\u00e1l fue su ingreso, antes de impuestos y otras deducciones, en los altimos 12 meses?"
     },

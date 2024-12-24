@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_21_924_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Other Specified Trauma-and Stressor-Related Disorder PAST PTSD impairment does not meet full criteria (F43.8)"
     },

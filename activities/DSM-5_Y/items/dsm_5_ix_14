@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_ix_14",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Heard voices\u2014when there was no one there\u2014speaking about you or telling you what to do or saying bad things to you?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_fam_exp1_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Needed food but couldn't afford to buy it or couldn't afford to go out to get it? \u00bfNecesitaban comida pero no les alcanzaba el dinero para comprarla o para salir a comprarla?"
     },

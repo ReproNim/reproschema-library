@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a12",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you have to travel a lot longer to get to work or school?",
         "es": "\u00bfTuvo que viajar mucho m\u00e1s tiempo para ir al trabajo o a la escuela?"

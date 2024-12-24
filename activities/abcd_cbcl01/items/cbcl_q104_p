@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q104_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Unusually loud ",
         "es": "M\u00e1s ruidoso(a) de lo com\u00fan"

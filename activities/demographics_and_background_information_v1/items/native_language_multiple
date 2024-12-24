@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "native_language_multiple",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema for native language of participant"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q63_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Prefers being with older kids ",
         "es": "Prefiere estar con ni\u00f1os(as) mayores que \u00e9l/ella"

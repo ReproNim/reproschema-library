@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d6",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did your child see anyone else get hurt badly during the hurricane?",
         "es": "\u00bfTu hijo(a) vio a otra persona lastimarse mal durante el hurac\u00e1n?"

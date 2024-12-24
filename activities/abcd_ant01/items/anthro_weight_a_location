@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "anthro_weight_a_location",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Location of Cast or Medical Prosthesis"
     },

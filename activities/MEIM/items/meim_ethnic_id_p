@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "meim_ethnic_id_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "In terms of ethnic group, I consider myself to be: ",
         "es": "En cuanto a mi grupo \u00e9tnico, me considero:"

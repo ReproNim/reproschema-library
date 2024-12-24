@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_yrs_2b_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Does your child's religion have rules forbidding the use of drugs? \u00bfLa religion de su nin-o(a) tiene reglas que proh\u00edben el uso de drogas?"
     },

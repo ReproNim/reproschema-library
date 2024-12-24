@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_19",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "19. I think that part of what happened during Hurricane Irma was my fault.",
         "es": "19. Creo que parte de lo que sucediA durante el hurac\u00e1n Irma fue mi culpa."

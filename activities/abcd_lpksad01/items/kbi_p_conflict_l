@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_conflict_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "In general, how do you and your child get along? En general, \u00bfc\u00f3mo se llevan usted y su ni\u00f1o(a)?"
     },

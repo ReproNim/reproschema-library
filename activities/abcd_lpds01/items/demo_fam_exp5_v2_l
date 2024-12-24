@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_fam_exp5_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Had services turned off by the gas or electric company, or the oil company wouldn't deliver oil because payments were not made? \u00bfLes suspendieron el servicio de gas o electricidad, o la compan-\u00eda de petroleo se nego a abastecerles por falta de pago?"
     },

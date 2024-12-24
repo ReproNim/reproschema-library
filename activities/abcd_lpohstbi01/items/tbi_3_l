@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_3_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you on [asnt_timestamp_c], has your child injured his/her head or neck in a fall or from being hit by something? (For example, falling from a bike or horse, rollerblading, falling on ice, being hit by a rock). In the past year, has your child injured his/her head or neck playing sports or on the playground?\n\n",
         "es": "Desde la \u00faltima vez que nos vimos en [baseline_year_1_arm_1][asnt_timestamp], \u00bfsu ni\u00f1o/a se ha lesionado la cabeza o el cuello debido a una ca\u00edda o porque algo le haya ca\u00eddo algo en la cabeza (p. ej., al caerse de una bicicleta o un caballo, al andar en patines, al caerse en el hielo o que le haya ca\u00eddo una roca)? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) se ha lastimado la cabeza o el cuello haciendo deporte o jugando en un parque?"

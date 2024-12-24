@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_trans_problems_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you, has this caused any problems for your child with your family or with kids at school? Desde la \u00faltima vez que nos vimos, \u00bfesto le ha causado a su ni\u00f1o(a) alg\u00fan problema con su familia o con los ni\u00f1os en la escuela?"
     },

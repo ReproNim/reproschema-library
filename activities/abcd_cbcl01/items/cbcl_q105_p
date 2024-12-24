@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q105_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Uses drugs for non medical purposes (don't include alcohol or tobacco) ",
         "es": "Usa drogas sin motivo m\u00e9dico (no incluya alcohol o tabaco)"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_vi_13",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Said he/she couldn\u2019t do things he/she wanted to or should have done, because they made him/her feel nervous?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_5",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "5. I asked my child what questions he or she might have about the hurricane.",
         "es": "5. Le pregunt\u00e9 a mi hijo qu\u00e9 preguntas podr\u00eda tener sobre el hurac\u00e1n."

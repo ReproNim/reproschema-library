@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "1. There were aspects of the hurricane that I did not discuss with my child, out of concern that it could unnecessarily frighten him or her.",
         "es": "1. Hubo aspectos del hurac\u00e1n que no hable con mi hijo, por temor a que pudiera asustarlo(a) innecesariamente."

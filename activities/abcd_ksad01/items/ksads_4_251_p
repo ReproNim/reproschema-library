@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_4_251_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Tenacity of belief that delusion is true Past"
     },

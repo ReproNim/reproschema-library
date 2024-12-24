@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_med_insur_d_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "d. Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or a disabilityd. Medicaid, Asistencia M?dica, o cualquier tipo de plan de asistencia gubernamental para personas con bajos ingresos o una discapacidad"
     },

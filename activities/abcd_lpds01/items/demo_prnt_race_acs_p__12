@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_race_acs_p__12",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What is your race? Mark (X) one or more boxes (+ race list above)?Cu?l es su raza? Marque (X) en una o m?s casillas (+ translated list of races above) : American Indian, or Alaska Native"
     },

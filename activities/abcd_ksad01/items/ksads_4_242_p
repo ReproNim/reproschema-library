@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_4_242_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Hallucinations associated with possible affective Illness Past"
     },

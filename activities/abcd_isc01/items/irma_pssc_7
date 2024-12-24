@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_pssc_7",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "7. In the last month, how often have you been able to control irritations in your life? 7.",
         "es": "En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia ha podido controlar las irritaciones en su vida?"

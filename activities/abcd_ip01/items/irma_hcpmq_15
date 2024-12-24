@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_15",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "15. I limited the amount of time my child was allowed to watch hurricane-related news and media.",
         "es": "15. Limit\u00e9 la cantidad de tiempo que mi hijo pod\u00eda ver las noticias y los medios relacionados con los huracanes."

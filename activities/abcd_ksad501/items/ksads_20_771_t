@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_20_771_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Important activities given up or reduced due to substance use (Tobacco), Past"
     },

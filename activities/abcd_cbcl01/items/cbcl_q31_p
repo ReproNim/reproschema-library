@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q31_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Fears he/she might think or do something bad ",
         "es": "Tiene miedo de que pueda pensar o hacer algo malo"

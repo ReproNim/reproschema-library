@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas15_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "When I see an opportunity to get something I want, I go for it right away."
     },

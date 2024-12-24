@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ann_fam_income",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Annual Family Income\nWhat is the family's estimated gross income for the past year, all sources combined, before taxes? (Income is based on the participant and any wage earners who significantly contribute.)"
     },

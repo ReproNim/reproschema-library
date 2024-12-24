@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bpmt_dte_last",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Last date sent"
     },

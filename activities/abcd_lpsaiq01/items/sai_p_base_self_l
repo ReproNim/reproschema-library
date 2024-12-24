@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_base_self_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Baseball, Softball  B\u00e9isbol, Softbol Did your child learn this activity without formal instruction? \u00bfSu ni\u00f1o(a) aprendiA esta actividad sin instrucciAn formal?"
     },

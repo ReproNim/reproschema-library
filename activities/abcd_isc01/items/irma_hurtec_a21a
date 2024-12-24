@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_a21a",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "a. The way things look in your neighborhood ",
         "es": "a. La forma en que se ven las cosas en tu vecindario"

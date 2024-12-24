@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d1___2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Where was your child during the Hurricane? (you can check more than one)",
         "es": "Donde estaba su hijo(a) durante el hurac\u00e1n? (puedes verificar m\u00e1s de uno) (2, in a closet, bathroom, or hallway en un armario, ba\u00f1o o pasillo)"

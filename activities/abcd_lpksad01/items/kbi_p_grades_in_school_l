@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_grades_in_school_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What kind of grades does your child get on average? \u00bfCu\u00e1l es el promedio de calificaciones de su ni\u00f1o(a)?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "anthroweight1lb",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Make sure shoes and unnecessary layers of clothes (jackets or hats) have been removed before taking weight measurement.) 1. Okay, make sure you empty your pockets for this next measurement. Please stand completely still in the center of the scale with your feet close together, your hands at your side, and your head looking straight ahead. Please stay as still as possible while I measure your weight. (OBTAIN & RECORD WEIGHT #1 (in lbs))"
     },

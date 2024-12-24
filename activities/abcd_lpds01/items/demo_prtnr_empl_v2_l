@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prtnr_empl_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "We would like to know about what your partner does - are they working, looking for work, retired, stay at home parent, a student, or what? Nos gustara saber a qu\u00e9 se dedica su pareja. \u00bfTrabaja actualmente, est\u00e1 buscando trabajo, est\u00e1 retirado(a), se dedica al hogar, estudia o realiza alguna otra actividad?"
     },

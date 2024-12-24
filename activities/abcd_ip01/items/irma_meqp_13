@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_meqp_13",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "13. Irma-related social media activity during the storm",
         "es": "13.Actividad de medios sociales relacionada con Irma durante la tormenta"

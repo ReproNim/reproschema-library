@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_ethn_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Do you consider yourself Hispanic/Latino/Latina? \u00bfSe considera usted hispano(a) o latino(a)?"
     },

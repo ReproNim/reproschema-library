@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "su_risk_p_9",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How many of your friends or family members have a medical marijuana prescription?",
         "es": "\u00bfCu\u00e1ntos de sus amigos(as) o familiares tienen una receta para marihuana medicinal?"

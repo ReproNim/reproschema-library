@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_6_23_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Agoraphobic of at least 2 situations, Past"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "su_risk_p_3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "If your child wanted to get some e-cigarettes, vape pens, or e-hookah, how easy would it be for her/him to get some? ",
         "es": "Si su ni\u00f1o(a) quisiera conseguir cigarrillos electr\u00f3nicos, plumas de vapor o narguile (hookah) electr\u00f3nica, \u00bfqu\u00e9 tan f\u00e1cil le ser\u00eda?"

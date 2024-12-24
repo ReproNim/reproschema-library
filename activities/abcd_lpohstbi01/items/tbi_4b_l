@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_4b_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Was he/she knocked out or did he/she lose consciousness (LOC)? If yes, how long?",
         "es": "\u00bfEstuvo \u00e9l o ella noqueado/a o perdi\u00f3 el conocimiento? \u00bfSi la respuesta es si, por cu\u00e1nto tiempo?"

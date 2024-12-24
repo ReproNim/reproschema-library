@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_a15",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Overall, how upset about things have you been since the hurricane?",
         "es": "En general, \u00bfqu\u00e9 tan molesto por las cosas ha estado usted desde el hurac\u00e1n?"

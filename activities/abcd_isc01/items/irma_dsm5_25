@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_25",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "25. I feel afraid or scared.",
         "es": "25. Estoy asustado(a) o tengo miedo."

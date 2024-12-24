@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q26_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Doesn't seem to feel guilty after misbehaving ",
         "es": "No parece sentirse culpable despu\u00e9s de portarse mal"

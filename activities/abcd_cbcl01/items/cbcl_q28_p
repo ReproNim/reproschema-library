@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q28_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Breaks rules at home, school or elsewhere ",
         "es": "No respeta/rompe las reglas en casa, en la escuela, o en otro lugar"

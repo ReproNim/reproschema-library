@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d14",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "During the hurricane, did you think that the hurricane was causing major damage to your home, or that you might lose your home? Durante el hurracan,",
         "es": "\u00bfpensaste que el hurac\u00e1n estaba causando da\u00f1os importantes a su hogar, o que podr\u00edas perder su hogar?"

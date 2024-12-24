@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q48_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "",
         "es": "Not liked by other kids No le cae bien a otros ni\u00f1os(as)/j\u00f3venes"

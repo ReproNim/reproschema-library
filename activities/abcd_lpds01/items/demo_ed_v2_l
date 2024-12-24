@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_ed_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What grade is the child in? If it is summer, indicate grade starting in the fall. \u00bfEn qu\u00e9 grado est\u00e1 el/la nino(a)? [Si es verano, indique el grado que iniciar\u00e1 en el otono]"
     },

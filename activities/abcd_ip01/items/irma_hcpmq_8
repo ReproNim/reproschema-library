@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_8",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "8. I shared my own fears and concerns about the hurricane with my child",
         "es": "8. Compart\u00ed mis propios miedos y preocupaciones sobre el hurac\u00e1n con mi hijo."

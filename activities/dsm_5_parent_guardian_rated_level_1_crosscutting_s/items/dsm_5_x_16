@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_x_16",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Said that he/she had thoughts that kept coming into his/her mind that he/she would do something bad or that something bad would happen to him/her or to someone else?"
     },

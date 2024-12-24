@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "When your child evacuated, how long was he or she away from your home? Cuando tu hijo(a) evacuA,",
         "es": "\u00bfcu\u00e1nto tiempo estuvo lejos de su casa?"

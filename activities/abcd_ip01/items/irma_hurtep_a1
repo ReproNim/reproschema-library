@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Was your home damaged badly or destroyed by the hurricane?",
         "es": "\u00bfSu hogar sufri\u00f3 da\u00f1os graves o fue destruido por el hurac\u00e1n?"

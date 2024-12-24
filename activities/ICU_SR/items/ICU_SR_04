@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ICU_SR_04",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q4 of the Inventory of Callous-Unemotional Traits - Self Report"
     },

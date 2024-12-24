@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_race_a_v2_l___13",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What race do you consider yourself to be? Please check all that apply. \u00bfDe qu\u00e9 raza se considera usted? Seleccione 1 o m\u00e1s de estas categor\u00edas: (13, Alaska Native Nativa de Alaska)"
     },

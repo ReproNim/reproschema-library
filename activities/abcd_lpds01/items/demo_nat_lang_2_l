@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_nat_lang_2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Please choose one of these four options regarding the first language or languages most spoken to your child by their parents or guardians after birth.  Por favor escoja una de estas cuatro opciones sobre el primer idioma o idiomas mas hablados a su hijo(a), despu\u00e9s de nacer, por sus padres o guardianes."
     },

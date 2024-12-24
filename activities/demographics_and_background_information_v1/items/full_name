@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "full_name",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema for full name of participant"
     },

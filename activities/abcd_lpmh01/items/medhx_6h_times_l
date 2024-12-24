@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_6h_times_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "High Fever: How many times? \u00bfCu\u00e1ntas veces?"
     },

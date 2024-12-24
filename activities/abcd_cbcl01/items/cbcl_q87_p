@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q87_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Sudden changes in mood or feelings ",
         "es": "S\u00fabitos cambios de humor o sentimientos"

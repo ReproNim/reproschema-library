@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "meim_2_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I have a strong sense of belonging to my own ethnic group.",
         "es": "Tengo un fuerte sentido de pertenecer con mi propio grupo \u00e9tnico."

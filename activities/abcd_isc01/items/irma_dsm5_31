@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_31",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "31. I feel like things around me are not real, like I am in a dream.",
         "es": "31. Siento que las cosas a mi alrededor no son reales, como que estoy en un sue\u00f1o."

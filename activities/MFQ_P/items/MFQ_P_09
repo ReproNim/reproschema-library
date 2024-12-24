@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "MFQ_P_09",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q9 of the Mood and Feelings Questionnaire - Parent Report"
     },

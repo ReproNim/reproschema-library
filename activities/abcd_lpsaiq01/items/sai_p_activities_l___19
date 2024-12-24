@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_activities_l___19",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "(19, Track,  Running,  Cross-country Atletismo en pista / correr / correr a campo traviesa)"
     },

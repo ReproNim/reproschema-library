@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q19_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Demands a lot of attention ",
         "es": "Exige mucha atenci\u00f3n"

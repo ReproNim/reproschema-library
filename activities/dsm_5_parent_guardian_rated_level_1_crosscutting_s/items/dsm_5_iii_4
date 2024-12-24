@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_iii_4",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Had problems paying attention when he/she was in class or doing his/her homework or reading a book or playing a game?"
     },

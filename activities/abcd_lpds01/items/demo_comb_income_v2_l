@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_comb_income_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Which of these categories best describes your TOTAL COMBINED FAMILY INCOME for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relative (include child payments and alimony), and so on. \u00bfCu\u00e1l de estas categor\u00edas es la que mejor describe su INGRESO FAMILIAR TOTAL COMBINADO de los altimos 12 meses? Este debe incluir los ingresos (antes de impuestos y deducciones) provenientes de todas las fuentes, salarios, renta de propiedades, seguro social, pagos por incapacidad o subsidios para veteranos, subsidios por desempleo, compensacion por accidentes de trabajo, ayuda de familiares (incluya pensiones alimenticias para hijos y conyuges divorciados), etc."
     },

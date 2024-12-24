@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "asr_scr_anxdep_total",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Anxious/Depressed ASR Syndrome Scale (number of dependent raw scores)"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_12",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "12. My child was sometimes in the room while I watched hurricane-related news",
         "es": "12. A veces, mi hijo estaba en la habitaci\u00f3n mientras que yo ve\u00eda noticias relacionadas con los huracanes"

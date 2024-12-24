@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_det_susp_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "In the past year, has your child had any detentions or suspensions? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha tenido alguna detenci\u00f3n o suspensi\u00f3n en la escuela?"
     },

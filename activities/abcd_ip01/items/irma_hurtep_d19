@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d19",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Overall, how safe did you feel during the hurricane?",
         "es": "En general, \u00bfqu\u00e9 tan seguro usted sinti\u00f3 durante el hurac\u00e1n?"

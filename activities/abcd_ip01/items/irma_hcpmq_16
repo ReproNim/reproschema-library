@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_16",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "16. I only let my child watch hurricane-related news when I was watching with him or her.",
         "es": "16. Solo le permit\u00ed a mi hijo mirar noticias relacionadas con huracanes cuando estaba viendo los con \u00e9l o ella."

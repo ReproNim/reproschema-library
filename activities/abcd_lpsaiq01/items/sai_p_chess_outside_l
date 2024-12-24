@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_chess_outside_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Competitive Games like Chess, Cards, or Darts Juegos competitivos, como ajedrez, cartas o dardos Was any of this activity part of an organized team, group, band, orchestra, chorus, or program outside of school? \u00bfAlguna de estas actividades formA parte de alg\u00fan equipo, grupo, banda, orquesta, coro, o programa organizado fuera de la escuela?"
     },

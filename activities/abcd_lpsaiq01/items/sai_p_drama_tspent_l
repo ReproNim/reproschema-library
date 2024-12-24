@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_drama_tspent_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Theater, Acting, Film Teatro, actuaciAn, cinematograf\u00eda About how many minutes per session? \u00bfAproximadamente cu\u00e1ntos minutos por sesiAn?"
     },

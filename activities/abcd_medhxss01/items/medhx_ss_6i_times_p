@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_ss_6i_times_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Head Injury: How many times?"
     },

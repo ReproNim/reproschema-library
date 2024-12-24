@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ASR_56d",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q59 of the Questionnaire Measures of Emotional and Cognitive Status"
     },

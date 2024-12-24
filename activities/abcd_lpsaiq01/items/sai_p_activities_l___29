@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_activities_l___29",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "(29, My child has not participated in any of the above activities Mi ni\u00f1o(a) no ha participado en ninguna de estas actividades)"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas1_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I usually get very tense when I think something unpleasant is going to happen."
     },

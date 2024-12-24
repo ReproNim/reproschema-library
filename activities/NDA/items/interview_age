@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "interview_age",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Age in months at the time of the interview/test/sampling/imaging."
     },

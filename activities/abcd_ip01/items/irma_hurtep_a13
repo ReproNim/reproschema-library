@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a13",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you lose internet for a week or more?",
         "es": "\u00bfPerdi\u00f3 Internet por una semana o m\u00e1s?"

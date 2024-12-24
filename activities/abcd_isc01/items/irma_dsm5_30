@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_30",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "30. I feel like things around me look strange, different, or like I am in a fog.",
         "es": "30. Siento que las cosas a mi alrededor se ven extra\u00f1as, diferentes o como si estuviera en una niebla."

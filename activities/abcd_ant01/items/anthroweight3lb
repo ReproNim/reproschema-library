@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "anthroweight3lb",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "If measurements differ by > 0.1 pounds, the program will prompt you to take a third measurement. 4.  Ok, you can relax and step away from the scale. 5.  Please step back on the scale again for another measurement and remember to stand completely still in the center of the scale with your feet close together, your hands at your side, and your head looking straight ahead. Please stay as still as possible while I measure your weight. (OBTAIN & RECORD WEIGHT #3 (in lbs))"
     },

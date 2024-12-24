@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_15_901_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Oppositional Defiant Disorder, Present F91.3"
     },

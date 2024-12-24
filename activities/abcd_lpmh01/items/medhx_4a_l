@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_4a_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Has he/she been to an emergency room since we last saw you? Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfsu ni\u00f1o(a) ha visitado una sala de emergencias?"
     },

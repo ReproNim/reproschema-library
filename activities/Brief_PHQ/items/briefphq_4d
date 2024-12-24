@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "briefphq_4d",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "This is a radio item."
     },

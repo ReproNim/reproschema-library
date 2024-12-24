@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_ss_worst_overall_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Worst Injury Overall: Worst TBI - 1, Improbable  TBI (no TBI or TBI w/o LOC or memory loss); 2, Possible mild TBI (TBI w/o LOC but memory loss); 3, Mild TBI (TBI w/LOC \u2264 30 min); 4, Moderate TBI (TBI w/LOC  30 min - 24 hrs); 5, Severe TBI (TBI w/ LOC \u2265 24 hrs)"
     },

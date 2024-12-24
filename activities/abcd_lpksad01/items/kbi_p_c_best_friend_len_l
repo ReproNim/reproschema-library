@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_best_friend_len_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How long has your child been friends with this best friend? \u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) es amigo(a) de este mejor amigo o amiga?"
     },

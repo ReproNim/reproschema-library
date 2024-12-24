@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_c2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Keep you from making friends or doing things with friends?",
         "es": "\u00bfEvita hacer amigos o hacer cosas con amigos?"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_10_322_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Worry associated with defined symptom(s), Present"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q37_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Gets in many fights ",
         "es": "Se mete mucho en peleas"

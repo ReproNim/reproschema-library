@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q56d_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Problems with eyes (not if corrected by glasses) ",
         "es": "Problemas con los ojos (no incluya si se corrigi\u00f3 con gafas/lentes/espejuelos)"

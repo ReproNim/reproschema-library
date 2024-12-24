@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "pqb_11",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema for Q11 of the PQ-B Assessment"
     },

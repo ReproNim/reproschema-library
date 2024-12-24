@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_x_17",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Felt the need to check on certain things over and over again, like whether a door was locked or whether the stove was turned off?"
     },

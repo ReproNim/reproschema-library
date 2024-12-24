@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "child_out_psych_cur",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Is your child who will be participating in the study currently involved in outpatient psychiatric/psychological treatment?   "
     },

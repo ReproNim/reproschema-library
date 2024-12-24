@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_xii_24",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "In the last 2 weeks, have you thought about killing yourself or committing suicide?"
     },

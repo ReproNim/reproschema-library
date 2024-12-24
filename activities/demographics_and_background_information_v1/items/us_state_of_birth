@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "us_state_of_birth",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema for state of birth of participant in the U.S."
     },

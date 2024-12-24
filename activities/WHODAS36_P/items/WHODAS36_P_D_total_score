@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "WHODAS36_P_D_total_score",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Average score of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version"
     },

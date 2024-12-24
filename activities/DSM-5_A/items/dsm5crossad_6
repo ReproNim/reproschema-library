@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm5crossad_6",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q6 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report"
     },

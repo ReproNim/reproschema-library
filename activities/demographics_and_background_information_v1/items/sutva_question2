@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sutva_question2",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How many?"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_brthdat_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How old is the child? \u00bfQu\u00e9 edad tiene el/la nino(a)?"
     },

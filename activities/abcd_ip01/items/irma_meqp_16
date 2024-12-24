@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_meqp_16",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "16. Which Television channel did you watch most when viewing news related to Hurricane Irma? 16.",
         "es": "\u00bfQu\u00e9 canal de televisi\u00f3n viste m\u00e1s cuando viste noticias relacionadas con el hurac\u00e1n?"

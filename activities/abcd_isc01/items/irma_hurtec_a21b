@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_a21b",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "b. Problems spending time with friends ",
         "es": "b. Problemas pasando tiempo con amigos"

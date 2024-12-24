@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "person2_occ_lvl",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Highest Occupational Level for Person 2"
     },

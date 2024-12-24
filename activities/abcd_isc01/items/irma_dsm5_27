@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_27",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "27. I want to get back at someone for what happened during Hurricane Irma.",
         "es": "27. Quiero castigar a alguien por lo que sucediA durante el hurac\u00e1n Irma."

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_29",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "29. I feel not connected to my body, like I'm not really there inside.",
         "es": "29. No me siento conectado a mi cuerpo, como si realmente no estuviera adentro."

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_pssp_8",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "8. In the last month, how often have you felt that you were on top of things? 8.",
         "es": "En el \u00faltimo mes, \u00bfcon qu\u00e9 frecuencia sinti\u00f3 que estaba al tanto de las cosas?"

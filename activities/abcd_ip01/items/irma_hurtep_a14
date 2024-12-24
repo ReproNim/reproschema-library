@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a14",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes?",
         "es": "\u00bfHubo mucho da\u00f1o en su vecindario, como grandes \u00e1rboles sin segar o casas gravemente da\u00f1adas?"

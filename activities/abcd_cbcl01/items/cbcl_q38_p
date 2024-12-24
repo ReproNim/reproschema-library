@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q38_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Gets teased a lot ",
         "es": "Los dem\u00e1s se burlan de \u00e9l/ella a menudo"

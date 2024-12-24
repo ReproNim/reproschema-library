@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_ss_6s_times_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Wound from knife or any other weapon\r: How many times?"
     },

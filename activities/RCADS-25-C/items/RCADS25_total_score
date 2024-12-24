@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "RCADS25_total_score",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema for total score of the RCADS-25 Caregiver Assessment"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_activities_l___20",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "(20, Wresting,  Mixed Martial Arts Lucha libre / artes marciales mixtas)"
     },

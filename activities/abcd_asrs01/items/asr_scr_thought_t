@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "asr_scr_thought_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Thought Problems ASR Syndrome Scale (t-score)"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_med_insur_c_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "c. Medicare, forc. Medicare, for people 65 and older, or people with certain disabilitiesc. Medicare, forc. Medicare, para personas de 65 a?os o m?s, o personas con ciertas discapacidades"
     },

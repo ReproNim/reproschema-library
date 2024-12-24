@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_ed_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "What is the highest grade or level of school you have completed or the highest degree you have received? \u00bfCu\u00e1l es su m\u00e1ximo nivel de estudios completados o el m\u00e1ximo t\u00edtulo que ha recibido?"
     },

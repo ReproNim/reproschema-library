@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas5r_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I do not become fearful or nervous, even when something bad happens to me."
     },

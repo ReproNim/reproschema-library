@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_child_time_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Is there another household in which the child spends a significant amount of time? \u00bfHay otro hogar en donde su nin-o(a) pase una cantidad importante de tiempo?"
     },

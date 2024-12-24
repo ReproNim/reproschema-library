@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "bisbas9_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "When I am doing well at something, I like to keep doing this."
     },

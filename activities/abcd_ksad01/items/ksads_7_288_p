@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_7_288_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Refusal to sleep without attachment figure near \u03bePast"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_c4",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Keep you from enjoying or doing other things?(For example: do you have problems sleeping, eating, or keeping your mind on things like work or school?)",
         "es": "\u00bfEvita que disfrute o haga otras cosas?(Por ejemplo: \u00bftiene problemas para dormir, comer o mantener la mente en cosas como la tarea?)"

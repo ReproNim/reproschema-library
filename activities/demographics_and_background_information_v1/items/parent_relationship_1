@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "parent_relationship_1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Parent Primary Caregiver/Guardian #1 Relationship to participant:"
     },

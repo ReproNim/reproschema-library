@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "hair_dot_y",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Hair sample time and date collected:"
     },

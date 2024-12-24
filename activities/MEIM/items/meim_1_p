@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "meim_1_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "I have spent time trying to find out more about my ethnic group, such as its history, traditions, and customs.",
         "es": "He pasado tiempo intentando saber m\u00e1s sobre mi grupo \u00e9tnico, como su historia, tradiciones y costumbres."

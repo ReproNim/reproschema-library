@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_21_357_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Inability to \u03berecall aspects of trauma Present"
     },

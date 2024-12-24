@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_prtnr_adopt_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Is your partner the child's adoptive parent? \u00bfEs su pareja el padre o la madre adoptiva de el nin-o o la nin-a?"
     },

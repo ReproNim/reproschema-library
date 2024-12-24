@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q16_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Cruelty, bullying, or meanness to others ",
         "es": "Es cruel, abusador(a), y malo(a) con los dem\u00e1s"

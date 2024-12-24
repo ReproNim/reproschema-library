@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_det_reason_l___3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "For what? Click all that apply: \u00bfPor qu\u00e9 motivo?  Seleccione todas las opciones que correspondan o apliquen: (3, Threatening a Teacher Amenazar a un maestro)"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "tbi_6r_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How many were more than or equal to 30 min?",
         "es": "\u00bfCu\u00e1ntas veces ha estado inconsciente por \u00e2\u0089\u00a5 30 min o m\u00e1s?"

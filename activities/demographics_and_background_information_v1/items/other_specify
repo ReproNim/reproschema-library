@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "other_specify",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "schema for specifying detail when other option is chosen."
     },

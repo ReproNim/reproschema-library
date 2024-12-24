@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_11",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "11. My child was sometimes in the same room when I discussed my own fears about the hurricane with others.",
         "es": "11. A veces, mi hijo estaba en la misma habitaci\u00f3n cuando hable sobre mis propios temores sobre el hurac\u00e1n con otras personas."

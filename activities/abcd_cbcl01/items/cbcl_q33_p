@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q33_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Feels or complains that no one loves him/her ",
         "es": "Siente o se queja de que nadie lo/la quiere"

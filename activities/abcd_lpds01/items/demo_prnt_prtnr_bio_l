@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_prnt_prtnr_bio_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Is your partner the child's biological parent? \u00bfSu pareja es el padre o la madre biologico(a) del nin-o o de la nin-a?"
     },

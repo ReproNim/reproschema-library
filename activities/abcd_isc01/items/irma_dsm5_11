@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_11",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "11. When something reminds me of Hurricane Irma I get very upset, afraid, or sad.",
         "es": "11. Cuando algo me recuerda al hurac\u00e1n Irma, me siento muy enojado, asustado o triste."

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "particpant_grade_level",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Youth participant's grade level"
     },

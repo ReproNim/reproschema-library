@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d13",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you think a family member might be hurt badly during the hurricane?",
         "es": "\u00bfPensaste que un miembro de la familia podr\u00eda herirse gravemente durante el hurac\u00e1n?"

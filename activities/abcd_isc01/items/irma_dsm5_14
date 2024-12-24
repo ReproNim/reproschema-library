@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_14",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "14. When something reminds me of Hurricane Irma, I have strong feelings in my body like my heart beats fast, my head aches or my stomach aches.",
         "es": "14. Cuando algo me recuerda al hurac\u00e1n Irma, tengo Fuertes sentimientos en mi cuerpo como si mi corazAn late r\u00e1pido, me duele la cabeza o me duele el estAmago."

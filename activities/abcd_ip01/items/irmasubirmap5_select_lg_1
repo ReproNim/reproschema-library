@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irmasubirmap5_select_lg_1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "",
         "es": "\u00bfEspa\u00f1ol? (1, S\u00ed)"

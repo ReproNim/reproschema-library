@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q11_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Clings to adults or too dependent ",
         "es": "Es demasiado dependiente o apegado(a) a los adultos"

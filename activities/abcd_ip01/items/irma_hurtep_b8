@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b8",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "How often did you check reports about the hurricane in the days before the storm?",
         "es": "\u00bfCon qu\u00e9 frecuencia revisA los reportes sobre el hurac\u00e1n en los d\u00edas antes de la tormenta?"

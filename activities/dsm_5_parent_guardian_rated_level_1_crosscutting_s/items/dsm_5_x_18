@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "dsm_5_x_18",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Seemed to worry a lot about things he/she touched being dirty or having germs or being poisoned?"
     },

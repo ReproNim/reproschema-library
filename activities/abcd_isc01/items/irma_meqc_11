@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_meqc_11",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "11. Social media activity related to Hurricane Harvey",
         "es": "11. Actividad de medios sociales relacionada con el hurac\u00e1n Harvey"

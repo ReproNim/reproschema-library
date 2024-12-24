@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hcpmq_3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "3. I brought up the hurricane to my child to inform him or her about what was happening.",
         "es": "3. Hable del hurac\u00e1n a mi hijo para informarle sobre lo que estaba pasando.."

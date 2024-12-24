@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q40_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Hears sound or voices that aren't there ",
         "es": "Oye sonidos o voces que no existen"

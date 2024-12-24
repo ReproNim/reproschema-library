@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_b18",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "If another severe weather event, such as a hurricane, was predicted to strike where you live, would you stay in your home or evacuate? Si se pronostica que otro hurac\u00e1n golpea donde usted vive,",
         "es": "\u00bfpreferir\u00eda quedarse en su casa o evacuar?"

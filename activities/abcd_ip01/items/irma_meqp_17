@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_meqp_17",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "17. Which Social Media platform did you use the most when checking for news related to the hurricane? 17.",
         "es": "\u00bfQu\u00e9 plataforma de medios sociales usA m\u00e1s al buscar noticias relacionadas con el hurac\u00e1n?"

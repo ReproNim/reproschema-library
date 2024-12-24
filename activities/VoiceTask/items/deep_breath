@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "deep_breath",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Characterization of breaths"
     },

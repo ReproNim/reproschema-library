@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "view_numbers",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "record yourself as you say these numbers out loud"
     },

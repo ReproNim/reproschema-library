@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_c_guard_l___1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you, who else has your child lived with at least part of the time? Desde la \u00faltima vez que nos vimos, \u00bfCon qui\u00e9n m\u00e1s pasa tiempo su ni\u00f1o(a)? (1, Biological Mother Madre biol\u00f3gica)"
     },

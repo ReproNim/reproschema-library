@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_scr_dsm5_depress_r",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Depress CBCL DSM5 Scale (raw score)"
     },

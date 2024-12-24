@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ASSQ_07",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Q7 of the Autism Spectrum Screening Questionnaire"
     },

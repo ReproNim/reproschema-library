@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "WHODAS36_S_D_SUM_02",
-    "category": "Field",
+    "category": "Item",
     "description": {
         "en": "Domain 2 (Getting around) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version"
     },

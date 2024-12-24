@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "kbi_p_conflict_causes_l___1",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Click the things that cause conflict between you and your child: A continuaci\u00f3n, seleccione aquello que causa conflicto entre usted y su ni\u00f1o(a): (1, Chores Quehaceres)"
     },

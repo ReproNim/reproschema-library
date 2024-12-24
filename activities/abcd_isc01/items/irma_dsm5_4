@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_4",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "4. I get upset easily or get into arguments or physical fights.",
         "es": "4. Me enojo f\u00e1cilmente o me meto en discusiones o peleas f\u00edsicas."

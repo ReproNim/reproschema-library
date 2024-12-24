@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q78_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Inattentive or easily distracted ",
         "es": "No presta atenci\u00f3n o se distrae f\u00e1cilmente"

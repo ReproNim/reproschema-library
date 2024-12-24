@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "fam_roster_5c_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Person #5, relationship to you: Persona #5, parentesco a usted:"
     },

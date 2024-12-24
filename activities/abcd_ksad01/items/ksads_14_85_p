@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_14_85_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Difficulty remaining seated since elementary school \u03bePresent \u03be"
     },

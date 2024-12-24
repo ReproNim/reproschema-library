@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_d11",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Did you think a family member might die during the hurricane?",
         "es": "\u00bfPensaste que un miembro de la familia podr\u00eda morir durante el hurac\u00e1n?"

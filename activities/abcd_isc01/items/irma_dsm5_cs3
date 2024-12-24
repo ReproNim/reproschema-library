@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_cs3",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "CS3. Do these reactions, thoughts, and feelings get you into trouble at home? CS3.",
         "es": "\u00bfEstas reacciones, pensamientos y sentimientos te meten en problemas en casa?"

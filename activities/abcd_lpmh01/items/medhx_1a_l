@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "medhx_1a_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha visto a un m\u00e9dico, enfermero(a), dentista o alg\u00fan otro profesional similar de la salud, por alg\u00fan motivo DISTINTO a sus chequeos peri\u00f3dicos?"
     },

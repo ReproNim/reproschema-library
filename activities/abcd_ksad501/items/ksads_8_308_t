@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_8_308_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Symptom - Social fear is excessive given threat or sociocultural context, Past"
     },

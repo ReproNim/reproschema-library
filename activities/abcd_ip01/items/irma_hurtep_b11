@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_b11",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Overall, how stressed did you feel before the hurricane?",
         "es": "En general, \u00bfcu\u00e1n estresado se sinti\u00f3 antes del hurac\u00e1n?"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_child_time3_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Who is the best person to contact about that household? Please select the relationship they have with the child. \u00bfQuien es la mejor persona para contactar con respecto a ese hogar? Por favor seleccione la relacion que tienen con su nin-o(a)."
     },

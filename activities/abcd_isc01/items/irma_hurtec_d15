@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtec_d15",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Overall, how scared or upset were you during the hurricane?",
         "es": "En general, \u00bfqu\u00e9 tan asustado o molesto estuvo usted durante el hurac\u00e1n?"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_read_hours_2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you on [asnt_timestamp_c], about how many hours per week has your child spent reading for pleasure?  Desde la ?ltima vez que nos vimos en [asnt_timestamp_c], ?aproximadamente  cu?ntas horas por semana pasa su ni?o(a) leyendo por placer?"
     },

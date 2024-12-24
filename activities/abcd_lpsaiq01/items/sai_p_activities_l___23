@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "sai_p_activities_l___23",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "(23, Musical Instrument (Singing,  Choir,  Guitar,  Piano,  Drums,  Violin,  Flute,  Band,  Rock Band,  Orchestra) Instrumento musical (canto,  coro,  guitarra,  piano,  bater\u00eda,  viol\u00edn,  flauta,  banda,  banda de rock,  orquesta))"
     },

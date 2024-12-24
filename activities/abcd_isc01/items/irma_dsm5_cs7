@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_dsm5_cs7",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "CS7. Do these reactions, thoughts, and feelings make it harder for you to get along with your friends or make new friends? CS7.",
         "es": "\u00bfEstas reacciones, pensamientos y sentimientos hace m\u00e1s dif\u00edcil para usted llevarse bien con sus amigos o hacer nuevos amigos?"

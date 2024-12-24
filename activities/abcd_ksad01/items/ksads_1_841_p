@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_1_841_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Major Depressive Disorder Current in Partial Remission (F32.4)"
     },

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "demo_fam_exp6_v2_l",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Had someone who needed to see a doctor or go to the hospital but didn't go because you could not afford it? \u00bfTuvieron a alguien quien necesitaba ir al m\u00e9dico o al hospital, pero no fueron porque no les alcanzaba el dinero?"
     },

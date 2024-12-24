@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_13_929_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Anorexia Nervosa (F50.02) Binge eating/purging subtype, PRESENT"
     },

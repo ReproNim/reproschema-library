@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "ksads_9_868_t",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Diagnosis - Specific Phobia \u00a5\u00cb_\u00a5\u00cb_PAST (F40.2XX)"
     },

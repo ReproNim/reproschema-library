@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "cbcl_q106_p",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "Vandalism ",
         "es": "Comete actos de vandalismo, como romper ventanas u otras cosas"

@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
     "id": "irma_hurtep_a21e",
-    "category": "Field",
+    "category": "Item",
     "question": {
         "en": "e. Problems keeping up with work or school ",
         "es": "e.Problemas para mantenerse al d\u00eda con el trabajo o la escuela"

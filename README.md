@@ -8,6 +8,17 @@ You can read more about the ReproSchema [here](https://repronim.org/reproschema)
 
 [A slide deck about ReproSchema](https://docs.google.com/presentation/d/1H4C_cBU9BE9EYFNyK8YBLQObzvq9iDztLWrqRIQTmgc/edit)
 
+## Available Activities
+
+<details>
+<summary>Click to expand/collapse the activities list</summary>
+
+<div style="max-height: 500px; overflow-y: auto;">
+{% include_relative resources/embedded/activities_table.md %}
+</div>
+
+</details>
+
 ## How you can contribute
 
 1. Add new assessments not available in the library.

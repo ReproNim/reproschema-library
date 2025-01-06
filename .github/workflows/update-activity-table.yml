@@ -1,0 +1,38 @@
+name: Update Activities Table
+
+on:
+  push:
+    paths:
+      - 'activities/*/'  # Trigger when a new directory is added in activities
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-activities:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11'
+          
+      - name: Create directories if they don't exist
+        run: |
+          mkdir -p scripts
+          mkdir -p resources/embedded
+          
+      - name: Update Activities Table
+        run: |
+          python scripts/update_activities_table.py
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add resources/embedded/activities_table.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update activities table [skip ci]" && git push)
+
+permissions:
+  contents: write

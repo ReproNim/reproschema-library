@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import re
 from datetime import datetime, UTC
 from pathlib import Path
 
@@ -66,25 +67,54 @@ def create_markdown_table(activities):
     
     return "\n".join(content)
 
-def write_activities_file(table_content):
-    """Write the activities table to a separate markdown file."""
+def update_readme(table_content):
+    """Update the README.md file with the new table inside the details tag."""
     repo_root = get_repo_root()
-    output_dir = repo_root / "resources" / "embedded"
-    output_file = "activities_table.md"
+    readme_path = repo_root / "README.md"
     
-    # Create directory if it doesn't exist
-    output_dir.mkdir(parents=True, exist_ok=True)
+    if not readme_path.exists():
+        raise FileNotFoundError("README.md not found")
     
-    # Write the content to the file
-    with open(output_dir / output_file, "w", encoding='utf-8') as f:
-        f.write(table_content)
+    with open(readme_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Define the section pattern
+    section_pattern = r'(## Available Activities\s*\n\s*<details>\s*\n\s*<summary>.*?</summary>\s*\n).*?(\s*</details>)'
+    
+    # Create the new section content
+    new_section = f"\n{table_content}\n"
+    
+    if '## Available Activities' not in content:
+        # If section doesn't exist, add it at the end
+        section_to_add = f"""
+## Available Activities
+
+<details>
+<summary>Click to expand/collapse the activities list</summary>
+
+{table_content}
+
+</details>
+"""
+        content = content.rstrip() + "\n" + section_to_add + "\n"
+    else:
+        # Replace the existing section content
+        content = re.sub(
+            section_pattern,
+            f"\\1{new_section}\\2",
+            content,
+            flags=re.DOTALL
+        )
+    
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(content)
 
 def main():
     try:
         activities = get_activities_with_descriptions()
         table = create_markdown_table(activities)
-        write_activities_file(table)
-        print("Activities table has been successfully updated.")
+        update_readme(table)
+        print("README.md has been successfully updated with the activities table.")
     except Exception as e:
         print(f"Error: {str(e)}")
         return 1

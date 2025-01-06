@@ -13,9 +13,7 @@ You can read more about the ReproSchema [here](https://repronim.org/reproschema)
 <details>
 <summary>Click to expand/collapse the activities list</summary>
 
-<div style="max-height: 500px; overflow-y: auto;">
-{% include_relative resources/embedded/activities_table.md %}
-</div>
+<!-- This section will be automatically updated by GitHub Actions -->
 
 </details>
 

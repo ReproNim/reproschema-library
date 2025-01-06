@@ -9,6 +9,9 @@ on:
 jobs:
   update-activities:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.10', '3.11']
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -16,14 +19,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.11'
+          python-version: ${{ matrix.python-version }}
           
-      - name: Create directories if they don't exist
-        run: |
-          mkdir -p scripts
-          mkdir -p resources/embedded
-          
-      - name: Update Activities Table
+      - name: Update README with Activities Table
         run: |
           python scripts/update_activities_table.py
           
@@ -31,8 +29,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add resources/embedded/activities_table.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update activities table [skip ci]" && git push)
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update activities table in README [skip ci]" && git push)
 
 permissions:
   contents: write

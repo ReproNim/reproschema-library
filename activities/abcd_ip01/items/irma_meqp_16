@@ -1,81 +1,83 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_meqp_16",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_meqp_16",
-        "es": "irma_meqp_16_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_meqp_16",
+    "category": "Item",
     "question": {
         "en": "16. Which Television channel did you watch most when viewing news related to Hurricane Irma? 16.",
-        "es": "¿Qué canal de televisión viste más cuando viste noticias relacionadas con el huracán?"
+        "es": "\u00bfQu\u00e9 canal de televisi\u00f3n viste m\u00e1s cuando viste noticias relacionadas con el hurac\u00e1n?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "1 = The Weather Channel  The Weather Channel; 2 = CNN  CNN; 3 = Fox News  Fox News; 4 = MSNBC  MSNBC; 5 = Local news station  Estaci\u00c3\u00b3n de noticias local; 6 = Other  Otro; 7 = I did not watch any television related to Hurricane Irma No vi ning\u00c3\u00ban televisor relacionado con el hurac\u00c3\u00a1n Irma"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 7,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "The Weather Channel  ",
                     "es": "The Weather Channel"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "CNN ",
                     "es": "CNN"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Fox News ",
                     "es": "Fox News"
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "MSNBC ",
                     "es": "MSNBC"
-                }
+                },
+                "value": 4
             },
             {
-                "value": 5,
                 "name": {
                     "en": "Local news station ",
-                    "es": "Estación de noticias local"
-                }
+                    "es": "Estaci\u00f3n de noticias local"
+                },
+                "value": 5
             },
             {
-                "value": 6,
                 "name": {
                     "en": "Other ",
                     "es": "Otro"
-                }
+                },
+                "value": 6
             },
             {
-                "value": 7,
                 "name": {
                     "en": "I did not watch any television related to Hurricane",
-                    "es": "Irma No vi ningún televisor relacionado con el huracán Irma"
-                }
+                    "es": "Irma No vi ning\u00fan televisor relacionado con el hurac\u00e1n Irma"
+                },
+                "value": 7
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = The Weather Channel  The Weather Channel; 2 = CNN  CNN; 3 = Fox News  Fox News; 4 = MSNBC  MSNBC; 5 = Local news station  EstaciÃ³n de noticias local; 6 = Other  Otro; 7 = I did not watch any television related to Hurricane Irma No vi ningÃºn televisor relacionado con el huracÃ¡n Irma"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_meqp_16",
+        "es": "irma_meqp_16_es"
+    }
 }

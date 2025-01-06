@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_15",
-    "prefLabel": "PQ-B-15",
-    "description": "schema for Q15 of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_15",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q15 of the PQ-B Assessment"
+    },
     "question": {
         "en": "Do you hold beliefs that other people would find unusual or bizarre? ",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -47,6 +46,13 @@
                 },
                 "value": 3
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "PQ-B-15"
     }
 }

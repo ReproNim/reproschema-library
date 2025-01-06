@@ -1,35 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "person1_id",
-    "prefLabel": "person1_id",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 2,
-                "name": "Mother "
-            },
-            {
-                "value": 3,
-                "name": "Father "
-            },
-            {
-                "value": 4,
-                "name": "Spouse/Partner "
-            },
-            {
-                "value": 5,
-                "name": "Other (specify):"
-            }
-        ]
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "person1_id",
+    "category": "Item",
+    "question": {
+        "en": "Person 1 is identified as:"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Person 1 is identified as:"
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mother "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Father "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Spouse/Partner "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other (specify):"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": false
+    },
+    "prefLabel": {
+        "en": "person1_id"
     }
 }

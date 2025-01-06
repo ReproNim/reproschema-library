@@ -1,19 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS12_days_1",
-    "prefLabel": "WHODAS12_days_1",
-    "description": "Days question 1 of WHODAS12",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS12_days_1",
+    "category": "Item",
+    "description": {
+        "en": "Days question 1 of WHODAS12"
+    },
     "question": {
         "en": "Overall, in the past 30 days, how many days were these difficulties present?",
         "es": ""
-        },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-    "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "WHODAS12_days_1"
     }
 }

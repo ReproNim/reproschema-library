@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASR_68",
-    "prefLabel": "ASR_68",
-    "description": "Q71 of the Questionnaire Measures of Emotional and Cognitive Status",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASR_68",
+    "category": "Item",
+    "description": {
+        "en": "Q71 of the Questionnaire Measures of Emotional and Cognitive Status"
+    },
     "question": {
         "en": "I scream or yell a lot"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASR_68"
+    }
 }

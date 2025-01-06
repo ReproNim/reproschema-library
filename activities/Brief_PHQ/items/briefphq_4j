@@ -1,33 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "briefphq_4j",
-    "prefLabel": "radio item",
-    "description": "This is a radio item.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_4j",
+    "category": "Item",
+    "description": {
+        "en": "This is a radio item."
+    },
+    "question": {
+        "en": "Thinking or dreaming about something terrible that happened to you\nin the past\u2014like your house being destroyed, a severe accident, being hit or assaulted, or being forced to commit a sexual act"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Thinking or dreaming about something terrible that happened to you\nin the past—like your house being destroyed, a severe accident, being hit or assaulted, or being forced to commit a sexual act",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 2,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Not bothered",
+                "name": {
+                    "en": "Not bothered"
+                },
                 "value": 0
             },
             {
-                "name": "Bothered a little",
+                "name": {
+                    "en": "Bothered a little"
+                },
                 "value": 1
             },
             {
-                "name": "Bothered a lot",
+                "name": {
+                    "en": "Bothered a lot"
+                },
                 "value": 2
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "radio item"
     }
 }

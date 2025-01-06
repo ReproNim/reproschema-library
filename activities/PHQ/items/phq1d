@@ -1,38 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq1d",
-    "prefLabel": "PHQ1d",
-    "description": "Q1d of the derived PHQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq1d",
+    "category": "Item",
+    "description": {
+        "en": "Q1d of the derived PHQ Assessment"
+    },
     "question": {
+        "ar": "\u0642\u0644\u0629 \u0627\u0644\u0627\u0647\u062a\u0645\u0627\u0645 \u0623\u0648 \u0642\u0644\u0629 \u0627\u0644\u0627\u0633\u062a\u0645\u062a\u0627\u0639 \u0628\u0645\u0645\u0627\u0631\u0633\u0629 \u0628\u0627\u0644\u0642\u064a\u0627\u0645 \u0628\u0623\u064a \u0639\u0645\u0644",
+        "bg": "\u0421\u043b\u0430\u0431 \u0438\u043d\u0442\u0435\u0440\u0435\u0441 \u0438\u043b\u0438 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u043d\u043e \u0443\u0434\u043e\u0432\u043e\u043b\u0441\u0442\u0432\u0438\u0435 \u043e\u0442 \u043f\u0440\u0430\u0432\u0435\u043d\u0435\u0442\u043e \u043d\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u043d\u0435\u0449\u0430",
         "en": "Menstrual cramps or other problems with your periods",
-        "es": "Menstruación (regla) dolorosa u otros problemas con su período (sólo para mujeres)",
-        "nl": "Menstruatiepijn of andere problemen tijdens de menstruatie",
-        "fr": "Peu d’intérêt ou de plaisir à faire les choses",
-        "ar": "قلة الاهتمام أو قلة الاستمتاع بممارسة بالقيام بأي عمل",
-        "pt-BR": "Pouco interesse ou pouco prazer em fazer as coisas",
-        "ko": "일 또는 여가 활동을 하는 데 흥미나 즐거움을 느끼지 못함",
-        "it": "Scarso interesse o piacere nel fare le cose",
-        "ja": "物事に対してほとんど興味がない、または楽しめない",
-        "fi": "Asioiden tekeminen kiinnostaa hyvin vähän tai ei juuri tuota mielihyvää",
+        "es": "Menstruaci\u00f3n (regla) dolorosa u otros problemas con su per\u00edodo (s\u00f3lo para mujeres)",
+        "fi": "Asioiden tekeminen kiinnostaa hyvin v\u00e4h\u00e4n tai ei juuri tuota mielihyv\u00e4\u00e4",
         "fil": "Di gaanong interesado o nasisiyahan sa paggawa ng mga bagay",
-        "no": "Lite interesse for eller glede over å gjøre ting",
-        "kn": "ಕೆಲಸಗಳನುನ್  ಾಡುವುದರ⁌ಲ್ ಕ‽⁩ ಆಸಕಿತ್ ಅಥ ಾ ಆನಂದ",
-        "ru": "Вам не хотелось ничего делать",
-        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności",
-        "bg": "Слаб интерес или минимално удоволствие от правенето на различни неща",
-        "lv": "Interešu un dzīvesprieka trūkums",
+        "fr": "Peu d\u2019int\u00e9r\u00eat ou de plaisir \u00e0 faire les choses",
+        "it": "Scarso interesse o piacere nel fare le cose",
+        "ja": "\u7269\u4e8b\u306b\u5bfe\u3057\u3066\u307b\u3068\u3093\u3069\u8208\u5473\u304c\u306a\u3044\u3001\u307e\u305f\u306f\u697d\u3057\u3081\u306a\u3044",
+        "kn": "\u0c95\u0cc6\u0cb2\u0cb8\u0c97\u0cb3\u0ca8\u0cc1\u0ca8\u0ccd \u2004\u0cbe\u0ca1\u0cc1\u0cb5\u0cc1\u0ca6\u0cb0\u204c\u0cb2\u0ccd \u0c95\u203d\u2069 \u0c86\u0cb8\u0c95\u0cbf\u0ca4\u0ccd \u0c85\u0ca5\u2009\u0cbe \u0c86\u0ca8\u0c82\u0ca6",
+        "ko": "\uc77c \ub610\ub294 \uc5ec\uac00 \ud65c\ub3d9\uc744 \ud558\ub294 \ub370 \ud765\ubbf8\ub098 \uc990\uac70\uc6c0\uc744 \ub290\ub07c\uc9c0 \ubabb\ud568",
+        "lv": "Intere\u0161u un dz\u012bvesprieka tr\u016bkums",
         "ms": "Kurang berminat atau keseronokan dalam melakukan sesuatu perkara",
-        "pt-PT": "Tive pouco interesse ou prazer em fazer coisas",
-        "ro": "Interesul sau plăcerea limitate de a face diverse lucruri",
-        "zh-CN": "做任何事都觉得沉闷或者根本不想做任何事",
-        "sv": "Lite intresse eller glädje av att göra saker",
-        "uk": "Вам було не дуже цікаво або подобалось чимось займатись"
-     },
+        "nl": "Menstruatiepijn of andere problemen tijdens de menstruatie",
+        "no": "Lite interesse for eller glede over \u00e5 gj\u00f8re ting",
+        "pl": "Niewielkie zainteresowanie lub odczuwanie przyjemno\u015bci z wykonywania czynno\u015bci",
+        "pt-br": "Pouco interesse ou pouco prazer em fazer as coisas",
+        "pt-pt": "Tive pouco interesse ou prazer em fazer coisas",
+        "ro": "Interesul sau pl\u0103cerea limitate de a face diverse lucruri",
+        "ru": "\u0412\u0430\u043c \u043d\u0435 \u0445\u043e\u0442\u0435\u043b\u043e\u0441\u044c \u043d\u0438\u0447\u0435\u0433\u043e \u0434\u0435\u043b\u0430\u0442\u044c",
+        "sv": "Lite intresse eller gl\u00e4dje av att g\u00f6ra saker",
+        "uk": "\u0412\u0430\u043c \u0431\u0443\u043b\u043e \u043d\u0435 \u0434\u0443\u0436\u0435 \u0446\u0456\u043a\u0430\u0432\u043e \u0430\u0431\u043e \u043f\u043e\u0434\u043e\u0431\u0430\u043b\u043e\u0441\u044c \u0447\u0438\u043c\u043e\u0441\u044c \u0437\u0430\u0439\u043c\u0430\u0442\u0438\u0441\u044c",
+        "zh-cn": "\u505a\u4efb\u4f55\u4e8b\u90fd\u89c9\u5f97\u6c89\u95f7\u6216\u8005\u6839\u672c\u4e0d\u60f3\u505a\u4efb\u4f55\u4e8b"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ1d"
+    }
 }

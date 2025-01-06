@@ -1,33 +1,38 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sex",
+    "category": "Item",
+    "question": {
+        "en": "Sex of the participant:",
+        "es": "Sexo:"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.2",
-    "@id": "sex",
-    "prefLabel": "sex",
+    "ui": {
+        "inputType": "radio"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Female",
                     "es": "Femenino"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Male",
                     "es": "Masculino"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Intersex",
                     "es": "Intersexual"
-                }
+                },
+                "value": 3
             },
             {
                 "name": {
@@ -36,13 +41,10 @@
                 },
                 "value": 0
             }
-        ]
+        ],
+        "multipleChoice": false
     },
-    "ui": {
-        "inputType": "radio"
-    },
-    "question": {
-        "en": "Sex of the participant:",
-        "es": "Sexo:"
+    "prefLabel": {
+        "en": "sex"
     }
 }

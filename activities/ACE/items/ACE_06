@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ACE_06",
-    "prefLabel": "ACE Q6",
-    "description": "Q6 of the Adverse Childhood Experiences Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ACE_06",
+    "category": "Item",
+    "description": {
+        "en": "Q6 of the Adverse Childhood Experiences Scale"
+    },
     "question": {
         "en": "Were your parents ever separated or divorced?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ACE Q6"
+    }
 }

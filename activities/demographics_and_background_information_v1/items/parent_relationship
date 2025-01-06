@@ -1,74 +1,104 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "parent_relationship",
-    "prefLabel": "parent_relationship",
-    "ui": {
-        "inputType": "select"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "parent_relationship",
+    "category": "Item",
     "question": {
         "en": "Informant  Relationship to participant:"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
     },
     "responseOptions": {
         "choices": [
             {
-                "value": 1,
-                "name": "biological father "
+                "name": {
+                    "en": "biological father "
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "biological mother "
+                "name": {
+                    "en": "biological mother "
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "stepmother "
+                "name": {
+                    "en": "stepmother "
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "stepfather "
+                "name": {
+                    "en": "stepfather "
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "foster mother "
+                "name": {
+                    "en": "foster mother "
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "foster father "
+                "name": {
+                    "en": "foster father "
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "grandfather "
+                "name": {
+                    "en": "grandfather "
+                },
+                "value": 7
             },
             {
-                "value": 8,
-                "name": "grandmother "
+                "name": {
+                    "en": "grandmother "
+                },
+                "value": 8
             },
             {
-                "value": 9,
-                "name": "aunt "
+                "name": {
+                    "en": "aunt "
+                },
+                "value": 9
             },
             {
-                "value": 10,
-                "name": "uncle "
+                "name": {
+                    "en": "uncle "
+                },
+                "value": 10
             },
             {
-                "value": 11,
-                "name": "older sister "
+                "name": {
+                    "en": "older sister "
+                },
+                "value": 11
             },
             {
-                "value": 12,
-                "name": "older brother "
+                "name": {
+                    "en": "older brother "
+                },
+                "value": 12
             },
             {
-                "value": 13,
-                "name": "other relative "
+                "name": {
+                    "en": "other relative "
+                },
+                "value": 13
             },
             {
-                "value": 14,
-                "name": "other non relative"
+                "name": {
+                    "en": "other non relative"
+                },
+                "value": 14
             }
         ]
+    },
+    "prefLabel": {
+        "en": "parent_relationship"
     }
 }

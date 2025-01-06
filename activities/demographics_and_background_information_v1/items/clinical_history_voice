@@ -1,83 +1,123 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "clinical_history_voice",
-    "prefLabel": "Clinical history voice",
-    "description": "schema for clinical history of voice for participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "clinical_history_voice",
+    "category": "Item",
+    "description": {
+        "en": "schema for clinical history of voice for participant"
+    },
+    "question": {
+        "en": "Have you been diagnosed with any of these speech, language or hearing conditions or had any of the interventions mentioned below? (check all that apply)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Have you been diagnosed with any of these speech, language or hearing conditions or had any of the interventions mentioned below? (check all that apply)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:anyURI",
-        "multipleChoice": true,
         "choices": [
             {
-                "value": 1,
-                "name": "Hearing loss"
+                "name": {
+                    "en": "Hearing loss"
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "Apraxia"
+                "name": {
+                    "en": "Apraxia"
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "Stuttering"
+                "name": {
+                    "en": "Stuttering"
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "Dysarthria"
+                "name": {
+                    "en": "Dysarthria"
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "Hoarseness"
+                "name": {
+                    "en": "Hoarseness"
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "Lisping"
+                "name": {
+                    "en": "Lisping"
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "Spasmodic Dysphonia"
+                "name": {
+                    "en": "Spasmodic Dysphonia"
+                },
+                "value": 7
             },
             {
-                "value": 8,
-                "name": "Vocal Fold Paralysis"
+                "name": {
+                    "en": "Vocal Fold Paralysis"
+                },
+                "value": 8
             },
             {
-                "value": 9,
-                "name": "Aphasia"
+                "name": {
+                    "en": "Aphasia"
+                },
+                "value": 9
             },
             {
-                "value": 10,
-                "name": "Dyslexia"
+                "name": {
+                    "en": "Dyslexia"
+                },
+                "value": 10
             },
             {
-                "value": 11,
-                "name": "Cochlear Implant"
+                "name": {
+                    "en": "Cochlear Implant"
+                },
+                "value": 11
             },
             {
-                "value": 12,
-                "name": "Ear Surgery"
+                "name": {
+                    "en": "Ear Surgery"
+                },
+                "value": 12
             },
             {
-                "value": 13,
-                "name": "Throat Surgery"
+                "name": {
+                    "en": "Throat Surgery"
+                },
+                "value": 13
             },
             {
-                "value": 0,
-                "name": "Prefer not to disclose"
+                "name": {
+                    "en": "Prefer not to disclose"
+                },
+                "value": 0
             },
             {
-                "value": -1,
-                "name": "Other"
+                "name": {
+                    "en": "Other"
+                },
+                "value": -1
             },
             {
-                "value": 999,
-                "name": "None"
+                "name": {
+                    "en": "None"
+                },
+                "value": 999
             }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:anyURI"
         ]
+    },
+    "prefLabel": {
+        "en": "Clinical history voice"
     }
 }

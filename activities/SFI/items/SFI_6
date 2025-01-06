@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SFI_6",
-    "prefLabel": "SFI 6",
-    "description": "Q6 of the Secure Flourish Index",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SFI_6",
+    "category": "Item",
+    "description": {
+        "en": "Q6 of the Secure Flourish Index"
+    },
     "question": {
         "en": "I understand my purpose in life."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints1"
+    "responseOptions": "../valueConstraints1",
+    "prefLabel": {
+        "en": "SFI 6"
+    }
 }

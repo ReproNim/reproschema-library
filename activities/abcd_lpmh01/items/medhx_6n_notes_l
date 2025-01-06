@@ -1,25 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "medhx_6n_notes_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "medhx_6n_notes_l",
-    "altLabel": "medhx_6n_animal_bite_times_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "medhx_6n_notes_l",
+    "category": "Item",
+    "question": {
+        "en": "Animal Bite: How many times? \u00bfCu\u00e1ntas veces?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Animal Bite: How many times? \u00bfCu\u00e1ntas veces?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 100,
         "minValue": 0,
-        "maxValue": 100
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "Now I'd like to ask you about your child's use of health services since we last saw you on_____. "
-        }
-    ]
+    "altLabel": {
+        "en": "medhx_6n_animal_bite_times_p_l"
+    },
+    "prefLabel": {
+        "en": "medhx_6n_notes_l"
+    }
 }

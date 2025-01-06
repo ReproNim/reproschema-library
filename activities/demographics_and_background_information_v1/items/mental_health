@@ -1,17 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "mental_health",
-    "prefLabel": "mental health diagnosis",
-    "description": "schema for mental health of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "mental_health",
+    "category": "Item",
+    "description": {
+        "en": "schema for mental health of participant"
+    },
+    "question": {
+        "en": "Diagnosed with any mental-health disorder?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Diagnosed with any mental-health disorder?",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 50
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "mental health diagnosis"
     }
 }

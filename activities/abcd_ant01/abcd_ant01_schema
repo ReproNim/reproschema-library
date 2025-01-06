@@ -1,22 +1,60 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_ant01_schema",
-    "prefLabel": "ABCD Youth Anthropometrics Modified From PhenX (ANT)",
-    "altLabel": "abcd_ant01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_ant01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "compute": [
-        {
-            "variableName": "anthroheightcalc",
-            "jsExpression": "anthro3heightin? (anthro_1_height_in + anthro2heightin + anthro3heightin)/3 : (anthro_1_height_in + anthro2heightin)/2"
-        },
-        {
-            "variableName": "anthroweightcalc",
-            "jsExpression": "anthro_weight3_1b? (anthro_weight3_1b + anthro_weight2_lb + anthro_weight1_lb)/3 : (anthro_weight1_lb + anthro_weight2_lb)/2"
-        }
-    ],
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/anthro_1_height_in",
+                "variableName": "anthro_1_height_in"
+            },
+            {
+                "isAbout": "items/anthro_timestamp",
+                "variableName": "anthro_timestamp"
+            },
+            {
+                "isAbout": "items/anthro_waist_cm",
+                "variableName": "anthro_waist_cm"
+            },
+            {
+                "isAbout": "items/anthro_weight_a_location",
+                "variableName": "anthro_weight_a_location"
+            },
+            {
+                "isAbout": "items/anthro2heightin",
+                "variableName": "anthro2heightin"
+            },
+            {
+                "isAbout": "items/anthro3heightin",
+                "variableName": "anthro3heightin"
+            },
+            {
+                "isAbout": "items/anthroheightcalc",
+                "variableName": "anthroheightcalc"
+            },
+            {
+                "isAbout": "items/anthroweight1lb",
+                "variableName": "anthroweight1lb"
+            },
+            {
+                "isAbout": "items/anthroweight2lb",
+                "variableName": "anthroweight2lb"
+            },
+            {
+                "isAbout": "items/anthroweight3lb",
+                "variableName": "anthroweight3lb"
+            },
+            {
+                "isAbout": "items/anthroweightcalc",
+                "variableName": "anthroweightcalc"
+            },
+            {
+                "isAbout": "items/anthroweightcast",
+                "variableName": "anthroweightcast"
+            }
+        ],
         "order": [
             "items/anthro_timestamp",
             "items/anthro_waist_cm",
@@ -29,56 +67,22 @@
             "items/anthroweight3lb",
             "items/anthroweightcast"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "anthro_1_height_in",
-                "isAbout": "items/anthro_1_height_in"
-            },
-            {
-                "variableName": "anthro_timestamp",
-                "isAbout": "items/anthro_timestamp"
-            },
-            {
-                "variableName": "anthro_waist_cm",
-                "isAbout": "items/anthro_waist_cm"
-            },
-            {
-                "variableName": "anthro_weight_a_location",
-                "isAbout": "items/anthro_weight_a_location"
-            },
-            {
-                "variableName": "anthro2heightin",
-                "isAbout": "items/anthro2heightin"
-            },
-            {
-                "variableName": "anthro3heightin",
-                "isAbout": "items/anthro3heightin"
-            },
-            {
-                "variableName": "anthroheightcalc",
-                "isAbout": "items/anthroheightcalc"
-            },
-            {
-                "variableName": "anthroweight1lb",
-                "isAbout": "items/anthroweight1lb"
-            },
-            {
-                "variableName": "anthroweight2lb",
-                "isAbout": "items/anthroweight2lb"
-            },
-            {
-                "variableName": "anthroweight3lb",
-                "isAbout": "items/anthroweight3lb"
-            },
-            {
-                "variableName": "anthroweightcalc",
-                "isAbout": "items/anthroweightcalc"
-            },
-            {
-                "variableName": "anthroweightcast",
-                "isAbout": "items/anthroweightcast"
-            }
-        ]
+        "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "anthro3heightin? (anthro_1_height_in + anthro2heightin + anthro3heightin)/3 : (anthro_1_height_in + anthro2heightin)/2",
+            "variableName": "anthroheightcalc"
+        },
+        {
+            "jsExpression": "anthro_weight3_1b? (anthro_weight3_1b + anthro_weight2_lb + anthro_weight1_lb)/3 : (anthro_weight1_lb + anthro_weight2_lb)/2",
+            "variableName": "anthroweightcalc"
+        }
+    ],
+    "altLabel": {
+        "en": "abcd_ant01"
+    },
+    "prefLabel": {
+        "en": "ABCD Youth Anthropometrics Modified From PhenX (ANT)"
     }
 }

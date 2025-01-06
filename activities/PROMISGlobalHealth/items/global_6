@@ -1,39 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "global_6",
-    "prefLabel": "PROMIS-GH-6",
-    "description": "Q6 of the PROMIS Global Health survey",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "global_6",
+    "category": "Item",
+    "description": {
+        "en": "Q6 of the PROMIS Global Health survey"
+    },
+    "question": {
+        "en": "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": false,
         "choices": [
             {
-                "name": "Completely",
+                "name": {
+                    "en": "Completely"
+                },
                 "value": 5
             },
             {
-                "name": "Mostly",
+                "name": {
+                    "en": "Mostly"
+                },
                 "value": 4
             },
             {
-                "name": "Moderately",
+                "name": {
+                    "en": "Moderately"
+                },
                 "value": 3
             },
             {
-                "name": "A little",
+                "name": {
+                    "en": "A little"
+                },
                 "value": 2
             },
             {
-                "name": "Not at all",
+                "name": {
+                    "en": "Not at all"
+                },
                 "value": 1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "PROMIS-GH-6"
     }
 }

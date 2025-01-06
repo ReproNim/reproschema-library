@@ -1,39 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "religious_category",
-    "prefLabel": "religious_category",
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 1,
-                "name": "Catholic "
-            },
-            {
-                "value": 2,
-                "name": "Protestant "
-            },
-            {
-                "value": 3,
-                "name": "Jewish "
-            },
-            {
-                "value": 4,
-                "name": "Other "
-            },
-            {
-                "value": 5,
-                "name": "Never Affiliated with Any"
-            }
-        ]
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "religious_category",
+    "category": "Item",
+    "question": {
+        "en": "Religious Categories:\n"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Religious Categories:\n"
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Catholic "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Protestant "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Jewish "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never Affiliated with Any"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": false
+    },
+    "prefLabel": {
+        "en": "religious_category"
     }
 }

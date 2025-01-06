@@ -1,39 +1,55 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "SRIS-SFvalueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 1,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SRIS-SFvalueConstraints",
+    "category": "ResponseOption",
     "maxValue": 7,
-    "multipleChoice": false,
+    "minValue": 1,
     "choices": [
         {
-            "name": "1 = Strongly disagree",
+            "name": {
+                "en": "1 = Strongly disagree"
+            },
             "value": 1
         },
         {
-            "name": "2 = Disagree",
+            "name": {
+                "en": "2 = Disagree"
+            },
             "value": 2
         },
         {
-            "name": "3 = Slightly disagree",
+            "name": {
+                "en": "3 = Slightly disagree"
+            },
             "value": 3
         },
         {
-            "name": "4 = Neutral",
+            "name": {
+                "en": "4 = Neutral"
+            },
             "value": 4
         },
         {
-            "name": "5 = Slightly agree",
+            "name": {
+                "en": "5 = Slightly agree"
+            },
             "value": 5
         },
         {
-            "name": "6 = Agree",
+            "name": {
+                "en": "6 = Agree"
+            },
             "value": 6
         },
         {
-            "name": "7 = Strongly agree",
+            "name": {
+                "en": "7 = Strongly agree"
+            },
             "value": 7
         }
+    ],
+    "multipleChoice": false,
+    "valueType": [
+        "xsd:integer"
     ]
 }

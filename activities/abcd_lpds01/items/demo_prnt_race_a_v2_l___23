@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "demo_prnt_race_a_v2_l___23",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_prnt_race_a_v2_l___23",
-    "altLabel": "demo_prnt_race_a_p_l___23",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_prnt_race_a_v2_l___23",
+    "category": "Item",
+    "question": {
+        "en": "What race do you consider yourself to be? Please check all that apply. \u00bfDe qu\u00e9 raza se considera usted? Seleccione 1 o m\u00e1s de estas categor\u00edas: (23, Vietnamese Vietnamita)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "What race do you consider yourself to be? Please check all that apply. \u00bfDe qu\u00e9 raza se considera usted? Seleccione 1 o m\u00e1s de estas categor\u00edas: (23, Vietnamese Vietnamita)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_prnt_race_a_p_l___23"
+    },
+    "prefLabel": {
+        "en": "demo_prnt_race_a_v2_l___23"
+    }
 }

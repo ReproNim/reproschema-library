@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "IAT_20",
-    "prefLabel": "IAT Q20",
-    "description": "Q20 of the Internet Addiction Test - Self Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "IAT_20",
+    "category": "Item",
+    "description": {
+        "en": "Q20 of the Internet Addiction Test - Self Report"
+    },
     "question": {
         "en": "How often do you feel depressed, moody, or nervous when you are off-line, which goes away once you are back online?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "IAT Q20"
+    }
 }

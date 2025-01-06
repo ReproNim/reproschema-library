@@ -1,32 +1,46 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq9a_category",
-    "prefLabel": "PHQ9a Category",
-    "description": "score category of the derived PHQ-9 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "text",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq9a_category",
+    "category": "Item",
+    "description": {
+        "en": "score category of the derived PHQ-9 Assessment"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "text"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
         "choices": [
             {
-                "name": "minimal"
+                "name": {
+                    "en": "minimal"
+                }
             },
             {
-                "name": "mild"
+                "name": {
+                    "en": "mild"
+                }
             },
             {
-                "name": "moderate"
+                "name": {
+                    "en": "moderate"
+                }
             },
             {
-                "name": "moderately severe"
+                "name": {
+                    "en": "moderately severe"
+                }
             },
             {
-                "name": "severe"
+                "name": {
+                    "en": "severe"
+                }
             }
         ]
+    },
+    "prefLabel": {
+        "en": "PHQ9a Category"
     }
 }

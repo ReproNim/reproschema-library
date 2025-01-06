@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "cbcl_total_raw",
-    "prefLabel": "cbcl_total_raw",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "cbcl_total_raw",
+    "category": "Item",
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "readonlyValue": true,
+        "inputType": "number"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 168,
         "minValue": 0,
-        "maxValue": 168
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "cbcl_total_raw"
     }
 }

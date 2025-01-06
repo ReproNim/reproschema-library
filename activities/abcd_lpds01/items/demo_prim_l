@@ -1,47 +1,65 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "demo_prim_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_prim_l",
-    "altLabel": "demo_prim_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_prim_l",
+    "category": "Item",
+    "question": {
+        "en": "You are the: Usted es:"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "You are the: Usted es:",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Child's Biological Mother La madre biologica del ni\u00f1o / de la ni\u00f1a; 2 = Child's Biological Father El padre biologico del ni\u00f1o / de la ni\u00f1a; 3 = Adoptive Parent Padre o madre adoptivo(a); 4 = Child's Custodial Parent El padre o la madre que tiene la custodia del ni\u00f1o / de la ni\u00f1a; 5 = Other Otro"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 5,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Child's Biological Mother La madre biologica del ni\u00f1o / de la ni\u00f1a",
+                "name": {
+                    "en": "Child's Biological Mother La madre biologica del ni\u00f1o / de la ni\u00f1a"
+                },
                 "value": 1
             },
             {
-                "name": "Child's Biological Father El padre biologico del ni\u00f1o / de la ni\u00f1a",
+                "name": {
+                    "en": "Child's Biological Father El padre biologico del ni\u00f1o / de la ni\u00f1a"
+                },
                 "value": 2
             },
             {
-                "name": "Adoptive Parent Padre o madre adoptivo(a)",
+                "name": {
+                    "en": "Adoptive Parent Padre o madre adoptivo(a)"
+                },
                 "value": 3
             },
             {
-                "name": "Child's Custodial Parent El padre o la madre que tiene la custodia del ni\u00f1o / de la ni\u00f1a",
+                "name": {
+                    "en": "Child's Custodial Parent El padre o la madre que tiene la custodia del ni\u00f1o / de la ni\u00f1a"
+                },
                 "value": 4
             },
             {
-                "name": "Other Otro",
+                "name": {
+                    "en": "Other Otro"
+                },
                 "value": 5
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Child's Biological Mother La madre biologica del ni\u00f1o / de la ni\u00f1a; 2 = Child's Biological Father El padre biologico del ni\u00f1o / de la ni\u00f1a; 3 = Adoptive Parent Padre o madre adoptivo(a); 4 = Child's Custodial Parent El padre o la madre que tiene la custodia del ni\u00f1o / de la ni\u00f1a; 5 = Other Otro"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_prim_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_prim_l"
+    }
 }

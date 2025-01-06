@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_ss_worst1_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "tbi_ss_worst1_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_ss_worst1_l",
+    "category": "Item",
+    "question": {
+        "en": "Worst injury1 = improbable TBI\n(No TBI)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Worst injury1 = improbable TBI\n(No TBI)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "tbi_ss_worst1_l"
     }
 }

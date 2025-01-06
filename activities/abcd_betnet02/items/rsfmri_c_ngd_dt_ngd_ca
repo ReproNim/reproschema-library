@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_dt_ngd_ca",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_dt_ngd_ca",
-    "altLabel": "rsfmri_cor_network.gordon_default_network.gordon_cinguloparietal rsfmri_cor_networkgordon_default_networkgordon_cinguloparietal",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_dt_ngd_ca",
+    "category": "Item",
+    "question": {
+        "en": "Average correlation between default network and cingulo-parietal network"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Average correlation between default network and cingulo-parietal network",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_default_network.gordon_cinguloparietal rsfmri_cor_networkgordon_default_networkgordon_cinguloparietal"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_dt_ngd_ca"
     }
 }

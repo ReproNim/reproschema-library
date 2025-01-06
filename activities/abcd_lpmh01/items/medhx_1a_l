@@ -1,39 +1,53 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "medhx_1a_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "medhx_1a_l",
-    "altLabel": "medhx_1a_dr_past_yr_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "medhx_1a_l",
+    "category": "Item",
+    "question": {
+        "en": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha visto a un m\u00e9dico, enfermero(a), dentista o alg\u00fan otro profesional similar de la salud, por alg\u00fan motivo DISTINTO a sus chequeos peri\u00f3dicos?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups? En el \u00faltimo a\u00f1o, \u00bfsu ni\u00f1o(a) ha visto a un m\u00e9dico, enfermero(a), dentista o alg\u00fan otro profesional similar de la salud, por alg\u00fan motivo DISTINTO a sus chequeos peri\u00f3dicos?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Yes S\u00cd; 0 = No No; 6 = Don't know No s\u00e9"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 6,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00cd",
+                "name": {
+                    "en": "Yes S\u00cd"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 0
             },
             {
-                "name": "Don't know No s\u00e9",
+                "name": {
+                    "en": "Don't know No s\u00e9"
+                },
                 "value": 6
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00cd; 0 = No No; 6 = Don't know No s\u00e9"
-        }
-    ]
+    "altLabel": {
+        "en": "medhx_1a_dr_past_yr_p_l"
+    },
+    "prefLabel": {
+        "en": "medhx_1a_l"
+    }
 }

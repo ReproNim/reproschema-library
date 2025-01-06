@@ -1,25 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "demo_prnt_age_v2_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_prnt_age_v2_l",
-    "altLabel": "demo_prnt_age_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_prnt_age_v2_l",
+    "category": "Item",
+    "question": {
+        "en": "How old are you? \u00bfQu\u00e9 edad tiene usted?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "How old are you? \u00bfQu\u00e9 edad tiene usted?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "Provide your age in years.  Proporcione su edad en a\u00f1os."
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 100,
         "minValue": 22,
-        "maxValue": 100
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "Provide your age in years.  Proporcione su edad en a\u00f1os."
-        }
-    ]
+    "altLabel": {
+        "en": "demo_prnt_age_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_prnt_age_v2_l"
+    }
 }

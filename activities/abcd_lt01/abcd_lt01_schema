@@ -1,21 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_lt01_schema",
-    "prefLabel": "ABCD Longitudinal Tracking",
-    "altLabel": "abcd_lt01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_lt01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/site_id_l",
+                "variableName": "site_id_l"
+            }
+        ],
         "order": [
             "items/site_id_l"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "site_id_l",
-                "isAbout": "items/site_id_l"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_lt01"
+    },
+    "prefLabel": {
+        "en": "ABCD Longitudinal Tracking"
     }
 }

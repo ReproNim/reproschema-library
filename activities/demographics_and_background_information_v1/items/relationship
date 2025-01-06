@@ -1,51 +1,75 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "relationship",
-    "prefLabel": "Relationship",
-    "description": "schema for relationship of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "relationship",
+    "category": "Item",
+    "description": {
+        "en": "schema for relationship of participant"
+    },
+    "question": {
+        "en": "What is your relationship status?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.2",
-    "question": "What is your relationship status?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "multipleChoice": false,
         "choices": [
             {
-                "value": 1,
-                "name": "Single"
+                "name": {
+                    "en": "Single"
+                },
+                "value": 1
             },
             {
-                "value": 3,
-                "name": "Married"
+                "name": {
+                    "en": "Married"
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "Divorced"
+                "name": {
+                    "en": "Divorced"
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "Widowed"
+                "name": {
+                    "en": "Widowed"
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "Prefer not to disclose"
+                "name": {
+                    "en": "Prefer not to disclose"
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "In a relationship, and not living with (a) partner(s)"
+                "name": {
+                    "en": "In a relationship, and not living with (a) partner(s)"
+                },
+                "value": 7
             },
             {
-                "value": 8,
-                "name": "In a relationship, and living with (a) partner(s)"
+                "name": {
+                    "en": "In a relationship, and living with (a) partner(s)"
+                },
+                "value": 8
             },
             {
-                "value": -1,
-                "name": "Other"
+                "name": {
+                    "en": "Other"
+                },
+                "value": -1
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "Relationship"
     }
 }

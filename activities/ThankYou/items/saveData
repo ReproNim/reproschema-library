@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "saveData",
-    "prefLabel": "Save data",
-    "description": "save data to server",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "saveData",
+    "category": "Item",
+    "description": {
+        "en": "save data to server"
+    },
     "question": {
         "en": "You've finished today's activity. Thank you for participating! <br><br>(1) To send us your responses, click the Upload button below. <br><br>(2) OPTIONAL: If you are using a laptop or desktop, you can also click the Download button on the sidebar to download a personal copy of your responses.",
-        "es": "Has terminado la actividad de hoy. Gracias por participar! Para enviarnos sus respuestas, haga click en el botón Enviar. <br><br>OPCIONAL: Si estás utilizando una laptop o PC de escritorio, también puede hacer click en Descargar en el menú para descargar una copia personal de sus respuestas."
+        "es": "Has terminado la actividad de hoy. Gracias por participar! Para enviarnos sus respuestas, haga click en el bot\u00f3n Enviar. <br><br>OPCIONAL: Si est\u00e1s utilizando una laptop o PC de escritorio, tambi\u00e9n puede hacer click en Descargar en el men\u00fa para descargar una copia personal de sus respuestas."
     },
     "ui": {
-        "inputType": "save",
-        "readonlyValue": true
+        "readonlyValue": true,
+        "inputType": "save"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "prefLabel": {
+        "en": "Save data"
     }
 }

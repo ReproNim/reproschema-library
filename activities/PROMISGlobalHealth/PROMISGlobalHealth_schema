@@ -1,73 +1,68 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PROMISGlobalHealth_schema",
-    "prefLabel": "PROMIS Global Health",
-    "description": "brief survey to assess the general health",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PROMISGlobalHealth_schema",
+    "category": "Activity",
+    "description": {
+        "en": "brief survey to assess the general health"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "compute": [
-        {
-            "variableName": "promis_total_score",
-            "jsExpression": "global_1 + global_2 + global_3 + global_4 + global_5 + global_9r + global_6 + global_10r + global_8r + global_7r"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/global_1",
-                "variableName": "global_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_1"
             },
             {
                 "isAbout": "items/global_2",
-                "variableName": "global_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_2"
             },
             {
                 "isAbout": "items/global_3",
-                "variableName": "global_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_3"
             },
             {
                 "isAbout": "items/global_4",
-                "variableName": "global_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_4"
             },
             {
                 "isAbout": "items/global_5",
-                "variableName": "global_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_5"
             },
             {
                 "isAbout": "items/global_6",
-                "variableName": "global_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_6"
             },
             {
                 "isAbout": "items/global_9r",
-                "variableName": "global_9r",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_9r"
             },
             {
                 "isAbout": "items/global_10r",
-                "variableName": "global_10r",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_10r"
             },
             {
                 "isAbout": "items/global_8r",
-                "variableName": "global_8r",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_8r"
             },
             {
                 "isAbout": "items/global_7r",
-                "variableName": "global_7r",
-                "isVis": true
+                "isVis": true,
+                "variableName": "global_7r"
             },
             {
                 "isAbout": "items/promis_total_score",
-                "variableName": "promis_total_score",
-                "isVis": true
+                "isVis": true,
+                "variableName": "promis_total_score"
             }
         ],
         "order": [
@@ -83,5 +78,14 @@
             "items/global_7r"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "global_1 + global_2 + global_3 + global_4 + global_5 + global_9r + global_6 + global_10r + global_8r + global_7r",
+            "variableName": "promis_total_score"
+        }
+    ],
+    "prefLabel": {
+        "en": "PROMIS Global Health"
     }
 }

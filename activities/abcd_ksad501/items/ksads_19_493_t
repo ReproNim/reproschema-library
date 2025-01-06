@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "ksads_19_493_t",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_19_493_t",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_19_493_t",
+    "category": "Item",
+    "question": {
+        "en": "Symptom - Craving, or a strong desire to use alcohol, Present"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Craving, or a strong desire to use alcohol, Present",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_19_493_t"
     }
 }

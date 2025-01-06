@@ -1,60 +1,62 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hurtep_b11",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_b11",
-        "es": "irma_hurtep_b11_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_b11",
+    "category": "Item",
     "question": {
         "en": "Overall, how stressed did you feel before the hurricane?",
-        "es": "En general, ¿cuán estresado se sintió antes del huracán?"
+        "es": "En general, \u00bfcu\u00e1n estresado se sinti\u00f3 antes del hurac\u00e1n?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = Not at all  De ningun modo; 1 = A little  Un poco; 2 = A lot  Mucho; 3 = A whole lot Muchisimo"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 3,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "Not at all  ",
                     "es": "De ningun modo"
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "A little ",
                     "es": "Un poco"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "A lot ",
                     "es": "Mucho"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "A whole lot",
                     "es": "Muchisimo"
-                }
+                },
+                "value": 3
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = Not at all  De ningun modo; 1 = A little  Un poco; 2 = A lot  Mucho; 3 = A whole lot Muchisimo"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_b11",
+        "es": "irma_hurtep_b11_es"
+    }
 }

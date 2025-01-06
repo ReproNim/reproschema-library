@@ -1,43 +1,59 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "bisbas5r_y",
-    "@type": "reproschema:Field",
-    "prefLabel": "bisbas5r_y",
-    "altLabel": "bisbas_5r",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bisbas5r_y",
+    "category": "Item",
+    "question": {
+        "en": "I do not become fearful or nervous, even when something bad happens to me."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I do not become fearful or nervous, even when something bad happens to me.",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "3 = Not true; 2 = Somewhat true; 1 = True; 0 = Very true"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 3,
         "maxValue": 0,
+        "minValue": 3,
         "choices": [
             {
-                "name": "Not true",
+                "name": {
+                    "en": "Not true"
+                },
                 "value": 3
             },
             {
-                "name": "Somewhat true",
+                "name": {
+                    "en": "Somewhat true"
+                },
                 "value": 2
             },
             {
-                "name": "True",
+                "name": {
+                    "en": "True"
+                },
                 "value": 1
             },
             {
-                "name": "Very true",
+                "name": {
+                    "en": "Very true"
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "3 = Not true; 2 = Somewhat true; 1 = True; 0 = Very true"
-        }
-    ]
+    "altLabel": {
+        "en": "bisbas_5r"
+    },
+    "prefLabel": {
+        "en": "bisbas5r_y"
+    }
 }

@@ -1,54 +1,74 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "anthro_1_height_in",
-    "@type": "reproschema:Field",
-    "prefLabel": "anthro_1_height_in",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "anthro_1_height_in",
+    "category": "Item",
+    "question": {
+        "en": "STANDING HEIGHT #1 (in inches)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "STANDING HEIGHT #1 (in inches)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 ft = 12 inches, 2 ft = 24 inches, 3 ft = 36 inches, 4 ft = 48 inches, 5 ft = 60 inches, 6 ft = 72 inches, 7 ft = 84 inches"
+        }
+    ],
     "ui": {
         "inputType": "select"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 7,
+        "minValue": 1,
         "choices": [
             {
-                "name": "12 inches",
+                "name": {
+                    "en": "12 inches"
+                },
                 "value": 1
             },
             {
-                "name": "24 inches",
+                "name": {
+                    "en": "24 inches"
+                },
                 "value": 2
             },
             {
-                "name": "36 inches",
+                "name": {
+                    "en": "36 inches"
+                },
                 "value": 3
             },
             {
-                "name": "48 inches",
+                "name": {
+                    "en": "48 inches"
+                },
                 "value": 4
             },
             {
-                "name": "60 inches",
+                "name": {
+                    "en": "60 inches"
+                },
                 "value": 5
             },
             {
-                "name": "72 inches",
+                "name": {
+                    "en": "72 inches"
+                },
                 "value": 6
             },
             {
-                "name": "84 inches",
+                "name": {
+                    "en": "84 inches"
+                },
                 "value": 7
             }
         ],
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 ft = 12 inches, 2 ft = 24 inches, 3 ft = 36 inches, 4 ft = 48 inches, 5 ft = 60 inches, 6 ft = 72 inches, 7 ft = 84 inches"
-        }
-    ]
+    "prefLabel": {
+        "en": "anthro_1_height_in"
+    }
 }

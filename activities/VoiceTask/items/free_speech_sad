@@ -1,21 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "free_speech_sad",
-    "prefLabel": " Sad Free speech",
-    "description": "sad free speech item for voice task",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "free_speech_sad",
+    "category": "Item",
+    "description": {
+        "en": "sad free speech item for voice task"
+    },
     "question": {
         "en": "Describe a sad event from your past with as much detail and depth as possible.",
         "es": "Cuente un recuerdo triste de su vida con el mayor detalle y profundidad posible."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 180000,
         "minValue": 0,
-        "maxValue": 180000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": " Sad Free speech"
     }
 }

@@ -1,22 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "free_speech_important_people",
-    "prefLabel": "Free speech people",
-    "description": "free speech item for voice task",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "free_speech_important_people",
+    "category": "Item",
+    "description": {
+        "en": "free speech item for voice task"
+    },
     "question": {
         "en": "Describe three important people in your life. Describe their personalities, what they do or why they are important to you with as much detail as possible.",
         "es": "Hable de tres personas importantes de tu vida. Describa sus personalidades, sobre lo que hacen, o por qu\u00e9 son importantes para vos con el mayor detalle posible."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
-        "minValue": 0,
         "maxValue": 180000,
-        "multipleChoice": false
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Free speech people"
     }
 }

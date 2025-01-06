@@ -1,15 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "dsm_5_instructions",
-    "prefLabel": "dsm_5_instructions",
-    "ui": {
-        "inputType": "static",
-        "readonlyValue": true
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_instructions",
+    "category": "Item",
     "question": {
         "en": "Instructions (to the parent or guardian of child): The questions below ask about things that might have bothered your child. For each question, circle the number that best describes how much (or how often) your child has been bothered by each problem during the\npast TWO (2) WEEKS."
+    },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "static"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "prefLabel": {
+        "en": "dsm_5_instructions"
     }
 }

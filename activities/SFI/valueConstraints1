@@ -1,55 +1,79 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "valueConstraints1",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 0,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "valueConstraints1",
+    "category": "ResponseOption",
     "maxValue": 10,
-    "multipleChoice": false,
+    "minValue": 0,
     "choices": [
         {
-            "name": "Strongly disagree",
+            "name": {
+                "en": "Strongly disagree"
+            },
             "value": 0
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 1
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 2
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 3
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 4
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 5
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 6
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 7
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 8
         },
         {
-            "name": "",
+            "name": {
+                "en": ""
+            },
             "value": 9
         },
         {
-            "name": "Strongly agree",
+            "name": {
+                "en": "Strongly agree"
+            },
             "value": 10
         }
+    ],
+    "multipleChoice": false,
+    "valueType": [
+        "xsd:integer"
     ]
 }

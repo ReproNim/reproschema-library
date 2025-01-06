@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "swed_4",
-    "prefLabel": "SWED-4",
-    "description": "Q4 of the SWED Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "swed_4",
+    "category": "Item",
+    "description": {
+        "en": "Q4 of the SWED Assessment"
+    },
     "question": {
         "en": "Compared to other things in your life, how important is your weight to you?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 3,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
                 "name": {
@@ -47,6 +46,13 @@
                 },
                 "value": 3
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "SWED-4"
     }
 }

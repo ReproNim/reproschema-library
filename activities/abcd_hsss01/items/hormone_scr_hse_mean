@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "hormone_scr_hse_mean",
-    "@type": "reproschema:Field",
-    "prefLabel": "hormone_scr_hse_mean",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "hormone_scr_hse_mean",
+    "category": "Item",
+    "question": {
+        "en": "Salimetrics hormone test estradiol (HSE) mean of measures (pg/mL)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Salimetrics hormone test estradiol (HSE) mean of measures (pg/mL)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "prefLabel": {
+        "en": "hormone_scr_hse_mean"
     }
 }

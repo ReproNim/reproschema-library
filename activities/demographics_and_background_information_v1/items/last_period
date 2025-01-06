@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "last_period",
+    "category": "Item",
+    "question": {
+        "en": "What is the date of your child's last period? "
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "last_period",
-    "prefLabel": "last_period",
     "ui": {
         "inputType": "date"
     },
     "responseOptions": {
-        "valueType": "xsd:date"
+        "valueType": [
+            "xsd:date"
+        ]
     },
-    "question": {
-        "en": "What is the date of your child's last period? "
+    "prefLabel": {
+        "en": "last_period"
     }
 }

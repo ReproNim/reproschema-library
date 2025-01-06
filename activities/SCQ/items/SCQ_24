@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SCQ_24",
-    "prefLabel": "SCQ Q24",
-    "description": "Q24 of the Social Communication Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SCQ_24",
+    "category": "Item",
+    "description": {
+        "en": "Q24 of the Social Communication Questionnaire"
+    },
     "question": {
         "en": "Does she/he nod her/his head to indicate yes?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "SCQ Q24"
+    }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "TEQ_9",
-    "prefLabel": "TEQ 9",
-    "description": "Q9 of the Toronto Empathy Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "TEQ_9",
+    "category": "Item",
+    "description": {
+        "en": "Q9 of the Toronto Empathy Questionnaire"
+    },
     "question": {
         "en": "I find that I am in tune with other people's moods"
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "TEQ 9"
+    }
 }

@@ -1,59 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ7_schema",
-    "prefLabel": {
-        "en": "PHQ-7 Assessment",
-        "es": "PHQ-7 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ7_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-7 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ-7 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
-        "es": "En los últimos 3 meses, ¿ha ocupado a menudo cualquiera de los siguientes métodos para evitar subir de peso?",
-        "nl": "Hebt u in de afgelopen 3 maanden vaakéén of meer van de volgende dingen gedaan om te voorkomen dat u in gewicht aankomt?",
-        "fr": "Au cours des 3 derniers mois, avez-vous souventagi de la manière suivante pour éviter de prendre du poids?",
-        "pt-BR": "Nos últimos 3 meses você fez com freqüência alguma das coisas abaixo para evitar ganhar peso?",
-        "ko": "지난 3개월동안당신은체중이증가하는것을막기위해다음과같은행동을자주했습니까?"
-    },
-    "compute": [
-        {
-            "variableName": "phq7_total_score",
-            "jsExpression": "phq7a + phq7b + phq7c + phq7d"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq7a",
-                "variableName": "phq7a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq7a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq7b",
-                "variableName": "phq7b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq7b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq7c",
-                "variableName": "phq7c",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq7c"
             },
             {
-                "isAbout": "items/phq7d",
-                "variableName": "phq7d",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq7d",
+                "isVis": true,
+                "variableName": "phq7d"
             },
             {
                 "isAbout": "items/phq7_total_score",
-                "variableName": "phq7_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq7_total_score"
             }
         ],
         "order": [
@@ -63,5 +49,23 @@
             "items/phq7d"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq7a + phq7b + phq7c + phq7d",
+            "variableName": "phq7_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
+        "es": "En los \u00faltimos 3 meses, \u00bfha ocupado a menudo cualquiera de los siguientes m\u00e9todos para evitar subir de peso?",
+        "fr": "Au cours des 3 derniers mois, avez-vous souventagi de la mani\u00e8re suivante pour \u00e9viter de prendre du poids?",
+        "ko": "\uc9c0\ub09c 3\uac1c\uc6d4\ub3d9\uc548\ub2f9\uc2e0\uc740\uccb4\uc911\uc774\uc99d\uac00\ud558\ub294\uac83\uc744\ub9c9\uae30\uc704\ud574\ub2e4\uc74c\uacfc\uac19\uc740\ud589\ub3d9\uc744\uc790\uc8fc\ud588\uc2b5\ub2c8\uae4c?",
+        "nl": "Hebt u in de afgelopen 3 maanden vaak\u00e9\u00e9n of meer van de volgende dingen gedaan om te voorkomen dat u in gewicht aankomt?",
+        "pt-br": "Nos \u00faltimos 3 meses voc\u00ea fez com freq\u00fc\u00eancia alguma das coisas abaixo para evitar ganhar peso?"
+    },
+    "prefLabel": {
+        "en": "PHQ-7 Assessment",
+        "es": "PHQ-7 Evaluaci\u00f3n"
     }
 }

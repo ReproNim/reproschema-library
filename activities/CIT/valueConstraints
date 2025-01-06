@@ -1,31 +1,43 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "valueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 0,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "valueConstraints",
+    "category": "ResponseOption",
     "maxValue": 3,
-    "multipleChoice": false,
+    "minValue": 0,
     "choices": [
         {
-            "name": "Strongly disagree",
+            "name": {
+                "en": "Strongly disagree"
+            },
             "value": 1
         },
         {
-            "name": "Disagree",
+            "name": {
+                "en": "Disagree"
+            },
             "value": 2
         },
         {
-            "name": "Neither agree or disagree",
+            "name": {
+                "en": "Neither agree or disagree"
+            },
             "value": 3
         },
         {
-            "name": "Agree",
+            "name": {
+                "en": "Agree"
+            },
             "value": 4
         },
         {
-            "name": "Strongly agree",
+            "name": {
+                "en": "Strongly agree"
+            },
             "value": 5
         }
+    ],
+    "multipleChoice": false,
+    "valueType": [
+        "xsd:integer"
     ]
 }

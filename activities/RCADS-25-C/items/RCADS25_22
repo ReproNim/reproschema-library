@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "RCADS25_22",
-    "prefLabel": "RCADS-25 Caregiver Assessment Q22",
-    "description": "Question 22 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Caregiver-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "RCADS25_22",
+    "category": "Item",
+    "description": {
+        "en": "Question 22 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Caregiver-Administered Version"
+    },
+    "question": {
+        "en": "My child feels afraid that he/she will make a fool of himself/herself in front of people"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "My child feels afraid that he/she will make a fool of himself/herself in front of people",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "RCADS-25 Caregiver Assessment Q22"
+    }
 }

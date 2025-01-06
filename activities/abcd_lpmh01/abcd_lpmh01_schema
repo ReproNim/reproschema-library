@@ -1,15 +1,284 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_lpmh01_schema",
-    "prefLabel": {
-        "en": "ABCD Longitudinal Parent Medical History Questionnaire",
-        "es": "abcd_lpmh01_es"
-    },
-    "altLabel": "abcd_lpmh01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_lpmh01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/medhx_11_l",
+                "variableName": "medhx_11_l"
+            },
+            {
+                "isAbout": "items/medhx_12_l",
+                "variableName": "medhx_12_l"
+            },
+            {
+                "isAbout": "items/medhx_1a_l",
+                "variableName": "medhx_1a_l"
+            },
+            {
+                "isAbout": "items/medhx_2_notes2_l",
+                "variableName": "medhx_2_notes2_l"
+            },
+            {
+                "isAbout": "items/medhx_2a_l",
+                "variableName": "medhx_2a_l"
+            },
+            {
+                "isAbout": "items/medhx_2b_l",
+                "variableName": "medhx_2b_l"
+            },
+            {
+                "isAbout": "items/medhx_2c_l",
+                "variableName": "medhx_2c_l"
+            },
+            {
+                "isAbout": "items/medhx_2d_l",
+                "variableName": "medhx_2d_l"
+            },
+            {
+                "isAbout": "items/medhx_2e_l",
+                "variableName": "medhx_2e_l"
+            },
+            {
+                "isAbout": "items/medhx_2f_l",
+                "variableName": "medhx_2f_l"
+            },
+            {
+                "isAbout": "items/medhx_2g_l",
+                "variableName": "medhx_2g_l"
+            },
+            {
+                "isAbout": "items/medhx_2h_l",
+                "variableName": "medhx_2h_l"
+            },
+            {
+                "isAbout": "items/medhx_2i_l",
+                "variableName": "medhx_2i_l"
+            },
+            {
+                "isAbout": "items/medhx_2j_l",
+                "variableName": "medhx_2j_l"
+            },
+            {
+                "isAbout": "items/medhx_2k_l",
+                "variableName": "medhx_2k_l"
+            },
+            {
+                "isAbout": "items/medhx_2l_l",
+                "variableName": "medhx_2l_l"
+            },
+            {
+                "isAbout": "items/medhx_2m_l",
+                "variableName": "medhx_2m_l"
+            },
+            {
+                "isAbout": "items/medhx_2n_l",
+                "variableName": "medhx_2n_l"
+            },
+            {
+                "isAbout": "items/medhx_2o_l",
+                "variableName": "medhx_2o_l"
+            },
+            {
+                "isAbout": "items/medhx_2p_l",
+                "variableName": "medhx_2p_l"
+            },
+            {
+                "isAbout": "items/medhx_2q_l",
+                "variableName": "medhx_2q_l"
+            },
+            {
+                "isAbout": "items/medhx_2r_l",
+                "variableName": "medhx_2r_l"
+            },
+            {
+                "isAbout": "items/medhx_4a_l",
+                "variableName": "medhx_4a_l"
+            },
+            {
+                "isAbout": "items/medhx_4b_l",
+                "variableName": "medhx_4b_l"
+            },
+            {
+                "isAbout": "items/medhx_6a_l",
+                "variableName": "medhx_6a_l"
+            },
+            {
+                "isAbout": "items/medhx_6a_notes_l",
+                "variableName": "medhx_6a_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6b_l",
+                "variableName": "medhx_6b_l"
+            },
+            {
+                "isAbout": "items/medhx_6b_notes_l",
+                "variableName": "medhx_6b_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6c_l",
+                "variableName": "medhx_6c_l"
+            },
+            {
+                "isAbout": "items/medhx_6c_times_l",
+                "variableName": "medhx_6c_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6d_l",
+                "variableName": "medhx_6d_l"
+            },
+            {
+                "isAbout": "items/medhx_6d_notes_l",
+                "variableName": "medhx_6d_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6e_l",
+                "variableName": "medhx_6e_l"
+            },
+            {
+                "isAbout": "items/medhx_6e_times_l",
+                "variableName": "medhx_6e_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6f_l",
+                "variableName": "medhx_6f_l"
+            },
+            {
+                "isAbout": "items/medhx_6f_notes_l",
+                "variableName": "medhx_6f_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6g_l",
+                "variableName": "medhx_6g_l"
+            },
+            {
+                "isAbout": "items/medhx_6g_times_l",
+                "variableName": "medhx_6g_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6h_l",
+                "variableName": "medhx_6h_l"
+            },
+            {
+                "isAbout": "items/medhx_6h_times_l",
+                "variableName": "medhx_6h_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6i_l",
+                "variableName": "medhx_6i_l"
+            },
+            {
+                "isAbout": "items/medhx_6i_times_l",
+                "variableName": "medhx_6i_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6j_l",
+                "variableName": "medhx_6j_l"
+            },
+            {
+                "isAbout": "items/medhx_6j_times_l",
+                "variableName": "medhx_6j_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6k_l",
+                "variableName": "medhx_6k_l"
+            },
+            {
+                "isAbout": "items/medhx_6k_times_l",
+                "variableName": "medhx_6k_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6l_l",
+                "variableName": "medhx_6l_l"
+            },
+            {
+                "isAbout": "items/medhx_6l_notes_l",
+                "variableName": "medhx_6l_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6m_l",
+                "variableName": "medhx_6m_l"
+            },
+            {
+                "isAbout": "items/medhx_6m_times_l",
+                "variableName": "medhx_6m_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6n_l",
+                "variableName": "medhx_6n_l"
+            },
+            {
+                "isAbout": "items/medhx_6n_notes_l",
+                "variableName": "medhx_6n_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6o_l",
+                "variableName": "medhx_6o_l"
+            },
+            {
+                "isAbout": "items/medhx_6o_notes_l",
+                "variableName": "medhx_6o_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6p_l",
+                "variableName": "medhx_6p_l"
+            },
+            {
+                "isAbout": "items/medhx_6p_notes_l",
+                "variableName": "medhx_6p_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6q_l",
+                "variableName": "medhx_6q_l"
+            },
+            {
+                "isAbout": "items/medhx_6q_notes_l",
+                "variableName": "medhx_6q_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6r_l",
+                "variableName": "medhx_6r_l"
+            },
+            {
+                "isAbout": "items/medhx_6r_notes_l",
+                "variableName": "medhx_6r_notes_l"
+            },
+            {
+                "isAbout": "items/medhx_6s_l",
+                "variableName": "medhx_6s_l"
+            },
+            {
+                "isAbout": "items/medhx_6s_times_l",
+                "variableName": "medhx_6s_times_l"
+            },
+            {
+                "isAbout": "items/medhx_6t_l",
+                "variableName": "medhx_6t_l"
+            },
+            {
+                "isAbout": "items/medhx_6t_times_l",
+                "variableName": "medhx_6t_times_l"
+            },
+            {
+                "isAbout": "items/medhx_8a_l",
+                "variableName": "medhx_8a_l"
+            },
+            {
+                "isAbout": "items/medhx_9a_l",
+                "variableName": "medhx_9a_l"
+            },
+            {
+                "isAbout": "items/medhx_9b_l",
+                "variableName": "medhx_9b_l"
+            },
+            {
+                "isAbout": "items/medhx_9c_l",
+                "variableName": "medhx_9c_l"
+            }
+        ],
         "order": [
             "items/medhx_11_l",
             "items/medhx_12_l",
@@ -80,280 +349,13 @@
             "items/medhx_9b_l",
             "items/medhx_9c_l"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "medhx_11_l",
-                "isAbout": "items/medhx_11_l"
-            },
-            {
-                "variableName": "medhx_12_l",
-                "isAbout": "items/medhx_12_l"
-            },
-            {
-                "variableName": "medhx_1a_l",
-                "isAbout": "items/medhx_1a_l"
-            },
-            {
-                "variableName": "medhx_2_notes2_l",
-                "isAbout": "items/medhx_2_notes2_l"
-            },
-            {
-                "variableName": "medhx_2a_l",
-                "isAbout": "items/medhx_2a_l"
-            },
-            {
-                "variableName": "medhx_2b_l",
-                "isAbout": "items/medhx_2b_l"
-            },
-            {
-                "variableName": "medhx_2c_l",
-                "isAbout": "items/medhx_2c_l"
-            },
-            {
-                "variableName": "medhx_2d_l",
-                "isAbout": "items/medhx_2d_l"
-            },
-            {
-                "variableName": "medhx_2e_l",
-                "isAbout": "items/medhx_2e_l"
-            },
-            {
-                "variableName": "medhx_2f_l",
-                "isAbout": "items/medhx_2f_l"
-            },
-            {
-                "variableName": "medhx_2g_l",
-                "isAbout": "items/medhx_2g_l"
-            },
-            {
-                "variableName": "medhx_2h_l",
-                "isAbout": "items/medhx_2h_l"
-            },
-            {
-                "variableName": "medhx_2i_l",
-                "isAbout": "items/medhx_2i_l"
-            },
-            {
-                "variableName": "medhx_2j_l",
-                "isAbout": "items/medhx_2j_l"
-            },
-            {
-                "variableName": "medhx_2k_l",
-                "isAbout": "items/medhx_2k_l"
-            },
-            {
-                "variableName": "medhx_2l_l",
-                "isAbout": "items/medhx_2l_l"
-            },
-            {
-                "variableName": "medhx_2m_l",
-                "isAbout": "items/medhx_2m_l"
-            },
-            {
-                "variableName": "medhx_2n_l",
-                "isAbout": "items/medhx_2n_l"
-            },
-            {
-                "variableName": "medhx_2o_l",
-                "isAbout": "items/medhx_2o_l"
-            },
-            {
-                "variableName": "medhx_2p_l",
-                "isAbout": "items/medhx_2p_l"
-            },
-            {
-                "variableName": "medhx_2q_l",
-                "isAbout": "items/medhx_2q_l"
-            },
-            {
-                "variableName": "medhx_2r_l",
-                "isAbout": "items/medhx_2r_l"
-            },
-            {
-                "variableName": "medhx_4a_l",
-                "isAbout": "items/medhx_4a_l"
-            },
-            {
-                "variableName": "medhx_4b_l",
-                "isAbout": "items/medhx_4b_l"
-            },
-            {
-                "variableName": "medhx_6a_l",
-                "isAbout": "items/medhx_6a_l"
-            },
-            {
-                "variableName": "medhx_6a_notes_l",
-                "isAbout": "items/medhx_6a_notes_l"
-            },
-            {
-                "variableName": "medhx_6b_l",
-                "isAbout": "items/medhx_6b_l"
-            },
-            {
-                "variableName": "medhx_6b_notes_l",
-                "isAbout": "items/medhx_6b_notes_l"
-            },
-            {
-                "variableName": "medhx_6c_l",
-                "isAbout": "items/medhx_6c_l"
-            },
-            {
-                "variableName": "medhx_6c_times_l",
-                "isAbout": "items/medhx_6c_times_l"
-            },
-            {
-                "variableName": "medhx_6d_l",
-                "isAbout": "items/medhx_6d_l"
-            },
-            {
-                "variableName": "medhx_6d_notes_l",
-                "isAbout": "items/medhx_6d_notes_l"
-            },
-            {
-                "variableName": "medhx_6e_l",
-                "isAbout": "items/medhx_6e_l"
-            },
-            {
-                "variableName": "medhx_6e_times_l",
-                "isAbout": "items/medhx_6e_times_l"
-            },
-            {
-                "variableName": "medhx_6f_l",
-                "isAbout": "items/medhx_6f_l"
-            },
-            {
-                "variableName": "medhx_6f_notes_l",
-                "isAbout": "items/medhx_6f_notes_l"
-            },
-            {
-                "variableName": "medhx_6g_l",
-                "isAbout": "items/medhx_6g_l"
-            },
-            {
-                "variableName": "medhx_6g_times_l",
-                "isAbout": "items/medhx_6g_times_l"
-            },
-            {
-                "variableName": "medhx_6h_l",
-                "isAbout": "items/medhx_6h_l"
-            },
-            {
-                "variableName": "medhx_6h_times_l",
-                "isAbout": "items/medhx_6h_times_l"
-            },
-            {
-                "variableName": "medhx_6i_l",
-                "isAbout": "items/medhx_6i_l"
-            },
-            {
-                "variableName": "medhx_6i_times_l",
-                "isAbout": "items/medhx_6i_times_l"
-            },
-            {
-                "variableName": "medhx_6j_l",
-                "isAbout": "items/medhx_6j_l"
-            },
-            {
-                "variableName": "medhx_6j_times_l",
-                "isAbout": "items/medhx_6j_times_l"
-            },
-            {
-                "variableName": "medhx_6k_l",
-                "isAbout": "items/medhx_6k_l"
-            },
-            {
-                "variableName": "medhx_6k_times_l",
-                "isAbout": "items/medhx_6k_times_l"
-            },
-            {
-                "variableName": "medhx_6l_l",
-                "isAbout": "items/medhx_6l_l"
-            },
-            {
-                "variableName": "medhx_6l_notes_l",
-                "isAbout": "items/medhx_6l_notes_l"
-            },
-            {
-                "variableName": "medhx_6m_l",
-                "isAbout": "items/medhx_6m_l"
-            },
-            {
-                "variableName": "medhx_6m_times_l",
-                "isAbout": "items/medhx_6m_times_l"
-            },
-            {
-                "variableName": "medhx_6n_l",
-                "isAbout": "items/medhx_6n_l"
-            },
-            {
-                "variableName": "medhx_6n_notes_l",
-                "isAbout": "items/medhx_6n_notes_l"
-            },
-            {
-                "variableName": "medhx_6o_l",
-                "isAbout": "items/medhx_6o_l"
-            },
-            {
-                "variableName": "medhx_6o_notes_l",
-                "isAbout": "items/medhx_6o_notes_l"
-            },
-            {
-                "variableName": "medhx_6p_l",
-                "isAbout": "items/medhx_6p_l"
-            },
-            {
-                "variableName": "medhx_6p_notes_l",
-                "isAbout": "items/medhx_6p_notes_l"
-            },
-            {
-                "variableName": "medhx_6q_l",
-                "isAbout": "items/medhx_6q_l"
-            },
-            {
-                "variableName": "medhx_6q_notes_l",
-                "isAbout": "items/medhx_6q_notes_l"
-            },
-            {
-                "variableName": "medhx_6r_l",
-                "isAbout": "items/medhx_6r_l"
-            },
-            {
-                "variableName": "medhx_6r_notes_l",
-                "isAbout": "items/medhx_6r_notes_l"
-            },
-            {
-                "variableName": "medhx_6s_l",
-                "isAbout": "items/medhx_6s_l"
-            },
-            {
-                "variableName": "medhx_6s_times_l",
-                "isAbout": "items/medhx_6s_times_l"
-            },
-            {
-                "variableName": "medhx_6t_l",
-                "isAbout": "items/medhx_6t_l"
-            },
-            {
-                "variableName": "medhx_6t_times_l",
-                "isAbout": "items/medhx_6t_times_l"
-            },
-            {
-                "variableName": "medhx_8a_l",
-                "isAbout": "items/medhx_8a_l"
-            },
-            {
-                "variableName": "medhx_9a_l",
-                "isAbout": "items/medhx_9a_l"
-            },
-            {
-                "variableName": "medhx_9b_l",
-                "isAbout": "items/medhx_9b_l"
-            },
-            {
-                "variableName": "medhx_9c_l",
-                "isAbout": "items/medhx_9c_l"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_lpmh01"
+    },
+    "prefLabel": {
+        "en": "ABCD Longitudinal Parent Medical History Questionnaire",
+        "es": "abcd_lpmh01_es"
     }
 }

@@ -1,112 +1,162 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "race_ethnicity_global",
-    "prefLabel": "race ethnicity global",
-    "responseOptions": {
-        "valueType": "xsd:anyURI",
-        "multipleChoice": true,
-        "choices": [
-            {
-                "value": 1,
-                "name": "Black"
-            },
-            {
-                "value": 2,
-                "name": "African American"
-            },
-            {
-                "value": 3,
-                "name": "Middle Eastern or North African"
-            },
-            {
-                "value": 4,
-                "name": "Sub-Saharan African"
-            },
-            {
-                "value": 5,
-                "name": "East Asian"
-            },
-            {
-                "value": 6,
-                "name": "Southeast Asian"
-            },
-            {
-                "value": 7,
-                "name": "South Asian"
-            },
-            {
-                "value": 8,
-                "name": "Central Asian"
-            },
-            {
-                "value": 9,
-                "name": "Pacific Islander"
-            },
-            {
-                "value": 10,
-                "name": "Indigenous, First Nation"
-            },
-            {
-                "value": 11,
-                "name": "Hispanic or Latino/a/x"
-            },
-            {
-                "value": 12,
-                "name": "Latin American"
-            },
-            {
-                "value": 13,
-                "name": "Brown"
-            },
-            {
-                "value": 14,
-                "name": "Caribbean"
-            },
-            {
-                "value": 15,
-                "name": "White"
-            },
-            {
-                "value": 16,
-                "name": "Western European"
-            },
-            {
-                "value": 17,
-                "name": "Eastern European"
-            },
-            {
-                "value": 18,
-                "name": "Northern European"
-            },
-            {
-                "value": 19,
-                "name": "Southern European"
-            },
-            {
-                "value": 20,
-                "name": "Romani"
-            },
-            {
-                "value": 999,
-                "name": "None"
-            },
-            {
-                "value": 0,
-                "name": "Prefer not disclose"
-            },
-            {
-                "value": -1,
-                "name": "Other race, ethnicity, or origin"
-            }
-        ]
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "race_ethnicity_global",
+    "category": "Item",
+    "question": {
+        "en": "Which categories describe you (select all that apply): "
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Which categories describe you (select all that apply): "
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Black"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "African American"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Middle Eastern or North African"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sub-Saharan African"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "East Asian"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Southeast Asian"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "South Asian"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Central Asian"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Pacific Islander"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Indigenous, First Nation"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Hispanic or Latino/a/x"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Latin American"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Brown"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Caribbean"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "White"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Western European"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Eastern European"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Northern European"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Southern European"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Romani"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Prefer not disclose"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Other race, ethnicity, or origin"
+                },
+                "value": -1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:anyURI"
+        ]
+    },
+    "prefLabel": {
+        "en": "race ethnicity global"
     }
 }

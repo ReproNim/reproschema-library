@@ -1,139 +1,136 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "DAS_schema",
-    "prefLabel": {
-        "en": "Daily Affect Scale Assessment",
-        "es": "Daily Affect Scale Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "DAS_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "Daily Affect Scale schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "Daily Affect Scale schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Using the 7-point scale below, please indicate the extent to which you feel this way right now:"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_1",
-                "variableName": "DAS_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_2",
-                "variableName": "DAS_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_3",
-                "variableName": "DAS_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_4",
-                "variableName": "DAS_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_5",
-                "variableName": "DAS_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_6",
-                "variableName": "DAS_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_7",
-                "variableName": "DAS_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_7"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_8",
-                "variableName": "DAS_8",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_8"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_9",
-                "variableName": "DAS_9",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_9"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_10",
-                "variableName": "DAS_10",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_10"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_11",
-                "variableName": "DAS_11",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_11"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_12",
-                "variableName": "DAS_12",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_12"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_13",
-                "variableName": "DAS_13",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_13"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_14",
-                "variableName": "DAS_14",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_14"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_15",
-                "variableName": "DAS_15",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_15"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_16",
-                "variableName": "DAS_16",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_16"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_17",
-                "variableName": "DAS_17",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_17"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_18",
-                "variableName": "DAS_18",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_18"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/DAS_19",
-                "variableName": "DAS_19",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "DAS_19"
             },
             {
-                "isAbout": "items/DAS_20",
-                "variableName": "DAS_20",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/DAS_20",
+                "isVis": true,
+                "variableName": "DAS_20"
             }
         ],
         "order": [
@@ -159,5 +156,12 @@
             "items/DAS_20"
         ],
         "shuffle": true
+    },
+    "preamble": {
+        "en": "Using the 7-point scale below, please indicate the extent to which you feel this way right now:"
+    },
+    "prefLabel": {
+        "en": "Daily Affect Scale Assessment",
+        "es": "Daily Affect Scale Evaluaci\u00f3n"
     }
 }

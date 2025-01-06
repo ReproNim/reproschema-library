@@ -1,49 +1,71 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "feedback_yes",
-    "prefLabel": "Feedback yes detail",
-    "description": "schema for feedback on voice tasks in detail",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "feedback_yes",
+    "category": "Item",
+    "description": {
+        "en": "schema for feedback on voice tasks in detail"
+    },
+    "question": {
+        "en": "Which task did you like the most?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Which task did you like the most?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 1,
         "maxValue": 6,
-        "multipleChoice": false,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Task 1 -  Say \"aaah\"",
+                "name": {
+                    "en": "Task 1 -  Say \"aaah\""
+                },
                 "value": 1
             },
             {
-                "name": "Task 2 -  Say \"pa-ta-ka as fast as possible\"",
+                "name": {
+                    "en": "Task 2 -  Say \"pa-ta-ka as fast as possible\""
+                },
                 "value": 2
             },
             {
-                "name": "Task 3 -  Give directions to someone using a map",
+                "name": {
+                    "en": "Task 3 -  Give directions to someone using a map"
+                },
                 "value": 3
             },
             {
-                "name": "Task 4 - Briefly describe the top 3 memories from the last movie or television show you watched",
+                "name": {
+                    "en": "Task 4 - Briefly describe the top 3 memories from the last movie or television show you watched"
+                },
                 "value": 4
             },
             {
-                "name": "Task 5 - Read a small passage",
+                "name": {
+                    "en": "Task 5 - Read a small passage"
+                },
                 "value": 5
             },
             {
-                "name": "Task 6 - Read and remember numbers",
+                "name": {
+                    "en": "Task 6 - Read and remember numbers"
+                },
                 "value": 6
             },
             {
-                "name": "None",
+                "name": {
+                    "en": "None"
+                },
                 "value": 7
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Feedback yes detail"
     }
 }

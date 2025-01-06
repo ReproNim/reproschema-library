@@ -1,28 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ca_2",
-    "prefLabel": "CAGE-AID-2",
-    "description": "Q2 of the CAGE-AID Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ca_2",
+    "category": "Item",
+    "description": {
+        "en": "Q2 of the CAGE-AID Assessment"
+    },
+    "question": {
+        "en": "Have people annoyed you by criticizing your drinking or drug use?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Have people annoyed you by criticizing your drinking or drug use?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             },
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "CAGE-AID-2"
     }
 }

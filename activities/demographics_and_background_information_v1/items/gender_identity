@@ -1,72 +1,77 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "gender_identity",
-    "prefLabel": "Gender",
-    "description": "schema to identify the gender identity of the participant",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question": {
-	    "en": "Gender identity (select all that apply):",
-	    "es": "Identidad de género (seleccione todas las que correspondan):"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "gender_identity",
+    "category": "Item",
+    "description": {
+        "en": "schema to identify the gender identity of the participant"
     },
+    "question": {
+        "en": "Gender identity (select all that apply):",
+        "es": "Identidad de g\u00e9nero (seleccione todas las que correspondan):"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:anyURI",
-	    "multipleChoice": true,
         "choices": [
             {
                 "name": {
-	                "en": "Cis woman",
-	                "es": "Mujer cis"
+                    "en": "Cis woman",
+                    "es": "Mujer cis"
                 },
                 "value": 1
             },
             {
                 "name": {
-	                "en": "Cis man",
-	                "es": "Hombre cis"
+                    "en": "Cis man",
+                    "es": "Hombre cis"
                 },
                 "value": 2
             },
-	        {
+            {
                 "name": {
-	                "en": "Trans woman",
-	                "es": "Mujer trans"
+                    "en": "Trans woman",
+                    "es": "Mujer trans"
                 },
                 "value": 3
             },
-	        {
+            {
                 "name": {
-	                "en": "Trans man",
-	                "es": "Hombre trans"
+                    "en": "Trans man",
+                    "es": "Hombre trans"
                 },
                 "value": 4
             },
-	        {
+            {
                 "name": {
-	                "en": "Non-binary",
-	                "es": "No binario(e)"
+                    "en": "Non-binary",
+                    "es": "No binario(e)"
                 },
                 "value": 5
             },
-	        {
+            {
                 "name": {
-	                "en": "Prefer not to disclose",
-	                "es": "Prefiero no responder"
+                    "en": "Prefer not to disclose",
+                    "es": "Prefiero no responder"
                 },
                 "value": 0
             },
-	        {
+            {
                 "name": {
-	                "en": "Other",
-	                "es": "Otro"
+                    "en": "Other",
+                    "es": "Otro"
                 },
                 "value": -1
             }
-
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:anyURI"
         ]
+    },
+    "prefLabel": {
+        "en": "Gender"
     }
 }

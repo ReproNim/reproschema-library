@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SCQ_35",
-    "prefLabel": "SCQ Q35",
-    "description": "Q35 of the Social Communication Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SCQ_35",
+    "category": "Item",
+    "description": {
+        "en": "Q35 of the Social Communication Questionnaire"
+    },
     "question": {
         "en": "Does she/he play any pretend or make-believe games?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "SCQ Q35"
+    }
 }

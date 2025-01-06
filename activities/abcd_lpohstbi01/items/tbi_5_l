@@ -1,47 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_5_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_5_l",
-        "es": "tbi_5_l_es"
-    },
-    "altLabel": "brain_injury_5_l tbi_5_p_l",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_5_l",
+    "category": "Item",
     "question": {
         "en": "Since we last saw you on [asnt_timestamp_c], has your child been nearby when an explosion or blast has occurred?",
-        "es": "Desde la última vez que nos vimos en [asnt_timestamp_c], ¿ha estado su niño/a cerca de una explosión o un estallido?"
+        "es": "Desde la \u00faltima vez que nos vimos en [asnt_timestamp_c], \u00bfha estado su ni\u00f1o/a cerca de una explosi\u00f3n o un estallido?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "1 = Yes Si; 0 = No No"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Yes Si; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_5_l tbi_5_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_5_l",
+        "es": "tbi_5_l_es"
+    }
 }

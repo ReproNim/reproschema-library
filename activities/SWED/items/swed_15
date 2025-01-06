@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "swed_15",
-    "prefLabel": "SWED-15",
-    "description": "Q15 of the SWED Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "swed_15",
+    "category": "Item",
+    "description": {
+        "en": "Q15 of the SWED Assessment"
+    },
     "question": {
         "en": "Have you experienced significant weight loss* but are not overly concerned with the size or shape of your body?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../swed_valueConstraints"
+    "responseOptions": "../swed_valueConstraints",
+    "prefLabel": {
+        "en": "SWED-15"
+    }
 }

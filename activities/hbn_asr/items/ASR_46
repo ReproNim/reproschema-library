@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASR_46",
-    "prefLabel": "ASR_46",
-    "description": "Q46 of the Questionnaire Measures of Emotional and Cognitive Status",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASR_46",
+    "category": "Item",
+    "description": {
+        "en": "Q46 of the Questionnaire Measures of Emotional and Cognitive Status"
+    },
     "question": {
         "en": "Parts of my body twitch or make nervous movements"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASR_46"
+    }
 }

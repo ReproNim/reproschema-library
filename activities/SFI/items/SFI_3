@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SFI_3",
-    "prefLabel": "SFI 3",
-    "description": "Q3 of the Secure Flourish Index",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SFI_3",
+    "category": "Item",
+    "description": {
+        "en": "Q3 of the Secure Flourish Index"
+    },
     "question": {
         "en": "In general, how would you rate your physical health?"
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints2"
+    "responseOptions": "../valueConstraints2",
+    "prefLabel": {
+        "en": "SFI 3"
+    }
 }

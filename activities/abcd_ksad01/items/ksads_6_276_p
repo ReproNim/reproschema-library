@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "ksads_6_276_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_6_276_p",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_6_276_p",
+    "category": "Item",
+    "question": {
+        "en": "Symptom - Impairment in functioning due to Agoraphobia Present"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Symptom - Impairment in functioning due to Agoraphobia Present",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_6_276_p"
     }
 }

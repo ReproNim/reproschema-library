@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "PSC-17_7",
-    "prefLabel": "PSC-17_7",
-    "description": "schema for Q7 of the PSC-17 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PSC-17_7",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q7 of the PSC-17 Assessment"
+    },
     "question": {
         "en": "Daydreams too much",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PSC-17_7"
+    }
 }

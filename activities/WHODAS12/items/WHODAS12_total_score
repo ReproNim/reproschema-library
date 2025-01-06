@@ -1,18 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS12_total_score",
-    "prefLabel": "WHODAS12_total_score",
-    "description": "Schema total score of the WHODAS12",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "xsd:int",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS12_total_score",
+    "category": "Item",
+    "description": {
+        "en": "Schema total score of the WHODAS12"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "xsd:int"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 36,
         "minValue": 0,
-        "maxValue": 36
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "WHODAS12_total_score"
     }
 }

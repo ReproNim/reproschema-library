@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "mdq_14",
-    "prefLabel": "MDQ-14",
-    "description": "schema for Q14 of the MDQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "mdq_14",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q14 of the MDQ Assessment"
+    },
     "question": {
         "en": "If you checked YES to more than one of the questions, have several of these ever happened during the same period of time? Please select 1 response only",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../mdq_valueConstraints"
+    "responseOptions": "../mdq_valueConstraints",
+    "prefLabel": {
+        "en": "MDQ-14"
+    }
 }

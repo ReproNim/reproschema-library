@@ -1,42 +1,43 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_nda_schema",
-    "prefLabel": "ABCD NDAguid",
-    "description": "schema describing terms needed to generate NDA guid for ABCD study",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_nda_schema",
+    "category": "Activity",
+    "description": {
+        "en": "schema describing terms needed to generate NDA guid for ABCD study"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "../NDA/items/eventname",
-                "variableName": "eventname",
-                "isVis": true
+                "isVis": true,
+                "variableName": "eventname"
             },
             {
                 "isAbout": "../NDA/items/interview_age",
-                "variableName": "interview_age",
-                "isVis": true
+                "isVis": true,
+                "variableName": "interview_age"
             },
             {
                 "isAbout": "../NDA/items/interview_date",
-                "variableName": "interview_date",
-                "isVis": true
+                "isVis": true,
+                "variableName": "interview_date"
             },
             {
                 "isAbout": "../NDA/items/sex",
-                "variableName": "sex",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sex"
             },
             {
                 "isAbout": "../NDA/items/src_subject_id",
-                "variableName": "src_subject_id",
-                "isVis": true
+                "isVis": true,
+                "variableName": "src_subject_id"
             },
             {
                 "isAbout": "../NDA/items/subjectKey",
-                "variableName": "subjectKey",
-                "isVis": true
+                "isVis": true,
+                "variableName": "subjectKey"
             }
         ],
         "order": [
@@ -48,5 +49,8 @@
             "../NDA/items/subjectKey"
         ],
         "shuffle": false
+    },
+    "prefLabel": {
+        "en": "ABCD NDAguid"
     }
 }

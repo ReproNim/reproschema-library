@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "PSC-17_5",
-    "prefLabel": "PSC-17_5",
-    "description": "schema for Q5 of the PSC-17 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PSC-17_5",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q5 of the PSC-17 Assessment"
+    },
     "question": {
         "en": "Seems to be having less fun",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PSC-17_5"
+    }
 }

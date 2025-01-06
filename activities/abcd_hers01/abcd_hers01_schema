@@ -1,26 +1,30 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_hers01_schema",
-    "prefLabel": "ABCD Youth Hair Sample",
-    "altLabel": "abcd_hers01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_hers01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/hair_dot_y",
+                "variableName": "hair_dot_y"
+            },
+            {
+                "isAbout": "items/hair_status_y",
+                "variableName": "hair_status_y"
+            }
+        ],
         "order": [
             "items/hair_dot_y",
             "items/hair_status_y"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "hair_dot_y",
-                "isAbout": "items/hair_dot_y"
-            },
-            {
-                "variableName": "hair_status_y",
-                "isAbout": "items/hair_status_y"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_hers01"
+    },
+    "prefLabel": {
+        "en": "ABCD Youth Hair Sample"
     }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_21",
-    "prefLabel": "Self compassion 21",
-    "description": "Q21 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_21",
+    "category": "Item",
+    "description": {
+        "en": "Q21 of the Self Compassion Scale"
+    },
     "question": {
         "en": "I can be a bit cold-hearted towards myself when I'm experiencing suffering."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 21"
+    }
 }

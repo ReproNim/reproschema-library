@@ -1,36 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CITControl_schema",
-    "prefLabel": {
-        "en": "CIT Control"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CITControl_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "CIT Control schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "CIT Control schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Control"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_control1",
-                "variableName": "cit_control1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_control1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_control2",
-                "variableName": "cit_control2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_control2"
             },
             {
-                "isAbout": "items/cit_control3",
-                "variableName": "cit_control3",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/cit_control3",
+                "isVis": true,
+                "variableName": "cit_control3"
             }
         ],
         "order": [
@@ -39,5 +37,11 @@
             "items/cit_control3"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Control"
+    },
+    "prefLabel": {
+        "en": "CIT Control"
     }
 }

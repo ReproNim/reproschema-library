@@ -1,19 +1,29 @@
 {
-  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-  "@type": "reproschema:Field",
-  "@id": "fruit_fluency",
-  "prefLabel": "Fruit fluency",
-  "description": "Fruit fluency",
-  "schemaVersion": "1.0.0-rc4",
-  "version": "0.0.1",
-  "preamble": "Please speak using your normal voice",
-  "question": "Say as many fruits as you can in one minute, avoid repeating words (continue trying until time is up).",
-  "ui": {
-    "inputType": "audioPassageRecord"
-  },
-  "responseOptions": {
-    "valueType": "schema:AudioObject",
-    "minValue": 60000,
-    "maxValue": 60000
-  }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "fruit_fluency",
+    "category": "Item",
+    "description": {
+        "en": "Fruit fluency"
+    },
+    "question": {
+        "en": "Say as many fruits as you can in one minute, avoid repeating words (continue trying until time is up)."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "preamble": {
+        "en": "Please speak using your normal voice"
+    },
+    "responseOptions": {
+        "maxValue": 60000,
+        "minValue": 60000,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Fruit fluency"
+    }
 }

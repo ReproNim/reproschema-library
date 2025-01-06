@@ -1,36 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CITAccomplishment_schema",
-    "prefLabel": {
-        "en": "CIT Accomplishment"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CITAccomplishment_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "CIT Accomplishment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "CIT Accomplishment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Accomplishment"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_accomplish1",
-                "variableName": "cit_accomplish1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_accomplish1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_accomplish2",
-                "variableName": "cit_accomplish2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_accomplish2"
             },
             {
-                "isAbout": "items/cit_accomplish3",
-                "variableName": "cit_accomplish3",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/cit_accomplish3",
+                "isVis": true,
+                "variableName": "cit_accomplish3"
             }
         ],
         "order": [
@@ -39,5 +37,11 @@
             "items/cit_accomplish3"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Accomplishment"
+    },
+    "prefLabel": {
+        "en": "CIT Accomplishment"
     }
 }

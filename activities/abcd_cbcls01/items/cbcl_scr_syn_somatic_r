@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "cbcl_scr_syn_somatic_r",
-    "@type": "reproschema:Field",
-    "prefLabel": "cbcl_scr_syn_somatic_r",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "cbcl_scr_syn_somatic_r",
+    "category": "Item",
+    "question": {
+        "en": "Somatic CBCL Syndrome Scale (raw score)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Somatic CBCL Syndrome Scale (raw score)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "cbcl_scr_syn_somatic_r"
     }
 }

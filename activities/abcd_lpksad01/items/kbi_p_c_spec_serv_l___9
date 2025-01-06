@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "kbi_p_c_spec_serv_l___9",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_spec_serv_l___9",
-    "altLabel": "kbi_c_spec_serv_p_l___9 ksads_back_c_spec_serv_p_l___9",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_spec_serv_l___9",
+    "category": "Item",
+    "question": {
+        "en": "Does your child receive special services at school? Click all that apply: \u00bfSu ni\u00f1o(a) recibe servicios especiales en la escuela?   Seleccione todas las opciones que correspondan o apliquen: (9, Other Otro)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Does your child receive special services at school? Click all that apply: \u00bfSu ni\u00f1o(a) recibe servicios especiales en la escuela?   Seleccione todas las opciones que correspondan o apliquen: (9, Other Otro)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_spec_serv_p_l___9 ksads_back_c_spec_serv_p_l___9"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_spec_serv_l___9"
+    }
 }

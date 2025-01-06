@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SITBI_2",
-    "prefLabel": "SITBI_2",
-    "description": "This is a text item.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SITBI_2",
+    "category": "Item",
+    "description": {
+        "en": "This is a text item."
+    },
+    "question": {
+        "en": "How old were you the first time you had thoughts of killing yourself?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "How old were you the first time you had thoughts of killing yourself?",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "SITBI_2"
     }
 }

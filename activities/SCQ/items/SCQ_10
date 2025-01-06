@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SCQ_10",
-    "prefLabel": "SCQ Q10",
-    "description": "Q10 of the Social Communication Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SCQ_10",
+    "category": "Item",
+    "description": {
+        "en": "Q10 of the Social Communication Questionnaire"
+    },
     "question": {
         "en": "Does she/he ever use your hand like a tool or as if it were part of her/his own body (e.g., pointing with your finder or putting your hand on a doorknob to get you to open the door?)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "SCQ Q10"
+    }
 }

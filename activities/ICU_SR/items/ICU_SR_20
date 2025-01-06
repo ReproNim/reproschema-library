@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ICU_SR_20",
-    "prefLabel": "ICU_SR Q20",
-    "description": "Q20 of the Inventory of Callous-Unemotional Traits - Self Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ICU_SR_20",
+    "category": "Item",
+    "description": {
+        "en": "Q20 of the Inventory of Callous-Unemotional Traits - Self Report"
+    },
     "question": {
         "en": "I do not like to put the time into doing things well."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ICU_SR Q20"
+    }
 }

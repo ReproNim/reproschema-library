@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SRIS-SF_7",
-    "prefLabel": "SRIS-SF 7",
-    "description": "Q7 of the SRIS-SF Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SRIS-SF_7",
+    "category": "Item",
+    "description": {
+        "en": "Q7 of the SRIS-SF Assessment"
+    },
     "question": {
-        "en": "I’m often confused about the way that I really feel about things"
-     },
+        "en": "I\u2019m often confused about the way that I really feel about things"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../SRIS-SFvalueConstraints"
+    "responseOptions": "../SRIS-SFvalueConstraints",
+    "prefLabel": {
+        "en": "SRIS-SF 7"
+    }
 }

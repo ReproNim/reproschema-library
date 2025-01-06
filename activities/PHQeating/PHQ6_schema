@@ -1,53 +1,39 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ6_schema",
-    "prefLabel": {
-        "en": "PHQ-6 Assessment",
-        "es": "PHQ-6 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ6_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-6 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ-6 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Questions about eating",
-        "es": "Preguntas sobre la alimentación.",
-        "nl": "Vragen over eetgewoonten.",
-        "fr": "Questions sur l’alimentation.",
-        "pt-BR": "Perguntas sobre hábitos alimentares.",
-        "ko": "식생활에대한질문."
-    },
-    "compute": [
-        {
-            "variableName": "phq6_total_score",
-            "jsExpression": "phq6a + phq6b + phq6c"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq6a",
-                "variableName": "phq6a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq6a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq6b",
-                "variableName": "phq6b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq6b"
             },
             {
-                "isAbout": "items/phq6c",
-                "variableName": "phq6c",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq6c",
+                "isVis": true,
+                "variableName": "phq6c"
             },
             {
                 "isAbout": "items/phq6_total_score",
-                "variableName": "phq6_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq6_total_score"
             }
         ],
         "order": [
@@ -56,5 +42,23 @@
             "items/phq6c"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq6a + phq6b + phq6c",
+            "variableName": "phq6_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Questions about eating",
+        "es": "Preguntas sobre la alimentaci\u00f3n.",
+        "fr": "Questions sur l\u2019alimentation.",
+        "ko": "\uc2dd\uc0dd\ud65c\uc5d0\ub300\ud55c\uc9c8\ubb38.",
+        "nl": "Vragen over eetgewoonten.",
+        "pt-br": "Perguntas sobre h\u00e1bitos alimentares."
+    },
+    "prefLabel": {
+        "en": "PHQ-6 Assessment",
+        "es": "PHQ-6 Evaluaci\u00f3n"
     }
 }

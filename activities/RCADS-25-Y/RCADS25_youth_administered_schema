@@ -1,179 +1,172 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "RCADS25_youth_administered_schema",
-    "prefLabel": "RCADS25_youth_administered_schema",
-    "description": "RCADS25 youth administered assessment schema",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "citation": "https://www.childfirst.ucla.edu/resources/",
-    "preamble": {
-        "en": "Please put a circle around the word that shows how often each of these things happens to you. There are no right or wrong answers.",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "RCADS25_youth_administered_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.childfirst.ucla.edu/resources/"
     },
-    "compute": [
-        {
-            "variableName": "RCADS25_total_score",
-            "jsExpression": "RCADS25_01 + RCADS25_02 + RCADS25_03 + RCADS25_04 + RCADS25_05 + RCADS25_06 + RCADS25_07 + RCADS25_08 + RCADS25_09 + RCADS25_10 + RCADS25_11 + RCADS25_12 + RCADS25_13 + RCADS25_14 + RCADS25_15 + RCADS25_16 + RCADS25_17 + RCADS25_18 + RCADS25_19 + RCADS25_20 + RCADS25_21 + RCADS25_22 + RCADS25_23 + RCADS25_24 + RCADS25_25"
-        }
-    ],
+    "description": {
+        "en": "RCADS25 youth administered assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
-                "variableName": "RCADS25_01",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_01",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_01"
             },
             {
-                "variableName": "RCADS25_02",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_02",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_02"
             },
             {
-                "variableName": "RCADS25_03",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_03",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_03"
             },
             {
-                "variableName": "RCADS25_04",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_04",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_04"
             },
             {
-                "variableName": "RCADS25_05",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_05",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_05"
             },
             {
-                "variableName": "RCADS25_06",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_06",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_06"
             },
             {
-                "variableName": "RCADS25_07",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_07",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_07"
             },
             {
-                "variableName": "RCADS25_08",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_08",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_08"
             },
             {
-                "variableName": "RCADS25_09",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_09",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_09"
             },
             {
-                "variableName": "RCADS25_10",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_10",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_10"
             },
             {
-                "variableName": "RCADS25_11",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_11",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_11"
             },
             {
-                "variableName": "RCADS25_12",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_12",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_12"
             },
             {
-                "variableName": "RCADS25_13",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_13",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_13"
             },
             {
-                "variableName": "RCADS25_14",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_14",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_14"
             },
             {
-                "variableName": "RCADS25_15",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_15",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_15"
             },
             {
-                "variableName": "RCADS25_16",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_16",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_16"
             },
             {
-                "variableName": "RCADS25_17",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_17",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_17"
             },
             {
-                "variableName": "RCADS25_18",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_18",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_18"
             },
             {
-                "variableName": "RCADS25_19",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_19",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_19"
             },
             {
-                "variableName": "RCADS25_20",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_20",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_20"
             },
             {
-                "variableName": "RCADS25_21",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_21",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_21"
             },
             {
-                "variableName": "RCADS25_22",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_22",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_22"
             },
             {
-                "variableName": "RCADS25_23",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_23",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_23"
             },
             {
-                "variableName": "RCADS25_24",
+                "valueRequired": true,
                 "isAbout": "items/RCADS25_24",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "RCADS25_24"
             },
             {
-                "variableName": "RCADS25_25",
-                "isAbout": "items/RCADS25_25",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/RCADS25_25",
+                "isVis": true,
+                "variableName": "RCADS25_25"
             },
             {
                 "isAbout": "items/RCADS25_total_score",
-                "variableName": "RCADS25_total_score",
-                "isVis": false
-            } 
+                "isVis": false,
+                "variableName": "RCADS25_total_score"
+            }
         ],
         "order": [
             "items/RCADS25_01",
@@ -203,5 +196,18 @@
             "items/RCADS25_25"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "RCADS25_01 + RCADS25_02 + RCADS25_03 + RCADS25_04 + RCADS25_05 + RCADS25_06 + RCADS25_07 + RCADS25_08 + RCADS25_09 + RCADS25_10 + RCADS25_11 + RCADS25_12 + RCADS25_13 + RCADS25_14 + RCADS25_15 + RCADS25_16 + RCADS25_17 + RCADS25_18 + RCADS25_19 + RCADS25_20 + RCADS25_21 + RCADS25_22 + RCADS25_23 + RCADS25_24 + RCADS25_25",
+            "variableName": "RCADS25_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Please put a circle around the word that shows how often each of these things happens to you. There are no right or wrong answers.",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "RCADS25_youth_administered_schema"
     }
 }

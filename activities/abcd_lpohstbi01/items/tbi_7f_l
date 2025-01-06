@@ -1,31 +1,35 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_7f_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_7f_l",
-        "es": "tbi_7f_l_es"
-    },
-    "altLabel": "brain_injury_7f_l tbi_7f_p_l",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_7f_l",
+    "category": "Item",
     "question": {
         "en": "At what age did these effects end?",
-        "es": "¿A qué edad terminaron estos efectos?"
+        "es": "\u00bfA qu\u00e9 edad terminaron estos efectos?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": ""
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 20,
         "minValue": 7,
-        "maxValue": 20
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": ""
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_7f_l tbi_7f_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_7f_l",
+        "es": "tbi_7f_l_es"
+    }
 }

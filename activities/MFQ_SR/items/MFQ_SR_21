@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "MFQ_SR_21",
-    "prefLabel": "MFQ_SR_21",
-    "description": "Q21 of the Mood and Feelings Questionnaire - Self Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "MFQ_SR_21",
+    "category": "Item",
+    "description": {
+        "en": "Q21 of the Mood and Feelings Questionnaire - Self Report"
+    },
     "question": {
         "en": "I found it hard to think properly or concentrate."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "MFQ_SR_21"
+    }
 }

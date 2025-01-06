@@ -1,47 +1,65 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "bpm_5_y",
-    "@type": "reproschema:Field",
-    "prefLabel": "bpm_5_y",
-    "altLabel": "bpm_5 bpmy_5",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bpm_5_y",
+    "category": "Item",
+    "question": {
+        "en": "I have trouble sitting still"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I have trouble sitting still",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = Not True; 1 = Somewhat True; 2 = Very True; 777 = Refuse to answer; 999 = Don't know"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 999,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Not True",
+                "name": {
+                    "en": "Not True"
+                },
                 "value": 0
             },
             {
-                "name": "Somewhat True",
+                "name": {
+                    "en": "Somewhat True"
+                },
                 "value": 1
             },
             {
-                "name": "Very True",
+                "name": {
+                    "en": "Very True"
+                },
                 "value": 2
             },
             {
-                "name": "Refuse to answer",
+                "name": {
+                    "en": "Refuse to answer"
+                },
                 "value": 777
             },
             {
-                "name": "Don't know",
+                "name": {
+                    "en": "Don't know"
+                },
                 "value": 999
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = Not True; 1 = Somewhat True; 2 = Very True; 777 = Refuse to answer; 999 = Don't know"
-        }
-    ]
+    "altLabel": {
+        "en": "bpm_5 bpmy_5"
+    },
+    "prefLabel": {
+        "en": "bpm_5_y"
+    }
 }

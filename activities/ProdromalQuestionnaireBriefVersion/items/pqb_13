@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_13",
-    "prefLabel": "PQ-B-13",
-    "description": "schema for Q13 of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_13",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q13 of the PQ-B Assessment"
+    },
     "question": {
         "en": "Have you ever felt that you don't exist, the world does not exist, or that you are dead?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pqb_valueConstraints"
+    "responseOptions": "../pqb_valueConstraints",
+    "prefLabel": {
+        "en": "PQ-B-13"
+    }
 }

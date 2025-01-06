@@ -1,31 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_6q_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_6q_l",
-        "es": "tbi_6q_l_es"
-    },
-    "altLabel": "brain_injury_6q_l tbi_6q_p_l",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_6q_l",
+    "category": "Item",
     "question": {
         "en": "How many minutes was the longest knock out?",
-        "es": "¿Cuántos minutos duró el tiempo más largo que estuvo inconsciente?"
+        "es": "\u00bfCu\u00e1ntos minutos dur\u00f3 el tiempo m\u00e1s largo que estuvo inconsciente?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": ""
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
-        "minValue": null,
-        "maxValue": null
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": ""
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_6q_l tbi_6q_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_6q_l",
+        "es": "tbi_6q_l_es"
+    }
 }

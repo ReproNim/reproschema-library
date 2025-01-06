@@ -1,22 +1,28 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "free_speech_happy",
-    "prefLabel": "Free speech happy",
-    "description": "free speech item for voice task",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "free_speech_happy",
+    "category": "Item",
+    "description": {
+        "en": "free speech item for voice task"
+    },
     "question": {
         "en": "Describe a happy event from your past with as much detail and depth as possible.",
         "es": "Cuente un recuerdo feliz de su vida con el mayor detalle y profundidad posible."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
-        "minValue": 0,
         "maxValue": 180000,
-        "multipleChoice": false
+        "minValue": 0,
+        "multipleChoice": false,
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Free speech happy"
     }
 }

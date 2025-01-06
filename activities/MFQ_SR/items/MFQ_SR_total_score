@@ -1,18 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "MFQ_SR_total_score",
-    "prefLabel": "MFQ_SR Total Score",
-    "description": "Total Score of the Mood and Feelings Questionnaire - Self Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "MFQ_SR_total_score",
+    "category": "Item",
+    "description": {
+        "en": "Total Score of the Mood and Feelings Questionnaire - Self Report"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "number"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 68,
         "minValue": 0,
-        "maxValue": 68
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "MFQ_SR Total Score"
     }
 }

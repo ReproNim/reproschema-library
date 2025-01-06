@@ -1,26 +1,32 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "interview_type",
-    "prefLabel": "interview_type",
-    "ui": {
-        "inputType": "select"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "interview_type",
+    "category": "Item",
     "question": {
         "en": "Interview Type:"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
     },
     "responseOptions": {
         "choices": [
             {
-                "value": 1,
-                "name": "Face-to-Face Interview "
+                "name": {
+                    "en": "Face-to-Face Interview "
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "Phone Interview"
+                "name": {
+                    "en": "Phone Interview"
+                },
+                "value": 2
             }
         ]
+    },
+    "prefLabel": {
+        "en": "interview_type"
     }
 }

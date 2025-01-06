@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS12_4",
-    "prefLabel": "WHODAS12_4",
-    "description": "Q4 of the WHODAS12",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS12_4",
+    "category": "Item",
+    "description": {
+        "en": "Q4 of the WHODAS12"
+    },
     "question": {
         "en": "How much of a problem did you have in joining in community activities (for example, festivities, religious or other activities) in the same way as anyone else can?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "WHODAS12_4"
+    }
 }

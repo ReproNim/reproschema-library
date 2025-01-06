@@ -1,59 +1,83 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "demo_gender_id_v2_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_gender_id_v2_l",
-    "altLabel": "demo_gender_id_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_gender_id_v2_l",
+    "category": "Item",
+    "question": {
+        "en": "What is the child's current gender identity? \u00bfCu\u00e1l es la identidad de g\u00e9nero actual de el/la nino(a)?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "What is the child's current gender identity? \u00bfCu\u00e1l es la identidad de g\u00e9nero actual de el/la nino(a)?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Male Hombre; 2 = Female Mujer; 3 = Trans male Transexual masculino / hombre transexual; 4 = Trans female Transexual femenino / mujer transexual; 5 = Gender queer Interg\u00e9nero (\"genderqueer\") / No conforme con el g\u00e9nero; 6 = Different Otra identididad; 777 = Refuse to answer Niego contestar; 999 = Don't know No lo s\u00e9"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 999,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Male Hombre",
+                "name": {
+                    "en": "Male Hombre"
+                },
                 "value": 1
             },
             {
-                "name": "Female Mujer",
+                "name": {
+                    "en": "Female Mujer"
+                },
                 "value": 2
             },
             {
-                "name": "Trans male Transexual masculino / hombre transexual",
+                "name": {
+                    "en": "Trans male Transexual masculino / hombre transexual"
+                },
                 "value": 3
             },
             {
-                "name": "Trans female Transexual femenino / mujer transexual",
+                "name": {
+                    "en": "Trans female Transexual femenino / mujer transexual"
+                },
                 "value": 4
             },
             {
-                "name": "Gender queer Interg\u00e9nero (\"genderqueer\") / No conforme con el g\u00e9nero",
+                "name": {
+                    "en": "Gender queer Interg\u00e9nero (\"genderqueer\") / No conforme con el g\u00e9nero"
+                },
                 "value": 5
             },
             {
-                "name": "Different Otra identididad",
+                "name": {
+                    "en": "Different Otra identididad"
+                },
                 "value": 6
             },
             {
-                "name": "Refuse to answer Niego contestar",
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
                 "value": 777
             },
             {
-                "name": "Don't know No lo s\u00e9",
+                "name": {
+                    "en": "Don't know No lo s\u00e9"
+                },
                 "value": 999
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Male Hombre; 2 = Female Mujer; 3 = Trans male Transexual masculino / hombre transexual; 4 = Trans female Transexual femenino / mujer transexual; 5 = Gender queer Interg\u00e9nero (\"genderqueer\") / No conforme con el g\u00e9nero; 6 = Different Otra identididad; 777 = Refuse to answer Niego contestar; 999 = Don't know No lo s\u00e9"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_gender_id_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_gender_id_v2_l"
+    }
 }

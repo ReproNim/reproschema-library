@@ -1,39 +1,55 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "valueConstraints",
-    "@type": "reproschema:ResponseOption",
-    "valueType": "xsd:integer",
-    "minValue": 0,
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "valueConstraints",
+    "category": "ResponseOption",
     "maxValue": 6,
-    "multipleChoice": false,
+    "minValue": 0,
     "choices": [
         {
-            "name": "0 = Not at all",
+            "name": {
+                "en": "0 = Not at all"
+            },
             "value": 0
         },
         {
-            "name": "1 = Very slightly",
+            "name": {
+                "en": "1 = Very slightly"
+            },
             "value": 1
         },
         {
-            "name": "2 = Somewhat",
+            "name": {
+                "en": "2 = Somewhat"
+            },
             "value": 2
         },
         {
-            "name": "3 = Moderately",
+            "name": {
+                "en": "3 = Moderately"
+            },
             "value": 3
         },
         {
-            "name": "4 = Much",
+            "name": {
+                "en": "4 = Much"
+            },
             "value": 4
         },
         {
-            "name": "5 = Very much",
+            "name": {
+                "en": "5 = Very much"
+            },
             "value": 5
         },
         {
-            "name": "6 = Extremely",
+            "name": {
+                "en": "6 = Extremely"
+            },
             "value": 6
         }
+    ],
+    "multipleChoice": false,
+    "valueType": [
+        "xsd:integer"
     ]
 }

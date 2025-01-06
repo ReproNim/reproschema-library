@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_19",
-    "prefLabel": "PQ-B-19",
-    "description": "schema for Q19 of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_19",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q19 of the PQ-B Assessment"
+    },
     "question": {
         "en": "Have you seen unusual things like flashes, flames, blinding light, or geometric figures?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pqb_valueConstraints"
+    "responseOptions": "../pqb_valueConstraints",
+    "prefLabel": {
+        "en": "PQ-B-19"
+    }
 }

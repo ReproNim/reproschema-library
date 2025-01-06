@@ -1,26 +1,38 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "gender",
-    "prefLabel": "Gender",
-    "description": "schema for Sex of the subject",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "gender",
+    "category": "Item",
+    "description": {
+        "en": "schema for Sex of the subject"
+    },
+    "question": {
+        "en": "Sex"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Sex",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:anyURI",
         "choices": [
             {
-                "name": "Female (self-reported)",
+                "name": {
+                    "en": "Female (self-reported)"
+                },
                 "value": "http://purl.obolibrary.org/obo/NCIT_C46108"
             },
             {
-                "name": "Male (self-reported)",
+                "name": {
+                    "en": "Male (self-reported)"
+                },
                 "value": "http://purl.obolibrary.org/obo/NCIT_C46107"
             }
+        ],
+        "valueType": [
+            "xsd:anyURI"
         ]
+    },
+    "prefLabel": {
+        "en": "Gender"
     }
 }

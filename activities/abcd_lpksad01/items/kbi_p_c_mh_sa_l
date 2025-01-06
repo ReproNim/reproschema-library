@@ -1,39 +1,53 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "kbi_p_c_mh_sa_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_mh_sa_l",
-    "altLabel": "kbi_c_mh_sa_p_l ksads_back_c_mh_sa_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_mh_sa_l",
+    "category": "Item",
+    "question": {
+        "en": "Since we last saw you, has your child received mental health or substance abuse services? Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) ha recibido servicios de salud mental o para el abuso de sustancias?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Since we last saw you, has your child received mental health or substance abuse services? Desde la \u00faltima vez que nos vimos, \u00bfsu ni\u00f1o(a) ha recibido servicios de salud mental o para el abuso de sustancias?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Yes S\u00ed; 2 = No No; 3 = Not sure No estoy seguro(a)"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 3,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 2
             },
             {
-                "name": "Not sure No estoy seguro(a)",
+                "name": {
+                    "en": "Not sure No estoy seguro(a)"
+                },
                 "value": 3
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 2 = No No; 3 = Not sure No estoy seguro(a)"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_mh_sa_p_l ksads_back_c_mh_sa_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_mh_sa_l"
+    }
 }

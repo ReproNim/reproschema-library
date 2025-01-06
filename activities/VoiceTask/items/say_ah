@@ -1,18 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "say_ah",
-    "prefLabel": "Say Ah",
-    "description": "say ah for 10 seconds",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "say_ah",
+    "category": "Item",
+    "description": {
+        "en": "say ah for 10 seconds"
+    },
     "question": {
         "en": "Using your normal voice, take a deep breath and say \"ah\" until you run completely out of air (click stop when you run out of air).",
         "es": "Usando su voz normal, respire hondo y diga \"ah\" hasta que usted se quede completamente sin aire (haga click en parar cuando se quede sin aire)."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "say_ah_valueConstraints"
+    "responseOptions": "say_ah_valueConstraints",
+    "prefLabel": {
+        "en": "Say Ah"
+    }
 }
-

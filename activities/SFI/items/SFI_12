@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SFI_12",
-    "prefLabel": "SFI 12",
-    "description": "Q12 of the Secure Flourish Index",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SFI_12",
+    "category": "Item",
+    "description": {
+        "en": "Q12 of the Secure Flourish Index"
+    },
     "question": {
         "en": "How often do you worry about safety, food, or housing?"
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints7"
+    "responseOptions": "../valueConstraints7",
+    "prefLabel": {
+        "en": "SFI 12"
+    }
 }

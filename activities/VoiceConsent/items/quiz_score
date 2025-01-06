@@ -1,19 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "quiz_score",
-    "prefLabel": "Score of Consent Quiz",
-    "altLabel": "quiz_score",
-    "description": "schema for consent quiz score",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "xsd:int",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "quiz_score",
+    "category": "Item",
+    "description": {
+        "en": "schema for consent quiz score"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "xsd:int"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 5,
         "minValue": 0,
-        "maxValue": 5
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "altLabel": {
+        "en": "quiz_score"
+    },
+    "prefLabel": {
+        "en": "Score of Consent Quiz"
     }
 }

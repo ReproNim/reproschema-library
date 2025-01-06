@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ASSQ_27",
-    "prefLabel": "ASSQ Q27",
-    "description": "Q27 of the Autism Spectrum Screening Questionnaire",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ASSQ_27",
+    "category": "Item",
+    "description": {
+        "en": "Q27 of the Autism Spectrum Screening Questionnaire"
+    },
     "question": {
         "en": "has markedly unusual posture"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ASSQ Q27"
+    }
 }

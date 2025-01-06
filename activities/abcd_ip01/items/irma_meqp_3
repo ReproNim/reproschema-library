@@ -1,67 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_meqp_3",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_meqp_3",
-        "es": "irma_meqp_3_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_meqp_3",
+    "category": "Item",
     "question": {
         "en": "3. Media coverage of Hurricane Irma during the storm",
-        "es": "3. Cobertura mediática del Huracán Irma durante la tormenta"
+        "es": "3. Cobertura medi\u00e1tica del Hurac\u00e1n Irma durante la tormenta"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = Not at all (did not view news related to hurricane)0  De ningun modo (no vio noticias relacionadas con el hurac\u00c3\u00a1n)0; 1 = A little (less than 1 hour per day)1  Un poco (menos de 1 hora por dia)1; 2 = Somewhat (about an hour per day)2  Alg\u00c3\u00ban tanto (alrededor de una hora por d\u00c3\u00ada)2; 3 = A lot (1 to 2 hours per day)3  Mucho (1 a 2 horas por dia)3; 4 = A whole lot (more than 2 hours per day)4 Muchisimo (mas de 2 horas por dia)4"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "Not at all (did not view news related to hurricane) ",
-                    "es": "De ningun modo (no vio noticias relacionadas con el huracán) "
-                }
+                    "es": "De ningun modo (no vio noticias relacionadas con el hurac\u00e1n) "
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "A little (less than 1 hour per day) ",
                     "es": "Un poco (menos de 1 hora por dia) "
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Somewhat (about an hour per day) ",
-                    "es": "Algún tanto (alrededor de una hora por día) "
-                }
+                    "es": "Alg\u00fan tanto (alrededor de una hora por d\u00eda) "
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "A lot (1 to 2 hours per day) ",
                     "es": "Mucho (1 a 2 horas por dia) "
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "A whole lot (more than 2 hours per day)",
                     "es": "Muchisimo (mas de 2 horas por dia)"
-                }
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = Not at all (did not view news related to hurricane)0  De ningun modo (no vio noticias relacionadas con el huracÃ¡n)0; 1 = A little (less than 1 hour per day)1  Un poco (menos de 1 hora por dia)1; 2 = Somewhat (about an hour per day)2  AlgÃºn tanto (alrededor de una hora por dÃ­a)2; 3 = A lot (1 to 2 hours per day)3  Mucho (1 a 2 horas por dia)3; 4 = A whole lot (more than 2 hours per day)4 Muchisimo (mas de 2 horas por dia)4"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_meqp_3",
+        "es": "irma_meqp_3_es"
+    }
 }

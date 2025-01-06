@@ -1,38 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "gad7_3",
-    "prefLabel": "GAD7-3",
-    "description": "Q3 of the GAD7 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "gad7_3",
+    "category": "Item",
+    "description": {
+        "en": "Q3 of the GAD7 Assessment"
+    },
     "question": {
+        "ar": "\u0627\u0644\u0642\u0644\u0642 \u0627\u0644\u0645\u0641\u0631\u0637 \u0639\u0644\u0649 \u0623\u0634\u064a\u0627\u0621 \u0645\u062e\u062a\u0644\u0641\u0629.",
+        "bg": "\u041f\u0440\u0435\u043a\u0430\u043b\u0435\u043d\u0430 \u0442\u0440\u0435\u0432\u043e\u0433\u0430 \u0437\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u043d\u0435\u0449\u0430",
+        "da": "Bekymret dig for meget om alt muligt",
         "en": "Worrying too much about different things",
         "es": "Preocuparse demasiado por diferentes cuestiones",
-        "ar": "القلق المفرط على أشياء مختلفة.",
-        "nl": "U te veel zorgen maken om verschillende dingen",
-        "fr": "Une inquiétude excessive à propos de différentes choses",
-        "it": "Preoccuparsi troppo per varie cose",
-        "pt-BR": "Preocupar-se muito com diversas coisas",
-        "fil": "Labis na pag-aalala tungkol sa iba’t ibang bagay",
         "fi": "Olen liioitellut huoliani eri asioissa",
-        "kn": "⁧ೕ⁫ ⁧ೕ⁫ ⁎ಷಯಗಳ ಬ⁕Ὴ ಅ⁀ ಾ‵ ‷ಂ⁀ಸುವ⁳ದು",
-        "ko": "여러 가지 것들에 대해 걱정을 너무 많이 한다",
-        "no": "Bekymret deg for mye om ulike ting",
-        "pl": "Za bardzo się Pan(i) martwił(a) różnymi rzeczami",
-        "pt-PT": "Preocupei-me demais com diferentes assuntos",
-        "ro": "Îngrijorarea excesivă pentru diverse lucruri",
-        "ru": "Вы слишком сильно волновались по различным поводам",
-        "zh-CN": "为各种各样的事情过度担心",
-        "bg": "Прекалена тревога за различни неща",
-        "da": "Bekymret dig for meget om alt muligt",
-        "sv": "Oroat dig för mycket för olika saker",
-        "lv": "Pārmērīgi satraucāties par dažādām lietām",
+        "fil": "Labis na pag-aalala tungkol sa iba\u2019t ibang bagay",
+        "fr": "Une inqui\u00e9tude excessive \u00e0 propos de diff\u00e9rentes choses",
+        "it": "Preoccuparsi troppo per varie cose",
+        "kn": "\u2067\u0cd5\u206b \u2067\u0cd5\u206b \u204e\u0cb7\u0caf\u0c97\u0cb3 \u0cac\u2055\u1fca \u0c85\u2040\u2005\u0cbe\u2035 \u2037\u0c82\u2040\u0cb8\u0cc1\u0cb5\u2073\u0ca6\u0cc1",
+        "ko": "\uc5ec\ub7ec \uac00\uc9c0 \uac83\ub4e4\uc5d0 \ub300\ud574 \uac71\uc815\uc744 \ub108\ubb34 \ub9ce\uc774 \ud55c\ub2e4",
+        "lv": "P\u0101rm\u0113r\u012bgi satrauc\u0101ties par da\u017e\u0101d\u0101m liet\u0101m",
         "ms": "Terlalu banyak berasa bimbang mengenai berbagai perkara",
-        "uk": "Ви занадто хвилювались через різні речі"
+        "nl": "U te veel zorgen maken om verschillende dingen",
+        "no": "Bekymret deg for mye om ulike ting",
+        "pl": "Za bardzo si\u0119 Pan(i) martwi\u0142(a) r\u00f3\u017cnymi rzeczami",
+        "pt-br": "Preocupar-se muito com diversas coisas",
+        "pt-pt": "Preocupei-me demais com diferentes assuntos",
+        "ro": "\u00cengrijorarea excesiv\u0103 pentru diverse lucruri",
+        "ru": "\u0412\u044b \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0441\u0438\u043b\u044c\u043d\u043e \u0432\u043e\u043b\u043d\u043e\u0432\u0430\u043b\u0438\u0441\u044c \u043f\u043e \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u043c \u043f\u043e\u0432\u043e\u0434\u0430\u043c",
+        "sv": "Oroat dig f\u00f6r mycket f\u00f6r olika saker",
+        "uk": "\u0412\u0438 \u0437\u0430\u043d\u0430\u0434\u0442\u043e \u0445\u0432\u0438\u043b\u044e\u0432\u0430\u043b\u0438\u0441\u044c \u0447\u0435\u0440\u0435\u0437 \u0440\u0456\u0437\u043d\u0456 \u0440\u0435\u0447\u0456",
+        "zh-cn": "\u4e3a\u5404\u79cd\u5404\u6837\u7684\u4e8b\u60c5\u8fc7\u5ea6\u62c5\u5fc3"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "GAD7-3"
+    }
 }

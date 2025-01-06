@@ -1,18 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "respiratory_conditions_specify",
-    "prefLabel": "Respiratory conditions specify",
-    "description": "schema for specifying respiratory conditions of participant",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "respiratory_conditions_specify",
+    "category": "Item",
+    "description": {
+        "en": "schema for specifying respiratory conditions of participant"
+    },
     "question": {
         "en": "If yes, please specify:"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "Respiratory conditions specify"
     }
 }

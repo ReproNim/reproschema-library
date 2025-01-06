@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "bpmt_dte_sent3",
-    "@type": "reproschema:Field",
-    "prefLabel": "bpmt_dte_sent3",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bpmt_dte_sent3",
+    "category": "Item",
+    "question": {
+        "en": "Date sent 3"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Date sent 3",
     "ui": {
         "inputType": "date"
     },
     "responseOptions": {
-        "valueType": "xsd:date"
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "prefLabel": {
+        "en": "bpmt_dte_sent3"
     }
 }

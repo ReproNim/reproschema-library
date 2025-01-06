@@ -1,19 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "swed_7",
-    "prefLabel": "SWED-7",
-    "description": "schema for Q7 of the SWED Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "swed_7",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q7 of the SWED Assessment"
+    },
     "question": {
         "en": "In the past 3 months, how many times have you done any of the following as a means to control your weight and shape: Made yourself throw-up?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "SWED-7"
     }
 }

@@ -1,22 +1,26 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "global_7r",
-    "prefLabel": "PROMIS-GH-7r",
-    "description": "Q7r of the PROMIS Global Health survey",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "global_7r",
+    "category": "Item",
+    "description": {
+        "en": "Q7r of the PROMIS Global Health survey"
+    },
+    "question": {
+        "en": "In the past 7 days, how would you rate your pain on average?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "In the past 7 days, how would you rate your pain on average?",
     "ui": {
         "inputType": "slider"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 10,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No pain",
+                "name": {
+                    "en": "No pain"
+                },
                 "value": 0
             },
             {
@@ -47,9 +51,17 @@
                 "value": 9
             },
             {
-                "name": "Worst pain imaginable",
+                "name": {
+                    "en": "Worst pain imaginable"
+                },
                 "value": 10
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "PROMIS-GH-7r"
     }
 }

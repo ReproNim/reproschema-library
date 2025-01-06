@@ -1,31 +1,35 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_6s_l",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "tbi_6s_l",
-        "es": "tbi_6s_l_es"
-    },
-    "altLabel": "brain_injury_6s_l tbi_6s_p_l",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_6s_l",
+    "category": "Item",
     "question": {
         "en": "What was their youngest age?",
-        "es": "¿A qué edad fue la primera vez que estuvo inconsciente?"
+        "es": "\u00bfA qu\u00e9 edad fue la primera vez que estuvo inconsciente?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": ""
+        }
+    ],
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float",
+        "maxValue": 20,
         "minValue": 0,
-        "maxValue": 20
+        "valueType": [
+            "xsd:float"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": ""
-        }
-    ]
+    "altLabel": {
+        "en": "brain_injury_6s_l tbi_6s_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_6s_l",
+        "es": "tbi_6s_l_es"
+    }
 }

@@ -1,34 +1,50 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "q5",
-    "prefLabel": "Quiz Q1",
-    "altLabel": "quiz_q1",
-    "description": "Quiz Question 1",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "q5",
+    "category": "Item",
+    "description": {
+        "en": "Quiz Question 1"
+    },
+    "question": {
+        "en": "With the study I will be able to:"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "With the study I will be able to:",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "minValue": 0,
         "maxValue": 1,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Track my symptoms and triggers",
+                "name": {
+                    "en": "Track my symptoms and triggers"
+                },
                 "value": 1
             },
             {
-                "name": "Schedule an appointment with my regular doctor",
+                "name": {
+                    "en": "Schedule an appointment with my regular doctor"
+                },
                 "value": 0
             },
             {
-                "name": "Join a support group for people living with Parkinson's disease",
+                "name": {
+                    "en": "Join a support group for people living with Parkinson's disease"
+                },
                 "value": 0
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "altLabel": {
+        "en": "quiz_q1"
+    },
+    "prefLabel": {
+        "en": "Quiz Q1"
     }
 }

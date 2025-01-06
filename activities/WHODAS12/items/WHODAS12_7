@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS12_7",
-    "prefLabel": "WHODAS12_7",
-    "description": "Q7 of the WHODAS12",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS12_7",
+    "category": "Item",
+    "description": {
+        "en": "Q7 of the WHODAS12"
+    },
     "question": {
         "en": "Walking a long distance such as a kilometre or mile?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "WHODAS12_7"
+    }
 }

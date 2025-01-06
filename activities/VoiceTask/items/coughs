@@ -1,27 +1,31 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "coughs",
-    "prefLabel": "Coughs",
-    "description": "Characterization of coughs",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "coughs",
+    "category": "Item",
+    "description": {
+        "en": "Characterization of coughs"
+    },
+    "question": {
+        "en": "Inhale, cough 3 times. Repeat two more times.",
+        "es": "Debe inhalar y luego toser 3 veces. Repite esto dos veces m\u00e1s."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble":
-        {
-        "en": "Hit Record and do the following",
-        "es": "Haga clic en Grabar y haz lo siguiente."
-        },
-    "question":
-        {"en": "Inhale, cough 3 times. Repeat two more times.",
-        "es": "Debe inhalar y luego toser 3 veces. Repite esto dos veces más."
-        },
     "ui": {
         "inputType": "audioPassageRecord"
     },
+    "preamble": {
+        "en": "Hit Record and do the following",
+        "es": "Haga clic en Grabar y haz lo siguiente."
+    },
     "responseOptions": {
-        "valueType": "schema:AudioObject",
+        "maxValue": 15000,
         "minValue": 0,
-        "maxValue": 15000
+        "valueType": [
+            "schema:AudioObject"
+        ]
+    },
+    "prefLabel": {
+        "en": "Coughs"
     }
 }
-

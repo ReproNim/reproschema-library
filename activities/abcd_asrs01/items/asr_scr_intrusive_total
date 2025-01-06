@@ -1,17 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "asr_scr_intrusive_total",
-    "@type": "reproschema:Field",
-    "prefLabel": "asr_scr_intrusive_total",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "asr_scr_intrusive_total",
+    "category": "Item",
+    "question": {
+        "en": "Intrusive ASR Syndrome Scale (number of dependent raw scores)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Intrusive ASR Syndrome Scale (number of dependent raw scores)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "maxValue": 6,
         "minValue": 0,
-        "maxValue": 6
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "asr_scr_intrusive_total"
     }
 }

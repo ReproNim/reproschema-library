@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "pqb_1",
-    "prefLabel": "PQ-B-1",
-    "description": "Q1 of the PQ-B Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "pqb_1",
+    "category": "Item",
+    "description": {
+        "en": "Q1 of the PQ-B Assessment"
+    },
     "question": {
         "en": "Do familiar surroundings sometimes seem strange, confusing, threatening or unreal to you? ",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../pqb_valueConstraints"
+    "responseOptions": "../pqb_valueConstraints",
+    "prefLabel": {
+        "en": "PQ-B-1"
+    }
 }

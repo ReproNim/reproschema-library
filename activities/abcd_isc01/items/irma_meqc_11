@@ -1,67 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_meqc_11",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_meqc_11",
-        "es": "irma_meqc_11_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_meqc_11",
+    "category": "Item",
     "question": {
         "en": "11. Social media activity related to Hurricane Harvey",
-        "es": "11. Actividad de medios sociales relacionada con el huracán Harvey"
+        "es": "11. Actividad de medios sociales relacionada con el hurac\u00e1n Harvey"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = Once per day or less0  Una ves por d\u00eda on menos0; 1 = Several times per day1  Varias veses por d\u00eda1; 2 = Almost every hour2  Casi cada hora2; 3 = Several times per hour3  Varias veses por hora3; 4 = Almost continuously4 Casi continuamente4"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
-                    "en": "Once per day or less0  Una ves por día on menos0",
-                    "es": "Una ves por día on menos "
-                }
+                    "en": "Once per day or less0  Una ves por d\u00eda on menos0",
+                    "es": "Una ves por d\u00eda on menos "
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
-                    "en": "Several times per day1  Varias veses por día1",
-                    "es": "Varias veses por día "
-                }
+                    "en": "Several times per day1  Varias veses por d\u00eda1",
+                    "es": "Varias veses por d\u00eda "
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Almost every hour2  Casi cada hora2",
                     "es": "Casi cada hora "
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Several times per hour3  Varias veses por hora3",
                     "es": "Varias veses por hora "
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Almost continuously4 Casi continuamente4",
                     "es": "Casi continuamente"
-                }
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = Once per day or less0  Una ves por día on menos0; 1 = Several times per day1  Varias veses por día1; 2 = Almost every hour2  Casi cada hora2; 3 = Several times per hour3  Varias veses por hora3; 4 = Almost continuously4 Casi continuamente4"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_meqc_11",
+        "es": "irma_meqc_11_es"
+    }
 }

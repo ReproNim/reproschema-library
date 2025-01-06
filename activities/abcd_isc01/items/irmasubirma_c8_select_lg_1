@@ -1,47 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irmasubirma_c8_select_lg_1",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irmasubirma_c8_select_lg_1",
-        "es": "irmasubirma_c8_select_lg_1_es"
-    },
-    "altLabel": "irma_substudy_irma_c8_select_language___1",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irmasubirma_c8_select_lg_1",
+    "category": "Item",
     "question": {
         "en": "",
-        "es": "¿Español? (1, Sí)"
+        "es": "\u00bfEspa\u00f1ol? (1, S\u00ed)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "irma_substudy_irma_c8_select_language___1"
+    },
+    "prefLabel": {
+        "en": "irmasubirma_c8_select_lg_1",
+        "es": "irmasubirma_c8_select_lg_1_es"
+    }
 }

@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "RCADS25_05",
-    "prefLabel": "RCADS-25 Youth Assessment Q5",
-    "description": "Question 5 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Youth-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "RCADS25_05",
+    "category": "Item",
+    "description": {
+        "en": "Question 5 Revised Children's Anxiety and Depression Scale 25 Question (RCADS 25) Youth-Administered Version"
+    },
+    "question": {
+        "en": "I worry that something awful will happen to someone in my family"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I worry that something awful will happen to someone in my family",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "RCADS-25 Youth Assessment Q5"
+    }
 }

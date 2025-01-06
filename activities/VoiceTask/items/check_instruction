@@ -1,19 +1,29 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "check_instruction",
-    "prefLabel": "Audio Check instructions",
-    "altLabel": "audi_check_ins",
-    "description": "schema for Audio Check instructions",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "check_instruction",
+    "category": "Item",
+    "description": {
+        "en": "schema for Audio Check instructions"
+    },
+    "question": {
+        "en": "Please record your voice to test your microphone. Click on the start button and then say something."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Please record your voice to test your microphone. Click on the start button and then say something.",
     "ui": {
         "inputType": "buttonStart"
     },
     "responseOptions": {
-        "valueType": "xsd:boolean",
+        "maxValue": 1,
         "minValue": 0,
-        "maxValue": 1
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "altLabel": {
+        "en": "audi_check_ins"
+    },
+    "prefLabel": {
+        "en": "Audio Check instructions"
     }
 }

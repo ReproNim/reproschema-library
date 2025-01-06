@@ -1,14 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm5crossad_16",
-    "prefLabel": "DSM5 Crosscutting Adult Question 16",
-    "description": "Q16 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm5crossad_16",
+    "category": "Item",
+    "description": {
+        "en": "Q16 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report"
+    },
     "question": {
         "en": "Unpleasant thoughts, urges, or images that repeatedly enter your mind?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "DSM5 Crosscutting Adult Question 16"
+    },
+    "schemaVersion": "1.0.0"
 }

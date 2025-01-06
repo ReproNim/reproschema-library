@@ -1,18 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "dsm_5_x_16",
-    "prefLabel": "dsm_5_x_16",
-    "responseOptions": "../valueConstraintsFirst19",
-    "ui": {
-        "inputType": "radio"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_x_16",
+    "category": "Item",
     "question": {
         "en": "Had thoughts that kept coming into your mind that you would do something bad or that something bad would happen to you or to someone else?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
     "preamble": {
-        "en": "During the past TWO (2) WEEKS, how much (or how often) have you…"
+        "en": "During the past TWO (2) WEEKS, how much (or how often) have you\u2026"
+    },
+    "responseOptions": "../valueConstraintsFirst19",
+    "prefLabel": {
+        "en": "dsm_5_x_16"
     }
 }

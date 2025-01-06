@@ -1,63 +1,93 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "education",
-    "prefLabel": "Education",
-    "description": "schema for native education of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "education",
+    "category": "Item",
+    "description": {
+        "en": "schema for native education of participant"
+    },
+    "question": {
+        "en": "Education"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Education",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": false,
         "choices": [
             {
-                "value": 1,
-                "name": "No schooling completed"
+                "name": {
+                    "en": "No schooling completed"
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "Nursery school to 8th grade"
+                "name": {
+                    "en": "Nursery school to 8th grade"
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "High school (diploma)"
+                "name": {
+                    "en": "High school (diploma)"
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "High school (no diploma)"
+                "name": {
+                    "en": "High school (no diploma)"
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "College credits (no degree)"
+                "name": {
+                    "en": "College credits (no degree)"
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "Trade, Technical, Vocational training"
+                "name": {
+                    "en": "Trade, Technical, Vocational training"
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "Associate degree"
+                "name": {
+                    "en": "Associate degree"
+                },
+                "value": 7
             },
             {
-                "value": 8,
-                "name": "Bachelor's degree"
+                "name": {
+                    "en": "Bachelor's degree"
+                },
+                "value": 8
             },
             {
-                "value": 9,
-                "name": "Master's degree"
+                "name": {
+                    "en": "Master's degree"
+                },
+                "value": 9
             },
             {
-                "value": 10,
-                "name": "Doctorate degree"
+                "name": {
+                    "en": "Doctorate degree"
+                },
+                "value": 10
             },
             {
-                "value": 0,
-                "name": "Prefer not to answer"
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 0
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Education"
     }
 }

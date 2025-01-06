@@ -1,60 +1,62 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hurtep_b6",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_b6",
-        "es": "irma_hurtep_b6_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_b6",
+    "category": "Item",
     "question": {
         "en": "How many hours in total did your child spend traveling to get back home after the hurricane?",
-        "es": "¿Cuántas horas en total paso tu hijo(a) viajando para regresar a su casa después del huracán?"
+        "es": "\u00bfCu\u00e1ntas horas en total paso tu hijo(a) viajando para regresar a su casa despu\u00e9s del hurac\u00e1n?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "1 = Under 2 hours  Menos de 2 horas; 2 = 2-5 hours  2-5 horas; 3 = 5-10 hours  5-10 horas; 4 = More than 10 hours total M\u00c3\u00a1s de 10 horas en total"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 4,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Under 2 hours ",
                     "es": "Menos de 2 horas"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "2-5 hours ",
                     "es": "2-5 horas"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "5-10 hours ",
                     "es": "5-10 horas"
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "More than 10 hours total",
-                    "es": "Más de 10 horas en total"
-                }
+                    "es": "M\u00e1s de 10 horas en total"
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Under 2 hours  Menos de 2 horas; 2 = 2-5 hours  2-5 horas; 3 = 5-10 hours  5-10 horas; 4 = More than 10 hours total MÃ¡s de 10 horas en total"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_b6",
+        "es": "irma_hurtep_b6_es"
+    }
 }

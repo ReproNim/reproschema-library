@@ -1,36 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CITOptimism_schema",
-    "prefLabel": {
-        "en": "CIT Optimism"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CITOptimism_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "CIT Optimism schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "CIT Optimism schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Optimism"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_optimism1",
-                "variableName": "cit_optimism1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_optimism1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/cit_optimism2",
-                "variableName": "cit_optimism2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "cit_optimism2"
             },
             {
-                "isAbout": "items/cit_optimism3",
-                "variableName": "cit_optimism3",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/cit_optimism3",
+                "isVis": true,
+                "variableName": "cit_optimism3"
             }
         ],
         "order": [
@@ -39,5 +37,11 @@
             "items/cit_optimism3"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Optimism"
+    },
+    "prefLabel": {
+        "en": "CIT Optimism"
     }
 }

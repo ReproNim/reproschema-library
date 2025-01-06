@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "PEIS_12",
-    "prefLabel": "PEIS_12",
-    "description": "Q12 of the PEIS Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PEIS_12",
+    "category": "Item",
+    "description": {
+        "en": "Q12 of the PEIS Assessment"
+    },
     "question": {
         "en": "Feeling more frustrated about not being able to do what you usually enjoy doing",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PEIS_12"
+    }
 }

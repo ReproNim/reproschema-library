@@ -1,33 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "sutva_question",
-    "prefLabel": "Sutva question",
-    "description": "Sutva question",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sutva_question",
+    "category": "Item",
+    "description": {
+        "en": "Sutva question"
+    },
+    "question": {
+        "en": "Do you know people in the study?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Do you know people in the study?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 2,
-        "multipleChoice": false,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No/Probably not",
+                "name": {
+                    "en": "No/Probably not"
+                },
                 "value": 0
             },
             {
-                "name": "I think so",
+                "name": {
+                    "en": "I think so"
+                },
                 "value": 1
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 2
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "Sutva question"
     }
 }

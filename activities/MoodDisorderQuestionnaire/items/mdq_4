@@ -1,21 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "mdq_4",
-    "prefLabel": "MDQ-4",
-    "description": "Q4 of the MDQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "Has there ever been a period of time when you were not your usual self and…",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "mdq_4",
+    "category": "Item",
+    "description": {
+        "en": "Q4 of the MDQ Assessment"
     },
     "question": {
-        "en": "you got much less sleep than usual and found you didn’t really miss it?",
+        "en": "you got much less sleep than usual and found you didn\u2019t really miss it?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../mdq_valueConstraints"
+    "preamble": {
+        "en": "Has there ever been a period of time when you were not your usual self and\u2026",
+        "es": ""
+    },
+    "responseOptions": "../mdq_valueConstraints",
+    "prefLabel": {
+        "en": "MDQ-4"
+    }
 }

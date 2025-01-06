@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "briefphq_1d",
-    "prefLabel": "Brief PHQ-1d",
-    "description": "Q1d of the derived Brief PHQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_1d",
+    "category": "Item",
+    "description": {
+        "en": "Q1d of the derived Brief PHQ Assessment"
+    },
+    "question": {
+        "en": "Feeling tired or having little energy?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Feeling tired or having little energy?",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Brief PHQ-1d"
+    }
 }

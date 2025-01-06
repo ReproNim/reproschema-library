@@ -1,43 +1,59 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "kbi_p_c_reg_friend_group_len_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_reg_friend_group_len_l",
-    "altLabel": "kbi_c_reg_friend_group_p_len_p_l ksads_back_c_reg_friend_group_len_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_reg_friend_group_len_l",
+    "category": "Item",
+    "question": {
+        "en": "How long has your child hung out with them? \u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) comparte con ellos?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "How long has your child hung out with them? \u00bfHace cu\u00e1nto tiempo que su ni\u00f1o(a) comparte con ellos?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Less than a year Menos de un a\u00f1o; 2 = 1-2 years De 1 a 2 a\u00f1os; 3 = More than 3 years M\u00e1s de 3 a\u00f1os; 4 = Not sure No estoy seguro(a)"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 4,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Less than a year Menos de un a\u00f1o",
+                "name": {
+                    "en": "Less than a year Menos de un a\u00f1o"
+                },
                 "value": 1
             },
             {
-                "name": "1-2 years De 1 a 2 a\u00f1os",
+                "name": {
+                    "en": "1-2 years De 1 a 2 a\u00f1os"
+                },
                 "value": 2
             },
             {
-                "name": "More than 3 years M\u00e1s de 3 a\u00f1os",
+                "name": {
+                    "en": "More than 3 years M\u00e1s de 3 a\u00f1os"
+                },
                 "value": 3
             },
             {
-                "name": "Not sure No estoy seguro(a)",
+                "name": {
+                    "en": "Not sure No estoy seguro(a)"
+                },
                 "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Less than a year Menos de un a\u00f1o; 2 = 1-2 years De 1 a 2 a\u00f1os; 3 = More than 3 years M\u00e1s de 3 a\u00f1os; 4 = Not sure No estoy seguro(a)"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_reg_friend_group_p_len_p_l ksads_back_c_reg_friend_group_len_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_reg_friend_group_len_l"
+    }
 }

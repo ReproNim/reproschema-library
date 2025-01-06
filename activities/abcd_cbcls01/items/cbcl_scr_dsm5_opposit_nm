@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "cbcl_scr_dsm5_opposit_nm",
-    "@type": "reproschema:Field",
-    "prefLabel": "cbcl_scr_dsm5_opposit_nm",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "cbcl_scr_dsm5_opposit_nm",
+    "category": "Item",
+    "question": {
+        "en": "Opposit CBCL DSM5 Scale (number of missing values)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Opposit CBCL DSM5 Scale (number of missing values)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "cbcl_scr_dsm5_opposit_nm"
     }
 }

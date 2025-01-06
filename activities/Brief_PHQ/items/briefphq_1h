@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "briefphq_1h",
-    "prefLabel": "PHQ9a-8",
-    "description": "schema for Q1g of the derived Brief PHQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "briefphq_1h",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q1g of the derived Brief PHQ Assessment"
+    },
+    "question": {
+        "en": "Moving or speaking so slowly that other people could have noticed? Or the opposite \u2014 being so fidgety or restless that you have been moving around a lot more than usual?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Moving or speaking so slowly that other people could have noticed? Or the opposite \u2014 being so fidgety or restless that you have been moving around a lot more than usual?",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PHQ9a-8"
+    }
 }

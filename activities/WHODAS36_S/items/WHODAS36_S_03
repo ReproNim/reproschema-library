@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS36_S_03",
-    "prefLabel": "WHODAS 2.0 Self Q3",
-    "description": "Question 3 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS36_S_03",
+    "category": "Item",
+    "description": {
+        "en": "Question 3 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version"
+    },
+    "question": {
+        "en": "Analyzing and finding solutions to problems in day-to-day life?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": "Analyzing and finding solutions to problems in day-to-day life?",
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "WHODAS 2.0 Self Q3"
+    }
 }

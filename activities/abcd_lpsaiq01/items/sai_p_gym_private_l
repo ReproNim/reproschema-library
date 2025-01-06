@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "sai_p_gym_private_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "sai_p_gym_private_l",
-    "altLabel": "sai_gym_private_p_l sports_activity_gym_private_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "sai_p_gym_private_l",
+    "category": "Item",
+    "question": {
+        "en": "Gymnastics Gimnasia Did your child receive individual private instruction? \u00bfSu ni\u00f1o(a) recibiA instrucciAn privada individual?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Gymnastics Gimnasia Did your child receive individual private instruction? \u00bfSu ni\u00f1o(a) recibiA instrucciAn privada individual?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Yes S\u00ed; 0 = No No"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Yes S\u00ed; 0 = No No"
-        }
-    ]
+    "altLabel": {
+        "en": "sai_gym_private_p_l sports_activity_gym_private_p_l"
+    },
+    "prefLabel": {
+        "en": "sai_p_gym_private_l"
+    }
 }

@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "fes_youth_q8",
-    "@type": "reproschema:Field",
-    "prefLabel": "fes_youth_q8",
-    "altLabel": "fes_q8",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "fes_youth_q8",
+    "category": "Item",
+    "question": {
+        "en": "Family members often try to one-up or outdo each other."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Family members often try to one-up or outdo each other.",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = True; 0 = False"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 0,
+        "minValue": 1,
         "choices": [
             {
-                "name": "True",
+                "name": {
+                    "en": "True"
+                },
                 "value": 1
             },
             {
-                "name": "False",
+                "name": {
+                    "en": "False"
+                },
                 "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = True; 0 = False"
-        }
-    ]
+    "altLabel": {
+        "en": "fes_q8"
+    },
+    "prefLabel": {
+        "en": "fes_youth_q8"
+    }
 }

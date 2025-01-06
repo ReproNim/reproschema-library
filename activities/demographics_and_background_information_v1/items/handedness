@@ -1,33 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "handedness",
-    "prefLabel": "Handedness",
-    "description": "schema for simple handedness of the subject",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "handedness",
+    "category": "Item",
+    "description": {
+        "en": "schema for simple handedness of the subject"
+    },
+    "question": {
+        "en": "Handedness"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Handedness",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "multipleChoice": false,
-        "minValue": 0,
         "maxValue": 2,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Left",
+                "name": {
+                    "en": "Left"
+                },
                 "value": 0
             },
             {
-                "name": "Right",
+                "name": {
+                    "en": "Right"
+                },
                 "value": 1
             },
             {
-                "name": "Ambidextrous",
+                "name": {
+                    "en": "Ambidextrous"
+                },
                 "value": 2
             }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Handedness"
     }
 }

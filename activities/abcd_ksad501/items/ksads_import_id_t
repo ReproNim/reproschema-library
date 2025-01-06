@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "ksads_import_id_t",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_import_id_t",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_import_id_t",
+    "category": "Item",
+    "question": {
+        "en": "Unique ID provided by KSADS for dataset"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Unique ID provided by KSADS for dataset",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_import_id_t"
     }
 }

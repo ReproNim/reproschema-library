@@ -1,12 +1,786 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "hbn_asr_schema",
-    "prefLabel": "HBN Adult Self Report (ASR)",
-    "altLabel": "hbn_asr",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "hbn_asr_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_01",
+                "isVis": true,
+                "variableName": "ASR_01"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_02",
+                "isVis": true,
+                "variableName": "ASR_02"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_03",
+                "isVis": true,
+                "variableName": "ASR_03"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_04",
+                "isVis": true,
+                "variableName": "ASR_04"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_05",
+                "isVis": true,
+                "variableName": "ASR_05"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_06",
+                "isVis": true,
+                "variableName": "ASR_06"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_07",
+                "isVis": true,
+                "variableName": "ASR_07"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_08",
+                "isVis": true,
+                "variableName": "ASR_08"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_09",
+                "isVis": true,
+                "variableName": "ASR_09"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_10",
+                "isVis": true,
+                "variableName": "ASR_10"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_11",
+                "isVis": true,
+                "variableName": "ASR_11"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_12",
+                "isVis": true,
+                "variableName": "ASR_12"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_13",
+                "isVis": true,
+                "variableName": "ASR_13"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_14",
+                "isVis": true,
+                "variableName": "ASR_14"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_15",
+                "isVis": true,
+                "variableName": "ASR_15"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_16",
+                "isVis": true,
+                "variableName": "ASR_16"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_17",
+                "isVis": true,
+                "variableName": "ASR_17"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_18",
+                "isVis": true,
+                "variableName": "ASR_18"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_19",
+                "isVis": true,
+                "variableName": "ASR_19"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_20",
+                "isVis": true,
+                "variableName": "ASR_20"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_21",
+                "isVis": true,
+                "variableName": "ASR_21"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_22",
+                "isVis": true,
+                "variableName": "ASR_22"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_23",
+                "isVis": true,
+                "variableName": "ASR_23"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_24",
+                "isVis": true,
+                "variableName": "ASR_24"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_25",
+                "isVis": true,
+                "variableName": "ASR_25"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_26",
+                "isVis": true,
+                "variableName": "ASR_26"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_27",
+                "isVis": true,
+                "variableName": "ASR_27"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_28",
+                "isVis": true,
+                "variableName": "ASR_28"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_29",
+                "isVis": true,
+                "variableName": "ASR_29"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_30",
+                "isVis": true,
+                "variableName": "ASR_30"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_31",
+                "isVis": true,
+                "variableName": "ASR_31"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_32",
+                "isVis": true,
+                "variableName": "ASR_32"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_33",
+                "isVis": true,
+                "variableName": "ASR_33"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_34",
+                "isVis": true,
+                "variableName": "ASR_34"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_35",
+                "isVis": true,
+                "variableName": "ASR_35"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_36",
+                "isVis": true,
+                "variableName": "ASR_36"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_37",
+                "isVis": true,
+                "variableName": "ASR_37"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_38",
+                "isVis": true,
+                "variableName": "ASR_38"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_39",
+                "isVis": true,
+                "variableName": "ASR_39"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_40",
+                "isVis": true,
+                "variableName": "ASR_40"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_41",
+                "isVis": true,
+                "variableName": "ASR_41"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_42",
+                "isVis": true,
+                "variableName": "ASR_42"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_43",
+                "isVis": true,
+                "variableName": "ASR_43"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_44",
+                "isVis": true,
+                "variableName": "ASR_44"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_45",
+                "isVis": true,
+                "variableName": "ASR_45"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_46",
+                "isVis": true,
+                "variableName": "ASR_46"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_47",
+                "isVis": true,
+                "variableName": "ASR_47"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_48",
+                "isVis": true,
+                "variableName": "ASR_48"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_49",
+                "isVis": true,
+                "variableName": "ASR_49"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_50",
+                "isVis": true,
+                "variableName": "ASR_50"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_51",
+                "isVis": true,
+                "variableName": "ASR_51"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_52",
+                "isVis": true,
+                "variableName": "ASR_52"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_53",
+                "isVis": true,
+                "variableName": "ASR_53"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_54",
+                "isVis": true,
+                "variableName": "ASR_54"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_55",
+                "isVis": true,
+                "variableName": "ASR_55"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_56a",
+                "isVis": true,
+                "variableName": "ASR_56a"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_56b",
+                "isVis": true,
+                "variableName": "ASR_56b"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_56c",
+                "isVis": true,
+                "variableName": "ASR_56c"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_56d",
+                "isVis": true,
+                "variableName": "ASR_56d"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_57",
+                "isVis": true,
+                "variableName": "ASR_57"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_58",
+                "isVis": true,
+                "variableName": "ASR_58"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_59",
+                "isVis": true,
+                "variableName": "ASR_59"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_60",
+                "isVis": true,
+                "variableName": "ASR_60"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_61",
+                "isVis": true,
+                "variableName": "ASR_61"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_62",
+                "isVis": true,
+                "variableName": "ASR_62"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_63",
+                "isVis": true,
+                "variableName": "ASR_63"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_64",
+                "isVis": true,
+                "variableName": "ASR_64"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_65",
+                "isVis": true,
+                "variableName": "ASR_65"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_66",
+                "isVis": true,
+                "variableName": "ASR_66"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_67",
+                "isVis": true,
+                "variableName": "ASR_67"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_68",
+                "isVis": true,
+                "variableName": "ASR_68"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_69",
+                "isVis": true,
+                "variableName": "ASR_69"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_70",
+                "isVis": true,
+                "variableName": "ASR_70"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_71",
+                "isVis": true,
+                "variableName": "ASR_71"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_72",
+                "isVis": true,
+                "variableName": "ASR_72"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_73",
+                "isVis": true,
+                "variableName": "ASR_73"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_74",
+                "isVis": true,
+                "variableName": "ASR_74"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_75",
+                "isVis": true,
+                "variableName": "ASR_75"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_76",
+                "isVis": true,
+                "variableName": "ASR_76"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_77",
+                "isVis": true,
+                "variableName": "ASR_77"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_78",
+                "isVis": true,
+                "variableName": "ASR_78"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_79",
+                "isVis": true,
+                "variableName": "ASR_79"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_80",
+                "isVis": true,
+                "variableName": "ASR_80"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_81",
+                "isVis": true,
+                "variableName": "ASR_81"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_82",
+                "isVis": true,
+                "variableName": "ASR_82"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_83",
+                "isVis": true,
+                "variableName": "ASR_83"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_84",
+                "isVis": true,
+                "variableName": "ASR_84"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_85",
+                "isVis": true,
+                "variableName": "ASR_85"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_86",
+                "isVis": true,
+                "variableName": "ASR_86"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_87",
+                "isVis": true,
+                "variableName": "ASR_87"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_88",
+                "isVis": true,
+                "variableName": "ASR_88"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_89",
+                "isVis": true,
+                "variableName": "ASR_89"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_90",
+                "isVis": true,
+                "variableName": "ASR_90"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_91",
+                "isVis": true,
+                "variableName": "ASR_91"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_92",
+                "isVis": true,
+                "variableName": "ASR_92"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_93",
+                "isVis": true,
+                "variableName": "ASR_93"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_94",
+                "isVis": true,
+                "variableName": "ASR_94"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_95",
+                "isVis": true,
+                "variableName": "ASR_95"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_96",
+                "isVis": true,
+                "variableName": "ASR_96"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_97",
+                "isVis": true,
+                "variableName": "ASR_97"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_98",
+                "isVis": true,
+                "variableName": "ASR_98"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_99",
+                "isVis": true,
+                "variableName": "ASR_99"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_100",
+                "isVis": true,
+                "variableName": "ASR_100"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_101",
+                "isVis": true,
+                "variableName": "ASR_101"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_102",
+                "isVis": true,
+                "variableName": "ASR_102"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_103",
+                "isVis": true,
+                "variableName": "ASR_103"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_104",
+                "isVis": true,
+                "variableName": "ASR_104"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_105",
+                "isVis": true,
+                "variableName": "ASR_105"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_106",
+                "isVis": true,
+                "variableName": "ASR_106"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_107",
+                "isVis": true,
+                "variableName": "ASR_107"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_108",
+                "isVis": true,
+                "variableName": "ASR_108"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_109",
+                "isVis": true,
+                "variableName": "ASR_109"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_110",
+                "isVis": true,
+                "variableName": "ASR_110"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_111",
+                "isVis": true,
+                "variableName": "ASR_111"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_112",
+                "isVis": true,
+                "variableName": "ASR_112"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_113",
+                "isVis": true,
+                "variableName": "ASR_113"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_114",
+                "isVis": true,
+                "variableName": "ASR_114"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_115",
+                "isVis": true,
+                "variableName": "ASR_115"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_116",
+                "isVis": true,
+                "variableName": "ASR_116"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_117",
+                "isVis": true,
+                "variableName": "ASR_117"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_118",
+                "isVis": true,
+                "variableName": "ASR_118"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_119",
+                "isVis": true,
+                "variableName": "ASR_119"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_120",
+                "isVis": true,
+                "variableName": "ASR_120"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_121",
+                "isVis": true,
+                "variableName": "ASR_121"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_122",
+                "isVis": true,
+                "variableName": "ASR_122"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_123",
+                "isVis": true,
+                "variableName": "ASR_123"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_124",
+                "isVis": true,
+                "variableName": "ASR_124"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_125",
+                "isVis": true,
+                "variableName": "ASR_125"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/ASR_126",
+                "isVis": true,
+                "variableName": "ASR_126"
+            }
+        ],
         "order": [
             "items/ASR_01",
             "items/ASR_02",
@@ -138,782 +912,12 @@
             "items/ASR_125",
             "items/ASR_126"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "ASR_01",
-                "isAbout": "items/ASR_01",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_02",
-                "isAbout": "items/ASR_02",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_03",
-                "isAbout": "items/ASR_03",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_04",
-                "isAbout": "items/ASR_04",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_05",
-                "isAbout": "items/ASR_05",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_06",
-                "isAbout": "items/ASR_06",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_07",
-                "isAbout": "items/ASR_07",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_08",
-                "isAbout": "items/ASR_08",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_09",
-                "isAbout": "items/ASR_09",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_10",
-                "isAbout": "items/ASR_10",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_11",
-                "isAbout": "items/ASR_11",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_12",
-                "isAbout": "items/ASR_12",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_13",
-                "isAbout": "items/ASR_13",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_14",
-                "isAbout": "items/ASR_14",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_15",
-                "isAbout": "items/ASR_15",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_16",
-                "isAbout": "items/ASR_16",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_17",
-                "isAbout": "items/ASR_17",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_18",
-                "isAbout": "items/ASR_18",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_19",
-                "isAbout": "items/ASR_19",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_20",
-                "isAbout": "items/ASR_20",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_21",
-                "isAbout": "items/ASR_21",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_22",
-                "isAbout": "items/ASR_22",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_23",
-                "isAbout": "items/ASR_23",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_24",
-                "isAbout": "items/ASR_24",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_25",
-                "isAbout": "items/ASR_25",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_26",
-                "isAbout": "items/ASR_26",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_27",
-                "isAbout": "items/ASR_27",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_28",
-                "isAbout": "items/ASR_28",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_29",
-                "isAbout": "items/ASR_29",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_30",
-                "isAbout": "items/ASR_30",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_31",
-                "isAbout": "items/ASR_31",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_32",
-                "isAbout": "items/ASR_32",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_33",
-                "isAbout": "items/ASR_33",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_34",
-                "isAbout": "items/ASR_34",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_35",
-                "isAbout": "items/ASR_35",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_36",
-                "isAbout": "items/ASR_36",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_37",
-                "isAbout": "items/ASR_37",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_38",
-                "isAbout": "items/ASR_38",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_39",
-                "isAbout": "items/ASR_39",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_40",
-                "isAbout": "items/ASR_40",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_41",
-                "isAbout": "items/ASR_41",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_42",
-                "isAbout": "items/ASR_42",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_43",
-                "isAbout": "items/ASR_43",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_44",
-                "isAbout": "items/ASR_44",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_45",
-                "isAbout": "items/ASR_45",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_46",
-                "isAbout": "items/ASR_46",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_47",
-                "isAbout": "items/ASR_47",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_48",
-                "isAbout": "items/ASR_48",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_49",
-                "isAbout": "items/ASR_49",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_50",
-                "isAbout": "items/ASR_50",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_51",
-                "isAbout": "items/ASR_51",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_52",
-                "isAbout": "items/ASR_52",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_53",
-                "isAbout": "items/ASR_53",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_54",
-                "isAbout": "items/ASR_54",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_55",
-                "isAbout": "items/ASR_55",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_56a",
-                "isAbout": "items/ASR_56a",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_56b",
-                "isAbout": "items/ASR_56b",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_56c",
-                "isAbout": "items/ASR_56c",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_56d",
-                "isAbout": "items/ASR_56d",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_57",
-                "isAbout": "items/ASR_57",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_58",
-                "isAbout": "items/ASR_58",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_59",
-                "isAbout": "items/ASR_59",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_60",
-                "isAbout": "items/ASR_60",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_61",
-                "isAbout": "items/ASR_61",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_62",
-                "isAbout": "items/ASR_62",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_63",
-                "isAbout": "items/ASR_63",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_64",
-                "isAbout": "items/ASR_64",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_65",
-                "isAbout": "items/ASR_65",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_66",
-                "isAbout": "items/ASR_66",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_67",
-                "isAbout": "items/ASR_67",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_68",
-                "isAbout": "items/ASR_68",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_69",
-                "isAbout": "items/ASR_69",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_70",
-                "isAbout": "items/ASR_70",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_71",
-                "isAbout": "items/ASR_71",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_72",
-                "isAbout": "items/ASR_72",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_73",
-                "isAbout": "items/ASR_73",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_74",
-                "isAbout": "items/ASR_74",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_75",
-                "isAbout": "items/ASR_75",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_76",
-                "isAbout": "items/ASR_76",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_77",
-                "isAbout": "items/ASR_77",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_78",
-                "isAbout": "items/ASR_78",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_79",
-                "isAbout": "items/ASR_79",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_80",
-                "isAbout": "items/ASR_80",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_81",
-                "isAbout": "items/ASR_81",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_82",
-                "isAbout": "items/ASR_82",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_83",
-                "isAbout": "items/ASR_83",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_84",
-                "isAbout": "items/ASR_84",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_85",
-                "isAbout": "items/ASR_85",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_86",
-                "isAbout": "items/ASR_86",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_87",
-                "isAbout": "items/ASR_87",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_88",
-                "isAbout": "items/ASR_88",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_89",
-                "isAbout": "items/ASR_89",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_90",
-                "isAbout": "items/ASR_90",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_91",
-                "isAbout": "items/ASR_91",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_92",
-                "isAbout": "items/ASR_92",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_93",
-                "isAbout": "items/ASR_93",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_94",
-                "isAbout": "items/ASR_94",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_95",
-                "isAbout": "items/ASR_95",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_96",
-                "isAbout": "items/ASR_96",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_97",
-                "isAbout": "items/ASR_97",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_98",
-                "isAbout": "items/ASR_98",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_99",
-                "isAbout": "items/ASR_99",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_100",
-                "isAbout": "items/ASR_100",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_101",
-                "isAbout": "items/ASR_101",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_102",
-                "isAbout": "items/ASR_102",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_103",
-                "isAbout": "items/ASR_103",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_104",
-                "isAbout": "items/ASR_104",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_105",
-                "isAbout": "items/ASR_105",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_106",
-                "isAbout": "items/ASR_106",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_107",
-                "isAbout": "items/ASR_107",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_108",
-                "isAbout": "items/ASR_108",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_109",
-                "isAbout": "items/ASR_109",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_110",
-                "isAbout": "items/ASR_110",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_111",
-                "isAbout": "items/ASR_111",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_112",
-                "isAbout": "items/ASR_112",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_113",
-                "isAbout": "items/ASR_113",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_114",
-                "isAbout": "items/ASR_114",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_115",
-                "isAbout": "items/ASR_115",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_116",
-                "isAbout": "items/ASR_116",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_117",
-                "isAbout": "items/ASR_117",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_118",
-                "isAbout": "items/ASR_118",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_119",
-                "isAbout": "items/ASR_119",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_120",
-                "isAbout": "items/ASR_120",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_121",
-                "isAbout": "items/ASR_121",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_122",
-                "isAbout": "items/ASR_122",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_123",
-                "isAbout": "items/ASR_123",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_124",
-                "isAbout": "items/ASR_124",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_125",
-                "isAbout": "items/ASR_125",
-                "valueRequired": true,
-                "isVis": true
-            },
-            {
-                "variableName": "ASR_126",
-                "isAbout": "items/ASR_126",
-                "valueRequired": true,
-                "isVis": true
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "hbn_asr"
+    },
+    "prefLabel": {
+        "en": "HBN Adult Self Report (ASR)"
     }
 }

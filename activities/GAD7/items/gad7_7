@@ -1,37 +1,41 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "gad7_7",
-    "prefLabel": "GAD7-7",
-    "description": "schema for Q7 of the GAD7 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "gad7_7",
+    "category": "Item",
+    "description": {
+        "en": "schema for Q7 of the GAD7 Assessment"
+    },
     "question": {
+        "ar": "\u0627\u0644\u0634\u0651\u0639\u0648\u0631 \u0628\u0627\u0644\u062e\u0648\u0641 \u0622\u0645\u0627 \u0644\u0648 \u0623\u0646 \u0634\u064a\u0626\u0627 \u0641\u0636\u064a\u0639\u0627 \u0642\u062f \u064a\u062d\u062f\u062b.",
+        "bg": "\u0421\u0442\u0440\u0430\u0445, \u0447\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u0441\u043b\u0443\u0447\u0438 \u043d\u0435\u0449\u043e \u0443\u0436\u0430\u0441\u043d\u043e",
+        "da": "V\u00e6ret bange, som om noget frygteligt kunne ske",
         "en": "Feeling afraid as if something awful might happen",
         "es": "Sentir miedo de que algo terrible pueda ocurrir",
-        "ar": "الشّعور بالخوف آما لو أن شيئا فضيعا قد يحدث.",
-        "nl": "Bang zijn dat er iets vreselijks zou kunnen gebeuren",
+        "fi": "Olen ollut peloissani ik\u00e4\u00e4n kuin jotain kamalaa voisi tapahtua",
+        "fil": "Pakiramdam na natatakot na baka may mangyaring masama",
         "fr": "Un sentiment de peur comme si quelque chose de terrible risquait de se produire",
         "it": "Avere paura che possa succedere qualcosa di terribile",
-        "pt-BR": "Sentir medo como se algo horrível fosse acontecer",
-        "fil": "Pakiramdam na natatakot na baka may mangyaring masama",
-        "fi": "Olen ollut peloissani ikään kuin jotain kamalaa voisi tapahtua",
-        "kn": "ಏ῿ಾದರೂ ಅ῿ಾಹುತ ಸಂಭ⁎ಸುತῗ⁢ ಎಂದು ⁲ದರುವ⁳ದು",
-        "ko": "마치 끔찍한 일이 생길 것처럼 두렵게 느껴진다",
-        "no": "Følt deg redd som om noe forferdelig kunne komme til å skje",
-        "pl": "Obawiał(a) się Pan(i), tak jakby miało się stać coś strasznego",
-        "ro": "Un sentiment de teamă ca şi cum s-ar putea întâmpla ceva groaznic",
-        "ru": "Вы испытывали страх, словно должно произойти нечто ужасное",
-        "zh-CN": "害怕发生可怕的事情",
-        "bg": "Страх, че може да се случи нещо ужасно",
-        "da": "Været bange, som om noget frygteligt kunne ske",
-        "sv": "Känt dig rädd för att något hemskt skulle hända",
-        "lv": "Jutāt bailes, ka varētu notikt kaut kas šausmīgs",
+        "kn": "\u0c8f\u1fff\u0cbe\u0ca6\u0cb0\u0cc2 \u0c85\u1fff\u0cbe\u0cb9\u0cc1\u0ca4 \u0cb8\u0c82\u0cad\u204e\u0cb8\u0cc1\u0ca4\u1fd7\u2062 \u0c8e\u0c82\u0ca6\u0cc1 \u2072\u0ca6\u0cb0\u0cc1\u0cb5\u2073\u0ca6\u0cc1",
+        "ko": "\ub9c8\uce58 \ub054\ucc0d\ud55c \uc77c\uc774 \uc0dd\uae38 \uac83\ucc98\ub7fc \ub450\ub835\uac8c \ub290\uaef4\uc9c4\ub2e4",
+        "lv": "Jut\u0101t bailes, ka var\u0113tu notikt kaut kas \u0161ausm\u012bgs",
         "ms": "Berasa takut seolah-olah sesuatu yang sangat buruk mungkin berlaku",
-        "uk": "Ви відчували страх, неначе щось жахливе може статися"
+        "nl": "Bang zijn dat er iets vreselijks zou kunnen gebeuren",
+        "no": "F\u00f8lt deg redd som om noe forferdelig kunne komme til \u00e5 skje",
+        "pl": "Obawia\u0142(a) si\u0119 Pan(i), tak jakby mia\u0142o si\u0119 sta\u0107 co\u015b strasznego",
+        "pt-br": "Sentir medo como se algo horr\u00edvel fosse acontecer",
+        "ro": "Un sentiment de team\u0103 ca \u015fi cum s-ar putea \u00eent\u00e2mpla ceva groaznic",
+        "ru": "\u0412\u044b \u0438\u0441\u043f\u044b\u0442\u044b\u0432\u0430\u043b\u0438 \u0441\u0442\u0440\u0430\u0445, \u0441\u043b\u043e\u0432\u043d\u043e \u0434\u043e\u043b\u0436\u043d\u043e \u043f\u0440\u043e\u0438\u0437\u043e\u0439\u0442\u0438 \u043d\u0435\u0447\u0442\u043e \u0443\u0436\u0430\u0441\u043d\u043e\u0435",
+        "sv": "K\u00e4nt dig r\u00e4dd f\u00f6r att n\u00e5got hemskt skulle h\u00e4nda",
+        "uk": "\u0412\u0438 \u0432\u0456\u0434\u0447\u0443\u0432\u0430\u043b\u0438 \u0441\u0442\u0440\u0430\u0445, \u043d\u0435\u043d\u0430\u0447\u0435 \u0449\u043e\u0441\u044c \u0436\u0430\u0445\u043b\u0438\u0432\u0435 \u043c\u043e\u0436\u0435 \u0441\u0442\u0430\u0442\u0438\u0441\u044f",
+        "zh-cn": "\u5bb3\u6015\u53d1\u751f\u53ef\u6015\u7684\u4e8b\u60c5"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "GAD7-7"
+    }
 }

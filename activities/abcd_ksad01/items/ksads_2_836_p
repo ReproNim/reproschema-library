@@ -1,15 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "ksads_2_836_p",
-    "@type": "reproschema:Field",
-    "prefLabel": "ksads_2_836_p",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ksads_2_836_p",
+    "category": "Item",
+    "question": {
+        "en": "Diagnosis - Bipolar II Disorder currently depressed F31.81"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Diagnosis - Bipolar II Disorder currently depressed F31.81",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "ksads_2_836_p"
     }
 }

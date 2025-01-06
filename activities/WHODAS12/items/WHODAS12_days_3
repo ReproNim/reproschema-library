@@ -1,19 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS12_days_3",
-    "prefLabel": "WHODAS12_days_3",
-    "description": "Days question 3 of WHODAS12",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS12_days_3",
+    "category": "Item",
+    "description": {
+        "en": "Days question 3 of WHODAS12"
+    },
     "question": {
         "en": "In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition?",
         "es": ""
-        },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-    "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "prefLabel": {
+        "en": "WHODAS12_days_3"
     }
 }

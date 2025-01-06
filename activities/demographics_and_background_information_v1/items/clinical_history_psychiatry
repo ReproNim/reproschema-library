@@ -1,83 +1,123 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "clinical_history_psychiatry",
-    "prefLabel": "Clinical history psychiatry",
-    "description": "schema for psychiatric history of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "clinical_history_psychiatry",
+    "category": "Item",
+    "description": {
+        "en": "schema for psychiatric history of participant"
+    },
+    "question": {
+        "en": "Have you been diagnosed with any of these mental health conditions by a clinician? (check all that apply)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Have you been diagnosed with any of these mental health conditions by a clinician? (check all that apply)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:anyURI",
-        "multipleChoice": true,
         "choices": [
             {
-                "value": 1,
-                "name": "Major Depressive Disorder"
+                "name": {
+                    "en": "Major Depressive Disorder"
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "Generalized Anxiety Disorder"
+                "name": {
+                    "en": "Generalized Anxiety Disorder"
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "Panic Disorder"
+                "name": {
+                    "en": "Panic Disorder"
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "Agoraphobia"
+                "name": {
+                    "en": "Agoraphobia"
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "Social Anxiety Disorder"
+                "name": {
+                    "en": "Social Anxiety Disorder"
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "PTSD"
+                "name": {
+                    "en": "PTSD"
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "Obsessive-Compulsive Disorder"
+                "name": {
+                    "en": "Obsessive-Compulsive Disorder"
+                },
+                "value": 7
             },
             {
-                "value": 8,
-                "name": "Substance-use Disorder"
+                "name": {
+                    "en": "Substance-use Disorder"
+                },
+                "value": 8
             },
             {
-                "value": 9,
-                "name": "Eating Disorder"
+                "name": {
+                    "en": "Eating Disorder"
+                },
+                "value": 9
             },
             {
-                "value": 10,
-                "name": "Bipolar Disorder"
+                "name": {
+                    "en": "Bipolar Disorder"
+                },
+                "value": 10
             },
             {
-                "value": 11,
-                "name": "Schizophrenia"
+                "name": {
+                    "en": "Schizophrenia"
+                },
+                "value": 11
             },
             {
-                "value": 12,
-                "name": "Borderline Personality Disorder"
+                "name": {
+                    "en": "Borderline Personality Disorder"
+                },
+                "value": 12
             },
             {
-                "value": 13,
-                "name": "Autism Spectrum Disorder"
+                "name": {
+                    "en": "Autism Spectrum Disorder"
+                },
+                "value": 13
             },
             {
-                "value": 0,
-                "name": "Prefer not to disclose"
+                "name": {
+                    "en": "Prefer not to disclose"
+                },
+                "value": 0
             },
             {
-                "value": -1,
-                "name": "Other"
+                "name": {
+                    "en": "Other"
+                },
+                "value": -1
             },
-             {
-                "value": 999,
-                "name": "None"
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 999
             }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:anyURI"
         ]
+    },
+    "prefLabel": {
+        "en": "Clinical history psychiatry"
     }
 }

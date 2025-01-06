@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "hair_dot_y",
-    "@type": "reproschema:Field",
-    "prefLabel": "hair_dot_y",
-    "altLabel": "biospec_hair_date",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "hair_dot_y",
+    "category": "Item",
+    "question": {
+        "en": "Hair sample time and date collected:"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Hair sample time and date collected:",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "altLabel": {
+        "en": "biospec_hair_date"
+    },
+    "prefLabel": {
+        "en": "hair_dot_y"
     }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "selfcompassion_17",
-    "prefLabel": "Self compassion 17",
-    "description": "Q17 of the Self Compassion Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "selfcompassion_17",
+    "category": "Item",
+    "description": {
+        "en": "Q17 of the Self Compassion Scale"
+    },
     "question": {
         "en": "When I fail at something important to me I try to keep things in perspective."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "Self compassion 17"
+    }
 }

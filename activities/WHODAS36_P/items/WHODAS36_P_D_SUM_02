@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_D_SUM_02",
-    "prefLabel": "WHODAS 2.0 Proxy D2",
-    "description": "Domain 2 (Getting Around) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS36_P_D_SUM_02",
+    "category": "Item",
+    "description": {
+        "en": "Domain 2 (Getting Around) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "number"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "minValue": 0,
-        "maxValue": 20
+        "maxValue": 20,
+        "minValue": 0
+    },
+    "prefLabel": {
+        "en": "WHODAS 2.0 Proxy D2"
     }
 }

@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_n_ngd_rspltp",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_n_ngd_rspltp",
-    "altLabel": "rsfmri_cor_network.gordon_none_network.gordon_retrosplenialtemporal rsfmri_cor_networkgordon_none_networkgordon_retrosplenialtemporal",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_n_ngd_rspltp",
+    "category": "Item",
+    "question": {
+        "en": "Average correlation between \"none\" network and retrosplenial temporal network"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Average correlation between \"none\" network and retrosplenial temporal network",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": [
+            "xsd:float"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_none_network.gordon_retrosplenialtemporal rsfmri_cor_networkgordon_none_networkgordon_retrosplenialtemporal"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_n_ngd_rspltp"
     }
 }

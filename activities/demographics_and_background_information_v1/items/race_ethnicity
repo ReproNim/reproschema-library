@@ -1,46 +1,68 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "race_ethnicity",
-    "prefLabel": "Race or Ethnicity",
-    "description": "schema for race or Ethnicity of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "race_ethnicity",
+    "category": "Item",
+    "description": {
+        "en": "schema for race or Ethnicity of participant"
+    },
+    "question": {
+        "en": "Race/Ethnicity"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Race/Ethnicity",
     "ui": {
         "inputType": "select"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
         "choices": [
             {
-                "name": "American Indian or Alaska Native",
+                "name": {
+                    "en": "American Indian or Alaska Native"
+                },
                 "value": 0
             },
             {
-                "name": "Asian",
+                "name": {
+                    "en": "Asian"
+                },
                 "value": 1
             },
             {
-                "name": "Black or African American",
+                "name": {
+                    "en": "Black or African American"
+                },
                 "value": 2
             },
             {
-                "name": "Native Hawaiian or Other Pacific Islander",
+                "name": {
+                    "en": "Native Hawaiian or Other Pacific Islander"
+                },
                 "value": 3
             },
             {
-                "name": "White",
+                "name": {
+                    "en": "White"
+                },
                 "value": 4
             },
             {
-                "name": "Multi Racial",
+                "name": {
+                    "en": "Multi Racial"
+                },
                 "value": 5
             },
             {
-                "name": "Other",
+                "name": {
+                    "en": "Other"
+                },
                 "value": -1
             }
+        ],
+        "valueType": [
+            "xsd:string"
         ]
+    },
+    "prefLabel": {
+        "en": "Race or Ethnicity"
     }
 }

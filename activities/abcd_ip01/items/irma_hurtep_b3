@@ -1,60 +1,62 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hurtep_b3",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtep_b3",
-        "es": "irma_hurtep_b3_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtep_b3",
+    "category": "Item",
     "question": {
         "en": "When your child evacuated, how long was he or she away from your home? Cuando tu hijo(a) evacuA,",
-        "es": "¿cuánto tiempo estuvo lejos de su casa?"
+        "es": "\u00bfcu\u00e1nto tiempo estuvo lejos de su casa?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "1 = Less than a day  Menos de un d\u00c3\u00ada; 2 = 1-2 days  1-2 d\u00c3\u00adas; 3 = 3-6 days  3-6 d\u00c3\u00ada; 4 = A week or more Una semana o m\u00c3\u00a1s"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 4,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Less than a day ",
-                    "es": "Menos de un día"
-                }
+                    "es": "Menos de un d\u00eda"
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "1-2 days ",
-                    "es": "1-2 días"
-                }
+                    "es": "1-2 d\u00edas"
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "3-6 days ",
-                    "es": "3-6 día"
-                }
+                    "es": "3-6 d\u00eda"
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "A week or more",
-                    "es": "Una semana o más"
-                }
+                    "es": "Una semana o m\u00e1s"
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "1 = Less than a day  Menos de un dÃ­a; 2 = 1-2 days  1-2 dÃ­as; 3 = 3-6 days  3-6 dÃ­a; 4 = A week or more Una semana o mÃ¡s"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtep_b3",
+        "es": "irma_hurtep_b3_es"
+    }
 }

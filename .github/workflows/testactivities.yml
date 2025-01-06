@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.9, '3.10', '3.11']
+        python-version: ['3.10', '3.11', '3.12', '3.13']
 
     steps:
     - uses: actions/checkout@v4
@@ -26,6 +26,6 @@ jobs:
     - name: JSON linter
       run: |
         python tests/jsonParser.py
-    - name: Test with pyshacl
+    - name: Validate activities
       run: |
         reproschema -l DEBUG validate activities

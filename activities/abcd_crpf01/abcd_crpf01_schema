@@ -1,19 +1,64 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_crpf01_schema",
-    "prefLabel": {
-        "en": "ABCD Parent Community Risk and Protective Factors (CRPF)",
-        "es": "abcd_crpf01_es"
-    },
-    "altLabel": "abcd_crpf01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_crpf01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble": {
-        "en": "Now I am going to ask you about how easy it is to get certain substances.",
-        "es": "/Ahora le voy a preguntar quÃ© tan fÃ¡cil es conseguir ciertas sustancias."
-    },
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/su_risk_p_1",
+                "variableName": "su_risk_p_1"
+            },
+            {
+                "isAbout": "items/su_risk_p_10",
+                "variableName": "su_risk_p_10"
+            },
+            {
+                "isAbout": "items/su_risk_p_11",
+                "variableName": "su_risk_p_11"
+            },
+            {
+                "isAbout": "items/su_risk_p_12",
+                "variableName": "su_risk_p_12"
+            },
+            {
+                "isAbout": "items/su_risk_p_13",
+                "variableName": "su_risk_p_13"
+            },
+            {
+                "isAbout": "items/su_risk_p_2",
+                "variableName": "su_risk_p_2"
+            },
+            {
+                "isAbout": "items/su_risk_p_3",
+                "variableName": "su_risk_p_3"
+            },
+            {
+                "isAbout": "items/su_risk_p_4",
+                "variableName": "su_risk_p_4"
+            },
+            {
+                "isAbout": "items/su_risk_p_5",
+                "variableName": "su_risk_p_5"
+            },
+            {
+                "isAbout": "items/su_risk_p_6",
+                "variableName": "su_risk_p_6"
+            },
+            {
+                "isAbout": "items/su_risk_p_7",
+                "variableName": "su_risk_p_7"
+            },
+            {
+                "isAbout": "items/su_risk_p_8",
+                "variableName": "su_risk_p_8"
+            },
+            {
+                "isAbout": "items/su_risk_p_9",
+                "variableName": "su_risk_p_9"
+            }
+        ],
         "order": [
             "items/su_risk_p_1",
             "items/su_risk_p_2",
@@ -29,60 +74,17 @@
             "items/su_risk_p_12",
             "items/su_risk_p_13"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "su_risk_p_1",
-                "isAbout": "items/su_risk_p_1"
-            },
-            {
-                "variableName": "su_risk_p_10",
-                "isAbout": "items/su_risk_p_10"
-            },
-            {
-                "variableName": "su_risk_p_11",
-                "isAbout": "items/su_risk_p_11"
-            },
-            {
-                "variableName": "su_risk_p_12",
-                "isAbout": "items/su_risk_p_12"
-            },
-            {
-                "variableName": "su_risk_p_13",
-                "isAbout": "items/su_risk_p_13"
-            },
-            {
-                "variableName": "su_risk_p_2",
-                "isAbout": "items/su_risk_p_2"
-            },
-            {
-                "variableName": "su_risk_p_3",
-                "isAbout": "items/su_risk_p_3"
-            },
-            {
-                "variableName": "su_risk_p_4",
-                "isAbout": "items/su_risk_p_4"
-            },
-            {
-                "variableName": "su_risk_p_5",
-                "isAbout": "items/su_risk_p_5"
-            },
-            {
-                "variableName": "su_risk_p_6",
-                "isAbout": "items/su_risk_p_6"
-            },
-            {
-                "variableName": "su_risk_p_7",
-                "isAbout": "items/su_risk_p_7"
-            },
-            {
-                "variableName": "su_risk_p_8",
-                "isAbout": "items/su_risk_p_8"
-            },
-            {
-                "variableName": "su_risk_p_9",
-                "isAbout": "items/su_risk_p_9"
-            }
-        ]
+        "shuffle": false
+    },
+    "preamble": {
+        "en": "Now I am going to ask you about how easy it is to get certain substances.",
+        "es": "/Ahora le voy a preguntar qu\u00c3\u00a9 tan f\u00c3\u00a1cil es conseguir ciertas sustancias."
+    },
+    "altLabel": {
+        "en": "abcd_crpf01"
+    },
+    "prefLabel": {
+        "en": "ABCD Parent Community Risk and Protective Factors (CRPF)",
+        "es": "abcd_crpf01_es"
     }
 }

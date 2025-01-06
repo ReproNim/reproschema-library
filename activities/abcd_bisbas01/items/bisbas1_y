@@ -1,43 +1,59 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "bisbas1_y",
-    "@type": "reproschema:Field",
-    "prefLabel": "bisbas1_y",
-    "altLabel": "bisbas_1",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "bisbas1_y",
+    "category": "Item",
+    "question": {
+        "en": "I usually get very tense when I think something unpleasant is going to happen."
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "I usually get very tense when I think something unpleasant is going to happen.",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = Not true; 1 = Somewhat true; 2 = True; 3 = Very true"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 3,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Not true",
+                "name": {
+                    "en": "Not true"
+                },
                 "value": 0
             },
             {
-                "name": "Somewhat true",
+                "name": {
+                    "en": "Somewhat true"
+                },
                 "value": 1
             },
             {
-                "name": "True",
+                "name": {
+                    "en": "True"
+                },
                 "value": 2
             },
             {
-                "name": "Very true",
+                "name": {
+                    "en": "Very true"
+                },
                 "value": 3
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = Not true; 1 = Somewhat true; 2 = True; 3 = Very true"
-        }
-    ]
+    "altLabel": {
+        "en": "bisbas_1"
+    },
+    "prefLabel": {
+        "en": "bisbas1_y"
+    }
 }

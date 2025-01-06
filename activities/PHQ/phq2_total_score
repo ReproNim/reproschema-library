@@ -1,17 +1,21 @@
- {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "phq2_total_score",
-    "prefLabel": "Score PHQ-2",
-    "description": "total score of the PHQ-2 Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "xsd:int",
-        "readonlyValue": true
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "phq2_total_score",
+    "category": "Item",
+    "description": {
+        "en": "total score of the PHQ-2 Assessment"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "xsd:int"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "minValue": 0,
-        "maxValue": 27
+        "maxValue": 27,
+        "minValue": 0
+    },
+    "prefLabel": {
+        "en": "Score PHQ-2"
     }
 }

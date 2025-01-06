@@ -1,17 +1,21 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS36_P_D_SUM_05",
-    "prefLabel": "WHODAS 2.0 Proxy D5",
-    "description": "Domain 5 (Life Activities—Household) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS36_P_D_SUM_05",
+    "category": "Item",
+    "description": {
+        "en": "Domain 5 (Life Activities\u2014Household) of World Health Organization Disability Assessment Schedule (WHODAS 2.0) Proxy-Administered Version"
     },
+    "ui": {
+        "readonlyValue": true,
+        "inputType": "number"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "responseOptions": {
-        "minValue": 0,
-        "maxValue": 16
+        "maxValue": 16,
+        "minValue": 0
+    },
+    "prefLabel": {
+        "en": "WHODAS 2.0 Proxy D5"
     }
 }

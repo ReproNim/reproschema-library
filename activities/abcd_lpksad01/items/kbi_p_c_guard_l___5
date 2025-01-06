@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "kbi_p_c_guard_l___5",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_guard_l___5",
-    "altLabel": "kbi_c_guard_p_l___5 ksads_back_c_guard_p_l___5",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_guard_l___5",
+    "category": "Item",
+    "question": {
+        "en": "Since we last saw you, who else has your child lived with at least part of the time? Desde la \u00faltima vez que nos vimos, \u00bfCon qui\u00e9n m\u00e1s pasa tiempo su ni\u00f1o(a)? (5, Adopted Mother Madre adoptiva)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Since we last saw you, who else has your child lived with at least part of the time? Desde la \u00faltima vez que nos vimos, \u00bfCon qui\u00e9n m\u00e1s pasa tiempo su ni\u00f1o(a)? (5, Adopted Mother Madre adoptiva)",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_guard_p_l___5 ksads_back_c_guard_p_l___5"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_guard_l___5"
+    }
 }

@@ -1,113 +1,99 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ1_schema",
-    "prefLabel": {
-        "en": "PHQ-1 Assessment",
-        "es": "PHQ-1 Evaluación"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ1_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ-1 assessment schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ-1 assessment schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
-        "es": "Durante las últimas 4 semanas, ¿cuánta molestia ha tenido por cualquiera de los siguientes problemas?",
-        "nl": "Hoeveel last hebt u in de afgelopen 4 wekengehad van één of meer van de volgende problemen?",
-        "fr": "Au cours des 4 dernières semaines, à quel point avez-vous été gêné(e) par les problèmes suivants?",
-        "pt-BR": "Durante as últimas 4 semanas, o quanto você foi incomodado/a por qualquer um dos problemas abaixo?",
-        "ko": "지난 4주일동안당신은다음문제들로인해서얼마나많이방해를받았습니까?"
-    },
-    "compute": [
-        {
-            "variableName": "phq1_total_score",
-            "jsExpression": "phq1a + phq1b + phq1c + phq1d + phq1e + phq1f + phq1g + phq1h + phq1i + phq1j +phq1k + phq1l + phq1m"
-        }
-    ],
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq1a",
-                "variableName": "phq1a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq1a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq1b",
-                "variableName": "phq1b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq1b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq1c",
-                "variableName": "phq1c",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq1c"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq1d",
-                "variableName": "phq1d",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq1d"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq1e",
-                "variableName": "phq1e",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq1e"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq1f",
-                "variableName": "phq1f",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq1f"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq1g",
-                "variableName": "phq1g",
-                "valueRequired": true,
-                "isVis": true
-            },
-             {
-                "isAbout": "items/phq1h",
-                "variableName": "phq1h",
-                "valueRequired": true,
-                "isVis": true
-            },
-             {
-                "isAbout": "items/phq1i",
-                "variableName": "phq1i",
-                "valueRequired": true,
-                "isVis": true
-            },
-             {
-                "isAbout": "items/phq1j",
-                "variableName": "phq1j",
-                "valueRequired": true,
-                "isVis": true
-            },
-             {
-                "isAbout": "items/phq1k",
-                "variableName": "phq1k",
-                "valueRequired": true,
-                "isVis": true
-            },
-             {
-                "isAbout": "items/phq1l",
-                "variableName": "phq1l",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq1g"
             },
             {
-                "isAbout": "items/phq1m",
-                "variableName": "phq1m",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq1h",
+                "isVis": true,
+                "variableName": "phq1h"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/phq1i",
+                "isVis": true,
+                "variableName": "phq1i"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/phq1j",
+                "isVis": true,
+                "variableName": "phq1j"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/phq1k",
+                "isVis": true,
+                "variableName": "phq1k"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/phq1l",
+                "isVis": true,
+                "variableName": "phq1l"
+            },
+            {
+                "valueRequired": true,
+                "isAbout": "items/phq1m",
+                "isVis": true,
+                "variableName": "phq1m"
             },
             {
                 "isAbout": "items/phq1_total_score",
-                "variableName": "phq1_total_score",
-                "isVis": false
+                "isVis": false,
+                "variableName": "phq1_total_score"
             }
         ],
         "order": [
@@ -126,5 +112,23 @@
             "items/phq1m"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "phq1a + phq1b + phq1c + phq1d + phq1e + phq1f + phq1g + phq1h + phq1i + phq1j +phq1k + phq1l + phq1m",
+            "variableName": "phq1_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "Over the last 4 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las \u00faltimas 4 semanas, \u00bfcu\u00e1nta molestia ha tenido por cualquiera de los siguientes problemas?",
+        "fr": "Au cours des 4 derni\u00e8res semaines, \u00e0 quel point avez-vous \u00e9t\u00e9 g\u00ean\u00e9(e) par les probl\u00e8mes suivants?",
+        "ko": "\uc9c0\ub09c 4\uc8fc\uc77c\ub3d9\uc548\ub2f9\uc2e0\uc740\ub2e4\uc74c\ubb38\uc81c\ub4e4\ub85c\uc778\ud574\uc11c\uc5bc\ub9c8\ub098\ub9ce\uc774\ubc29\ud574\ub97c\ubc1b\uc558\uc2b5\ub2c8\uae4c?",
+        "nl": "Hoeveel last hebt u in de afgelopen 4 wekengehad van \u00e9\u00e9n of meer van de volgende problemen?",
+        "pt-br": "Durante as \u00faltimas 4 semanas, o quanto voc\u00ea foi incomodado/a por qualquer um dos problemas abaixo?"
+    },
+    "prefLabel": {
+        "en": "PHQ-1 Assessment",
+        "es": "PHQ-1 Evaluaci\u00f3n"
     }
 }

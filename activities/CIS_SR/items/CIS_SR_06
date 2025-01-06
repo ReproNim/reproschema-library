@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "CIS_SR_06",
-    "prefLabel": "CIS_SR Q6",
-    "description": "Q6 of the Columbia Impairment Scale - Self Report",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CIS_SR_06",
+    "category": "Item",
+    "description": {
+        "en": "Q6 of the Columbia Impairment Scale - Self Report"
+    },
     "question": {
         "en": "How much of a problem would you say you have with having fun?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "CIS_SR Q6"
+    }
 }

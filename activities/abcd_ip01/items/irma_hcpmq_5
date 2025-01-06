@@ -1,67 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hcpmq_5",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hcpmq_5",
-        "es": "irma_hcpmq_5_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hcpmq_5",
+    "category": "Item",
     "question": {
         "en": "5. I asked my child what questions he or she might have about the hurricane.",
-        "es": "5. Le pregunté a mi hijo qué preguntas podría tener sobre el huracán."
+        "es": "5. Le pregunt\u00e9 a mi hijo qu\u00e9 preguntas podr\u00eda tener sobre el hurac\u00e1n."
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo as\u00c3\u00ad como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a m\u00c3\u00ad o mi familia4"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "Not at all like me or my family",
                     "es": "Nada como yo o mi familia "
-                }
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "1 ",
                     "es": "1"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Somewhat like me or my family ",
-                    "es": "Algo así como yo o mi familia "
-                }
+                    "es": "Algo as\u00ed como yo o mi familia "
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "3 ",
                     "es": "3 "
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Very much like me or my family",
-                    "es": "Muy parecido a mí o mi familia"
-                }
+                    "es": "Muy parecido a m\u00ed o mi familia"
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = Not at all like me or my family0  Nada como yo o mi familia0; 1 = 1 1; 2 = Somewhat like me or my family2  Algo asÃ­ como yo o mi familia2; 3 = 3 3; 4 = Very much like me or my family4 Muy parecido a mÃ­ o mi familia4"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hcpmq_5",
+        "es": "irma_hcpmq_5_es"
+    }
 }

@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "PCIAT_11",
-    "prefLabel": "PCIAT_11",
-    "description": "Q11 of the Parent-Child Internet Addiction Test",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PCIAT_11",
+    "category": "Item",
+    "description": {
+        "en": "Q11 of the Parent-Child Internet Addiction Test"
+    },
     "question": {
         "en": "How often does your child spend time along in his or her room playing on the computer?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "PCIAT_11"
+    }
 }

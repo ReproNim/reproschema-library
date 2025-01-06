@@ -1,62 +1,66 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "su_risk_p_12",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "su_risk_p_12",
-        "es": "su_risk_p_12_es"
-    },
-    "altLabel": "su_crpf_avail_12_p",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "su_risk_p_12",
+    "category": "Item",
     "question": {
         "en": "If you wanted to get prescription anxiolytics or tranquilizers (such as Xanax and Ativan) (that were not prescribed to you by a doctor), how easy would it be for you to get some?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1=Very Hard; 2=Sort of hard; 3=Sort of easy; 4=Very easy; 999=Don't know"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 4,
+        "minValue": 1,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Very hard"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Sort of hard"
-                }
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Sort of easy"
-                }
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Very easy"
-                }
+                },
+                "value": 4
             },
             {
-                "value": 999,
                 "name": {
                     "en": "Don't Know"
-                }
+                },
+                "value": 999
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1=Very Hard; 2=Sort of hard; 3=Sort of easy; 4=Very easy; 999=Don't know"
-        }
-    ]
+    "altLabel": {
+        "en": "su_crpf_avail_12_p"
+    },
+    "prefLabel": {
+        "en": "su_risk_p_12",
+        "es": "su_risk_p_12_es"
+    }
 }

@@ -1,15 +1,484 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "abcd_lpds01_schema",
-    "prefLabel": {
-        "en": "ABCD Longitudinal Parent Demographics Survey",
-        "es": "abcd_lpds01_es"
-    },
-    "altLabel": "abcd_lpds01",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "abcd_lpds01_schema",
+    "category": "Activity",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/demo_brthdat_v2_l",
+                "variableName": "demo_brthdat_v2_l"
+            },
+            {
+                "isAbout": "items/demo_child_time_v2_l",
+                "variableName": "demo_child_time_v2_l"
+            },
+            {
+                "isAbout": "items/demo_child_time2_v2_dk_l",
+                "variableName": "demo_child_time2_v2_dk_l"
+            },
+            {
+                "isAbout": "items/demo_child_time2_v2_l",
+                "variableName": "demo_child_time2_v2_l"
+            },
+            {
+                "isAbout": "items/demo_child_time3_v2_l",
+                "variableName": "demo_child_time3_v2_l"
+            },
+            {
+                "isAbout": "items/demo_comb_income_v2_l",
+                "variableName": "demo_comb_income_v2_l"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_v2_l",
+                "variableName": "demo_dual_lang_v2_l"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___1",
+                "variableName": "demo_dual_lang_years_p___1"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___10",
+                "variableName": "demo_dual_lang_years_p___10"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___2",
+                "variableName": "demo_dual_lang_years_p___2"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___3",
+                "variableName": "demo_dual_lang_years_p___3"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___4",
+                "variableName": "demo_dual_lang_years_p___4"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___5",
+                "variableName": "demo_dual_lang_years_p___5"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___6",
+                "variableName": "demo_dual_lang_years_p___6"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___7",
+                "variableName": "demo_dual_lang_years_p___7"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___8",
+                "variableName": "demo_dual_lang_years_p___8"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p___9",
+                "variableName": "demo_dual_lang_years_p___9"
+            },
+            {
+                "isAbout": "items/demo_ed_v2_l",
+                "variableName": "demo_ed_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp1_v2_l",
+                "variableName": "demo_fam_exp1_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp2_v2_l",
+                "variableName": "demo_fam_exp2_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp3_v2_l",
+                "variableName": "demo_fam_exp3_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp4_v2_l",
+                "variableName": "demo_fam_exp4_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp5_v2_l",
+                "variableName": "demo_fam_exp5_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp6_v2_l",
+                "variableName": "demo_fam_exp6_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp7_v2_l",
+                "variableName": "demo_fam_exp7_v2_l"
+            },
+            {
+                "isAbout": "items/demo_gender_id_v2_l",
+                "variableName": "demo_gender_id_v2_l"
+            },
+            {
+                "isAbout": "items/demo_med_insur_a_p",
+                "variableName": "demo_med_insur_a_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_b_p",
+                "variableName": "demo_med_insur_b_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_c_p",
+                "variableName": "demo_med_insur_c_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_d_p",
+                "variableName": "demo_med_insur_d_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_e_p",
+                "variableName": "demo_med_insur_e_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_f_p",
+                "variableName": "demo_med_insur_f_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_g_p",
+                "variableName": "demo_med_insur_g_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_h_p",
+                "variableName": "demo_med_insur_h_p"
+            },
+            {
+                "isAbout": "items/demo_nat_lang_2_l",
+                "variableName": "demo_nat_lang_2_l"
+            },
+            {
+                "isAbout": "items/demo_nat_lang_l",
+                "variableName": "demo_nat_lang_l"
+            },
+            {
+                "isAbout": "items/demo_prim_l",
+                "variableName": "demo_prim_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_age_v2_l",
+                "variableName": "demo_prnt_age_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_age_v2_refuse_l",
+                "variableName": "demo_prnt_age_v2_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ed_v2_2yr_l",
+                "variableName": "demo_prnt_ed_v2_2yr_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ed_v2_l",
+                "variableName": "demo_prnt_ed_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_empl_time_l",
+                "variableName": "demo_prnt_empl_time_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_empl_v2_l",
+                "variableName": "demo_prnt_empl_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ethn_v2_l",
+                "variableName": "demo_prnt_ethn_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ethn2_v2_l",
+                "variableName": "demo_prnt_ethn2_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ethnic_acs_p",
+                "variableName": "demo_prnt_ethnic_acs_p"
+            },
+            {
+                "isAbout": "items/demo_prnt_gender_id_v2_l",
+                "variableName": "demo_prnt_gender_id_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_income_v2_l",
+                "variableName": "demo_prnt_income_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_indust_refuse_l",
+                "variableName": "demo_prnt_indust_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_marital_v2_l",
+                "variableName": "demo_prnt_marital_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_nat_lang_2_l",
+                "variableName": "demo_prnt_nat_lang_2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_nat_lang_l",
+                "variableName": "demo_prnt_nat_lang_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_prtnr_adopt_l",
+                "variableName": "demo_prnt_prtnr_adopt_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_prtnr_bio_l",
+                "variableName": "demo_prnt_prtnr_bio_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_prtnr_v2_l",
+                "variableName": "demo_prnt_prtnr_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___10",
+                "variableName": "demo_prnt_race_a_v2_l___10"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___11",
+                "variableName": "demo_prnt_race_a_v2_l___11"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___12",
+                "variableName": "demo_prnt_race_a_v2_l___12"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___13",
+                "variableName": "demo_prnt_race_a_v2_l___13"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___14",
+                "variableName": "demo_prnt_race_a_v2_l___14"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___15",
+                "variableName": "demo_prnt_race_a_v2_l___15"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___16",
+                "variableName": "demo_prnt_race_a_v2_l___16"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___17",
+                "variableName": "demo_prnt_race_a_v2_l___17"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___18",
+                "variableName": "demo_prnt_race_a_v2_l___18"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___19",
+                "variableName": "demo_prnt_race_a_v2_l___19"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___20",
+                "variableName": "demo_prnt_race_a_v2_l___20"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___21",
+                "variableName": "demo_prnt_race_a_v2_l___21"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___22",
+                "variableName": "demo_prnt_race_a_v2_l___22"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___23",
+                "variableName": "demo_prnt_race_a_v2_l___23"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___24",
+                "variableName": "demo_prnt_race_a_v2_l___24"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___25",
+                "variableName": "demo_prnt_race_a_v2_l___25"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___77",
+                "variableName": "demo_prnt_race_a_v2_l___77"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l___99",
+                "variableName": "demo_prnt_race_a_v2_l___99"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__10",
+                "variableName": "demo_prnt_race_acs_p__10"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__11",
+                "variableName": "demo_prnt_race_acs_p__11"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__12",
+                "variableName": "demo_prnt_race_acs_p__12"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__13",
+                "variableName": "demo_prnt_race_acs_p__13"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__14",
+                "variableName": "demo_prnt_race_acs_p__14"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__15",
+                "variableName": "demo_prnt_race_acs_p__15"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__16",
+                "variableName": "demo_prnt_race_acs_p__16"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__17",
+                "variableName": "demo_prnt_race_acs_p__17"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__18",
+                "variableName": "demo_prnt_race_acs_p__18"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__19",
+                "variableName": "demo_prnt_race_acs_p__19"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__20",
+                "variableName": "demo_prnt_race_acs_p__20"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__21",
+                "variableName": "demo_prnt_race_acs_p__21"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__22",
+                "variableName": "demo_prnt_race_acs_p__22"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__23",
+                "variableName": "demo_prnt_race_acs_p__23"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__24",
+                "variableName": "demo_prnt_race_acs_p__24"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__777",
+                "variableName": "demo_prnt_race_acs_p__777"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p__999",
+                "variableName": "demo_prnt_race_acs_p__999"
+            },
+            {
+                "isAbout": "items/demo_prtnr_ed_v2_2yr_l",
+                "variableName": "demo_prtnr_ed_v2_2yr_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_ed_v2_l",
+                "variableName": "demo_prtnr_ed_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_empl_time_l",
+                "variableName": "demo_prtnr_empl_time_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_empl_v2_l",
+                "variableName": "demo_prtnr_empl_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_income_v2_l",
+                "variableName": "demo_prtnr_income_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_indust_refuse_l",
+                "variableName": "demo_prtnr_indust_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_relig_v2_l",
+                "variableName": "demo_relig_v2_l"
+            },
+            {
+                "isAbout": "items/demo_roster_v2_l",
+                "variableName": "demo_roster_v2_l"
+            },
+            {
+                "isAbout": "items/demo_roster_v2_refuse_l",
+                "variableName": "demo_roster_v2_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_1_l",
+                "variableName": "demo_yrs_1_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_2_l",
+                "variableName": "demo_yrs_2_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_2_no_display_l___1",
+                "variableName": "demo_yrs_2_no_display_l___1"
+            },
+            {
+                "isAbout": "items/demo_yrs_2a_l",
+                "variableName": "demo_yrs_2a_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_2b_l",
+                "variableName": "demo_yrs_2b_l"
+            },
+            {
+                "isAbout": "items/fam_roster_10c_v2_l",
+                "variableName": "fam_roster_10c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_11c_v2_l",
+                "variableName": "fam_roster_11c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_12c_v2_l",
+                "variableName": "fam_roster_12c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_13c_v2_l",
+                "variableName": "fam_roster_13c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_14c_v2_l",
+                "variableName": "fam_roster_14c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_15c_v2_l",
+                "variableName": "fam_roster_15c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_2c_v2_l",
+                "variableName": "fam_roster_2c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_3c_v2_l",
+                "variableName": "fam_roster_3c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_4c_v2_l",
+                "variableName": "fam_roster_4c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_5c_v2_l",
+                "variableName": "fam_roster_5c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_6c_v2_l",
+                "variableName": "fam_roster_6c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_7c_v2_l",
+                "variableName": "fam_roster_7c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_8c_v2_l",
+                "variableName": "fam_roster_8c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_9c_v2_l",
+                "variableName": "fam_roster_9c_v2_l"
+            }
+        ],
         "order": [
             "items/demo_brthdat_v2_l",
             "items/demo_child_time_v2_l",
@@ -130,480 +599,13 @@
             "items/fam_roster_8c_v2_l",
             "items/fam_roster_9c_v2_l"
         ],
-        "shuffle": false,
-        "addProperties": [
-            {
-                "variableName": "demo_brthdat_v2_l",
-                "isAbout": "items/demo_brthdat_v2_l"
-            },
-            {
-                "variableName": "demo_child_time_v2_l",
-                "isAbout": "items/demo_child_time_v2_l"
-            },
-            {
-                "variableName": "demo_child_time2_v2_dk_l",
-                "isAbout": "items/demo_child_time2_v2_dk_l"
-            },
-            {
-                "variableName": "demo_child_time2_v2_l",
-                "isAbout": "items/demo_child_time2_v2_l"
-            },
-            {
-                "variableName": "demo_child_time3_v2_l",
-                "isAbout": "items/demo_child_time3_v2_l"
-            },
-            {
-                "variableName": "demo_comb_income_v2_l",
-                "isAbout": "items/demo_comb_income_v2_l"
-            },
-            {
-                "variableName": "demo_dual_lang_v2_l",
-                "isAbout": "items/demo_dual_lang_v2_l"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___1",
-                "isAbout": "items/demo_dual_lang_years_p___1"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___10",
-                "isAbout": "items/demo_dual_lang_years_p___10"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___2",
-                "isAbout": "items/demo_dual_lang_years_p___2"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___3",
-                "isAbout": "items/demo_dual_lang_years_p___3"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___4",
-                "isAbout": "items/demo_dual_lang_years_p___4"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___5",
-                "isAbout": "items/demo_dual_lang_years_p___5"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___6",
-                "isAbout": "items/demo_dual_lang_years_p___6"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___7",
-                "isAbout": "items/demo_dual_lang_years_p___7"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___8",
-                "isAbout": "items/demo_dual_lang_years_p___8"
-            },
-            {
-                "variableName": "demo_dual_lang_years_p___9",
-                "isAbout": "items/demo_dual_lang_years_p___9"
-            },
-            {
-                "variableName": "demo_ed_v2_l",
-                "isAbout": "items/demo_ed_v2_l"
-            },
-            {
-                "variableName": "demo_fam_exp1_v2_l",
-                "isAbout": "items/demo_fam_exp1_v2_l"
-            },
-            {
-                "variableName": "demo_fam_exp2_v2_l",
-                "isAbout": "items/demo_fam_exp2_v2_l"
-            },
-            {
-                "variableName": "demo_fam_exp3_v2_l",
-                "isAbout": "items/demo_fam_exp3_v2_l"
-            },
-            {
-                "variableName": "demo_fam_exp4_v2_l",
-                "isAbout": "items/demo_fam_exp4_v2_l"
-            },
-            {
-                "variableName": "demo_fam_exp5_v2_l",
-                "isAbout": "items/demo_fam_exp5_v2_l"
-            },
-            {
-                "variableName": "demo_fam_exp6_v2_l",
-                "isAbout": "items/demo_fam_exp6_v2_l"
-            },
-            {
-                "variableName": "demo_fam_exp7_v2_l",
-                "isAbout": "items/demo_fam_exp7_v2_l"
-            },
-            {
-                "variableName": "demo_gender_id_v2_l",
-                "isAbout": "items/demo_gender_id_v2_l"
-            },
-            {
-                "variableName": "demo_med_insur_a_p",
-                "isAbout": "items/demo_med_insur_a_p"
-            },
-            {
-                "variableName": "demo_med_insur_b_p",
-                "isAbout": "items/demo_med_insur_b_p"
-            },
-            {
-                "variableName": "demo_med_insur_c_p",
-                "isAbout": "items/demo_med_insur_c_p"
-            },
-            {
-                "variableName": "demo_med_insur_d_p",
-                "isAbout": "items/demo_med_insur_d_p"
-            },
-            {
-                "variableName": "demo_med_insur_e_p",
-                "isAbout": "items/demo_med_insur_e_p"
-            },
-            {
-                "variableName": "demo_med_insur_f_p",
-                "isAbout": "items/demo_med_insur_f_p"
-            },
-            {
-                "variableName": "demo_med_insur_g_p",
-                "isAbout": "items/demo_med_insur_g_p"
-            },
-            {
-                "variableName": "demo_med_insur_h_p",
-                "isAbout": "items/demo_med_insur_h_p"
-            },
-            {
-                "variableName": "demo_nat_lang_2_l",
-                "isAbout": "items/demo_nat_lang_2_l"
-            },
-            {
-                "variableName": "demo_nat_lang_l",
-                "isAbout": "items/demo_nat_lang_l"
-            },
-            {
-                "variableName": "demo_prim_l",
-                "isAbout": "items/demo_prim_l"
-            },
-            {
-                "variableName": "demo_prnt_age_v2_l",
-                "isAbout": "items/demo_prnt_age_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_age_v2_refuse_l",
-                "isAbout": "items/demo_prnt_age_v2_refuse_l"
-            },
-            {
-                "variableName": "demo_prnt_ed_v2_2yr_l",
-                "isAbout": "items/demo_prnt_ed_v2_2yr_l"
-            },
-            {
-                "variableName": "demo_prnt_ed_v2_l",
-                "isAbout": "items/demo_prnt_ed_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_empl_time_l",
-                "isAbout": "items/demo_prnt_empl_time_l"
-            },
-            {
-                "variableName": "demo_prnt_empl_v2_l",
-                "isAbout": "items/demo_prnt_empl_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_ethn_v2_l",
-                "isAbout": "items/demo_prnt_ethn_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_ethn2_v2_l",
-                "isAbout": "items/demo_prnt_ethn2_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_ethnic_acs_p",
-                "isAbout": "items/demo_prnt_ethnic_acs_p"
-            },
-            {
-                "variableName": "demo_prnt_gender_id_v2_l",
-                "isAbout": "items/demo_prnt_gender_id_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_income_v2_l",
-                "isAbout": "items/demo_prnt_income_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_indust_refuse_l",
-                "isAbout": "items/demo_prnt_indust_refuse_l"
-            },
-            {
-                "variableName": "demo_prnt_marital_v2_l",
-                "isAbout": "items/demo_prnt_marital_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_nat_lang_2_l",
-                "isAbout": "items/demo_prnt_nat_lang_2_l"
-            },
-            {
-                "variableName": "demo_prnt_nat_lang_l",
-                "isAbout": "items/demo_prnt_nat_lang_l"
-            },
-            {
-                "variableName": "demo_prnt_prtnr_adopt_l",
-                "isAbout": "items/demo_prnt_prtnr_adopt_l"
-            },
-            {
-                "variableName": "demo_prnt_prtnr_bio_l",
-                "isAbout": "items/demo_prnt_prtnr_bio_l"
-            },
-            {
-                "variableName": "demo_prnt_prtnr_v2_l",
-                "isAbout": "items/demo_prnt_prtnr_v2_l"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___10",
-                "isAbout": "items/demo_prnt_race_a_v2_l___10"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___11",
-                "isAbout": "items/demo_prnt_race_a_v2_l___11"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___12",
-                "isAbout": "items/demo_prnt_race_a_v2_l___12"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___13",
-                "isAbout": "items/demo_prnt_race_a_v2_l___13"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___14",
-                "isAbout": "items/demo_prnt_race_a_v2_l___14"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___15",
-                "isAbout": "items/demo_prnt_race_a_v2_l___15"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___16",
-                "isAbout": "items/demo_prnt_race_a_v2_l___16"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___17",
-                "isAbout": "items/demo_prnt_race_a_v2_l___17"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___18",
-                "isAbout": "items/demo_prnt_race_a_v2_l___18"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___19",
-                "isAbout": "items/demo_prnt_race_a_v2_l___19"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___20",
-                "isAbout": "items/demo_prnt_race_a_v2_l___20"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___21",
-                "isAbout": "items/demo_prnt_race_a_v2_l___21"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___22",
-                "isAbout": "items/demo_prnt_race_a_v2_l___22"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___23",
-                "isAbout": "items/demo_prnt_race_a_v2_l___23"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___24",
-                "isAbout": "items/demo_prnt_race_a_v2_l___24"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___25",
-                "isAbout": "items/demo_prnt_race_a_v2_l___25"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___77",
-                "isAbout": "items/demo_prnt_race_a_v2_l___77"
-            },
-            {
-                "variableName": "demo_prnt_race_a_v2_l___99",
-                "isAbout": "items/demo_prnt_race_a_v2_l___99"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__10",
-                "isAbout": "items/demo_prnt_race_acs_p__10"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__11",
-                "isAbout": "items/demo_prnt_race_acs_p__11"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__12",
-                "isAbout": "items/demo_prnt_race_acs_p__12"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__13",
-                "isAbout": "items/demo_prnt_race_acs_p__13"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__14",
-                "isAbout": "items/demo_prnt_race_acs_p__14"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__15",
-                "isAbout": "items/demo_prnt_race_acs_p__15"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__16",
-                "isAbout": "items/demo_prnt_race_acs_p__16"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__17",
-                "isAbout": "items/demo_prnt_race_acs_p__17"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__18",
-                "isAbout": "items/demo_prnt_race_acs_p__18"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__19",
-                "isAbout": "items/demo_prnt_race_acs_p__19"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__20",
-                "isAbout": "items/demo_prnt_race_acs_p__20"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__21",
-                "isAbout": "items/demo_prnt_race_acs_p__21"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__22",
-                "isAbout": "items/demo_prnt_race_acs_p__22"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__23",
-                "isAbout": "items/demo_prnt_race_acs_p__23"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__24",
-                "isAbout": "items/demo_prnt_race_acs_p__24"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__777",
-                "isAbout": "items/demo_prnt_race_acs_p__777"
-            },
-            {
-                "variableName": "demo_prnt_race_acs_p__999",
-                "isAbout": "items/demo_prnt_race_acs_p__999"
-            },
-            {
-                "variableName": "demo_prtnr_ed_v2_2yr_l",
-                "isAbout": "items/demo_prtnr_ed_v2_2yr_l"
-            },
-            {
-                "variableName": "demo_prtnr_ed_v2_l",
-                "isAbout": "items/demo_prtnr_ed_v2_l"
-            },
-            {
-                "variableName": "demo_prtnr_empl_time_l",
-                "isAbout": "items/demo_prtnr_empl_time_l"
-            },
-            {
-                "variableName": "demo_prtnr_empl_v2_l",
-                "isAbout": "items/demo_prtnr_empl_v2_l"
-            },
-            {
-                "variableName": "demo_prtnr_income_v2_l",
-                "isAbout": "items/demo_prtnr_income_v2_l"
-            },
-            {
-                "variableName": "demo_prtnr_indust_refuse_l",
-                "isAbout": "items/demo_prtnr_indust_refuse_l"
-            },
-            {
-                "variableName": "demo_relig_v2_l",
-                "isAbout": "items/demo_relig_v2_l"
-            },
-            {
-                "variableName": "demo_roster_v2_l",
-                "isAbout": "items/demo_roster_v2_l"
-            },
-            {
-                "variableName": "demo_roster_v2_refuse_l",
-                "isAbout": "items/demo_roster_v2_refuse_l"
-            },
-            {
-                "variableName": "demo_yrs_1_l",
-                "isAbout": "items/demo_yrs_1_l"
-            },
-            {
-                "variableName": "demo_yrs_2_l",
-                "isAbout": "items/demo_yrs_2_l"
-            },
-            {
-                "variableName": "demo_yrs_2_no_display_l___1",
-                "isAbout": "items/demo_yrs_2_no_display_l___1"
-            },
-            {
-                "variableName": "demo_yrs_2a_l",
-                "isAbout": "items/demo_yrs_2a_l"
-            },
-            {
-                "variableName": "demo_yrs_2b_l",
-                "isAbout": "items/demo_yrs_2b_l"
-            },
-            {
-                "variableName": "fam_roster_10c_v2_l",
-                "isAbout": "items/fam_roster_10c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_11c_v2_l",
-                "isAbout": "items/fam_roster_11c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_12c_v2_l",
-                "isAbout": "items/fam_roster_12c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_13c_v2_l",
-                "isAbout": "items/fam_roster_13c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_14c_v2_l",
-                "isAbout": "items/fam_roster_14c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_15c_v2_l",
-                "isAbout": "items/fam_roster_15c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_2c_v2_l",
-                "isAbout": "items/fam_roster_2c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_3c_v2_l",
-                "isAbout": "items/fam_roster_3c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_4c_v2_l",
-                "isAbout": "items/fam_roster_4c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_5c_v2_l",
-                "isAbout": "items/fam_roster_5c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_6c_v2_l",
-                "isAbout": "items/fam_roster_6c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_7c_v2_l",
-                "isAbout": "items/fam_roster_7c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_8c_v2_l",
-                "isAbout": "items/fam_roster_8c_v2_l"
-            },
-            {
-                "variableName": "fam_roster_9c_v2_l",
-                "isAbout": "items/fam_roster_9c_v2_l"
-            }
-        ]
+        "shuffle": false
+    },
+    "altLabel": {
+        "en": "abcd_lpds01"
+    },
+    "prefLabel": {
+        "en": "ABCD Longitudinal Parent Demographics Survey",
+        "es": "abcd_lpds01_es"
     }
 }

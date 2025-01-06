@@ -1,31 +1,35 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "interviewed_who",
-    "prefLabel": "interviewed_who",
-    "ui": {
-        "inputType": "select"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "interviewed_who",
+    "category": "Item",
     "question": {
         "en": "Who is being interviewed?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
+    },
     "responseOptions": {
-        "valueType": "xsd:integer",
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Participant only"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Participant and informant (e.g., parent)"
-                }
+                },
+                "value": 2
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "interviewed_who"
     }
 }

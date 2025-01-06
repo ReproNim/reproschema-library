@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "WHODAS36_S_10",
-    "prefLabel": "WHODAS 2.0 Self Q10",
-    "description": "Question 10 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS36_S_10",
+    "category": "Item",
+    "description": {
+        "en": "Question 10 World Health Organization Disability Assessment Schedule (WHODAS 2.0) Self-Administered Version"
+    },
+    "question": {
+        "en": "Getting out of your home?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "question": "Getting out of your home?",
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "WHODAS 2.0 Self Q10"
+    }
 }

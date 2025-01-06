@@ -1,75 +1,78 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "su_risk_p_9",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "su_risk_p_9",
-        "es": "su_risk_p_9_es"
-    },
-    "altLabel": "su_crpf_avail_9_p",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "su_risk_p_9",
+    "category": "Item",
     "question": {
         "en": "How many of your friends or family members have a medical marijuana prescription?",
-        "es": "¿Cuántos de sus amigos(as) o familiares tienen una receta para marihuana medicinal?"
+        "es": "\u00bfCu\u00e1ntos de sus amigos(as) o familiares tienen una receta para marihuana medicinal?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = 0; 8 = 1-3; 9 = 4-6; 10 = 7-9; 11 = 10 or more people 10 o m\u00e1s personas; 999 = Don't know No lo s\u00e9; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar qu\u00c3\u00a9 tan f\u00c3\u00a1cil es conseguir ciertas sustancias."
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 999,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "0",
                     "es": "0"
-                }
+                },
+                "value": 0
             },
             {
-                "value": 8,
                 "name": {
-                    "en": "1-3",
                     "en": "1-3"
-                }
+                },
+                "value": 8
             },
             {
-                "value": 9,
                 "name": {
                     "en": "4-6",
                     "es": "4-6"
-                }
+                },
+                "value": 9
             },
             {
-                "value": 10,
                 "name": {
                     "en": "7-9",
                     "es": "7-9"
-                }
+                },
+                "value": 10
             },
             {
-                "value": 11,
                 "name": {
                     "en": "10 or more people",
-                    "es": "10 o más personas"
-                }
+                    "es": "10 o m\u00e1s personas"
+                },
+                "value": 11
             },
             {
-                "value": 999,
                 "name": {
                     "en": "Don't Know",
-                    "es": "No  lo sé"
-                }
+                    "es": "No  lo s\u00e9"
+                },
+                "value": 999
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = 0; 8 = 1-3; 9 = 4-6; 10 = 7-9; 11 = 10 or more people 10 o más personas; 999 = Don't know No lo sé; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar quÃ© tan fÃ¡cil es conseguir ciertas sustancias."
-        }
-    ]
+    "altLabel": {
+        "en": "su_crpf_avail_9_p"
+    },
+    "prefLabel": {
+        "en": "su_risk_p_9",
+        "es": "su_risk_p_9_es"
+    }
 }

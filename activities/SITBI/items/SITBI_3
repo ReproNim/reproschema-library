@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "SITBI_3",
-    "prefLabel": "SITBI_3",
-    "description": "This is a text item.",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SITBI_3",
+    "category": "Item",
+    "description": {
+        "en": "This is a text item."
+    },
+    "question": {
+        "en": "How old were you the last time?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "How old were you the last time?",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "prefLabel": {
+        "en": "SITBI_3"
     }
 }

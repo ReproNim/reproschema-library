@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "tbi_ss_nmrpi_nm_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "tbi_ss_nmrpi_nm_l",
-    "altLabel": "brain_injury_ss_nmrpi_nm_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "tbi_ss_nmrpi_nm_l",
+    "category": "Item",
+    "question": {
+        "en": "Number of periods with multiple or repeated injuries\r: Number missing"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Number of periods with multiple or repeated injuries\r: Number missing",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "altLabel": {
+        "en": "brain_injury_ss_nmrpi_nm_p_l"
+    },
+    "prefLabel": {
+        "en": "tbi_ss_nmrpi_nm_l"
     }
 }

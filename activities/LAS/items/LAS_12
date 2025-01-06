@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "LAS_12",
-    "prefLabel": "LAS 12",
-    "description": "Q12 of the Lyubomirsky Affect Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "LAS_12",
+    "category": "Item",
+    "description": {
+        "en": "Q12 of the Lyubomirsky Affect Scale"
+    },
     "question": {
         "en": "Dull/bored"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "LAS 12"
+    }
 }

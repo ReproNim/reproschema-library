@@ -1,24 +1,30 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "@id": "person2_exist",
-    "prefLabel": "person2_exist",
-    "ui": {
-        "inputType": "radio"
-    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "person2_exist",
+    "category": "Item",
     "question": {
         "en": "Is there another person who significantly contributes to the participant's current living expenses.\n"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
     },
     "responseOptions": {
         "choices": [
             {
-                "name": "Yes"
+                "name": {
+                    "en": "Yes"
+                }
             },
             {
-                "name": "No"
+                "name": {
+                    "en": "No"
+                }
             }
         ]
+    },
+    "prefLabel": {
+        "en": "person2_exist"
     }
 }

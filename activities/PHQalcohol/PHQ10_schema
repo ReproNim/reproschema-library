@@ -1,54 +1,46 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "PHQ10_schema",
-    "prefLabel": {
-        "en": "PHQ-Q10",
-        "es": "PHQ-Q10"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "PHQ10_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
     },
-    "description": "PHQ Q10 schema",
-    "schemaVersion": "1.0.0-rc4",
+    "description": {
+        "en": "PHQ Q10 schema"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
-        "es": "¿Alguna de estas situaciones le ha ocurrido más de una vez en los últimos 6 meses?",
-        "nl": "Zijn één of meer van de volgende dingen u in de afgelopen 6 maanden meer dan eensoverkomen?",
-        "fr": "Avez-vous été dans l’une des situations suivantes plus d’une fois au cours des derniers 6 mois?",
-        "pt-BR": "Alguma das situações abaixo aconteceu com você mais de uma vez nos últimos 6 meses?",
-        "ko": "지난 6개월동안다음의일들이한번이상일어났습니까?"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/phq10a",
-                "variableName": "phq10a",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq10a"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq10b",
-                "variableName": "phq10b",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq10b"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq10c",
-                "variableName": "phq10c",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq10c"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/phq10d",
-                "variableName": "phq10d",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq10d"
             },
             {
-                "isAbout": "items/phq10e",
-                "variableName": "phq10e",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/phq10e",
+                "isVis": true,
+                "variableName": "phq10e"
             }
         ],
         "order": [
@@ -59,5 +51,17 @@
             "items/phq10e"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "In the last 3 months have you often done any of the following in order to avoid gaining weight?",
+        "es": "\u00bfAlguna de estas situaciones le ha ocurrido m\u00e1s de una vez en los \u00faltimos 6 meses?",
+        "fr": "Avez-vous \u00e9t\u00e9 dans l\u2019une des situations suivantes plus d\u2019une fois au cours des derniers 6 mois?",
+        "ko": "\uc9c0\ub09c 6\uac1c\uc6d4\ub3d9\uc548\ub2e4\uc74c\uc758\uc77c\ub4e4\uc774\ud55c\ubc88\uc774\uc0c1\uc77c\uc5b4\ub0ac\uc2b5\ub2c8\uae4c?",
+        "nl": "Zijn \u00e9\u00e9n of meer van de volgende dingen u in de afgelopen 6 maanden meer dan eensoverkomen?",
+        "pt-br": "Alguma das situa\u00e7\u00f5es abaixo aconteceu com voc\u00ea mais de uma vez nos \u00faltimos 6 meses?"
+    },
+    "prefLabel": {
+        "en": "PHQ-Q10",
+        "es": "PHQ-Q10"
     }
 }

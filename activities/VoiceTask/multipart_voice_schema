@@ -1,42 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "multipart_voice_schema",
-    "prefLabel": "voice tasks",
-    "description": "Voice tasks",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "multipart_voice_schema",
+    "category": "Activity",
+    "description": {
+        "en": "Voice tasks"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "preamble": "In the following task, you will be shown a sequence of numbers. Please read it aloud and remember the sequence. Then you will be asked to read a passage aloud. After you finish reading it, you will be asked to speak aloud the sequence of numbers you had previously memorized.",
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/view_numbers",
-                "variableName": "view_numbers",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "view_numbers"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/read_passage",
-                "variableName": "read_passage",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "read_passage"
             },
             {
-                "isAbout": "items/say_numbers",
-                "variableName": "say_numbers",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/say_numbers",
+                "isVis": true,
+                "variableName": "say_numbers"
             }
+        ],
+        "allow": [
+            "reproschema:AllowSkip",
+            "reproschema:AllowAltResponse"
         ],
         "order": [
             "items/view_numbers",
             "items/read_passage",
             "items/say_numbers"
         ],
-        "shuffle": false,
-        "allow": [
-            "reproschema:Skipped",
-            "reproschema:DontKnow"
-        ]
+        "shuffle": false
+    },
+    "preamble": {
+        "en": "In the following task, you will be shown a sequence of numbers. Please read it aloud and remember the sequence. Then you will be asked to read a passage aloud. After you finish reading it, you will be asked to speak aloud the sequence of numbers you had previously memorized."
+    },
+    "prefLabel": {
+        "en": "voice tasks"
     }
 }

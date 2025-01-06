@@ -1,14 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "say_numbers",
-    "prefLabel": "Say numbers",
-    "description": "say numbers",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "say_numbers",
+    "category": "Item",
+    "description": {
+        "en": "say numbers"
+    },
+    "question": {
+        "en": "Say the numbers you were asked to memorize previously"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Say the numbers you were asked to memorize previously",
     "ui": {
         "inputType": "audioRecord"
     },
-    "responseOptions": "pataka_valueConstraints"
+    "responseOptions": "pataka_valueConstraints",
+    "prefLabel": {
+        "en": "Say numbers"
+    }
 }

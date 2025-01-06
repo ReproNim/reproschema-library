@@ -1,59 +1,87 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "clinical_history_neurology",
-    "prefLabel": "Diagnosed",
-    "description": "schema for native diagnosed of participant",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "clinical_history_neurology",
+    "category": "Item",
+    "description": {
+        "en": "schema for native diagnosed of participant"
+    },
+    "question": {
+        "en": "Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:anyURI",
-        "multipleChoice": true,
         "choices": [
             {
-                "value": 1,
-                "name": "Stroke"
+                "name": {
+                    "en": "Stroke"
+                },
+                "value": 1
             },
             {
-                "value": 2,
-                "name": "Alzheimer's disease"
+                "name": {
+                    "en": "Alzheimer's disease"
+                },
+                "value": 2
             },
             {
-                "value": 3,
-                "name": "Parkinson's disease"
+                "name": {
+                    "en": "Parkinson's disease"
+                },
+                "value": 3
             },
             {
-                "value": 4,
-                "name": "Migraine"
+                "name": {
+                    "en": "Migraine"
+                },
+                "value": 4
             },
             {
-                "value": 5,
-                "name": "Epilepsy"
+                "name": {
+                    "en": "Epilepsy"
+                },
+                "value": 5
             },
             {
-                "value": 6,
-                "name": "Brain tumor"
+                "name": {
+                    "en": "Brain tumor"
+                },
+                "value": 6
             },
             {
-                "value": 7,
-                "name": "Multiple Sclerosis"
+                "name": {
+                    "en": "Multiple Sclerosis"
+                },
+                "value": 7
             },
             {
-                "value": 0,
-                "name": "Prefer not to disclose"
+                "name": {
+                    "en": "Prefer not to disclose"
+                },
+                "value": 0
             },
             {
-                "value": -1,
-                "name": "Other"
+                "name": {
+                    "en": "Other"
+                },
+                "value": -1
             },
             {
-                "value": 999,
-                "name": "None"
+                "name": {
+                    "en": "None"
+                },
+                "value": 999
             }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:anyURI"
         ]
+    },
+    "prefLabel": {
+        "en": "Diagnosed"
     }
 }

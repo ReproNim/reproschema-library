@@ -1,35 +1,47 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "demo_roster_v2_refuse_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_roster_v2_refuse_l",
-    "altLabel": "demo_roster_refuse_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_roster_v2_refuse_l",
+    "category": "Item",
+    "question": {
+        "en": "Not applicable  No aplica; Refuse to answer Prefiero no contestar"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Not applicable  No aplica; Refuse to answer Prefiero no contestar",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "-1 = Not applicable (for example; 777 = Refuse to answer prefiero no contestar"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": -1,
         "maxValue": 777,
+        "minValue": -1,
         "choices": [
             {
-                "name": "Not applicable (for example",
+                "name": {
+                    "en": "Not applicable (for example"
+                },
                 "value": -1
             },
             {
-                "name": "Refuse to answer prefiero no contestar",
+                "name": {
+                    "en": "Refuse to answer prefiero no contestar"
+                },
                 "value": 777
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "-1 = Not applicable (for example; 777 = Refuse to answer prefiero no contestar"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_roster_refuse_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_roster_v2_refuse_l"
+    }
 }

@@ -1,24 +1,32 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "anthroweightcalc",
-    "@type": "reproschema:Field",
-    "prefLabel": "anthroweightcalc",
-    "altLabel": "anthro_weight_calc",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "question": "Average Measured Weight (lbs):If three measurements were obtained, the two closest measurements will be averaged. Should the third measurement fall equally between the first two measurements, all three will be averaged.",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "anthroweightcalc",
+    "category": "Item",
+    "question": {
+        "en": "Average Measured Weight (lbs):If three measurements were obtained, the two closest measurements will be averaged. Should the third measurement fall equally between the first two measurements, all three will be averaged."
+    },
     "ui": {
-        "inputType": "text",
-        "readonlyValue": true
+        "readonlyValue": true,
+        "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "additionalNotesObj": [
         {
-            "source": "ABCD_NDA",
             "column": "notes",
+            "source": "ABCD_NDA",
             "value": "Calculation: if([anthro_weight3_lb] <> '',mean([anthro_weight3_lb],[anthro_weight2_lb],[anthro_weight1_lb]), mean([anthro_weight1_lb],[anthro_weight2_lb]))"
         }
-    ]
+    ],
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "altLabel": {
+        "en": "anthro_weight_calc"
+    },
+    "prefLabel": {
+        "en": "anthroweightcalc"
+    }
 }

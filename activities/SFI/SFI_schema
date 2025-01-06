@@ -1,90 +1,88 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "SFI_schema",
-    "prefLabel": {
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "SFI_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
+    },
+    "description": {
         "en": "SFI schema"
     },
-    "description": "SFI schema",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-                        "en": "Use the 10-point scale below to answer the questions:"
-    },
     "ui": {
         "addProperties": [
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_1",
-                "variableName": "SFI_1",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_1"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_2",
-                "variableName": "SFI_2",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_2"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_3",
-                "variableName": "SFI_3",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_3"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_4",
-                "variableName": "SFI_4",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_4"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_5",
-                "variableName": "SFI_5",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_5"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_6",
-                "variableName": "SFI_6",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_6"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_7",
-                "variableName": "SFI_7",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_7"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_8",
-                "variableName": "SFI_8",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_8"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_9",
-                "variableName": "SFI_9",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_9"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_10",
-                "variableName": "SFI_10",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_10"
             },
             {
+                "valueRequired": true,
                 "isAbout": "items/SFI_11",
-                "variableName": "SFI_11",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "SFI_11"
             },
             {
-                "isAbout": "items/SFI_12",
-                "variableName": "SFI_12",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "items/SFI_12",
+                "isVis": true,
+                "variableName": "SFI_12"
             }
         ],
         "order": [
@@ -102,5 +100,11 @@
             "items/SFI_12"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Use the 10-point scale below to answer the questions:"
+    },
+    "prefLabel": {
+        "en": "SFI schema"
     }
 }

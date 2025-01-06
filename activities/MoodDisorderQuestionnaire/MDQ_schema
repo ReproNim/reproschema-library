@@ -1,97 +1,96 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "MDQ_schema",
-    "prefLabel": "Bipolar",
-    "description": "MDQ assessment schema",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
-    "preamble": {
-        "en": "Please answer each question as best you can.",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "MDQ_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/"
     },
+    "description": {
+        "en": "MDQ assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
                 "isAbout": "items/mdq_1",
-                "variableName": "mdq_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_1"
             },
             {
                 "isAbout": "items/mdq_2",
-                "variableName": "mdq_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_2"
             },
             {
                 "isAbout": "items/mdq_3",
-                "variableName": "mdq_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_3"
             },
             {
                 "isAbout": "items/mdq_4",
-                "variableName": "mdq_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_4"
             },
             {
                 "isAbout": "items/mdq_5",
-                "variableName": "mdq_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_5"
             },
             {
                 "isAbout": "items/mdq_6",
-                "variableName": "mdq_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_6"
             },
             {
                 "isAbout": "items/mdq_7",
-                "variableName": "mdq_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_7"
             },
             {
                 "isAbout": "items/mdq_8",
-                "variableName": "mdq_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_8"
             },
             {
                 "isAbout": "items/mdq_9",
-                "variableName": "mdq_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_9"
             },
             {
                 "isAbout": "items/mdq_10",
-                "variableName": "mdq_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_10"
             },
             {
                 "isAbout": "items/mdq_11",
-                "variableName": "mdq_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_11"
             },
             {
                 "isAbout": "items/mdq_12",
-                "variableName": "mdq_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_12"
             },
             {
                 "isAbout": "items/mdq_13",
-                "variableName": "mdq_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_13"
             },
             {
                 "isAbout": "items/mdq_14",
-                "variableName": "mdq_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_14"
             },
             {
                 "isAbout": "items/mdq_15",
-                "variableName": "mdq_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_15"
             },
             {
                 "isAbout": "items/mdq_16",
-                "variableName": "mdq_16",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mdq_16"
             }
         ],
         "order": [
@@ -113,5 +112,12 @@
             "items/mdq_16"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Please answer each question as best you can.",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "Bipolar"
     }
 }

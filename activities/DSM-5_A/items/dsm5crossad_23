@@ -1,14 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "dsm5crossad_23",
-    "prefLabel": "DSM5 Crosscutting Adult Question 23",
-    "description": "Q23 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm5crossad_23",
+    "category": "Item",
+    "description": {
+        "en": "Q23 of the DSM-5 Level 1 Cross-Cutting Symptom Measure - Adult Report"
+    },
     "question": {
         "en": "Using any of the following medicines ON YOUR OWN, that is, without a doctor's prescription, in greater amounts or longer than prescribed [e.g., painkillers (like Vicodin), stimulants (like Ritalin or Adderall), sedatives or tranquilizers (like sleeping pills or Valium), or drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)]?"
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "DSM5 Crosscutting Adult Question 23"
+    },
+    "schemaVersion": "1.0.0"
 }

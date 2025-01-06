@@ -1,109 +1,107 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "CIT_schema",
-    "prefLabel": {
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "CIT_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/"
+    },
+    "description": {
         "en": "CIT schema"
     },
-    "description": "CIT schema",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
-    "preamble": {
-        "en": "Please indicate your agreement or disagreement with each of the following statements."
-    },
     "ui": {
         "addProperties": [
             {
                 "isAbout": "CITSupport_schema",
-                "variableName": "CITSupport_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITSupport_schema"
             },
             {
                 "isAbout": "CITCommunity_schema",
-                "variableName": "CITCommunity_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITCommunity_schema"
             },
             {
                 "isAbout": "CITTrust_schema",
-                "variableName": "CITTrust_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITTrust_schema"
             },
             {
                 "isAbout": "CITRespect_schema",
-                "variableName": "CITRespect_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITRespect_schema"
             },
             {
                 "isAbout": "CITLoneliness_schema",
-                "variableName": "CITLoneliness_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITLoneliness_schema"
             },
             {
                 "isAbout": "CITBelonging_schema",
-                "variableName": "CITBelonging_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITBelonging_schema"
             },
             {
                 "isAbout": "CITEngagement_schema",
-                "variableName": "CITEngagement_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITEngagement_schema"
             },
             {
                 "isAbout": "CITSkills_schema",
-                "variableName": "CITSkills_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITSkills_schema"
             },
             {
                 "isAbout": "CITLearning_schema",
-                "variableName": "CITLearning_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITLearning_schema"
             },
             {
                 "isAbout": "CITAccomplishment_schema",
-                "variableName": "CITAccomplishment_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITAccomplishment_schema"
             },
             {
                 "isAbout": "CITSelfefficacy_schema",
-                "variableName": "CITSelfefficacy_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITSelfefficacy_schema"
             },
             {
                 "isAbout": "CITSelfworth_schema",
-                "variableName": "CITSelfworth_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITSelfworth_schema"
             },
             {
                 "isAbout": "CITControl_schema",
-                "variableName": "CITControl_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITControl_schema"
             },
             {
                 "isAbout": "CITMeaning_schema",
-                "variableName": "CITMeaning_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITMeaning_schema"
             },
             {
                 "isAbout": "CITOptimism_schema",
-                "variableName": "CITOptimism_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITOptimism_schema"
             },
             {
                 "isAbout": "CITSatisfaction_schema",
-                "variableName": "CITSatisfaction_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITSatisfaction_schema"
             },
             {
                 "isAbout": "CITPositive_schema",
-                "variableName": "CITPositive_schema",
-                "isVis": true
+                "isVis": true,
+                "variableName": "CITPositive_schema"
             },
             {
-                "isAbout": "CITNegative_schema",
-                "variableName": "CITNegative_schema",
                 "valueRequired": true,
-                "isVis": true
+                "isAbout": "CITNegative_schema",
+                "isVis": true,
+                "variableName": "CITNegative_schema"
             }
         ],
         "order": [
@@ -127,5 +125,11 @@
             "CITNegative_schema"
         ],
         "shuffle": false
+    },
+    "preamble": {
+        "en": "Please indicate your agreement or disagreement with each of the following statements."
+    },
+    "prefLabel": {
+        "en": "CIT schema"
     }
 }

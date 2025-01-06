@@ -1,21 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "mdq_1",
-    "prefLabel": "MDQ-1",
-    "description": "Q1 of the MDQ Assessment",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "preamble": {
-        "en": "Has there ever been a period of time when you were not your usual self and…",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "mdq_1",
+    "category": "Item",
+    "description": {
+        "en": "Q1 of the MDQ Assessment"
     },
     "question": {
         "en": "you felt so good or so hyper that other people thought you were not your normal self or you were so hyper that you got into trouble?",
         "es": ""
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../mdq_valueConstraints"
+    "preamble": {
+        "en": "Has there ever been a period of time when you were not your usual self and\u2026",
+        "es": ""
+    },
+    "responseOptions": "../mdq_valueConstraints",
+    "prefLabel": {
+        "en": "MDQ-1"
+    }
 }

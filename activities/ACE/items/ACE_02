@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ACE_02",
-    "prefLabel": "ACE Q2",
-    "description": "Q2 of the Adverse Childhood Experiences Scale",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ACE_02",
+    "category": "Item",
+    "description": {
+        "en": "Q2 of the Adverse Childhood Experiences Scale"
+    },
     "question": {
         "en": "Did a parent or other adult in the household often or very often push, grab, slap, or throw something at you? or Ever hit you so hard that you had marks or were injured?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "ACE Q2"
+    }
 }

@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_stcontignvols",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_stcontignvols",
-    "altLabel": "rsfmri_cor_network.gordon_subthresh.contig.nvols rsfmri_cor_networkgordon_subthreshcontignvols",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_stcontignvols",
+    "category": "Item",
+    "question": {
+        "en": "Number of frames with FD < 0.2 and at least 5 contiguous, supra-threshold frames"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Number of frames with FD < 0.2 and at least 5 contiguous, supra-threshold frames",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_subthresh.contig.nvols rsfmri_cor_networkgordon_subthreshcontignvols"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_stcontignvols"
     }
 }

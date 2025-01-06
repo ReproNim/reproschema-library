@@ -1,28 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ca_4",
-    "prefLabel": "CAGE-AID-4",
-    "description": "Q4 of the CAGE-AID Assessment",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "ca_4",
+    "category": "Item",
+    "description": {
+        "en": "Q4 of the CAGE-AID Assessment"
+    },
+    "question": {
+        "en": "Have you ever had a drink or used drugs first thing in the morning to steady your nerves or to get rid of a hangover?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Have you ever had a drink or used drugs first thing in the morning to steady your nerves or to get rid of a hangover?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "name": "Yes",
+                "name": {
+                    "en": "Yes"
+                },
                 "value": 1
             },
             {
-                "name": "No",
+                "name": {
+                    "en": "No"
+                },
                 "value": 0
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
+    },
+    "prefLabel": {
+        "en": "CAGE-AID-4"
     }
 }

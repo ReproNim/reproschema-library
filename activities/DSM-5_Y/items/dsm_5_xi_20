@@ -1,18 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "dsm_5_xi_20",
+    "category": "Item",
+    "question": {
+        "en": "Had an alcoholic beverage (beer, wine, liquor, etc.)?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "@id": "dsm_5_xi_20",
-    "prefLabel": "dsm_5_xi_20",
-    "responseOptions": "../valueConstraints20to25",
     "ui": {
         "inputType": "radio"
     },
     "preamble": {
-        "en": "In the past TWO (2) WEEKS, have you…"
+        "en": "In the past TWO (2) WEEKS, have you\u2026"
     },
-    "question": {
-        "en": "Had an alcoholic beverage (beer, wine, liquor, etc.)?"
+    "responseOptions": "../valueConstraints20to25",
+    "prefLabel": {
+        "en": "dsm_5_xi_20"
     }
 }

@@ -1,46 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "irma_hurtec_b7_4",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "irma_hurtec_b7_4",
-        "es": "irma_hurtec_b7_4_es"
-    },
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "irma_hurtec_b7_4",
+    "category": "Item",
     "question": {
         "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
-        "es": "¿CAmo obtuvo noticias de informaciAn sobre el huracán? Marque todo lo que corresponda. (4, From family and friends De familia y amigos)"
+        "es": "\u00bfCAmo obtuvo noticias de informaciAn sobre el hurac\u00e1n? Marque todo lo que corresponda. (4, From family and friends De familia y amigos)"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "NDA",
+            "value": "0 = No; 1 = Yes"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 1,
+        "minValue": 0,
         "choices": [
             {
-                "value": 1,
                 "name": {
                     "en": "Yes ",
                     "es": "Si"
-                }
+                },
+                "value": 1
             },
             {
-                "value": 0,
                 "name": {
                     "en": "No",
                     "es": "No"
-                }
+                },
+                "value": 0
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "NDA",
-            "column": "notes",
-            "value": "0 = No; 1 = Yes"
-        }
-    ]
+    "prefLabel": {
+        "en": "irma_hurtec_b7_4",
+        "es": "irma_hurtec_b7_4_es"
+    }
 }

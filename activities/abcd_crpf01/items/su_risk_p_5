@@ -1,68 +1,72 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "su_risk_p_5",
-    "@type": "reproschema:Field",
-    "prefLabel": {
-        "en": "su_risk_p_5",
-        "es": "su_risk_p_5_es"
-    },
-    "altLabel": "su_crpf_avail_5_p",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "su_risk_p_5",
+    "category": "Item",
     "question": {
         "en": "If your child wanted to get a drug like cocaine, LSD, or amphetamines, how easy would it be for her/him to get some?",
-        "es": "Si su niño(a) quisiera conseguir alguna droga, como cocaína, LSD o anfetaminas, ¿qué tan fácil le sería?"
+        "es": "Si su ni\u00f1o(a) quisiera conseguir alguna droga, como coca\u00edna, LSD o anfetaminas, \u00bfqu\u00e9 tan f\u00e1cil le ser\u00eda?"
     },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = Very hard Muy dif\u00edcil; 1 = Sort of hard Algo dif\u00edcil; 2 = Sort of easy Algo f\u00e1cil; 3 = Very easy Muy f\u00e1cil; 4 = Don't know No lo s\u00e9; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar qu\u00c3\u00a9 tan f\u00c3\u00a1cil es conseguir ciertas sustancias."
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 4,
+        "minValue": 0,
         "choices": [
             {
-                "value": 0,
                 "name": {
                     "en": "Very hard",
-                    "es": "Muy difícil"
-                }
+                    "es": "Muy dif\u00edcil"
+                },
+                "value": 0
             },
             {
-                "value": 1,
                 "name": {
                     "en": "Sort of hard",
-                    "es": "Algo difícil"
-                }
+                    "es": "Algo dif\u00edcil"
+                },
+                "value": 1
             },
             {
-                "value": 2,
                 "name": {
                     "en": "Sort of easy",
-                    "es": "Algo fácil"
-                }
+                    "es": "Algo f\u00e1cil"
+                },
+                "value": 2
             },
             {
-                "value": 3,
                 "name": {
                     "en": "Very easy",
-                    "es": "Muy fácil"
-                }
+                    "es": "Muy f\u00e1cil"
+                },
+                "value": 3
             },
             {
-                "value": 4,
                 "name": {
                     "en": "Don't Know",
-                    "es": "No  lo sé"
-                }
+                    "es": "No  lo s\u00e9"
+                },
+                "value": 4
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = Very hard Muy difícil; 1 = Sort of hard Algo difícil; 2 = Sort of easy Algo fácil; 3 = Very easy Muy fácil; 4 = Don't know No lo sé; Now I am going to ask you about how easy it is to get certain substances. /Ahora le voy a preguntar quÃ© tan fÃ¡cil es conseguir ciertas sustancias."
-        }
-    ]
+    "altLabel": {
+        "en": "su_crpf_avail_5_p"
+    },
+    "prefLabel": {
+        "en": "su_risk_p_5",
+        "es": "su_risk_p_5_es"
+    }
 }

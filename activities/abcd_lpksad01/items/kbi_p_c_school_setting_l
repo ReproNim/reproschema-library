@@ -1,63 +1,89 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "kbi_p_c_school_setting_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "kbi_p_c_school_setting_l",
-    "altLabel": "kbi_c_school_setting_p_l ksads_back_c_school_setting_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "kbi_p_c_school_setting_l",
+    "category": "Item",
+    "question": {
+        "en": "Click the response below that describes your child's current school setting: Seleccione la respuesta que mejor describa el entorno escolar actual de su ni\u00f1o(a):"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Click the response below that describes your child's current school setting: Seleccione la respuesta que mejor describa el entorno escolar actual de su ni\u00f1o(a):",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "1 = Not in School No asiste a la escuela; 2 = Regular Public School Escuela p\u00fablica com\u00fan; 3 = Regular Private School Escuela privada com\u00fan; 4 = Vocational-Technical School Escuela vocacional o t\u00e9cnica; 9 = Charter School Escuela aut\u00f3noma subsidiada por el gobierno (\"charter school\"); 5 = Cyber School Escuela virtual; 6 = Home School Educaci\u00f3n en casa; 7 = Specialized School for Youth with Emotional/Behavioral Problems Escuela especializada para j\u00f3venes con problemas emocionales o de conducta; 8 = Other Otra"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 1,
         "maxValue": 8,
+        "minValue": 1,
         "choices": [
             {
-                "name": "Not in School No asiste a la escuela",
+                "name": {
+                    "en": "Not in School No asiste a la escuela"
+                },
                 "value": 1
             },
             {
-                "name": "Regular Public School Escuela p\u00fablica com\u00fan",
+                "name": {
+                    "en": "Regular Public School Escuela p\u00fablica com\u00fan"
+                },
                 "value": 2
             },
             {
-                "name": "Regular Private School Escuela privada com\u00fan",
+                "name": {
+                    "en": "Regular Private School Escuela privada com\u00fan"
+                },
                 "value": 3
             },
             {
-                "name": "Vocational-Technical School Escuela vocacional o t\u00e9cnica",
+                "name": {
+                    "en": "Vocational-Technical School Escuela vocacional o t\u00e9cnica"
+                },
                 "value": 4
             },
             {
-                "name": "Charter School Escuela aut\u00f3noma subsidiada por el gobierno (\"charter school\")",
+                "name": {
+                    "en": "Charter School Escuela aut\u00f3noma subsidiada por el gobierno (\"charter school\")"
+                },
                 "value": 9
             },
             {
-                "name": "Cyber School Escuela virtual",
+                "name": {
+                    "en": "Cyber School Escuela virtual"
+                },
                 "value": 5
             },
             {
-                "name": "Home School Educaci\u00f3n en casa",
+                "name": {
+                    "en": "Home School Educaci\u00f3n en casa"
+                },
                 "value": 6
             },
             {
-                "name": "Specialized School for Youth with Emotional/Behavioral Problems Escuela especializada para j\u00f3venes con problemas emocionales o de conducta",
+                "name": {
+                    "en": "Specialized School for Youth with Emotional/Behavioral Problems Escuela especializada para j\u00f3venes con problemas emocionales o de conducta"
+                },
                 "value": 7
             },
             {
-                "name": "Other Otra",
+                "name": {
+                    "en": "Other Otra"
+                },
                 "value": 8
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "1 = Not in School No asiste a la escuela; 2 = Regular Public School Escuela p\u00fablica com\u00fan; 3 = Regular Private School Escuela privada com\u00fan; 4 = Vocational-Technical School Escuela vocacional o t\u00e9cnica; 9 = Charter School Escuela aut\u00f3noma subsidiada por el gobierno (\"charter school\"); 5 = Cyber School Escuela virtual; 6 = Home School Educaci\u00f3n en casa; 7 = Specialized School for Youth with Emotional/Behavioral Problems Escuela especializada para j\u00f3venes con problemas emocionales o de conducta; 8 = Other Otra"
-        }
-    ]
+    "altLabel": {
+        "en": "kbi_c_school_setting_p_l ksads_back_c_school_setting_p_l"
+    },
+    "prefLabel": {
+        "en": "kbi_p_c_school_setting_l"
+    }
 }

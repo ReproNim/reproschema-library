@@ -1,39 +1,53 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "demo_fam_exp3_v2_l",
-    "@type": "reproschema:Field",
-    "prefLabel": "demo_fam_exp3_v2_l",
-    "altLabel": "demo_fam_exp3_p_l",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "demo_fam_exp3_v2_l",
+    "category": "Item",
+    "question": {
+        "en": "Didn't pay the full amount of the rent or mortgage because you could not afford it? \u00bfNo pagaron el monto total de la renta o hipoteca porque no les alcanzaba el dinero?"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Didn't pay the full amount of the rent or mortgage because you could not afford it? \u00bfNo pagaron el monto total de la renta o hipoteca porque no les alcanzaba el dinero?",
+    "additionalNotesObj": [
+        {
+            "column": "notes",
+            "source": "ABCD_NDA",
+            "value": "0 = No No; 1 = Yes S\u00ed;  777 = Refuse to answer Niego contestar"
+        }
+    ],
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
-        "minValue": 0,
         "maxValue": 777,
+        "minValue": 0,
         "choices": [
             {
-                "name": "No No",
+                "name": {
+                    "en": "No No"
+                },
                 "value": 0
             },
             {
-                "name": "Yes S\u00ed",
+                "name": {
+                    "en": "Yes S\u00ed"
+                },
                 "value": 1
             },
             {
-                "name": "Refuse to answer Niego contestar",
+                "name": {
+                    "en": "Refuse to answer Niego contestar"
+                },
                 "value": 777
             }
         ],
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
     },
-    "additionalNotesObj": [
-        {
-            "source": "ABCD_NDA",
-            "column": "notes",
-            "value": "0 = No No; 1 = Yes S\u00ed;  777 = Refuse to answer Niego contestar"
-        }
-    ]
+    "altLabel": {
+        "en": "demo_fam_exp3_p_l"
+    },
+    "prefLabel": {
+        "en": "demo_fam_exp3_v2_l"
+    }
 }

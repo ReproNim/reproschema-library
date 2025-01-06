@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "BFI_13",
-    "prefLabel": "BFI 13",
-    "description": "Q13 of the Big Five Inventory",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "BFI_13",
+    "category": "Item",
+    "description": {
+        "en": "Q13 of the Big Five Inventory"
+    },
     "question": {
         "en": "Is reliable, can always be counted on."
-     },
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "../valueConstraints",
+    "prefLabel": {
+        "en": "BFI 13"
+    }
 }

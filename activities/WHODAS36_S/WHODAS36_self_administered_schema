@@ -1,383 +1,316 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "WHODAS36_self_administered_schema",
-    "prefLabel": "WHODAS36_self_administered_schema",
-    "description": "WHODAS36 self-administered assessment schema",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
-    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/",
-    "preamble": {
-        "en": "This questionnaire asks about difficulties due to health/mental health conditions. Health conditions include diseases or illnesses, other health problems that may be short or long lasting, injuries, mental or emotional problems, and problems with alcohol or drugs. Think back over the past 30 days and answer these questions thinking about how much difficulty you had doing the following activities.",
-        "es": ""
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "WHODAS36_self_administered_schema",
+    "category": "Activity",
+    "citation": {
+        "en": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5542568/"
     },
-    "compute": [
-        {
-            "variableName": "WHODAS36_S_D_AVG_01",
-            "jsExpression": "(WHODAS36_S_1 + WHODAS36_S_2 + WHODAS36_S_3 + WHODAS36_S_4 + WHODAS36_S_5 + WHODAS36_S_6)/6"
-        },
-        {
-            "variableName": "WHODAS36_S_D_AVG_02",
-            "jsExpression": "(WHODAS36_S_7 + WHODAS36_S_8 + WHODAS36_S_9 + WHODAS36_S_10 + WHODAS36_S_11)/5"
-        },
-        {
-            "variableName": "WHODAS36_S_D_AVG_03",
-            "jsExpression": "(WHODAS36_S_12 + WHODAS36_S_13 + WHODAS36_S_14 + WHODAS36_S_15)/4"
-        },
-        {
-            "variableName": "WHODAS36_S_D_AVG_04",
-            "jsExpression": "(WHODAS36_S_16 + WHODAS36_S_17 + WHODAS36_S_18 + WHODAS36_S_19 + WHODAS36_S_20)/5"
-        },
-        {
-            "variableName": "WHODAS36_S_D_AVG_05",
-            "jsExpression": "(WHODAS36_S_21 + WHODAS36_S_22 + WHODAS36_S_23 + WHODAS36_S_24)/4"
-        },
-        {
-            "variableName": "WHODAS36_S_D_AVG_06",
-            "jsExpression": "(WHODAS36_S_25 + WHODAS36_S_26 + WHODAS36_S_27 + WHODAS36_S_28)/4"
-        },
-        {
-            "variableName": "WHODAS36_S_D_AVG_07",
-            "jsExpression": "(WHODAS36_S_29 + WHODAS36_S_30 + WHODAS36_S_31 + WHODAS36_S_32 + WHODAS36_S_33 + WHODAS36_S_34 + WHODAS36_S_35 + WHODAS36_S_36)/8"
-        },
-        {
-            "variableName": "WHODAS36_S_D_SUM_01",
-            "jsExpression": "WHODAS36_S_1 + WHODAS36_S_2 + WHODAS36_S_3 + WHODAS36_S_4 + WHODAS36_S_5 + WHODAS36_S_6"
-        },
-        {
-            "variableName": "WHODAS36_S_D_SUM_02",
-            "jsExpression": "WHODAS36_S_7 + WHODAS36_S_8 + WHODAS36_S_9 + WHODAS36_S_10 + WHODAS36_S_11"
-        },
-        {
-            "variableName": "WHODAS36_S_D_SUM_03",
-            "jsExpression": "WHODAS36_S_12 + WHODAS36_S_13 + WHODAS36_S_14 + WHODAS36_S_15"
-        },
-        {
-            "variableName": "WHODAS36_S_D_SUM_04",
-            "jsExpression": "WHODAS36_S_16 + WHODAS36_S_17 + WHODAS36_S_18 + WHODAS36_S_19 + WHODAS36_S_20"
-        },
-        {
-            "variableName": "WHODAS36_S_D_SUM_05",
-            "jsExpression": "WHODAS36_S_21 + WHODAS36_S_22 + WHODAS36_S_23 + WHODAS36_S_24"
-        },
-        {
-            "variableName": "WHODAS36_S_D_SUM_06",
-            "jsExpression": "WHODAS36_S_25 + WHODAS36_S_26 + WHODAS36_S_27 + WHODAS36_S_28"
-        },
-        {
-            "variableName": "WHODAS36_S_D_SUM_07",
-            "jsExpression": "WHODAS36_S_29 + WHODAS36_S_30 + WHODAS36_S_31 + WHODAS36_S_32 + WHODAS36_S_33 + WHODAS36_S_34 + WHODAS36_S_35 + WHODAS36_S_36"
-        },
-        {
-            "variableName": "WHODAS36_S_average_score",
-            "jsExpression": "WHODAS36_S_total_score/36"
-        },
-        {
-            "variableName": "WHODAS36_S_total_score",
-            "jsExpression": "WHODAS36_S_D_SUM_01 + WHODAS36_S_D_SUM_02 + WHODAS36_S_D_SUM_03 + WHODAS36_S_D_SUM_04 + WHODAS36_S_D_SUM_05 + WHODAS36_S_D_SUM_06 + WHODAS36_S_D_SUM_07"
-        }
-    ],
+    "description": {
+        "en": "WHODAS36 self-administered assessment schema"
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
-                "variableName": "WHODAS36_S_01",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_01",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_01"
             },
             {
-                "variableName": "WHODAS36_S_02",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_02",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_02"
             },
             {
-                "variableName": "WHODAS36_S_03",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_03",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_03"
             },
             {
-                "variableName": "WHODAS36_S_04",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_04",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_04"
             },
             {
-                "variableName": "WHODAS36_S_05",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_05",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_05"
             },
             {
-                "variableName": "WHODAS36_S_06",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_06",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_06"
             },
             {
-                "variableName": "WHODAS36_S_07",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_07",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_07"
             },
             {
-                "variableName": "WHODAS36_S_08",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_08",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_08"
             },
             {
-                "variableName": "WHODAS36_S_09",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_09",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_09"
             },
             {
-                "variableName": "WHODAS36_S_10",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_10",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_10"
             },
             {
-                "variableName": "WHODAS36_S_11",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_11",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_11"
             },
             {
-                "variableName": "WHODAS36_S_12",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_12",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_12"
             },
             {
-                "variableName": "WHODAS36_S_13",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_13",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_13"
             },
             {
-                "variableName": "WHODAS36_S_14",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_14",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_14"
             },
             {
-                "variableName": "WHODAS36_S_15",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_15",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_15"
             },
             {
-                "variableName": "WHODAS36_S_16",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_16",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_16"
             },
             {
-                "variableName": "WHODAS36_S_17",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_17",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_17"
             },
             {
-                "variableName": "WHODAS36_S_18",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_18",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_18"
             },
             {
-                "variableName": "WHODAS36_S_19",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_19",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_19"
             },
             {
-                "variableName": "WHODAS36_S_20",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_20",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_20"
             },
             {
-                "variableName": "WHODAS36_S_21",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_21",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_21"
             },
             {
-                "variableName": "WHODAS36_S_22",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_22",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_22"
             },
             {
-                "variableName": "WHODAS36_S_23",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_23",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_23"
             },
             {
-                "variableName": "WHODAS36_S_24",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_24",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_24"
             },
             {
-                "variableName": "WHODAS36_S_25",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_25",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_25"
             },
             {
-                "variableName": "WHODAS36_S_26",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_26",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_26"
             },
             {
-                "variableName": "WHODAS36_S_27",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_27",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_27"
             },
             {
-                "variableName": "WHODAS36_S_28",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_28",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_28"
             },
             {
-                "variableName": "WHODAS36_S_29",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_29",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_29"
             },
             {
-                "variableName": "WHODAS36_S_30",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_30",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_30"
             },
             {
-                "variableName": "WHODAS36_S_31",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_31",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_31"
             },
             {
-                "variableName": "WHODAS36_S_32",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_32",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_32"
             },
             {
-                "variableName": "WHODAS36_S_33",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_33",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_33"
             },
             {
-                "variableName": "WHODAS36_S_34",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_34",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_34"
             },
             {
-                "variableName": "WHODAS36_S_35",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_35",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_35"
             },
             {
-                "variableName": "WHODAS36_S_36",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_36",
-                "valueRequired": true,
-                "isVis": true
+                "isVis": true,
+                "variableName": "WHODAS36_S_36"
             },
             {
-                "variableName": "WHODAS36_S_D_AVG_01",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_AVG_01",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_AVG_01"
             },
             {
-                "variableName": "WHODAS36_S_D_AVG_02",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_AVG_02",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_AVG_02"
             },
             {
-                "variableName": "WHODAS36_S_D_AVG_03",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_AVG_03",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_AVG_03"
             },
             {
-                "variableName": "WHODAS36_S_D_AVG_04",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_AVG_04",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_AVG_04"
             },
             {
-                "variableName": "WHODAS36_S_D_AVG_05",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_AVG_05",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_AVG_05"
             },
             {
-                "variableName": "WHODAS36_S_D_AVG_06",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_AVG_06",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_AVG_06"
             },
             {
-                "variableName": "WHODAS36_S_D_AVG_07",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_AVG_07",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_AVG_07"
             },
             {
-                "variableName": "WHODAS36_S_D_SUM_01",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_SUM_01",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_SUM_01"
             },
             {
-                "variableName": "WHODAS36_S_D_SUM_02",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_SUM_02",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_SUM_02"
             },
             {
-                "variableName": "WHODAS36_S_D_SUM_03",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_SUM_03",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_SUM_03"
             },
             {
-                "variableName": "WHODAS36_S_D_SUM_04",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_SUM_04",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_SUM_04"
             },
             {
-                "variableName": "WHODAS36_S_D_SUM_05",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_SUM_05",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_SUM_05"
             },
             {
-                "variableName": "WHODAS36_S_D_SUM_06",
+                "valueRequired": true,
                 "isAbout": "items/WHODAS36_S_D_SUM_06",
-                "valueRequired": true,
-                "isVis": false
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_SUM_06"
             },
             {
-                "variableName": "WHODAS36_S_D_SUM_07",
-                "isAbout": "items/WHODAS36_S_D_SUM_07",
                 "valueRequired": true,
-                "isVis": false
+                "isAbout": "items/WHODAS36_S_D_SUM_07",
+                "isVis": false,
+                "variableName": "WHODAS36_S_D_SUM_07"
             }
         ],
         "order": [
@@ -419,5 +352,78 @@
             "items/WHODAS36_S_36"
         ],
         "shuffle": false
+    },
+    "compute": [
+        {
+            "jsExpression": "(WHODAS36_S_1 + WHODAS36_S_2 + WHODAS36_S_3 + WHODAS36_S_4 + WHODAS36_S_5 + WHODAS36_S_6)/6",
+            "variableName": "WHODAS36_S_D_AVG_01"
+        },
+        {
+            "jsExpression": "(WHODAS36_S_7 + WHODAS36_S_8 + WHODAS36_S_9 + WHODAS36_S_10 + WHODAS36_S_11)/5",
+            "variableName": "WHODAS36_S_D_AVG_02"
+        },
+        {
+            "jsExpression": "(WHODAS36_S_12 + WHODAS36_S_13 + WHODAS36_S_14 + WHODAS36_S_15)/4",
+            "variableName": "WHODAS36_S_D_AVG_03"
+        },
+        {
+            "jsExpression": "(WHODAS36_S_16 + WHODAS36_S_17 + WHODAS36_S_18 + WHODAS36_S_19 + WHODAS36_S_20)/5",
+            "variableName": "WHODAS36_S_D_AVG_04"
+        },
+        {
+            "jsExpression": "(WHODAS36_S_21 + WHODAS36_S_22 + WHODAS36_S_23 + WHODAS36_S_24)/4",
+            "variableName": "WHODAS36_S_D_AVG_05"
+        },
+        {
+            "jsExpression": "(WHODAS36_S_25 + WHODAS36_S_26 + WHODAS36_S_27 + WHODAS36_S_28)/4",
+            "variableName": "WHODAS36_S_D_AVG_06"
+        },
+        {
+            "jsExpression": "(WHODAS36_S_29 + WHODAS36_S_30 + WHODAS36_S_31 + WHODAS36_S_32 + WHODAS36_S_33 + WHODAS36_S_34 + WHODAS36_S_35 + WHODAS36_S_36)/8",
+            "variableName": "WHODAS36_S_D_AVG_07"
+        },
+        {
+            "jsExpression": "WHODAS36_S_1 + WHODAS36_S_2 + WHODAS36_S_3 + WHODAS36_S_4 + WHODAS36_S_5 + WHODAS36_S_6",
+            "variableName": "WHODAS36_S_D_SUM_01"
+        },
+        {
+            "jsExpression": "WHODAS36_S_7 + WHODAS36_S_8 + WHODAS36_S_9 + WHODAS36_S_10 + WHODAS36_S_11",
+            "variableName": "WHODAS36_S_D_SUM_02"
+        },
+        {
+            "jsExpression": "WHODAS36_S_12 + WHODAS36_S_13 + WHODAS36_S_14 + WHODAS36_S_15",
+            "variableName": "WHODAS36_S_D_SUM_03"
+        },
+        {
+            "jsExpression": "WHODAS36_S_16 + WHODAS36_S_17 + WHODAS36_S_18 + WHODAS36_S_19 + WHODAS36_S_20",
+            "variableName": "WHODAS36_S_D_SUM_04"
+        },
+        {
+            "jsExpression": "WHODAS36_S_21 + WHODAS36_S_22 + WHODAS36_S_23 + WHODAS36_S_24",
+            "variableName": "WHODAS36_S_D_SUM_05"
+        },
+        {
+            "jsExpression": "WHODAS36_S_25 + WHODAS36_S_26 + WHODAS36_S_27 + WHODAS36_S_28",
+            "variableName": "WHODAS36_S_D_SUM_06"
+        },
+        {
+            "jsExpression": "WHODAS36_S_29 + WHODAS36_S_30 + WHODAS36_S_31 + WHODAS36_S_32 + WHODAS36_S_33 + WHODAS36_S_34 + WHODAS36_S_35 + WHODAS36_S_36",
+            "variableName": "WHODAS36_S_D_SUM_07"
+        },
+        {
+            "jsExpression": "WHODAS36_S_total_score/36",
+            "variableName": "WHODAS36_S_average_score"
+        },
+        {
+            "jsExpression": "WHODAS36_S_D_SUM_01 + WHODAS36_S_D_SUM_02 + WHODAS36_S_D_SUM_03 + WHODAS36_S_D_SUM_04 + WHODAS36_S_D_SUM_05 + WHODAS36_S_D_SUM_06 + WHODAS36_S_D_SUM_07",
+            "variableName": "WHODAS36_S_total_score"
+        }
+    ],
+    "preamble": {
+        "en": "This questionnaire asks about difficulties due to health/mental health conditions. Health conditions include diseases or illnesses, other health problems that may be short or long lasting, injuries, mental or emotional problems, and problems with alcohol or drugs. Think back over the past 30 days and answer these questions thinking about how much difficulty you had doing the following activities.",
+        "es": ""
+    },
+    "prefLabel": {
+        "en": "WHODAS36_self_administered_schema"
     }
 }

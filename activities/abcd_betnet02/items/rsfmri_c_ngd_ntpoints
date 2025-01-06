@@ -1,16 +1,24 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@id": "rsfmri_c_ngd_ntpoints",
-    "@type": "reproschema:Field",
-    "prefLabel": "rsfmri_c_ngd_ntpoints",
-    "altLabel": "rsfmri_cor_network.gordon_ntpoints rsfmri_cor_networkgordon_ntpoints",
-    "schemaVersion": "1.0.0-rc4",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "id": "rsfmri_c_ngd_ntpoints",
+    "category": "Item",
+    "question": {
+        "en": "Number of frames after excluding outlier frames (based on standard deviation across ROIs)"
+    },
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "Number of frames after excluding outlier frames (based on standard deviation across ROIs)",
     "ui": {
         "inputType": "number"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "altLabel": {
+        "en": "rsfmri_cor_network.gordon_ntpoints rsfmri_cor_networkgordon_ntpoints"
+    },
+    "prefLabel": {
+        "en": "rsfmri_c_ngd_ntpoints"
     }
 }

@@ -10,12 +10,7 @@ You can read more about the ReproSchema [here](https://repronim.org/reproschema)
 
 ## Available Activities
 
-<details>
-<summary>Click to expand/collapse the activities list</summary>
-
-
-
-*Last updated: 2025-01-06 20:14:32 UTC*
+*Last updated: 2025-01-06 21:06:51 UTC*
 
 | *Activity* | *Description* |
 |----------|-------------|
@@ -109,17 +104,6 @@ You can read more about the ReproSchema [here](https://repronim.org/reproschema)
 | [demographics_and_background_information_v1](activities/demographics_and_background_information_v1) | demographics_and_background_information_v1 |
 | [dsm_5_parent_guardian_rated_level_1_crosscutting_s](activities/dsm_5_parent_guardian_rated_level_1_crosscutting_s) | dsm_5_parent_guardian_rated_level_1_crosscutting_s |
 | [hbn_asr](activities/hbn_asr) | HBN Adult Self Report (ASR) |
-
-
-
-</details>
-
-## How you can contribute
-
-1. Add new assessments not available in the library.
-2. Fix existing assessments, especially adding/updating licensing information
-   and references.
-3. Add multilingual support to the assessments.
 
 ## License
 All documentation is licensed CC-BY. 

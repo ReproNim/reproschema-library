@@ -68,7 +68,7 @@ def create_markdown_table(activities):
     return "\n".join(content)
 
 def update_readme(table_content):
-    """Update the README.md file with the new table inside the details tag."""
+    """Update the README.md file with the new table."""
     repo_root = get_repo_root()
     readme_path = repo_root / "README.md"
     
@@ -78,30 +78,24 @@ def update_readme(table_content):
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Define the section pattern
-    section_pattern = r'(## Available Activities\s*\n\s*<details>\s*\n\s*<summary>.*?</summary>\s*\n).*?(\s*</details>)'
+    # Define the section pattern (without details/summary tags)
+    section_pattern = r'(## Available Activities\s*\n).*?(?=\n##|\Z)'
     
     # Create the new section content
-    new_section = f"\n{table_content}\n"
+    new_section = f"\\1\n{table_content}\n"
     
     if '## Available Activities' not in content:
         # If section doesn't exist, add it at the end
         section_to_add = f"""
 ## Available Activities
-
-<details>
-<summary>Click to expand/collapse the activities list</summary>
-
 {table_content}
-
-</details>
 """
         content = content.rstrip() + "\n" + section_to_add + "\n"
     else:
         # Replace the existing section content
         content = re.sub(
             section_pattern,
-            f"\\1{new_section}\\2",
+            new_section,
             content,
             flags=re.DOTALL
         )

@@ -41,10 +41,11 @@ def get_activities_with_descriptions():
     
     # Get all directories and their descriptions
     activities = []
-    for activity_dir in sorted(activities_dir.iterdir()):
+    for idx, activity_dir in enumerate(sorted(activities_dir.iterdir()), 1):
         if activity_dir.is_dir():
             description = get_activity_description(activity_dir)
             activities.append({
+                'id': str(idx),
                 'name': activity_dir.name,
                 'description': description
             })
@@ -55,15 +56,15 @@ def create_markdown_table(activities):
     """Create a markdown table with activity links and descriptions."""
     content = [
         f"*Last updated: {datetime.now(UTC).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n",
-        "| *Activity* | *Description* |",
-        "|----------|-------------|"
+        "| *ID* | *Activity* | *Description* |",
+        "|------|-----------|---------------|"
     ]
     
     for activity in activities:
         activity_link = f"[{activity['name']}](activities/{activity['name']})"
         # Escape pipe characters in description
         safe_description = activity['description'].replace('|', '\\|')
-        content.append(f"| {activity_link} | {safe_description} |")
+        content.append(f"| {activity['id']} | {activity_link} | {safe_description} |")
     
     return "\n".join(content)
 

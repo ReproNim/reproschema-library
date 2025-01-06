@@ -68,15 +68,15 @@ def create_markdown_table(activities):
     """Create a markdown table with activity links and descriptions."""
     content = [
         f"*Last updated: {datetime.now(UTC).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n",
-        "| **ID** | **Activity**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | **Description** | **# of Items** |",
-        "|:-----|:-----------|:--------------|:------------:|"
+        "| **ID** | **Activity** | **# of Items** | **Description** |",
+        "|:-----|:-----------|:-----------:|:--------------|"
     ]
     
     for activity in activities:
         activity_link = f"[{activity['name']}](activities/{activity['name']})"
         # Escape pipe characters in description
         safe_description = activity['description'].replace('|', '\\|')
-        content.append(f"| {activity['id']} | {activity_link} | {safe_description} | {activity['item_count']} |")
+        content.append(f"| {activity['id']} | {activity_link} | {activity['item_count']} | {safe_description} |")
     
     return "\n".join(content)
 

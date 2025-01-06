@@ -31,6 +31,16 @@ def get_activity_description(activity_dir):
         print(f"Warning: Could not read schema for {activity_dir.name}: {str(e)}")
         return activity_dir.name
 
+def count_items(activity_dir):
+    """Count the number of items in the activity's items folder.
+    Returns '-' if the items folder doesn't exist."""
+    items_dir = activity_dir / "items"
+    if not items_dir.exists():
+        return "-"
+    
+    # Count all files in the items directory
+    return len([f for f in items_dir.iterdir() if f.is_file()])
+
 def get_activities_with_descriptions():
     """Get list of activities and their descriptions from the activities directory."""
     repo_root = get_repo_root()
@@ -44,10 +54,12 @@ def get_activities_with_descriptions():
     for idx, activity_dir in enumerate(sorted(activities_dir.iterdir()), 1):
         if activity_dir.is_dir():
             description = get_activity_description(activity_dir)
+            item_count = count_items(activity_dir)
             activities.append({
                 'id': str(idx),
                 'name': activity_dir.name,
-                'description': description
+                'description': description,
+                'item_count': item_count
             })
     
     return activities
@@ -56,15 +68,15 @@ def create_markdown_table(activities):
     """Create a markdown table with activity links and descriptions."""
     content = [
         f"*Last updated: {datetime.now(UTC).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n",
-        "| *ID* | *Activity* | *Description* |",
-        "|------|-----------|---------------|"
+        "| **ID** | **Activity** | **Description** | **# of Items** |",
+        "|------|-----------|---------------|--------------|"
     ]
     
     for activity in activities:
         activity_link = f"[{activity['name']}](activities/{activity['name']})"
         # Escape pipe characters in description
         safe_description = activity['description'].replace('|', '\\|')
-        content.append(f"| {activity['id']} | {activity_link} | {safe_description} |")
+        content.append(f"| {activity['id']} | {activity_link} | {safe_description} | {activity['item_count']} |")
     
     return "\n".join(content)
 
@@ -87,10 +99,8 @@ def update_readme(table_content):
     
     if '## Available Activities' not in content:
         # If section doesn't exist, add it at the end
-        section_to_add = f"""
-## Available Activities
-{table_content}
-"""
+        section_to_add = f"""## Available Activities
+{table_content}"""
         content = content.rstrip() + "\n" + section_to_add + "\n"
     else:
         # Replace the existing section content

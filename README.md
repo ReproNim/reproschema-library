@@ -14,10 +14,11 @@ You can read more about the ReproSchema [here](https://repronim.org/reproschema)
 
 
 
-*Last updated: 2025-01-06 21:38:15 UTC*
 
-| **ID** | **Activity** | **Description** | **# of Items** |
-|------|-----------|---------------|--------------|
+*Last updated: 2025-01-06 21:44:37 UTC*
+
+| **ID** | **Activity**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | **Description** | **# of Items** |
+|:-----|:-----------|:--------------|:------------:|
 | 1 | [ACE](activities/ACE) | Mobile cognitive control assessment battery containing standard tests that assess different aspects of cognitive control (attention, working memory, and goal management), modified by incorporating adaptive algorithms, immersive graphics, video tutorials, motivating feedback, and a user-friendly interface. | 11 |
 | 2 | [ARI_P](activities/ARI_P) | The Affective Reactivity Index- Self Report is a concise scale for the dimensional assessment of irritability. | 8 |
 | 3 | [ASSQ](activities/ASSQ) | The ASSQ is a 27-item checklist for completion by lay informants when assessing symptoms characteristic of Asperger's Syndrome or high-functioning autism spectrum disorders. | 28 |

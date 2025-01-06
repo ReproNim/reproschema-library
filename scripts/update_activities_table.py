@@ -68,8 +68,8 @@ def create_markdown_table(activities):
     """Create a markdown table with activity links and descriptions."""
     content = [
         f"*Last updated: {datetime.now(UTC).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n",
-        "| **ID** | **Activity** | **Description** | **# of Items** |",
-        "|------|-----------|---------------|--------------|"
+        "| **ID** | **Activity**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | **Description** | **# of Items** |",
+        "|:-----|:-----------|:--------------|:------------:|"
     ]
     
     for activity in activities:

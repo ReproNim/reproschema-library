@@ -5,3 +5,6 @@ protocols/.DS_Store
 node_modules
 local_data
 
+
+# Internal documentation
+internal/
